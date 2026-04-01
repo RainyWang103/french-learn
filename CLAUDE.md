@@ -116,24 +116,24 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
   "phase": 1,
   "topic": "string",
   "vocab": {
-    "standard": [{ "w","t","g","pr","m","n","cj","ex","sp" }],
-    "advanced":  [{ "w","t","g","pr","m","n","cj","ex","sp" }]
+    "standard": [{ "word","partOfSpeech","gender","pronunciation","meaning","notes","conjugation","examples","special" }],
+    "advanced":  [{ "word","partOfSpeech","gender","pronunciation","meaning","notes","conjugation","examples","special" }]
   },
   "listen": {
     "standard": { "dialogue": [["A","text"],["B","text"]], "questions": [...], "summary": "string" },
     "advanced":  { "dialogue": [...], "questions": [...], "summary": "string" }
   },
   "grammar": {
-    "standard": { "title","exp","exs","drills" },
-    "advanced":  { "title","exp","exs","drills" }
+    "standard": { "title","explanation","examples","drills" },
+    "advanced":  { "title","explanation","examples","drills" }
   },
   "quiz": {
-    "standard": [{ "t","q","o","c","e","tw" }],
-    "advanced":  [{ "t","q","o","c","e","tw" }]
+    "standard": [{ "type","question","options","correctAnswer","explanation","targetWord" }],
+    "advanced":  [{ "type","question","options","correctAnswer","explanation","targetWord" }]
   },
   "speak": {
-    "standard": { "sc","pr","ma","mae","tip" },
-    "advanced":  { "sc","pr","ma","mae","tip" }
+    "standard": { "scenario","keyPhrases","modelAnswer","modelAnswerExplanation","tip" },
+    "advanced":  { "scenario","keyPhrases","modelAnswer","modelAnswerExplanation","tip" }
   }
 }
 ```
@@ -141,15 +141,16 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
 ### Vocab word shape
 
 ```ts
-{ w: string, t: "verb"|"noun"|"adjective"|"adverb"|"expression",
-  g: "m"|"f"|null, pr: string, m: string, n?: string,
-  cj?: Record<string,string>, ex: [string,string][], sp: string }
+{ word: string, partOfSpeech: "verb"|"noun"|"adjective"|"adverb"|"expression",
+  gender: "m"|"f"|null, pronunciation: string, meaning: string, notes?: string,
+  conjugation?: Record<string,string>, examples: [string,string][], special: string }
 ```
 
 ### Quiz question shape
 
 ```ts
-{ t: "mc"|"f", q: string, o?: string[], c: string, e: string, tw?: string }
+{ type: "mc"|"f", question: string, options?: string[], correctAnswer: string,
+  explanation: string, targetWord?: string }
 ```
 
 -----
@@ -342,6 +343,9 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 ## Code Standards
 
 - TypeScript strict mode — no `any` types
+- **Naming**: Use full descriptive names for all interfaces, types, and variables — no single-letter
+  or cryptic abbreviations (e.g. `pronunciation` not `pr`, `correctAnswer` not `c`). The only
+  exception is loop variables in very tight iteration contexts (e.g. `i`, `j` in a `for` loop).
 - Each feature exports only via its index.ts (no deep imports)
 - Hooks own all data-fetching and state — components are pure UI
 - No inline styles in components — use CSS modules or Tailwind

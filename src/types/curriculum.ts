@@ -2,15 +2,15 @@ export type PartOfSpeech = 'verb' | 'noun' | 'adjective' | 'adverb' | 'expressio
 export type Gender = 'm' | 'f' | null
 
 export interface VocabWord {
-  w: string
-  t: PartOfSpeech
-  g: Gender
-  pr: string
-  m: string
-  n?: string
-  cj?: Record<string, string>
-  ex: [string, string][]
-  sp: string
+  word: string
+  partOfSpeech: PartOfSpeech
+  gender: Gender
+  pronunciation: string
+  meaning: string
+  notes?: string
+  conjugation?: Record<string, string>
+  examples: [string, string][]
+  special: string
 }
 
 export type DialogueLine = ['A' | 'B', string]
@@ -23,27 +23,27 @@ export interface ListenContent {
 
 export interface GrammarContent {
   title: string
-  exp: string
-  exs: [string, string][]
+  explanation: string
+  examples: [string, string][]
   drills: string[]
 }
 
 export type QuizType = 'mc' | 'f'
 
 export interface QuizQuestion {
-  t: QuizType
-  q: string
-  o?: string[]
-  c: string
-  e: string
-  tw?: string
+  type: QuizType
+  question: string
+  options?: string[]
+  correctAnswer: string
+  explanation: string
+  targetWord?: string
 }
 
 export interface SpeakContent {
-  sc: string
-  pr: string[]
-  ma: string
-  mae: string
+  scenario: string
+  keyPhrases: string[]
+  modelAnswer: string
+  modelAnswerExplanation: string
   tip?: string
 }
 
