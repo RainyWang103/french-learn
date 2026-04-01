@@ -1,4 +1,4 @@
-import type { DayContent } from '@/types/curriculum'
+import type { DayContent } from '$types/curriculum'
 
 /**
  * Compute the content file index from the current day number.
@@ -12,7 +12,10 @@ export function getDayFileIndex(currentDay: number): number | null {
   return currentDay - Math.floor(currentDay / 4)
 }
 
-export function useDayContent(_phase: number, _day: number): {
+export function useDayContent(
+  _phase: number,
+  _day: number,
+): {
   content: DayContent | null
   loading: boolean
   error: string | null

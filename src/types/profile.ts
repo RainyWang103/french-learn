@@ -32,6 +32,17 @@ export interface UserProfile {
   updated_at: string
 }
 
+export interface DifficultyRating {
+  section: 'vocab' | 'grammar' | 'listening' | 'speaking'
+  value: number
+}
+
+export interface SectionResult {
+  section: 'vocab' | 'grammar' | 'listening' | 'speaking'
+  score: number
+  total: number
+}
+
 export interface SessionLog {
   id: string
   user_id: string

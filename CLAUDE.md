@@ -120,8 +120,8 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
     "advanced":  [{ "w","t","g","pr","m","n","cj","ex","sp" }]
   },
   "listen": {
-    "standard": { "d": [["A","text"],["B","text"]], "qs": [...], "sum": "string" },
-    "advanced":  { "d": [...], "qs": [...], "sum": "string" }
+    "standard": { "dialogue": [["A","text"],["B","text"]], "questions": [...], "summary": "string" },
+    "advanced":  { "dialogue": [...], "questions": [...], "summary": "string" }
   },
   "grammar": {
     "standard": { "title","exp","exs","drills" },
@@ -348,6 +348,22 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 - All Supabase calls wrapped in try/catch with user-facing error state
 - Web Speech API calls must be triggered by user gesture (iOS Safari)
 - Service worker: cache-first for /curriculum/, network-first for Supabase
+- Formatting: Prettier (single quotes, no semis, trailing commas, 100 col). Run `npm run format`. CI enforces `npm run format:check`.
+
+### Path aliases (tsconfig.json + vite.config.ts)
+
+| Alias       | Resolves to         |
+|-------------|---------------------|
+| `$lib/*`    | `src/lib/*`         |
+| `$types/*`  | `src/types/*`       |
+| `$features/*` | `src/features/*`  |
+
+Always use these aliases — never use relative `../` imports across feature boundaries.
+
+When adding a new top-level directory under `src/`, register its alias in **both** places:
+1. `tsconfig.json` → `compilerOptions.paths`: add `"$name/*": ["src/name/*"]`
+2. `vite.config.ts` → `resolve.alias`: add `$name: resolve(__dirname, 'src/name')`
+3. `CLAUDE.md` → add a row to the Path aliases table above
 
 -----
 
@@ -362,3 +378,21 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 All Supabase calls should fail gracefully with a clear message:
 "Database not connected yet — progress will not be saved."
 This allows full UI development and testing without live credentials.
+
+-----
+
+## Test Strategy — Phase 2 additions
+
+### Framework
+Vitest + jsdom. Colocated test files (*.test.ts).
+Scripts: "test" (vitest run), "test:watch" (vitest)
+
+### CI pipeline
+.github/workflows/ci.yml — four parallel jobs on every PR:
+typecheck (tsc --noEmit), test (vitest run), build (vite build), format (prettier --check)
+Phase 3 adds: validate-curriculum job on curriculum file changes
+All jobs must pass before merging.
+
+### Files with tests this phase
+src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
+getScaffolding: all cases, boundaries, ceiling/floor

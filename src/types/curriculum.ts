@@ -13,15 +13,12 @@ export interface VocabWord {
   sp: string
 }
 
-export interface ListenDialogueLine {
-  0: 'A' | 'B'
-  1: string
-}
+export type DialogueLine = ['A' | 'B', string]
 
 export interface ListenContent {
-  d: ListenDialogueLine[]
-  qs: string[]
-  sum: string
+  dialogue: DialogueLine[]
+  questions: string[]
+  summary: string
 }
 
 export interface GrammarContent {
@@ -55,13 +52,26 @@ export interface TrackContent<T> {
   advanced: T
 }
 
+export type VocabSection = TrackContent<VocabWord[]>
+export type ListenSection = TrackContent<ListenContent>
+export type GrammarSection = TrackContent<GrammarContent>
+export type SpeakSection = TrackContent<SpeakContent>
+
 export interface DayContent {
   day: number
   phase: number
   topic: string
-  vocab: TrackContent<VocabWord[]>
-  listen: TrackContent<ListenContent>
-  grammar: TrackContent<GrammarContent>
+  vocab: VocabSection
+  listen: ListenSection
+  grammar: GrammarSection
   quiz: TrackContent<QuizQuestion[]>
-  speak: TrackContent<SpeakContent>
+  speak: SpeakSection
 }
+
+export interface RevisionDay {
+  day: number
+  phase: number
+  isRevision: true
+}
+
+export type DayData = DayContent | RevisionDay
