@@ -9,7 +9,9 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),
+      $lib: resolve(__dirname, 'src/lib'),
+      $types: resolve(__dirname, 'src/types'),
+      $features: resolve(__dirname, 'src/features'),
     },
   },
   test: {

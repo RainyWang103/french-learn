@@ -348,6 +348,17 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 - All Supabase calls wrapped in try/catch with user-facing error state
 - Web Speech API calls must be triggered by user gesture (iOS Safari)
 - Service worker: cache-first for /curriculum/, network-first for Supabase
+- Formatting: Prettier (single quotes, no semis, trailing commas, 100 col). Run `npm run format`. CI enforces `npm run format:check`.
+
+### Path aliases (tsconfig.json + vite.config.ts)
+
+| Alias       | Resolves to         |
+|-------------|---------------------|
+| `$lib/*`    | `src/lib/*`         |
+| `$types/*`  | `src/types/*`       |
+| `$features/*` | `src/features/*`  |
+
+Always use these aliases — never use relative `../` imports across feature boundaries.
 
 -----
 

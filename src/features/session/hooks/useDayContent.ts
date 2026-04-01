@@ -1,4 +1,4 @@
-import type { DayContent } from '@/types/curriculum'
+import type { DayContent } from '$types/curriculum'
 
 /**
  * Compute the content file index from the current day number.

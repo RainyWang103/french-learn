@@ -1,4 +1,4 @@
-import type { Track } from '@/types/profile'
+import type { Track } from '$types/profile'
 
 export type SectionType = 'vocab' | 'grammar' | 'listening' | 'speaking'
 
