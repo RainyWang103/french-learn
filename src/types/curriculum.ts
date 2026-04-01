@@ -16,9 +16,9 @@ export interface VocabWord {
 export type DialogueLine = ['A' | 'B', string]
 
 export interface ListenContent {
-  d: DialogueLine[]
-  qs: string[]
-  sum: string
+  dialogue: DialogueLine[]
+  questions: string[]
+  summary: string
 }
 
 export interface GrammarContent {
