@@ -39,11 +39,7 @@ export type ScaffoldingConfig =
  * Adjust difficulty after a scored section.
  * Returns value clamped to [1.0, 4.0].
  */
-export function updateDifficulty(
-  current: number,
-  score: number,
-  total: number,
-): number {
+export function updateDifficulty(current: number, score: number, total: number): number {
   if (total === 0) return current
   const ratio = score / total
   if (ratio === 1.0) return Math.max(1, current - 0.3)
@@ -73,24 +69,59 @@ function vocabScaffolding(difficulty: number, track: Track): VocabScaffolding {
     case 1:
       return { wordCount: 10, showPronunciation: false, showHints: false, quizDifficulty: 'hard' }
     case 2:
-      return { wordCount: defaultWords, showPronunciation: true, showHints: false, quizDifficulty: 'normal' }
+      return {
+        wordCount: defaultWords,
+        showPronunciation: true,
+        showHints: false,
+        quizDifficulty: 'normal',
+      }
     case 3:
-      return { wordCount: defaultWords - 1, showPronunciation: true, showHints: true, quizDifficulty: 'easy' }
+      return {
+        wordCount: defaultWords - 1,
+        showPronunciation: true,
+        showHints: true,
+        quizDifficulty: 'easy',
+      }
     case 4:
-      return { wordCount: Math.max(3, defaultWords - 2), showPronunciation: true, showHints: true, quizDifficulty: 'easy' }
+      return {
+        wordCount: Math.max(3, defaultWords - 2),
+        showPronunciation: true,
+        showHints: true,
+        quizDifficulty: 'easy',
+      }
   }
 }
 
 function grammarScaffolding(difficulty: number): GrammarScaffolding {
   switch (band(difficulty)) {
     case 1:
-      return { showExplanation: false, drillCount: 8, drillDifficulty: 'hard', showWorkedExamples: false }
+      return {
+        showExplanation: false,
+        drillCount: 8,
+        drillDifficulty: 'hard',
+        showWorkedExamples: false,
+      }
     case 2:
-      return { showExplanation: true, drillCount: 5, drillDifficulty: 'standard', showWorkedExamples: false }
+      return {
+        showExplanation: true,
+        drillCount: 5,
+        drillDifficulty: 'standard',
+        showWorkedExamples: false,
+      }
     case 3:
-      return { showExplanation: true, drillCount: 4, drillDifficulty: 'easy', showWorkedExamples: true }
+      return {
+        showExplanation: true,
+        drillCount: 4,
+        drillDifficulty: 'easy',
+        showWorkedExamples: true,
+      }
     case 4:
-      return { showExplanation: true, drillCount: 3, drillDifficulty: 'easy', showWorkedExamples: true }
+      return {
+        showExplanation: true,
+        drillCount: 3,
+        drillDifficulty: 'easy',
+        showWorkedExamples: true,
+      }
   }
 }
 
@@ -120,11 +151,7 @@ function speakingScaffolding(difficulty: number): SpeakingScaffolding {
   }
 }
 
-export function getScaffolding(
-  section: 'vocab',
-  difficulty: number,
-  track: Track,
-): VocabScaffolding
+export function getScaffolding(section: 'vocab', difficulty: number, track: Track): VocabScaffolding
 export function getScaffolding(
   section: 'grammar',
   difficulty: number,

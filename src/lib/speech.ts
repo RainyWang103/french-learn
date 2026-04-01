@@ -20,14 +20,10 @@ export function spkV(text: string, voice: 'f' | 'm', rate = 0.8): void {
   utterance.rate = rate
 
   const voices = window.speechSynthesis.getVoices()
-  const frVoices = voices.filter(v => v.lang.startsWith('fr'))
+  const frVoices = voices.filter((v) => v.lang.startsWith('fr'))
   const genderHints =
-    voice === 'f'
-      ? ['female', 'amelie', 'amélie', 'aurélie', 'aurelie']
-      : ['male', 'thomas']
-  const match = frVoices.find(v =>
-    genderHints.some(h => v.name.toLowerCase().includes(h)),
-  )
+    voice === 'f' ? ['female', 'amelie', 'amélie', 'aurélie', 'aurelie'] : ['male', 'thomas']
+  const match = frVoices.find((v) => genderHints.some((h) => v.name.toLowerCase().includes(h)))
   if (match) utterance.voice = match
 
   window.speechSynthesis.cancel()

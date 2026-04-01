@@ -13,5 +13,4 @@ export const supabase: SupabaseClient | null = DB_CONNECTED
   ? createClient(supabaseUrl!, supabaseAnonKey!)
   : null
 
-export const DB_NOT_CONNECTED_MSG =
-  'Database not connected yet — progress will not be saved.'
+export const DB_NOT_CONNECTED_MSG = 'Database not connected yet — progress will not be saved.'

@@ -7,7 +7,7 @@ import {
   type GrammarScaffolding,
   type ListeningScaffolding,
   type SpeakingScaffolding,
-} from './difficulty'
+} from '@/lib/difficulty'
 
 describe('updateDifficulty', () => {
   it('decreases by 0.3 when score is perfect', () => {
