@@ -8,9 +8,7 @@ export default function App() {
         <p>Your cozy French learning companion</p>
       </header>
       <main className={styles.main}>
-        <p className={styles.notice}>
-          Setting up… Connect Supabase credentials to get started.
-        </p>
+        <p className={styles.notice}>Setting up… Connect Supabase credentials to get started.</p>
       </main>
     </div>
   )
