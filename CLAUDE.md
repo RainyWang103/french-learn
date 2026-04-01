@@ -362,3 +362,21 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 All Supabase calls should fail gracefully with a clear message:
 "Database not connected yet — progress will not be saved."
 This allows full UI development and testing without live credentials.
+
+-----
+
+## Test Strategy — Phase 2 additions
+
+### Framework
+Vitest + jsdom. Colocated test files (*.test.ts).
+Scripts: "test" (vitest run), "test:watch" (vitest)
+
+### CI pipeline
+.github/workflows/ci.yml — three parallel jobs on every PR:
+typecheck (tsc --noEmit), test (vitest run), build (vite build)
+Phase 3 adds: validate-curriculum job on curriculum file changes
+All jobs must pass before merging.
+
+### Files with tests this phase
+src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
+getScaffolding: all cases, boundaries, ceiling/floor
