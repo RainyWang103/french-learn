@@ -363,6 +363,7 @@ Always use these aliases — never use relative `../` imports across feature bou
 When adding a new top-level directory under `src/`, register its alias in **both** places:
 1. `tsconfig.json` → `compilerOptions.paths`: add `"$name/*": ["src/name/*"]`
 2. `vite.config.ts` → `resolve.alias`: add `$name: resolve(__dirname, 'src/name')`
+3. `CLAUDE.md` → add a row to the Path aliases table above
 
 -----
 
