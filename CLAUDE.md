@@ -149,7 +149,7 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
 ### Quiz question shape
 
 ```ts
-{ type: "multiple_choice"|"fill_in_the_blank", question: string, options?: string[], correctAnswer: string,
+{ type: "multipleChoice"|"fillInTheBlank", question: string, options?: string[], correctAnswer: string,
   explanation: string, targetWord?: string }
 ```
 

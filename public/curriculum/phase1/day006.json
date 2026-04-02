@@ -304,31 +304,31 @@
       ],
       "drills": [
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je ___ la télé le soir. (regarder)",
           "correctAnswer": "regarde",
           "explanation": "Je + regarder: stem 'regard-' + ending '-e' = regarde."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Tu ___ de la musique ? (écouter)",
           "correctAnswer": "écoutes",
           "explanation": "Tu + écouter: stem 'écout-' + ending '-es' = écoutes."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Nous ___ ensemble. (manger)",
           "correctAnswer": "mangeons",
           "explanation": "Nous + manger = nous mangeons (extra 'e' to keep soft 'g')."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Ils ___ un film. (regarder)",
           "correctAnswer": "regardent",
           "explanation": "Ils + regarder: stem 'regard-' + ending '-ent' = regardent."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "Which ending is used with 'vous'?",
           "options": ["-ons", "-ez", "-ent"],
           "correctAnswer": "-ez",
@@ -355,51 +355,51 @@
       ],
       "drills": [
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Elle ___ la radio. (écouter)",
           "correctAnswer": "écoute",
           "explanation": "Il/elle + écouter: stem 'écout-' + '-e' = écoute."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je ne ___ pas la télé. (regarder)",
           "correctAnswer": "regarde",
           "explanation": "Negation wraps the verb: ne regarde pas."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Vous ___ à quelle heure ? (manger)",
           "correctAnswer": "mangez",
           "explanation": "Vous + manger: stem 'mang-' + '-ez' = mangez."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "Why is 'nous mangeons' spelled with an extra 'e'?",
           "options": ["It's irregular", "To keep the soft 'g' sound", "It's a spelling mistake", "It's an old French rule"],
           "correctAnswer": "To keep the soft 'g' sound",
           "explanation": "Without the 'e', 'g' before 'o' would be hard (like 'go'). The 'e' keeps it soft (like 'je')."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Ils ___ ensemble le soir. (manger)",
           "correctAnswer": "mangent",
           "explanation": "Ils + manger: stem 'mang-' + '-ent' = mangent."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Tu ne ___ pas de musique ? (écouter)",
           "correctAnswer": "écoutes",
           "explanation": "Tu + écouter = écoutes. Negation: ne écoutes pas → n'écoutes pas."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "Which endings are silent in -ER verbs?",
           "options": ["-ons and -ez", "-e, -es, and -ent", "All of them", "None of them"],
           "correctAnswer": "-e, -es, and -ent",
           "explanation": "The endings -e, -es, -ent are silent. Only -ons and -ez are pronounced."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Nous ___ français. (parler)",
           "correctAnswer": "parlons",
           "explanation": "Nous + parler: stem 'parl-' + '-ons' = parlons."
@@ -410,7 +410,7 @@
   "quiz": {
     "standard": [
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What does 'regarder' mean?",
         "options": ["to listen", "to eat", "to watch"],
         "correctAnswer": "to watch",
@@ -418,14 +418,14 @@
         "targetWord": "regarder"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "J'___ de la musique. (écouter)",
         "correctAnswer": "écoute",
         "explanation": "Je + écouter = j'écoute.",
         "targetWord": "écouter"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'le dîner'?",
         "options": ["lunch", "dinner", "breakfast"],
         "correctAnswer": "dinner",
@@ -433,14 +433,14 @@
         "targetWord": "le dîner"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Nous ___ ensemble. (manger)",
         "correctAnswer": "mangeons",
         "explanation": "Nous + manger = mangeons (extra 'e' for soft 'g').",
         "targetWord": "manger"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "How do you say 'She watches television'?",
         "options": ["Elle écoute la télévision.", "Elle mange la télévision.", "Elle regarde la télévision."],
         "correctAnswer": "Elle regarde la télévision.",
@@ -450,14 +450,14 @@
     ],
     "advanced": [
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Je me ___ à dix heures. (se coucher)",
         "correctAnswer": "couche",
         "explanation": "Je + se coucher = je me couche.",
         "targetWord": "se coucher"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'la musique'?",
         "options": ["the movie", "the music", "the radio", "the television"],
         "correctAnswer": "the music",
@@ -465,14 +465,14 @@
         "targetWord": "la musique"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Ils ___ un film le soir. (regarder)",
         "correctAnswer": "regardent",
         "explanation": "Ils + regarder = ils regardent.",
         "targetWord": "regarder"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "Which -ER verb ending is used with 'nous'?",
         "options": ["-ez", "-ent", "-ons", "-es"],
         "correctAnswer": "-ons",
@@ -480,14 +480,14 @@
         "targetWord": "manger"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Elle n'___ pas la radio. (écouter)",
         "correctAnswer": "écoute",
         "explanation": "Elle + écouter = écoute. Negation: n'écoute pas.",
         "targetWord": "écouter"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What does 'se coucher' mean?",
         "options": ["to wake up", "to eat dinner", "to go to bed", "to watch TV"],
         "correctAnswer": "to go to bed",

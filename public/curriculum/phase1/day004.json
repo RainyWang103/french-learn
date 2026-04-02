@@ -243,32 +243,32 @@
       ],
       "drills": [
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je ___ à la maison. (aller)",
           "correctAnswer": "vais",
           "explanation": "Je + aller = je vais."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Tu ___ au travail ? (aller)",
           "correctAnswer": "vas",
           "explanation": "Tu + aller = tu vas."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Elle ___ à l'école. (aller)",
           "correctAnswer": "va",
           "explanation": "Il/elle + aller = il/elle va."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "'Le bus' is masculine. How do you say 'to the bus'?",
           "options": ["à le bus", "au bus", "à la bus"],
           "correctAnswer": "au bus",
           "explanation": "à + le = au. Never say 'à le'."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "'La maison' is feminine. How do you say 'to the house'?",
           "options": ["au maison", "à la maison", "à l'maison"],
           "correctAnswer": "à la maison",
@@ -295,51 +295,51 @@
       ],
       "drills": [
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Nous ___ au travail. (aller)",
           "correctAnswer": "allons",
           "explanation": "Nous + aller = nous allons."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Ils ___ à l'arrêt de bus. (aller)",
           "correctAnswer": "vont",
           "explanation": "Ils + aller = ils vont."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je ___ prendre le bus. (aller — near future)",
           "correctAnswer": "vais",
           "explanation": "Aller + infinitive = near future. Je vais prendre..."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "How do you say 'She is going to leave the house'?",
           "options": ["Elle va quitter la maison.", "Elle aller quitter la maison.", "Elle quitte va la maison.", "Elle va à quitter la maison."],
           "correctAnswer": "Elle va quitter la maison.",
           "explanation": "Aller (conjugated) + infinitive: elle va + quitter."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Vous ___ fermer la porte ? (aller — near future)",
           "correctAnswer": "allez",
           "explanation": "Vous + aller = vous allez. Vous allez fermer..."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "'L'école' starts with a vowel. Which is correct?",
           "options": ["à la école", "à l'école", "au école", "aux école"],
           "correctAnswer": "à l'école",
           "explanation": "Before a vowel, use à l': à l'école."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Tu ___ marcher dans la rue. (aller — near future)",
           "correctAnswer": "vas",
           "explanation": "Tu + aller = tu vas. Tu vas marcher..."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "What does 'Nous allons prendre le bus' mean?",
           "options": ["We take the bus.", "We are going to take the bus.", "We took the bus.", "We want to take the bus."],
           "correctAnswer": "We are going to take the bus.",
@@ -351,7 +351,7 @@
   "quiz": {
     "standard": [
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'la clé'?",
         "options": ["the door", "the key", "the street"],
         "correctAnswer": "the key",
@@ -359,14 +359,14 @@
         "targetWord": "la clé"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Je ___ à la maison. (aller)",
         "correctAnswer": "vais",
         "explanation": "Je + aller = je vais.",
         "targetWord": "la maison"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "How do you say 'to the bus' (masculine)?",
         "options": ["à le bus", "au bus", "à la bus"],
         "correctAnswer": "au bus",
@@ -374,7 +374,7 @@
         "targetWord": "le bus"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'la rue'?",
         "options": ["the bus", "the house", "the street"],
         "correctAnswer": "the street",
@@ -382,7 +382,7 @@
         "targetWord": "la rue"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Je ferme la ___ . (door)",
         "correctAnswer": "porte",
         "explanation": "'La porte' means the door.",
@@ -391,7 +391,7 @@
     ],
     "advanced": [
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'le trottoir'?",
         "options": ["the road", "the sidewalk", "the bridge", "the bus stop"],
         "correctAnswer": "the sidewalk",
@@ -399,14 +399,14 @@
         "targetWord": "le trottoir"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Mon ___ dure trente minutes. (commute)",
         "correctAnswer": "trajet",
         "explanation": "'Le trajet' means the commute or journey.",
         "targetWord": "le trajet"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What does 'Je vais prendre le bus' mean?",
         "options": ["I take the bus.", "I took the bus.", "I'm going to take the bus.", "I want to take the bus."],
         "correctAnswer": "I'm going to take the bus.",
@@ -414,14 +414,14 @@
         "targetWord": "le bus"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Elle ___ à l'école. (aller)",
         "correctAnswer": "va",
         "explanation": "Elle + aller = elle va.",
         "targetWord": "la rue"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "Which is correct: 'to the school' (l'école starts with vowel)?",
         "options": ["au école", "à la école", "à l'école", "aux école"],
         "correctAnswer": "à l'école",
@@ -429,7 +429,7 @@
         "targetWord": "la clé"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Nous ___ au travail le matin. (aller)",
         "correctAnswer": "allons",
         "explanation": "Nous + aller = nous allons.",

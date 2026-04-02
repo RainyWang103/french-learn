@@ -28,7 +28,7 @@ export interface GrammarContent {
   drills: string[]
 }
 
-export type QuizType = 'multiple_choice' | 'fill_in_the_blank'
+export type QuizType = 'multipleChoice' | 'fillInTheBlank'
 
 export interface QuizQuestion {
   type: QuizType

@@ -240,33 +240,33 @@
       ],
       "drills": [
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "'Café' is masculine. Which is correct: '___ café est chaud'?",
           "options": ["Le", "La", "Les"],
           "correctAnswer": "Le",
           "explanation": "Masculine singular noun → le."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "'Confiture' is feminine. Which article: '___ confiture'?",
           "options": ["Le", "La", "Les"],
           "correctAnswer": "La",
           "explanation": "Feminine singular noun → la."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "___ pain est frais. (the)",
           "correctAnswer": "Le",
           "explanation": "'Pain' is masculine → le pain."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je voudrais ___ café. (a)",
           "correctAnswer": "un",
           "explanation": "'Café' is masculine → un café."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "How do you say 'some croissants'?",
           "options": ["un croissants", "des croissants", "les croissants"],
           "correctAnswer": "des croissants",
@@ -293,52 +293,52 @@
       ],
       "drills": [
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je mange ___ pain. (some — masc.)",
           "correctAnswer": "du",
           "explanation": "Partitive masculine = du. 'Du pain' = some bread."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Il y a ___ la confiture sur la table. (some — fem.)",
           "correctAnswer": "de",
           "explanation": "Partitive feminine = de la. 'De la confiture' = some jam."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "In negation, 'du café' becomes:",
           "options": ["du café", "de café", "le café", "pas café"],
           "correctAnswer": "de café",
           "explanation": "After negation, partitive articles become 'de': pas de café."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Je ne mange pas ___ beurre. (negation)",
           "correctAnswer": "de",
           "explanation": "In negation, 'du beurre' becomes 'de beurre'."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "Which is correct: 'I drink some water'?",
           "options": ["Je bois du eau.", "Je bois de l'eau.", "Je bois la eau.", "Je bois un eau."],
           "correctAnswer": "Je bois de l'eau.",
           "explanation": "Before a vowel, use de l': de l'eau."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Tu veux ___ jus d'orange ? (some — masc.)",
           "correctAnswer": "du",
           "explanation": "Partitive masculine = du. 'Du jus' = some juice."
         },
         {
-          "type": "multiple_choice",
+          "type": "multipleChoice",
           "question": "Which sentence uses the partitive correctly?",
           "options": ["Je mange le pain.", "Je mange du pain.", "Je mange un pain.", "Je mange des pain."],
           "correctAnswer": "Je mange du pain.",
           "explanation": "When talking about eating 'some' bread (uncountable), use the partitive 'du'."
         },
         {
-          "type": "fill_in_the_blank",
+          "type": "fillInTheBlank",
           "question": "Il n'y a plus ___ croissants. (negation, plural)",
           "correctAnswer": "de",
           "explanation": "After negation, 'des' becomes 'de': plus de croissants."
@@ -349,7 +349,7 @@
   "quiz": {
     "standard": [
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'le beurre'?",
         "options": ["the jam", "the butter", "the bread"],
         "correctAnswer": "the butter",
@@ -357,7 +357,7 @@
         "targetWord": "le beurre"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "Which article goes with 'confiture' (feminine)?",
         "options": ["le", "la", "les"],
         "correctAnswer": "la",
@@ -365,14 +365,14 @@
         "targetWord": "la confiture"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Un ___ d'orange, s'il vous plaît. (juice)",
         "correctAnswer": "jus",
         "explanation": "'Le jus' means juice. 'Jus d'orange' = orange juice.",
         "targetWord": "le jus"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "How do you say 'some bread'?",
         "options": ["le pain", "un pain", "du pain"],
         "correctAnswer": "du pain",
@@ -380,7 +380,7 @@
         "targetWord": "le pain"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "___ café est chaud. (the)",
         "correctAnswer": "Le",
         "explanation": "'Café' is masculine → le café.",
@@ -389,7 +389,7 @@
     ],
     "advanced": [
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "What is 'le bol'?",
         "options": ["the cup", "the bowl", "the plate", "the glass"],
         "correctAnswer": "the bowl",
@@ -397,14 +397,14 @@
         "targetWord": "le bol"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Un ___ au beurre, s'il vous plaît. (croissant)",
         "correctAnswer": "croissant",
         "explanation": "'Un croissant au beurre' = a butter croissant.",
         "targetWord": "le croissant"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "In negation, 'du pain' becomes:",
         "options": ["du pain", "le pain", "de pain", "un pain"],
         "correctAnswer": "de pain",
@@ -412,14 +412,14 @@
         "targetWord": "le pain"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Je mange ___ pain avec de la confiture. (some — masc.)",
         "correctAnswer": "du",
         "explanation": "Partitive masculine = du.",
         "targetWord": "le pain"
       },
       {
-        "type": "multiple_choice",
+        "type": "multipleChoice",
         "question": "Which is correct for 'some water'?",
         "options": ["du eau", "de l'eau", "la eau", "un eau"],
         "correctAnswer": "de l'eau",
@@ -427,7 +427,7 @@
         "targetWord": "le café"
       },
       {
-        "type": "fill_in_the_blank",
+        "type": "fillInTheBlank",
         "question": "Il n'y a plus ___ croissants. (negation)",
         "correctAnswer": "de",
         "explanation": "After negation, 'des' becomes 'de'.",
