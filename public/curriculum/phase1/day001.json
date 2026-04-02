@@ -28,7 +28,7 @@
       {
         "word": "le matin",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh ma-tan",
         "meaning": "the morning",
         "examples": [
@@ -40,7 +40,7 @@
       {
         "word": "le lit",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh lee",
         "meaning": "the bed",
         "examples": [
@@ -109,7 +109,7 @@
       {
         "word": "le matin",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh ma-tan",
         "meaning": "the morning",
         "examples": [
@@ -121,7 +121,7 @@
       {
         "word": "le lit",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh lee",
         "meaning": "the bed",
         "examples": [
@@ -180,7 +180,7 @@
       {
         "word": "le réveil",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh ray-vay",
         "meaning": "the alarm clock",
         "notes": "Same root as se réveiller",

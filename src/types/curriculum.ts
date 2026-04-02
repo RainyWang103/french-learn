@@ -1,5 +1,5 @@
 export type PartOfSpeech = 'verb' | 'noun' | 'adjective' | 'adverb' | 'expression'
-export type Gender = 'm' | 'f' | null
+export type Gender = 'male' | 'female' | null
 
 export interface VocabWord {
   word: string

@@ -7,7 +7,7 @@
       {
         "word": "la douche",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la doosh",
         "meaning": "the shower",
         "examples": [
@@ -40,7 +40,7 @@
       {
         "word": "les vêtements",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "lay vet-mon",
         "meaning": "the clothes",
         "notes": "Always plural. Singular: un vêtement.",
@@ -53,7 +53,7 @@
       {
         "word": "le miroir",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh meer-wahr",
         "meaning": "the mirror",
         "examples": [
@@ -80,7 +80,7 @@
       {
         "word": "la douche",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la doosh",
         "meaning": "the shower",
         "examples": [
@@ -113,7 +113,7 @@
       {
         "word": "les vêtements",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "lay vet-mon",
         "meaning": "the clothes",
         "notes": "Always plural. Singular: un vêtement.",
@@ -126,7 +126,7 @@
       {
         "word": "le miroir",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh meer-wahr",
         "meaning": "the mirror",
         "examples": [
@@ -172,7 +172,7 @@
       {
         "word": "le peigne",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh pen-yuh",
         "meaning": "the comb",
         "examples": [

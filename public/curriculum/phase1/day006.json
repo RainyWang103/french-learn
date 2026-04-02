@@ -70,7 +70,7 @@
       {
         "word": "la télévision",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la tay-lay-vee-zyon",
         "meaning": "the television",
         "notes": "Often shortened to 'la télé' in spoken French.",
@@ -83,7 +83,7 @@
       {
         "word": "le dîner",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh dee-nay",
         "meaning": "the dinner",
         "notes": "Also a verb: dîner (to have dinner).",
@@ -161,7 +161,7 @@
       {
         "word": "la télévision",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la tay-lay-vee-zyon",
         "meaning": "the television",
         "notes": "Often shortened to 'la télé' in spoken French.",
@@ -174,7 +174,7 @@
       {
         "word": "le dîner",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh dee-nay",
         "meaning": "the dinner",
         "notes": "Also a verb: dîner (to have dinner).",
@@ -208,7 +208,7 @@
       {
         "word": "la musique",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la moo-zeek",
         "meaning": "the music",
         "examples": [

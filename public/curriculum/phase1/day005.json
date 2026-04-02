@@ -7,7 +7,7 @@
       {
         "word": "la cuisine",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la kwee-zeen",
         "meaning": "the kitchen",
         "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
@@ -20,7 +20,7 @@
       {
         "word": "la chambre",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la shom-bruh",
         "meaning": "the bedroom",
         "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
@@ -33,7 +33,7 @@
       {
         "word": "la table",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la tah-bluh",
         "meaning": "the table",
         "examples": [
@@ -45,7 +45,7 @@
       {
         "word": "la chaise",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la shehz",
         "meaning": "the chair",
         "examples": [
@@ -57,7 +57,7 @@
       {
         "word": "la fenêtre",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la fuh-neh-truh",
         "meaning": "the window",
         "examples": [
@@ -71,7 +71,7 @@
       {
         "word": "la cuisine",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la kwee-zeen",
         "meaning": "the kitchen",
         "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
@@ -84,7 +84,7 @@
       {
         "word": "la chambre",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la shom-bruh",
         "meaning": "the bedroom",
         "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
@@ -97,7 +97,7 @@
       {
         "word": "la table",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la tah-bluh",
         "meaning": "the table",
         "examples": [
@@ -109,7 +109,7 @@
       {
         "word": "la chaise",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la shehz",
         "meaning": "the chair",
         "examples": [
@@ -121,7 +121,7 @@
       {
         "word": "la fenêtre",
         "partOfSpeech": "noun",
-        "gender": "f",
+        "gender": "female",
         "pronunciation": "la fuh-neh-truh",
         "meaning": "the window",
         "examples": [
@@ -133,7 +133,7 @@
       {
         "word": "le salon",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh sa-lon",
         "meaning": "the living room",
         "examples": [
@@ -145,7 +145,7 @@
       {
         "word": "le canapé",
         "partOfSpeech": "noun",
-        "gender": "m",
+        "gender": "male",
         "pronunciation": "luh ka-na-pay",
         "meaning": "the sofa / couch",
         "examples": [

@@ -8,7 +8,7 @@ const __dirname = resolve(__filename, '..')
 const CURRICULUM_DIR = resolve(__dirname, '../public/curriculum')
 
 const VALID_PARTS_OF_SPEECH = ['verb', 'noun', 'adjective', 'adverb', 'expression']
-const VALID_GENDERS = ['m', 'f', null]
+const VALID_GENDERS = ['male', 'female', null]
 const VALID_QUIZ_TYPES = ['multipleChoice', 'fillInTheBlank']
 const VALID_DIALOGUE_SPEAKERS = ['A', 'B']
 const VALID_DRILL_TYPES = ['multipleChoice', 'fillInTheBlank']

@@ -142,7 +142,7 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
 
 ```ts
 { word: string, partOfSpeech: "verb"|"noun"|"adjective"|"adverb"|"expression",
-  gender: "m"|"f"|null, pronunciation: string, meaning: string, notes?: string,
+  gender: "male"|"female"|null, pronunciation: string, meaning: string, notes?: string,
   conjugation?: Record<string,string>, examples: [string,string][], special: string }
 ```
 
