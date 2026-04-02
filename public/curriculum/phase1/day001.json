@@ -274,31 +274,31 @@
       ],
       "drills": [
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Je ___ fatigué. (être)",
           "correctAnswer": "suis",
           "explanation": "Je + être = je suis"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Tu ___ dans le lit. (être)",
           "correctAnswer": "es",
           "explanation": "Tu + être = tu es"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Elle ___ prête. (être)",
           "correctAnswer": "est",
           "explanation": "Il/elle + être = il/elle est"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Nous ___ fatigués le matin. (être)",
           "correctAnswer": "sommes",
           "explanation": "Nous + être = nous sommes"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Vous ___ dans le lit ? (être)",
           "correctAnswer": "êtes",
           "explanation": "Vous + être = vous êtes"
@@ -324,50 +324,50 @@
       ],
       "drills": [
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Ils ___ fatigués. (être)",
           "correctAnswer": "sont",
           "explanation": "Ils/elles + être = sont"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Je ne ___ pas dans le lit. (être)",
           "correctAnswer": "suis",
           "explanation": "Negation wraps the verb: ne + suis + pas"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Vous n'___ pas fatigués ? (être)",
           "correctAnswer": "êtes",
           "explanation": "Vous + être = êtes, with ne...pas around it"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Tu ___ prêt le matin ? (être)",
           "correctAnswer": "es",
           "explanation": "Tu + être = tu es"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Nous ne ___ pas dans le lit. (être)",
           "correctAnswer": "sommes",
           "explanation": "Nous + être = sommes"
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "Which is the correct negation: 'Elle ___ prête.'",
           "options": ["n'est pas", "ne pas est", "est ne pas", "pas n'est"],
           "correctAnswer": "n'est pas",
           "explanation": "Negation: ne (n' before vowel) + verb + pas"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Il n'___ pas fatigué. (être)",
           "correctAnswer": "est",
           "explanation": "Il + être = est"
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "How do you say 'We are not tired'?",
           "options": ["Nous ne sommes pas fatigués.", "Nous sommes ne pas fatigués.", "Nous pas sommes fatigués.", "Ne nous sommes pas fatigués."],
           "correctAnswer": "Nous ne sommes pas fatigués.",
@@ -379,7 +379,7 @@
   "quiz": {
     "standard": [
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What does 'se réveiller' mean?",
         "options": ["to sleep", "to wake up", "to eat"],
         "correctAnswer": "to wake up",
@@ -387,7 +387,7 @@
         "targetWord": "se réveiller"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "How do you say 'I am tired' in French?",
         "options": ["Je suis fatigué.", "J'ai fatigué.", "Je fais fatigué."],
         "correctAnswer": "Je suis fatigué.",
@@ -395,14 +395,14 @@
         "targetWord": "fatigué"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Je me ___ à sept heures. (se réveiller)",
         "correctAnswer": "réveille",
         "explanation": "Je + se réveiller = je me réveille.",
         "targetWord": "se réveiller"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is 'le lit'?",
         "options": ["the table", "the bed", "the morning"],
         "correctAnswer": "the bed",
@@ -410,7 +410,7 @@
         "targetWord": "le lit"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Il ___ huit heures. (dormir)",
         "correctAnswer": "dort",
         "explanation": "Il/elle + dormir = il dort (irregular stem change).",
@@ -419,7 +419,7 @@
     ],
     "advanced": [
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is the correct form: 'Nous ___ fatigués.'",
         "options": ["est", "sommes", "êtes", "suis"],
         "correctAnswer": "sommes",
@@ -427,14 +427,14 @@
         "targetWord": "fatigué"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Le ___ sonne à six heures. (alarm clock)",
         "correctAnswer": "réveil",
         "explanation": "'Le réveil' means the alarm clock.",
         "targetWord": "le réveil"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What does 'tôt' mean?",
         "options": ["late", "early", "always", "never"],
         "correctAnswer": "early",
@@ -442,14 +442,14 @@
         "targetWord": "tôt"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Tu te ___ à quelle heure ? (se réveiller)",
         "correctAnswer": "réveilles",
         "explanation": "Tu + se réveiller = tu te réveilles.",
         "targetWord": "se réveiller"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "Which sentence is correct?",
         "options": ["Je ne suis pas fatigué.", "Je suis ne pas fatigué.", "Je pas ne suis fatigué.", "Ne je suis pas fatigué."],
         "correctAnswer": "Je ne suis pas fatigué.",
@@ -457,7 +457,7 @@
         "targetWord": "fatigué"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Ils ___ dans le lit. (dormir)",
         "correctAnswer": "dorment",
         "explanation": "Ils/elles + dormir = ils dorment.",

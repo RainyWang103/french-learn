@@ -266,31 +266,31 @@
       ],
       "drills": [
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "J'___ besoin d'un miroir. (avoir)",
           "correctAnswer": "ai",
           "explanation": "Je + avoir = j'ai"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Tu ___ sommeil ? (avoir)",
           "correctAnswer": "as",
           "explanation": "Tu + avoir = tu as"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Elle ___ faim le matin. (avoir)",
           "correctAnswer": "a",
           "explanation": "Il/elle + avoir = il/elle a"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Nous ___ les vêtements. (avoir)",
           "correctAnswer": "avons",
           "explanation": "Nous + avoir = nous avons"
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "How do you say 'I am hungry' in French?",
           "options": ["Je suis faim.", "J'ai faim.", "Je fais faim."],
           "correctAnswer": "J'ai faim.",
@@ -317,51 +317,51 @@
       ],
       "drills": [
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Ils ___ sommeil. (avoir)",
           "correctAnswer": "ont",
           "explanation": "Ils/elles + avoir = ils ont"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Vous ___ besoin d'un peigne ? (avoir)",
           "correctAnswer": "avez",
           "explanation": "Vous + avoir = vous avez"
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Je n'___ pas faim. (avoir)",
           "correctAnswer": "ai",
           "explanation": "Je + avoir = j'ai → negation: je n'ai pas"
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "Which expression means 'to be cold'?",
           "options": ["avoir chaud", "avoir froid", "avoir peur", "avoir tort"],
           "correctAnswer": "avoir froid",
           "explanation": "Avoir froid = to be cold (literally 'to have cold')."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Elle n'___ pas soif. (avoir)",
           "correctAnswer": "a",
           "explanation": "Elle + avoir = elle a → negation: elle n'a pas"
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "How do you say 'We need a shower'?",
           "options": ["Nous sommes besoin d'une douche.", "Nous avons besoin d'une douche.", "Nous faisons besoin d'une douche.", "Nous allons besoin d'une douche."],
           "correctAnswer": "Nous avons besoin d'une douche.",
           "explanation": "Avoir besoin de = to need. Nous avons besoin de..."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Tu n'___ pas peur ? (avoir)",
           "correctAnswer": "as",
           "explanation": "Tu + avoir = tu as → negation: tu n'as pas"
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "What does 'avoir raison' mean?",
           "options": ["to be wrong", "to be right", "to be afraid", "to be sleepy"],
           "correctAnswer": "to be right",
@@ -373,7 +373,7 @@
   "quiz": {
     "standard": [
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What does 's'habiller' mean?",
         "options": ["to shower", "to get dressed", "to sleep"],
         "correctAnswer": "to get dressed",
@@ -381,7 +381,7 @@
         "targetWord": "s'habiller"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is 'le miroir'?",
         "options": ["the comb", "the shower", "the mirror"],
         "correctAnswer": "the mirror",
@@ -389,14 +389,14 @@
         "targetWord": "le miroir"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Je m'___ vite le matin. (s'habiller)",
         "correctAnswer": "habille",
         "explanation": "Je + s'habiller = je m'habille.",
         "targetWord": "s'habiller"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "How do you say 'I need' in French?",
         "options": ["Je suis besoin", "J'ai besoin", "Je fais besoin"],
         "correctAnswer": "J'ai besoin",
@@ -404,7 +404,7 @@
         "targetWord": "prêt"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Tu ___ prêt ? (être)",
         "correctAnswer": "es",
         "explanation": "Tu + être = tu es. 'Are you ready?' = 'Tu es prêt ?'",
@@ -413,14 +413,14 @@
     ],
     "advanced": [
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Dépêche-___ ! On est en retard ! (hurry up — informal you)",
         "correctAnswer": "toi",
         "explanation": "Reflexive imperative (tu form): Dépêche-toi !",
         "targetWord": "se dépêcher"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What does 'le peigne' mean?",
         "options": ["the brush", "the comb", "the towel", "the soap"],
         "correctAnswer": "the comb",
@@ -428,14 +428,14 @@
         "targetWord": "le peigne"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Elle se ___ dans la chambre. (s'habiller)",
         "correctAnswer": "habille",
         "explanation": "Elle + s'habiller = elle s'habille (3rd person, no change in ending from je form for -er verbs).",
         "targetWord": "s'habiller"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "Which is correct: 'They are hungry'?",
         "options": ["Ils sont faim.", "Ils ont faim.", "Ils font faim.", "Ils vont faim."],
         "correctAnswer": "Ils ont faim.",
@@ -443,14 +443,14 @@
         "targetWord": "les vêtements"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Nous nous ___ le matin. (se dépêcher)",
         "correctAnswer": "dépêchons",
         "explanation": "Nous + se dépêcher = nous nous dépêchons.",
         "targetWord": "se dépêcher"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is the feminine form of 'prêt'?",
         "options": ["prête", "prète", "prettes", "prêté"],
         "correctAnswer": "prête",

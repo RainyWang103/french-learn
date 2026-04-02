@@ -240,32 +240,32 @@
       ],
       "drills": [
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Il y a un lit ___ la chambre. (in)",
           "correctAnswer": "dans",
           "explanation": "'Dans' means 'in'."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Le café est ___ la table. (on)",
           "correctAnswer": "sur",
           "explanation": "'Sur' means 'on'."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Le chat est ___ la chaise. (under)",
           "correctAnswer": "sous",
           "explanation": "'Sous' means 'under'."
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "How do you say 'in front of the door'?",
           "options": ["derrière la porte", "dans la porte", "devant la porte"],
           "correctAnswer": "devant la porte",
           "explanation": "'Devant' means 'in front of'."
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "Which means 'there are chairs in the kitchen'?",
           "options": ["Il y a des chaises dans la cuisine.", "Les chaises y a dans la cuisine.", "Il y a la cuisine dans les chaises."],
           "correctAnswer": "Il y a des chaises dans la cuisine.",
@@ -292,51 +292,51 @@
       ],
       "drills": [
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Le canapé est ___ côté de la fenêtre. (next to)",
           "correctAnswer": "à",
           "explanation": "'À côté de' means 'next to'."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "La table est ___ les deux chaises. (between)",
           "correctAnswer": "entre",
           "explanation": "'Entre' means 'between'."
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "How do you say 'There is no sofa in the bedroom'?",
           "options": ["Il y a pas canapé dans la chambre.", "Il n'y a pas de canapé dans la chambre.", "Il y a un canapé pas dans la chambre.", "Il n'y a de pas canapé dans la chambre."],
           "correctAnswer": "Il n'y a pas de canapé dans la chambre.",
           "explanation": "Negation: il n'y a pas de + noun."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "La cuisine est en ___ de la chambre. (opposite)",
           "correctAnswer": "face",
           "explanation": "'En face de' means 'opposite' or 'across from'."
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "What does 'à côté du salon' mean?",
           "options": ["inside the living room", "next to the living room", "behind the living room", "under the living room"],
           "correctAnswer": "next to the living room",
           "explanation": "'À côté de + le' = 'à côté du'. It means 'next to'."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Il n'y a pas ___ fenêtre dans cette pièce. (negation + of)",
           "correctAnswer": "de",
           "explanation": "After 'il n'y a pas', use 'de': pas de fenêtre."
         },
         {
-          "type": "f",
+          "type": "fill_in_the_blank",
           "question": "Le tableau est au-___ de la cheminée. (above)",
           "correctAnswer": "dessus",
           "explanation": "'Au-dessus de' means 'above'."
         },
         {
-          "type": "mc",
+          "type": "multiple_choice",
           "question": "How do you say 'next to the kitchen'?",
           "options": ["à côté la cuisine", "à côté de la cuisine", "à côté du cuisine", "en côté de la cuisine"],
           "correctAnswer": "à côté de la cuisine",
@@ -348,7 +348,7 @@
   "quiz": {
     "standard": [
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is 'la cuisine'?",
         "options": ["the bedroom", "the kitchen", "the living room"],
         "correctAnswer": "the kitchen",
@@ -356,14 +356,14 @@
         "targetWord": "la cuisine"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Le lit est ___ la chambre. (in)",
         "correctAnswer": "dans",
         "explanation": "'Dans' means 'in'.",
         "targetWord": "la chambre"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What does 'sur' mean?",
         "options": ["under", "in", "on"],
         "correctAnswer": "on",
@@ -371,7 +371,7 @@
         "targetWord": "la table"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is 'la fenêtre'?",
         "options": ["the door", "the wall", "the window"],
         "correctAnswer": "the window",
@@ -379,7 +379,7 @@
         "targetWord": "la fenêtre"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Il y a une ___ devant la table. (chair)",
         "correctAnswer": "chaise",
         "explanation": "'La chaise' means the chair.",
@@ -388,7 +388,7 @@
     ],
     "advanced": [
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What is 'le salon'?",
         "options": ["the bedroom", "the bathroom", "the living room", "the dining room"],
         "correctAnswer": "the living room",
@@ -396,14 +396,14 @@
         "targetWord": "le salon"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Le ___ est dans le salon. (sofa)",
         "correctAnswer": "canapé",
         "explanation": "'Le canapé' means the sofa.",
         "targetWord": "le canapé"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "What does 'à côté de' mean?",
         "options": ["in front of", "behind", "next to", "inside"],
         "correctAnswer": "next to",
@@ -411,14 +411,14 @@
         "targetWord": "le salon"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "Il n'y a pas ___ canapé dans la chambre. (negation)",
         "correctAnswer": "de",
         "explanation": "After 'il n'y a pas', use 'de'.",
         "targetWord": "le canapé"
       },
       {
-        "type": "mc",
+        "type": "multiple_choice",
         "question": "Where is the table in the dialogue?",
         "options": ["In the bedroom", "In front of the window", "Behind the door", "In the living room"],
         "correctAnswer": "In front of the window",
@@ -426,7 +426,7 @@
         "targetWord": "la table"
       },
       {
-        "type": "f",
+        "type": "fill_in_the_blank",
         "question": "La chambre est ___ face du salon. (opposite)",
         "correctAnswer": "en",
         "explanation": "'En face de' means 'opposite' or 'across from'.",
