@@ -142,14 +142,14 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
 
 ```ts
 { word: string, partOfSpeech: "verb"|"noun"|"adjective"|"adverb"|"expression",
-  gender: "m"|"f"|null, pronunciation: string, meaning: string, notes?: string,
+  gender: "male"|"female"|null, pronunciation: string, meaning: string, notes?: string,
   conjugation?: Record<string,string>, examples: [string,string][], special: string }
 ```
 
 ### Quiz question shape
 
 ```ts
-{ type: "mc"|"f", question: string, options?: string[], correctAnswer: string,
+{ type: "multipleChoice"|"fillInTheBlank", question: string, options?: string[], correctAnswer: string,
   explanation: string, targetWord?: string }
 ```
 
@@ -400,3 +400,6 @@ All jobs must pass before merging.
 ### Files with tests this phase
 src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
 getScaffolding: all cases, boundaries, ceiling/floor
+src/curriculum.test.ts — auto-discovers all phase/dayNNN.json files,
+validates JSON parsing, schema structure, enum values, non-empty fields,
+track content counts, and correctAnswer-in-options integrity

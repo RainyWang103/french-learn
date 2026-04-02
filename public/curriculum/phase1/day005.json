@@ -1,0 +1,453 @@
+{
+  "day": 6,
+  "phase": 1,
+  "topic": "At Home — Rooms & Furniture",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la cuisine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la kwee-zeen",
+        "meaning": "the kitchen",
+        "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
+        "examples": [
+          ["Je suis dans la cuisine.", "I am in the kitchen."],
+          ["La cuisine est petite.", "The kitchen is small."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la chambre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la shom-bruh",
+        "meaning": "the bedroom",
+        "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
+        "examples": [
+          ["Ma chambre est grande.", "My bedroom is big."],
+          ["Le lit est dans la chambre.", "The bed is in the bedroom."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la table",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tah-bluh",
+        "meaning": "the table",
+        "examples": [
+          ["Le café est sur la table.", "The coffee is on the table."],
+          ["La table est dans la cuisine.", "The table is in the kitchen."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la chaise",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la shehz",
+        "meaning": "the chair",
+        "examples": [
+          ["Les vêtements sont sur la chaise.", "The clothes are on the chair."],
+          ["La chaise est devant la table.", "The chair is in front of the table."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la fenêtre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la fuh-neh-truh",
+        "meaning": "the window",
+        "examples": [
+          ["La fenêtre est ouverte.", "The window is open."],
+          ["Je regarde par la fenêtre.", "I look through the window."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la cuisine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la kwee-zeen",
+        "meaning": "the kitchen",
+        "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
+        "examples": [
+          ["Je suis dans la cuisine.", "I am in the kitchen."],
+          ["La cuisine est petite.", "The kitchen is small."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la chambre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la shom-bruh",
+        "meaning": "the bedroom",
+        "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
+        "examples": [
+          ["Ma chambre est grande.", "My bedroom is big."],
+          ["Le lit est dans la chambre.", "The bed is in the bedroom."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la table",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tah-bluh",
+        "meaning": "the table",
+        "examples": [
+          ["Le café est sur la table.", "The coffee is on the table."],
+          ["La table est dans la cuisine.", "The table is in the kitchen."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la chaise",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la shehz",
+        "meaning": "the chair",
+        "examples": [
+          ["Les vêtements sont sur la chaise.", "The clothes are on the chair."],
+          ["La chaise est devant la table.", "The chair is in front of the table."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la fenêtre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la fuh-neh-truh",
+        "meaning": "the window",
+        "examples": [
+          ["La fenêtre est ouverte.", "The window is open."],
+          ["Je regarde par la fenêtre.", "I look through the window."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le salon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sa-lon",
+        "meaning": "the living room",
+        "examples": [
+          ["Le salon est confortable.", "The living room is comfortable."],
+          ["Nous sommes dans le salon.", "We are in the living room."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le canapé",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ka-na-pay",
+        "meaning": "the sofa / couch",
+        "examples": [
+          ["Le canapé est dans le salon.", "The sofa is in the living room."],
+          ["Je suis sur le canapé.", "I'm on the sofa."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "C'est ton appartement ? Il est joli !"],
+        ["B", "Oui ! Ici, c'est la cuisine. La table est là, avec deux chaises."],
+        ["A", "Et cette porte ?"],
+        ["B", "C'est ma chambre. Le lit est sous la fenêtre."],
+        ["A", "La fenêtre est grande. Il y a beaucoup de lumière."],
+        ["B", "Oui, j'aime bien. Et dans la cuisine, il y a une grande table."]
+      ],
+      "questions": [
+        {
+          "question": "Où est la table ?",
+          "options": ["Dans la chambre", "Dans la cuisine", "Dans le salon"],
+          "correctAnswer": "Dans la cuisine"
+        },
+        {
+          "question": "Où est le lit ?",
+          "options": ["Devant la porte", "Sur la table", "Sous la fenêtre"],
+          "correctAnswer": "Sous la fenêtre"
+        },
+        {
+          "question": "Comment est la fenêtre ?",
+          "options": ["Petite", "Grande", "Fermée"],
+          "correctAnswer": "Grande"
+        }
+      ],
+      "summary": "B gives A a tour of their apartment. The kitchen has a table with two chairs. The bedroom has a bed under a large window with lots of light."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Alors, ton nouvel appartement, il est comment ?"],
+        ["B", "Il est bien ! Le salon est grand avec un canapé et une table basse."],
+        ["A", "Et la cuisine ?"],
+        ["B", "La cuisine est petite, mais il y a une table devant la fenêtre. C'est agréable pour le petit-déjeuner."],
+        ["A", "Et la chambre ?"],
+        ["B", "La chambre est à côté du salon. Le lit est sous la fenêtre et il y a une chaise dans le coin."],
+        ["A", "Il y a beaucoup de meubles ?"],
+        ["B", "Non, pas beaucoup. Un canapé dans le salon, une table et quatre chaises dans la cuisine, et le lit dans la chambre. C'est simple mais confortable."]
+      ],
+      "questions": [
+        {
+          "question": "Où est le canapé ?",
+          "options": ["Dans la cuisine", "Dans la chambre", "Dans le salon", "Devant la porte"],
+          "correctAnswer": "Dans le salon"
+        },
+        {
+          "question": "Où est la table de la cuisine ?",
+          "options": ["Au milieu de la pièce", "Devant la fenêtre", "Sous la fenêtre", "À côté de la porte"],
+          "correctAnswer": "Devant la fenêtre"
+        },
+        {
+          "question": "Combien de chaises y a-t-il dans la cuisine ?",
+          "options": ["Deux", "Trois", "Quatre", "Six"],
+          "correctAnswer": "Quatre"
+        }
+      ],
+      "summary": "B describes their new apartment. The living room is big with a sofa. The kitchen is small but has a table in front of the window. The bedroom is next to the living room with a bed under the window. The apartment is simple but comfortable."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Il y a + Prepositions of Place (dans, sur, sous, devant, derrière)",
+      "explanation": "'Il y a' means 'there is' or 'there are'. It works for both singular and plural. Use it with prepositions of place to describe where things are: dans (in), sur (on), sous (under), devant (in front of), derrière (behind). Example: Il y a un chat sur la table. (There is a cat on the table.)",
+      "examples": [
+        {
+          "french": "Il y a un lit dans la chambre.",
+          "english": "There is a bed in the bedroom."
+        },
+        {
+          "french": "Le café est sur la table.",
+          "english": "The coffee is on the table."
+        },
+        {
+          "french": "La chaise est devant la fenêtre.",
+          "english": "The chair is in front of the window."
+        },
+        {
+          "french": "Le chat est sous la table.",
+          "english": "The cat is under the table."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Il y a un lit ___ la chambre. (in)",
+          "correctAnswer": "dans",
+          "explanation": "'Dans' means 'in'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Le café est ___ la table. (on)",
+          "correctAnswer": "sur",
+          "explanation": "'Sur' means 'on'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Le chat est ___ la chaise. (under)",
+          "correctAnswer": "sous",
+          "explanation": "'Sous' means 'under'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'in front of the door'?",
+          "options": ["derrière la porte", "dans la porte", "devant la porte"],
+          "correctAnswer": "devant la porte",
+          "explanation": "'Devant' means 'in front of'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which means 'there are chairs in the kitchen'?",
+          "options": ["Il y a des chaises dans la cuisine.", "Les chaises y a dans la cuisine.", "Il y a la cuisine dans les chaises."],
+          "correctAnswer": "Il y a des chaises dans la cuisine.",
+          "explanation": "'Il y a' + noun + preposition + place."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Il y a / Il n'y a pas + Extended Prepositions (à côté de, entre, en face de)",
+      "explanation": "'Il y a' (there is/are) negates to 'il n'y a pas de' (there is/are no). Beyond basic prepositions (dans, sur, sous, devant, derrière), use: à côté de (next to), entre (between), en face de (opposite/across from), au-dessus de (above), au-dessous de (below). Note: 'de + le' = 'du', 'de + les' = 'des'.",
+      "examples": [
+        {
+          "french": "Le canapé est à côté de la fenêtre.",
+          "english": "The sofa is next to the window."
+        },
+        {
+          "french": "La table est entre les deux chaises.",
+          "english": "The table is between the two chairs."
+        },
+        {
+          "french": "Il n'y a pas de table dans le salon.",
+          "english": "There is no table in the living room."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Le canapé est ___ côté de la fenêtre. (next to)",
+          "correctAnswer": "à",
+          "explanation": "'À côté de' means 'next to'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "La table est ___ les deux chaises. (between)",
+          "correctAnswer": "entre",
+          "explanation": "'Entre' means 'between'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'There is no sofa in the bedroom'?",
+          "options": ["Il y a pas canapé dans la chambre.", "Il n'y a pas de canapé dans la chambre.", "Il y a un canapé pas dans la chambre.", "Il n'y a de pas canapé dans la chambre."],
+          "correctAnswer": "Il n'y a pas de canapé dans la chambre.",
+          "explanation": "Negation: il n'y a pas de + noun."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "La cuisine est en ___ de la chambre. (opposite)",
+          "correctAnswer": "face",
+          "explanation": "'En face de' means 'opposite' or 'across from'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'à côté du salon' mean?",
+          "options": ["inside the living room", "next to the living room", "behind the living room", "under the living room"],
+          "correctAnswer": "next to the living room",
+          "explanation": "'À côté de + le' = 'à côté du'. It means 'next to'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il n'y a pas ___ fenêtre dans cette pièce. (negation + of)",
+          "correctAnswer": "de",
+          "explanation": "After 'il n'y a pas', use 'de': pas de fenêtre."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Le tableau est au-___ de la cheminée. (above)",
+          "correctAnswer": "dessus",
+          "explanation": "'Au-dessus de' means 'above'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'next to the kitchen'?",
+          "options": ["à côté la cuisine", "à côté de la cuisine", "à côté du cuisine", "en côté de la cuisine"],
+          "correctAnswer": "à côté de la cuisine",
+          "explanation": "'La cuisine' is feminine → à côté de la cuisine."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la cuisine'?",
+        "options": ["the bedroom", "the kitchen", "the living room"],
+        "correctAnswer": "the kitchen",
+        "explanation": "'La cuisine' means 'the kitchen'.",
+        "targetWord": "la cuisine"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le lit est ___ la chambre. (in)",
+        "correctAnswer": "dans",
+        "explanation": "'Dans' means 'in'.",
+        "targetWord": "la chambre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'sur' mean?",
+        "options": ["under", "in", "on"],
+        "correctAnswer": "on",
+        "explanation": "'Sur' means 'on'. Le café est sur la table.",
+        "targetWord": "la table"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la fenêtre'?",
+        "options": ["the door", "the wall", "the window"],
+        "correctAnswer": "the window",
+        "explanation": "'La fenêtre' means 'the window'.",
+        "targetWord": "la fenêtre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il y a une ___ devant la table. (chair)",
+        "correctAnswer": "chaise",
+        "explanation": "'La chaise' means the chair.",
+        "targetWord": "la chaise"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le salon'?",
+        "options": ["the bedroom", "the bathroom", "the living room", "the dining room"],
+        "correctAnswer": "the living room",
+        "explanation": "'Le salon' means 'the living room'.",
+        "targetWord": "le salon"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le ___ est dans le salon. (sofa)",
+        "correctAnswer": "canapé",
+        "explanation": "'Le canapé' means the sofa.",
+        "targetWord": "le canapé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'à côté de' mean?",
+        "options": ["in front of", "behind", "next to", "inside"],
+        "correctAnswer": "next to",
+        "explanation": "'À côté de' means 'next to'.",
+        "targetWord": "le salon"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il n'y a pas ___ canapé dans la chambre. (negation)",
+        "correctAnswer": "de",
+        "explanation": "After 'il n'y a pas', use 'de'.",
+        "targetWord": "le canapé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Where is the table in the dialogue?",
+        "options": ["In the bedroom", "In front of the window", "Behind the door", "In the living room"],
+        "correctAnswer": "In front of the window",
+        "explanation": "In the advanced dialogue, the kitchen table is devant la fenêtre.",
+        "targetWord": "la table"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "La chambre est ___ face du salon. (opposite)",
+        "correctAnswer": "en",
+        "explanation": "'En face de' means 'opposite' or 'across from'.",
+        "targetWord": "la chambre"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A friend is visiting your home. Describe the room you're in — what furniture is in it and where things are.",
+      "keyPhrases": ["Il y a...", "... est sur/dans/sous/devant...", "C'est..."],
+      "modelAnswer": "C'est ma cuisine. Il y a une table et deux chaises. Le café est sur la table. La fenêtre est grande. Il y a un miroir sur le mur.",
+      "modelAnswerExplanation": "Uses 'il y a' to introduce items, prepositions (sur) to place them, and adjectives (grande) to describe.",
+      "tip": "Start with 'Il y a...' and then describe where each item is using sur, dans, sous, devant."
+    },
+    "advanced": {
+      "scenario": "You're describing your entire apartment to a friend over the phone. Go room by room and describe what's in each room and where things are relative to each other.",
+      "keyPhrases": ["Il y a... dans...", "... est à côté de...", "... est entre...", "... est en face de..."],
+      "modelAnswer": "Mon appartement n'est pas grand, mais il est confortable. Le salon est la première pièce. Il y a un canapé à côté de la fenêtre et une table basse devant. La cuisine est en face du salon. Il y a une table avec quatre chaises entre la fenêtre et la porte. La chambre est à côté du salon. Le lit est sous la fenêtre et il y a une chaise dans le coin.",
+      "modelAnswerExplanation": "Uses extended prepositions (à côté de, en face de, entre) to position furniture, and 'il y a' / 'il n'y a pas' for describing contents.",
+      "tip": ""
+    }
+  }
+}

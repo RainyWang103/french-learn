@@ -1,0 +1,484 @@
+{
+  "day": 1,
+  "phase": 1,
+  "topic": "Waking Up & Morning Routine",
+  "vocab": {
+    "standard": [
+      {
+        "word": "se réveiller",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh ray-vay-yay",
+        "meaning": "to wake up",
+        "notes": "Reflexive verb — always used with me/te/se etc.",
+        "conjugation": {
+          "je": "me réveille",
+          "tu": "te réveilles",
+          "il/elle": "se réveille",
+          "nous": "nous réveillons",
+          "vous": "vous réveillez",
+          "ils/elles": "se réveillent"
+        },
+        "examples": [
+          ["Je me réveille à sept heures.", "I wake up at seven o'clock."],
+          ["Elle se réveille tôt.", "She wakes up early."]
+        ],
+        "special": "reflexive"
+      },
+      {
+        "word": "le matin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ma-tan",
+        "meaning": "the morning",
+        "examples": [
+          ["Le matin, je suis fatigué.", "In the morning, I am tired."],
+          ["C'est le matin.", "It's morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le lit",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh lee",
+        "meaning": "the bed",
+        "examples": [
+          ["Je suis dans mon lit.", "I am in my bed."],
+          ["Le lit est grand.", "The bed is big."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "fatigué",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "fa-tee-gay",
+        "meaning": "tired",
+        "notes": "Add -e for feminine: fatiguée",
+        "examples": [
+          ["Je suis fatigué.", "I am tired."],
+          ["Tu es fatigué ce matin ?", "Are you tired this morning?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "dormir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "dor-meer",
+        "meaning": "to sleep",
+        "notes": "Irregular verb — stem changes in singular forms",
+        "conjugation": {
+          "je": "dors",
+          "tu": "dors",
+          "il/elle": "dort",
+          "nous": "dormons",
+          "vous": "dormez",
+          "ils/elles": "dorment"
+        },
+        "examples": [
+          ["Je dors huit heures.", "I sleep eight hours."],
+          ["Il dort bien.", "He sleeps well."]
+        ],
+        "special": "irregular"
+      }
+    ],
+    "advanced": [
+      {
+        "word": "se réveiller",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh ray-vay-yay",
+        "meaning": "to wake up",
+        "notes": "Reflexive verb — always used with me/te/se etc.",
+        "conjugation": {
+          "je": "me réveille",
+          "tu": "te réveilles",
+          "il/elle": "se réveille",
+          "nous": "nous réveillons",
+          "vous": "vous réveillez",
+          "ils/elles": "se réveillent"
+        },
+        "examples": [
+          ["Je me réveille à sept heures.", "I wake up at seven o'clock."],
+          ["Elle se réveille tôt.", "She wakes up early."]
+        ],
+        "special": "reflexive"
+      },
+      {
+        "word": "le matin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ma-tan",
+        "meaning": "the morning",
+        "examples": [
+          ["Le matin, je suis fatigué.", "In the morning, I am tired."],
+          ["C'est le matin.", "It's morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le lit",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh lee",
+        "meaning": "the bed",
+        "examples": [
+          ["Je suis dans mon lit.", "I am in my bed."],
+          ["Le lit est grand.", "The bed is big."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "fatigué",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "fa-tee-gay",
+        "meaning": "tired",
+        "notes": "Add -e for feminine: fatiguée",
+        "examples": [
+          ["Je suis fatigué.", "I am tired."],
+          ["Tu es fatigué ce matin ?", "Are you tired this morning?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "dormir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "dor-meer",
+        "meaning": "to sleep",
+        "notes": "Irregular verb — stem changes in singular forms",
+        "conjugation": {
+          "je": "dors",
+          "tu": "dors",
+          "il/elle": "dort",
+          "nous": "dormons",
+          "vous": "dormez",
+          "ils/elles": "dorment"
+        },
+        "examples": [
+          ["Je dors huit heures.", "I sleep eight hours."],
+          ["Il dort bien.", "He sleeps well."]
+        ],
+        "special": "irregular"
+      },
+      {
+        "word": "tôt",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "toh",
+        "meaning": "early",
+        "notes": "Opposite: tard (late)",
+        "examples": [
+          ["Je me réveille tôt.", "I wake up early."],
+          ["C'est trop tôt !", "It's too early!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le réveil",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ray-vay",
+        "meaning": "the alarm clock",
+        "notes": "Same root as se réveiller",
+        "examples": [
+          ["Le réveil sonne à six heures.", "The alarm rings at six o'clock."],
+          ["Mon réveil est sur la table.", "My alarm clock is on the table."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu te réveilles à quelle heure le matin ?"],
+        ["B", "Je me réveille à sept heures. Et toi ?"],
+        ["A", "Moi, je me réveille à six heures. Je suis toujours fatigué."],
+        ["B", "Six heures ? C'est tôt ! Tu dors bien ?"],
+        ["A", "Non, je ne dors pas bien. Mon lit n'est pas confortable."],
+        ["B", "Oh, c'est dommage. Moi, je dors très bien."]
+      ],
+      "questions": [
+        {
+          "question": "À quelle heure A se réveille-t-il ?",
+          "options": ["À cinq heures", "À six heures", "À sept heures"],
+          "correctAnswer": "À six heures"
+        },
+        {
+          "question": "Pourquoi A est-il fatigué ?",
+          "options": ["Il ne dort pas bien", "Il travaille trop", "Il se réveille tard"],
+          "correctAnswer": "Il ne dort pas bien"
+        },
+        {
+          "question": "Comment B dort-il ?",
+          "options": ["Mal", "Très bien", "Pas du tout"],
+          "correctAnswer": "Très bien"
+        }
+      ],
+      "summary": "Two roommates discuss what time they wake up. A wakes up at 6 a.m. and is always tired because the bed is not comfortable. B wakes up at 7 a.m. and sleeps very well."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu te réveilles tôt le matin ?"],
+        ["B", "Oui, je me réveille à six heures. Mon réveil sonne et je me lève tout de suite."],
+        ["A", "Tout de suite ? Moi, je reste dans mon lit. Je suis trop fatigué le matin."],
+        ["B", "Tu dors combien d'heures ?"],
+        ["A", "Je dors cinq ou six heures seulement. Ce n'est pas assez."],
+        ["B", "Cinq heures ? Ce n'est vraiment pas assez. Il faut dormir plus !"]
+      ],
+      "questions": [
+        {
+          "question": "Que fait B quand le réveil sonne ?",
+          "options": ["Il reste dans le lit", "Il se lève tout de suite", "Il dort encore", "Il éteint le réveil"],
+          "correctAnswer": "Il se lève tout de suite"
+        },
+        {
+          "question": "Combien d'heures A dort-il ?",
+          "options": ["Sept ou huit heures", "Cinq ou six heures", "Huit heures", "Quatre heures"],
+          "correctAnswer": "Cinq ou six heures"
+        },
+        {
+          "question": "Que pense B du sommeil de A ?",
+          "options": ["C'est bien", "C'est assez", "Ce n'est pas assez", "Ce n'est pas important"],
+          "correctAnswer": "Ce n'est pas assez"
+        }
+      ],
+      "summary": "Two roommates discuss their mornings. B wakes up at 6 a.m. and gets up right away. A stays in bed because they are too tired, sleeping only five or six hours. B says that's not enough sleep."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Subject Pronouns + Être (to be)",
+      "explanation": "In French, 'être' (to be) is one of the most important verbs. It is irregular, meaning its forms don't follow a regular pattern. You use it to describe states and feelings, like 'je suis fatigué' (I am tired). The subject pronouns are: je (I), tu (you informal), il/elle (he/she), nous (we), vous (you formal/plural), ils/elles (they).",
+      "examples": [
+        {
+          "french": "Je suis fatigué.",
+          "english": "I am tired."
+        },
+        {
+          "french": "Tu es dans le lit.",
+          "english": "You are in bed."
+        },
+        {
+          "french": "Elle est prête le matin.",
+          "english": "She is ready in the morning."
+        },
+        {
+          "french": "Nous sommes fatigués.",
+          "english": "We are tired."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ fatigué. (être)",
+          "correctAnswer": "suis",
+          "explanation": "Je + être = je suis"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ dans le lit. (être)",
+          "correctAnswer": "es",
+          "explanation": "Tu + être = tu es"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ___ prête. (être)",
+          "correctAnswer": "est",
+          "explanation": "Il/elle + être = il/elle est"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ fatigués le matin. (être)",
+          "correctAnswer": "sommes",
+          "explanation": "Nous + être = nous sommes"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ dans le lit ? (être)",
+          "correctAnswer": "êtes",
+          "explanation": "Vous + être = vous êtes"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Subject Pronouns + Être — Full Conjugation & Negation",
+      "explanation": "Être (to be) is irregular. Learn all six forms and how to negate them with ne...pas. In spoken French, 'ne' is often dropped, but keep it in writing.",
+      "examples": [
+        {
+          "french": "Ils sont fatigués.",
+          "english": "They are tired."
+        },
+        {
+          "french": "Je ne suis pas dans le lit.",
+          "english": "I am not in bed."
+        },
+        {
+          "french": "Elle n'est pas prête.",
+          "english": "She is not ready."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ fatigués. (être)",
+          "correctAnswer": "sont",
+          "explanation": "Ils/elles + être = sont"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ne ___ pas dans le lit. (être)",
+          "correctAnswer": "suis",
+          "explanation": "Negation wraps the verb: ne + suis + pas"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous n'___ pas fatigués ? (être)",
+          "correctAnswer": "êtes",
+          "explanation": "Vous + être = êtes, with ne...pas around it"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ prêt le matin ? (être)",
+          "correctAnswer": "es",
+          "explanation": "Tu + être = tu es"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ne ___ pas dans le lit. (être)",
+          "correctAnswer": "sommes",
+          "explanation": "Nous + être = sommes"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct negation: 'Elle ___ prête.'",
+          "options": ["n'est pas", "ne pas est", "est ne pas", "pas n'est"],
+          "correctAnswer": "n'est pas",
+          "explanation": "Negation: ne (n' before vowel) + verb + pas"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il n'___ pas fatigué. (être)",
+          "correctAnswer": "est",
+          "explanation": "Il + être = est"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'We are not tired'?",
+          "options": ["Nous ne sommes pas fatigués.", "Nous sommes ne pas fatigués.", "Nous pas sommes fatigués.", "Ne nous sommes pas fatigués."],
+          "correctAnswer": "Nous ne sommes pas fatigués.",
+          "explanation": "Subject + ne + verb + pas + rest of sentence"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'se réveiller' mean?",
+        "options": ["to sleep", "to wake up", "to eat"],
+        "correctAnswer": "to wake up",
+        "explanation": "'Se réveiller' is a reflexive verb meaning 'to wake up'.",
+        "targetWord": "se réveiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'I am tired' in French?",
+        "options": ["Je suis fatigué.", "J'ai fatigué.", "Je fais fatigué."],
+        "correctAnswer": "Je suis fatigué.",
+        "explanation": "Use 'être' (je suis) + adjective to describe a state.",
+        "targetWord": "fatigué"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je me ___ à sept heures. (se réveiller)",
+        "correctAnswer": "réveille",
+        "explanation": "Je + se réveiller = je me réveille.",
+        "targetWord": "se réveiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le lit'?",
+        "options": ["the table", "the bed", "the morning"],
+        "correctAnswer": "the bed",
+        "explanation": "'Le lit' means 'the bed'. It is masculine.",
+        "targetWord": "le lit"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il ___ huit heures. (dormir)",
+        "correctAnswer": "dort",
+        "explanation": "Il/elle + dormir = il dort (irregular stem change).",
+        "targetWord": "dormir"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What is the correct form: 'Nous ___ fatigués.'",
+        "options": ["est", "sommes", "êtes", "suis"],
+        "correctAnswer": "sommes",
+        "explanation": "Nous + être = nous sommes.",
+        "targetWord": "fatigué"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le ___ sonne à six heures. (alarm clock)",
+        "correctAnswer": "réveil",
+        "explanation": "'Le réveil' means the alarm clock.",
+        "targetWord": "le réveil"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'tôt' mean?",
+        "options": ["late", "early", "always", "never"],
+        "correctAnswer": "early",
+        "explanation": "'Tôt' means early. The opposite is 'tard' (late).",
+        "targetWord": "tôt"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Tu te ___ à quelle heure ? (se réveiller)",
+        "correctAnswer": "réveilles",
+        "explanation": "Tu + se réveiller = tu te réveilles.",
+        "targetWord": "se réveiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "options": ["Je ne suis pas fatigué.", "Je suis ne pas fatigué.", "Je pas ne suis fatigué.", "Ne je suis pas fatigué."],
+        "correctAnswer": "Je ne suis pas fatigué.",
+        "explanation": "Negation structure: subject + ne + verb + pas.",
+        "targetWord": "fatigué"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ils ___ dans le lit. (dormir)",
+        "correctAnswer": "dorment",
+        "explanation": "Ils/elles + dormir = ils dorment.",
+        "targetWord": "dormir"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Your friend asks about your morning routine. Tell them when you wake up and how you feel in the morning.",
+      "keyPhrases": ["Je me réveille à...", "Le matin, je suis...", "Je dors..."],
+      "modelAnswer": "Je me réveille à sept heures le matin. Je suis un peu fatigué. Je dors six heures.",
+      "modelAnswerExplanation": "This answer uses 'se réveiller' with a time, 'être' with an adjective to describe feelings, and 'dormir' to say how long you sleep.",
+      "tip": "Start with 'Je me réveille à...' and add how you feel with 'Je suis...'."
+    },
+    "advanced": {
+      "scenario": "You're chatting with a new colleague. Describe your morning routine in detail — when your alarm goes off, when you wake up, how you feel, and whether you are a morning person.",
+      "keyPhrases": ["Mon réveil sonne à...", "Je me réveille...", "Je suis/ne suis pas...", "Je dors...heures"],
+      "modelAnswer": "Mon réveil sonne à six heures, mais je me réveille à six heures et demie. Le matin, je suis toujours fatigué parce que je ne dors pas assez. Je dors seulement cinq heures. Je ne suis pas du matin !",
+      "modelAnswerExplanation": "This uses 'le réveil' with 'sonner', reflexive 'se réveiller', 'être' with negation, 'dormir' with 'seulement', and the expression 'être du matin' (to be a morning person).",
+      "tip": ""
+    }
+  }
+}

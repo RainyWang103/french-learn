@@ -1,0 +1,478 @@
+{
+  "day": 2,
+  "phase": 1,
+  "topic": "Getting Ready",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la douche",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la doosh",
+        "meaning": "the shower",
+        "examples": [
+          ["Je prends une douche le matin.", "I take a shower in the morning."],
+          ["La douche est chaude.", "The shower is hot."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "s'habiller",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "sa-bee-yay",
+        "meaning": "to get dressed",
+        "notes": "Reflexive verb — je m'habille, tu t'habilles, etc.",
+        "conjugation": {
+          "je": "m'habille",
+          "tu": "t'habilles",
+          "il/elle": "s'habille",
+          "nous": "nous habillons",
+          "vous": "vous habillez",
+          "ils/elles": "s'habillent"
+        },
+        "examples": [
+          ["Je m'habille vite.", "I get dressed quickly."],
+          ["Elle s'habille dans la chambre.", "She gets dressed in the bedroom."]
+        ],
+        "special": "reflexive"
+      },
+      {
+        "word": "les vêtements",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay vet-mon",
+        "meaning": "the clothes",
+        "notes": "Always plural. Singular: un vêtement.",
+        "examples": [
+          ["Mes vêtements sont sur le lit.", "My clothes are on the bed."],
+          ["Je cherche mes vêtements.", "I'm looking for my clothes."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le miroir",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh meer-wahr",
+        "meaning": "the mirror",
+        "examples": [
+          ["Je me regarde dans le miroir.", "I look at myself in the mirror."],
+          ["Le miroir est dans la salle de bains.", "The mirror is in the bathroom."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "prêt",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "preh",
+        "meaning": "ready",
+        "notes": "Feminine: prête. Used with être: je suis prêt(e).",
+        "examples": [
+          ["Tu es prêt ?", "Are you ready?"],
+          ["Je suis prête !", "I'm ready! (feminine)"]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la douche",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la doosh",
+        "meaning": "the shower",
+        "examples": [
+          ["Je prends une douche le matin.", "I take a shower in the morning."],
+          ["La douche est chaude.", "The shower is hot."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "s'habiller",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "sa-bee-yay",
+        "meaning": "to get dressed",
+        "notes": "Reflexive verb — je m'habille, tu t'habilles, etc.",
+        "conjugation": {
+          "je": "m'habille",
+          "tu": "t'habilles",
+          "il/elle": "s'habille",
+          "nous": "nous habillons",
+          "vous": "vous habillez",
+          "ils/elles": "s'habillent"
+        },
+        "examples": [
+          ["Je m'habille vite.", "I get dressed quickly."],
+          ["Elle s'habille dans la chambre.", "She gets dressed in the bedroom."]
+        ],
+        "special": "reflexive"
+      },
+      {
+        "word": "les vêtements",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay vet-mon",
+        "meaning": "the clothes",
+        "notes": "Always plural. Singular: un vêtement.",
+        "examples": [
+          ["Mes vêtements sont sur le lit.", "My clothes are on the bed."],
+          ["Je cherche mes vêtements.", "I'm looking for my clothes."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le miroir",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh meer-wahr",
+        "meaning": "the mirror",
+        "examples": [
+          ["Je me regarde dans le miroir.", "I look at myself in the mirror."],
+          ["Le miroir est dans la salle de bains.", "The mirror is in the bathroom."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "prêt",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "preh",
+        "meaning": "ready",
+        "notes": "Feminine: prête. Used with être: je suis prêt(e).",
+        "examples": [
+          ["Tu es prêt ?", "Are you ready?"],
+          ["Je suis prête !", "I'm ready! (feminine)"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "se dépêcher",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh day-peh-shay",
+        "meaning": "to hurry",
+        "notes": "Reflexive verb. Common imperative: Dépêche-toi ! (Hurry up!)",
+        "conjugation": {
+          "je": "me dépêche",
+          "tu": "te dépêches",
+          "il/elle": "se dépêche",
+          "nous": "nous dépêchons",
+          "vous": "vous dépêchez",
+          "ils/elles": "se dépêchent"
+        },
+        "examples": [
+          ["Dépêche-toi, on est en retard !", "Hurry up, we're late!"],
+          ["Je me dépêche le matin.", "I hurry in the morning."]
+        ],
+        "special": "reflexive"
+      },
+      {
+        "word": "le peigne",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pen-yuh",
+        "meaning": "the comb",
+        "examples": [
+          ["Où est mon peigne ?", "Where is my comb?"],
+          ["Le peigne est dans la salle de bains.", "The comb is in the bathroom."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu es prêt ? On est en retard !"],
+        ["B", "Non, je ne suis pas prêt. Je cherche mes vêtements."],
+        ["A", "Tes vêtements sont sur la chaise, dans la chambre."],
+        ["B", "Ah oui ! Et la douche ? J'ai besoin d'une douche."],
+        ["A", "Pas le temps ! Habille-toi vite !"],
+        ["B", "D'accord, d'accord. Deux minutes !"]
+      ],
+      "questions": [
+        {
+          "question": "Pourquoi B n'est pas prêt ?",
+          "options": ["Il dort encore", "Il cherche ses vêtements", "Il est malade"],
+          "correctAnswer": "Il cherche ses vêtements"
+        },
+        {
+          "question": "Où sont les vêtements de B ?",
+          "options": ["Sur le lit", "Dans le miroir", "Sur la chaise"],
+          "correctAnswer": "Sur la chaise"
+        },
+        {
+          "question": "Est-ce que B prend une douche ?",
+          "options": ["Oui", "Non, il n'a pas le temps", "On ne sait pas"],
+          "correctAnswer": "Non, il n'a pas le temps"
+        }
+      ],
+      "summary": "A is rushing B to get ready. B is not ready because they can't find their clothes. A tells B the clothes are on the chair. B wants a shower but there's no time — they need to get dressed quickly."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Dépêche-toi ! On est en retard !"],
+        ["B", "Attends, je cherche mon peigne. Tu sais où il est ?"],
+        ["A", "Regarde dans la salle de bains, à côté du miroir."],
+        ["B", "Il n'est pas là. Et je n'ai pas mes vêtements non plus."],
+        ["A", "Tes vêtements sont sur le lit. Et oublie le peigne, on n'a pas le temps !"],
+        ["B", "D'accord, je m'habille tout de suite. Mais je veux prendre une douche rapide."],
+        ["A", "Pas de douche ! Habille-toi et on part !"]
+      ],
+      "questions": [
+        {
+          "question": "Que cherche B ?",
+          "options": ["Ses clés", "Son peigne", "Son téléphone", "Ses chaussures"],
+          "correctAnswer": "Son peigne"
+        },
+        {
+          "question": "Où A dit-il de chercher le peigne ?",
+          "options": ["Dans la chambre", "Dans la cuisine", "Dans la salle de bains", "Dans le salon"],
+          "correctAnswer": "Dans la salle de bains"
+        },
+        {
+          "question": "Où sont les vêtements de B ?",
+          "options": ["Sur la chaise", "Sur le lit", "Dans l'armoire", "Par terre"],
+          "correctAnswer": "Sur le lit"
+        }
+      ],
+      "summary": "A tells B to hurry up. B is looking for a comb and can't find clothes either. A says the comb might be in the bathroom and the clothes are on the bed. B wants a quick shower but A says there's no time."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Avoir (to have) + Expressions with Avoir",
+      "explanation": "Avoir (to have) is the second essential irregular verb. It's used for possession ('j'ai un miroir') and in many expressions where English uses 'to be': avoir faim (to be hungry), avoir soif (to be thirsty), avoir sommeil (to be sleepy), avoir besoin de (to need). Conjugation: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.",
+      "examples": [
+        {
+          "french": "J'ai besoin d'une douche.",
+          "english": "I need a shower."
+        },
+        {
+          "french": "Tu as sommeil ?",
+          "english": "Are you sleepy?"
+        },
+        {
+          "french": "Elle a faim le matin.",
+          "english": "She is hungry in the morning."
+        },
+        {
+          "french": "Nous avons les vêtements.",
+          "english": "We have the clothes."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "J'___ besoin d'un miroir. (avoir)",
+          "correctAnswer": "ai",
+          "explanation": "Je + avoir = j'ai"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ sommeil ? (avoir)",
+          "correctAnswer": "as",
+          "explanation": "Tu + avoir = tu as"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ___ faim le matin. (avoir)",
+          "correctAnswer": "a",
+          "explanation": "Il/elle + avoir = il/elle a"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ les vêtements. (avoir)",
+          "correctAnswer": "avons",
+          "explanation": "Nous + avoir = nous avons"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'I am hungry' in French?",
+          "options": ["Je suis faim.", "J'ai faim.", "Je fais faim."],
+          "correctAnswer": "J'ai faim.",
+          "explanation": "French uses 'avoir' (to have) for hunger: j'ai faim = I have hunger."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Avoir — Full Conjugation, Expressions & Negation",
+      "explanation": "Avoir is irregular: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont. Key expressions: avoir faim/soif/sommeil/chaud/froid/peur/besoin de/raison/tort. In negation: je n'ai pas faim. Note the elision: je + ai = j'ai, ne + ai = n'ai.",
+      "examples": [
+        {
+          "french": "Ils ont besoin de vêtements.",
+          "english": "They need clothes."
+        },
+        {
+          "french": "Je n'ai pas sommeil.",
+          "english": "I'm not sleepy."
+        },
+        {
+          "french": "Vous avez faim ?",
+          "english": "Are you hungry?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ sommeil. (avoir)",
+          "correctAnswer": "ont",
+          "explanation": "Ils/elles + avoir = ils ont"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ besoin d'un peigne ? (avoir)",
+          "correctAnswer": "avez",
+          "explanation": "Vous + avoir = vous avez"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je n'___ pas faim. (avoir)",
+          "correctAnswer": "ai",
+          "explanation": "Je + avoir = j'ai → negation: je n'ai pas"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which expression means 'to be cold'?",
+          "options": ["avoir chaud", "avoir froid", "avoir peur", "avoir tort"],
+          "correctAnswer": "avoir froid",
+          "explanation": "Avoir froid = to be cold (literally 'to have cold')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle n'___ pas soif. (avoir)",
+          "correctAnswer": "a",
+          "explanation": "Elle + avoir = elle a → negation: elle n'a pas"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'We need a shower'?",
+          "options": ["Nous sommes besoin d'une douche.", "Nous avons besoin d'une douche.", "Nous faisons besoin d'une douche.", "Nous allons besoin d'une douche."],
+          "correctAnswer": "Nous avons besoin d'une douche.",
+          "explanation": "Avoir besoin de = to need. Nous avons besoin de..."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu n'___ pas peur ? (avoir)",
+          "correctAnswer": "as",
+          "explanation": "Tu + avoir = tu as → negation: tu n'as pas"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'avoir raison' mean?",
+          "options": ["to be wrong", "to be right", "to be afraid", "to be sleepy"],
+          "correctAnswer": "to be right",
+          "explanation": "Avoir raison = to be right. Avoir tort = to be wrong."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 's'habiller' mean?",
+        "options": ["to shower", "to get dressed", "to sleep"],
+        "correctAnswer": "to get dressed",
+        "explanation": "'S'habiller' is a reflexive verb meaning 'to get dressed'.",
+        "targetWord": "s'habiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le miroir'?",
+        "options": ["the comb", "the shower", "the mirror"],
+        "correctAnswer": "the mirror",
+        "explanation": "'Le miroir' means 'the mirror'. It is masculine.",
+        "targetWord": "le miroir"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je m'___ vite le matin. (s'habiller)",
+        "correctAnswer": "habille",
+        "explanation": "Je + s'habiller = je m'habille.",
+        "targetWord": "s'habiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'I need' in French?",
+        "options": ["Je suis besoin", "J'ai besoin", "Je fais besoin"],
+        "correctAnswer": "J'ai besoin",
+        "explanation": "'Avoir besoin de' uses the verb avoir, not être.",
+        "targetWord": "prêt"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Tu ___ prêt ? (être)",
+        "correctAnswer": "es",
+        "explanation": "Tu + être = tu es. 'Are you ready?' = 'Tu es prêt ?'",
+        "targetWord": "prêt"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "fillInTheBlank",
+        "question": "Dépêche-___ ! On est en retard ! (hurry up — informal you)",
+        "correctAnswer": "toi",
+        "explanation": "Reflexive imperative (tu form): Dépêche-toi !",
+        "targetWord": "se dépêcher"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le peigne' mean?",
+        "options": ["the brush", "the comb", "the towel", "the soap"],
+        "correctAnswer": "the comb",
+        "explanation": "'Le peigne' means 'the comb'.",
+        "targetWord": "le peigne"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle se ___ dans la chambre. (s'habiller)",
+        "correctAnswer": "habille",
+        "explanation": "Elle + s'habiller = elle s'habille (3rd person, no change in ending from je form for -er verbs).",
+        "targetWord": "s'habiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which is correct: 'They are hungry'?",
+        "options": ["Ils sont faim.", "Ils ont faim.", "Ils font faim.", "Ils vont faim."],
+        "correctAnswer": "Ils ont faim.",
+        "explanation": "French uses 'avoir faim' (to have hunger), not 'être faim'.",
+        "targetWord": "les vêtements"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous nous ___ le matin. (se dépêcher)",
+        "correctAnswer": "dépêchons",
+        "explanation": "Nous + se dépêcher = nous nous dépêchons.",
+        "targetWord": "se dépêcher"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the feminine form of 'prêt'?",
+        "options": ["prête", "prète", "prettes", "prêté"],
+        "correctAnswer": "prête",
+        "explanation": "Masculine 'prêt' → feminine 'prête' (add -e).",
+        "targetWord": "prêt"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You're telling a friend about your morning routine — getting ready, taking a shower, getting dressed. Describe what you do step by step.",
+      "keyPhrases": ["Je prends une douche...", "Je m'habille...", "Je suis prêt(e)..."],
+      "modelAnswer": "Le matin, je prends une douche. Après, je m'habille. Je regarde le miroir. Je suis prêt !",
+      "modelAnswerExplanation": "This uses 'prendre une douche' (to take a shower), the reflexive 's'habiller', and 'être prêt' to say you're ready.",
+      "tip": "Describe actions in order using simple sentences. Use 'après' (after) to connect them."
+    },
+    "advanced": {
+      "scenario": "You're running late and calling a friend to explain why. Describe what you still need to do to get ready and that you're in a hurry.",
+      "keyPhrases": ["Je me dépêche...", "J'ai besoin de...", "Je ne suis pas encore prêt(e)...", "Je m'habille..."],
+      "modelAnswer": "Je ne suis pas encore prête ! Je me dépêche. J'ai besoin d'une douche rapide. Je cherche mes vêtements — ils ne sont pas dans la chambre. Attends, je m'habille et j'arrive !",
+      "modelAnswerExplanation": "This combines 'ne...pas encore' (not yet), reflexive verbs 'se dépêcher' and 's'habiller', 'avoir besoin de', and the imperative 'attends' (wait).",
+      "tip": ""
+    }
+  }
+}

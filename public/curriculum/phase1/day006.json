@@ -1,0 +1,515 @@
+{
+  "day": 7,
+  "phase": 1,
+  "topic": "Evening Routine",
+  "vocab": {
+    "standard": [
+      {
+        "word": "manger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "mon-zhay",
+        "meaning": "to eat",
+        "notes": "Regular -ER verb. Note: nous mangeons (extra 'e' to keep soft 'g').",
+        "conjugation": {
+          "je": "mange",
+          "tu": "manges",
+          "il/elle": "mange",
+          "nous": "mangeons",
+          "vous": "mangez",
+          "ils/elles": "mangent"
+        },
+        "examples": [
+          ["Je mange à huit heures.", "I eat at eight o'clock."],
+          ["Nous mangeons ensemble.", "We eat together."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "regarder",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ruh-gar-day",
+        "meaning": "to watch / to look at",
+        "notes": "Regular -ER verb. Direct object — no preposition needed.",
+        "conjugation": {
+          "je": "regarde",
+          "tu": "regardes",
+          "il/elle": "regarde",
+          "nous": "regardons",
+          "vous": "regardez",
+          "ils/elles": "regardent"
+        },
+        "examples": [
+          ["Je regarde la télévision.", "I watch television."],
+          ["Elle regarde un film.", "She watches a movie."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "écouter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ay-koo-tay",
+        "meaning": "to listen to",
+        "notes": "Regular -ER verb. Direct object — no 'to' needed in French: j'écoute la radio (not *j'écoute à la radio).",
+        "conjugation": {
+          "je": "écoute",
+          "tu": "écoutes",
+          "il/elle": "écoute",
+          "nous": "écoutons",
+          "vous": "écoutez",
+          "ils/elles": "écoutent"
+        },
+        "examples": [
+          ["J'écoute de la musique.", "I listen to music."],
+          ["Tu écoutes la radio ?", "Do you listen to the radio?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la télévision",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tay-lay-vee-zyon",
+        "meaning": "the television",
+        "notes": "Often shortened to 'la télé' in spoken French.",
+        "examples": [
+          ["Je regarde la télévision le soir.", "I watch television in the evening."],
+          ["La télé est dans le salon.", "The TV is in the living room."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le dîner",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh dee-nay",
+        "meaning": "the dinner",
+        "notes": "Also a verb: dîner (to have dinner).",
+        "examples": [
+          ["Le dîner est à sept heures.", "Dinner is at seven o'clock."],
+          ["Nous dînons ensemble.", "We have dinner together."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "manger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "mon-zhay",
+        "meaning": "to eat",
+        "notes": "Regular -ER verb. Note: nous mangeons (extra 'e' to keep soft 'g').",
+        "conjugation": {
+          "je": "mange",
+          "tu": "manges",
+          "il/elle": "mange",
+          "nous": "mangeons",
+          "vous": "mangez",
+          "ils/elles": "mangent"
+        },
+        "examples": [
+          ["Je mange à huit heures.", "I eat at eight o'clock."],
+          ["Nous mangeons ensemble.", "We eat together."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "regarder",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ruh-gar-day",
+        "meaning": "to watch / to look at",
+        "notes": "Regular -ER verb. Direct object — no preposition needed.",
+        "conjugation": {
+          "je": "regarde",
+          "tu": "regardes",
+          "il/elle": "regarde",
+          "nous": "regardons",
+          "vous": "regardez",
+          "ils/elles": "regardent"
+        },
+        "examples": [
+          ["Je regarde la télévision.", "I watch television."],
+          ["Elle regarde un film.", "She watches a movie."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "écouter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ay-koo-tay",
+        "meaning": "to listen to",
+        "notes": "Regular -ER verb. Direct object — no 'to' needed in French: j'écoute la radio (not *j'écoute à la radio).",
+        "conjugation": {
+          "je": "écoute",
+          "tu": "écoutes",
+          "il/elle": "écoute",
+          "nous": "écoutons",
+          "vous": "écoutez",
+          "ils/elles": "écoutent"
+        },
+        "examples": [
+          ["J'écoute de la musique.", "I listen to music."],
+          ["Tu écoutes la radio ?", "Do you listen to the radio?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la télévision",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tay-lay-vee-zyon",
+        "meaning": "the television",
+        "notes": "Often shortened to 'la télé' in spoken French.",
+        "examples": [
+          ["Je regarde la télévision le soir.", "I watch television in the evening."],
+          ["La télé est dans le salon.", "The TV is in the living room."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le dîner",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh dee-nay",
+        "meaning": "the dinner",
+        "notes": "Also a verb: dîner (to have dinner).",
+        "examples": [
+          ["Le dîner est à sept heures.", "Dinner is at seven o'clock."],
+          ["Nous dînons ensemble.", "We have dinner together."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "se coucher",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh koo-shay",
+        "meaning": "to go to bed",
+        "notes": "Reflexive verb. Opposite of se lever (to get up).",
+        "conjugation": {
+          "je": "me couche",
+          "tu": "te couches",
+          "il/elle": "se couche",
+          "nous": "nous couchons",
+          "vous": "vous couchez",
+          "ils/elles": "se couchent"
+        },
+        "examples": [
+          ["Je me couche à dix heures.", "I go to bed at ten o'clock."],
+          ["Les enfants se couchent tôt.", "The children go to bed early."]
+        ],
+        "special": "reflexive"
+      },
+      {
+        "word": "la musique",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la moo-zeek",
+        "meaning": "the music",
+        "examples": [
+          ["J'écoute de la musique le soir.", "I listen to music in the evening."],
+          ["La musique est relaxante.", "The music is relaxing."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Qu'est-ce que tu fais ce soir ?"],
+        ["B", "D'abord, je mange. Le dîner est à sept heures."],
+        ["A", "Et après le dîner ?"],
+        ["B", "Je regarde la télé un peu. Et toi ?"],
+        ["A", "Moi, j'écoute de la musique. Je ne regarde pas la télé."],
+        ["B", "Tu écoutes quoi comme musique ?"],
+        ["A", "Du jazz. C'est relaxant le soir."]
+      ],
+      "questions": [
+        {
+          "question": "À quelle heure B mange-t-il ?",
+          "options": ["À six heures", "À sept heures", "À huit heures"],
+          "correctAnswer": "À sept heures"
+        },
+        {
+          "question": "Que fait B après le dîner ?",
+          "options": ["Il écoute de la musique", "Il regarde la télé", "Il dort"],
+          "correctAnswer": "Il regarde la télé"
+        },
+        {
+          "question": "Que fait A le soir ?",
+          "options": ["Il regarde la télé", "Il écoute du jazz", "Il mange"],
+          "correctAnswer": "Il écoute du jazz"
+        }
+      ],
+      "summary": "Two friends discuss their evening plans. B has dinner at 7 p.m. then watches TV. A prefers listening to jazz music in the evening and doesn't watch TV."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu fais quoi le soir en général ?"],
+        ["B", "Après le travail, je rentre à la maison et je mange vers sept heures et demie."],
+        ["A", "Tu manges seul ou avec quelqu'un ?"],
+        ["B", "Avec ma copine. Nous mangeons ensemble et après, nous regardons un film ou j'écoute de la musique."],
+        ["A", "Et tu te couches à quelle heure ?"],
+        ["B", "En général, je me couche à onze heures. Mais le week-end, je me couche plus tard — vers minuit."],
+        ["A", "Minuit ! Tu n'es pas fatigué le matin ?"],
+        ["B", "Le week-end, je me réveille tard aussi. C'est normal !"]
+      ],
+      "questions": [
+        {
+          "question": "À quelle heure B mange-t-il ?",
+          "options": ["À sept heures", "Vers sept heures et demie", "À huit heures", "Vers six heures"],
+          "correctAnswer": "Vers sept heures et demie"
+        },
+        {
+          "question": "Avec qui B mange-t-il ?",
+          "options": ["Seul", "Avec sa copine", "Avec ses amis", "Avec sa famille"],
+          "correctAnswer": "Avec sa copine"
+        },
+        {
+          "question": "À quelle heure B se couche-t-il le week-end ?",
+          "options": ["À dix heures", "À onze heures", "Vers minuit", "À une heure"],
+          "correctAnswer": "Vers minuit"
+        }
+      ],
+      "summary": "B describes a typical evening: coming home from work, eating dinner with their girlfriend around 7:30, then watching a film or listening to music. B goes to bed at 11 p.m. on weekdays and around midnight on weekends."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Regular -ER Verbs (Present Tense)",
+      "explanation": "Most French verbs end in -ER and follow the same pattern. Remove -ER from the infinitive to get the stem, then add the endings: -e, -es, -e, -ons, -ez, -ent. Example with 'manger' (stem: mang-): je mange, tu manges, il/elle mange, nous mangeons, vous mangez, ils/elles mangent. The endings -e, -es, -ent are all silent — only -ons and -ez are pronounced.",
+      "examples": [
+        {
+          "french": "Je regarde la télé.",
+          "english": "I watch TV."
+        },
+        {
+          "french": "Tu écoutes de la musique.",
+          "english": "You listen to music."
+        },
+        {
+          "french": "Nous mangeons à sept heures.",
+          "english": "We eat at seven o'clock."
+        },
+        {
+          "french": "Ils regardent un film.",
+          "english": "They watch a movie."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ la télé le soir. (regarder)",
+          "correctAnswer": "regarde",
+          "explanation": "Je + regarder: stem 'regard-' + ending '-e' = regarde."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ de la musique ? (écouter)",
+          "correctAnswer": "écoutes",
+          "explanation": "Tu + écouter: stem 'écout-' + ending '-es' = écoutes."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ ensemble. (manger)",
+          "correctAnswer": "mangeons",
+          "explanation": "Nous + manger = nous mangeons (extra 'e' to keep soft 'g')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ un film. (regarder)",
+          "correctAnswer": "regardent",
+          "explanation": "Ils + regarder: stem 'regard-' + ending '-ent' = regardent."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which ending is used with 'vous'?",
+          "options": ["-ons", "-ez", "-ent"],
+          "correctAnswer": "-ez",
+          "explanation": "Vous + -ER verb = stem + -ez: vous regardez, vous écoutez."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Regular -ER Verbs — Conjugation, Negation & Common Patterns",
+      "explanation": "-ER verbs are the largest group. Stem + endings: -e, -es, -e, -ons, -ez, -ent. Spelling variations: manger → nous mangeons (keep 'e' for soft 'g'), commencer → nous commençons (ç for soft 'c'). In negation: je ne regarde pas. Common -ER verbs: parler (to speak), travailler (to work), chercher (to look for), aimer (to like/love), détester (to hate).",
+      "examples": [
+        {
+          "french": "Elle ne regarde pas la télé.",
+          "english": "She doesn't watch TV."
+        },
+        {
+          "french": "Nous mangeons et nous écoutons de la musique.",
+          "english": "We eat and we listen to music."
+        },
+        {
+          "french": "Vous regardez un film ce soir ?",
+          "english": "Are you watching a movie tonight?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ___ la radio. (écouter)",
+          "correctAnswer": "écoute",
+          "explanation": "Il/elle + écouter: stem 'écout-' + '-e' = écoute."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ne ___ pas la télé. (regarder)",
+          "correctAnswer": "regarde",
+          "explanation": "Negation wraps the verb: ne regarde pas."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ à quelle heure ? (manger)",
+          "correctAnswer": "mangez",
+          "explanation": "Vous + manger: stem 'mang-' + '-ez' = mangez."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Why is 'nous mangeons' spelled with an extra 'e'?",
+          "options": ["It's irregular", "To keep the soft 'g' sound", "It's a spelling mistake", "It's an old French rule"],
+          "correctAnswer": "To keep the soft 'g' sound",
+          "explanation": "Without the 'e', 'g' before 'o' would be hard (like 'go'). The 'e' keeps it soft (like 'je')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ ensemble le soir. (manger)",
+          "correctAnswer": "mangent",
+          "explanation": "Ils + manger: stem 'mang-' + '-ent' = mangent."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ne ___ pas de musique ? (écouter)",
+          "correctAnswer": "écoutes",
+          "explanation": "Tu + écouter = écoutes. Negation: ne écoutes pas → n'écoutes pas."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which endings are silent in -ER verbs?",
+          "options": ["-ons and -ez", "-e, -es, and -ent", "All of them", "None of them"],
+          "correctAnswer": "-e, -es, and -ent",
+          "explanation": "The endings -e, -es, -ent are silent. Only -ons and -ez are pronounced."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ français. (parler)",
+          "correctAnswer": "parlons",
+          "explanation": "Nous + parler: stem 'parl-' + '-ons' = parlons."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'regarder' mean?",
+        "options": ["to listen", "to eat", "to watch"],
+        "correctAnswer": "to watch",
+        "explanation": "'Regarder' means 'to watch' or 'to look at'.",
+        "targetWord": "regarder"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "J'___ de la musique. (écouter)",
+        "correctAnswer": "écoute",
+        "explanation": "Je + écouter = j'écoute.",
+        "targetWord": "écouter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le dîner'?",
+        "options": ["lunch", "dinner", "breakfast"],
+        "correctAnswer": "dinner",
+        "explanation": "'Le dîner' means dinner. Le déjeuner = lunch, le petit-déjeuner = breakfast.",
+        "targetWord": "le dîner"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ ensemble. (manger)",
+        "correctAnswer": "mangeons",
+        "explanation": "Nous + manger = mangeons (extra 'e' for soft 'g').",
+        "targetWord": "manger"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'She watches television'?",
+        "options": ["Elle écoute la télévision.", "Elle mange la télévision.", "Elle regarde la télévision."],
+        "correctAnswer": "Elle regarde la télévision.",
+        "explanation": "Regarder = to watch. Elle regarde la télévision.",
+        "targetWord": "la télévision"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "fillInTheBlank",
+        "question": "Je me ___ à dix heures. (se coucher)",
+        "correctAnswer": "couche",
+        "explanation": "Je + se coucher = je me couche.",
+        "targetWord": "se coucher"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la musique'?",
+        "options": ["the movie", "the music", "the radio", "the television"],
+        "correctAnswer": "the music",
+        "explanation": "'La musique' means 'the music'.",
+        "targetWord": "la musique"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ils ___ un film le soir. (regarder)",
+        "correctAnswer": "regardent",
+        "explanation": "Ils + regarder = ils regardent.",
+        "targetWord": "regarder"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which -ER verb ending is used with 'nous'?",
+        "options": ["-ez", "-ent", "-ons", "-es"],
+        "correctAnswer": "-ons",
+        "explanation": "Nous → -ons: nous mangeons, nous regardons, nous écoutons.",
+        "targetWord": "manger"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle n'___ pas la radio. (écouter)",
+        "correctAnswer": "écoute",
+        "explanation": "Elle + écouter = écoute. Negation: n'écoute pas.",
+        "targetWord": "écouter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'se coucher' mean?",
+        "options": ["to wake up", "to eat dinner", "to go to bed", "to watch TV"],
+        "correctAnswer": "to go to bed",
+        "explanation": "'Se coucher' means 'to go to bed'. It's a reflexive verb.",
+        "targetWord": "se coucher"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Your friend asks what you do in a typical evening. Describe what you do after dinner — watching TV, listening to music, etc.",
+      "keyPhrases": ["Le soir, je...", "Je mange...", "Je regarde/écoute...", "Après le dîner..."],
+      "modelAnswer": "Le soir, je mange à sept heures. Après le dîner, je regarde la télé. Parfois, j'écoute de la musique. C'est relaxant.",
+      "modelAnswerExplanation": "Uses -ER verbs (manger, regarder, écouter) with time expressions (le soir, après le dîner) and 'parfois' (sometimes).",
+      "tip": "Use 'le soir' to set the time, then describe activities in order with 'après' (after) and 'parfois' (sometimes)."
+    },
+    "advanced": {
+      "scenario": "Describe your complete evening routine to a new friend — from getting home from work to going to bed. Include what you eat, what you do for fun, and when you go to sleep.",
+      "keyPhrases": ["Après le travail...", "Je mange/dîne...", "Je regarde/écoute...", "Je me couche à..."],
+      "modelAnswer": "Après le travail, je rentre à la maison vers six heures. Je mange avec ma copine à sept heures et demie. Nous regardons un film ou j'écoute de la musique. Parfois, je regarde la télé seul sur le canapé. Je me couche à onze heures en semaine, mais le week-end, je me couche vers minuit.",
+      "modelAnswerExplanation": "Uses 'rentrer' (to come home), -ER verbs for activities, 'parfois' and 'ou' (or) for variety, reflexive 'se coucher' with time, and contrasts weekday/weekend routines.",
+      "tip": ""
+    }
+  }
+}
