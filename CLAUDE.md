@@ -400,3 +400,6 @@ All jobs must pass before merging.
 ### Files with tests this phase
 src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
 getScaffolding: all cases, boundaries, ceiling/floor
+src/curriculum.test.ts — auto-discovers all phase/dayNNN.json files,
+validates JSON parsing, schema structure, enum values, non-empty fields,
+track content counts, and correctAnswer-in-options integrity
