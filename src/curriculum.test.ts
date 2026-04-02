@@ -67,7 +67,9 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
       expect(typeof word.conjugation, `${label}.conjugation should be an object`).toBe('object')
       expect(word.conjugation, `${label}.conjugation should not be null`).not.toBeNull()
       const conj = word.conjugation as Record<string, unknown>
-      expect(Object.keys(conj).length, `${label}.conjugation should have entries`).toBeGreaterThan(0)
+      expect(Object.keys(conj).length, `${label}.conjugation should have entries`).toBeGreaterThan(
+        0,
+      )
       for (const [key, val] of Object.entries(conj)) {
         assertNonEmptyString(val, `${label}.conjugation.${key}`)
       }
@@ -91,10 +93,7 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
   expect(typeof word.special, `${label}.special should be a string`).toBe('string')
 }
 
-function validateVocabSection(
-  vocab: Record<string, unknown>,
-  label: string,
-) {
+function validateVocabSection(vocab: Record<string, unknown>, label: string) {
   for (const track of ['standard', 'advanced'] as const) {
     const words = vocab[track]
     assertNonEmptyArray(words, `${label}.${track}`)
@@ -138,10 +137,7 @@ function validateListenTrack(track: Record<string, unknown>, label: string) {
     expect(Array.isArray(line), `${label}.dialogue[${index}] should be array`).toBe(true)
     const pair = line as unknown[]
     expect(pair.length, `${label}.dialogue[${index}] should have 2 elements`).toBe(2)
-    expect(
-      VALID_DIALOGUE_SPEAKERS,
-      `${label}.dialogue[${index}][0] speaker`,
-    ).toContain(pair[0])
+    expect(VALID_DIALOGUE_SPEAKERS, `${label}.dialogue[${index}][0] speaker`).toContain(pair[0])
     assertNonEmptyString(pair[1], `${label}.dialogue[${index}][1] text`)
   }
 
@@ -424,10 +420,9 @@ describe('curriculum JSON validation', () => {
       // every revision day should NOT have a file.
       for (let d = 1; d <= maxDay; d++) {
         if (d % 4 === 0) {
-          expect(
-            daySet.has(d),
-            `${phase} day ${d} is a revision day but has a JSON file`,
-          ).toBe(false)
+          expect(daySet.has(d), `${phase} day ${d} is a revision day but has a JSON file`).toBe(
+            false,
+          )
         } else {
           expect(
             daySet.has(d),
