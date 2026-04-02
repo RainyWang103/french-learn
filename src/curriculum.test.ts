@@ -348,6 +348,96 @@ describe('curriculum JSON validation', () => {
     }
   })
 
+  it('should have day field consistent with content index via revision-day formula', () => {
+    // CLAUDE.md formula:
+    //   currentDay % 4 === 0  →  revision day (no JSON file)
+    //   contentIndex = currentDay - Math.floor(currentDay / 4)
+    //   file = day{pad(contentIndex, 3)}.json
+    //
+    // Inverse: given a contentIndex, derive the currentDay and verify it is NOT a revision day.
+    // Forward: given the day field (currentDay) in the JSON, compute the expected contentIndex
+    //          and verify it matches the filename.
+
+    for (const { phase, file, path: filePath } of curriculumFiles) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8'))
+      const currentDay = data.day as number
+      const fileContentIndex = parseInt(file.replace('day', '').replace('.json', ''), 10)
+
+      // The day stored in the JSON must not be a revision day
+      expect(
+        currentDay % 4,
+        `${phase}/${file} day=${currentDay} is a revision day (% 4 === 0) and should not have a JSON file`,
+      ).not.toBe(0)
+
+      // Forward check: currentDay → contentIndex should match filename
+      const expectedContentIndex = currentDay - Math.floor(currentDay / 4)
+      expect(
+        fileContentIndex,
+        `${phase}/${file} filename index (${fileContentIndex}) does not match expected contentIndex (${expectedContentIndex}) for day=${currentDay}`,
+      ).toBe(expectedContentIndex)
+    }
+  })
+
+  it('should not have JSON files for revision days', () => {
+    // Collect all day values per phase and verify none are multiples of 4.
+    // Also verify there are no "gaps" — every contentIndex from 1..max should exist.
+    const contentIndicesByPhase = new Map<string, number[]>()
+
+    for (const { phase, file } of curriculumFiles) {
+      const contentIndex = parseInt(file.replace('day', '').replace('.json', ''), 10)
+      const indices = contentIndicesByPhase.get(phase) ?? []
+      indices.push(contentIndex)
+      contentIndicesByPhase.set(phase, indices)
+    }
+
+    for (const [phase, indices] of contentIndicesByPhase) {
+      const sorted = [...indices].sort((a, b) => a - b)
+
+      // Content indices should be consecutive starting from 1 (no gaps)
+      for (let i = 0; i < sorted.length; i++) {
+        expect(
+          sorted[i],
+          `${phase} is missing content index ${i + 1} (has ${sorted.join(', ')})`,
+        ).toBe(i + 1)
+      }
+    }
+  })
+
+  it('should have contiguous currentDay values with revision days as the only gaps', () => {
+    // For each phase, collect all currentDay values from the JSON files.
+    // The gaps should only be at multiples of 4 (revision days).
+    const daysByPhase = new Map<string, number[]>()
+
+    for (const { phase, path: filePath } of curriculumFiles) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8'))
+      const days = daysByPhase.get(phase) ?? []
+      days.push(data.day as number)
+      daysByPhase.set(phase, days)
+    }
+
+    for (const [phase, days] of daysByPhase) {
+      const sorted = [...days].sort((a, b) => a - b)
+      const maxDay = sorted[sorted.length - 1]
+      const daySet = new Set(sorted)
+
+      // Walk from 1 to maxDay: every non-revision day should have a file,
+      // every revision day should NOT have a file.
+      for (let d = 1; d <= maxDay; d++) {
+        if (d % 4 === 0) {
+          expect(
+            daySet.has(d),
+            `${phase} day ${d} is a revision day but has a JSON file`,
+          ).toBe(false)
+        } else {
+          expect(
+            daySet.has(d),
+            `${phase} is missing day ${d} (not a revision day, should have a file)`,
+          ).toBe(true)
+        }
+      }
+    }
+  })
+
   describe.each(curriculumFiles)('$phase/$file', ({ phase, file, path: filePath }) => {
     const label = `${phase}/${file}`
     let data: Record<string, unknown>
