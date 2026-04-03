@@ -1,0 +1,454 @@
+{
+  "day": 9,
+  "phase": 1,
+  "topic": "The Weather",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le soleil",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh so-lay",
+        "meaning": "the sun",
+        "examples": [
+          ["Le soleil est beau aujourd'hui.", "The sun is beautiful today."],
+          ["Il y a du soleil.", "It's sunny."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la pluie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la plwee",
+        "meaning": "the rain",
+        "examples": [
+          ["La pluie tombe.", "The rain is falling."],
+          ["Je n'aime pas la pluie.", "I don't like rain."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le vent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh von",
+        "meaning": "the wind",
+        "examples": [
+          ["Le vent est fort aujourd'hui.", "The wind is strong today."],
+          ["Il y a du vent.", "It's windy."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "chaud",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "show",
+        "meaning": "hot / warm",
+        "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
+        "examples": [
+          ["Il fait chaud aujourd'hui.", "It's hot today."],
+          ["L'eau est chaude.", "The water is hot."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "froid",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "frwa",
+        "meaning": "cold",
+        "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
+        "examples": [
+          ["Il fait froid en hiver.", "It's cold in winter."],
+          ["Le café est froid.", "The coffee is cold."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le soleil",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh so-lay",
+        "meaning": "the sun",
+        "examples": [
+          ["Le soleil est beau aujourd'hui.", "The sun is beautiful today."],
+          ["Il y a du soleil.", "It's sunny."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la pluie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la plwee",
+        "meaning": "the rain",
+        "examples": [
+          ["La pluie tombe.", "The rain is falling."],
+          ["Je n'aime pas la pluie.", "I don't like rain."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le vent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh von",
+        "meaning": "the wind",
+        "examples": [
+          ["Le vent est fort aujourd'hui.", "The wind is strong today."],
+          ["Il y a du vent.", "It's windy."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "chaud",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "show",
+        "meaning": "hot / warm",
+        "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
+        "examples": [
+          ["Il fait chaud aujourd'hui.", "It's hot today."],
+          ["L'eau est chaude.", "The water is hot."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "froid",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "frwa",
+        "meaning": "cold",
+        "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
+        "examples": [
+          ["Il fait froid en hiver.", "It's cold in winter."],
+          ["Le café est froid.", "The coffee is cold."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le nuage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh noo-azh",
+        "meaning": "the cloud",
+        "examples": [
+          ["Il y a des nuages dans le ciel.", "There are clouds in the sky."],
+          ["Le nuage est gris.", "The cloud is grey."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la neige",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la nezh",
+        "meaning": "the snow",
+        "notes": "Also used as a verb: neiger (to snow) — il neige (it's snowing).",
+        "examples": [
+          ["Il y a de la neige en hiver.", "There is snow in winter."],
+          ["La neige est blanche.", "The snow is white."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Quel temps fait-il aujourd'hui ?"],
+        ["B", "Il fait chaud ! Il y a du soleil."],
+        ["A", "Super ! On va au parc samedi ?"],
+        ["B", "Samedi ? Non, il va faire froid samedi."],
+        ["A", "Et dimanche ?"],
+        ["B", "Dimanche, il y a de la pluie. On reste à la maison."],
+        ["A", "Oh non ! Je n'aime pas la pluie."],
+        ["B", "Moi non plus. Mais lundi, il fait beau !"]
+      ],
+      "questions": [
+        {
+          "question": "Quel temps fait-il aujourd'hui ?",
+          "options": ["Il fait froid.", "Il fait chaud avec du soleil.", "Il pleut."],
+          "correctAnswer": "Il fait chaud avec du soleil."
+        },
+        {
+          "question": "Pourquoi ils ne vont pas au parc samedi ?",
+          "options": ["Il y a du vent.", "Il fait froid.", "Il y a de la pluie."],
+          "correctAnswer": "Il fait froid."
+        },
+        {
+          "question": "Quel jour fait-il beau ?",
+          "options": ["Samedi", "Dimanche", "Lundi"],
+          "correctAnswer": "Lundi"
+        }
+      ],
+      "summary": "Two friends discuss the weather for the weekend. Today is hot and sunny, but Saturday will be cold and Sunday will be rainy. They decide to wait for Monday when the weather will be nice."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu as vu la météo pour ce week-end ?"],
+        ["B", "Oui, samedi il fait froid et il y a du vent. Pas idéal pour une promenade."],
+        ["A", "Et dimanche ?"],
+        ["B", "Dimanche matin, il y a des nuages, mais l'après-midi il fait beau."],
+        ["A", "Parfait ! On peut aller au parc dimanche après-midi alors."],
+        ["B", "Bonne idée. Mais prends un pull, il ne fait pas très chaud."],
+        ["A", "D'accord. Et s'il pleut ?"],
+        ["B", "S'il pleut, on va au cinéma. Il y a un bon film français."]
+      ],
+      "questions": [
+        {
+          "question": "Quel temps fait-il samedi ?",
+          "options": ["Il fait chaud.", "Il fait froid avec du vent.", "Il neige.", "Il y a du soleil."],
+          "correctAnswer": "Il fait froid avec du vent."
+        },
+        {
+          "question": "Quand est-ce qu'il fait beau dimanche ?",
+          "options": ["Le matin", "L'après-midi", "Le soir", "Toute la journée"],
+          "correctAnswer": "L'après-midi"
+        },
+        {
+          "question": "Que font-ils s'il pleut ?",
+          "options": ["Ils restent à la maison.", "Ils vont au cinéma.", "Ils vont au parc.", "Ils ne sortent pas."],
+          "correctAnswer": "Ils vont au cinéma."
+        }
+      ],
+      "summary": "Two friends check the weekend forecast. Saturday is cold and windy. Sunday morning is cloudy but the afternoon is nice, so they plan to go to the park. If it rains, they'll go see a French film at the cinema."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Faire + Weather Expressions",
+      "explanation": "In French, the verb 'faire' (to do/make) is used to talk about the weather. You always use the impersonal 'il' (it) as the subject — just like English says 'it's hot'. The key forms are: il fait chaud (it's hot), il fait froid (it's cold), il fait beau (the weather is nice), il fait mauvais (the weather is bad). For rain and snow, French uses different verbs: il pleut (it's raining, from pleuvoir) and il neige (it's snowing, from neiger). To ask about weather: 'Quel temps fait-il ?' (What's the weather like?).",
+      "examples": [
+        {
+          "french": "Il fait chaud aujourd'hui.",
+          "english": "It's hot today."
+        },
+        {
+          "french": "Il fait froid en hiver.",
+          "english": "It's cold in winter."
+        },
+        {
+          "french": "Il fait beau ce matin.",
+          "english": "The weather is nice this morning."
+        },
+        {
+          "french": "Il pleut.",
+          "english": "It's raining."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ___ chaud aujourd'hui. (faire)",
+          "correctAnswer": "fait",
+          "explanation": "Weather expressions use il fait + adjective."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quel ___ fait-il ? (weather)",
+          "correctAnswer": "temps",
+          "explanation": "'Quel temps fait-il ?' means 'What's the weather like?'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ___ en hiver. (to snow)",
+          "correctAnswer": "neige",
+          "explanation": "Neiger → il neige (it's snowing). Used only with 'il'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'It's raining' in French?",
+          "options": ["Il fait pluie.", "Il pleut.", "Il est pluie."],
+          "correctAnswer": "Il pleut.",
+          "explanation": "Rain uses the verb pleuvoir: il pleut (not il fait pluie)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il fait ___ ce matin. (nice weather)",
+          "correctAnswer": "beau",
+          "explanation": "Il fait beau = the weather is nice / it's a beautiful day."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Faire — Weather, Activities & Impersonal Expressions",
+      "explanation": "Faire is one of the most versatile French verbs. For weather: il fait + adjective (il fait chaud/froid/beau/mauvais). Rain and snow use specific verbs: il pleut, il neige. Faire also expresses activities: faire du sport, faire la cuisine, faire les courses. Conjugation: je fais, tu fais, il fait, nous faisons, vous faites, ils font. Negation: il ne fait pas chaud.",
+      "examples": [
+        {
+          "french": "Il ne fait pas beau aujourd'hui.",
+          "english": "The weather isn't nice today."
+        },
+        {
+          "french": "Quel temps fait-il en été ?",
+          "english": "What's the weather like in summer?"
+        },
+        {
+          "french": "Quand il fait beau, je fais du sport.",
+          "english": "When the weather is nice, I do sports."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ___ chaud en été. (faire)",
+          "correctAnswer": "fait",
+          "explanation": "Weather: il fait + adjective."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ du sport le samedi. (faire)",
+          "correctAnswer": "faisons",
+          "explanation": "Nous + faire = nous faisons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ne ___ pas beau aujourd'hui. (faire)",
+          "correctAnswer": "fait",
+          "explanation": "Negation: il ne fait pas + adjective."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct conjugation for 'vous' + faire?",
+          "options": ["faisez", "faites", "font", "faisent"],
+          "correctAnswer": "faites",
+          "explanation": "Vous faites — irregular form, must be memorised."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ les courses le samedi. (faire)",
+          "correctAnswer": "font",
+          "explanation": "Ils/elles + faire = ils font."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'It's not cold' in French?",
+          "options": ["Il fait ne pas froid.", "Il ne fait pas froid.", "Il pas fait froid.", "Ne il fait pas froid."],
+          "correctAnswer": "Il ne fait pas froid.",
+          "explanation": "Negation wraps the verb: ne + fait + pas."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ la cuisine ce soir ? (faire)",
+          "correctAnswer": "fais",
+          "explanation": "Tu + faire = tu fais."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ du sport quand il fait beau. (faire)",
+          "correctAnswer": "fais",
+          "explanation": "Je + faire = je fais."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'il fait chaud' mean?",
+        "options": ["It's cold.", "It's hot.", "It's windy."],
+        "correctAnswer": "It's hot.",
+        "explanation": "'Il fait chaud' uses faire + adjective to describe hot weather.",
+        "targetWord": "chaud"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le soleil'?",
+        "options": ["the moon", "the sun", "the cloud"],
+        "correctAnswer": "the sun",
+        "explanation": "'Le soleil' means 'the sun'. It is masculine.",
+        "targetWord": "le soleil"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il y a de la ___ en hiver. (rain)",
+        "correctAnswer": "pluie",
+        "explanation": "'La pluie' means rain.",
+        "targetWord": "la pluie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'It's windy' in French?",
+        "options": ["Il fait vent.", "Il y a du vent.", "Il est vent."],
+        "correctAnswer": "Il y a du vent.",
+        "explanation": "Wind uses 'il y a du vent' (there is wind), not 'il fait vent'.",
+        "targetWord": "le vent"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il fait ___ en hiver. (cold)",
+        "correctAnswer": "froid",
+        "explanation": "'Il fait froid' means 'it's cold'.",
+        "targetWord": "froid"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Which expression means 'the weather is bad'?",
+        "options": ["Il fait beau.", "Il fait mauvais.", "Il fait chaud.", "Il fait froid."],
+        "correctAnswer": "Il fait mauvais.",
+        "explanation": "'Il fait mauvais' describes bad weather. 'Il fait beau' is the opposite.",
+        "targetWord": "froid"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il y a des ___ dans le ciel. (clouds)",
+        "correctAnswer": "nuages",
+        "explanation": "'Les nuages' means clouds. Singular: le nuage.",
+        "targetWord": "le nuage"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'il neige' mean?",
+        "options": ["It's raining.", "It's snowing.", "It's cold.", "It's cloudy."],
+        "correctAnswer": "It's snowing.",
+        "explanation": "'Neiger' means to snow. Il neige = it's snowing.",
+        "targetWord": "la neige"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Quel ___ fait-il aujourd'hui ? (weather)",
+        "correctAnswer": "temps",
+        "explanation": "'Quel temps fait-il ?' is the standard way to ask about weather.",
+        "targetWord": "chaud"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'It's not hot today'?",
+        "options": ["Il fait ne pas chaud.", "Il ne fait pas chaud.", "Il pas fait chaud.", "Ne il fait pas chaud."],
+        "correctAnswer": "Il ne fait pas chaud.",
+        "explanation": "Negation: ne + fait + pas. Il ne fait pas chaud.",
+        "targetWord": "chaud"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "La ___ est blanche en hiver. (snow)",
+        "correctAnswer": "neige",
+        "explanation": "'La neige' means snow. Feminine noun.",
+        "targetWord": "la neige"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A colleague at work asks you what the weather is like today and what kind of weather you prefer. Tell them about today's weather and what you like to do in your favourite weather.",
+      "keyPhrases": ["Il fait...", "Il y a du...", "J'aime quand il fait...", "Je n'aime pas..."],
+      "modelAnswer": "Aujourd'hui, il fait chaud et il y a du soleil. J'aime quand il fait beau. Quand il fait chaud, je vais au parc. Je n'aime pas la pluie.",
+      "modelAnswerExplanation": "This answer uses 'il fait' for weather descriptions, 'il y a du' for sun/wind, 'j'aime quand' to express preference, and 'je n'aime pas' for dislike.",
+      "tip": "Start with 'Aujourd'hui, il fait...' to describe the current weather, then use 'J'aime quand...' for your preference."
+    },
+    "advanced": {
+      "scenario": "You're planning a weekend trip with a friend. Discuss the weather forecast for both days, suggest activities depending on the weather, and propose a backup plan if the weather is bad.",
+      "keyPhrases": ["Quel temps fait-il...", "Il fait beau / mauvais", "S'il pleut...", "Quand il fait chaud..."],
+      "modelAnswer": "Samedi, il fait beau et il y a du soleil. On peut faire du sport au parc. Mais dimanche, il fait froid et il y a des nuages. S'il pleut dimanche, on peut aller au cinéma ou rester à la maison.",
+      "modelAnswerExplanation": "This uses weather expressions with days of the week, 'on peut' for suggestions, 's'il pleut' for a conditional backup, and vocabulary for activities.",
+      "tip": ""
+    }
+  }
+}

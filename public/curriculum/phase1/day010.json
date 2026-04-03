@@ -1,0 +1,475 @@
+{
+  "day": 13,
+  "phase": 1,
+  "topic": "At the Market",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le marché",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh mar-shay",
+        "meaning": "the market",
+        "examples": [
+          ["Je vais au marché le samedi.", "I go to the market on Saturdays."],
+          ["Le marché est ouvert le matin.", "The market is open in the morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "acheter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ash-tay",
+        "meaning": "to buy",
+        "notes": "Stem change: j'achète (è in singular forms and ils/elles).",
+        "conjugation": {
+          "je": "achète",
+          "tu": "achètes",
+          "il/elle": "achète",
+          "nous": "achetons",
+          "vous": "achetez",
+          "ils/elles": "achètent"
+        },
+        "examples": [
+          ["J'achète des pommes au marché.", "I buy apples at the market."],
+          ["Qu'est-ce que tu achètes ?", "What are you buying?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le prix",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pree",
+        "meaning": "the price",
+        "notes": "The final 'x' is silent.",
+        "examples": [
+          ["Quel est le prix ?", "What is the price?"],
+          ["Le prix est deux euros.", "The price is two euros."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le vendeur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh von-dur",
+        "meaning": "the seller / the shop assistant",
+        "notes": "Feminine form: la vendeuse.",
+        "examples": [
+          ["Le vendeur est très gentil.", "The seller is very kind."],
+          ["Le vendeur donne le sac.", "The seller gives the bag."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "un kilo",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "an kee-lo",
+        "meaning": "a kilogram",
+        "notes": "Short for kilogramme. Used with 'de': un kilo de pommes.",
+        "examples": [
+          ["Un kilo de pommes, s'il vous plaît.", "A kilo of apples, please."],
+          ["C'est combien le kilo ?", "How much is it per kilo?"]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le marché",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh mar-shay",
+        "meaning": "the market",
+        "examples": [
+          ["Je vais au marché le samedi.", "I go to the market on Saturdays."],
+          ["Le marché est ouvert le matin.", "The market is open in the morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "acheter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ash-tay",
+        "meaning": "to buy",
+        "notes": "Stem change: j'achète (è in singular forms and ils/elles).",
+        "conjugation": {
+          "je": "achète",
+          "tu": "achètes",
+          "il/elle": "achète",
+          "nous": "achetons",
+          "vous": "achetez",
+          "ils/elles": "achètent"
+        },
+        "examples": [
+          ["J'achète des pommes au marché.", "I buy apples at the market."],
+          ["Qu'est-ce que tu achètes ?", "What are you buying?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le prix",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pree",
+        "meaning": "the price",
+        "notes": "The final 'x' is silent.",
+        "examples": [
+          ["Quel est le prix ?", "What is the price?"],
+          ["Le prix est deux euros.", "The price is two euros."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le vendeur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh von-dur",
+        "meaning": "the seller / the shop assistant",
+        "notes": "Feminine form: la vendeuse.",
+        "examples": [
+          ["Le vendeur est très gentil.", "The seller is very kind."],
+          ["Le vendeur donne le sac.", "The seller gives the bag."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "un kilo",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "an kee-lo",
+        "meaning": "a kilogram",
+        "notes": "Short for kilogramme. Used with 'de': un kilo de pommes.",
+        "examples": [
+          ["Un kilo de pommes, s'il vous plaît.", "A kilo of apples, please."],
+          ["C'est combien le kilo ?", "How much is it per kilo?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la monnaie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la mo-nay",
+        "meaning": "the change (money) / coins",
+        "notes": "Also means currency. 'Faire la monnaie' = to make change.",
+        "examples": [
+          ["Vous avez la monnaie ?", "Do you have change?"],
+          ["Je n'ai pas de monnaie.", "I don't have any change."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le sac",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sak",
+        "meaning": "the bag",
+        "notes": "Le sac à main = handbag. Le sac en plastique = plastic bag.",
+        "examples": [
+          ["Vous voulez un sac ?", "Would you like a bag?"],
+          ["Je mets les fruits dans le sac.", "I put the fruit in the bag."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour ! Je voudrais des pommes, s'il vous plaît."],
+        ["B", "Bien sûr ! Combien ?"],
+        ["A", "Un kilo, s'il vous plaît. C'est combien ?"],
+        ["B", "Deux euros le kilo."],
+        ["A", "D'accord. Et je voudrais aussi du fromage."],
+        ["B", "Voilà le fromage. Trois euros cinquante."],
+        ["A", "Je peux payer avec un billet de dix euros ?"],
+        ["B", "Oui, bien sûr. Voilà votre monnaie. Bonne journée !"]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que A achète en premier ?",
+          "options": ["Du fromage", "Des pommes", "Du pain"],
+          "correctAnswer": "Des pommes"
+        },
+        {
+          "question": "Combien coûtent les pommes ?",
+          "options": ["Un euro le kilo", "Deux euros le kilo", "Trois euros le kilo"],
+          "correctAnswer": "Deux euros le kilo"
+        },
+        {
+          "question": "Combien coûte le fromage ?",
+          "options": ["Deux euros", "Trois euros cinquante", "Cinq euros"],
+          "correctAnswer": "Trois euros cinquante"
+        }
+      ],
+      "summary": "A customer buys apples (one kilo at two euros) and cheese (three euros fifty) at the market. The customer pays with a ten-euro note and receives change."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonjour monsieur ! Je voudrais un kilo de tomates, s'il vous plaît."],
+        ["B", "Voilà, un kilo de tomates. Vous voulez autre chose ?"],
+        ["A", "Oui, je peux avoir du fromage ? Le petit rond, là."],
+        ["B", "Celui-ci ? C'est du chèvre. Quatre euros la pièce."],
+        ["A", "C'est un peu cher. Vous pouvez faire trois euros cinquante ?"],
+        ["B", "Hmm, d'accord, pour vous, trois euros cinquante."],
+        ["A", "Merci ! Je prends aussi un sac de pommes de terre. C'est combien le tout ?"],
+        ["B", "Alors, les tomates deux euros, le fromage trois cinquante, les pommes de terre un euro cinquante. Ça fait sept euros."]
+      ],
+      "questions": [
+        {
+          "question": "Quel type de fromage A veut-il ?",
+          "options": ["Du camembert", "Du chèvre", "Du gruyère", "Du brie"],
+          "correctAnswer": "Du chèvre"
+        },
+        {
+          "question": "Combien coûte le fromage après la négociation ?",
+          "options": ["Quatre euros", "Trois euros cinquante", "Trois euros", "Deux euros cinquante"],
+          "correctAnswer": "Trois euros cinquante"
+        },
+        {
+          "question": "Quel est le prix total ?",
+          "options": ["Cinq euros", "Six euros", "Sept euros", "Huit euros"],
+          "correctAnswer": "Sept euros"
+        }
+      ],
+      "summary": "A customer at an outdoor market buys tomatoes (two euros), goat cheese (negotiated from four euros to three fifty), and potatoes (one fifty). The total is seven euros."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Vouloir & Pouvoir (je voudrais, je peux)",
+      "explanation": "Vouloir (to want) and pouvoir (to be able to / can) are essential modal verbs. They are followed by an infinitive: je veux manger (I want to eat), je peux payer (I can pay). For polite requests, use the conditional form 'je voudrais' (I would like) instead of 'je veux' (I want). Conjugation of vouloir: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent. Conjugation of pouvoir: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent.",
+      "examples": [
+        {
+          "french": "Je voudrais un kilo de pommes.",
+          "english": "I would like a kilo of apples."
+        },
+        {
+          "french": "Tu peux m'aider ?",
+          "english": "Can you help me?"
+        },
+        {
+          "french": "Nous voulons acheter du fromage.",
+          "english": "We want to buy cheese."
+        },
+        {
+          "french": "Vous pouvez payer par carte ?",
+          "english": "Can you pay by card?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ un kilo de pommes, s'il vous plaît. (would like)",
+          "correctAnswer": "voudrais",
+          "explanation": "'Je voudrais' is the polite form of 'je veux'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ m'aider ? (can)",
+          "correctAnswer": "peux",
+          "explanation": "Tu + pouvoir = tu peux."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ acheter du fromage. (to want)",
+          "correctAnswer": "voulons",
+          "explanation": "Nous + vouloir = nous voulons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is more polite?",
+          "options": ["Je veux un café.", "Je voudrais un café.", "Je peux un café."],
+          "correctAnswer": "Je voudrais un café.",
+          "explanation": "'Je voudrais' (I would like) is more polite than 'je veux' (I want)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ payer par carte ? (can)",
+          "correctAnswer": "pouvez",
+          "explanation": "Vous + pouvoir = vous pouvez."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Vouloir, Pouvoir & Devoir — Modal Verbs",
+      "explanation": "The three main modal verbs: vouloir (to want), pouvoir (can/to be able), devoir (must/to have to). All are irregular and followed by an infinitive. Vouloir: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent. Pouvoir: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent. Devoir: je dois, tu dois, il doit, nous devons, vous devez, ils doivent. Polite form: je voudrais (I would like), je pourrais (could I). Negation: je ne peux pas payer.",
+      "examples": [
+        {
+          "french": "Je dois partir à midi.",
+          "english": "I must leave at noon."
+        },
+        {
+          "french": "Elle ne peut pas venir.",
+          "english": "She cannot come."
+        },
+        {
+          "french": "Vous devez payer avant de partir.",
+          "english": "You must pay before leaving."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ un kilo de tomates. (would like)",
+          "correctAnswer": "voudrais",
+          "explanation": "'Je voudrais' is the polite conditional of vouloir."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ m'aider ? (can)",
+          "correctAnswer": "peux",
+          "explanation": "Tu + pouvoir = tu peux."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ partir maintenant. (must)",
+          "correctAnswer": "devons",
+          "explanation": "Nous + devoir = nous devons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'je dois' mean?",
+          "options": ["I can", "I want", "I must", "I would like"],
+          "correctAnswer": "I must",
+          "explanation": "Devoir = must/to have to. Je dois = I must."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ne ___ pas venir ce soir. (can)",
+          "correctAnswer": "peuvent",
+          "explanation": "Ils + pouvoir = ils peuvent. Negation: ne peuvent pas."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ payer avant de partir. (must)",
+          "correctAnswer": "devez",
+          "explanation": "Vous + devoir = vous devez."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is correct?",
+          "options": ["Je ne veux pas acheter.", "Je veux ne pas acheter.", "Je ne acheter veux pas.", "Ne je veux pas acheter."],
+          "correctAnswer": "Je ne veux pas acheter.",
+          "explanation": "Negation wraps the conjugated verb: ne + veux + pas. The infinitive follows."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ___ trois langues. (can — is able to speak)",
+          "correctAnswer": "peut",
+          "explanation": "Elle + pouvoir = elle peut. 'Elle peut parler trois langues.'"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le marché' mean?",
+        "options": ["the shop", "the market", "the restaurant"],
+        "correctAnswer": "the market",
+        "explanation": "'Le marché' means the market.",
+        "targetWord": "le marché"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "J'___ des pommes au marché. (to buy)",
+        "correctAnswer": "achète",
+        "explanation": "J'achète — stem change with è in singular forms.",
+        "targetWord": "acheter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you politely say 'I would like' in French?",
+        "options": ["Je veux", "Je peux", "Je voudrais"],
+        "correctAnswer": "Je voudrais",
+        "explanation": "'Je voudrais' is the polite conditional form of vouloir.",
+        "targetWord": "acheter"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Quel est le ___ ? (price)",
+        "correctAnswer": "prix",
+        "explanation": "'Le prix' means the price.",
+        "targetWord": "le prix"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le vendeur' mean?",
+        "options": ["the buyer", "the seller", "the customer"],
+        "correctAnswer": "the seller",
+        "explanation": "'Le vendeur' means the seller or shop assistant.",
+        "targetWord": "le vendeur"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la monnaie'?",
+        "options": ["the price", "the change / coins", "the bag", "the receipt"],
+        "correctAnswer": "the change / coins",
+        "explanation": "'La monnaie' means change (money) or coins.",
+        "targetWord": "la monnaie"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je mets les fruits dans le ___. (bag)",
+        "correctAnswer": "sac",
+        "explanation": "'Le sac' means the bag.",
+        "targetWord": "le sac"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'je dois' mean?",
+        "options": ["I can", "I want", "I must", "I would like"],
+        "correctAnswer": "I must",
+        "explanation": "Devoir = must/to have to. Je dois = I must.",
+        "targetWord": "le marché"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Vous ___ payer par carte ? (can)",
+        "correctAnswer": "pouvez",
+        "explanation": "Vous + pouvoir = vous pouvez.",
+        "targetWord": "le prix"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'a kilo of apples'?",
+        "options": ["un kilo pommes", "un kilo de pommes", "un kilo des pommes", "un kilo à pommes"],
+        "correctAnswer": "un kilo de pommes",
+        "explanation": "Quantities use 'de' (not des): un kilo de pommes.",
+        "targetWord": "un kilo"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le ___ est très gentil. (seller)",
+        "correctAnswer": "vendeur",
+        "explanation": "'Le vendeur' means the seller. Feminine: la vendeuse.",
+        "targetWord": "le vendeur"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You're at a French market stall. Ask the vendor for three items, ask the price, and say thank you politely.",
+      "keyPhrases": ["Je voudrais...", "C'est combien ?", "Un kilo de...", "Merci beaucoup !"],
+      "modelAnswer": "Bonjour ! Je voudrais un kilo de pommes, s'il vous plaît. Et je voudrais aussi du fromage. C'est combien ? D'accord, merci beaucoup ! Bonne journée !",
+      "modelAnswerExplanation": "This uses 'je voudrais' for polite requests, 'un kilo de' for quantities, 'c'est combien' to ask the price, and 's'il vous plaît / merci' for politeness.",
+      "tip": "Always start with 'Bonjour' and use 'je voudrais' instead of 'je veux' to be polite."
+    },
+    "advanced": {
+      "scenario": "You're at an outdoor market buying ingredients for dinner. Ask for specific quantities, negotiate a price that seems too high, ask about payment methods, and make small talk with the vendor about the weather or the products.",
+      "keyPhrases": ["Je voudrais...", "C'est un peu cher.", "Vous pouvez faire... ?", "Je peux payer par carte ?"],
+      "modelAnswer": "Bonjour ! Je voudrais un kilo de tomates et du fromage de chèvre. C'est combien le fromage ? Quatre euros ? C'est un peu cher. Vous pouvez faire trois euros cinquante ? Merci ! Je peux payer par carte ? Non ? D'accord, je paie en monnaie. Vos tomates sont très belles aujourd'hui !",
+      "modelAnswerExplanation": "This uses polite requests with 'je voudrais', price negotiation with 'c'est un peu cher' and 'vous pouvez faire...?', 'je peux' to ask about payment, and a compliment to make small talk.",
+      "tip": ""
+    }
+  }
+}
