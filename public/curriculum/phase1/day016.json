@@ -1,0 +1,539 @@
+{
+  "day": 21,
+  "phase": 1,
+  "topic": "Hobbies & Free Time",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le sport",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh spor",
+        "meaning": "sport / sports",
+        "notes": "Used as a general uncountable noun in French, e.g. 'faire du sport' (to do sport/exercise).",
+        "examples": [
+          ["J'aime faire du sport le week-end.", "I like doing sport at the weekend."],
+          ["Le sport est bon pour la santé.", "Sport is good for your health."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la lecture",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la lek-tür",
+        "meaning": "reading",
+        "notes": "Refers to the activity of reading. 'Un livre' is a book; 'la lecture' is the act of reading.",
+        "examples": [
+          ["La lecture est mon passe-temps préféré.", "Reading is my favourite pastime."],
+          ["Elle fait de la lecture chaque soir.", "She reads every evening."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le dessin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh deh-san",
+        "meaning": "drawing",
+        "notes": "Refers both to the activity (drawing) and the product (a drawing/sketch). 'Faire du dessin' = to draw as a hobby.",
+        "examples": [
+          ["Il fait du dessin tous les jours.", "He draws every day."],
+          ["J'ai montré mon dessin à mes amis.", "I showed my drawing to my friends."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "jouer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "zhoo-ay",
+        "meaning": "to play",
+        "notes": "Used with 'à' for sports and games (jouer au football), and with 'de' for musical instruments (jouer de la guitare).",
+        "conjugation": {
+          "je": "joue",
+          "tu": "joues",
+          "il/elle": "joue",
+          "nous": "jouons",
+          "vous": "jouez",
+          "ils/elles": "jouent"
+        },
+        "examples": [
+          ["On joue au foot dans le parc.", "We play football in the park."],
+          ["Elle joue de la guitare le soir.", "She plays guitar in the evening."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la chanson",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la shan-son",
+        "meaning": "the song",
+        "notes": "'La chanson' is specifically a song with lyrics. 'La musique' is music in general.",
+        "examples": [
+          ["C'est ma chanson préférée !", "That's my favourite song!"],
+          ["On chante une chanson ensemble.", "We sing a song together."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le sport",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh spor",
+        "meaning": "sport / sports",
+        "notes": "Used as a general uncountable noun in French, e.g. 'faire du sport' (to do sport/exercise).",
+        "examples": [
+          ["J'aime faire du sport le week-end.", "I like doing sport at the weekend."],
+          ["Le sport est bon pour la santé.", "Sport is good for your health."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la lecture",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la lek-tür",
+        "meaning": "reading",
+        "notes": "Refers to the activity of reading. 'Un livre' is a book; 'la lecture' is the act of reading.",
+        "examples": [
+          ["La lecture est mon passe-temps préféré.", "Reading is my favourite pastime."],
+          ["Elle fait de la lecture chaque soir.", "She reads every evening."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le dessin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh deh-san",
+        "meaning": "drawing",
+        "notes": "Refers both to the activity (drawing) and the product (a drawing/sketch). 'Faire du dessin' = to draw as a hobby.",
+        "examples": [
+          ["Il fait du dessin tous les jours.", "He draws every day."],
+          ["J'ai montré mon dessin à mes amis.", "I showed my drawing to my friends."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "jouer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "zhoo-ay",
+        "meaning": "to play",
+        "notes": "Used with 'à' for sports and games (jouer au football), and with 'de' for musical instruments (jouer de la guitare).",
+        "conjugation": {
+          "je": "joue",
+          "tu": "joues",
+          "il/elle": "joue",
+          "nous": "jouons",
+          "vous": "jouez",
+          "ils/elles": "jouent"
+        },
+        "examples": [
+          ["On joue au foot dans le parc.", "We play football in the park."],
+          ["Elle joue de la guitare le soir.", "She plays guitar in the evening."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la chanson",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la shan-son",
+        "meaning": "the song",
+        "notes": "'La chanson' is specifically a song with lyrics. 'La musique' is music in general.",
+        "examples": [
+          ["C'est ma chanson préférée !", "That's my favourite song!"],
+          ["On chante une chanson ensemble.", "We sing a song together."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la randonnée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ran-do-nay",
+        "meaning": "hiking / a hike",
+        "notes": "'Faire une randonnée' means to go on a hike. 'La randonnée pédestre' specifies walking/hiking on foot.",
+        "examples": [
+          [
+            "On fait une randonnée en montagne ce week-end.",
+            "We're going hiking in the mountains this weekend."
+          ],
+          [
+            "La randonnée, c'est excellent pour se ressourcer.",
+            "Hiking is excellent for recharging."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la peinture",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la pan-tür",
+        "meaning": "painting",
+        "notes": "Can mean the activity (painting as a hobby), the medium (paint), or the finished artwork (a painting). Context distinguishes the meaning.",
+        "examples": [
+          ["Elle fait de la peinture depuis dix ans.", "She has been painting for ten years."],
+          ["Cette peinture est vraiment belle.", "This painting is really beautiful."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Salut ! Tu t'appelles comment ?"],
+        ["B", "Je m'appelle Lucas. Et toi ?"],
+        ["A", "Moi, c'est Camille. Tu fais quoi comme loisirs ?"],
+        ["B", "J'adore jouer de la guitare. Et toi, tu as des hobbies ?"],
+        ["A", "Oui ! J'aime faire de la randonnée et aussi le dessin."],
+        ["B", "Cool ! On fait de la randonnée souvent par ici ?"],
+        ["A", "Oui, il y a un beau sentier près du parc. Tu veux essayer ?"],
+        ["B", "Oui, avec plaisir ! Et tu peux me montrer tes dessins aussi !"]
+      ],
+      "questions": [
+        {
+          "question": "What is Lucas's hobby?",
+          "options": ["Playing guitar", "Hiking", "Drawing"],
+          "correctAnswer": "Playing guitar"
+        },
+        {
+          "question": "What are Camille's two hobbies?",
+          "options": ["Guitar and drawing", "Hiking and drawing", "Hiking and singing"],
+          "correctAnswer": "Hiking and drawing"
+        },
+        {
+          "question": "What does Camille suggest at the end?",
+          "options": [
+            "Going to a concert",
+            "Trying the hiking trail near the park",
+            "Drawing together at home"
+          ],
+          "correctAnswer": "Trying the hiking trail near the park"
+        }
+      ],
+      "summary": "Camille and Lucas meet at a party and discover they each have interesting hobbies. Lucas loves playing guitar, while Camille enjoys hiking and drawing. Camille mentions a nice trail nearby and invites Lucas to try it, and Lucas is keen to see her drawings too."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Enchanté, je m'appelle Théo. Tu es nouvelle dans le quartier ?"],
+        ["B", "Oui, j'arrive de Lyon. Je m'appelle Inès. Tu fais quoi comme activités ici ?"],
+        ["A", "Moi, je joue du piano et je fais du sport — surtout du tennis. Et toi ?"],
+        [
+          "B",
+          "Intéressant ! Moi, j'aime la peinture et la randonnée. Je cherche un groupe pour explorer la région."
+        ],
+        [
+          "A",
+          "Il y a un club de randonnée qui se réunit le samedi matin. On y va souvent avec des amis."
+        ],
+        ["B", "Super ! Et pour la peinture, tu connais des ateliers par ici ?"],
+        [
+          "A",
+          "Oui, il y a un atelier communautaire rue Saint-Jacques. On peut y aller ensemble si tu veux."
+        ],
+        ["B", "Ce serait parfait. J'adorerais aussi t'entendre jouer du piano un jour !"]
+      ],
+      "questions": [
+        {
+          "question": "What two activities does Théo enjoy?",
+          "options": [
+            "Painting and tennis",
+            "Piano and tennis",
+            "Piano and hiking",
+            "Drawing and piano"
+          ],
+          "correctAnswer": "Piano and tennis"
+        },
+        {
+          "question": "What is Inès looking for in her new neighbourhood?",
+          "options": [
+            "A piano teacher",
+            "A tennis club",
+            "A group to explore the area",
+            "A painting class for beginners"
+          ],
+          "correctAnswer": "A group to explore the area"
+        },
+        {
+          "question": "When does the hiking club meet?",
+          "options": [
+            "Friday evening",
+            "Sunday afternoon",
+            "Saturday morning",
+            "Wednesday morning"
+          ],
+          "correctAnswer": "Saturday morning"
+        }
+      ],
+      "summary": "Théo and Inès meet as new acquaintances. Théo plays piano and enjoys tennis; Inès is a painter who loves hiking and wants to connect with local groups. Théo points her towards a hiking club and a community art studio, and they agree to go together. Inès also expresses interest in hearing Théo play piano."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Jouer à / Jouer de + On (Informal We)",
+      "explanation": "In French, the verb 'jouer' (to play) is used in two different ways depending on what you are playing.\n\n**Jouer à** is used for sports and games:\n- jouer au football (à + le → au)\n- jouer au tennis\n- jouer aux cartes (à + les → aux)\n\n**Jouer de** is used for musical instruments:\n- jouer du piano (de + le → du)\n- jouer de la guitare\n- jouer des percussions (de + les → des)\n\nThe key rule: sport/game → jouer à ; instrument → jouer de.\n\n**On as informal 'we':**\nIn everyday spoken French, people very often say 'on' instead of 'nous' to mean 'we'. 'On' is conjugated exactly like il/elle (third person singular).\n- On joue au foot. = Nous jouons au foot. (We play football.)\n- On aime la lecture. = Nous aimons la lecture. (We like reading.)\nYou will hear 'on' far more often than 'nous' in casual conversation.",
+      "examples": [
+        {
+          "french": "On joue au tennis le samedi.",
+          "english": "We play tennis on Saturdays."
+        },
+        {
+          "french": "Elle joue de la guitare très bien.",
+          "english": "She plays guitar very well."
+        },
+        {
+          "french": "On fait du dessin ensemble.",
+          "english": "We do drawing together."
+        },
+        {
+          "french": "Ils jouent aux cartes après le dîner.",
+          "english": "They play cards after dinner."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il joue ___ guitare. (He plays guitar.)",
+          "correctAnswer": "de la",
+          "explanation": "'Guitare' is feminine (la guitare), so 'jouer de' + 'la' stays as 'de la'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: On joue ___ football. (We play football.)",
+          "correctAnswer": "au",
+          "explanation": "'Football' is masculine (le football), so 'jouer à' + 'le' contracts to 'au'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'We play cards' using 'on'?",
+          "options": ["On joue de les cartes.", "On joue aux cartes.", "On joue à les cartes."],
+          "correctAnswer": "On joue aux cartes.",
+          "explanation": "'Cartes' is plural (les cartes), so 'à + les' contracts to 'aux'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is correct?",
+          "options": ["On joue du tennis.", "On joue au tennis.", "On joue de le tennis."],
+          "correctAnswer": "On joue au tennis.",
+          "explanation": "Tennis is a sport/game, so use 'jouer à'. 'À + le' contracts to 'au'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: On ___ du sport tous les jours. (We do sport every day.)",
+          "correctAnswer": "fait",
+          "explanation": "'On' is conjugated like il/elle, so 'faire' becomes 'fait'. On fait = we do."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Jouer à / Jouer de — Sports, Games & Instruments + On as Impersonal Pronoun",
+      "explanation": "**Jouer à vs jouer de — full contraction patterns:**\n\n'Jouer à' (sport / game) triggers contractions with the definite article:\n- à + le → au : jouer au basket, jouer au piano ✗ (piano is an instrument — see below)\n- à + la → à la : jouer à la pétanque\n- à + l' → à l' : jouer à l'échec (chess)\n- à + les → aux : jouer aux échecs, jouer aux cartes\n\n'Jouer de' (musical instrument) also contracts:\n- de + le → du : jouer du piano, jouer du violon\n- de + la → de la : jouer de la guitare, jouer de la flûte\n- de + l' → de l' : jouer de l'accordéon, jouer de l'orgue\n- de + les → des : jouer des percussions\n\n**On — three uses:**\n1. Informal 'we' (most common in speech): On part demain. = Nous partons demain.\n2. Impersonal 'one / people / you (in general)': On dit que Paris est belle. (People say Paris is beautiful.)\n3. Passive-like 'they / someone': On m'a appelé ce matin. (Someone called me this morning.)\n\n**Register note:** 'Nous' is standard in writing and formal speech. 'On' dominates informal spoken French. Both are grammatically correct; choosing appropriately marks your fluency.",
+      "examples": [
+        {
+          "french": "On joue aux échecs ce soir — tu viens ?",
+          "english": "We're playing chess tonight — are you coming?"
+        },
+        {
+          "french": "En France, on dit souvent 'on' à la place de 'nous'.",
+          "english": "In France, people often say 'on' instead of 'nous'."
+        },
+        {
+          "french": "Elle joue du violon depuis l'âge de six ans.",
+          "english": "She has been playing the violin since the age of six."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il joue ___ violoncelle. (He plays cello — le violoncelle)",
+          "correctAnswer": "du",
+          "explanation": "'de + le' contracts to 'du'. Le violoncelle → jouer du violoncelle."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: On joue ___ échecs après le cours. (We play chess after class — les échecs)",
+          "correctAnswer": "aux",
+          "explanation": "'à + les' contracts to 'aux'. Les échecs → jouer aux échecs."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly uses 'jouer de'?",
+          "options": [
+            "On joue de le football.",
+            "Elle joue de la flûte.",
+            "Ils jouent de les cartes.",
+            "Tu joues de le tennis."
+          ],
+          "correctAnswer": "Elle joue de la flûte.",
+          "explanation": "'La flûte' is a feminine instrument. 'De + la' stays as 'de la'. The other options use sports/games (which need 'à') or have incorrect contractions."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How is 'on' best described in 'On m'a dit que le film est bien' ?",
+          "options": [
+            "Informal we",
+            "Impersonal one / someone",
+            "Formal nous",
+            "A specific person"
+          ],
+          "correctAnswer": "Impersonal one / someone",
+          "explanation": "Here 'on' means 'someone told me' — it refers to an unspecified person, not a group 'we'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Rewrite using 'on': 'Nous aimons la randonnée.'",
+          "correctAnswer": "On aime la randonnée.",
+          "explanation": "'On' replaces 'nous' and takes the il/elle conjugation: 'aimer' → 'aime'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Choose the correct contraction: 'Ils jouent ___ accordéon.'",
+          "options": ["de l'", "du", "de la", "des"],
+          "correctAnswer": "de l'",
+          "explanation": "'Accordéon' starts with a vowel: 'de + l'' → 'de l''. Jouer de l'accordéon."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: En France, on ___ souvent 'bonjour' quand on entre dans un magasin. (In France, people often say 'hello' when entering a shop.)",
+          "correctAnswer": "dit",
+          "explanation": "'On' conjugates like il/elle. 'Dire' → 'dit'. This is the impersonal 'one / people' use of 'on'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which option correctly completes: 'Vous jouez ___ pétanque ?' (Do you play pétanque?)",
+          "options": ["du", "à la", "de la", "au"],
+          "correctAnswer": "à la",
+          "explanation": "Pétanque is a game/sport → 'jouer à'. 'La pétanque' is feminine, so 'à + la' stays as 'à la'."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la randonnée' mean?",
+        "options": ["Drawing", "Hiking", "Reading"],
+        "correctAnswer": "Hiking",
+        "explanation": "'La randonnée' means hiking. 'Faire une randonnée' = to go on a hike.",
+        "targetWord": "la randonnée"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence is correct for playing piano?",
+        "options": ["Je joue au piano.", "Je joue du piano.", "Je joue de le piano."],
+        "correctAnswer": "Je joue du piano.",
+        "explanation": "Musical instruments use 'jouer de'. 'De + le piano' contracts to 'du piano'.",
+        "targetWord": "jouer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ joue au tennis le dimanche. (We play tennis on Sundays — use informal 'we')",
+        "correctAnswer": "On",
+        "explanation": "'On' is the informal way to say 'we' in spoken French. It conjugates like il/elle: 'on joue'.",
+        "targetWord": "jouer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'reading' as a hobby in French?",
+        "options": ["le dessin", "la chanson", "la lecture"],
+        "correctAnswer": "la lecture",
+        "explanation": "'La lecture' means the activity of reading. It comes from the verb 'lire' (to read).",
+        "targetWord": "la lecture"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elle joue ___ cartes avec ses amis. (She plays cards with her friends.)",
+        "correctAnswer": "aux",
+        "explanation": "Cards (les cartes) is a game, so use 'jouer à'. 'À + les' contracts to 'aux'.",
+        "targetWord": "jouer"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la peinture' mean?",
+        "options": ["Drawing", "Hiking", "Painting", "Reading"],
+        "correctAnswer": "Painting",
+        "explanation": "'La peinture' means painting — both the activity and the artwork. 'Le dessin' is drawing.",
+        "targetWord": "la peinture"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly uses 'jouer de'?",
+        "options": [
+          "On joue de le tennis.",
+          "Elle joue de la guitare.",
+          "Ils jouent de les cartes.",
+          "Tu joues du football."
+        ],
+        "correctAnswer": "Elle joue de la guitare.",
+        "explanation": "Instruments use 'jouer de'. 'La guitare' is feminine: 'de + la' stays as 'de la'. The others use sports/games incorrectly or have wrong contractions.",
+        "targetWord": "jouer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il joue ___ accordéon depuis trois ans. (He has been playing accordion for three years.)",
+        "correctAnswer": "de l'",
+        "explanation": "'Accordéon' starts with a vowel. 'De + l'' → 'de l''. Instruments → jouer de.",
+        "targetWord": "jouer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "In 'On dit que la randonnée est excellente pour la santé', what does 'on' mean?",
+        "options": ["We (a specific group)", "One / people in general", "He", "You (formal)"],
+        "correctAnswer": "One / people in general",
+        "explanation": "Here 'on' is impersonal — it doesn't refer to a specific group but to people in general, meaning 'it is said that' / 'people say that'.",
+        "targetWord": "jouer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Rewrite formally: 'On aime faire du sport.' → '___ aimons faire du sport.'",
+        "correctAnswer": "Nous",
+        "explanation": "In formal or written French, 'nous' is used instead of 'on'. The verb changes: 'on aime' → 'nous aimons'.",
+        "targetWord": "jouer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Choose the correct form: 'Vous jouez ___ pétanque ?' (pétanque is a feminine game)",
+        "options": ["du", "au", "à la", "de la"],
+        "correctAnswer": "à la",
+        "explanation": "Pétanque is a sport/game → 'jouer à'. Feminine article: 'à + la' stays 'à la'. Not 'jouer de', which is for instruments.",
+        "targetWord": "jouer"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at a social gathering and meet someone new. Tell them about two or three of your hobbies and ask what they enjoy doing in their free time.",
+      "keyPhrases": [
+        "J'aime… / J'adore… (I like… / I love…)",
+        "Comme loisir, je fais… (As a hobby, I do…)",
+        "Et toi, qu'est-ce que tu aimes faire ? (And you, what do you like to do?)"
+      ],
+      "modelAnswer": "Bonjour ! Comme loisirs, j'aime faire du sport et la lecture. Le week-end, on joue au tennis avec des amis et je fais du dessin aussi. Et toi, qu'est-ce que tu aimes faire pendant ton temps libre ?",
+      "modelAnswerExplanation": "The model answer introduces two hobbies using 'faire du sport' and 'la lecture', demonstrates 'jouer à' correctly with tennis, uses 'on' naturally for an informal 'we', and ends with an open question to keep the conversation going.",
+      "tip": "If you get stuck, start with 'J'aime…' and name a hobby — even one word is a good start. Then add 'Et toi ?' to involve the other person."
+    },
+    "advanced": {
+      "scenario": "You have just joined a community centre (un centre communautaire). Introduce yourself to the other members, talk about one or two activities you would like to try there, and ask about any clubs or groups you could join.",
+      "keyPhrases": [
+        "Je viens de m'inscrire… (I've just signed up…)",
+        "J'aimerais essayer… / Je voudrais participer à… (I'd like to try… / I'd like to take part in…)",
+        "Est-ce qu'il y a un club de… / un atelier de… ? (Is there a… club / workshop?)",
+        "On pourrait… ensemble ? (Could we… together?)"
+      ],
+      "modelAnswer": "Bonjour à tous ! Je viens de m'inscrire au centre et je suis vraiment content(e) d'être ici. Comme loisirs, je fais de la peinture et j'aime beaucoup la randonnée. J'aimerais essayer un atelier de peinture ou rejoindre un groupe de randonnée. Est-ce qu'il y a un club de randonnée ici ? On pourrait organiser une sortie ensemble un week-end !",
+      "modelAnswerExplanation": "The model answer opens with a warm, natural introduction using 'je viens de m'inscrire', presents two hobbies fluently, uses 'j'aimerais' (conditional) for polite requests, asks directly about clubs, and closes with 'on pourrait' to suggest a shared activity — all hallmarks of confident, sociable French.",
+      "tip": ""
+    }
+  }
+}
