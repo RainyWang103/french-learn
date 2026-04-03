@@ -1,0 +1,542 @@
+{
+  "day": 15,
+  "phase": 1,
+  "topic": "Daily Chores & Housework",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le ménage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh may-nazh",
+        "meaning": "housework / cleaning",
+        "notes": "Used in the expression 'faire le ménage' (to do the housework/cleaning).",
+        "examples": [
+          ["Je fais le ménage le samedi.", "I do the housework on Saturday."],
+          ["Le ménage prend beaucoup de temps.", "Housework takes a lot of time."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "nettoyer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "neh-twa-yay",
+        "meaning": "to clean",
+        "notes": "The -yer verb changes y → i before a silent e: je nettoie, tu nettoies.",
+        "conjugation": {
+          "je": "nettoie",
+          "tu": "nettoies",
+          "il/elle": "nettoie",
+          "nous": "nettoyons",
+          "vous": "nettoyez",
+          "ils/elles": "nettoient"
+        },
+        "examples": [
+          ["Je nettoie la salle de bain.", "I clean the bathroom."],
+          ["Il faut nettoyer les vitres.", "The windows need to be cleaned."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la vaisselle",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la veh-sel",
+        "meaning": "the dishes / the washing-up",
+        "notes": "Always singular in French. Used in 'faire la vaisselle' (to do the dishes).",
+        "examples": [
+          ["Tu peux faire la vaisselle ?", "Can you do the dishes?"],
+          ["La vaisselle est dans l'évier.", "The dishes are in the sink."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le balai",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ba-lay",
+        "meaning": "the broom",
+        "notes": "Used in 'donner un coup de balai' (to give a quick sweep).",
+        "examples": [
+          ["Où est le balai ?", "Where is the broom?"],
+          ["Elle prend le balai pour nettoyer le sol.", "She takes the broom to clean the floor."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "ranger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ron-zhay",
+        "meaning": "to tidy up / to put away",
+        "notes": "Regular -er verb. Spelling note: we keep -e- before -ons to preserve the soft g: nous rangeons.",
+        "conjugation": {
+          "je": "range",
+          "tu": "ranges",
+          "il/elle": "range",
+          "nous": "rangeons",
+          "vous": "rangez",
+          "ils/elles": "rangent"
+        },
+        "examples": [
+          ["Je range mes affaires après le dîner.", "I tidy up my things after dinner."],
+          ["Il faut ranger le salon.", "The living room needs to be tidied up."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le ménage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh may-nazh",
+        "meaning": "housework / cleaning",
+        "notes": "Used in the expression 'faire le ménage' (to do the housework/cleaning).",
+        "examples": [
+          ["Je fais le ménage le samedi.", "I do the housework on Saturday."],
+          ["Le ménage prend beaucoup de temps.", "Housework takes a lot of time."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "nettoyer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "neh-twa-yay",
+        "meaning": "to clean",
+        "notes": "The -yer verb changes y → i before a silent e: je nettoie, tu nettoies.",
+        "conjugation": {
+          "je": "nettoie",
+          "tu": "nettoies",
+          "il/elle": "nettoie",
+          "nous": "nettoyons",
+          "vous": "nettoyez",
+          "ils/elles": "nettoient"
+        },
+        "examples": [
+          ["Je nettoie la salle de bain.", "I clean the bathroom."],
+          ["Il faut nettoyer les vitres.", "The windows need to be cleaned."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la vaisselle",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la veh-sel",
+        "meaning": "the dishes / the washing-up",
+        "notes": "Always singular in French. Used in 'faire la vaisselle' (to do the dishes).",
+        "examples": [
+          ["Tu peux faire la vaisselle ?", "Can you do the dishes?"],
+          ["La vaisselle est dans l'évier.", "The dishes are in the sink."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le balai",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ba-lay",
+        "meaning": "the broom",
+        "notes": "Used in 'donner un coup de balai' (to give a quick sweep).",
+        "examples": [
+          ["Où est le balai ?", "Where is the broom?"],
+          ["Elle prend le balai pour nettoyer le sol.", "She takes the broom to clean the floor."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "ranger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ron-zhay",
+        "meaning": "to tidy up / to put away",
+        "notes": "Regular -er verb. Spelling note: we keep -e- before -ons to preserve the soft g: nous rangeons.",
+        "conjugation": {
+          "je": "range",
+          "tu": "ranges",
+          "il/elle": "range",
+          "nous": "rangeons",
+          "vous": "rangez",
+          "ils/elles": "rangent"
+        },
+        "examples": [
+          ["Je range mes affaires après le dîner.", "I tidy up my things after dinner."],
+          ["Il faut ranger le salon.", "The living room needs to be tidied up."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'aspirateur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "las-pee-ra-teur",
+        "meaning": "the vacuum cleaner",
+        "notes": "Used in 'passer l'aspirateur' (to vacuum / to hoover).",
+        "examples": [
+          ["Je passe l'aspirateur dans le couloir.", "I vacuum the hallway."],
+          ["L'aspirateur est en panne.", "The vacuum cleaner is broken."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la lessive",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la leh-seev",
+        "meaning": "the laundry / the washing",
+        "notes": "Used in 'faire la lessive' (to do the laundry). Can also refer to the laundry detergent itself.",
+        "examples": [
+          ["Je fais la lessive deux fois par semaine.", "I do the laundry twice a week."],
+          ["La lessive est dans le lave-linge.", "The laundry is in the washing machine."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Il faut faire le ménage ce week-end. Tu peux aider ?"],
+        ["B", "Oui, bien sûr. Qu'est-ce que je dois faire ?"],
+        ["A", "Tu peux faire la vaisselle et ranger la cuisine ?"],
+        ["B", "D'accord. Et toi, tu fais quoi ?"],
+        ["A", "Je vais nettoyer la salle de bain et passer le balai dans le couloir."],
+        ["B", "Et la lessive ? Il y a beaucoup de vêtements sales."],
+        ["A", "Je m'en occupe samedi matin. C'est facile."],
+        ["B", "Super. On finit vite comme ça !"]
+      ],
+      "questions": [
+        {
+          "question": "Que fait B pour aider ?",
+          "options": [
+            "Il nettoie la salle de bain.",
+            "Il fait la vaisselle et range la cuisine.",
+            "Il passe le balai."
+          ],
+          "correctAnswer": "Il fait la vaisselle et range la cuisine."
+        },
+        {
+          "question": "Qu'est-ce que A va nettoyer ?",
+          "options": ["La cuisine", "Le salon", "La salle de bain"],
+          "correctAnswer": "La salle de bain"
+        },
+        {
+          "question": "Quand A fait-il la lessive ?",
+          "options": ["Vendredi soir", "Samedi matin", "Dimanche après-midi"],
+          "correctAnswer": "Samedi matin"
+        }
+      ],
+      "summary": "Two roommates plan to do the housework together over the weekend. B will do the dishes and tidy the kitchen, while A will clean the bathroom, sweep the hallway, and do the laundry on Saturday morning."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "On doit vraiment s'organiser pour les tâches ménagères cette semaine."],
+        ["B", "Je sais. Moi, je déteste faire la vaisselle. Tu peux t'en occuper ?"],
+        ["A", "Ça dépend. Tu fais la lessive en échange ?"],
+        ["B", "D'accord, mais je veux aussi passer l'aspirateur. J'aime bien ça."],
+        ["A", "Vraiment ? Moi, je préfère nettoyer les surfaces avec le balai. C'est plus rapide."],
+        [
+          "B",
+          "Alors, on se partage comme ça : toi la vaisselle et le balai, moi la lessive et l'aspirateur."
+        ],
+        ["A", "Et le ménage général ? Le salon est dans un état terrible."],
+        ["B", "On le fait ensemble dimanche ? Comme ça, ce sera vite fait."]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que B déteste faire ?",
+          "options": [
+            "Passer l'aspirateur",
+            "Faire la vaisselle",
+            "Ranger le salon",
+            "Faire la lessive"
+          ],
+          "correctAnswer": "Faire la vaisselle"
+        },
+        {
+          "question": "Quelle tâche B apprécie-t-il ?",
+          "options": [
+            "Nettoyer les vitres",
+            "Faire le ménage général",
+            "Passer l'aspirateur",
+            "Nettoyer la cuisine"
+          ],
+          "correctAnswer": "Passer l'aspirateur"
+        },
+        {
+          "question": "Quel est le plan pour le salon ?",
+          "options": [
+            "A le nettoie seul.",
+            "B s'en occupe samedi.",
+            "Ils le font ensemble dimanche.",
+            "Ils engagent quelqu'un."
+          ],
+          "correctAnswer": "Ils le font ensemble dimanche."
+        }
+      ],
+      "summary": "Two roommates negotiate their weekly chores. B dislikes doing the dishes but enjoys vacuuming. They divide the tasks: A takes the dishes and broom, B handles the laundry and vacuum. They agree to tackle the general cleaning of the living room together on Sunday."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Reflexive Verbs (Present Tense)",
+      "explanation": "Reflexive verbs describe actions you do to yourself. They are formed with a reflexive pronoun (me, te, se, nous, vous, se) placed before the verb. The infinitive always shows 'se' before it: se laver (to wash oneself), se brosser (to brush oneself), se préparer (to get ready), s'occuper de (to take care of). The reflexive pronoun changes with the subject: je me lave, tu te laves, il/elle se lave, nous nous lavons, vous vous lavez, ils/elles se lavent. Before a vowel or silent h, me/te/se shorten to m'/t'/s': je m'occupe, il s'occupe.",
+      "examples": [
+        {
+          "french": "Je me lave les mains avant de manger.",
+          "english": "I wash my hands before eating."
+        },
+        {
+          "french": "Tu te brosses les dents le soir.",
+          "english": "You brush your teeth in the evening."
+        },
+        {
+          "french": "Il se prépare pour aller au travail.",
+          "english": "He gets ready to go to work."
+        },
+        {
+          "french": "Je m'occupe de la lessive.",
+          "english": "I take care of the laundry."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ lave les mains. (reflexive pronoun)",
+          "correctAnswer": "me",
+          "explanation": "With 'je', the reflexive pronoun is 'me'. Je me lave = I wash myself."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ___ prépare pour sortir. (reflexive pronoun)",
+          "correctAnswer": "se",
+          "explanation": "With 'il/elle', the reflexive pronoun is 'se'. Il se prépare = He gets ready."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct form of 'se laver' for 'nous' ?",
+          "options": ["nous se lavons", "nous lavons", "nous nous lavons"],
+          "correctAnswer": "nous nous lavons",
+          "explanation": "With 'nous', both the subject and reflexive pronoun are 'nous': nous nous lavons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ occupe du ménage. (reflexive pronoun — elision before vowel)",
+          "correctAnswer": "m'",
+          "explanation": "'Me' becomes 'm'' before a vowel: je m'occupe."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'se brosser les dents' mean?",
+          "options": ["to comb your hair", "to brush your teeth", "to wash your face"],
+          "correctAnswer": "to brush your teeth",
+          "explanation": "'Brosser' means to brush, 'les dents' means the teeth: se brosser les dents = to brush one's teeth."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Reflexive Verbs — Conjugation, Negation & Reciprocal Use",
+      "explanation": "Full present-tense conjugation of reflexive verbs: je me lave, tu te laves, il/elle se lave, nous nous lavons, vous vous lavez, ils/elles se lavent. Elision: me/te/se → m'/t'/s' before vowels or silent h (je m'occupe, tu t'habilles). Negation: ne wraps the reflexive pronoun and verb — je ne me lave pas, il ne s'occupe pas de ça. The reflexive pronoun stays between ne and the verb. Reciprocal use: with nous/vous/ils/elles, reflexive verbs can mean 'each other' — nous nous aidons (we help each other), ils se parlent (they talk to each other). Context determines whether it is reflexive or reciprocal.",
+      "examples": [
+        {
+          "french": "Nous ne nous occupons pas de l'aspirateur cette semaine.",
+          "english": "We are not taking care of the vacuum cleaner this week."
+        },
+        {
+          "french": "Ils se partagent les tâches ménagères.",
+          "english": "They share the household chores with each other."
+        },
+        {
+          "french": "Elle ne se prépare pas encore — elle range d'abord.",
+          "english": "She is not getting ready yet — she tidies up first."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ occupons de la lessive. (reflexive pronoun)",
+          "correctAnswer": "nous",
+          "explanation": "With 'nous', both subject and reflexive pronoun are 'nous': nous nous occupons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ne ___ lave pas les mains. (reflexive pronoun)",
+          "correctAnswer": "se",
+          "explanation": "In negation, 'ne' comes before the reflexive pronoun: il ne se lave pas."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly negates 'je me prépare' ?",
+          "options": [
+            "je me ne prépare pas",
+            "je ne prépare pas me",
+            "je ne me prépare pas",
+            "je me prépare ne pas"
+          ],
+          "correctAnswer": "je ne me prépare pas",
+          "explanation": "Negation wraps both the reflexive pronoun and the verb: je ne me prépare pas."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ brosses les dents ? (reflexive pronoun)",
+          "correctAnswer": "te",
+          "explanation": "With 'tu', the reflexive pronoun is 'te': tu te brosses."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'ils se partagent les tâches' mean?",
+          "options": [
+            "they share the tasks with others",
+            "they share the tasks with each other",
+            "he shares the tasks alone",
+            "they avoid sharing tasks"
+          ],
+          "correctAnswer": "they share the tasks with each other",
+          "explanation": "Se partager with ils/elles is a reciprocal reflexive: ils se partagent = they share with each other."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ occupez du ménage le lundi. (reflexive pronoun)",
+          "correctAnswer": "vous",
+          "explanation": "With 'vous', both subject and reflexive pronoun are 'vous': vous vous occupez."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which form is correct: 'je ___ occupe' ?",
+          "options": ["me", "m'", "se", "te"],
+          "correctAnswer": "m'",
+          "explanation": "'Me' becomes 'm'' before a vowel: je m'occupe (s'occuper starts with a vowel)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elles ne ___ préparent pas encore. (reflexive pronoun)",
+          "correctAnswer": "se",
+          "explanation": "With 'elles' in negation: elles ne se préparent pas. Se stays between ne and the verb."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le ménage' mean?",
+        "options": ["the broom", "the dishes", "housework"],
+        "correctAnswer": "housework",
+        "explanation": "'Le ménage' means housework or cleaning. Common expression: faire le ménage.",
+        "targetWord": "le ménage"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ nettoie la salle de bain. (no extra word needed — conjugate nettoyer for 'je')",
+        "correctAnswer": "nettoie",
+        "explanation": "Nettoyer is a -yer verb: y → i before a silent e. Je nettoie.",
+        "targetWord": "nettoyer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'to do the dishes' in French?",
+        "options": ["faire le balai", "faire la vaisselle", "faire le ménage"],
+        "correctAnswer": "faire la vaisselle",
+        "explanation": "'La vaisselle' means dishes/washing-up. 'Faire la vaisselle' = to do the dishes.",
+        "targetWord": "la vaisselle"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Où est le ___ ? Je veux balayer le sol. (broom)",
+        "correctAnswer": "balai",
+        "explanation": "'Le balai' means the broom. Used for sweeping the floor.",
+        "targetWord": "le balai"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the correct reflexive pronoun for 'il ___ prépare' ?",
+        "options": ["me", "te", "se"],
+        "correctAnswer": "se",
+        "explanation": "With 'il/elle', the reflexive pronoun is 'se': il se prépare.",
+        "targetWord": "ranger"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'passer l'aspirateur' mean?",
+        "options": ["to clean the sink", "to take out the bin", "to vacuum", "to mop the floor"],
+        "correctAnswer": "to vacuum",
+        "explanation": "'L'aspirateur' is the vacuum cleaner. 'Passer l'aspirateur' = to vacuum/hoover.",
+        "targetWord": "l'aspirateur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je fais la ___ deux fois par semaine. (laundry)",
+        "correctAnswer": "lessive",
+        "explanation": "'La lessive' means the laundry. 'Faire la lessive' = to do the laundry.",
+        "targetWord": "la lessive"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you negate 'je me lave' correctly?",
+        "options": [
+          "je ne lave pas me",
+          "je me ne lave pas",
+          "je ne me lave pas",
+          "je ne lave me pas"
+        ],
+        "correctAnswer": "je ne me lave pas",
+        "explanation": "In negation, 'ne' comes before the reflexive pronoun and 'pas' comes after the verb: je ne me lave pas.",
+        "targetWord": "nettoyer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ partageons les tâches ménagères. (reflexive pronoun)",
+        "correctAnswer": "nous",
+        "explanation": "With 'nous', the reflexive pronoun is also 'nous': nous nous partageons.",
+        "targetWord": "ranger"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence uses a reciprocal reflexive verb?",
+        "options": [
+          "je me prépare",
+          "il se lave",
+          "ils se partagent les tâches",
+          "tu te brosses les dents"
+        ],
+        "correctAnswer": "ils se partagent les tâches",
+        "explanation": "Reciprocal reflexives express mutual action. 'Ils se partagent' = they share with each other.",
+        "targetWord": "le ménage"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il ne ___ occupe pas du balai. (reflexive pronoun — elision)",
+        "correctAnswer": "s'",
+        "explanation": "'Se' becomes 's'' before a vowel (occuper). Negation: il ne s'occupe pas.",
+        "targetWord": "le balai"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You have a new flatmate moving in. Describe your weekly household chores to them — mention at least three tasks and use reflexive verbs where appropriate.",
+      "keyPhrases": ["Je fais le ménage...", "Je m'occupe de...", "Je nettoie... / Je range..."],
+      "modelAnswer": "Bonjour ! Voici comment on fait le ménage ici. Le samedi matin, je nettoie la salle de bain et je passe le balai dans le couloir. Je fais aussi la vaisselle chaque soir après dîner. Je m'occupe de la lessive le dimanche. Tu peux ranger ta chambre et nettoyer la cuisine ?",
+      "modelAnswerExplanation": "This uses three key vocab words (nettoyer, le balai, la vaisselle), the reflexive verb 'm'occupe de', frequency expressions (le samedi matin, chaque soir, le dimanche), and ends with a polite suggestion.",
+      "tip": "Remember that reflexive verbs need a pronoun that matches the subject: je m'occupe, tu t'occupes, il s'occupe. Before a vowel, me/te/se shorten to m'/t'/s'."
+    },
+    "advanced": {
+      "scenario": "You and your flatmate need to organise all household chores for the coming week. Negotiate who does what and when, expressing preferences and using reflexive verbs naturally.",
+      "keyPhrases": [
+        "Je préfère m'occuper de...",
+        "On se partage...",
+        "Tu peux te charger de... ?",
+        "Je ne veux pas faire... — je préfère..."
+      ],
+      "modelAnswer": "Bon, on doit s'organiser pour cette semaine. Moi, je préfère m'occuper de la lessive et passer l'aspirateur — j'aime bien ça. Par contre, je déteste faire la vaisselle. Tu peux t'en charger ? En échange, je nettoie la salle de bain et je range le salon. On se partage le ménage général samedi matin ensemble. Ça te convient ?",
+      "modelAnswerExplanation": "This response uses reciprocal and reflexive verbs (s'organiser, m'occuper de, se partager), expresses preferences and dislikes, offers a trade (en échange), and closes with a question to the flatmate. It naturally incorporates all advanced vocabulary.",
+      "tip": ""
+    }
+  }
+}

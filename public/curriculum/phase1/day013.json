@@ -1,0 +1,525 @@
+{
+  "day": 17,
+  "phase": 1,
+  "topic": "At the Restaurant",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le restaurant",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh res-toh-RAHN",
+        "meaning": "the restaurant",
+        "notes": "Used the same way as in English — a place to eat out.",
+        "examples": [
+          ["Nous allons au restaurant ce soir.", "We are going to the restaurant tonight."],
+          ["Le restaurant est complet.", "The restaurant is full."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le serveur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sehr-VUR",
+        "meaning": "the waiter",
+        "notes": "The feminine form is 'la serveuse' (the waitress).",
+        "examples": [
+          ["Le serveur apporte le menu.", "The waiter brings the menu."],
+          ["Excusez-moi, monsieur le serveur !", "Excuse me, waiter!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le plat",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh PLAH",
+        "meaning": "the dish / the main course",
+        "notes": "'Le plat du jour' means 'the dish of the day' — very common in French restaurants.",
+        "examples": [
+          ["Quel est le plat du jour ?", "What is the dish of the day?"],
+          ["Je prends le plat principal.", "I'll have the main course."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'entrée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lahn-TRAY",
+        "meaning": "the starter / the first course",
+        "notes": "In France, 'l'entrée' is the starter (first course), not the main — opposite of American English usage.",
+        "examples": [
+          ["Comme entrée, je voudrais la soupe.", "As a starter, I would like the soup."],
+          ["L'entrée est incluse dans le menu.", "The starter is included in the set menu."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le dessert",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh deh-ZEHR",
+        "meaning": "the dessert",
+        "notes": "Spelled and pronounced similarly to English, but note the double 's'.",
+        "examples": [
+          ["Vous désirez un dessert ?", "Would you like a dessert?"],
+          ["Le dessert est délicieux.", "The dessert is delicious."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le restaurant",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh res-toh-RAHN",
+        "meaning": "the restaurant",
+        "notes": "Used the same way as in English — a place to eat out.",
+        "examples": [
+          ["Nous allons au restaurant ce soir.", "We are going to the restaurant tonight."],
+          ["Le restaurant est complet.", "The restaurant is full."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le serveur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sehr-VUR",
+        "meaning": "the waiter",
+        "notes": "The feminine form is 'la serveuse' (the waitress).",
+        "examples": [
+          ["Le serveur apporte le menu.", "The waiter brings the menu."],
+          ["Excusez-moi, monsieur le serveur !", "Excuse me, waiter!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le plat",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh PLAH",
+        "meaning": "the dish / the main course",
+        "notes": "'Le plat du jour' means 'the dish of the day' — very common in French restaurants.",
+        "examples": [
+          ["Quel est le plat du jour ?", "What is the dish of the day?"],
+          ["Je prends le plat principal.", "I'll have the main course."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'entrée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lahn-TRAY",
+        "meaning": "the starter / the first course",
+        "notes": "In France, 'l'entrée' is the starter (first course), not the main — opposite of American English usage.",
+        "examples": [
+          ["Comme entrée, je voudrais la soupe.", "As a starter, I would like the soup."],
+          ["L'entrée est incluse dans le menu.", "The starter is included in the set menu."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le dessert",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh deh-ZEHR",
+        "meaning": "the dessert",
+        "notes": "Spelled and pronounced similarly to English, but note the double 's'.",
+        "examples": [
+          ["Vous désirez un dessert ?", "Would you like a dessert?"],
+          ["Le dessert est délicieux.", "The dessert is delicious."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'addition",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah-dee-SYOHN",
+        "meaning": "the bill (at a restaurant)",
+        "notes": "'L'addition, s'il vous plaît' is the standard way to ask for the bill. Do not say 'la facture' in a restaurant context — that is for invoices.",
+        "examples": [
+          ["L'addition, s'il vous plaît !", "The bill, please!"],
+          ["Nous partageons l'addition.", "We are splitting the bill."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le pourboire",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh poor-BWAHR",
+        "meaning": "the tip (gratuity)",
+        "notes": "Tipping is less obligatory in France than in some other countries, as service is often included ('service compris'). Leaving a small tip is appreciated but not expected.",
+        "examples": [
+          ["Je laisse un pourboire.", "I leave a tip."],
+          [
+            "Le service est compris — pas de pourboire nécessaire.",
+            "Service is included — no tip necessary."
+          ]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonsoir ! Vous avez une réservation ?"],
+        ["B", "Oui, une table pour deux, s'il vous plaît."],
+        ["A", "Bien sûr. Voici le menu. Vous êtes prêts à commander ?"],
+        ["B", "Oui. Comme entrée, je prends la soupe, et mon ami prend la salade."],
+        ["A", "Et comme plat principal ?"],
+        ["B", "Je voudrais le poulet, s'il vous plaît. Et comme dessert, la tarte au chocolat."],
+        ["A", "Très bien. Et pour monsieur ?"],
+        [
+          "B",
+          "Pour lui, le steak et comme dessert, la crème brûlée. L'addition, s'il vous plaît, à la fin."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Pour combien de personnes est la réservation ?",
+          "options": ["Une personne", "Deux personnes", "Trois personnes"],
+          "correctAnswer": "Deux personnes"
+        },
+        {
+          "question": "Qu'est-ce que la première personne choisit comme plat principal ?",
+          "options": ["Le steak", "La salade", "Le poulet"],
+          "correctAnswer": "Le poulet"
+        },
+        {
+          "question": "Quel dessert choisit la deuxième personne ?",
+          "options": ["La tarte au chocolat", "La crème brûlée", "La mousse au citron"],
+          "correctAnswer": "La crème brûlée"
+        }
+      ],
+      "summary": "A couple arrives at a restaurant for dinner. They have a reservation for two. They order starters, main courses, and desserts, and ask for the bill at the end."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonsoir ! Bienvenue. Vous avez une réservation ?"],
+        ["B", "Oui, au nom de Dupont, pour deux personnes."],
+        [
+          "A",
+          "Très bien. Je vous installe ici. Vous avez des allergies ou des restrictions alimentaires ?"
+        ],
+        ["B", "Oui, je suis végétarienne. Est-ce que le plat du jour contient de la viande ?"],
+        [
+          "A",
+          "Effectivement, c'est un canard confit. Mais nous avons une excellente quiche aux légumes comme alternative."
+        ],
+        [
+          "B",
+          "Parfait. Je prends la quiche. Et comme entrée, est-ce que la soupe est faite avec un bouillon de poulet ?"
+        ],
+        ["A", "Non, c'est un bouillon de légumes. Elle est entièrement végétarienne."],
+        [
+          "B",
+          "Excellent. Alors la soupe en entrée, la quiche en plat, et ensuite l'addition, s'il vous plaît — nous allons partager."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Pourquoi la cliente pose-t-elle des questions sur les ingrédients ?",
+          "options": [
+            "Elle n'aime pas les légumes.",
+            "Elle est végétarienne.",
+            "Elle est allergique au gluten.",
+            "Elle suit un régime sans sel."
+          ],
+          "correctAnswer": "Elle est végétarienne."
+        },
+        {
+          "question": "Qu'est-ce que le plat du jour ?",
+          "options": [
+            "Une quiche aux légumes",
+            "Un steak frites",
+            "Un canard confit",
+            "Une soupe de légumes"
+          ],
+          "correctAnswer": "Un canard confit"
+        },
+        {
+          "question": "Pourquoi la soupe convient-elle à la cliente ?",
+          "options": [
+            "Elle est gratuite.",
+            "Elle est préparée avec un bouillon de légumes.",
+            "Elle est servie froide.",
+            "Elle est sans gluten."
+          ],
+          "correctAnswer": "Elle est préparée avec un bouillon de légumes."
+        }
+      ],
+      "summary": "A vegetarian diner asks the waiter about ingredients before ordering. The dish of the day contains meat, so she opts for a vegetable quiche instead. She also verifies that the soup is vegetarian before ordering it as a starter. At the end, they plan to split the bill."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Regular -RE Verbs (Present Tense)",
+      "explanation": "Many French verbs end in -RE. To conjugate them in the present tense, remove the -RE ending to get the stem, then add the following endings:\n\n• je       → stem + -s\n• tu       → stem + -s\n• il/elle  → stem + (nothing — no ending added!)\n• nous     → stem + -ons\n• vous     → stem + -ez\n• ils/elles → stem + -ent\n\nKey verbs to know:\n• attendre (to wait) — stem: attend-\n• vendre (to sell) — stem: vend-\n• répondre (to answer) — stem: répond-\n• perdre (to lose) — stem: perd-\n• entendre (to hear) — stem: entend-\n\nExample with 'attendre':\nje attends, tu attends, il attend, nous attendons, vous attendez, ils attendent\n\nNotice: 'il attend' has no ending — the stem alone forms the third-person singular.",
+      "examples": [
+        {
+          "french": "J'attends le serveur.",
+          "english": "I am waiting for the waiter."
+        },
+        {
+          "french": "Il répond à la question.",
+          "english": "He answers the question."
+        },
+        {
+          "french": "Nous vendons des billets.",
+          "english": "We sell tickets."
+        },
+        {
+          "french": "Vous entendez la musique ?",
+          "english": "Do you hear the music?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "J'_____ (attendre) le serveur.",
+          "correctAnswer": "attends",
+          "explanation": "With 'je', add -s to the stem 'attend-': j'attends."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils _____ (répondre) en français.",
+          "correctAnswer": "répondent",
+          "explanation": "With 'ils', add -ent to the stem 'répond-': ils répondent."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct conjugation of 'vendre' for 'nous' ?",
+          "options": ["nous vendez", "nous vendons", "nous vendent"],
+          "correctAnswer": "nous vendons",
+          "explanation": "The 'nous' ending for -RE verbs is -ons: nous vendons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu _____ (entendre) le serveur ?",
+          "correctAnswer": "entends",
+          "explanation": "With 'tu', add -s to the stem 'entend-': tu entends."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'She loses her keys' in French?",
+          "options": ["Elle perds ses clés.", "Elle perdent ses clés.", "Elle perd ses clés."],
+          "correctAnswer": "Elle perd ses clés.",
+          "explanation": "With 'il/elle', no ending is added — just the stem 'perd': elle perd."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Regular -RE Verbs — Full Conjugation, Negation & Common Patterns",
+      "explanation": "Regular -RE verbs follow a consistent pattern. Remove -RE to get the stem, then add:\n\n• je → -s | tu → -s | il/elle → (none) | nous → -ons | vous → -ez | ils/elles → -ent\n\nFull conjugation of 'attendre' (to wait):\nj'attends, tu attends, il attend, nous attendons, vous attendez, ils attendent\n\nNegation: place 'ne...pas' around the conjugated verb.\n→ Je n'attends pas. (I am not waiting.)\n→ Il ne répond pas. (He does not answer.)\n\nNote the elision: 'ne' becomes 'n'' before a vowel.\n\nCommon -RE verbs at restaurant level:\n• attendre — to wait\n• entendre — to hear\n• répondre — to answer\n• vendre — to sell\n• perdre — to lose\n• descendre — to go down / to get off\n• rendre — to give back / to return\n• défendre — to defend / to forbid\n\nWatch out: 'prendre' (to take) looks like an -RE verb but is irregular — it does NOT follow this pattern.",
+      "examples": [
+        {
+          "french": "Nous attendons une table depuis vingt minutes.",
+          "english": "We have been waiting for a table for twenty minutes."
+        },
+        {
+          "french": "Il ne répond pas à mes messages.",
+          "english": "He does not answer my messages."
+        },
+        {
+          "french": "Les vendeurs vendent leurs produits au marché.",
+          "english": "The sellers sell their products at the market."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous _____ (répondre) toujours poliment.",
+          "correctAnswer": "répondez",
+          "explanation": "With 'vous', add -ez to the stem 'répond-': vous répondez."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous _____ (entendre) le bruit dans la salle.",
+          "correctAnswer": "entendons",
+          "explanation": "With 'nous', add -ons to the stem 'entend-': nous entendons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly uses the negation of 'attendre' ?",
+          "options": [
+            "Je attends pas.",
+            "Je n'attends pas.",
+            "Je ne attends pas.",
+            "J'attends ne pas."
+          ],
+          "correctAnswer": "Je n'attends pas.",
+          "explanation": "'ne' elides to 'n'' before the vowel 'a': je n'attends pas."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il _____ (descendre) les escaliers lentement.",
+          "correctAnswer": "descend",
+          "explanation": "With 'il', no ending is added — just the stem 'descend': il descend."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which verb does NOT follow the regular -RE conjugation pattern?",
+          "options": ["vendre", "répondre", "prendre", "entendre"],
+          "correctAnswer": "prendre",
+          "explanation": "'prendre' is an irregular -RE verb and does not follow the standard endings."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils _____ (perdre) souvent leurs affaires.",
+          "correctAnswer": "perdent",
+          "explanation": "With 'ils', add -ent to the stem 'perd-': ils perdent."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'She gives back the menu' ?",
+          "options": [
+            "Elle rend le menu.",
+            "Elle rendez le menu.",
+            "Elle rendons le menu.",
+            "Elle renders le menu."
+          ],
+          "correctAnswer": "Elle rend le menu.",
+          "explanation": "With 'elle', no ending is added to the stem 'rend-': elle rend."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ne _____ (répondre) pas à sa question.",
+          "correctAnswer": "réponds",
+          "explanation": "With 'tu', add -s to the stem 'répond-': tu réponds. Negation: tu ne réponds pas."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'l'entrée' mean in a French restaurant context?",
+        "options": ["The main course", "The starter", "The dessert"],
+        "correctAnswer": "The starter",
+        "explanation": "In France, 'l'entrée' refers to the first course (starter), not the main dish.",
+        "targetWord": "l'entrée"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "To ask for the bill in French, you say: 'L'_____, s'il vous plaît !'",
+        "correctAnswer": "addition",
+        "explanation": "'L'addition' means the bill. This is the standard phrase used in French restaurants.",
+        "targetWord": "l'addition"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which conjugation of 'attendre' is correct for 'il' ?",
+        "options": ["il attends", "il attendez", "il attend"],
+        "correctAnswer": "il attend",
+        "explanation": "With 'il/elle', no ending is added to the stem of -RE verbs: il attend.",
+        "targetWord": "attendre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous _____ (répondre) en français.",
+        "correctAnswer": "répondons",
+        "explanation": "With 'nous', add -ons to the stem 'répond-': nous répondons.",
+        "targetWord": "répondre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the French word for 'waiter' (male)?",
+        "options": ["le serveur", "le pourboire", "le plat"],
+        "correctAnswer": "le serveur",
+        "explanation": "'Le serveur' means the waiter. The feminine form is 'la serveuse'.",
+        "targetWord": "le serveur"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le pourboire' mean?",
+        "options": ["The dish of the day", "The bill", "The tip", "The starter"],
+        "correctAnswer": "The tip",
+        "explanation": "'Le pourboire' is the tip (gratuity) left for the server. 'L'addition' is the bill.",
+        "targetWord": "le pourboire"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je n'_____ (entendre) pas le serveur.",
+        "correctAnswer": "entends",
+        "explanation": "With 'je', add -s to the stem 'entend-': j'entends. With negation: je n'entends pas.",
+        "targetWord": "entendre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence is grammatically correct?",
+        "options": [
+          "Ils vendent des billets.",
+          "Ils vendez des billets.",
+          "Ils vends des billets.",
+          "Ils vendons des billets."
+        ],
+        "correctAnswer": "Ils vendent des billets.",
+        "explanation": "With 'ils', add -ent to the stem 'vend-': ils vendent.",
+        "targetWord": "vendre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Vous _____ (attendre) depuis longtemps ?",
+        "correctAnswer": "attendez",
+        "explanation": "With 'vous', add -ez to the stem 'attend-': vous attendez.",
+        "targetWord": "attendre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you correctly ask for the bill in French?",
+        "options": [
+          "Le pourboire, s'il vous plaît !",
+          "L'addition, s'il vous plaît !",
+          "Le dessert, s'il vous plaît !",
+          "L'entrée, s'il vous plaît !"
+        ],
+        "correctAnswer": "L'addition, s'il vous plaît !",
+        "explanation": "'L'addition' is the bill in a restaurant. 'Le pourboire' is the tip, not the bill.",
+        "targetWord": "l'addition"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il ne _____ (répondre) pas à mes questions.",
+        "correctAnswer": "répond",
+        "explanation": "With 'il', no ending is added to the stem 'répond-': il répond. Negation: il ne répond pas.",
+        "targetWord": "répondre"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at a French restaurant with a friend. Order a starter, a main course, and a dessert for yourself. Ask the waiter what the dish of the day is, and at the end, ask for the bill.",
+      "keyPhrases": [
+        "Quel est le plat du jour ?",
+        "Comme entrée, je voudrais... / Comme plat, je prends...",
+        "L'addition, s'il vous plaît !"
+      ],
+      "modelAnswer": "Bonsoir ! Quel est le plat du jour ? ... D'accord. Comme entrée, je voudrais la soupe, s'il vous plaît. Et comme plat principal, je prends le poulet. Et pour le dessert, je voudrais le dessert au chocolat. ... L'addition, s'il vous plaît !",
+      "modelAnswerExplanation": "This model answer covers all three parts of the task: asking about the dish of the day, ordering a full meal (starter, main, dessert) using 'je voudrais' and 'je prends', and requesting the bill with the standard phrase.",
+      "tip": "Use 'je voudrais' (I would like) to sound polite when ordering — it is more formal and courteous than 'je veux' (I want)."
+    },
+    "advanced": {
+      "scenario": "You are at a French restaurant and you are vegetarian. Ask the waiter about ingredients in the dishes, order a full meal that suits your diet, and then handle paying the bill — including deciding whether to leave a tip.",
+      "keyPhrases": [
+        "Est-ce que ce plat contient de la viande / du poisson ?",
+        "Je suis végétarien(ne) — qu'est-ce que vous recommandez ?",
+        "Nous allons partager l'addition.",
+        "Je laisse un pourboire."
+      ],
+      "modelAnswer": "Bonsoir ! Je suis végétarienne — est-ce que le plat du jour contient de la viande ? ... Et la soupe, elle est faite avec un bouillon de légumes ou de poulet ? ... Parfait. Alors, comme entrée, je prends la soupe, et comme plat, la quiche aux légumes, s'il vous plaît. Pas de dessert pour moi, merci. ... L'addition, s'il vous plaît. Nous allons partager. ... Voilà, et je laisse un petit pourboire — le service était excellent.",
+      "modelAnswerExplanation": "This model answer demonstrates asking about ingredients for dietary reasons, making informed choices, ordering confidently without meat, declining dessert politely, splitting the bill, and leaving a tip with a compliment about the service.",
+      "tip": ""
+    }
+  }
+}
