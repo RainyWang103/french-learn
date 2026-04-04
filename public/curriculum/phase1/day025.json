@@ -1,0 +1,514 @@
+{
+  "day": 25,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Describing People",
+  "vocab": {
+    "standard": [
+      {
+        "word": "grand",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "gran",
+        "meaning": "tall / big",
+        "notes": "Feminine form: 'grande' (gran-d). 'Grand' can mean tall (for people) or big/great (for things). 'Un grand homme' = a great man; 'un homme grand' = a tall man.",
+        "examples": [
+          ["Mon père est très grand.", "My father is very tall."],
+          ["Elle a une grande maison.", "She has a big house."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "petit",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "puh-tee",
+        "meaning": "short / small",
+        "notes": "Feminine form: 'petite' (puh-teet). Used for height (short) and size (small). Also used affectionately: 'mon petit' = my little one.",
+        "examples": [
+          ["Ma sœur est petite pour son âge.", "My sister is short for her age."],
+          ["C'est un petit village.", "It's a small village."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les cheveux",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay shuh-vuh",
+        "meaning": "the hair",
+        "notes": "Always plural in French when talking about hair on someone's head. 'Un cheveu' (singular) means a single strand. Describe with 'avoir': 'Elle a les cheveux longs.' (She has long hair.)",
+        "examples": [
+          ["Il a les cheveux noirs.", "He has black hair."],
+          ["Ses cheveux sont courts et blonds.", "His/Her hair is short and blond."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les yeux",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay zyuh",
+        "meaning": "the eyes",
+        "notes": "Irregular plural of 'un œil' (an eye). Describe with 'avoir': 'Elle a les yeux bleus.' Common eye colours: bleus, verts, marron (invariable), noirs.",
+        "examples": [
+          ["Elle a les yeux verts.", "She has green eyes."],
+          ["Il a de beaux yeux.", "He has beautiful eyes."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "jeune",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "zhuhn",
+        "meaning": "young",
+        "notes": "Same form for masculine and feminine: 'un jeune homme' (a young man), 'une jeune femme' (a young woman). Opposite: 'vieux/vieille' (old).",
+        "examples": [
+          ["C'est une jeune femme très sympa.", "She's a very nice young woman."],
+          ["Les jeunes aiment la musique.", "Young people like music."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "grand",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "gran",
+        "meaning": "tall / big",
+        "notes": "Feminine form: 'grande' (gran-d). 'Grand' can mean tall (for people) or big/great (for things). 'Un grand homme' = a great man; 'un homme grand' = a tall man.",
+        "examples": [
+          ["Mon père est très grand.", "My father is very tall."],
+          ["Elle a une grande maison.", "She has a big house."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "petit",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "puh-tee",
+        "meaning": "short / small",
+        "notes": "Feminine form: 'petite' (puh-teet). Used for height (short) and size (small). Also used affectionately: 'mon petit' = my little one.",
+        "examples": [
+          ["Ma sœur est petite pour son âge.", "My sister is short for her age."],
+          ["C'est un petit village.", "It's a small village."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les cheveux",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay shuh-vuh",
+        "meaning": "the hair",
+        "notes": "Always plural in French when talking about hair on someone's head. 'Un cheveu' (singular) means a single strand. Describe with 'avoir': 'Elle a les cheveux longs.' (She has long hair.)",
+        "examples": [
+          ["Il a les cheveux noirs.", "He has black hair."],
+          ["Ses cheveux sont courts et blonds.", "His/Her hair is short and blond."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les yeux",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay zyuh",
+        "meaning": "the eyes",
+        "notes": "Irregular plural of 'un œil' (an eye). Describe with 'avoir': 'Elle a les yeux bleus.' Common eye colours: bleus, verts, marron (invariable), noirs.",
+        "examples": [
+          ["Elle a les yeux verts.", "She has green eyes."],
+          ["Il a de beaux yeux.", "He has beautiful eyes."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "jeune",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "zhuhn",
+        "meaning": "young",
+        "notes": "Same form for masculine and feminine: 'un jeune homme' (a young man), 'une jeune femme' (a young woman). Opposite: 'vieux/vieille' (old).",
+        "examples": [
+          ["C'est une jeune femme très sympa.", "She's a very nice young woman."],
+          ["Les jeunes aiment la musique.", "Young people like music."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "mince",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "mans",
+        "meaning": "slim / thin",
+        "notes": "Same form for masculine and feminine. More polite than 'maigre' (skinny/thin, which can sound negative). 'Mince !' is also an exclamation meaning 'Darn!'.",
+        "examples": [
+          ["Elle est grande et mince.", "She is tall and slim."],
+          ["Il est resté mince malgré son âge.", "He stayed slim despite his age."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la barbe",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la barb",
+        "meaning": "the beard",
+        "notes": "'Porter la barbe' or 'avoir une barbe' = to have a beard. 'La moustache' = the moustache. 'Rasé' = clean-shaven.",
+        "examples": [
+          ["Mon oncle a une grande barbe noire.", "My uncle has a big black beard."],
+          ["Il porte la barbe depuis deux ans.", "He has had a beard for two years."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu connais mon ami Lucas ?"],
+        ["B", "Non, il est comment ?"],
+        ["A", "Il est grand et mince. Il a les cheveux bruns et courts."],
+        ["B", "Il a les yeux de quelle couleur ?"],
+        ["A", "Il a les yeux bleus. Et il est jeune — il a vingt-trois ans."],
+        ["B", "D'accord. Et il porte des lunettes ?"],
+        ["A", "Non, pas de lunettes. Mais il porte souvent un chapeau noir."],
+        ["B", "Ah, je crois que je le vois là-bas au café !"]
+      ],
+      "questions": [
+        {
+          "question": "What colour is Lucas's hair?",
+          "options": ["Blond", "Brown", "Black"],
+          "correctAnswer": "Brown"
+        },
+        {
+          "question": "What colour are Lucas's eyes?",
+          "options": ["Green", "Brown", "Blue"],
+          "correctAnswer": "Blue"
+        },
+        {
+          "question": "What does Lucas often wear?",
+          "options": ["Glasses", "A black hat", "A red scarf"],
+          "correctAnswer": "A black hat"
+        }
+      ],
+      "summary": "Speaker A describes their friend Lucas so speaker B can spot him at a café. Lucas is tall and slim with short brown hair and blue eyes. He is twenty-three years old, does not wear glasses, but often wears a black hat. Speaker B thinks they can see him."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Je cherche ma cousine au café. Tu peux m'aider ?"],
+        ["B", "Bien sûr ! Elle est comment ?"],
+        [
+          "A",
+          "Elle est plus petite que moi, mais plus grande que la moyenne. Elle a les cheveux longs et roux."
+        ],
+        ["B", "Des cheveux roux — c'est assez rare ! Et les yeux ?"],
+        ["A", "Elle a les yeux verts. Elle est aussi mince que moi, à peu près."],
+        ["B", "Elle porte une barbe ? Non, je plaisante ! Elle a quel âge ?"],
+        ["A", "Elle a vingt-huit ans. Elle est moins jeune que moi mais elle fait plus jeune."],
+        ["B", "Ah, la femme avec les cheveux roux près de la fenêtre ? Elle lit un livre."],
+        ["A", "Oui, c'est elle ! Merci beaucoup !"],
+        ["B", "De rien, elle est plus facile à repérer que je pensais !"]
+      ],
+      "questions": [
+        {
+          "question": "What is the cousin's hair like?",
+          "options": ["Short and brown", "Long and red", "Long and blond", "Short and black"],
+          "correctAnswer": "Long and red"
+        },
+        {
+          "question": "How old is the cousin?",
+          "options": ["Twenty-three", "Twenty-five", "Twenty-eight", "Thirty"],
+          "correctAnswer": "Twenty-eight"
+        },
+        {
+          "question": "What is the cousin doing when they spot her?",
+          "options": [
+            "Drinking coffee",
+            "Reading a book",
+            "Talking on the phone",
+            "Looking out the window"
+          ],
+          "correctAnswer": "Reading a book"
+        }
+      ],
+      "summary": "Speaker A is looking for their cousin at a café. They describe her as slightly shorter than themselves but above average height, with long red hair, green eyes, and a slim build. She is twenty-eight but looks younger. Speaker B spots a red-haired woman reading a book near the window, and it turns out to be the cousin."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Comparative Adjectives (plus...que, moins...que, aussi...que)",
+      "explanation": "Comparative adjectives let you compare two people or things. French has three comparison patterns:\n\n**More…than → plus + adjective + que**\n- Il est **plus grand que** moi. (He is taller than me.)\n- Paris est **plus grande que** Lyon. (Paris is bigger than Lyon.)\n\n**Less…than → moins + adjective + que**\n- Elle est **moins grande que** son frère. (She is less tall than her brother.)\n- Ce film est **moins intéressant que** le livre. (This film is less interesting than the book.)\n\n**As…as → aussi + adjective + que**\n- Il est **aussi grand que** son père. (He is as tall as his father.)\n- Cette robe est **aussi jolie que** l'autre. (This dress is as pretty as the other.)\n\n**Important rules:**\n- The adjective still agrees in gender and number with the first noun: 'Elle est plus petite que lui.' (petite = feminine)\n- 'Que' becomes 'qu'' before a vowel: 'plus grand qu'elle'\n- After 'que', use stressed pronouns: moi, toi, lui, elle, nous, vous, eux, elles",
+      "examples": [
+        {
+          "french": "Ma sœur est plus grande que moi.",
+          "english": "My sister is taller than me."
+        },
+        {
+          "french": "L'hiver est moins chaud que l'été.",
+          "english": "Winter is less hot than summer."
+        },
+        {
+          "french": "Tu es aussi jeune que Lucas.",
+          "english": "You are as young as Lucas."
+        },
+        {
+          "french": "Cette ville est plus petite qu'une grande métropole.",
+          "english": "This city is smaller than a big metropolis."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle est ___ grande ___ son frère. (She is taller than her brother.)",
+          "correctAnswer": "plus...que",
+          "explanation": "'More…than' = plus + adjective + que. 'Plus grande que son frère.'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'He is as tall as his father'?",
+          "options": [
+            "Il est plus grand que son père.",
+            "Il est aussi grand que son père.",
+            "Il est moins grand que son père."
+          ],
+          "correctAnswer": "Il est aussi grand que son père.",
+          "explanation": "'As…as' = aussi + adjective + que."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ce film est ___ intéressant ___ le livre. (This film is less interesting than the book.)",
+          "correctAnswer": "moins...que",
+          "explanation": "'Less…than' = moins + adjective + que."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct: 'Paris est plus grande ___ Lyon'?",
+          "options": ["de", "que", "comme"],
+          "correctAnswer": "que",
+          "explanation": "French comparisons always use 'que' (not 'de' or 'comme') to mean 'than' or 'as'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il est plus jeune qu'___. (He is younger than her.)",
+          "correctAnswer": "elle",
+          "explanation": "After 'que', we use stressed pronouns: moi, toi, lui, elle, nous, vous, eux, elles."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Comparative Adjectives — plus/moins/aussi...que + Irregular Comparatives",
+      "explanation": "**Regular comparatives:**\n- **plus + adj + que** (more…than): Elle est plus mince que lui.\n- **moins + adj + que** (less…than): Il est moins jeune qu'elle.\n- **aussi + adj + que** (as…as): Ils sont aussi grands que nous.\n\n**Agreement:** The adjective agrees with the first noun/pronoun:\n- Marie est plus petit**e** que Paul. (feminine)\n- Les filles sont aussi grand**es** que les garçons. (feminine plural)\n\n**Irregular comparative: bon → meilleur**\n'Bon' (good) does NOT use 'plus bon'. Instead:\n- bon(ne) → meilleur(e) (better)\n- Ce gâteau est **meilleur** que l'autre. (This cake is better than the other.)\n- Cette idée est **meilleure** que la première. (This idea is better than the first.)\n\n**'Mauvais' has two options:**\n- plus mauvais(e) que (more bad than) — standard\n- pire que (worse than) — more emphatic, used for abstract/serious things\n- Ce temps est **pire** que hier. (This weather is worse than yesterday.)\n\n**Stressed pronouns after 'que':**\nmoi, toi, lui, elle, nous, vous, eux, elles\n- Elle est plus grande que **moi**. (not 'je')\n\n**'Que' → 'qu'' before a vowel:**\n- plus grand **qu'**elle, moins jeune **qu'**eux",
+      "examples": [
+        {
+          "french": "Ce restaurant est meilleur que celui d'à côté.",
+          "english": "This restaurant is better than the one next door."
+        },
+        {
+          "french": "La situation est pire que la semaine dernière.",
+          "english": "The situation is worse than last week."
+        },
+        {
+          "french": "Elles sont aussi minces qu'eux.",
+          "english": "They (f) are as slim as them (m)."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ce gâteau est ___ que l'autre. (This cake is better than the other — use the irregular form.)",
+          "correctAnswer": "meilleur",
+          "explanation": "'Bon' becomes 'meilleur' (not 'plus bon') in comparisons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct for 'She is taller than him'?",
+          "options": [
+            "Elle est plus grande que il.",
+            "Elle est plus grande que lui.",
+            "Elle est plus grande que le.",
+            "Elle est plus grande de lui."
+          ],
+          "correctAnswer": "Elle est plus grande que lui.",
+          "explanation": "After 'que', use stressed pronouns: lui (not il). And comparisons use 'que' (not 'de')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: La situation est ___ que hier. (The situation is worse than yesterday — emphatic form.)",
+          "correctAnswer": "pire",
+          "explanation": "'Pire' is the emphatic irregular comparative of 'mauvais', used for abstract or serious situations."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'These girls are as young as those boys'?",
+          "options": [
+            "Ces filles sont aussi jeune que ces garçons.",
+            "Ces filles sont aussi jeunes que ces garçons.",
+            "Ces filles sont plus jeune que ces garçons.",
+            "Ces filles sont aussi jeunes de ces garçons."
+          ],
+          "correctAnswer": "Ces filles sont aussi jeunes que ces garçons.",
+          "explanation": "The adjective agrees with the subject (filles = feminine plural → jeunes). Comparisons use 'que'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il est moins grand qu'___. (He is less tall than her.)",
+          "correctAnswer": "elle",
+          "explanation": "'Que' becomes 'qu'' before a vowel. Stressed pronoun: elle."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Why is 'plus bon' incorrect?",
+          "options": [
+            "It should be 'plus bonne'.",
+            "'Bon' has an irregular comparative: meilleur.",
+            "'Plus' cannot be used with adjectives.",
+            "'Bon' is an adverb, not an adjective."
+          ],
+          "correctAnswer": "'Bon' has an irregular comparative: meilleur.",
+          "explanation": "Like 'good → better' in English, 'bon → meilleur' is irregular. Never say 'plus bon'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Marie est ___ petite ___ Julie. (Marie is as small as Julie.)",
+          "correctAnswer": "aussi...que",
+          "explanation": "'As…as' = aussi + adjective + que."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "In 'Cette idée est meilleure que la première', why is it 'meilleure'?",
+          "options": [
+            "Because 'idée' is plural",
+            "Because 'idée' is feminine",
+            "Because it modifies 'première'",
+            "It should be 'meilleur' without the 'e'"
+          ],
+          "correctAnswer": "Because 'idée' is feminine",
+          "explanation": "'Meilleur' agrees in gender: masculine 'meilleur', feminine 'meilleure'. 'Idée' is feminine → meilleure."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'les yeux' mean?",
+        "options": ["The hair", "The eyes", "The ears"],
+        "correctAnswer": "The eyes",
+        "explanation": "'Les yeux' is the irregular plural of 'un œil' (an eye).",
+        "targetWord": "les yeux"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elle est ___ grande que son frère. (She is taller than her brother.)",
+        "correctAnswer": "plus",
+        "explanation": "'More…than' = plus + adjective + que.",
+        "targetWord": "grand"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'He has black hair' in French?",
+        "options": ["Il a le cheveu noir.", "Il a les cheveux noirs.", "Il a les cheveux noir."],
+        "correctAnswer": "Il a les cheveux noirs.",
+        "explanation": "'Les cheveux' is always plural for head hair. The adjective 'noir' agrees in number: 'noirs'.",
+        "targetWord": "les cheveux"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il est ___ jeune ___ moi. (He is as young as me.)",
+        "correctAnswer": "aussi...que",
+        "explanation": "'As…as' = aussi + adjective + que.",
+        "targetWord": "jeune"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the opposite of 'grand' when describing a person?",
+        "options": ["jeune", "petit", "mince"],
+        "correctAnswer": "petit",
+        "explanation": "'Grand' (tall/big) is the opposite of 'petit' (short/small).",
+        "targetWord": "petit"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la barbe' mean?",
+        "options": ["The hair", "The beard", "The moustache", "The face"],
+        "correctAnswer": "The beard",
+        "explanation": "'La barbe' means the beard. 'Porter la barbe' = to have a beard.",
+        "targetWord": "la barbe"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Ce gâteau est ___ que l'autre. (This cake is better than the other.)",
+        "correctAnswer": "meilleur",
+        "explanation": "'Bon' has an irregular comparative: 'meilleur' (not 'plus bon').",
+        "targetWord": "grand"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which is correct: 'Elle est plus grande que ___'?",
+        "options": ["je", "moi", "me", "mon"],
+        "correctAnswer": "moi",
+        "explanation": "After 'que' in comparisons, use stressed pronouns: moi, toi, lui, elle, etc.",
+        "targetWord": "grand"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elle est grande et ___. (She is tall and slim.)",
+        "correctAnswer": "mince",
+        "explanation": "'Mince' means slim. It has the same form for masculine and feminine.",
+        "targetWord": "mince"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'She has green eyes'?",
+        "options": [
+          "Elle a les yeux vertes.",
+          "Elle a les yeux verts.",
+          "Elle a les œils verts.",
+          "Elle a l'yeux verts."
+        ],
+        "correctAnswer": "Elle a les yeux verts.",
+        "explanation": "'Les yeux' is the correct plural (not 'les œils'). 'Verts' agrees with 'yeux' (masculine plural).",
+        "targetWord": "les yeux"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: La situation est ___ que la semaine dernière. (The situation is worse than last week.)",
+        "correctAnswer": "pire",
+        "explanation": "'Pire' is the emphatic irregular comparative of 'mauvais' for abstract or serious things.",
+        "targetWord": "petit"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A new friend asks you to describe a family member. Tell them about one person's height, hair, eyes, and age. Try to use at least one comparison.",
+      "keyPhrases": [
+        "Il / Elle est grand(e) / petit(e). (He/She is tall / short.)",
+        "Il / Elle a les cheveux… (He/She has… hair.)",
+        "Il / Elle a les yeux… (He/She has… eyes.)",
+        "Il / Elle est plus / moins / aussi… que… (He/She is more / less / as… as…)"
+      ],
+      "modelAnswer": "Ma mère est petite mais plus grande que ma grand-mère. Elle a les cheveux longs et bruns, et les yeux marron. Elle est aussi jeune dans sa tête — elle a cinquante ans mais elle fait plus jeune !",
+      "modelAnswerExplanation": "The model answer describes height, hair, and eyes using 'avoir', and includes two comparisons: 'plus grande que' and 'plus jeune'. It also uses a natural French expression 'elle fait plus jeune' (she looks younger).",
+      "tip": "Start with height using 'Il/Elle est grand(e)/petit(e)', then describe hair and eyes using 'Il/Elle a les cheveux/yeux…'."
+    },
+    "advanced": {
+      "scenario": "You are helping a friend spot someone at a crowded café. Describe the person in detail using comparisons, physical features, and distinguishing characteristics like facial hair or accessories.",
+      "keyPhrases": [
+        "Il / Elle est plus… que la moyenne. (He/She is more… than average.)",
+        "Il / Elle a les cheveux / les yeux… (He/She has… hair / eyes.)",
+        "Il / Elle porte une barbe / des lunettes. (He/She has a beard / wears glasses.)",
+        "C'est la personne qui… (It's the person who…)"
+      ],
+      "modelAnswer": "Tu vois l'homme près de la fenêtre ? Il est plus grand que les autres, mince, avec les cheveux courts et noirs. Il a les yeux bleus et il porte une barbe. Il est aussi jeune que nous — peut-être vingt-cinq ans. C'est la personne qui lit un journal.",
+      "modelAnswerExplanation": "The model answer uses location ('près de la fenêtre'), comparisons ('plus grand que les autres', 'aussi jeune que nous'), detailed physical description (hair, eyes, beard), and a distinguishing action ('qui lit un journal') to make identification easy.",
+      "tip": ""
+    }
+  }
+}
