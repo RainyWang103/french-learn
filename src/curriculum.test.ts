@@ -32,6 +32,11 @@ function getCurriculumFiles(): { phase: string; file: string; path: string }[] {
 
 const curriculumFiles = getCurriculumFiles()
 
+/** Check if a parsed JSON file is a revision stub. */
+function isRevisionStub(data: Record<string, unknown>): boolean {
+  return 'isRevision' in data && data.isRevision === true
+}
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
@@ -278,6 +283,8 @@ function validateDayContent(data: Record<string, unknown>, label: string) {
   expect(typeof data.phase, `${label}.phase should be a number`).toBe('number')
   expect([1, 2, 3], `${label}.phase should be 1, 2, or 3`).toContain(data.phase)
 
+  expect(data.isRevision, `${label}.isRevision should be false`).toBe(false)
+
   assertNonEmptyString(data.topic, `${label}.topic`)
 
   // Sections
@@ -295,6 +302,22 @@ function validateDayContent(data: Record<string, unknown>, label: string) {
 
   expect(data.speak, `${label}.speak should exist`).toBeDefined()
   validateSpeakSection(data.speak as Record<string, unknown>, `${label}.speak`)
+}
+
+// ---------------------------------------------------------------------------
+// Revision stub validation
+// ---------------------------------------------------------------------------
+
+function validateRevisionStub(data: Record<string, unknown>, label: string) {
+  expect(typeof data.day, `${label}.day should be a number`).toBe('number')
+  expect(Number.isInteger(data.day), `${label}.day should be an integer`).toBe(true)
+  expect(data.day as number, `${label}.day should be positive`).toBeGreaterThan(0)
+  expect((data.day as number) % 4, `${label}.day should be a multiple of 4`).toBe(0)
+
+  expect(typeof data.phase, `${label}.phase should be a number`).toBe('number')
+  expect([1, 2, 3], `${label}.phase should be 1, 2, or 3`).toContain(data.phase)
+
+  expect(data.isRevision, `${label}.isRevision should be true`).toBe(true)
 }
 
 // ---------------------------------------------------------------------------
@@ -334,74 +357,17 @@ describe('curriculum JSON validation', () => {
     }
   })
 
-  it('should have file content index match filename', () => {
+  it('should have day field match filename number', () => {
     for (const { phase, file, path: filePath } of curriculumFiles) {
       const data = JSON.parse(readFileSync(filePath, 'utf-8'))
-      const fileIndex = parseInt(file.replace('day', '').replace('.json', ''), 10)
+      const fileNumber = parseInt(file.replace('day', '').replace('.json', ''), 10)
       const expectedPhase = parseInt(phase.replace('phase', ''), 10)
       expect(data.phase, `${phase}/${file} phase field should match folder`).toBe(expectedPhase)
-      expect(fileIndex, `${phase}/${file} content index should be positive`).toBeGreaterThan(0)
+      expect(data.day, `${phase}/${file} day field should match filename number`).toBe(fileNumber)
     }
   })
 
-  it('should have day field consistent with content index via revision-day formula', () => {
-    // CLAUDE.md formula:
-    //   currentDay % 4 === 0  →  revision day (no JSON file)
-    //   contentIndex = currentDay - Math.floor(currentDay / 4)
-    //   file = day{pad(contentIndex, 3)}.json
-    //
-    // Inverse: given a contentIndex, derive the currentDay and verify it is NOT a revision day.
-    // Forward: given the day field (currentDay) in the JSON, compute the expected contentIndex
-    //          and verify it matches the filename.
-
-    for (const { phase, file, path: filePath } of curriculumFiles) {
-      const data = JSON.parse(readFileSync(filePath, 'utf-8'))
-      const currentDay = data.day as number
-      const fileContentIndex = parseInt(file.replace('day', '').replace('.json', ''), 10)
-
-      // The day stored in the JSON must not be a revision day
-      expect(
-        currentDay % 4,
-        `${phase}/${file} day=${currentDay} is a revision day (% 4 === 0) and should not have a JSON file`,
-      ).not.toBe(0)
-
-      // Forward check: currentDay → contentIndex should match filename
-      const expectedContentIndex = currentDay - Math.floor(currentDay / 4)
-      expect(
-        fileContentIndex,
-        `${phase}/${file} filename index (${fileContentIndex}) does not match expected contentIndex (${expectedContentIndex}) for day=${currentDay}`,
-      ).toBe(expectedContentIndex)
-    }
-  })
-
-  it('should not have JSON files for revision days', () => {
-    // Collect all day values per phase and verify none are multiples of 4.
-    // Also verify there are no "gaps" — every contentIndex from 1..max should exist.
-    const contentIndicesByPhase = new Map<string, number[]>()
-
-    for (const { phase, file } of curriculumFiles) {
-      const contentIndex = parseInt(file.replace('day', '').replace('.json', ''), 10)
-      const indices = contentIndicesByPhase.get(phase) ?? []
-      indices.push(contentIndex)
-      contentIndicesByPhase.set(phase, indices)
-    }
-
-    for (const [phase, indices] of contentIndicesByPhase) {
-      const sorted = [...indices].sort((a, b) => a - b)
-
-      // Content indices should be consecutive starting from 1 (no gaps)
-      for (let i = 0; i < sorted.length; i++) {
-        expect(
-          sorted[i],
-          `${phase} is missing content index ${i + 1} (has ${sorted.join(', ')})`,
-        ).toBe(i + 1)
-      }
-    }
-  })
-
-  it('should have contiguous currentDay values with revision days as the only gaps', () => {
-    // For each phase, collect all currentDay values from the JSON files.
-    // The gaps should only be at multiples of 4 (revision days).
+  it('should have contiguous day numbers with no gaps', () => {
     const daysByPhase = new Map<string, number[]>()
 
     for (const { phase, path: filePath } of curriculumFiles) {
@@ -414,21 +380,36 @@ describe('curriculum JSON validation', () => {
     for (const [phase, days] of daysByPhase) {
       const sorted = [...days].sort((a, b) => a - b)
       const maxDay = sorted[sorted.length - 1]
-      const daySet = new Set(sorted)
 
-      // Walk from 1 to maxDay: every non-revision day should have a file,
-      // every revision day should NOT have a file.
+      // Every day from 1 to maxDay should have a file
       for (let d = 1; d <= maxDay; d++) {
-        if (d % 4 === 0) {
-          expect(daySet.has(d), `${phase} day ${d} is a revision day but has a JSON file`).toBe(
-            false,
-          )
-        } else {
-          expect(
-            daySet.has(d),
-            `${phase} is missing day ${d} (not a revision day, should have a file)`,
-          ).toBe(true)
-        }
+        expect(sorted.includes(d), `${phase} is missing day ${d}`).toBe(true)
+      }
+    }
+  })
+
+  it('revision day files should have isRevision: true', () => {
+    for (const { phase, file, path: filePath } of curriculumFiles) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8'))
+      const dayNumber = data.day as number
+      if (dayNumber % 4 === 0) {
+        expect(
+          data.isRevision,
+          `${phase}/${file} day ${dayNumber} is a revision day and should have isRevision: true`,
+        ).toBe(true)
+      }
+    }
+  })
+
+  it('content day files should have isRevision: false', () => {
+    for (const { phase, file, path: filePath } of curriculumFiles) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8'))
+      const dayNumber = data.day as number
+      if (dayNumber % 4 !== 0) {
+        expect(
+          data.isRevision,
+          `${phase}/${file} day ${dayNumber} is a content day and should have isRevision: false`,
+        ).toBe(false)
       }
     }
   })
@@ -445,11 +426,17 @@ describe('curriculum JSON validation', () => {
 
     it('should pass full schema validation', () => {
       data = JSON.parse(readFileSync(filePath, 'utf-8'))
-      validateDayContent(data, label)
+      if (isRevisionStub(data)) {
+        validateRevisionStub(data, label)
+      } else {
+        validateDayContent(data, label)
+      }
     })
 
     it('multipleChoice questions should have >= 3 options', () => {
       data = JSON.parse(readFileSync(filePath, 'utf-8'))
+      if (isRevisionStub(data)) return
+
       const quiz = data.quiz as Record<string, unknown[]>
       for (const track of ['standard', 'advanced'] as const) {
         for (const [index, question] of (quiz[track] as Record<string, unknown>[]).entries()) {
@@ -479,6 +466,8 @@ describe('curriculum JSON validation', () => {
 
     it('advanced track should have more or equal content than standard', () => {
       data = JSON.parse(readFileSync(filePath, 'utf-8'))
+      if (isRevisionStub(data)) return
+
       const vocab = data.vocab as Record<string, unknown[]>
       expect(
         vocab.advanced.length,

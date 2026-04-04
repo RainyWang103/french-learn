@@ -1,156 +1,232 @@
 {
-  "day": 6,
+  "day": 5,
   "phase": 1,
-  "topic": "At Home — Rooms & Furniture",
+  "isRevision": false,
+  "topic": "Leaving the House",
   "vocab": {
     "standard": [
       {
-        "word": "la cuisine",
+        "word": "la maison",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la kwee-zeen",
-        "meaning": "the kitchen",
-        "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
+        "pronunciation": "la meh-zon",
+        "meaning": "the house / home",
+        "notes": "Also used in expressions: à la maison (at home), rentrer à la maison (to go home).",
         "examples": [
-          ["Je suis dans la cuisine.", "I am in the kitchen."],
-          ["La cuisine est petite.", "The kitchen is small."]
+          [
+            "Je quitte la maison à huit heures.",
+            "I leave the house at eight o'clock."
+          ],
+          [
+            "La maison est grande.",
+            "The house is big."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la chambre",
+        "word": "la porte",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la shom-bruh",
-        "meaning": "the bedroom",
-        "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
+        "pronunciation": "la port",
+        "meaning": "the door",
         "examples": [
-          ["Ma chambre est grande.", "My bedroom is big."],
-          ["Le lit est dans la chambre.", "The bed is in the bedroom."]
+          [
+            "Je ferme la porte.",
+            "I close the door."
+          ],
+          [
+            "La porte est ouverte.",
+            "The door is open."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la table",
+        "word": "la clé",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la tah-bluh",
-        "meaning": "the table",
+        "pronunciation": "la klay",
+        "meaning": "the key",
+        "notes": "Also spelled 'clef'. Both are correct.",
         "examples": [
-          ["Le café est sur la table.", "The coffee is on the table."],
-          ["La table est dans la cuisine.", "The table is in the kitchen."]
+          [
+            "Où est ma clé ?",
+            "Where is my key?"
+          ],
+          [
+            "J'ai ma clé dans mon sac.",
+            "I have my key in my bag."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la chaise",
+        "word": "la rue",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la shehz",
-        "meaning": "the chair",
+        "pronunciation": "la roo",
+        "meaning": "the street",
         "examples": [
-          ["Les vêtements sont sur la chaise.", "The clothes are on the chair."],
-          ["La chaise est devant la table.", "The chair is in front of the table."]
+          [
+            "La rue est calme le matin.",
+            "The street is quiet in the morning."
+          ],
+          [
+            "Je marche dans la rue.",
+            "I walk in the street."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la fenêtre",
+        "word": "le bus",
         "partOfSpeech": "noun",
-        "gender": "female",
-        "pronunciation": "la fuh-neh-truh",
-        "meaning": "the window",
+        "gender": "male",
+        "pronunciation": "luh boos",
+        "meaning": "the bus",
+        "notes": "Short for 'autobus'. Use 'prendre le bus' (to take the bus).",
         "examples": [
-          ["La fenêtre est ouverte.", "The window is open."],
-          ["Je regarde par la fenêtre.", "I look through the window."]
+          [
+            "Je prends le bus le matin.",
+            "I take the bus in the morning."
+          ],
+          [
+            "Le bus arrive à huit heures.",
+            "The bus arrives at eight o'clock."
+          ]
         ],
         "special": ""
       }
     ],
     "advanced": [
       {
-        "word": "la cuisine",
+        "word": "la maison",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la kwee-zeen",
-        "meaning": "the kitchen",
-        "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
+        "pronunciation": "la meh-zon",
+        "meaning": "the house / home",
+        "notes": "Also used in expressions: à la maison (at home), rentrer à la maison (to go home).",
         "examples": [
-          ["Je suis dans la cuisine.", "I am in the kitchen."],
-          ["La cuisine est petite.", "The kitchen is small."]
+          [
+            "Je quitte la maison à huit heures.",
+            "I leave the house at eight o'clock."
+          ],
+          [
+            "La maison est grande.",
+            "The house is big."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la chambre",
+        "word": "la porte",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la shom-bruh",
-        "meaning": "the bedroom",
-        "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
+        "pronunciation": "la port",
+        "meaning": "the door",
         "examples": [
-          ["Ma chambre est grande.", "My bedroom is big."],
-          ["Le lit est dans la chambre.", "The bed is in the bedroom."]
+          [
+            "Je ferme la porte.",
+            "I close the door."
+          ],
+          [
+            "La porte est ouverte.",
+            "The door is open."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la table",
+        "word": "la clé",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la tah-bluh",
-        "meaning": "the table",
+        "pronunciation": "la klay",
+        "meaning": "the key",
+        "notes": "Also spelled 'clef'. Both are correct.",
         "examples": [
-          ["Le café est sur la table.", "The coffee is on the table."],
-          ["La table est dans la cuisine.", "The table is in the kitchen."]
+          [
+            "Où est ma clé ?",
+            "Where is my key?"
+          ],
+          [
+            "J'ai ma clé dans mon sac.",
+            "I have my key in my bag."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la chaise",
+        "word": "la rue",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la shehz",
-        "meaning": "the chair",
+        "pronunciation": "la roo",
+        "meaning": "the street",
         "examples": [
-          ["Les vêtements sont sur la chaise.", "The clothes are on the chair."],
-          ["La chaise est devant la table.", "The chair is in front of the table."]
+          [
+            "La rue est calme le matin.",
+            "The street is quiet in the morning."
+          ],
+          [
+            "Je marche dans la rue.",
+            "I walk in the street."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la fenêtre",
-        "partOfSpeech": "noun",
-        "gender": "female",
-        "pronunciation": "la fuh-neh-truh",
-        "meaning": "the window",
-        "examples": [
-          ["La fenêtre est ouverte.", "The window is open."],
-          ["Je regarde par la fenêtre.", "I look through the window."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le salon",
+        "word": "le bus",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh sa-lon",
-        "meaning": "the living room",
+        "pronunciation": "luh boos",
+        "meaning": "the bus",
+        "notes": "Short for 'autobus'. Use 'prendre le bus' (to take the bus).",
         "examples": [
-          ["Le salon est confortable.", "The living room is comfortable."],
-          ["Nous sommes dans le salon.", "We are in the living room."]
+          [
+            "Je prends le bus le matin.",
+            "I take the bus in the morning."
+          ],
+          [
+            "Le bus arrive à huit heures.",
+            "The bus arrives at eight o'clock."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "le canapé",
+        "word": "le trottoir",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh ka-na-pay",
-        "meaning": "the sofa / couch",
+        "pronunciation": "luh tro-twahr",
+        "meaning": "the sidewalk / pavement",
         "examples": [
-          ["Le canapé est dans le salon.", "The sofa is in the living room."],
-          ["Je suis sur le canapé.", "I'm on the sofa."]
+          [
+            "Je marche sur le trottoir.",
+            "I walk on the sidewalk."
+          ],
+          [
+            "Le trottoir est mouillé.",
+            "The sidewalk is wet."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le trajet",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tra-zheh",
+        "meaning": "the commute / journey",
+        "notes": "Used for daily travel: mon trajet (my commute).",
+        "examples": [
+          [
+            "Mon trajet dure trente minutes.",
+            "My commute takes thirty minutes."
+          ],
+          [
+            "Le trajet en bus est long.",
+            "The bus journey is long."
+          ]
         ],
         "special": ""
       }
@@ -159,188 +235,280 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "C'est ton appartement ? Il est joli !"],
-        ["B", "Oui ! Ici, c'est la cuisine. La table est là, avec deux chaises."],
-        ["A", "Et cette porte ?"],
-        ["B", "C'est ma chambre. Le lit est sous la fenêtre."],
-        ["A", "La fenêtre est grande. Il y a beaucoup de lumière."],
-        ["B", "Oui, j'aime bien. Et dans la cuisine, il y a une grande table."]
+        [
+          "A",
+          "Excuse-moi, l'arrêt de bus, c'est où ?"
+        ],
+        [
+          "B",
+          "C'est facile. Tu vas tout droit dans la rue."
+        ],
+        [
+          "A",
+          "Tout droit ? D'accord."
+        ],
+        [
+          "B",
+          "Oui, et l'arrêt de bus est à gauche, après la grande maison."
+        ],
+        [
+          "A",
+          "Après la grande maison, à gauche. Merci !"
+        ],
+        [
+          "B",
+          "De rien ! Le bus arrive dans cinq minutes."
+        ]
       ],
       "questions": [
         {
-          "question": "Où est la table ?",
-          "options": ["Dans la chambre", "Dans la cuisine", "Dans le salon"],
-          "correctAnswer": "Dans la cuisine"
+          "question": "Que cherche A ?",
+          "options": [
+            "La maison",
+            "L'arrêt de bus",
+            "La clé"
+          ],
+          "correctAnswer": "L'arrêt de bus"
         },
         {
-          "question": "Où est le lit ?",
-          "options": ["Devant la porte", "Sur la table", "Sous la fenêtre"],
-          "correctAnswer": "Sous la fenêtre"
+          "question": "Dans quelle direction faut-il aller ?",
+          "options": [
+            "À droite",
+            "Tout droit",
+            "En arrière"
+          ],
+          "correctAnswer": "Tout droit"
         },
         {
-          "question": "Comment est la fenêtre ?",
-          "options": ["Petite", "Grande", "Fermée"],
-          "correctAnswer": "Grande"
+          "question": "Où est l'arrêt de bus exactement ?",
+          "options": [
+            "À droite de la maison",
+            "À gauche, après la grande maison",
+            "Devant la porte"
+          ],
+          "correctAnswer": "À gauche, après la grande maison"
         }
       ],
-      "summary": "B gives A a tour of their apartment. The kitchen has a table with two chairs. The bedroom has a bed under a large window with lots of light."
+      "summary": "A asks B for directions to the bus stop. B says to go straight ahead on the street, and the bus stop is on the left, after the big house. The bus arrives in five minutes."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Alors, ton nouvel appartement, il est comment ?"],
-        ["B", "Il est bien ! Le salon est grand avec un canapé et une table basse."],
-        ["A", "Et la cuisine ?"],
-        ["B", "La cuisine est petite, mais il y a une table devant la fenêtre. C'est agréable pour le petit-déjeuner."],
-        ["A", "Et la chambre ?"],
-        ["B", "La chambre est à côté du salon. Le lit est sous la fenêtre et il y a une chaise dans le coin."],
-        ["A", "Il y a beaucoup de meubles ?"],
-        ["B", "Non, pas beaucoup. Un canapé dans le salon, une table et quatre chaises dans la cuisine, et le lit dans la chambre. C'est simple mais confortable."]
+        [
+          "A",
+          "Pardon, je suis nouveau dans le quartier. Comment je vais à l'arrêt de bus ?"
+        ],
+        [
+          "B",
+          "Ah, bienvenue ! Alors, tu sors de la maison et tu vas à gauche."
+        ],
+        [
+          "A",
+          "À gauche, d'accord."
+        ],
+        [
+          "B",
+          "Tu marches sur le trottoir pendant deux minutes. L'arrêt est dans la rue principale."
+        ],
+        [
+          "A",
+          "C'est loin ?"
+        ],
+        [
+          "B",
+          "Non, pas du tout. Le trajet à pied, c'est cinq minutes. Le bus passe toutes les dix minutes."
+        ],
+        [
+          "A",
+          "Super ! Et je ferme la porte à clé, bien sûr."
+        ],
+        [
+          "B",
+          "Oui, c'est important ! Bonne journée !"
+        ]
       ],
       "questions": [
         {
-          "question": "Où est le canapé ?",
-          "options": ["Dans la cuisine", "Dans la chambre", "Dans le salon", "Devant la porte"],
-          "correctAnswer": "Dans le salon"
+          "question": "Pourquoi A demande son chemin ?",
+          "options": [
+            "Il est perdu",
+            "Il est nouveau dans le quartier",
+            "Il est en retard",
+            "Il n'a pas de bus"
+          ],
+          "correctAnswer": "Il est nouveau dans le quartier"
         },
         {
-          "question": "Où est la table de la cuisine ?",
-          "options": ["Au milieu de la pièce", "Devant la fenêtre", "Sous la fenêtre", "À côté de la porte"],
-          "correctAnswer": "Devant la fenêtre"
+          "question": "Combien de temps faut-il marcher ?",
+          "options": [
+            "Deux minutes",
+            "Cinq minutes",
+            "Dix minutes",
+            "Quinze minutes"
+          ],
+          "correctAnswer": "Cinq minutes"
         },
         {
-          "question": "Combien de chaises y a-t-il dans la cuisine ?",
-          "options": ["Deux", "Trois", "Quatre", "Six"],
-          "correctAnswer": "Quatre"
+          "question": "Le bus passe tous les combien ?",
+          "options": [
+            "Cinq minutes",
+            "Dix minutes",
+            "Quinze minutes",
+            "Vingt minutes"
+          ],
+          "correctAnswer": "Dix minutes"
         }
       ],
-      "summary": "B describes their new apartment. The living room is big with a sofa. The kitchen is small but has a table in front of the window. The bedroom is next to the living room with a bed under the window. The apartment is simple but comfortable."
+      "summary": "A is new to the neighbourhood and asks for directions to the bus stop. B says to turn left, walk on the sidewalk for two minutes to the main street. The walk takes five minutes and the bus comes every ten minutes. A remembers to lock the door."
     }
   },
   "grammar": {
     "standard": {
-      "title": "Il y a + Prepositions of Place (dans, sur, sous, devant, derrière)",
-      "explanation": "'Il y a' means 'there is' or 'there are'. It works for both singular and plural. Use it with prepositions of place to describe where things are: dans (in), sur (on), sous (under), devant (in front of), derrière (behind). Example: Il y a un chat sur la table. (There is a cat on the table.)",
+      "title": "Aller (to go) + à / au / à la / à l'",
+      "explanation": "Aller (to go) is an irregular verb: je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont. When saying where you go, use 'à' + article: au (à + le, masculine), à la (feminine), à l' (before vowel), aux (à + les, plural). Examples: je vais au bus (to the bus), je vais à la maison (to the house).",
       "examples": [
         {
-          "french": "Il y a un lit dans la chambre.",
-          "english": "There is a bed in the bedroom."
+          "french": "Je vais à la maison.",
+          "english": "I go home."
         },
         {
-          "french": "Le café est sur la table.",
-          "english": "The coffee is on the table."
+          "french": "Tu vas au bus ?",
+          "english": "Are you going to the bus?"
         },
         {
-          "french": "La chaise est devant la fenêtre.",
-          "english": "The chair is in front of the window."
+          "french": "Elle va à l'école.",
+          "english": "She goes to school."
         },
         {
-          "french": "Le chat est sous la table.",
-          "english": "The cat is under the table."
+          "french": "Nous allons au travail.",
+          "english": "We go to work."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Il y a un lit ___ la chambre. (in)",
-          "correctAnswer": "dans",
-          "explanation": "'Dans' means 'in'."
+          "question": "Je ___ à la maison. (aller)",
+          "correctAnswer": "vais",
+          "explanation": "Je + aller = je vais."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Le café est ___ la table. (on)",
-          "correctAnswer": "sur",
-          "explanation": "'Sur' means 'on'."
+          "question": "Tu ___ au travail ? (aller)",
+          "correctAnswer": "vas",
+          "explanation": "Tu + aller = tu vas."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Le chat est ___ la chaise. (under)",
-          "correctAnswer": "sous",
-          "explanation": "'Sous' means 'under'."
+          "question": "Elle ___ à l'école. (aller)",
+          "correctAnswer": "va",
+          "explanation": "Il/elle + aller = il/elle va."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'in front of the door'?",
-          "options": ["derrière la porte", "dans la porte", "devant la porte"],
-          "correctAnswer": "devant la porte",
-          "explanation": "'Devant' means 'in front of'."
+          "question": "'Le bus' is masculine. How do you say 'to the bus'?",
+          "options": [
+            "à le bus",
+            "au bus",
+            "à la bus"
+          ],
+          "correctAnswer": "au bus",
+          "explanation": "à + le = au. Never say 'à le'."
         },
         {
           "type": "multipleChoice",
-          "question": "Which means 'there are chairs in the kitchen'?",
-          "options": ["Il y a des chaises dans la cuisine.", "Les chaises y a dans la cuisine.", "Il y a la cuisine dans les chaises."],
-          "correctAnswer": "Il y a des chaises dans la cuisine.",
-          "explanation": "'Il y a' + noun + preposition + place."
+          "question": "'La maison' is feminine. How do you say 'to the house'?",
+          "options": [
+            "au maison",
+            "à la maison",
+            "à l'maison"
+          ],
+          "correctAnswer": "à la maison",
+          "explanation": "Feminine noun → à la maison."
         }
       ]
     },
     "advanced": {
-      "title": "Il y a / Il n'y a pas + Extended Prepositions (à côté de, entre, en face de)",
-      "explanation": "'Il y a' (there is/are) negates to 'il n'y a pas de' (there is/are no). Beyond basic prepositions (dans, sur, sous, devant, derrière), use: à côté de (next to), entre (between), en face de (opposite/across from), au-dessus de (above), au-dessous de (below). Note: 'de + le' = 'du', 'de + les' = 'des'.",
+      "title": "Aller — Full Conjugation + Aller + Infinitive (Near Future)",
+      "explanation": "Aller is irregular: je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont. Use 'à + article' for destinations (au, à la, à l', aux). Aller + infinitive also forms the near future (futur proche): je vais manger = I'm going to eat. This is the most common way to express the future in spoken French.",
       "examples": [
         {
-          "french": "Le canapé est à côté de la fenêtre.",
-          "english": "The sofa is next to the window."
+          "french": "Ils vont à la gare.",
+          "english": "They go to the station."
         },
         {
-          "french": "La table est entre les deux chaises.",
-          "english": "The table is between the two chairs."
+          "french": "Je vais prendre le bus.",
+          "english": "I'm going to take the bus."
         },
         {
-          "french": "Il n'y a pas de table dans le salon.",
-          "english": "There is no table in the living room."
+          "french": "Tu vas fermer la porte ?",
+          "english": "Are you going to close the door?"
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Le canapé est ___ côté de la fenêtre. (next to)",
-          "correctAnswer": "à",
-          "explanation": "'À côté de' means 'next to'."
+          "question": "Nous ___ au travail. (aller)",
+          "correctAnswer": "allons",
+          "explanation": "Nous + aller = nous allons."
         },
         {
           "type": "fillInTheBlank",
-          "question": "La table est ___ les deux chaises. (between)",
-          "correctAnswer": "entre",
-          "explanation": "'Entre' means 'between'."
+          "question": "Ils ___ à l'arrêt de bus. (aller)",
+          "correctAnswer": "vont",
+          "explanation": "Ils + aller = ils vont."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ prendre le bus. (aller — near future)",
+          "correctAnswer": "vais",
+          "explanation": "Aller + infinitive = near future. Je vais prendre..."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'There is no sofa in the bedroom'?",
-          "options": ["Il y a pas canapé dans la chambre.", "Il n'y a pas de canapé dans la chambre.", "Il y a un canapé pas dans la chambre.", "Il n'y a de pas canapé dans la chambre."],
-          "correctAnswer": "Il n'y a pas de canapé dans la chambre.",
-          "explanation": "Negation: il n'y a pas de + noun."
+          "question": "How do you say 'She is going to leave the house'?",
+          "options": [
+            "Elle va quitter la maison.",
+            "Elle aller quitter la maison.",
+            "Elle quitte va la maison.",
+            "Elle va à quitter la maison."
+          ],
+          "correctAnswer": "Elle va quitter la maison.",
+          "explanation": "Aller (conjugated) + infinitive: elle va + quitter."
         },
         {
           "type": "fillInTheBlank",
-          "question": "La cuisine est en ___ de la chambre. (opposite)",
-          "correctAnswer": "face",
-          "explanation": "'En face de' means 'opposite' or 'across from'."
+          "question": "Vous ___ fermer la porte ? (aller — near future)",
+          "correctAnswer": "allez",
+          "explanation": "Vous + aller = vous allez. Vous allez fermer..."
         },
         {
           "type": "multipleChoice",
-          "question": "What does 'à côté du salon' mean?",
-          "options": ["inside the living room", "next to the living room", "behind the living room", "under the living room"],
-          "correctAnswer": "next to the living room",
-          "explanation": "'À côté de + le' = 'à côté du'. It means 'next to'."
+          "question": "'L'école' starts with a vowel. Which is correct?",
+          "options": [
+            "à la école",
+            "à l'école",
+            "au école",
+            "aux école"
+          ],
+          "correctAnswer": "à l'école",
+          "explanation": "Before a vowel, use à l': à l'école."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Il n'y a pas ___ fenêtre dans cette pièce. (negation + of)",
-          "correctAnswer": "de",
-          "explanation": "After 'il n'y a pas', use 'de': pas de fenêtre."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "Le tableau est au-___ de la cheminée. (above)",
-          "correctAnswer": "dessus",
-          "explanation": "'Au-dessus de' means 'above'."
+          "question": "Tu ___ marcher dans la rue. (aller — near future)",
+          "correctAnswer": "vas",
+          "explanation": "Tu + aller = tu vas. Tu vas marcher..."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'next to the kitchen'?",
-          "options": ["à côté la cuisine", "à côté de la cuisine", "à côté du cuisine", "en côté de la cuisine"],
-          "correctAnswer": "à côté de la cuisine",
-          "explanation": "'La cuisine' is feminine → à côté de la cuisine."
+          "question": "What does 'Nous allons prendre le bus' mean?",
+          "options": [
+            "We take the bus.",
+            "We are going to take the bus.",
+            "We took the bus.",
+            "We want to take the bus."
+          ],
+          "correctAnswer": "We are going to take the bus.",
+          "explanation": "Aller + infinitive = near future (going to)."
         }
       ]
     }
@@ -349,104 +517,140 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "What is 'la cuisine'?",
-        "options": ["the bedroom", "the kitchen", "the living room"],
-        "correctAnswer": "the kitchen",
-        "explanation": "'La cuisine' means 'the kitchen'.",
-        "targetWord": "la cuisine"
+        "question": "What is 'la clé'?",
+        "options": [
+          "the door",
+          "the key",
+          "the street"
+        ],
+        "correctAnswer": "the key",
+        "explanation": "'La clé' means 'the key'. It is feminine.",
+        "targetWord": "la clé"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Le lit est ___ la chambre. (in)",
-        "correctAnswer": "dans",
-        "explanation": "'Dans' means 'in'.",
-        "targetWord": "la chambre"
+        "question": "Je ___ à la maison. (aller)",
+        "correctAnswer": "vais",
+        "explanation": "Je + aller = je vais.",
+        "targetWord": "la maison"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'sur' mean?",
-        "options": ["under", "in", "on"],
-        "correctAnswer": "on",
-        "explanation": "'Sur' means 'on'. Le café est sur la table.",
-        "targetWord": "la table"
+        "question": "How do you say 'to the bus' (masculine)?",
+        "options": [
+          "à le bus",
+          "au bus",
+          "à la bus"
+        ],
+        "correctAnswer": "au bus",
+        "explanation": "à + le = au.",
+        "targetWord": "le bus"
       },
       {
         "type": "multipleChoice",
-        "question": "What is 'la fenêtre'?",
-        "options": ["the door", "the wall", "the window"],
-        "correctAnswer": "the window",
-        "explanation": "'La fenêtre' means 'the window'.",
-        "targetWord": "la fenêtre"
+        "question": "What is 'la rue'?",
+        "options": [
+          "the bus",
+          "the house",
+          "the street"
+        ],
+        "correctAnswer": "the street",
+        "explanation": "'La rue' means 'the street'.",
+        "targetWord": "la rue"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Il y a une ___ devant la table. (chair)",
-        "correctAnswer": "chaise",
-        "explanation": "'La chaise' means the chair.",
-        "targetWord": "la chaise"
+        "question": "Je ferme la ___ . (door)",
+        "correctAnswer": "porte",
+        "explanation": "'La porte' means the door.",
+        "targetWord": "la porte"
       }
     ],
     "advanced": [
       {
         "type": "multipleChoice",
-        "question": "What is 'le salon'?",
-        "options": ["the bedroom", "the bathroom", "the living room", "the dining room"],
-        "correctAnswer": "the living room",
-        "explanation": "'Le salon' means 'the living room'.",
-        "targetWord": "le salon"
+        "question": "What is 'le trottoir'?",
+        "options": [
+          "the road",
+          "the sidewalk",
+          "the bridge",
+          "the bus stop"
+        ],
+        "correctAnswer": "the sidewalk",
+        "explanation": "'Le trottoir' means 'the sidewalk'.",
+        "targetWord": "le trottoir"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Le ___ est dans le salon. (sofa)",
-        "correctAnswer": "canapé",
-        "explanation": "'Le canapé' means the sofa.",
-        "targetWord": "le canapé"
+        "question": "Mon ___ dure trente minutes. (commute)",
+        "correctAnswer": "trajet",
+        "explanation": "'Le trajet' means the commute or journey.",
+        "targetWord": "le trajet"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'à côté de' mean?",
-        "options": ["in front of", "behind", "next to", "inside"],
-        "correctAnswer": "next to",
-        "explanation": "'À côté de' means 'next to'.",
-        "targetWord": "le salon"
+        "question": "What does 'Je vais prendre le bus' mean?",
+        "options": [
+          "I take the bus.",
+          "I took the bus.",
+          "I'm going to take the bus.",
+          "I want to take the bus."
+        ],
+        "correctAnswer": "I'm going to take the bus.",
+        "explanation": "Aller + infinitive = near future.",
+        "targetWord": "le bus"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Il n'y a pas ___ canapé dans la chambre. (negation)",
-        "correctAnswer": "de",
-        "explanation": "After 'il n'y a pas', use 'de'.",
-        "targetWord": "le canapé"
+        "question": "Elle ___ à l'école. (aller)",
+        "correctAnswer": "va",
+        "explanation": "Elle + aller = elle va.",
+        "targetWord": "la rue"
       },
       {
         "type": "multipleChoice",
-        "question": "Where is the table in the dialogue?",
-        "options": ["In the bedroom", "In front of the window", "Behind the door", "In the living room"],
-        "correctAnswer": "In front of the window",
-        "explanation": "In the advanced dialogue, the kitchen table is devant la fenêtre.",
-        "targetWord": "la table"
+        "question": "Which is correct: 'to the school' (l'école starts with vowel)?",
+        "options": [
+          "au école",
+          "à la école",
+          "à l'école",
+          "aux école"
+        ],
+        "correctAnswer": "à l'école",
+        "explanation": "Before a vowel, use à l'.",
+        "targetWord": "la clé"
       },
       {
         "type": "fillInTheBlank",
-        "question": "La chambre est ___ face du salon. (opposite)",
-        "correctAnswer": "en",
-        "explanation": "'En face de' means 'opposite' or 'across from'.",
-        "targetWord": "la chambre"
+        "question": "Nous ___ au travail le matin. (aller)",
+        "correctAnswer": "allons",
+        "explanation": "Nous + aller = nous allons.",
+        "targetWord": "la maison"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "A friend is visiting your home. Describe the room you're in — what furniture is in it and where things are.",
-      "keyPhrases": ["Il y a...", "... est sur/dans/sous/devant...", "C'est..."],
-      "modelAnswer": "C'est ma cuisine. Il y a une table et deux chaises. Le café est sur la table. La fenêtre est grande. Il y a un miroir sur le mur.",
-      "modelAnswerExplanation": "Uses 'il y a' to introduce items, prepositions (sur) to place them, and adjectives (grande) to describe.",
-      "tip": "Start with 'Il y a...' and then describe where each item is using sur, dans, sous, devant."
+      "scenario": "A new neighbour asks you how you get to work or school each morning. Describe leaving your house and your journey.",
+      "keyPhrases": [
+        "Je quitte la maison à...",
+        "Je vais à...",
+        "Je prends le bus..."
+      ],
+      "modelAnswer": "Le matin, je quitte la maison à huit heures. Je ferme la porte et je marche dans la rue. Je vais à l'arrêt de bus. Je prends le bus pour aller au travail.",
+      "modelAnswerExplanation": "This describes leaving (quitter la maison), walking (marcher dans la rue), and taking the bus (prendre le bus) with aller + au travail.",
+      "tip": "Describe your routine step by step: leaving the house → walking → taking transport."
     },
     "advanced": {
-      "scenario": "You're describing your entire apartment to a friend over the phone. Go room by room and describe what's in each room and where things are relative to each other.",
-      "keyPhrases": ["Il y a... dans...", "... est à côté de...", "... est entre...", "... est en face de..."],
-      "modelAnswer": "Mon appartement n'est pas grand, mais il est confortable. Le salon est la première pièce. Il y a un canapé à côté de la fenêtre et une table basse devant. La cuisine est en face du salon. Il y a une table avec quatre chaises entre la fenêtre et la porte. La chambre est à côté du salon. Le lit est sous la fenêtre et il y a une chaise dans le coin.",
-      "modelAnswerExplanation": "Uses extended prepositions (à côté de, en face de, entre) to position furniture, and 'il y a' / 'il n'y a pas' for describing contents.",
+      "scenario": "You're explaining your daily commute to a French colleague in detail — how you leave the house, what route you take, how long it takes, and how you get to work.",
+      "keyPhrases": [
+        "Je quitte la maison à...",
+        "Je marche sur le trottoir...",
+        "Mon trajet dure...",
+        "Je vais prendre..."
+      ],
+      "modelAnswer": "Je quitte la maison à sept heures et demie. Je ferme la porte à clé et je marche sur le trottoir. L'arrêt de bus est dans la rue principale, à cinq minutes de la maison. Je prends le bus et mon trajet dure trente minutes. Je vais prendre le métro la semaine prochaine parce que c'est plus rapide.",
+      "modelAnswerExplanation": "Uses 'fermer à clé' (to lock), 'marcher sur le trottoir', 'le trajet dure...' for commute duration, and 'aller + infinitive' for near future plans.",
       "tip": ""
     }
   }

@@ -1,178 +1,230 @@
 {
-  "day": 11,
+  "day": 9,
   "phase": 1,
-  "topic": "Telling Time & Daily Schedule",
+  "isRevision": false,
+  "topic": "The Weather",
   "vocab": {
     "standard": [
       {
-        "word": "l'heure",
-        "partOfSpeech": "noun",
-        "gender": "female",
-        "pronunciation": "lur",
-        "meaning": "the hour / the time",
-        "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
-        "examples": [
-          ["Quelle heure est-il ?", "What time is it?"],
-          ["Il est deux heures.", "It is two o'clock."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "midi",
+        "word": "le soleil",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "mee-dee",
-        "meaning": "noon / midday",
-        "notes": "No article needed. Opposite: minuit (midnight).",
+        "pronunciation": "luh so-lay",
+        "meaning": "the sun",
         "examples": [
-          ["Il est midi.", "It is noon."],
-          ["On mange à midi.", "We eat at noon."]
+          [
+            "Le soleil est beau aujourd'hui.",
+            "The sun is beautiful today."
+          ],
+          [
+            "Il y a du soleil.",
+            "It's sunny."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "en retard",
-        "partOfSpeech": "expression",
-        "gender": null,
-        "pronunciation": "on ruh-tar",
-        "meaning": "late (behind schedule)",
-        "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
-        "examples": [
-          ["Je suis en retard !", "I'm late!"],
-          ["Tu es toujours en retard.", "You are always late."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "commencer",
-        "partOfSpeech": "verb",
-        "gender": null,
-        "pronunciation": "ko-mon-say",
-        "meaning": "to start / to begin",
-        "notes": "Regular -ER verb. Note: nous commençons (ç before -ons).",
-        "conjugation": {
-          "je": "commence",
-          "tu": "commences",
-          "il/elle": "commence",
-          "nous": "commençons",
-          "vous": "commencez",
-          "ils/elles": "commencent"
-        },
-        "examples": [
-          ["Le cours commence à neuf heures.", "The class starts at nine o'clock."],
-          ["Je commence le travail à huit heures.", "I start work at eight o'clock."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "la semaine",
+        "word": "la pluie",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la suh-men",
-        "meaning": "the week",
+        "pronunciation": "la plwee",
+        "meaning": "the rain",
         "examples": [
-          ["La semaine prochaine, je suis en vacances.", "Next week, I am on holiday."],
-          ["Il y a sept jours dans une semaine.", "There are seven days in a week."]
+          [
+            "La pluie tombe.",
+            "The rain is falling."
+          ],
+          [
+            "Je n'aime pas la pluie.",
+            "I don't like rain."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le vent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh von",
+        "meaning": "the wind",
+        "examples": [
+          [
+            "Le vent est fort aujourd'hui.",
+            "The wind is strong today."
+          ],
+          [
+            "Il y a du vent.",
+            "It's windy."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "chaud",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "show",
+        "meaning": "hot / warm",
+        "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
+        "examples": [
+          [
+            "Il fait chaud aujourd'hui.",
+            "It's hot today."
+          ],
+          [
+            "L'eau est chaude.",
+            "The water is hot."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "froid",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "frwa",
+        "meaning": "cold",
+        "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
+        "examples": [
+          [
+            "Il fait froid en hiver.",
+            "It's cold in winter."
+          ],
+          [
+            "Le café est froid.",
+            "The coffee is cold."
+          ]
         ],
         "special": ""
       }
     ],
     "advanced": [
       {
-        "word": "l'heure",
+        "word": "le soleil",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh so-lay",
+        "meaning": "the sun",
+        "examples": [
+          [
+            "Le soleil est beau aujourd'hui.",
+            "The sun is beautiful today."
+          ],
+          [
+            "Il y a du soleil.",
+            "It's sunny."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la pluie",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "lur",
-        "meaning": "the hour / the time",
-        "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
+        "pronunciation": "la plwee",
+        "meaning": "the rain",
         "examples": [
-          ["Quelle heure est-il ?", "What time is it?"],
-          ["Il est deux heures.", "It is two o'clock."]
+          [
+            "La pluie tombe.",
+            "The rain is falling."
+          ],
+          [
+            "Je n'aime pas la pluie.",
+            "I don't like rain."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "midi",
+        "word": "le vent",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "mee-dee",
-        "meaning": "noon / midday",
-        "notes": "No article needed. Opposite: minuit (midnight).",
+        "pronunciation": "luh von",
+        "meaning": "the wind",
         "examples": [
-          ["Il est midi.", "It is noon."],
-          ["On mange à midi.", "We eat at noon."]
+          [
+            "Le vent est fort aujourd'hui.",
+            "The wind is strong today."
+          ],
+          [
+            "Il y a du vent.",
+            "It's windy."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "en retard",
-        "partOfSpeech": "expression",
+        "word": "chaud",
+        "partOfSpeech": "adjective",
         "gender": null,
-        "pronunciation": "on ruh-tar",
-        "meaning": "late (behind schedule)",
-        "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
+        "pronunciation": "show",
+        "meaning": "hot / warm",
+        "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
         "examples": [
-          ["Je suis en retard !", "I'm late!"],
-          ["Tu es toujours en retard.", "You are always late."]
+          [
+            "Il fait chaud aujourd'hui.",
+            "It's hot today."
+          ],
+          [
+            "L'eau est chaude.",
+            "The water is hot."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "commencer",
-        "partOfSpeech": "verb",
+        "word": "froid",
+        "partOfSpeech": "adjective",
         "gender": null,
-        "pronunciation": "ko-mon-say",
-        "meaning": "to start / to begin",
-        "notes": "Regular -ER verb. Note: nous commençons (ç before -ons).",
-        "conjugation": {
-          "je": "commence",
-          "tu": "commences",
-          "il/elle": "commence",
-          "nous": "commençons",
-          "vous": "commencez",
-          "ils/elles": "commencent"
-        },
+        "pronunciation": "frwa",
+        "meaning": "cold",
+        "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
         "examples": [
-          ["Le cours commence à neuf heures.", "The class starts at nine o'clock."],
-          ["Je commence le travail à huit heures.", "I start work at eight o'clock."]
+          [
+            "Il fait froid en hiver.",
+            "It's cold in winter."
+          ],
+          [
+            "Le café est froid.",
+            "The coffee is cold."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "la semaine",
+        "word": "le nuage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh noo-azh",
+        "meaning": "the cloud",
+        "examples": [
+          [
+            "Il y a des nuages dans le ciel.",
+            "There are clouds in the sky."
+          ],
+          [
+            "Le nuage est gris.",
+            "The cloud is grey."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la neige",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la suh-men",
-        "meaning": "the week",
+        "pronunciation": "la nezh",
+        "meaning": "the snow",
+        "notes": "Also used as a verb: neiger (to snow) — il neige (it's snowing).",
         "examples": [
-          ["La semaine prochaine, je suis en vacances.", "Next week, I am on holiday."],
-          ["Il y a sept jours dans une semaine.", "There are seven days in a week."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le quart d'heure",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh kar dur",
-        "meaning": "the quarter of an hour",
-        "notes": "Used in time: il est deux heures et quart (2:15), il est trois heures moins le quart (2:45).",
-        "examples": [
-          ["Il est deux heures et quart.", "It is quarter past two."],
-          ["J'arrive dans un quart d'heure.", "I'll arrive in a quarter of an hour."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le rendez-vous",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh ron-day-voo",
-        "meaning": "the appointment / the meeting",
-        "notes": "Abbreviated: RDV. Also used for dates (romantic meetings).",
-        "examples": [
-          ["J'ai un rendez-vous à dix heures.", "I have an appointment at ten o'clock."],
-          ["Mon rendez-vous est à midi.", "My appointment is at noon."]
+          [
+            "Il y a de la neige en hiver.",
+            "There is snow in winter."
+          ],
+          [
+            "La neige est blanche.",
+            "The snow is white."
+          ]
         ],
         "special": ""
       }
@@ -181,188 +233,277 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Quelle heure est-il ?"],
-        ["B", "Il est neuf heures. Tu commences à quelle heure ?"],
-        ["A", "Mon cours commence à neuf heures et demie."],
-        ["B", "Et il finit à quelle heure ?"],
-        ["A", "Il finit à midi. Et toi ?"],
-        ["B", "Moi, je commence à dix heures et je finis à une heure."],
-        ["A", "On mange ensemble à midi ?"],
-        ["B", "Non, à midi je suis en cours. On mange à une heure ?"]
+        [
+          "A",
+          "Quel temps fait-il aujourd'hui ?"
+        ],
+        [
+          "B",
+          "Il fait chaud ! Il y a du soleil."
+        ],
+        [
+          "A",
+          "Super ! On va au parc samedi ?"
+        ],
+        [
+          "B",
+          "Samedi ? Non, il va faire froid samedi."
+        ],
+        [
+          "A",
+          "Et dimanche ?"
+        ],
+        [
+          "B",
+          "Dimanche, il y a de la pluie. On reste à la maison."
+        ],
+        [
+          "A",
+          "Oh non ! Je n'aime pas la pluie."
+        ],
+        [
+          "B",
+          "Moi non plus. Mais lundi, il fait beau !"
+        ]
       ],
       "questions": [
         {
-          "question": "À quelle heure commence le cours de A ?",
-          "options": ["À neuf heures", "À neuf heures et demie", "À dix heures"],
-          "correctAnswer": "À neuf heures et demie"
+          "question": "Quel temps fait-il aujourd'hui ?",
+          "options": [
+            "Il fait froid.",
+            "Il fait chaud avec du soleil.",
+            "Il pleut."
+          ],
+          "correctAnswer": "Il fait chaud avec du soleil."
         },
         {
-          "question": "À quelle heure B finit-il ?",
-          "options": ["À midi", "À une heure", "À deux heures"],
-          "correctAnswer": "À une heure"
+          "question": "Pourquoi ils ne vont pas au parc samedi ?",
+          "options": [
+            "Il y a du vent.",
+            "Il fait froid.",
+            "Il y a de la pluie."
+          ],
+          "correctAnswer": "Il fait froid."
         },
         {
-          "question": "Quand est-ce qu'ils mangent ensemble ?",
-          "options": ["À midi", "À une heure", "Ils ne mangent pas ensemble"],
-          "correctAnswer": "À une heure"
+          "question": "Quel jour fait-il beau ?",
+          "options": [
+            "Samedi",
+            "Dimanche",
+            "Lundi"
+          ],
+          "correctAnswer": "Lundi"
         }
       ],
-      "summary": "Two students compare their class schedules. A starts at 9:30 and finishes at noon. B starts at 10 and finishes at 1 p.m. They decide to eat lunch together at 1 p.m."
+      "summary": "Two friends discuss the weather for the weekend. Today is hot and sunny, but Saturday will be cold and Sunday will be rainy. They decide to wait for Monday when the weather will be nice."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu as un emploi du temps chargé cette semaine ?"],
-        ["B", "Oui ! Lundi, je commence à huit heures et je finis à cinq heures."],
-        ["A", "C'est long ! Et mardi ?"],
-        ["B", "Mardi, j'ai un rendez-vous chez le médecin à dix heures. Après, je choisis mes cours pour le semestre."],
-        ["A", "Tu finis à quelle heure mardi ?"],
-        ["B", "Je finis à trois heures et quart. Et toi, ta semaine ?"],
-        ["A", "Moi, je ne finis jamais avant six heures. Je suis toujours en retard le matin."],
-        ["B", "Il faut partir plus tôt !"]
+        [
+          "A",
+          "Tu as vu la météo pour ce week-end ?"
+        ],
+        [
+          "B",
+          "Oui, samedi il fait froid et il y a du vent. Pas idéal pour une promenade."
+        ],
+        [
+          "A",
+          "Et dimanche ?"
+        ],
+        [
+          "B",
+          "Dimanche matin, il y a des nuages, mais l'après-midi il fait beau."
+        ],
+        [
+          "A",
+          "Parfait ! On peut aller au parc dimanche après-midi alors."
+        ],
+        [
+          "B",
+          "Bonne idée. Mais prends un pull, il ne fait pas très chaud."
+        ],
+        [
+          "A",
+          "D'accord. Et s'il pleut ?"
+        ],
+        [
+          "B",
+          "S'il pleut, on va au cinéma. Il y a un bon film français."
+        ]
       ],
       "questions": [
         {
-          "question": "À quelle heure B commence-t-il lundi ?",
-          "options": ["À sept heures", "À huit heures", "À neuf heures", "À dix heures"],
-          "correctAnswer": "À huit heures"
+          "question": "Quel temps fait-il samedi ?",
+          "options": [
+            "Il fait chaud.",
+            "Il fait froid avec du vent.",
+            "Il neige.",
+            "Il y a du soleil."
+          ],
+          "correctAnswer": "Il fait froid avec du vent."
         },
         {
-          "question": "Qu'est-ce que B fait mardi à dix heures ?",
-          "options": ["Un cours", "Un rendez-vous chez le médecin", "Il choisit ses cours", "Il mange"],
-          "correctAnswer": "Un rendez-vous chez le médecin"
+          "question": "Quand est-ce qu'il fait beau dimanche ?",
+          "options": [
+            "Le matin",
+            "L'après-midi",
+            "Le soir",
+            "Toute la journée"
+          ],
+          "correctAnswer": "L'après-midi"
         },
         {
-          "question": "Quel est le problème de A le matin ?",
-          "options": ["Il est fatigué.", "Il est toujours en retard.", "Il ne finit pas.", "Il n'a pas de cours."],
-          "correctAnswer": "Il est toujours en retard."
+          "question": "Que font-ils s'il pleut ?",
+          "options": [
+            "Ils restent à la maison.",
+            "Ils vont au cinéma.",
+            "Ils vont au parc.",
+            "Ils ne sortent pas."
+          ],
+          "correctAnswer": "Ils vont au cinéma."
         }
       ],
-      "summary": "Two students discuss their busy week. B has a long day on Monday (8 to 5), a doctor's appointment on Tuesday at 10, then course selection. A never finishes before 6 and is always late in the morning. B suggests leaving earlier."
+      "summary": "Two friends check the weekend forecast. Saturday is cold and windy. Sunday morning is cloudy but the afternoon is nice, so they plan to go to the park. If it rains, they'll go see a French film at the cinema."
     }
   },
   "grammar": {
     "standard": {
-      "title": "Regular -IR Verbs (finir, choisir, réussir)",
-      "explanation": "Regular -IR verbs follow a predictable pattern. To conjugate, drop the -ir ending and add: -is, -is, -it, -issons, -issez, -issent. The -iss- in the plural forms is the key marker of regular -IR verbs. Common verbs: finir (to finish), choisir (to choose), réussir (to succeed), grandir (to grow up), remplir (to fill).",
+      "title": "Faire + Weather Expressions",
+      "explanation": "In French, the verb 'faire' (to do/make) is used to talk about the weather. You always use the impersonal 'il' (it) as the subject — just like English says 'it's hot'. The key forms are: il fait chaud (it's hot), il fait froid (it's cold), il fait beau (the weather is nice), il fait mauvais (the weather is bad). For rain and snow, French uses different verbs: il pleut (it's raining, from pleuvoir) and il neige (it's snowing, from neiger). To ask about weather: 'Quel temps fait-il ?' (What's the weather like?).",
       "examples": [
         {
-          "french": "Je finis à midi.",
-          "english": "I finish at noon."
+          "french": "Il fait chaud aujourd'hui.",
+          "english": "It's hot today."
         },
         {
-          "french": "Tu choisis quel cours ?",
-          "english": "Which class are you choosing?"
+          "french": "Il fait froid en hiver.",
+          "english": "It's cold in winter."
         },
         {
-          "french": "Nous finissons à cinq heures.",
-          "english": "We finish at five o'clock."
+          "french": "Il fait beau ce matin.",
+          "english": "The weather is nice this morning."
         },
         {
-          "french": "Ils réussissent l'examen.",
-          "english": "They pass the exam."
+          "french": "Il pleut.",
+          "english": "It's raining."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Je ___ à midi. (finir)",
-          "correctAnswer": "finis",
-          "explanation": "Je + finir = je finis."
+          "question": "Il ___ chaud aujourd'hui. (faire)",
+          "correctAnswer": "fait",
+          "explanation": "Weather expressions use il fait + adjective."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Tu ___ quel cours ? (choisir)",
-          "correctAnswer": "choisis",
-          "explanation": "Tu + choisir = tu choisis."
+          "question": "Quel ___ fait-il ? (weather)",
+          "correctAnswer": "temps",
+          "explanation": "'Quel temps fait-il ?' means 'What's the weather like?'"
         },
         {
           "type": "fillInTheBlank",
-          "question": "Nous ___ à cinq heures. (finir)",
-          "correctAnswer": "finissons",
-          "explanation": "Nous + finir = nous finissons. Note the -iss- in plural forms."
+          "question": "Il ___ en hiver. (to snow)",
+          "correctAnswer": "neige",
+          "explanation": "Neiger → il neige (it's snowing). Used only with 'il'."
         },
         {
           "type": "multipleChoice",
-          "question": "What is the correct form: 'Elle ___ l'examen.' (réussir)",
-          "options": ["réussis", "réussit", "réussissent"],
-          "correctAnswer": "réussit",
-          "explanation": "Il/elle + réussir = il/elle réussit."
+          "question": "How do you say 'It's raining' in French?",
+          "options": [
+            "Il fait pluie.",
+            "Il pleut.",
+            "Il est pluie."
+          ],
+          "correctAnswer": "Il pleut.",
+          "explanation": "Rain uses the verb pleuvoir: il pleut (not il fait pluie)."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Ils ___ leurs devoirs à six heures. (finir)",
-          "correctAnswer": "finissent",
-          "explanation": "Ils + finir = ils finissent."
+          "question": "Il fait ___ ce matin. (nice weather)",
+          "correctAnswer": "beau",
+          "explanation": "Il fait beau = the weather is nice / it's a beautiful day."
         }
       ]
     },
     "advanced": {
-      "title": "Regular -IR Verbs — Full Conjugation, Negation & Common Patterns",
-      "explanation": "Regular -IR verbs (Group 2) have the -iss- infix in plural forms: je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. Negation: je ne finis pas. Common verbs: finir, choisir, réussir, grandir, remplir, obéir, réfléchir. Warning: not all -IR verbs are regular — dormir, partir, sortir follow a different pattern (Group 3).",
+      "title": "Faire — Weather, Activities & Impersonal Expressions",
+      "explanation": "Faire is one of the most versatile French verbs. For weather: il fait + adjective (il fait chaud/froid/beau/mauvais). Rain and snow use specific verbs: il pleut, il neige. Faire also expresses activities: faire du sport, faire la cuisine, faire les courses. Conjugation: je fais, tu fais, il fait, nous faisons, vous faites, ils font. Negation: il ne fait pas chaud.",
       "examples": [
         {
-          "french": "Vous choisissez quel restaurant ?",
-          "english": "Which restaurant are you choosing?"
+          "french": "Il ne fait pas beau aujourd'hui.",
+          "english": "The weather isn't nice today."
         },
         {
-          "french": "Je ne finis pas avant six heures.",
-          "english": "I don't finish before six o'clock."
+          "french": "Quel temps fait-il en été ?",
+          "english": "What's the weather like in summer?"
         },
         {
-          "french": "Les enfants grandissent vite.",
-          "english": "The children grow up fast."
+          "french": "Quand il fait beau, je fais du sport.",
+          "english": "When the weather is nice, I do sports."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Je ___ à midi. (finir)",
-          "correctAnswer": "finis",
-          "explanation": "Je + finir = je finis."
+          "question": "Il ___ chaud en été. (faire)",
+          "correctAnswer": "fait",
+          "explanation": "Weather: il fait + adjective."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Vous ___ quel cours ? (choisir)",
-          "correctAnswer": "choisissez",
-          "explanation": "Vous + choisir = vous choisissez."
+          "question": "Nous ___ du sport le samedi. (faire)",
+          "correctAnswer": "faisons",
+          "explanation": "Nous + faire = nous faisons."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Elle ne ___ pas l'examen. (réussir)",
-          "correctAnswer": "réussit",
-          "explanation": "Negation: elle ne réussit pas."
+          "question": "Il ne ___ pas beau aujourd'hui. (faire)",
+          "correctAnswer": "fait",
+          "explanation": "Negation: il ne fait pas + adjective."
         },
         {
           "type": "multipleChoice",
-          "question": "Which verb is NOT a regular -IR verb?",
-          "options": ["finir", "choisir", "dormir", "réussir"],
-          "correctAnswer": "dormir",
-          "explanation": "Dormir is an irregular -IR verb (Group 3): je dors, not je dormis."
+          "question": "Which is the correct conjugation for 'vous' + faire?",
+          "options": [
+            "faisez",
+            "faites",
+            "font",
+            "faisent"
+          ],
+          "correctAnswer": "faites",
+          "explanation": "Vous faites — irregular form, must be memorised."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Les enfants ___ vite. (grandir)",
-          "correctAnswer": "grandissent",
-          "explanation": "Ils + grandir = ils grandissent."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "Nous ne ___ pas avant cinq heures. (finir)",
-          "correctAnswer": "finissons",
-          "explanation": "Negation: nous ne finissons pas."
+          "question": "Ils ___ les courses le samedi. (faire)",
+          "correctAnswer": "font",
+          "explanation": "Ils/elles + faire = ils font."
         },
         {
           "type": "multipleChoice",
-          "question": "What is 'vous finissez' in English?",
-          "options": ["you finish", "you choose", "you succeed", "you grow"],
-          "correctAnswer": "you finish",
-          "explanation": "Finir = to finish. Vous finissez = you finish."
+          "question": "How do you say 'It's not cold' in French?",
+          "options": [
+            "Il fait ne pas froid.",
+            "Il ne fait pas froid.",
+            "Il pas fait froid.",
+            "Ne il fait pas froid."
+          ],
+          "correctAnswer": "Il ne fait pas froid.",
+          "explanation": "Negation wraps the verb: ne + fait + pas."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Tu ___ tes devoirs à quelle heure ? (finir)",
-          "correctAnswer": "finis",
-          "explanation": "Tu + finir = tu finis."
+          "question": "Tu ___ la cuisine ce soir ? (faire)",
+          "correctAnswer": "fais",
+          "explanation": "Tu + faire = tu fais."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ du sport quand il fait beau. (faire)",
+          "correctAnswer": "fais",
+          "explanation": "Je + faire = je fais."
         }
       ]
     }
@@ -371,104 +512,141 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "What does 'Quelle heure est-il ?' mean?",
-        "options": ["Where is he?", "What time is it?", "How are you?"],
-        "correctAnswer": "What time is it?",
-        "explanation": "'Quelle heure est-il ?' is the standard way to ask the time.",
-        "targetWord": "l'heure"
+        "question": "What does 'il fait chaud' mean?",
+        "options": [
+          "It's cold.",
+          "It's hot.",
+          "It's windy."
+        ],
+        "correctAnswer": "It's hot.",
+        "explanation": "'Il fait chaud' uses faire + adjective to describe hot weather.",
+        "targetWord": "chaud"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'midi' mean?",
-        "options": ["midnight", "noon", "morning"],
-        "correctAnswer": "noon",
-        "explanation": "'Midi' means noon. Midnight is 'minuit'.",
-        "targetWord": "midi"
+        "question": "What is 'le soleil'?",
+        "options": [
+          "the moon",
+          "the sun",
+          "the cloud"
+        ],
+        "correctAnswer": "the sun",
+        "explanation": "'Le soleil' means 'the sun'. It is masculine.",
+        "targetWord": "le soleil"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Je suis ___ ! Le cours commence dans cinq minutes. (late)",
-        "correctAnswer": "en retard",
-        "explanation": "'En retard' means late / behind schedule.",
-        "targetWord": "en retard"
-      },
-      {
-        "type": "fillInTheBlank",
-        "question": "Le cours ___ à neuf heures. (to start)",
-        "correctAnswer": "commence",
-        "explanation": "Il/elle + commencer = il commence.",
-        "targetWord": "commencer"
+        "question": "Il y a de la ___ en hiver. (rain)",
+        "correctAnswer": "pluie",
+        "explanation": "'La pluie' means rain.",
+        "targetWord": "la pluie"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'the week' in French?",
-        "options": ["le jour", "la semaine", "le mois"],
-        "correctAnswer": "la semaine",
-        "explanation": "'La semaine' means the week. It is feminine.",
-        "targetWord": "la semaine"
+        "question": "How do you say 'It's windy' in French?",
+        "options": [
+          "Il fait vent.",
+          "Il y a du vent.",
+          "Il est vent."
+        ],
+        "correctAnswer": "Il y a du vent.",
+        "explanation": "Wind uses 'il y a du vent' (there is wind), not 'il fait vent'.",
+        "targetWord": "le vent"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il fait ___ en hiver. (cold)",
+        "correctAnswer": "froid",
+        "explanation": "'Il fait froid' means 'it's cold'.",
+        "targetWord": "froid"
       }
     ],
     "advanced": [
       {
         "type": "multipleChoice",
-        "question": "What does 'il est deux heures et quart' mean?",
-        "options": ["It is 2:30.", "It is 2:15.", "It is 2:45.", "It is 2:00."],
-        "correctAnswer": "It is 2:15.",
-        "explanation": "'Et quart' means quarter past. 2:45 would be 'trois heures moins le quart'.",
-        "targetWord": "le quart d'heure"
+        "question": "Which expression means 'the weather is bad'?",
+        "options": [
+          "Il fait beau.",
+          "Il fait mauvais.",
+          "Il fait chaud.",
+          "Il fait froid."
+        ],
+        "correctAnswer": "Il fait mauvais.",
+        "explanation": "'Il fait mauvais' describes bad weather. 'Il fait beau' is the opposite.",
+        "targetWord": "froid"
       },
       {
         "type": "fillInTheBlank",
-        "question": "J'ai un ___ chez le médecin à dix heures. (appointment)",
-        "correctAnswer": "rendez-vous",
-        "explanation": "'Le rendez-vous' means appointment or meeting.",
-        "targetWord": "le rendez-vous"
+        "question": "Il y a des ___ dans le ciel. (clouds)",
+        "correctAnswer": "nuages",
+        "explanation": "'Les nuages' means clouds. Singular: le nuage.",
+        "targetWord": "le nuage"
       },
       {
         "type": "multipleChoice",
-        "question": "What is the correct form: 'Nous ___ à cinq heures.' (finir)",
-        "options": ["finis", "finissons", "finissez", "finissent"],
-        "correctAnswer": "finissons",
-        "explanation": "Nous + finir = nous finissons.",
-        "targetWord": "commencer"
+        "question": "What does 'il neige' mean?",
+        "options": [
+          "It's raining.",
+          "It's snowing.",
+          "It's cold.",
+          "It's cloudy."
+        ],
+        "correctAnswer": "It's snowing.",
+        "explanation": "'Neiger' means to snow. Il neige = it's snowing.",
+        "targetWord": "la neige"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Tu ___ quel cours pour le semestre ? (choisir)",
-        "correctAnswer": "choisis",
-        "explanation": "Tu + choisir = tu choisis.",
-        "targetWord": "la semaine"
+        "question": "Quel ___ fait-il aujourd'hui ? (weather)",
+        "correctAnswer": "temps",
+        "explanation": "'Quel temps fait-il ?' is the standard way to ask about weather.",
+        "targetWord": "chaud"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'en retard' mean?",
-        "options": ["on time", "early", "late", "absent"],
-        "correctAnswer": "late",
-        "explanation": "'En retard' means late / behind schedule. Opposite: en avance.",
-        "targetWord": "en retard"
+        "question": "How do you say 'It's not hot today'?",
+        "options": [
+          "Il fait ne pas chaud.",
+          "Il ne fait pas chaud.",
+          "Il pas fait chaud.",
+          "Ne il fait pas chaud."
+        ],
+        "correctAnswer": "Il ne fait pas chaud.",
+        "explanation": "Negation: ne + fait + pas. Il ne fait pas chaud.",
+        "targetWord": "chaud"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Quelle ___ est-il ? (time)",
-        "correctAnswer": "heure",
-        "explanation": "'Quelle heure est-il ?' = What time is it?",
-        "targetWord": "l'heure"
+        "question": "La ___ est blanche en hiver. (snow)",
+        "correctAnswer": "neige",
+        "explanation": "'La neige' means snow. Feminine noun.",
+        "targetWord": "la neige"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "Your teacher asks you to describe your typical day with times. Tell them when you start school or work, when you eat lunch, and when you finish.",
-      "keyPhrases": ["Je commence à...", "Je finis à...", "Je mange à...", "Il est... heures."],
-      "modelAnswer": "Je commence le cours à neuf heures. À midi, je mange avec mes amis. Je finis à trois heures. Après, je fais mes devoirs.",
-      "modelAnswerExplanation": "This uses time expressions with 'à', the verb 'commencer/finir' for start/end times, and 'à midi' for noon.",
-      "tip": "Use 'à' before times (à neuf heures) and say 'midi' for noon without an article."
+      "scenario": "A colleague at work asks you what the weather is like today and what kind of weather you prefer. Tell them about today's weather and what you like to do in your favourite weather.",
+      "keyPhrases": [
+        "Il fait...",
+        "Il y a du...",
+        "J'aime quand il fait...",
+        "Je n'aime pas..."
+      ],
+      "modelAnswer": "Aujourd'hui, il fait chaud et il y a du soleil. J'aime quand il fait beau. Quand il fait chaud, je vais au parc. Je n'aime pas la pluie.",
+      "modelAnswerExplanation": "This answer uses 'il fait' for weather descriptions, 'il y a du' for sun/wind, 'j'aime quand' to express preference, and 'je n'aime pas' for dislike.",
+      "tip": "Start with 'Aujourd'hui, il fait...' to describe the current weather, then use 'J'aime quand...' for your preference."
     },
     "advanced": {
-      "scenario": "You are explaining your busy weekly schedule to a friend. Describe at least three different days with times, activities, and appointments. Mention when you are busy and when you are free.",
-      "keyPhrases": ["Lundi, je commence à...", "J'ai un rendez-vous à...", "Je finis à...", "Je suis libre à..."],
-      "modelAnswer": "Lundi, je commence à huit heures et je finis à cinq heures. Mardi, j'ai un rendez-vous chez le médecin à dix heures et quart. Je choisis mes cours l'après-midi. Mercredi, je suis libre. Je ne finis jamais avant six heures le jeudi. Le week-end, je ne travaille pas.",
-      "modelAnswerExplanation": "This uses days of the week, time with 'et quart', -IR verbs (choisir, finir), negation with 'jamais', and the expression 'être libre'.",
+      "scenario": "You're planning a weekend trip with a friend. Discuss the weather forecast for both days, suggest activities depending on the weather, and propose a backup plan if the weather is bad.",
+      "keyPhrases": [
+        "Quel temps fait-il...",
+        "Il fait beau / mauvais",
+        "S'il pleut...",
+        "Quand il fait chaud..."
+      ],
+      "modelAnswer": "Samedi, il fait beau et il y a du soleil. On peut faire du sport au parc. Mais dimanche, il fait froid et il y a des nuages. S'il pleut dimanche, on peut aller au cinéma ou rester à la maison.",
+      "modelAnswerExplanation": "This uses weather expressions with days of the week, 'on peut' for suggestions, 's'il pleut' for a conditional backup, and vocabulary for activities.",
       "tip": ""
     }
   }

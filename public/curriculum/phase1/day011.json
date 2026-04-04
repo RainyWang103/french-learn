@@ -1,162 +1,251 @@
 {
-  "day": 14,
+  "day": 11,
   "phase": 1,
-  "topic": "Clothing & Colours",
+  "isRevision": false,
+  "topic": "Telling Time & Daily Schedule",
   "vocab": {
     "standard": [
       {
-        "word": "la robe",
+        "word": "l'heure",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la rob",
-        "meaning": "the dress",
+        "pronunciation": "lur",
+        "meaning": "the hour / the time",
+        "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
         "examples": [
-          ["La robe est rouge.", "The dress is red."],
-          ["Elle porte une robe bleue.", "She is wearing a blue dress."]
+          [
+            "Quelle heure est-il ?",
+            "What time is it?"
+          ],
+          [
+            "Il est deux heures.",
+            "It is two o'clock."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "le pantalon",
+        "word": "midi",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh pon-ta-lon",
-        "meaning": "the trousers / the pants",
-        "notes": "Always singular in French (le pantalon), unlike English 'trousers/pants'.",
+        "pronunciation": "mee-dee",
+        "meaning": "noon / midday",
+        "notes": "No article needed. Opposite: minuit (midnight).",
         "examples": [
-          ["Mon pantalon est noir.", "My trousers are black."],
-          ["Il porte un pantalon gris.", "He is wearing grey trousers."]
+          [
+            "Il est midi.",
+            "It is noon."
+          ],
+          [
+            "On mange à midi.",
+            "We eat at noon."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "le chapeau",
+        "word": "en retard",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "on ruh-tar",
+        "meaning": "late (behind schedule)",
+        "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
+        "examples": [
+          [
+            "Je suis en retard !",
+            "I'm late!"
+          ],
+          [
+            "Tu es toujours en retard.",
+            "You are always late."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "commencer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ko-mon-say",
+        "meaning": "to start / to begin",
+        "notes": "Regular -ER verb. Note: nous commençons (ç before -ons).",
+        "conjugation": {
+          "je": "commence",
+          "tu": "commences",
+          "il/elle": "commence",
+          "nous": "commençons",
+          "vous": "commencez",
+          "ils/elles": "commencent"
+        },
+        "examples": [
+          [
+            "Le cours commence à neuf heures.",
+            "The class starts at nine o'clock."
+          ],
+          [
+            "Je commence le travail à huit heures.",
+            "I start work at eight o'clock."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la semaine",
         "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh sha-po",
-        "meaning": "the hat",
-        "notes": "Plural: les chapeaux (add -x, not -s).",
+        "gender": "female",
+        "pronunciation": "la suh-men",
+        "meaning": "the week",
         "examples": [
-          ["Le chapeau est blanc.", "The hat is white."],
-          ["Il porte un grand chapeau.", "He is wearing a big hat."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "rouge",
-        "partOfSpeech": "adjective",
-        "gender": null,
-        "pronunciation": "roozh",
-        "meaning": "red",
-        "notes": "Same form for masculine and feminine: un sac rouge, une robe rouge.",
-        "examples": [
-          ["La robe est rouge.", "The dress is red."],
-          ["J'ai un sac rouge.", "I have a red bag."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "blanc",
-        "partOfSpeech": "adjective",
-        "gender": null,
-        "pronunciation": "blon",
-        "meaning": "white",
-        "notes": "Feminine form: blanche. Blanc → blanche is an irregular change.",
-        "examples": [
-          ["Le chapeau est blanc.", "The hat is white."],
-          ["La chemise est blanche.", "The shirt is white."]
+          [
+            "La semaine prochaine, je suis en vacances.",
+            "Next week, I am on holiday."
+          ],
+          [
+            "Il y a sept jours dans une semaine.",
+            "There are seven days in a week."
+          ]
         ],
         "special": ""
       }
     ],
     "advanced": [
       {
-        "word": "la robe",
+        "word": "l'heure",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la rob",
-        "meaning": "the dress",
+        "pronunciation": "lur",
+        "meaning": "the hour / the time",
+        "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
         "examples": [
-          ["La robe est rouge.", "The dress is red."],
-          ["Elle porte une robe bleue.", "She is wearing a blue dress."]
+          [
+            "Quelle heure est-il ?",
+            "What time is it?"
+          ],
+          [
+            "Il est deux heures.",
+            "It is two o'clock."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "le pantalon",
+        "word": "midi",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh pon-ta-lon",
-        "meaning": "the trousers / the pants",
-        "notes": "Always singular in French (le pantalon), unlike English 'trousers/pants'.",
+        "pronunciation": "mee-dee",
+        "meaning": "noon / midday",
+        "notes": "No article needed. Opposite: minuit (midnight).",
         "examples": [
-          ["Mon pantalon est noir.", "My trousers are black."],
-          ["Il porte un pantalon gris.", "He is wearing grey trousers."]
+          [
+            "Il est midi.",
+            "It is noon."
+          ],
+          [
+            "On mange à midi.",
+            "We eat at noon."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "le chapeau",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh sha-po",
-        "meaning": "the hat",
-        "notes": "Plural: les chapeaux (add -x, not -s).",
-        "examples": [
-          ["Le chapeau est blanc.", "The hat is white."],
-          ["Il porte un grand chapeau.", "He is wearing a big hat."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "rouge",
-        "partOfSpeech": "adjective",
+        "word": "en retard",
+        "partOfSpeech": "expression",
         "gender": null,
-        "pronunciation": "roozh",
-        "meaning": "red",
-        "notes": "Same form for masculine and feminine: un sac rouge, une robe rouge.",
+        "pronunciation": "on ruh-tar",
+        "meaning": "late (behind schedule)",
+        "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
         "examples": [
-          ["La robe est rouge.", "The dress is red."],
-          ["J'ai un sac rouge.", "I have a red bag."]
+          [
+            "Je suis en retard !",
+            "I'm late!"
+          ],
+          [
+            "Tu es toujours en retard.",
+            "You are always late."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "blanc",
-        "partOfSpeech": "adjective",
+        "word": "commencer",
+        "partOfSpeech": "verb",
         "gender": null,
-        "pronunciation": "blon",
-        "meaning": "white",
-        "notes": "Feminine form: blanche. Blanc → blanche is an irregular change.",
+        "pronunciation": "ko-mon-say",
+        "meaning": "to start / to begin",
+        "notes": "Regular -ER verb. Note: nous commençons (ç before -ons).",
+        "conjugation": {
+          "je": "commence",
+          "tu": "commences",
+          "il/elle": "commence",
+          "nous": "commençons",
+          "vous": "commencez",
+          "ils/elles": "commencent"
+        },
         "examples": [
-          ["Le chapeau est blanc.", "The hat is white."],
-          ["La chemise est blanche.", "The shirt is white."]
+          [
+            "Le cours commence à neuf heures.",
+            "The class starts at nine o'clock."
+          ],
+          [
+            "Je commence le travail à huit heures.",
+            "I start work at eight o'clock."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "les chaussures",
+        "word": "la semaine",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "lay show-sur",
-        "meaning": "the shoes",
-        "notes": "Usually plural. Singular: la chaussure (one shoe).",
+        "pronunciation": "la suh-men",
+        "meaning": "the week",
         "examples": [
-          ["Mes chaussures sont noires.", "My shoes are black."],
-          ["Elle achète des chaussures rouges.", "She is buying red shoes."]
+          [
+            "La semaine prochaine, je suis en vacances.",
+            "Next week, I am on holiday."
+          ],
+          [
+            "Il y a sept jours dans une semaine.",
+            "There are seven days in a week."
+          ]
         ],
         "special": ""
       },
       {
-        "word": "le manteau",
+        "word": "le quart d'heure",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh mon-to",
-        "meaning": "the coat",
-        "notes": "Plural: les manteaux (add -x). Worn in cold weather.",
+        "pronunciation": "luh kar dur",
+        "meaning": "the quarter of an hour",
+        "notes": "Used in time: il est deux heures et quart (2:15), il est trois heures moins le quart (2:45).",
         "examples": [
-          ["Il fait froid, prends ton manteau.", "It's cold, take your coat."],
-          ["Le manteau bleu est joli.", "The blue coat is pretty."]
+          [
+            "Il est deux heures et quart.",
+            "It is quarter past two."
+          ],
+          [
+            "J'arrive dans un quart d'heure.",
+            "I'll arrive in a quarter of an hour."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le rendez-vous",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ron-day-voo",
+        "meaning": "the appointment / the meeting",
+        "notes": "Abbreviated: RDV. Also used for dates (romantic meetings).",
+        "examples": [
+          [
+            "J'ai un rendez-vous à dix heures.",
+            "I have an appointment at ten o'clock."
+          ],
+          [
+            "Mon rendez-vous est à midi.",
+            "My appointment is at noon."
+          ]
         ],
         "special": ""
       }
@@ -165,188 +254,277 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Qu'est-ce que tu portes pour la fête ?"],
-        ["B", "Je ne sais pas. La robe rouge ou le pantalon noir ?"],
-        ["A", "La robe rouge est très jolie !"],
-        ["B", "Oui, mais il fait froid ce soir."],
-        ["A", "Tu peux porter la robe avec un manteau."],
-        ["B", "Bonne idée ! Et toi, tu portes quoi ?"],
-        ["A", "Un pantalon blanc et un chapeau."],
-        ["B", "Un chapeau ? C'est original !"]
+        [
+          "A",
+          "Quelle heure est-il ?"
+        ],
+        [
+          "B",
+          "Il est neuf heures. Tu commences à quelle heure ?"
+        ],
+        [
+          "A",
+          "Mon cours commence à neuf heures et demie."
+        ],
+        [
+          "B",
+          "Et il finit à quelle heure ?"
+        ],
+        [
+          "A",
+          "Il finit à midi. Et toi ?"
+        ],
+        [
+          "B",
+          "Moi, je commence à dix heures et je finis à une heure."
+        ],
+        [
+          "A",
+          "On mange ensemble à midi ?"
+        ],
+        [
+          "B",
+          "Non, à midi je suis en cours. On mange à une heure ?"
+        ]
       ],
       "questions": [
         {
-          "question": "Qu'est-ce que B hésite à porter ?",
-          "options": ["Une jupe ou un pantalon", "Une robe rouge ou un pantalon noir", "Un manteau ou une robe"],
-          "correctAnswer": "Une robe rouge ou un pantalon noir"
+          "question": "À quelle heure commence le cours de A ?",
+          "options": [
+            "À neuf heures",
+            "À neuf heures et demie",
+            "À dix heures"
+          ],
+          "correctAnswer": "À neuf heures et demie"
         },
         {
-          "question": "Pourquoi B hésite-t-il ?",
-          "options": ["La robe est trop petite.", "Il fait froid ce soir.", "Le pantalon est sale."],
-          "correctAnswer": "Il fait froid ce soir."
+          "question": "À quelle heure B finit-il ?",
+          "options": [
+            "À midi",
+            "À une heure",
+            "À deux heures"
+          ],
+          "correctAnswer": "À une heure"
         },
         {
-          "question": "Que porte A ?",
-          "options": ["Une robe bleue", "Un pantalon blanc et un chapeau", "Un manteau noir"],
-          "correctAnswer": "Un pantalon blanc et un chapeau"
+          "question": "Quand est-ce qu'ils mangent ensemble ?",
+          "options": [
+            "À midi",
+            "À une heure",
+            "Ils ne mangent pas ensemble"
+          ],
+          "correctAnswer": "À une heure"
         }
       ],
-      "summary": "Two friends discuss what to wear to a party. B hesitates between a red dress and black trousers because it's cold. A suggests wearing the dress with a coat. A will wear white trousers and a hat."
+      "summary": "Two students compare their class schedules. A starts at 9:30 and finishes at noon. B starts at 10 and finishes at 1 p.m. They decide to eat lunch together at 1 p.m."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu es prête pour la fête ?"],
-        ["B", "Presque. Je ne sais pas quelles chaussures porter."],
-        ["A", "Avec ta robe bleue ? Les chaussures noires sont bien."],
-        ["B", "Oui, mais elles ne sont pas très confortables. Et les blanches ?"],
-        ["A", "Les blanches avec une robe bleue ? C'est joli. Mets ton manteau gris aussi."],
-        ["B", "Le gris ? Non, je préfère le manteau noir. Il est plus élégant."],
-        ["A", "D'accord. Moi, je porte un pantalon vert et une chemise blanche."],
-        ["B", "Vert et blanc ? C'est un bon choix. On y va !"]
+        [
+          "A",
+          "Tu as un emploi du temps chargé cette semaine ?"
+        ],
+        [
+          "B",
+          "Oui ! Lundi, je commence à huit heures et je finis à cinq heures."
+        ],
+        [
+          "A",
+          "C'est long ! Et mardi ?"
+        ],
+        [
+          "B",
+          "Mardi, j'ai un rendez-vous chez le médecin à dix heures. Après, je choisis mes cours pour le semestre."
+        ],
+        [
+          "A",
+          "Tu finis à quelle heure mardi ?"
+        ],
+        [
+          "B",
+          "Je finis à trois heures et quart. Et toi, ta semaine ?"
+        ],
+        [
+          "A",
+          "Moi, je ne finis jamais avant six heures. Je suis toujours en retard le matin."
+        ],
+        [
+          "B",
+          "Il faut partir plus tôt !"
+        ]
       ],
       "questions": [
         {
-          "question": "Quel est le problème de B ?",
-          "options": ["Elle n'a pas de robe.", "Elle ne sait pas quelles chaussures porter.", "Elle n'aime pas la fête.", "Son manteau est sale."],
-          "correctAnswer": "Elle ne sait pas quelles chaussures porter."
+          "question": "À quelle heure B commence-t-il lundi ?",
+          "options": [
+            "À sept heures",
+            "À huit heures",
+            "À neuf heures",
+            "À dix heures"
+          ],
+          "correctAnswer": "À huit heures"
         },
         {
-          "question": "Quel manteau B choisit-elle ?",
-          "options": ["Le gris", "Le noir", "Le bleu", "Le blanc"],
-          "correctAnswer": "Le noir"
+          "question": "Qu'est-ce que B fait mardi à dix heures ?",
+          "options": [
+            "Un cours",
+            "Un rendez-vous chez le médecin",
+            "Il choisit ses cours",
+            "Il mange"
+          ],
+          "correctAnswer": "Un rendez-vous chez le médecin"
         },
         {
-          "question": "Quelles couleurs porte A ?",
-          "options": ["Bleu et noir", "Rouge et blanc", "Vert et blanc", "Noir et gris"],
-          "correctAnswer": "Vert et blanc"
+          "question": "Quel est le problème de A le matin ?",
+          "options": [
+            "Il est fatigué.",
+            "Il est toujours en retard.",
+            "Il ne finit pas.",
+            "Il n'a pas de cours."
+          ],
+          "correctAnswer": "Il est toujours en retard."
         }
       ],
-      "summary": "Two friends get ready for a party. B has a blue dress and debates between black shoes (uncomfortable) and white ones. She picks the black coat over the grey one. A wears a green trouser and white shirt combination."
+      "summary": "Two students discuss their busy week. B has a long day on Monday (8 to 5), a doctor's appointment on Tuesday at 10, then course selection. A never finishes before 6 and is always late in the morning. B suggests leaving earlier."
     }
   },
   "grammar": {
     "standard": {
-      "title": "Adjective Agreement & Placement (masculine/feminine, before/after noun)",
-      "explanation": "In French, adjectives must agree in gender and number with the noun they describe. Most adjectives add -e for feminine and -s for plural: petit → petite → petits → petites. Colour adjectives go AFTER the noun: une robe rouge (a red dress), un chapeau blanc (a white hat). Some common short adjectives go BEFORE the noun (BANGS rule): beau, autre, nouveau, grand, petit. Example: un grand chapeau, une petite robe. Irregular feminines: blanc → blanche, beau → belle, nouveau → nouvelle.",
+      "title": "Regular -IR Verbs (finir, choisir, réussir)",
+      "explanation": "Regular -IR verbs follow a predictable pattern. To conjugate, drop the -ir ending and add: -is, -is, -it, -issons, -issez, -issent. The -iss- in the plural forms is the key marker of regular -IR verbs. Common verbs: finir (to finish), choisir (to choose), réussir (to succeed), grandir (to grow up), remplir (to fill).",
       "examples": [
         {
-          "french": "Une robe rouge.",
-          "english": "A red dress."
+          "french": "Je finis à midi.",
+          "english": "I finish at noon."
         },
         {
-          "french": "Un chapeau blanc.",
-          "english": "A white hat."
+          "french": "Tu choisis quel cours ?",
+          "english": "Which class are you choosing?"
         },
         {
-          "french": "La chemise est blanche.",
-          "english": "The shirt is white."
+          "french": "Nous finissons à cinq heures.",
+          "english": "We finish at five o'clock."
         },
         {
-          "french": "Un grand manteau noir.",
-          "english": "A big black coat."
+          "french": "Ils réussissent l'examen.",
+          "english": "They pass the exam."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "La robe est ___. (white, feminine)",
-          "correctAnswer": "blanche",
-          "explanation": "Blanc → blanche for feminine nouns."
+          "question": "Je ___ à midi. (finir)",
+          "correctAnswer": "finis",
+          "explanation": "Je + finir = je finis."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Un chapeau ___. (red)",
-          "correctAnswer": "rouge",
-          "explanation": "Rouge is the same for masculine and feminine."
+          "question": "Tu ___ quel cours ? (choisir)",
+          "correctAnswer": "choisis",
+          "explanation": "Tu + choisir = tu choisis."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ à cinq heures. (finir)",
+          "correctAnswer": "finissons",
+          "explanation": "Nous + finir = nous finissons. Note the -iss- in plural forms."
         },
         {
           "type": "multipleChoice",
-          "question": "Where does the colour go in French?",
-          "options": ["Before the noun", "After the noun", "It doesn't matter"],
-          "correctAnswer": "After the noun",
-          "explanation": "Colour adjectives go after the noun: une robe rouge, not une rouge robe."
+          "question": "What is the correct form: 'Elle ___ l'examen.' (réussir)",
+          "options": [
+            "réussis",
+            "réussit",
+            "réussissent"
+          ],
+          "correctAnswer": "réussit",
+          "explanation": "Il/elle + réussir = il/elle réussit."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Les chaussures sont ___. (black, feminine plural)",
-          "correctAnswer": "noires",
-          "explanation": "Noir → noire (fem) → noires (fem plural)."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "Un ___ chapeau. (big)",
-          "correctAnswer": "grand",
-          "explanation": "Grand goes before the noun (BANGS adjective)."
+          "question": "Ils ___ leurs devoirs à six heures. (finir)",
+          "correctAnswer": "finissent",
+          "explanation": "Ils + finir = ils finissent."
         }
       ]
     },
     "advanced": {
-      "title": "Adjective Agreement — Regular, Irregular & BANGS Rule",
-      "explanation": "Regular agreement: add -e (feminine), -s (plural), -es (feminine plural): vert → verte → verts → vertes. Irregular feminines: blanc/blanche, gris/grise, long/longue, beau/belle, nouveau/nouvelle, vieux/vieille. BANGS adjectives go BEFORE the noun: Beauty (beau, joli), Age (jeune, vieux, nouveau), Number (premier, dernier), Goodness (bon, mauvais, gentil), Size (grand, petit, gros, long). Multiple adjectives: size before noun + colour after: un grand manteau noir. Colour adjectives ending in -e don't change: rouge, jaune, rose.",
+      "title": "Regular -IR Verbs — Full Conjugation, Negation & Common Patterns",
+      "explanation": "Regular -IR verbs (Group 2) have the -iss- infix in plural forms: je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. Negation: je ne finis pas. Common verbs: finir, choisir, réussir, grandir, remplir, obéir, réfléchir. Warning: not all -IR verbs are regular — dormir, partir, sortir follow a different pattern (Group 3).",
       "examples": [
         {
-          "french": "Une belle robe blanche.",
-          "english": "A beautiful white dress."
+          "french": "Vous choisissez quel restaurant ?",
+          "english": "Which restaurant are you choosing?"
         },
         {
-          "french": "De nouvelles chaussures noires.",
-          "english": "New black shoes."
+          "french": "Je ne finis pas avant six heures.",
+          "english": "I don't finish before six o'clock."
         },
         {
-          "french": "Le vieux manteau gris.",
-          "english": "The old grey coat."
+          "french": "Les enfants grandissent vite.",
+          "english": "The children grow up fast."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "La chemise est ___. (white, feminine)",
-          "correctAnswer": "blanche",
-          "explanation": "Blanc → blanche (irregular feminine)."
+          "question": "Je ___ à midi. (finir)",
+          "correctAnswer": "finis",
+          "explanation": "Je + finir = je finis."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Les chaussures sont ___. (green, feminine plural)",
-          "correctAnswer": "vertes",
-          "explanation": "Vert → verte → vertes (regular agreement)."
+          "question": "Vous ___ quel cours ? (choisir)",
+          "correctAnswer": "choisissez",
+          "explanation": "Vous + choisir = vous choisissez."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ne ___ pas l'examen. (réussir)",
+          "correctAnswer": "réussit",
+          "explanation": "Negation: elle ne réussit pas."
         },
         {
           "type": "multipleChoice",
-          "question": "Which is correct?",
-          "options": ["une rouge robe", "une robe rouge", "une robe rouges", "un robe rouge"],
-          "correctAnswer": "une robe rouge",
-          "explanation": "Colour after noun, agree in gender: une robe rouge."
+          "question": "Which verb is NOT a regular -IR verb?",
+          "options": [
+            "finir",
+            "choisir",
+            "dormir",
+            "réussir"
+          ],
+          "correctAnswer": "dormir",
+          "explanation": "Dormir is an irregular -IR verb (Group 3): je dors, not je dormis."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Une ___ robe. (beautiful)",
-          "correctAnswer": "belle",
-          "explanation": "Beau → belle (feminine). BANGS: goes before noun."
+          "question": "Les enfants ___ vite. (grandir)",
+          "correctAnswer": "grandissent",
+          "explanation": "Ils + grandir = ils grandissent."
         },
         {
           "type": "fillInTheBlank",
-          "question": "De ___ chaussures noires. (new, feminine plural)",
-          "correctAnswer": "nouvelles",
-          "explanation": "Nouveau → nouvelle → nouvelles (irregular)."
+          "question": "Nous ne ___ pas avant cinq heures. (finir)",
+          "correctAnswer": "finissons",
+          "explanation": "Negation: nous ne finissons pas."
         },
         {
           "type": "multipleChoice",
-          "question": "Which adjective does NOT change in the feminine?",
-          "options": ["blanc", "rouge", "noir", "vert"],
-          "correctAnswer": "rouge",
-          "explanation": "Rouge already ends in -e, so it stays the same for masculine and feminine."
+          "question": "What is 'vous finissez' in English?",
+          "options": [
+            "you finish",
+            "you choose",
+            "you succeed",
+            "you grow"
+          ],
+          "correctAnswer": "you finish",
+          "explanation": "Finir = to finish. Vous finissez = you finish."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Le ___ manteau gris. (old)",
-          "correctAnswer": "vieux",
-          "explanation": "Vieux = old (masculine). Feminine: vieille. Goes before the noun."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "La jupe est ___. (grey, feminine)",
-          "correctAnswer": "grise",
-          "explanation": "Gris → grise (add -e for feminine)."
+          "question": "Tu ___ tes devoirs à quelle heure ? (finir)",
+          "correctAnswer": "finis",
+          "explanation": "Tu + finir = tu finis."
         }
       ]
     }
@@ -355,104 +533,141 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "What does 'la robe' mean?",
-        "options": ["the skirt", "the dress", "the shirt"],
-        "correctAnswer": "the dress",
-        "explanation": "'La robe' means the dress. It is feminine.",
-        "targetWord": "la robe"
-      },
-      {
-        "type": "fillInTheBlank",
-        "question": "Le chapeau est ___. (white, masculine)",
-        "correctAnswer": "blanc",
-        "explanation": "Blanc is the masculine form. Feminine: blanche.",
-        "targetWord": "blanc"
+        "question": "What does 'Quelle heure est-il ?' mean?",
+        "options": [
+          "Where is he?",
+          "What time is it?",
+          "How are you?"
+        ],
+        "correctAnswer": "What time is it?",
+        "explanation": "'Quelle heure est-il ?' is the standard way to ask the time.",
+        "targetWord": "l'heure"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'a red dress'?",
-        "options": ["une rouge robe", "une robe rouge", "un robe rouge"],
-        "correctAnswer": "une robe rouge",
-        "explanation": "Colour goes after the noun. Robe is feminine: une robe rouge.",
-        "targetWord": "rouge"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "What is 'le pantalon'?",
-        "options": ["the shirt", "the hat", "the trousers"],
-        "correctAnswer": "the trousers",
-        "explanation": "'Le pantalon' means trousers/pants. Singular in French.",
-        "targetWord": "le pantalon"
+        "question": "What does 'midi' mean?",
+        "options": [
+          "midnight",
+          "noon",
+          "morning"
+        ],
+        "correctAnswer": "noon",
+        "explanation": "'Midi' means noon. Midnight is 'minuit'.",
+        "targetWord": "midi"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Il porte un grand ___. (hat)",
-        "correctAnswer": "chapeau",
-        "explanation": "'Le chapeau' means the hat. Plural: les chapeaux.",
-        "targetWord": "le chapeau"
+        "question": "Je suis ___ ! Le cours commence dans cinq minutes. (late)",
+        "correctAnswer": "en retard",
+        "explanation": "'En retard' means late / behind schedule.",
+        "targetWord": "en retard"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le cours ___ à neuf heures. (to start)",
+        "correctAnswer": "commence",
+        "explanation": "Il/elle + commencer = il commence.",
+        "targetWord": "commencer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'the week' in French?",
+        "options": [
+          "le jour",
+          "la semaine",
+          "le mois"
+        ],
+        "correctAnswer": "la semaine",
+        "explanation": "'La semaine' means the week. It is feminine.",
+        "targetWord": "la semaine"
       }
     ],
     "advanced": [
       {
         "type": "multipleChoice",
-        "question": "What are 'les chaussures'?",
-        "options": ["the coats", "the hats", "the shoes", "the socks"],
-        "correctAnswer": "the shoes",
-        "explanation": "'Les chaussures' means shoes. Usually plural.",
-        "targetWord": "les chaussures"
+        "question": "What does 'il est deux heures et quart' mean?",
+        "options": [
+          "It is 2:30.",
+          "It is 2:15.",
+          "It is 2:45.",
+          "It is 2:00."
+        ],
+        "correctAnswer": "It is 2:15.",
+        "explanation": "'Et quart' means quarter past. 2:45 would be 'trois heures moins le quart'.",
+        "targetWord": "le quart d'heure"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Il fait froid, prends ton ___. (coat)",
-        "correctAnswer": "manteau",
-        "explanation": "'Le manteau' means the coat. Plural: les manteaux.",
-        "targetWord": "le manteau"
+        "question": "J'ai un ___ chez le médecin à dix heures. (appointment)",
+        "correctAnswer": "rendez-vous",
+        "explanation": "'Le rendez-vous' means appointment or meeting.",
+        "targetWord": "le rendez-vous"
       },
       {
         "type": "multipleChoice",
-        "question": "What is the feminine of 'blanc'?",
-        "options": ["blance", "blanche", "blane", "blanc"],
-        "correctAnswer": "blanche",
-        "explanation": "Blanc → blanche is an irregular feminine change.",
-        "targetWord": "blanc"
+        "question": "What is the correct form: 'Nous ___ à cinq heures.' (finir)",
+        "options": [
+          "finis",
+          "finissons",
+          "finissez",
+          "finissent"
+        ],
+        "correctAnswer": "finissons",
+        "explanation": "Nous + finir = nous finissons.",
+        "targetWord": "commencer"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Les chaussures sont ___. (black, feminine plural)",
-        "correctAnswer": "noires",
-        "explanation": "Noir → noire (fem) → noires (fem plural).",
-        "targetWord": "les chaussures"
+        "question": "Tu ___ quel cours pour le semestre ? (choisir)",
+        "correctAnswer": "choisis",
+        "explanation": "Tu + choisir = tu choisis.",
+        "targetWord": "la semaine"
       },
       {
         "type": "multipleChoice",
-        "question": "Where does 'grand' go in a sentence?",
-        "options": ["After the noun", "Before the noun", "At the end", "It doesn't matter"],
-        "correctAnswer": "Before the noun",
-        "explanation": "Grand is a BANGS adjective — it goes before the noun: un grand manteau.",
-        "targetWord": "le manteau"
+        "question": "What does 'en retard' mean?",
+        "options": [
+          "on time",
+          "early",
+          "late",
+          "absent"
+        ],
+        "correctAnswer": "late",
+        "explanation": "'En retard' means late / behind schedule. Opposite: en avance.",
+        "targetWord": "en retard"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Une ___ robe bleue. (beautiful)",
-        "correctAnswer": "belle",
-        "explanation": "Beau → belle (feminine). BANGS adjective: before the noun.",
-        "targetWord": "la robe"
+        "question": "Quelle ___ est-il ? (time)",
+        "correctAnswer": "heure",
+        "explanation": "'Quelle heure est-il ?' = What time is it?",
+        "targetWord": "l'heure"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "Your friend asks what you're wearing today. Describe your outfit — mention at least three clothing items and their colours.",
-      "keyPhrases": ["Je porte...", "Mon/Ma... est...", "Il/Elle est... (colour)"],
-      "modelAnswer": "Aujourd'hui, je porte un pantalon noir et une chemise blanche. Mon chapeau est rouge. Mes chaussures sont noires.",
-      "modelAnswerExplanation": "This uses 'je porte' for wearing, colour adjectives after the noun, and agreement: blanc → blanche (feminine), noir → noires (feminine plural).",
-      "tip": "Remember: colours go after the noun. Use 'blanc/blanche' and 'noir/noire' depending on gender."
+      "scenario": "Your teacher asks you to describe your typical day with times. Tell them when you start school or work, when you eat lunch, and when you finish.",
+      "keyPhrases": [
+        "Je commence à...",
+        "Je finis à...",
+        "Je mange à...",
+        "Il est... heures."
+      ],
+      "modelAnswer": "Je commence le cours à neuf heures. À midi, je mange avec mes amis. Je finis à trois heures. Après, je fais mes devoirs.",
+      "modelAnswerExplanation": "This uses time expressions with 'à', the verb 'commencer/finir' for start/end times, and 'à midi' for noon.",
+      "tip": "Use 'à' before times (à neuf heures) and say 'midi' for noon without an article."
     },
     "advanced": {
-      "scenario": "You're helping a friend choose an outfit for an important dinner. Describe what they should wear, suggest colours that go well together, and explain why you recommend each item. Use adjectives before and after the nouns.",
-      "keyPhrases": ["Tu peux porter...", "La/Le... est plus...", "...va bien avec...", "Une belle... avec un/une..."],
-      "modelAnswer": "Pour le dîner, tu peux porter ta belle robe bleue. Elle est élégante. Avec la robe, les chaussures noires vont bien. Prends ton nouveau manteau gris, il fait froid ce soir. Le blanc va aussi bien avec le bleu, mais le noir est plus élégant.",
-      "modelAnswerExplanation": "This uses BANGS adjectives before nouns (belle robe, nouveau manteau), colours after nouns (robe bleue, chaussures noires), comparative (plus élégant), and 'aller bien avec' for matching.",
+      "scenario": "You are explaining your busy weekly schedule to a friend. Describe at least three different days with times, activities, and appointments. Mention when you are busy and when you are free.",
+      "keyPhrases": [
+        "Lundi, je commence à...",
+        "J'ai un rendez-vous à...",
+        "Je finis à...",
+        "Je suis libre à..."
+      ],
+      "modelAnswer": "Lundi, je commence à huit heures et je finis à cinq heures. Mardi, j'ai un rendez-vous chez le médecin à dix heures et quart. Je choisis mes cours l'après-midi. Mercredi, je suis libre. Je ne finis jamais avant six heures le jeudi. Le week-end, je ne travaille pas.",
+      "modelAnswerExplanation": "This uses days of the week, time with 'et quart', -IR verbs (choisir, finir), negation with 'jamais', and the expression 'être libre'.",
       "tip": ""
     }
   }

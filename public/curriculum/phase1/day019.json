@@ -1,0 +1,676 @@
+{
+  "day": 19,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "The Body & Health",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la tête",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah tet",
+        "meaning": "the head",
+        "notes": "Used in the common expression 'avoir mal à la tête' (to have a headache).",
+        "examples": [
+          [
+            "J'ai mal à la tête.",
+            "I have a headache."
+          ],
+          [
+            "Elle secoue la tête.",
+            "She shakes her head."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le bras",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh brah",
+        "meaning": "the arm",
+        "notes": "The final 's' is silent. Plural is also 'les bras'.",
+        "examples": [
+          [
+            "Il a mal au bras droit.",
+            "He has pain in his right arm."
+          ],
+          [
+            "Elle porte le bébé dans ses bras.",
+            "She carries the baby in her arms."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le ventre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh vahn-truh",
+        "meaning": "the stomach / belly",
+        "notes": "Refers to the belly or abdomen. 'Avoir mal au ventre' means to have a stomachache.",
+        "examples": [
+          [
+            "J'ai mal au ventre depuis ce matin.",
+            "I've had a stomachache since this morning."
+          ],
+          [
+            "Le ventre fait mal quand on mange trop.",
+            "The stomach hurts when you eat too much."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "malade",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "mah-lahd",
+        "meaning": "sick / ill",
+        "notes": "Same form for masculine and feminine. Can also be used as a noun: 'un malade / une malade' (a sick person).",
+        "examples": [
+          [
+            "Je suis malade depuis deux jours.",
+            "I have been sick for two days."
+          ],
+          [
+            "Elle est trop malade pour aller au travail.",
+            "She is too sick to go to work."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le médecin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh may-duh-san",
+        "meaning": "the doctor",
+        "notes": "Grammatically masculine even when referring to a female doctor, though 'la médecin' is increasingly accepted. 'Aller chez le médecin' means to go to the doctor.",
+        "examples": [
+          [
+            "Je dois aller chez le médecin aujourd'hui.",
+            "I need to go to the doctor today."
+          ],
+          [
+            "Le médecin donne des conseils.",
+            "The doctor gives advice."
+          ]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la tête",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah tet",
+        "meaning": "the head",
+        "notes": "Used in the common expression 'avoir mal à la tête' (to have a headache).",
+        "examples": [
+          [
+            "J'ai mal à la tête.",
+            "I have a headache."
+          ],
+          [
+            "Elle secoue la tête.",
+            "She shakes her head."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le bras",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh brah",
+        "meaning": "the arm",
+        "notes": "The final 's' is silent. Plural is also 'les bras'.",
+        "examples": [
+          [
+            "Il a mal au bras droit.",
+            "He has pain in his right arm."
+          ],
+          [
+            "Elle porte le bébé dans ses bras.",
+            "She carries the baby in her arms."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le ventre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh vahn-truh",
+        "meaning": "the stomach / belly",
+        "notes": "Refers to the belly or abdomen. 'Avoir mal au ventre' means to have a stomachache.",
+        "examples": [
+          [
+            "J'ai mal au ventre depuis ce matin.",
+            "I've had a stomachache since this morning."
+          ],
+          [
+            "Le ventre fait mal quand on mange trop.",
+            "The stomach hurts when you eat too much."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "malade",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "mah-lahd",
+        "meaning": "sick / ill",
+        "notes": "Same form for masculine and feminine. Can also be used as a noun: 'un malade / une malade' (a sick person).",
+        "examples": [
+          [
+            "Je suis malade depuis deux jours.",
+            "I have been sick for two days."
+          ],
+          [
+            "Elle est trop malade pour aller au travail.",
+            "She is too sick to go to work."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le médecin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh may-duh-san",
+        "meaning": "the doctor",
+        "notes": "Grammatically masculine even when referring to a female doctor, though 'la médecin' is increasingly accepted. 'Aller chez le médecin' means to go to the doctor.",
+        "examples": [
+          [
+            "Je dois aller chez le médecin aujourd'hui.",
+            "I need to go to the doctor today."
+          ],
+          [
+            "Le médecin donne des conseils.",
+            "The doctor gives advice."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la fièvre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah fyev-ruh",
+        "meaning": "the fever",
+        "notes": "'Avoir de la fièvre' means to have a fever. You can specify severity: 'une forte fièvre' (a high fever).",
+        "examples": [
+          [
+            "Il a de la fièvre depuis hier soir.",
+            "He has had a fever since last night."
+          ],
+          [
+            "Le médecin vérifie si l'enfant a de la fièvre.",
+            "The doctor checks if the child has a fever."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le médicament",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh may-dee-kah-mahn",
+        "meaning": "the medicine / medication",
+        "notes": "'Prendre un médicament' means to take a medicine. Note: in French you go to 'la pharmacie' to buy medicines.",
+        "examples": [
+          [
+            "Prenez ce médicament trois fois par jour.",
+            "Take this medication three times a day."
+          ],
+          [
+            "Est-ce que ce médicament a des effets secondaires ?",
+            "Does this medication have side effects?"
+          ]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour, docteur. Je ne me sens pas bien du tout."
+        ],
+        [
+          "B",
+          "Bonjour. Qu'est-ce qui ne va pas ?"
+        ],
+        [
+          "A",
+          "J'ai très mal à la tête et j'ai mal au ventre aussi."
+        ],
+        [
+          "B",
+          "Depuis quand avez-vous ces douleurs ?"
+        ],
+        [
+          "A",
+          "Depuis hier soir. Je suis malade et je ne mange rien."
+        ],
+        [
+          "B",
+          "Avez-vous de la fièvre ?"
+        ],
+        [
+          "A",
+          "Oui, j'ai trente-huit degrés et demi."
+        ],
+        [
+          "B",
+          "Je vais vous donner un médicament. Reposez-vous bien et buvez beaucoup d'eau."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "What symptoms does the patient have?",
+          "options": [
+            "A headache and stomachache",
+            "A sore arm and fever",
+            "A stomachache only"
+          ],
+          "correctAnswer": "A headache and stomachache"
+        },
+        {
+          "question": "How long has the patient been feeling unwell?",
+          "options": [
+            "Since this morning",
+            "Since yesterday evening",
+            "For two days"
+          ],
+          "correctAnswer": "Since yesterday evening"
+        },
+        {
+          "question": "What does the doctor recommend?",
+          "options": [
+            "Go to the hospital immediately",
+            "Take medication and rest",
+            "Stop eating for a day"
+          ],
+          "correctAnswer": "Take medication and rest"
+        }
+      ],
+      "summary": "A patient visits the doctor with a headache and stomachache that started the previous evening. The patient also has a mild fever and has not been eating. The doctor prescribes medication and advises the patient to rest and drink plenty of water."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour docteur, je n'en peux plus — j'ai mal partout depuis trois jours."
+        ],
+        [
+          "B",
+          "Décrivez-moi vos symptômes précisément. Où avez-vous mal exactement ?"
+        ],
+        [
+          "A",
+          "J'ai très mal à la tête, j'ai mal au ventre, et mon bras droit me fait mal aussi."
+        ],
+        [
+          "B",
+          "Avez-vous de la fièvre ? Vous avez pris votre température ?"
+        ],
+        [
+          "A",
+          "Oui, j'ai trente-neuf degrés depuis hier. Je ne mange plus rien et je ne dors plus."
+        ],
+        [
+          "B",
+          "Avez-vous pris des médicaments ? Avez-vous des allergies ?"
+        ],
+        [
+          "A",
+          "Je n'ai jamais pris d'antibiotiques et je n'ai aucune allergie connue."
+        ],
+        [
+          "B",
+          "Je vous prescris des médicaments — prenez-les deux fois par jour pendant cinq jours et revenez me voir si la fièvre ne baisse pas."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "How long has the patient been experiencing symptoms?",
+          "options": [
+            "One day",
+            "Two days",
+            "Three days",
+            "A week"
+          ],
+          "correctAnswer": "Three days"
+        },
+        {
+          "question": "Which of these statements about the patient is true?",
+          "options": [
+            "The patient has taken antibiotics before",
+            "The patient has a known allergy",
+            "The patient has a fever of 39 degrees",
+            "The patient has pain only in the head"
+          ],
+          "correctAnswer": "The patient has a fever of 39 degrees"
+        },
+        {
+          "question": "What instructions does the doctor give?",
+          "options": [
+            "Take medication once a day for a week",
+            "Take medication twice a day for five days and return if fever persists",
+            "Go to the hospital immediately",
+            "Rest for three days without medication"
+          ],
+          "correctAnswer": "Take medication twice a day for five days and return if fever persists"
+        }
+      ],
+      "summary": "A patient arrives at the doctor having suffered from multiple symptoms — headache, stomachache, arm pain, and a high fever of 39 degrees — for three days. The patient has not been eating or sleeping. The doctor asks about prior medication and allergies, learns the patient has no allergies and has never taken antibiotics, then prescribes medication twice daily for five days with a follow-up if the fever does not improve."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Avoir mal à + Extended Negation (ne...jamais, ne...rien, ne...plus)",
+      "explanation": "**Avoir mal à — saying where it hurts**\n\nTo say something hurts in French, use: **avoir mal à + body part**.\n\nBecause 'à' contracts with the definite article, you need to know which article the body part takes:\n- à + le → **au** — J'ai mal **au** ventre. (I have a stomachache.)\n- à + la → **à la** — J'ai mal **à la** tête. (I have a headache.)\n- à + l' → **à l'** — J'ai mal **à l'**oreille. (I have an earache.)\n- à + les → **aux** — J'ai mal **aux** pieds. (My feet hurt.)\n\n**Extended Negation — beyond ne...pas**\n\nYou already know **ne...pas** (not). French has several other negation patterns:\n\n- **ne...jamais** (never): Je ne mange **jamais** le matin. (I never eat in the morning.)\n- **ne...rien** (nothing): Il ne mange **rien**. (He eats nothing / He doesn't eat anything.)\n- **ne...plus** (no longer / not anymore): Elle ne travaille **plus**. (She no longer works.)\n\nThe structure is always: **ne** (before verb) + verb + **jamais / rien / plus** (after verb).",
+      "examples": [
+        {
+          "french": "J'ai mal au bras depuis ce matin.",
+          "english": "My arm has been hurting since this morning."
+        },
+        {
+          "french": "Elle n'a jamais mal à la tête.",
+          "english": "She never has a headache."
+        },
+        {
+          "french": "Il ne mange plus rien quand il est malade.",
+          "english": "He no longer eats anything when he is sick."
+        },
+        {
+          "french": "Nous n'avons plus de médicaments.",
+          "english": "We no longer have any medication."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: J'ai mal ___ ventre. (I have a stomachache.)",
+          "correctAnswer": "au",
+          "explanation": "'Ventre' is masculine (le ventre), so à + le = au."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle ne mange ___ depuis hier. (She hasn't eaten anything since yesterday.)",
+          "correctAnswer": "rien",
+          "explanation": "'Ne...rien' means 'nothing' or 'not anything'. The structure is ne + verb + rien."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'I never go to the doctor'?",
+          "options": [
+            "Je ne vais jamais chez le médecin.",
+            "Je ne vais pas chez le médecin.",
+            "Je vais jamais chez le médecin."
+          ],
+          "correctAnswer": "Je ne vais jamais chez le médecin.",
+          "explanation": "'Ne...jamais' (never) requires both 'ne' before the verb and 'jamais' after it."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il n'est ___ malade. (He is no longer sick.)",
+          "correctAnswer": "plus",
+          "explanation": "'Ne...plus' means 'no longer' or 'not anymore'. Place 'plus' after the verb."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly says 'My head hurts'?",
+          "options": [
+            "J'ai mal à la tête.",
+            "J'ai mal au tête.",
+            "J'ai mal de tête."
+          ],
+          "correctAnswer": "J'ai mal à la tête.",
+          "explanation": "'Tête' is feminine (la tête), so we use 'à la' — no contraction needed."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Avoir mal à — Body Parts & Extended Negation Patterns",
+      "explanation": "**Avoir mal à — all contractions**\n\nThe structure **avoir mal à + definite article + body part** requires the correct article contraction:\n- **au** (à + le): J'ai mal **au** dos. — My back hurts.\n- **à la**: J'ai mal **à la** gorge. — I have a sore throat.\n- **à l'** (before vowel/h): J'ai mal **à l'**épaule. — My shoulder hurts.\n- **aux** (à + les): J'ai mal **aux** genoux. — My knees hurt.\n\n**Extended negation patterns**\n\nBeyond ne...pas, French uses several negative adverbs and pronouns:\n\n| Pattern | Meaning | Example |\n|---|---|---|\n| ne...jamais | never | Il ne fait jamais de sport. |\n| ne...rien | nothing / not anything | Je ne ressens rien. |\n| ne...plus | no longer / not anymore | Elle ne fume plus. |\n| ne...personne | nobody / no one | Je ne vois personne. |\n\n**Important distinctions:**\n- With **rien** and **personne** as subjects: **Rien ne** me fait mal. / **Personne ne** sait.\n- **Personne** comes after the past participle in compound tenses: Je n'ai vu **personne**.\n- **Rien** comes before the past participle in compound tenses: Il n'a **rien** mangé.\n\n**Combining negations:** Some combinations are possible: **ne...plus...rien** (nothing anymore), **ne...plus...jamais** (never again) — e.g., Je ne mange plus jamais de sucre. (I never eat sugar anymore.)",
+      "examples": [
+        {
+          "french": "Je n'ai plus jamais mal au ventre depuis que j'ai changé mon alimentation.",
+          "english": "I never have a stomachache anymore since I changed my diet."
+        },
+        {
+          "french": "Elle ne prend jamais de médicaments sans consulter le médecin.",
+          "english": "She never takes medication without consulting the doctor."
+        },
+        {
+          "french": "Personne ne sait pourquoi il a de la fièvre.",
+          "english": "Nobody knows why he has a fever."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: J'ai mal ___ épaule gauche. (My left shoulder hurts.)",
+          "correctAnswer": "à l'",
+          "explanation": "'Épaule' is feminine and starts with a vowel, so à + l' = à l'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly says 'He never takes medication'?",
+          "options": [
+            "Il ne prend jamais de médicaments.",
+            "Il prend jamais des médicaments.",
+            "Il ne jamais prend des médicaments.",
+            "Il ne prend pas jamais de médicaments."
+          ],
+          "correctAnswer": "Il ne prend jamais de médicaments.",
+          "explanation": "'Ne...jamais' requires 'ne' before the verb and 'jamais' after. After a negation, 'des' becomes 'de'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ ne sait qu'elle est malade. (Nobody knows she is sick.)",
+          "correctAnswer": "Personne",
+          "explanation": "When 'personne' is the subject, it comes first and is followed by 'ne' before the verb."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'She no longer has a fever'?",
+          "options": [
+            "Elle n'a plus de fièvre.",
+            "Elle n'a jamais de fièvre.",
+            "Elle n'a pas de fièvre.",
+            "Elle a plus de fièvre."
+          ],
+          "correctAnswer": "Elle n'a plus de fièvre.",
+          "explanation": "'Ne...plus' expresses 'no longer'. 'Ne...jamais' means never, and 'ne...pas' simply means not."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il n'a ___ mangé depuis hier. (He hasn't eaten anything since yesterday.) — compound tense",
+          "correctAnswer": "rien",
+          "explanation": "In compound tenses, 'rien' is placed between the auxiliary and the past participle: il n'a rien mangé."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence means 'I never have a stomachache anymore'?",
+          "options": [
+            "Je n'ai plus jamais mal au ventre.",
+            "Je n'ai jamais mal au ventre.",
+            "Je n'ai plus mal au ventre.",
+            "Je n'ai pas mal au ventre."
+          ],
+          "correctAnswer": "Je n'ai plus jamais mal au ventre.",
+          "explanation": "'Ne...plus...jamais' combines both negations to mean 'never anymore' or 'never again'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Depuis l'opération, je n'ai ___ mal aux genoux. (Since the operation, my knees no longer hurt.)",
+          "correctAnswer": "plus",
+          "explanation": "'Ne...plus' means 'no longer'. The body part 'genoux' (knees, masculine plural) takes 'aux' (à + les)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly uses 'personne' as an object?",
+          "options": [
+            "Le médecin n'a examiné personne aujourd'hui.",
+            "Le médecin n'a personne examiné aujourd'hui.",
+            "Le médecin personne n'a examiné aujourd'hui.",
+            "Personne le médecin n'a examiné aujourd'hui."
+          ],
+          "correctAnswer": "Le médecin n'a examiné personne aujourd'hui.",
+          "explanation": "When 'personne' is the object in a compound tense, it comes after the past participle, unlike 'rien'."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'J'ai mal au ventre' mean?",
+        "options": [
+          "I have a headache.",
+          "I have a stomachache.",
+          "I have a sore arm."
+        ],
+        "correctAnswer": "I have a stomachache.",
+        "explanation": "'Avoir mal au ventre' means to have a stomachache. 'Au' is the contraction of à + le (ventre is masculine).",
+        "targetWord": "le ventre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete the sentence: Elle a mal ___ tête. (She has a headache.)",
+        "correctAnswer": "à la",
+        "explanation": "'Tête' is feminine (la tête), so 'à' does not contract — it stays as 'à la'.",
+        "targetWord": "la tête"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which word means 'sick' in French?",
+        "options": [
+          "le médecin",
+          "malade",
+          "le bras"
+        ],
+        "correctAnswer": "malade",
+        "explanation": "'Malade' is an adjective meaning sick or ill. It has the same form for masculine and feminine.",
+        "targetWord": "malade"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Il ne mange ___ quand il est malade. (He never eats when he is sick.)",
+        "correctAnswer": "jamais",
+        "explanation": "'Ne...jamais' means never. Place 'ne' before the verb and 'jamais' after it.",
+        "targetWord": "malade"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'the doctor' in French?",
+        "options": [
+          "la fièvre",
+          "le médecin",
+          "le médicament"
+        ],
+        "correctAnswer": "le médecin",
+        "explanation": "'Le médecin' is the French word for doctor. 'La fièvre' is fever and 'le médicament' is medication.",
+        "targetWord": "le médecin"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly says 'My arms hurt'?",
+        "options": [
+          "J'ai mal au bras.",
+          "J'ai mal aux bras.",
+          "J'ai mal à les bras.",
+          "J'ai mal de bras."
+        ],
+        "correctAnswer": "J'ai mal aux bras.",
+        "explanation": "For plural body parts, à + les contracts to 'aux'. J'ai mal aux bras = my arms hurt.",
+        "targetWord": "le bras"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Le médecin ne voit ___ ce matin — il est malade. (The doctor sees nobody this morning — he is sick.)",
+        "correctAnswer": "personne",
+        "explanation": "'Ne...personne' means nobody/no one. As an object, 'personne' follows the verb.",
+        "targetWord": "le médecin"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'avoir de la fièvre' mean?",
+        "options": [
+          "to take medication",
+          "to have a fever",
+          "to see the doctor",
+          "to feel better"
+        ],
+        "correctAnswer": "to have a fever",
+        "explanation": "'Avoir de la fièvre' is the standard expression for having a fever in French.",
+        "targetWord": "la fièvre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Depuis qu'il prend le médicament, il n'a ___ de fièvre. (Since he takes the medication, he no longer has a fever.)",
+        "correctAnswer": "plus",
+        "explanation": "'Ne...plus' expresses that something no longer applies. After a negation, 'de la' becomes 'de': il n'a plus de fièvre.",
+        "targetWord": "le médicament"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly says 'She never takes medicine without a prescription'?",
+        "options": [
+          "Elle ne prend jamais de médicament sans ordonnance.",
+          "Elle prend jamais un médicament sans ordonnance.",
+          "Elle ne prend pas jamais de médicament sans ordonnance.",
+          "Elle ne jamais prend de médicament sans ordonnance."
+        ],
+        "correctAnswer": "Elle ne prend jamais de médicament sans ordonnance.",
+        "explanation": "'Ne...jamais' requires 'ne' before the verb and 'jamais' after. After negation, 'un' becomes 'de'.",
+        "targetWord": "le médicament"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: ___ ne comprend pourquoi le médecin est en retard. (Nobody understands why the doctor is late.)",
+        "correctAnswer": "Personne",
+        "explanation": "When 'personne' is the subject, it comes at the start of the sentence followed by 'ne' before the verb.",
+        "targetWord": "le médecin"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are not feeling well and have gone to see the doctor. Describe your symptoms — you have a headache and a stomachache — tell the doctor how long you have been sick, and respond to their question about whether you have been eating.",
+      "keyPhrases": [
+        "J'ai mal à la tête et au ventre.",
+        "Je suis malade depuis [time].",
+        "Je ne mange rien / presque rien."
+      ],
+      "modelAnswer": "Bonjour docteur. Je suis malade depuis hier soir. J'ai très mal à la tête et j'ai aussi mal au ventre. Je ne mange rien depuis hier. Est-ce que vous pouvez m'aider ?",
+      "modelAnswerExplanation": "The model answer uses 'avoir mal à la tête' and 'avoir mal au ventre' correctly with article contractions. 'Depuis hier soir' gives the duration. 'Ne...rien' expresses that the patient is not eating anything. The closing question is polite and natural.",
+      "tip": "Remember the article contractions: à + la tête stays 'à la', but à + le ventre becomes 'au'. These contractions are essential and always used in spoken French."
+    },
+    "advanced": {
+      "scenario": "You are at the pharmacy explaining symptoms on behalf of a friend who is too sick to come in person. Describe your friend's symptoms (high fever, headache, no appetite), ask the pharmacist for a medication recommendation, and ask about the correct dosage.",
+      "keyPhrases": [
+        "Mon ami(e) a de la fièvre et il/elle a très mal à la tête.",
+        "Il/Elle ne mange plus rien depuis deux jours.",
+        "Quel médicament me conseillez-vous ?",
+        "Quelle est la posologie ? / Combien de fois par jour ?"
+      ],
+      "modelAnswer": "Bonjour. Je viens pour mon amie — elle est très malade et ne peut pas se déplacer. Elle a de la fièvre depuis hier, presque quarante degrés. Elle a très mal à la tête et elle ne mange plus rien depuis deux jours. Est-ce que vous pouvez me conseiller un médicament ? Et quelle est la posologie — combien de fois par jour doit-elle le prendre ?",
+      "modelAnswerExplanation": "The model answer clearly establishes the context (speaking for a friend), uses 'avoir de la fièvre' and 'avoir mal à la tête' correctly, applies 'ne...plus...rien' to show she has completely stopped eating, asks for a recommendation politely, and enquires about dosage using 'posologie' — a key pharmacy vocabulary word.",
+      "tip": ""
+    }
+  }
+}

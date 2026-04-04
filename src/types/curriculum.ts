@@ -60,6 +60,7 @@ export type SpeakSection = TrackContent<SpeakContent>
 export interface DayContent {
   day: number
   phase: number
+  isRevision: false
   topic: string
   vocab: VocabSection
   listen: ListenSection
