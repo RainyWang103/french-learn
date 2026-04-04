@@ -1,6 +1,7 @@
 {
   "day": 21,
   "phase": 1,
+  "isRevision": false,
   "topic": "Hobbies & Free Time",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "sport / sports",
         "notes": "Used as a general uncountable noun in French, e.g. 'faire du sport' (to do sport/exercise).",
         "examples": [
-          ["J'aime faire du sport le week-end.", "I like doing sport at the weekend."],
-          ["Le sport est bon pour la santé.", "Sport is good for your health."]
+          [
+            "J'aime faire du sport le week-end.",
+            "I like doing sport at the weekend."
+          ],
+          [
+            "Le sport est bon pour la santé.",
+            "Sport is good for your health."
+          ]
         ],
         "special": ""
       },
@@ -25,8 +32,14 @@
         "meaning": "reading",
         "notes": "Refers to the activity of reading. 'Un livre' is a book; 'la lecture' is the act of reading.",
         "examples": [
-          ["La lecture est mon passe-temps préféré.", "Reading is my favourite pastime."],
-          ["Elle fait de la lecture chaque soir.", "She reads every evening."]
+          [
+            "La lecture est mon passe-temps préféré.",
+            "Reading is my favourite pastime."
+          ],
+          [
+            "Elle fait de la lecture chaque soir.",
+            "She reads every evening."
+          ]
         ],
         "special": ""
       },
@@ -38,8 +51,14 @@
         "meaning": "drawing",
         "notes": "Refers both to the activity (drawing) and the product (a drawing/sketch). 'Faire du dessin' = to draw as a hobby.",
         "examples": [
-          ["Il fait du dessin tous les jours.", "He draws every day."],
-          ["J'ai montré mon dessin à mes amis.", "I showed my drawing to my friends."]
+          [
+            "Il fait du dessin tous les jours.",
+            "He draws every day."
+          ],
+          [
+            "J'ai montré mon dessin à mes amis.",
+            "I showed my drawing to my friends."
+          ]
         ],
         "special": ""
       },
@@ -59,8 +78,14 @@
           "ils/elles": "jouent"
         },
         "examples": [
-          ["On joue au foot dans le parc.", "We play football in the park."],
-          ["Elle joue de la guitare le soir.", "She plays guitar in the evening."]
+          [
+            "On joue au foot dans le parc.",
+            "We play football in the park."
+          ],
+          [
+            "Elle joue de la guitare le soir.",
+            "She plays guitar in the evening."
+          ]
         ],
         "special": ""
       },
@@ -72,8 +97,14 @@
         "meaning": "the song",
         "notes": "'La chanson' is specifically a song with lyrics. 'La musique' is music in general.",
         "examples": [
-          ["C'est ma chanson préférée !", "That's my favourite song!"],
-          ["On chante une chanson ensemble.", "We sing a song together."]
+          [
+            "C'est ma chanson préférée !",
+            "That's my favourite song!"
+          ],
+          [
+            "On chante une chanson ensemble.",
+            "We sing a song together."
+          ]
         ],
         "special": ""
       }
@@ -87,8 +118,14 @@
         "meaning": "sport / sports",
         "notes": "Used as a general uncountable noun in French, e.g. 'faire du sport' (to do sport/exercise).",
         "examples": [
-          ["J'aime faire du sport le week-end.", "I like doing sport at the weekend."],
-          ["Le sport est bon pour la santé.", "Sport is good for your health."]
+          [
+            "J'aime faire du sport le week-end.",
+            "I like doing sport at the weekend."
+          ],
+          [
+            "Le sport est bon pour la santé.",
+            "Sport is good for your health."
+          ]
         ],
         "special": ""
       },
@@ -100,8 +137,14 @@
         "meaning": "reading",
         "notes": "Refers to the activity of reading. 'Un livre' is a book; 'la lecture' is the act of reading.",
         "examples": [
-          ["La lecture est mon passe-temps préféré.", "Reading is my favourite pastime."],
-          ["Elle fait de la lecture chaque soir.", "She reads every evening."]
+          [
+            "La lecture est mon passe-temps préféré.",
+            "Reading is my favourite pastime."
+          ],
+          [
+            "Elle fait de la lecture chaque soir.",
+            "She reads every evening."
+          ]
         ],
         "special": ""
       },
@@ -113,8 +156,14 @@
         "meaning": "drawing",
         "notes": "Refers both to the activity (drawing) and the product (a drawing/sketch). 'Faire du dessin' = to draw as a hobby.",
         "examples": [
-          ["Il fait du dessin tous les jours.", "He draws every day."],
-          ["J'ai montré mon dessin à mes amis.", "I showed my drawing to my friends."]
+          [
+            "Il fait du dessin tous les jours.",
+            "He draws every day."
+          ],
+          [
+            "J'ai montré mon dessin à mes amis.",
+            "I showed my drawing to my friends."
+          ]
         ],
         "special": ""
       },
@@ -134,8 +183,14 @@
           "ils/elles": "jouent"
         },
         "examples": [
-          ["On joue au foot dans le parc.", "We play football in the park."],
-          ["Elle joue de la guitare le soir.", "She plays guitar in the evening."]
+          [
+            "On joue au foot dans le parc.",
+            "We play football in the park."
+          ],
+          [
+            "Elle joue de la guitare le soir.",
+            "She plays guitar in the evening."
+          ]
         ],
         "special": ""
       },
@@ -147,8 +202,14 @@
         "meaning": "the song",
         "notes": "'La chanson' is specifically a song with lyrics. 'La musique' is music in general.",
         "examples": [
-          ["C'est ma chanson préférée !", "That's my favourite song!"],
-          ["On chante une chanson ensemble.", "We sing a song together."]
+          [
+            "C'est ma chanson préférée !",
+            "That's my favourite song!"
+          ],
+          [
+            "On chante une chanson ensemble.",
+            "We sing a song together."
+          ]
         ],
         "special": ""
       },
@@ -179,8 +240,14 @@
         "meaning": "painting",
         "notes": "Can mean the activity (painting as a hobby), the medium (paint), or the finished artwork (a painting). Context distinguishes the meaning.",
         "examples": [
-          ["Elle fait de la peinture depuis dix ans.", "She has been painting for ten years."],
-          ["Cette peinture est vraiment belle.", "This painting is really beautiful."]
+          [
+            "Elle fait de la peinture depuis dix ans.",
+            "She has been painting for ten years."
+          ],
+          [
+            "Cette peinture est vraiment belle.",
+            "This painting is really beautiful."
+          ]
         ],
         "special": ""
       }
@@ -189,24 +256,56 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Salut ! Tu t'appelles comment ?"],
-        ["B", "Je m'appelle Lucas. Et toi ?"],
-        ["A", "Moi, c'est Camille. Tu fais quoi comme loisirs ?"],
-        ["B", "J'adore jouer de la guitare. Et toi, tu as des hobbies ?"],
-        ["A", "Oui ! J'aime faire de la randonnée et aussi le dessin."],
-        ["B", "Cool ! On fait de la randonnée souvent par ici ?"],
-        ["A", "Oui, il y a un beau sentier près du parc. Tu veux essayer ?"],
-        ["B", "Oui, avec plaisir ! Et tu peux me montrer tes dessins aussi !"]
+        [
+          "A",
+          "Salut ! Tu t'appelles comment ?"
+        ],
+        [
+          "B",
+          "Je m'appelle Lucas. Et toi ?"
+        ],
+        [
+          "A",
+          "Moi, c'est Camille. Tu fais quoi comme loisirs ?"
+        ],
+        [
+          "B",
+          "J'adore jouer de la guitare. Et toi, tu as des hobbies ?"
+        ],
+        [
+          "A",
+          "Oui ! J'aime faire de la randonnée et aussi le dessin."
+        ],
+        [
+          "B",
+          "Cool ! On fait de la randonnée souvent par ici ?"
+        ],
+        [
+          "A",
+          "Oui, il y a un beau sentier près du parc. Tu veux essayer ?"
+        ],
+        [
+          "B",
+          "Oui, avec plaisir ! Et tu peux me montrer tes dessins aussi !"
+        ]
       ],
       "questions": [
         {
           "question": "What is Lucas's hobby?",
-          "options": ["Playing guitar", "Hiking", "Drawing"],
+          "options": [
+            "Playing guitar",
+            "Hiking",
+            "Drawing"
+          ],
           "correctAnswer": "Playing guitar"
         },
         {
           "question": "What are Camille's two hobbies?",
-          "options": ["Guitar and drawing", "Hiking and drawing", "Hiking and singing"],
+          "options": [
+            "Guitar and drawing",
+            "Hiking and drawing",
+            "Hiking and singing"
+          ],
           "correctAnswer": "Hiking and drawing"
         },
         {
@@ -223,9 +322,18 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Enchanté, je m'appelle Théo. Tu es nouvelle dans le quartier ?"],
-        ["B", "Oui, j'arrive de Lyon. Je m'appelle Inès. Tu fais quoi comme activités ici ?"],
-        ["A", "Moi, je joue du piano et je fais du sport — surtout du tennis. Et toi ?"],
+        [
+          "A",
+          "Enchanté, je m'appelle Théo. Tu es nouvelle dans le quartier ?"
+        ],
+        [
+          "B",
+          "Oui, j'arrive de Lyon. Je m'appelle Inès. Tu fais quoi comme activités ici ?"
+        ],
+        [
+          "A",
+          "Moi, je joue du piano et je fais du sport — surtout du tennis. Et toi ?"
+        ],
         [
           "B",
           "Intéressant ! Moi, j'aime la peinture et la randonnée. Je cherche un groupe pour explorer la région."
@@ -234,12 +342,18 @@
           "A",
           "Il y a un club de randonnée qui se réunit le samedi matin. On y va souvent avec des amis."
         ],
-        ["B", "Super ! Et pour la peinture, tu connais des ateliers par ici ?"],
+        [
+          "B",
+          "Super ! Et pour la peinture, tu connais des ateliers par ici ?"
+        ],
         [
           "A",
           "Oui, il y a un atelier communautaire rue Saint-Jacques. On peut y aller ensemble si tu veux."
         ],
-        ["B", "Ce serait parfait. J'adorerais aussi t'entendre jouer du piano un jour !"]
+        [
+          "B",
+          "Ce serait parfait. J'adorerais aussi t'entendre jouer du piano un jour !"
+        ]
       ],
       "questions": [
         {
@@ -314,14 +428,22 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'We play cards' using 'on'?",
-          "options": ["On joue de les cartes.", "On joue aux cartes.", "On joue à les cartes."],
+          "options": [
+            "On joue de les cartes.",
+            "On joue aux cartes.",
+            "On joue à les cartes."
+          ],
           "correctAnswer": "On joue aux cartes.",
           "explanation": "'Cartes' is plural (les cartes), so 'à + les' contracts to 'aux'."
         },
         {
           "type": "multipleChoice",
           "question": "Which sentence is correct?",
-          "options": ["On joue du tennis.", "On joue au tennis.", "On joue de le tennis."],
+          "options": [
+            "On joue du tennis.",
+            "On joue au tennis.",
+            "On joue de le tennis."
+          ],
           "correctAnswer": "On joue au tennis.",
           "explanation": "Tennis is a sport/game, so use 'jouer à'. 'À + le' contracts to 'au'."
         },
@@ -396,7 +518,12 @@
         {
           "type": "multipleChoice",
           "question": "Choose the correct contraction: 'Ils jouent ___ accordéon.'",
-          "options": ["de l'", "du", "de la", "des"],
+          "options": [
+            "de l'",
+            "du",
+            "de la",
+            "des"
+          ],
           "correctAnswer": "de l'",
           "explanation": "'Accordéon' starts with a vowel: 'de + l'' → 'de l''. Jouer de l'accordéon."
         },
@@ -409,7 +536,12 @@
         {
           "type": "multipleChoice",
           "question": "Which option correctly completes: 'Vous jouez ___ pétanque ?' (Do you play pétanque?)",
-          "options": ["du", "à la", "de la", "au"],
+          "options": [
+            "du",
+            "à la",
+            "de la",
+            "au"
+          ],
           "correctAnswer": "à la",
           "explanation": "Pétanque is a game/sport → 'jouer à'. 'La pétanque' is feminine, so 'à + la' stays as 'à la'."
         }
@@ -421,7 +553,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la randonnée' mean?",
-        "options": ["Drawing", "Hiking", "Reading"],
+        "options": [
+          "Drawing",
+          "Hiking",
+          "Reading"
+        ],
         "correctAnswer": "Hiking",
         "explanation": "'La randonnée' means hiking. 'Faire une randonnée' = to go on a hike.",
         "targetWord": "la randonnée"
@@ -429,7 +565,11 @@
       {
         "type": "multipleChoice",
         "question": "Which sentence is correct for playing piano?",
-        "options": ["Je joue au piano.", "Je joue du piano.", "Je joue de le piano."],
+        "options": [
+          "Je joue au piano.",
+          "Je joue du piano.",
+          "Je joue de le piano."
+        ],
         "correctAnswer": "Je joue du piano.",
         "explanation": "Musical instruments use 'jouer de'. 'De + le piano' contracts to 'du piano'.",
         "targetWord": "jouer"
@@ -444,7 +584,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'reading' as a hobby in French?",
-        "options": ["le dessin", "la chanson", "la lecture"],
+        "options": [
+          "le dessin",
+          "la chanson",
+          "la lecture"
+        ],
         "correctAnswer": "la lecture",
         "explanation": "'La lecture' means the activity of reading. It comes from the verb 'lire' (to read).",
         "targetWord": "la lecture"
@@ -461,7 +605,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la peinture' mean?",
-        "options": ["Drawing", "Hiking", "Painting", "Reading"],
+        "options": [
+          "Drawing",
+          "Hiking",
+          "Painting",
+          "Reading"
+        ],
         "correctAnswer": "Painting",
         "explanation": "'La peinture' means painting — both the activity and the artwork. 'Le dessin' is drawing.",
         "targetWord": "la peinture"
@@ -489,7 +638,12 @@
       {
         "type": "multipleChoice",
         "question": "In 'On dit que la randonnée est excellente pour la santé', what does 'on' mean?",
-        "options": ["We (a specific group)", "One / people in general", "He", "You (formal)"],
+        "options": [
+          "We (a specific group)",
+          "One / people in general",
+          "He",
+          "You (formal)"
+        ],
         "correctAnswer": "One / people in general",
         "explanation": "Here 'on' is impersonal — it doesn't refer to a specific group but to people in general, meaning 'it is said that' / 'people say that'.",
         "targetWord": "jouer"
@@ -504,7 +658,12 @@
       {
         "type": "multipleChoice",
         "question": "Choose the correct form: 'Vous jouez ___ pétanque ?' (pétanque is a feminine game)",
-        "options": ["du", "au", "à la", "de la"],
+        "options": [
+          "du",
+          "au",
+          "à la",
+          "de la"
+        ],
         "correctAnswer": "à la",
         "explanation": "Pétanque is a sport/game → 'jouer à'. Feminine article: 'à + la' stays 'à la'. Not 'jouer de', which is for instruments.",
         "targetWord": "jouer"

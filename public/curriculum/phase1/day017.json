@@ -1,6 +1,7 @@
 {
   "day": 17,
   "phase": 1,
+  "isRevision": false,
   "topic": "At the Restaurant",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "the restaurant",
         "notes": "Used the same way as in English — a place to eat out.",
         "examples": [
-          ["Nous allons au restaurant ce soir.", "We are going to the restaurant tonight."],
-          ["Le restaurant est complet.", "The restaurant is full."]
+          [
+            "Nous allons au restaurant ce soir.",
+            "We are going to the restaurant tonight."
+          ],
+          [
+            "Le restaurant est complet.",
+            "The restaurant is full."
+          ]
         ],
         "special": ""
       },
@@ -25,8 +32,14 @@
         "meaning": "the waiter",
         "notes": "The feminine form is 'la serveuse' (the waitress).",
         "examples": [
-          ["Le serveur apporte le menu.", "The waiter brings the menu."],
-          ["Excusez-moi, monsieur le serveur !", "Excuse me, waiter!"]
+          [
+            "Le serveur apporte le menu.",
+            "The waiter brings the menu."
+          ],
+          [
+            "Excusez-moi, monsieur le serveur !",
+            "Excuse me, waiter!"
+          ]
         ],
         "special": ""
       },
@@ -38,8 +51,14 @@
         "meaning": "the dish / the main course",
         "notes": "'Le plat du jour' means 'the dish of the day' — very common in French restaurants.",
         "examples": [
-          ["Quel est le plat du jour ?", "What is the dish of the day?"],
-          ["Je prends le plat principal.", "I'll have the main course."]
+          [
+            "Quel est le plat du jour ?",
+            "What is the dish of the day?"
+          ],
+          [
+            "Je prends le plat principal.",
+            "I'll have the main course."
+          ]
         ],
         "special": ""
       },
@@ -51,8 +70,14 @@
         "meaning": "the starter / the first course",
         "notes": "In France, 'l'entrée' is the starter (first course), not the main — opposite of American English usage.",
         "examples": [
-          ["Comme entrée, je voudrais la soupe.", "As a starter, I would like the soup."],
-          ["L'entrée est incluse dans le menu.", "The starter is included in the set menu."]
+          [
+            "Comme entrée, je voudrais la soupe.",
+            "As a starter, I would like the soup."
+          ],
+          [
+            "L'entrée est incluse dans le menu.",
+            "The starter is included in the set menu."
+          ]
         ],
         "special": ""
       },
@@ -64,8 +89,14 @@
         "meaning": "the dessert",
         "notes": "Spelled and pronounced similarly to English, but note the double 's'.",
         "examples": [
-          ["Vous désirez un dessert ?", "Would you like a dessert?"],
-          ["Le dessert est délicieux.", "The dessert is delicious."]
+          [
+            "Vous désirez un dessert ?",
+            "Would you like a dessert?"
+          ],
+          [
+            "Le dessert est délicieux.",
+            "The dessert is delicious."
+          ]
         ],
         "special": ""
       }
@@ -79,8 +110,14 @@
         "meaning": "the restaurant",
         "notes": "Used the same way as in English — a place to eat out.",
         "examples": [
-          ["Nous allons au restaurant ce soir.", "We are going to the restaurant tonight."],
-          ["Le restaurant est complet.", "The restaurant is full."]
+          [
+            "Nous allons au restaurant ce soir.",
+            "We are going to the restaurant tonight."
+          ],
+          [
+            "Le restaurant est complet.",
+            "The restaurant is full."
+          ]
         ],
         "special": ""
       },
@@ -92,8 +129,14 @@
         "meaning": "the waiter",
         "notes": "The feminine form is 'la serveuse' (the waitress).",
         "examples": [
-          ["Le serveur apporte le menu.", "The waiter brings the menu."],
-          ["Excusez-moi, monsieur le serveur !", "Excuse me, waiter!"]
+          [
+            "Le serveur apporte le menu.",
+            "The waiter brings the menu."
+          ],
+          [
+            "Excusez-moi, monsieur le serveur !",
+            "Excuse me, waiter!"
+          ]
         ],
         "special": ""
       },
@@ -105,8 +148,14 @@
         "meaning": "the dish / the main course",
         "notes": "'Le plat du jour' means 'the dish of the day' — very common in French restaurants.",
         "examples": [
-          ["Quel est le plat du jour ?", "What is the dish of the day?"],
-          ["Je prends le plat principal.", "I'll have the main course."]
+          [
+            "Quel est le plat du jour ?",
+            "What is the dish of the day?"
+          ],
+          [
+            "Je prends le plat principal.",
+            "I'll have the main course."
+          ]
         ],
         "special": ""
       },
@@ -118,8 +167,14 @@
         "meaning": "the starter / the first course",
         "notes": "In France, 'l'entrée' is the starter (first course), not the main — opposite of American English usage.",
         "examples": [
-          ["Comme entrée, je voudrais la soupe.", "As a starter, I would like the soup."],
-          ["L'entrée est incluse dans le menu.", "The starter is included in the set menu."]
+          [
+            "Comme entrée, je voudrais la soupe.",
+            "As a starter, I would like the soup."
+          ],
+          [
+            "L'entrée est incluse dans le menu.",
+            "The starter is included in the set menu."
+          ]
         ],
         "special": ""
       },
@@ -131,8 +186,14 @@
         "meaning": "the dessert",
         "notes": "Spelled and pronounced similarly to English, but note the double 's'.",
         "examples": [
-          ["Vous désirez un dessert ?", "Would you like a dessert?"],
-          ["Le dessert est délicieux.", "The dessert is delicious."]
+          [
+            "Vous désirez un dessert ?",
+            "Would you like a dessert?"
+          ],
+          [
+            "Le dessert est délicieux.",
+            "The dessert is delicious."
+          ]
         ],
         "special": ""
       },
@@ -144,8 +205,14 @@
         "meaning": "the bill (at a restaurant)",
         "notes": "'L'addition, s'il vous plaît' is the standard way to ask for the bill. Do not say 'la facture' in a restaurant context — that is for invoices.",
         "examples": [
-          ["L'addition, s'il vous plaît !", "The bill, please!"],
-          ["Nous partageons l'addition.", "We are splitting the bill."]
+          [
+            "L'addition, s'il vous plaît !",
+            "The bill, please!"
+          ],
+          [
+            "Nous partageons l'addition.",
+            "We are splitting the bill."
+          ]
         ],
         "special": ""
       },
@@ -157,7 +224,10 @@
         "meaning": "the tip (gratuity)",
         "notes": "Tipping is less obligatory in France than in some other countries, as service is often included ('service compris'). Leaving a small tip is appreciated but not expected.",
         "examples": [
-          ["Je laisse un pourboire.", "I leave a tip."],
+          [
+            "Je laisse un pourboire.",
+            "I leave a tip."
+          ],
           [
             "Le service est compris — pas de pourboire nécessaire.",
             "Service is included — no tip necessary."
@@ -170,13 +240,34 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonsoir ! Vous avez une réservation ?"],
-        ["B", "Oui, une table pour deux, s'il vous plaît."],
-        ["A", "Bien sûr. Voici le menu. Vous êtes prêts à commander ?"],
-        ["B", "Oui. Comme entrée, je prends la soupe, et mon ami prend la salade."],
-        ["A", "Et comme plat principal ?"],
-        ["B", "Je voudrais le poulet, s'il vous plaît. Et comme dessert, la tarte au chocolat."],
-        ["A", "Très bien. Et pour monsieur ?"],
+        [
+          "A",
+          "Bonsoir ! Vous avez une réservation ?"
+        ],
+        [
+          "B",
+          "Oui, une table pour deux, s'il vous plaît."
+        ],
+        [
+          "A",
+          "Bien sûr. Voici le menu. Vous êtes prêts à commander ?"
+        ],
+        [
+          "B",
+          "Oui. Comme entrée, je prends la soupe, et mon ami prend la salade."
+        ],
+        [
+          "A",
+          "Et comme plat principal ?"
+        ],
+        [
+          "B",
+          "Je voudrais le poulet, s'il vous plaît. Et comme dessert, la tarte au chocolat."
+        ],
+        [
+          "A",
+          "Très bien. Et pour monsieur ?"
+        ],
         [
           "B",
           "Pour lui, le steak et comme dessert, la crème brûlée. L'addition, s'il vous plaît, à la fin."
@@ -185,17 +276,29 @@
       "questions": [
         {
           "question": "Pour combien de personnes est la réservation ?",
-          "options": ["Une personne", "Deux personnes", "Trois personnes"],
+          "options": [
+            "Une personne",
+            "Deux personnes",
+            "Trois personnes"
+          ],
           "correctAnswer": "Deux personnes"
         },
         {
           "question": "Qu'est-ce que la première personne choisit comme plat principal ?",
-          "options": ["Le steak", "La salade", "Le poulet"],
+          "options": [
+            "Le steak",
+            "La salade",
+            "Le poulet"
+          ],
           "correctAnswer": "Le poulet"
         },
         {
           "question": "Quel dessert choisit la deuxième personne ?",
-          "options": ["La tarte au chocolat", "La crème brûlée", "La mousse au citron"],
+          "options": [
+            "La tarte au chocolat",
+            "La crème brûlée",
+            "La mousse au citron"
+          ],
           "correctAnswer": "La crème brûlée"
         }
       ],
@@ -203,13 +306,22 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Bonsoir ! Bienvenue. Vous avez une réservation ?"],
-        ["B", "Oui, au nom de Dupont, pour deux personnes."],
+        [
+          "A",
+          "Bonsoir ! Bienvenue. Vous avez une réservation ?"
+        ],
+        [
+          "B",
+          "Oui, au nom de Dupont, pour deux personnes."
+        ],
         [
           "A",
           "Très bien. Je vous installe ici. Vous avez des allergies ou des restrictions alimentaires ?"
         ],
-        ["B", "Oui, je suis végétarienne. Est-ce que le plat du jour contient de la viande ?"],
+        [
+          "B",
+          "Oui, je suis végétarienne. Est-ce que le plat du jour contient de la viande ?"
+        ],
         [
           "A",
           "Effectivement, c'est un canard confit. Mais nous avons une excellente quiche aux légumes comme alternative."
@@ -218,7 +330,10 @@
           "B",
           "Parfait. Je prends la quiche. Et comme entrée, est-ce que la soupe est faite avec un bouillon de poulet ?"
         ],
-        ["A", "Non, c'est un bouillon de légumes. Elle est entièrement végétarienne."],
+        [
+          "A",
+          "Non, c'est un bouillon de légumes. Elle est entièrement végétarienne."
+        ],
         [
           "B",
           "Excellent. Alors la soupe en entrée, la quiche en plat, et ensuite l'addition, s'il vous plaît — nous allons partager."
@@ -297,7 +412,11 @@
         {
           "type": "multipleChoice",
           "question": "Which is the correct conjugation of 'vendre' for 'nous' ?",
-          "options": ["nous vendez", "nous vendons", "nous vendent"],
+          "options": [
+            "nous vendez",
+            "nous vendons",
+            "nous vendent"
+          ],
           "correctAnswer": "nous vendons",
           "explanation": "The 'nous' ending for -RE verbs is -ons: nous vendons."
         },
@@ -310,7 +429,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'She loses her keys' in French?",
-          "options": ["Elle perds ses clés.", "Elle perdent ses clés.", "Elle perd ses clés."],
+          "options": [
+            "Elle perds ses clés.",
+            "Elle perdent ses clés.",
+            "Elle perd ses clés."
+          ],
           "correctAnswer": "Elle perd ses clés.",
           "explanation": "With 'il/elle', no ending is added — just the stem 'perd': elle perd."
         }
@@ -367,7 +490,12 @@
         {
           "type": "multipleChoice",
           "question": "Which verb does NOT follow the regular -RE conjugation pattern?",
-          "options": ["vendre", "répondre", "prendre", "entendre"],
+          "options": [
+            "vendre",
+            "répondre",
+            "prendre",
+            "entendre"
+          ],
           "correctAnswer": "prendre",
           "explanation": "'prendre' is an irregular -RE verb and does not follow the standard endings."
         },
@@ -403,7 +531,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'l'entrée' mean in a French restaurant context?",
-        "options": ["The main course", "The starter", "The dessert"],
+        "options": [
+          "The main course",
+          "The starter",
+          "The dessert"
+        ],
         "correctAnswer": "The starter",
         "explanation": "In France, 'l'entrée' refers to the first course (starter), not the main dish.",
         "targetWord": "l'entrée"
@@ -418,7 +550,11 @@
       {
         "type": "multipleChoice",
         "question": "Which conjugation of 'attendre' is correct for 'il' ?",
-        "options": ["il attends", "il attendez", "il attend"],
+        "options": [
+          "il attends",
+          "il attendez",
+          "il attend"
+        ],
         "correctAnswer": "il attend",
         "explanation": "With 'il/elle', no ending is added to the stem of -RE verbs: il attend.",
         "targetWord": "attendre"
@@ -433,7 +569,11 @@
       {
         "type": "multipleChoice",
         "question": "What is the French word for 'waiter' (male)?",
-        "options": ["le serveur", "le pourboire", "le plat"],
+        "options": [
+          "le serveur",
+          "le pourboire",
+          "le plat"
+        ],
         "correctAnswer": "le serveur",
         "explanation": "'Le serveur' means the waiter. The feminine form is 'la serveuse'.",
         "targetWord": "le serveur"
@@ -443,7 +583,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le pourboire' mean?",
-        "options": ["The dish of the day", "The bill", "The tip", "The starter"],
+        "options": [
+          "The dish of the day",
+          "The bill",
+          "The tip",
+          "The starter"
+        ],
         "correctAnswer": "The tip",
         "explanation": "'Le pourboire' is the tip (gratuity) left for the server. 'L'addition' is the bill.",
         "targetWord": "le pourboire"

@@ -1,6 +1,7 @@
 {
   "day": 7,
   "phase": 1,
+  "isRevision": false,
   "topic": "Evening Routine",
   "vocab": {
     "standard": [
@@ -20,8 +21,14 @@
           "ils/elles": "mangent"
         },
         "examples": [
-          ["Je mange à huit heures.", "I eat at eight o'clock."],
-          ["Nous mangeons ensemble.", "We eat together."]
+          [
+            "Je mange à huit heures.",
+            "I eat at eight o'clock."
+          ],
+          [
+            "Nous mangeons ensemble.",
+            "We eat together."
+          ]
         ],
         "special": ""
       },
@@ -41,8 +48,14 @@
           "ils/elles": "regardent"
         },
         "examples": [
-          ["Je regarde la télévision.", "I watch television."],
-          ["Elle regarde un film.", "She watches a movie."]
+          [
+            "Je regarde la télévision.",
+            "I watch television."
+          ],
+          [
+            "Elle regarde un film.",
+            "She watches a movie."
+          ]
         ],
         "special": ""
       },
@@ -62,8 +75,14 @@
           "ils/elles": "écoutent"
         },
         "examples": [
-          ["J'écoute de la musique.", "I listen to music."],
-          ["Tu écoutes la radio ?", "Do you listen to the radio?"]
+          [
+            "J'écoute de la musique.",
+            "I listen to music."
+          ],
+          [
+            "Tu écoutes la radio ?",
+            "Do you listen to the radio?"
+          ]
         ],
         "special": ""
       },
@@ -75,8 +94,14 @@
         "meaning": "the television",
         "notes": "Often shortened to 'la télé' in spoken French.",
         "examples": [
-          ["Je regarde la télévision le soir.", "I watch television in the evening."],
-          ["La télé est dans le salon.", "The TV is in the living room."]
+          [
+            "Je regarde la télévision le soir.",
+            "I watch television in the evening."
+          ],
+          [
+            "La télé est dans le salon.",
+            "The TV is in the living room."
+          ]
         ],
         "special": ""
       },
@@ -88,8 +113,14 @@
         "meaning": "the dinner",
         "notes": "Also a verb: dîner (to have dinner).",
         "examples": [
-          ["Le dîner est à sept heures.", "Dinner is at seven o'clock."],
-          ["Nous dînons ensemble.", "We have dinner together."]
+          [
+            "Le dîner est à sept heures.",
+            "Dinner is at seven o'clock."
+          ],
+          [
+            "Nous dînons ensemble.",
+            "We have dinner together."
+          ]
         ],
         "special": ""
       }
@@ -111,8 +142,14 @@
           "ils/elles": "mangent"
         },
         "examples": [
-          ["Je mange à huit heures.", "I eat at eight o'clock."],
-          ["Nous mangeons ensemble.", "We eat together."]
+          [
+            "Je mange à huit heures.",
+            "I eat at eight o'clock."
+          ],
+          [
+            "Nous mangeons ensemble.",
+            "We eat together."
+          ]
         ],
         "special": ""
       },
@@ -132,8 +169,14 @@
           "ils/elles": "regardent"
         },
         "examples": [
-          ["Je regarde la télévision.", "I watch television."],
-          ["Elle regarde un film.", "She watches a movie."]
+          [
+            "Je regarde la télévision.",
+            "I watch television."
+          ],
+          [
+            "Elle regarde un film.",
+            "She watches a movie."
+          ]
         ],
         "special": ""
       },
@@ -153,8 +196,14 @@
           "ils/elles": "écoutent"
         },
         "examples": [
-          ["J'écoute de la musique.", "I listen to music."],
-          ["Tu écoutes la radio ?", "Do you listen to the radio?"]
+          [
+            "J'écoute de la musique.",
+            "I listen to music."
+          ],
+          [
+            "Tu écoutes la radio ?",
+            "Do you listen to the radio?"
+          ]
         ],
         "special": ""
       },
@@ -166,8 +215,14 @@
         "meaning": "the television",
         "notes": "Often shortened to 'la télé' in spoken French.",
         "examples": [
-          ["Je regarde la télévision le soir.", "I watch television in the evening."],
-          ["La télé est dans le salon.", "The TV is in the living room."]
+          [
+            "Je regarde la télévision le soir.",
+            "I watch television in the evening."
+          ],
+          [
+            "La télé est dans le salon.",
+            "The TV is in the living room."
+          ]
         ],
         "special": ""
       },
@@ -179,8 +234,14 @@
         "meaning": "the dinner",
         "notes": "Also a verb: dîner (to have dinner).",
         "examples": [
-          ["Le dîner est à sept heures.", "Dinner is at seven o'clock."],
-          ["Nous dînons ensemble.", "We have dinner together."]
+          [
+            "Le dîner est à sept heures.",
+            "Dinner is at seven o'clock."
+          ],
+          [
+            "Nous dînons ensemble.",
+            "We have dinner together."
+          ]
         ],
         "special": ""
       },
@@ -200,8 +261,14 @@
           "ils/elles": "se couchent"
         },
         "examples": [
-          ["Je me couche à dix heures.", "I go to bed at ten o'clock."],
-          ["Les enfants se couchent tôt.", "The children go to bed early."]
+          [
+            "Je me couche à dix heures.",
+            "I go to bed at ten o'clock."
+          ],
+          [
+            "Les enfants se couchent tôt.",
+            "The children go to bed early."
+          ]
         ],
         "special": "reflexive"
       },
@@ -212,8 +279,14 @@
         "pronunciation": "la moo-zeek",
         "meaning": "the music",
         "examples": [
-          ["J'écoute de la musique le soir.", "I listen to music in the evening."],
-          ["La musique est relaxante.", "The music is relaxing."]
+          [
+            "J'écoute de la musique le soir.",
+            "I listen to music in the evening."
+          ],
+          [
+            "La musique est relaxante.",
+            "The music is relaxing."
+          ]
         ],
         "special": ""
       }
@@ -222,28 +295,61 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Qu'est-ce que tu fais ce soir ?"],
-        ["B", "D'abord, je mange. Le dîner est à sept heures."],
-        ["A", "Et après le dîner ?"],
-        ["B", "Je regarde la télé un peu. Et toi ?"],
-        ["A", "Moi, j'écoute de la musique. Je ne regarde pas la télé."],
-        ["B", "Tu écoutes quoi comme musique ?"],
-        ["A", "Du jazz. C'est relaxant le soir."]
+        [
+          "A",
+          "Qu'est-ce que tu fais ce soir ?"
+        ],
+        [
+          "B",
+          "D'abord, je mange. Le dîner est à sept heures."
+        ],
+        [
+          "A",
+          "Et après le dîner ?"
+        ],
+        [
+          "B",
+          "Je regarde la télé un peu. Et toi ?"
+        ],
+        [
+          "A",
+          "Moi, j'écoute de la musique. Je ne regarde pas la télé."
+        ],
+        [
+          "B",
+          "Tu écoutes quoi comme musique ?"
+        ],
+        [
+          "A",
+          "Du jazz. C'est relaxant le soir."
+        ]
       ],
       "questions": [
         {
           "question": "À quelle heure B mange-t-il ?",
-          "options": ["À six heures", "À sept heures", "À huit heures"],
+          "options": [
+            "À six heures",
+            "À sept heures",
+            "À huit heures"
+          ],
           "correctAnswer": "À sept heures"
         },
         {
           "question": "Que fait B après le dîner ?",
-          "options": ["Il écoute de la musique", "Il regarde la télé", "Il dort"],
+          "options": [
+            "Il écoute de la musique",
+            "Il regarde la télé",
+            "Il dort"
+          ],
           "correctAnswer": "Il regarde la télé"
         },
         {
           "question": "Que fait A le soir ?",
-          "options": ["Il regarde la télé", "Il écoute du jazz", "Il mange"],
+          "options": [
+            "Il regarde la télé",
+            "Il écoute du jazz",
+            "Il mange"
+          ],
           "correctAnswer": "Il écoute du jazz"
         }
       ],
@@ -251,29 +357,68 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu fais quoi le soir en général ?"],
-        ["B", "Après le travail, je rentre à la maison et je mange vers sept heures et demie."],
-        ["A", "Tu manges seul ou avec quelqu'un ?"],
-        ["B", "Avec ma copine. Nous mangeons ensemble et après, nous regardons un film ou j'écoute de la musique."],
-        ["A", "Et tu te couches à quelle heure ?"],
-        ["B", "En général, je me couche à onze heures. Mais le week-end, je me couche plus tard — vers minuit."],
-        ["A", "Minuit ! Tu n'es pas fatigué le matin ?"],
-        ["B", "Le week-end, je me réveille tard aussi. C'est normal !"]
+        [
+          "A",
+          "Tu fais quoi le soir en général ?"
+        ],
+        [
+          "B",
+          "Après le travail, je rentre à la maison et je mange vers sept heures et demie."
+        ],
+        [
+          "A",
+          "Tu manges seul ou avec quelqu'un ?"
+        ],
+        [
+          "B",
+          "Avec ma copine. Nous mangeons ensemble et après, nous regardons un film ou j'écoute de la musique."
+        ],
+        [
+          "A",
+          "Et tu te couches à quelle heure ?"
+        ],
+        [
+          "B",
+          "En général, je me couche à onze heures. Mais le week-end, je me couche plus tard — vers minuit."
+        ],
+        [
+          "A",
+          "Minuit ! Tu n'es pas fatigué le matin ?"
+        ],
+        [
+          "B",
+          "Le week-end, je me réveille tard aussi. C'est normal !"
+        ]
       ],
       "questions": [
         {
           "question": "À quelle heure B mange-t-il ?",
-          "options": ["À sept heures", "Vers sept heures et demie", "À huit heures", "Vers six heures"],
+          "options": [
+            "À sept heures",
+            "Vers sept heures et demie",
+            "À huit heures",
+            "Vers six heures"
+          ],
           "correctAnswer": "Vers sept heures et demie"
         },
         {
           "question": "Avec qui B mange-t-il ?",
-          "options": ["Seul", "Avec sa copine", "Avec ses amis", "Avec sa famille"],
+          "options": [
+            "Seul",
+            "Avec sa copine",
+            "Avec ses amis",
+            "Avec sa famille"
+          ],
           "correctAnswer": "Avec sa copine"
         },
         {
           "question": "À quelle heure B se couche-t-il le week-end ?",
-          "options": ["À dix heures", "À onze heures", "Vers minuit", "À une heure"],
+          "options": [
+            "À dix heures",
+            "À onze heures",
+            "Vers minuit",
+            "À une heure"
+          ],
           "correctAnswer": "Vers minuit"
         }
       ],
@@ -330,7 +475,11 @@
         {
           "type": "multipleChoice",
           "question": "Which ending is used with 'vous'?",
-          "options": ["-ons", "-ez", "-ent"],
+          "options": [
+            "-ons",
+            "-ez",
+            "-ent"
+          ],
           "correctAnswer": "-ez",
           "explanation": "Vous + -ER verb = stem + -ez: vous regardez, vous écoutez."
         }
@@ -375,7 +524,12 @@
         {
           "type": "multipleChoice",
           "question": "Why is 'nous mangeons' spelled with an extra 'e'?",
-          "options": ["It's irregular", "To keep the soft 'g' sound", "It's a spelling mistake", "It's an old French rule"],
+          "options": [
+            "It's irregular",
+            "To keep the soft 'g' sound",
+            "It's a spelling mistake",
+            "It's an old French rule"
+          ],
           "correctAnswer": "To keep the soft 'g' sound",
           "explanation": "Without the 'e', 'g' before 'o' would be hard (like 'go'). The 'e' keeps it soft (like 'je')."
         },
@@ -394,7 +548,12 @@
         {
           "type": "multipleChoice",
           "question": "Which endings are silent in -ER verbs?",
-          "options": ["-ons and -ez", "-e, -es, and -ent", "All of them", "None of them"],
+          "options": [
+            "-ons and -ez",
+            "-e, -es, and -ent",
+            "All of them",
+            "None of them"
+          ],
           "correctAnswer": "-e, -es, and -ent",
           "explanation": "The endings -e, -es, -ent are silent. Only -ons and -ez are pronounced."
         },
@@ -412,7 +571,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'regarder' mean?",
-        "options": ["to listen", "to eat", "to watch"],
+        "options": [
+          "to listen",
+          "to eat",
+          "to watch"
+        ],
         "correctAnswer": "to watch",
         "explanation": "'Regarder' means 'to watch' or 'to look at'.",
         "targetWord": "regarder"
@@ -427,7 +590,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'le dîner'?",
-        "options": ["lunch", "dinner", "breakfast"],
+        "options": [
+          "lunch",
+          "dinner",
+          "breakfast"
+        ],
         "correctAnswer": "dinner",
         "explanation": "'Le dîner' means dinner. Le déjeuner = lunch, le petit-déjeuner = breakfast.",
         "targetWord": "le dîner"
@@ -442,7 +609,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'She watches television'?",
-        "options": ["Elle écoute la télévision.", "Elle mange la télévision.", "Elle regarde la télévision."],
+        "options": [
+          "Elle écoute la télévision.",
+          "Elle mange la télévision.",
+          "Elle regarde la télévision."
+        ],
         "correctAnswer": "Elle regarde la télévision.",
         "explanation": "Regarder = to watch. Elle regarde la télévision.",
         "targetWord": "la télévision"
@@ -459,7 +630,12 @@
       {
         "type": "multipleChoice",
         "question": "What is 'la musique'?",
-        "options": ["the movie", "the music", "the radio", "the television"],
+        "options": [
+          "the movie",
+          "the music",
+          "the radio",
+          "the television"
+        ],
         "correctAnswer": "the music",
         "explanation": "'La musique' means 'the music'.",
         "targetWord": "la musique"
@@ -474,7 +650,12 @@
       {
         "type": "multipleChoice",
         "question": "Which -ER verb ending is used with 'nous'?",
-        "options": ["-ez", "-ent", "-ons", "-es"],
+        "options": [
+          "-ez",
+          "-ent",
+          "-ons",
+          "-es"
+        ],
         "correctAnswer": "-ons",
         "explanation": "Nous → -ons: nous mangeons, nous regardons, nous écoutons.",
         "targetWord": "manger"
@@ -489,7 +670,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'se coucher' mean?",
-        "options": ["to wake up", "to eat dinner", "to go to bed", "to watch TV"],
+        "options": [
+          "to wake up",
+          "to eat dinner",
+          "to go to bed",
+          "to watch TV"
+        ],
         "correctAnswer": "to go to bed",
         "explanation": "'Se coucher' means 'to go to bed'. It's a reflexive verb.",
         "targetWord": "se coucher"
@@ -499,14 +685,24 @@
   "speak": {
     "standard": {
       "scenario": "Your friend asks what you do in a typical evening. Describe what you do after dinner — watching TV, listening to music, etc.",
-      "keyPhrases": ["Le soir, je...", "Je mange...", "Je regarde/écoute...", "Après le dîner..."],
+      "keyPhrases": [
+        "Le soir, je...",
+        "Je mange...",
+        "Je regarde/écoute...",
+        "Après le dîner..."
+      ],
       "modelAnswer": "Le soir, je mange à sept heures. Après le dîner, je regarde la télé. Parfois, j'écoute de la musique. C'est relaxant.",
       "modelAnswerExplanation": "Uses -ER verbs (manger, regarder, écouter) with time expressions (le soir, après le dîner) and 'parfois' (sometimes).",
       "tip": "Use 'le soir' to set the time, then describe activities in order with 'après' (after) and 'parfois' (sometimes)."
     },
     "advanced": {
       "scenario": "Describe your complete evening routine to a new friend — from getting home from work to going to bed. Include what you eat, what you do for fun, and when you go to sleep.",
-      "keyPhrases": ["Après le travail...", "Je mange/dîne...", "Je regarde/écoute...", "Je me couche à..."],
+      "keyPhrases": [
+        "Après le travail...",
+        "Je mange/dîne...",
+        "Je regarde/écoute...",
+        "Je me couche à..."
+      ],
       "modelAnswer": "Après le travail, je rentre à la maison vers six heures. Je mange avec ma copine à sept heures et demie. Nous regardons un film ou j'écoute de la musique. Parfois, je regarde la télé seul sur le canapé. Je me couche à onze heures en semaine, mais le week-end, je me couche vers minuit.",
       "modelAnswerExplanation": "Uses 'rentrer' (to come home), -ER verbs for activities, 'parfois' and 'ou' (or) for variety, reflexive 'se coucher' with time, and contrasts weekday/weekend routines.",
       "tip": ""

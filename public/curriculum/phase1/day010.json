@@ -1,6 +1,7 @@
 {
   "day": 10,
   "phase": 1,
+  "isRevision": false,
   "topic": "My Family",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "the mother",
         "notes": "Informal: maman (mum).",
         "examples": [
-          ["Ma mère est gentille.", "My mother is kind."],
-          ["La mère de Pierre travaille.", "Pierre's mother works."]
+          [
+            "Ma mère est gentille.",
+            "My mother is kind."
+          ],
+          [
+            "La mère de Pierre travaille.",
+            "Pierre's mother works."
+          ]
         ],
         "special": ""
       },
@@ -25,8 +32,14 @@
         "meaning": "the father",
         "notes": "Informal: papa (dad).",
         "examples": [
-          ["Mon père est grand.", "My father is tall."],
-          ["Le père de Marie est français.", "Marie's father is French."]
+          [
+            "Mon père est grand.",
+            "My father is tall."
+          ],
+          [
+            "Le père de Marie est français.",
+            "Marie's father is French."
+          ]
         ],
         "special": ""
       },
@@ -37,8 +50,14 @@
         "pronunciation": "luh frair",
         "meaning": "the brother",
         "examples": [
-          ["Mon frère a dix ans.", "My brother is ten years old."],
-          ["J'ai un frère.", "I have a brother."]
+          [
+            "Mon frère a dix ans.",
+            "My brother is ten years old."
+          ],
+          [
+            "J'ai un frère.",
+            "I have a brother."
+          ]
         ],
         "special": ""
       },
@@ -49,8 +68,14 @@
         "pronunciation": "la sir",
         "meaning": "the sister",
         "examples": [
-          ["Ma sœur habite à Paris.", "My sister lives in Paris."],
-          ["J'ai une sœur.", "I have a sister."]
+          [
+            "Ma sœur habite à Paris.",
+            "My sister lives in Paris."
+          ],
+          [
+            "J'ai une sœur.",
+            "I have a sister."
+          ]
         ],
         "special": ""
       },
@@ -62,8 +87,14 @@
         "meaning": "the child",
         "notes": "Can be masculine or feminine. Plural: les enfants.",
         "examples": [
-          ["L'enfant joue dans le parc.", "The child plays in the park."],
-          ["Ils ont deux enfants.", "They have two children."]
+          [
+            "L'enfant joue dans le parc.",
+            "The child plays in the park."
+          ],
+          [
+            "Ils ont deux enfants.",
+            "They have two children."
+          ]
         ],
         "special": ""
       }
@@ -77,8 +108,14 @@
         "meaning": "the mother",
         "notes": "Informal: maman (mum).",
         "examples": [
-          ["Ma mère est gentille.", "My mother is kind."],
-          ["La mère de Pierre travaille.", "Pierre's mother works."]
+          [
+            "Ma mère est gentille.",
+            "My mother is kind."
+          ],
+          [
+            "La mère de Pierre travaille.",
+            "Pierre's mother works."
+          ]
         ],
         "special": ""
       },
@@ -90,8 +127,14 @@
         "meaning": "the father",
         "notes": "Informal: papa (dad).",
         "examples": [
-          ["Mon père est grand.", "My father is tall."],
-          ["Le père de Marie est français.", "Marie's father is French."]
+          [
+            "Mon père est grand.",
+            "My father is tall."
+          ],
+          [
+            "Le père de Marie est français.",
+            "Marie's father is French."
+          ]
         ],
         "special": ""
       },
@@ -102,8 +145,14 @@
         "pronunciation": "luh frair",
         "meaning": "the brother",
         "examples": [
-          ["Mon frère a dix ans.", "My brother is ten years old."],
-          ["J'ai un frère.", "I have a brother."]
+          [
+            "Mon frère a dix ans.",
+            "My brother is ten years old."
+          ],
+          [
+            "J'ai un frère.",
+            "I have a brother."
+          ]
         ],
         "special": ""
       },
@@ -114,8 +163,14 @@
         "pronunciation": "la sir",
         "meaning": "the sister",
         "examples": [
-          ["Ma sœur habite à Paris.", "My sister lives in Paris."],
-          ["J'ai une sœur.", "I have a sister."]
+          [
+            "Ma sœur habite à Paris.",
+            "My sister lives in Paris."
+          ],
+          [
+            "J'ai une sœur.",
+            "I have a sister."
+          ]
         ],
         "special": ""
       },
@@ -127,8 +182,14 @@
         "meaning": "the child",
         "notes": "Can be masculine or feminine. Plural: les enfants.",
         "examples": [
-          ["L'enfant joue dans le parc.", "The child plays in the park."],
-          ["Ils ont deux enfants.", "They have two children."]
+          [
+            "L'enfant joue dans le parc.",
+            "The child plays in the park."
+          ],
+          [
+            "Ils ont deux enfants.",
+            "They have two children."
+          ]
         ],
         "special": ""
       },
@@ -140,8 +201,14 @@
         "meaning": "the grandfather",
         "notes": "Informal: papy or papi. Plural: les grands-pères.",
         "examples": [
-          ["Mon grand-père a soixante-dix ans.", "My grandfather is seventy years old."],
-          ["Le grand-père raconte des histoires.", "The grandfather tells stories."]
+          [
+            "Mon grand-père a soixante-dix ans.",
+            "My grandfather is seventy years old."
+          ],
+          [
+            "Le grand-père raconte des histoires.",
+            "The grandfather tells stories."
+          ]
         ],
         "special": ""
       },
@@ -153,8 +220,14 @@
         "meaning": "the grandmother",
         "notes": "Informal: mamie. Plural: les grands-mères.",
         "examples": [
-          ["Ma grand-mère fait des gâteaux.", "My grandmother makes cakes."],
-          ["La grand-mère habite à la campagne.", "The grandmother lives in the countryside."]
+          [
+            "Ma grand-mère fait des gâteaux.",
+            "My grandmother makes cakes."
+          ],
+          [
+            "La grand-mère habite à la campagne.",
+            "The grandmother lives in the countryside."
+          ]
         ],
         "special": ""
       }
@@ -163,29 +236,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu as une grande famille ?"],
-        ["B", "Oui ! J'ai un frère et une sœur."],
-        ["A", "Comment s'appelle ton frère ?"],
-        ["B", "Mon frère s'appelle Lucas. Il a douze ans."],
-        ["A", "Et ta sœur ?"],
-        ["B", "Ma sœur s'appelle Emma. Elle a huit ans."],
-        ["A", "Et tes parents ?"],
-        ["B", "Ma mère est professeur et mon père est médecin."]
+        [
+          "A",
+          "Tu as une grande famille ?"
+        ],
+        [
+          "B",
+          "Oui ! J'ai un frère et une sœur."
+        ],
+        [
+          "A",
+          "Comment s'appelle ton frère ?"
+        ],
+        [
+          "B",
+          "Mon frère s'appelle Lucas. Il a douze ans."
+        ],
+        [
+          "A",
+          "Et ta sœur ?"
+        ],
+        [
+          "B",
+          "Ma sœur s'appelle Emma. Elle a huit ans."
+        ],
+        [
+          "A",
+          "Et tes parents ?"
+        ],
+        [
+          "B",
+          "Ma mère est professeur et mon père est médecin."
+        ]
       ],
       "questions": [
         {
           "question": "Combien de frères et sœurs a B ?",
-          "options": ["Un frère", "Une sœur", "Un frère et une sœur"],
+          "options": [
+            "Un frère",
+            "Une sœur",
+            "Un frère et une sœur"
+          ],
           "correctAnswer": "Un frère et une sœur"
         },
         {
           "question": "Quel âge a Lucas ?",
-          "options": ["Huit ans", "Dix ans", "Douze ans"],
+          "options": [
+            "Huit ans",
+            "Dix ans",
+            "Douze ans"
+          ],
           "correctAnswer": "Douze ans"
         },
         {
           "question": "Quelle est la profession de la mère de B ?",
-          "options": ["Médecin", "Professeur", "Vendeur"],
+          "options": [
+            "Médecin",
+            "Professeur",
+            "Vendeur"
+          ],
           "correctAnswer": "Professeur"
         }
       ],
@@ -193,29 +302,68 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "C'est une photo de ta famille ?"],
-        ["B", "Oui ! Ici, c'est ma mère et mon père. Ils habitent à Lyon."],
-        ["A", "Et là, c'est ton frère ?"],
-        ["B", "Oui, c'est mon frère aîné, Thomas. Il a vingt-cinq ans. Et à côté, c'est sa femme."],
-        ["A", "Ils ont des enfants ?"],
-        ["B", "Oui, ils ont un enfant. Et là, ce sont mes grands-parents."],
-        ["A", "Ta grand-mère a l'air gentille."],
-        ["B", "Oui, elle est très gentille. Mon grand-père et ma grand-mère habitent à la campagne."]
+        [
+          "A",
+          "C'est une photo de ta famille ?"
+        ],
+        [
+          "B",
+          "Oui ! Ici, c'est ma mère et mon père. Ils habitent à Lyon."
+        ],
+        [
+          "A",
+          "Et là, c'est ton frère ?"
+        ],
+        [
+          "B",
+          "Oui, c'est mon frère aîné, Thomas. Il a vingt-cinq ans. Et à côté, c'est sa femme."
+        ],
+        [
+          "A",
+          "Ils ont des enfants ?"
+        ],
+        [
+          "B",
+          "Oui, ils ont un enfant. Et là, ce sont mes grands-parents."
+        ],
+        [
+          "A",
+          "Ta grand-mère a l'air gentille."
+        ],
+        [
+          "B",
+          "Oui, elle est très gentille. Mon grand-père et ma grand-mère habitent à la campagne."
+        ]
       ],
       "questions": [
         {
           "question": "Où habitent les parents de B ?",
-          "options": ["À Paris", "À Lyon", "À la campagne", "À Marseille"],
+          "options": [
+            "À Paris",
+            "À Lyon",
+            "À la campagne",
+            "À Marseille"
+          ],
           "correctAnswer": "À Lyon"
         },
         {
           "question": "Quel âge a Thomas ?",
-          "options": ["Vingt ans", "Vingt-deux ans", "Vingt-cinq ans", "Trente ans"],
+          "options": [
+            "Vingt ans",
+            "Vingt-deux ans",
+            "Vingt-cinq ans",
+            "Trente ans"
+          ],
           "correctAnswer": "Vingt-cinq ans"
         },
         {
           "question": "Où habitent les grands-parents de B ?",
-          "options": ["À Lyon", "À Paris", "En ville", "À la campagne"],
+          "options": [
+            "À Lyon",
+            "À Paris",
+            "En ville",
+            "À la campagne"
+          ],
           "correctAnswer": "À la campagne"
         }
       ],
@@ -266,7 +414,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'your sister' (informal)?",
-          "options": ["ton sœur", "ta sœur", "tes sœur"],
+          "options": [
+            "ton sœur",
+            "ta sœur",
+            "tes sœur"
+          ],
           "correctAnswer": "ta sœur",
           "explanation": "Sœur is feminine singular → ta sœur."
         },
@@ -317,7 +469,12 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'our house'?",
-          "options": ["nos maison", "notre maison", "nos maisons", "nôtre maison"],
+          "options": [
+            "nos maison",
+            "notre maison",
+            "nos maisons",
+            "nôtre maison"
+          ],
           "correctAnswer": "notre maison",
           "explanation": "Maison is singular → notre maison. Plural would be: nos maisons."
         },
@@ -330,7 +487,12 @@
         {
           "type": "multipleChoice",
           "question": "Which is correct for 'her friend (female)'?",
-          "options": ["sa amie", "son amie", "ses amie", "sa ami"],
+          "options": [
+            "sa amie",
+            "son amie",
+            "ses amie",
+            "sa ami"
+          ],
           "correctAnswer": "son amie",
           "explanation": "Before a feminine noun starting with a vowel, use son instead of sa."
         },
@@ -354,7 +516,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la mère' mean?",
-        "options": ["the sister", "the mother", "the grandmother"],
+        "options": [
+          "the sister",
+          "the mother",
+          "the grandmother"
+        ],
         "correctAnswer": "the mother",
         "explanation": "'La mère' means 'the mother'. Informal: maman.",
         "targetWord": "la mère"
@@ -369,7 +535,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'my sister' in French?",
-        "options": ["mon sœur", "ma sœur", "mes sœur"],
+        "options": [
+          "mon sœur",
+          "ma sœur",
+          "mes sœur"
+        ],
         "correctAnswer": "ma sœur",
         "explanation": "Sœur is feminine singular → ma sœur.",
         "targetWord": "la sœur"
@@ -377,7 +547,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'le père'?",
-        "options": ["the brother", "the child", "the father"],
+        "options": [
+          "the brother",
+          "the child",
+          "the father"
+        ],
         "correctAnswer": "the father",
         "explanation": "'Le père' means 'the father'. Informal: papa.",
         "targetWord": "le père"
@@ -394,7 +568,12 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'his mother' in French?",
-        "options": ["son mère", "sa mère", "ses mère", "leur mère"],
+        "options": [
+          "son mère",
+          "sa mère",
+          "ses mère",
+          "leur mère"
+        ],
         "correctAnswer": "sa mère",
         "explanation": "Mère is feminine singular → sa mère (his or her mother).",
         "targetWord": "la mère"
@@ -409,7 +588,12 @@
       {
         "type": "multipleChoice",
         "question": "What is 'le grand-père'?",
-        "options": ["the father", "the uncle", "the grandfather", "the brother"],
+        "options": [
+          "the father",
+          "the uncle",
+          "the grandfather",
+          "the brother"
+        ],
         "correctAnswer": "the grandfather",
         "explanation": "'Le grand-père' means grandfather. Informal: papy.",
         "targetWord": "le grand-père"
@@ -424,7 +608,12 @@
       {
         "type": "multipleChoice",
         "question": "Which is correct for 'their children'?",
-        "options": ["leur enfants", "leurs enfants", "ses enfants", "son enfants"],
+        "options": [
+          "leur enfants",
+          "leurs enfants",
+          "ses enfants",
+          "son enfants"
+        ],
         "correctAnswer": "leurs enfants",
         "explanation": "Plural noun → leurs (not leur). 'Ses enfants' means his/her children.",
         "targetWord": "l'enfant"
@@ -441,14 +630,24 @@
   "speak": {
     "standard": {
       "scenario": "A new classmate asks about your family. Tell them how many people are in your family, who they are, and one thing about each person.",
-      "keyPhrases": ["J'ai...", "Mon/Ma... s'appelle...", "Il/Elle a... ans.", "Mon/Ma... est..."],
+      "keyPhrases": [
+        "J'ai...",
+        "Mon/Ma... s'appelle...",
+        "Il/Elle a... ans.",
+        "Mon/Ma... est..."
+      ],
       "modelAnswer": "J'ai une grande famille. Mon père s'appelle Jean, il est grand. Ma mère s'appelle Sophie, elle est gentille. J'ai un frère, il a dix ans. Et j'ai une sœur, elle a six ans.",
       "modelAnswerExplanation": "This uses possessive adjectives (mon, ma), 'j'ai' to state family members, 'il/elle a' for age, and 'il/elle est' for descriptions.",
       "tip": "Start with 'J'ai...' to say how many siblings you have, then describe each person with 'Mon/Ma... est...'."
     },
     "advanced": {
       "scenario": "You're showing a photo of your family to a new friend. Describe each person in the photo — their name, their relationship to you, their age, where they live, and what they do.",
-      "keyPhrases": ["Ici, c'est...", "Son/Sa... s'appelle...", "Il/Elle habite à...", "Mes grands-parents..."],
+      "keyPhrases": [
+        "Ici, c'est...",
+        "Son/Sa... s'appelle...",
+        "Il/Elle habite à...",
+        "Mes grands-parents..."
+      ],
       "modelAnswer": "Ici, c'est mon père. Il s'appelle Marc et il a cinquante ans. Il est ingénieur. À côté, c'est ma mère, Sophie. Elle est professeur. Mon frère Thomas habite à Paris avec sa femme. Mes grands-parents habitent à la campagne. Ma grand-mère fait des gâteaux pour toute la famille.",
       "modelAnswerExplanation": "This uses possessive adjectives for multiple people, 'habiter à' for location, professions without articles, and 'de' phrases for relationships.",
       "tip": ""

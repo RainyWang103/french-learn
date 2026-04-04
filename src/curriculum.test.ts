@@ -283,6 +283,8 @@ function validateDayContent(data: Record<string, unknown>, label: string) {
   expect(typeof data.phase, `${label}.phase should be a number`).toBe('number')
   expect([1, 2, 3], `${label}.phase should be 1, 2, or 3`).toContain(data.phase)
 
+  expect(data.isRevision, `${label}.isRevision should be false`).toBe(false)
+
   assertNonEmptyString(data.topic, `${label}.topic`)
 
   // Sections
@@ -399,15 +401,15 @@ describe('curriculum JSON validation', () => {
     }
   })
 
-  it('content day files should not have isRevision', () => {
+  it('content day files should have isRevision: false', () => {
     for (const { phase, file, path: filePath } of curriculumFiles) {
       const data = JSON.parse(readFileSync(filePath, 'utf-8'))
       const dayNumber = data.day as number
       if (dayNumber % 4 !== 0) {
         expect(
           data.isRevision,
-          `${phase}/${file} day ${dayNumber} is a content day and should not have isRevision`,
-        ).toBeUndefined()
+          `${phase}/${file} day ${dayNumber} is a content day and should have isRevision: false`,
+        ).toBe(false)
       }
     }
   })

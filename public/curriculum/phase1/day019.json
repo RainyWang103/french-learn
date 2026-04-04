@@ -1,6 +1,7 @@
 {
   "day": 19,
   "phase": 1,
+  "isRevision": false,
   "topic": "The Body & Health",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "the head",
         "notes": "Used in the common expression 'avoir mal à la tête' (to have a headache).",
         "examples": [
-          ["J'ai mal à la tête.", "I have a headache."],
-          ["Elle secoue la tête.", "She shakes her head."]
+          [
+            "J'ai mal à la tête.",
+            "I have a headache."
+          ],
+          [
+            "Elle secoue la tête.",
+            "She shakes her head."
+          ]
         ],
         "special": ""
       },
@@ -25,8 +32,14 @@
         "meaning": "the arm",
         "notes": "The final 's' is silent. Plural is also 'les bras'.",
         "examples": [
-          ["Il a mal au bras droit.", "He has pain in his right arm."],
-          ["Elle porte le bébé dans ses bras.", "She carries the baby in her arms."]
+          [
+            "Il a mal au bras droit.",
+            "He has pain in his right arm."
+          ],
+          [
+            "Elle porte le bébé dans ses bras.",
+            "She carries the baby in her arms."
+          ]
         ],
         "special": ""
       },
@@ -38,8 +51,14 @@
         "meaning": "the stomach / belly",
         "notes": "Refers to the belly or abdomen. 'Avoir mal au ventre' means to have a stomachache.",
         "examples": [
-          ["J'ai mal au ventre depuis ce matin.", "I've had a stomachache since this morning."],
-          ["Le ventre fait mal quand on mange trop.", "The stomach hurts when you eat too much."]
+          [
+            "J'ai mal au ventre depuis ce matin.",
+            "I've had a stomachache since this morning."
+          ],
+          [
+            "Le ventre fait mal quand on mange trop.",
+            "The stomach hurts when you eat too much."
+          ]
         ],
         "special": ""
       },
@@ -51,8 +70,14 @@
         "meaning": "sick / ill",
         "notes": "Same form for masculine and feminine. Can also be used as a noun: 'un malade / une malade' (a sick person).",
         "examples": [
-          ["Je suis malade depuis deux jours.", "I have been sick for two days."],
-          ["Elle est trop malade pour aller au travail.", "She is too sick to go to work."]
+          [
+            "Je suis malade depuis deux jours.",
+            "I have been sick for two days."
+          ],
+          [
+            "Elle est trop malade pour aller au travail.",
+            "She is too sick to go to work."
+          ]
         ],
         "special": ""
       },
@@ -64,8 +89,14 @@
         "meaning": "the doctor",
         "notes": "Grammatically masculine even when referring to a female doctor, though 'la médecin' is increasingly accepted. 'Aller chez le médecin' means to go to the doctor.",
         "examples": [
-          ["Je dois aller chez le médecin aujourd'hui.", "I need to go to the doctor today."],
-          ["Le médecin donne des conseils.", "The doctor gives advice."]
+          [
+            "Je dois aller chez le médecin aujourd'hui.",
+            "I need to go to the doctor today."
+          ],
+          [
+            "Le médecin donne des conseils.",
+            "The doctor gives advice."
+          ]
         ],
         "special": ""
       }
@@ -79,8 +110,14 @@
         "meaning": "the head",
         "notes": "Used in the common expression 'avoir mal à la tête' (to have a headache).",
         "examples": [
-          ["J'ai mal à la tête.", "I have a headache."],
-          ["Elle secoue la tête.", "She shakes her head."]
+          [
+            "J'ai mal à la tête.",
+            "I have a headache."
+          ],
+          [
+            "Elle secoue la tête.",
+            "She shakes her head."
+          ]
         ],
         "special": ""
       },
@@ -92,8 +129,14 @@
         "meaning": "the arm",
         "notes": "The final 's' is silent. Plural is also 'les bras'.",
         "examples": [
-          ["Il a mal au bras droit.", "He has pain in his right arm."],
-          ["Elle porte le bébé dans ses bras.", "She carries the baby in her arms."]
+          [
+            "Il a mal au bras droit.",
+            "He has pain in his right arm."
+          ],
+          [
+            "Elle porte le bébé dans ses bras.",
+            "She carries the baby in her arms."
+          ]
         ],
         "special": ""
       },
@@ -105,8 +148,14 @@
         "meaning": "the stomach / belly",
         "notes": "Refers to the belly or abdomen. 'Avoir mal au ventre' means to have a stomachache.",
         "examples": [
-          ["J'ai mal au ventre depuis ce matin.", "I've had a stomachache since this morning."],
-          ["Le ventre fait mal quand on mange trop.", "The stomach hurts when you eat too much."]
+          [
+            "J'ai mal au ventre depuis ce matin.",
+            "I've had a stomachache since this morning."
+          ],
+          [
+            "Le ventre fait mal quand on mange trop.",
+            "The stomach hurts when you eat too much."
+          ]
         ],
         "special": ""
       },
@@ -118,8 +167,14 @@
         "meaning": "sick / ill",
         "notes": "Same form for masculine and feminine. Can also be used as a noun: 'un malade / une malade' (a sick person).",
         "examples": [
-          ["Je suis malade depuis deux jours.", "I have been sick for two days."],
-          ["Elle est trop malade pour aller au travail.", "She is too sick to go to work."]
+          [
+            "Je suis malade depuis deux jours.",
+            "I have been sick for two days."
+          ],
+          [
+            "Elle est trop malade pour aller au travail.",
+            "She is too sick to go to work."
+          ]
         ],
         "special": ""
       },
@@ -131,8 +186,14 @@
         "meaning": "the doctor",
         "notes": "Grammatically masculine even when referring to a female doctor, though 'la médecin' is increasingly accepted. 'Aller chez le médecin' means to go to the doctor.",
         "examples": [
-          ["Je dois aller chez le médecin aujourd'hui.", "I need to go to the doctor today."],
-          ["Le médecin donne des conseils.", "The doctor gives advice."]
+          [
+            "Je dois aller chez le médecin aujourd'hui.",
+            "I need to go to the doctor today."
+          ],
+          [
+            "Le médecin donne des conseils.",
+            "The doctor gives advice."
+          ]
         ],
         "special": ""
       },
@@ -144,7 +205,10 @@
         "meaning": "the fever",
         "notes": "'Avoir de la fièvre' means to have a fever. You can specify severity: 'une forte fièvre' (a high fever).",
         "examples": [
-          ["Il a de la fièvre depuis hier soir.", "He has had a fever since last night."],
+          [
+            "Il a de la fièvre depuis hier soir.",
+            "He has had a fever since last night."
+          ],
           [
             "Le médecin vérifie si l'enfant a de la fièvre.",
             "The doctor checks if the child has a fever."
@@ -160,7 +224,10 @@
         "meaning": "the medicine / medication",
         "notes": "'Prendre un médicament' means to take a medicine. Note: in French you go to 'la pharmacie' to buy medicines.",
         "examples": [
-          ["Prenez ce médicament trois fois par jour.", "Take this medication three times a day."],
+          [
+            "Prenez ce médicament trois fois par jour.",
+            "Take this medication three times a day."
+          ],
           [
             "Est-ce que ce médicament a des effets secondaires ?",
             "Does this medication have side effects?"
@@ -173,24 +240,56 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonjour, docteur. Je ne me sens pas bien du tout."],
-        ["B", "Bonjour. Qu'est-ce qui ne va pas ?"],
-        ["A", "J'ai très mal à la tête et j'ai mal au ventre aussi."],
-        ["B", "Depuis quand avez-vous ces douleurs ?"],
-        ["A", "Depuis hier soir. Je suis malade et je ne mange rien."],
-        ["B", "Avez-vous de la fièvre ?"],
-        ["A", "Oui, j'ai trente-huit degrés et demi."],
-        ["B", "Je vais vous donner un médicament. Reposez-vous bien et buvez beaucoup d'eau."]
+        [
+          "A",
+          "Bonjour, docteur. Je ne me sens pas bien du tout."
+        ],
+        [
+          "B",
+          "Bonjour. Qu'est-ce qui ne va pas ?"
+        ],
+        [
+          "A",
+          "J'ai très mal à la tête et j'ai mal au ventre aussi."
+        ],
+        [
+          "B",
+          "Depuis quand avez-vous ces douleurs ?"
+        ],
+        [
+          "A",
+          "Depuis hier soir. Je suis malade et je ne mange rien."
+        ],
+        [
+          "B",
+          "Avez-vous de la fièvre ?"
+        ],
+        [
+          "A",
+          "Oui, j'ai trente-huit degrés et demi."
+        ],
+        [
+          "B",
+          "Je vais vous donner un médicament. Reposez-vous bien et buvez beaucoup d'eau."
+        ]
       ],
       "questions": [
         {
           "question": "What symptoms does the patient have?",
-          "options": ["A headache and stomachache", "A sore arm and fever", "A stomachache only"],
+          "options": [
+            "A headache and stomachache",
+            "A sore arm and fever",
+            "A stomachache only"
+          ],
           "correctAnswer": "A headache and stomachache"
         },
         {
           "question": "How long has the patient been feeling unwell?",
-          "options": ["Since this morning", "Since yesterday evening", "For two days"],
+          "options": [
+            "Since this morning",
+            "Since yesterday evening",
+            "For two days"
+          ],
           "correctAnswer": "Since yesterday evening"
         },
         {
@@ -207,16 +306,34 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Bonjour docteur, je n'en peux plus — j'ai mal partout depuis trois jours."],
-        ["B", "Décrivez-moi vos symptômes précisément. Où avez-vous mal exactement ?"],
-        ["A", "J'ai très mal à la tête, j'ai mal au ventre, et mon bras droit me fait mal aussi."],
-        ["B", "Avez-vous de la fièvre ? Vous avez pris votre température ?"],
+        [
+          "A",
+          "Bonjour docteur, je n'en peux plus — j'ai mal partout depuis trois jours."
+        ],
+        [
+          "B",
+          "Décrivez-moi vos symptômes précisément. Où avez-vous mal exactement ?"
+        ],
+        [
+          "A",
+          "J'ai très mal à la tête, j'ai mal au ventre, et mon bras droit me fait mal aussi."
+        ],
+        [
+          "B",
+          "Avez-vous de la fièvre ? Vous avez pris votre température ?"
+        ],
         [
           "A",
           "Oui, j'ai trente-neuf degrés depuis hier. Je ne mange plus rien et je ne dors plus."
         ],
-        ["B", "Avez-vous pris des médicaments ? Avez-vous des allergies ?"],
-        ["A", "Je n'ai jamais pris d'antibiotiques et je n'ai aucune allergie connue."],
+        [
+          "B",
+          "Avez-vous pris des médicaments ? Avez-vous des allergies ?"
+        ],
+        [
+          "A",
+          "Je n'ai jamais pris d'antibiotiques et je n'ai aucune allergie connue."
+        ],
         [
           "B",
           "Je vous prescris des médicaments — prenez-les deux fois par jour pendant cinq jours et revenez me voir si la fièvre ne baisse pas."
@@ -225,7 +342,12 @@
       "questions": [
         {
           "question": "How long has the patient been experiencing symptoms?",
-          "options": ["One day", "Two days", "Three days", "A week"],
+          "options": [
+            "One day",
+            "Two days",
+            "Three days",
+            "A week"
+          ],
           "correctAnswer": "Three days"
         },
         {
@@ -307,7 +429,11 @@
         {
           "type": "multipleChoice",
           "question": "Which sentence correctly says 'My head hurts'?",
-          "options": ["J'ai mal à la tête.", "J'ai mal au tête.", "J'ai mal de tête."],
+          "options": [
+            "J'ai mal à la tête.",
+            "J'ai mal au tête.",
+            "J'ai mal de tête."
+          ],
           "correctAnswer": "J'ai mal à la tête.",
           "explanation": "'Tête' is feminine (la tête), so we use 'à la' — no contraction needed."
         }
@@ -411,7 +537,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'J'ai mal au ventre' mean?",
-        "options": ["I have a headache.", "I have a stomachache.", "I have a sore arm."],
+        "options": [
+          "I have a headache.",
+          "I have a stomachache.",
+          "I have a sore arm."
+        ],
         "correctAnswer": "I have a stomachache.",
         "explanation": "'Avoir mal au ventre' means to have a stomachache. 'Au' is the contraction of à + le (ventre is masculine).",
         "targetWord": "le ventre"
@@ -426,7 +556,11 @@
       {
         "type": "multipleChoice",
         "question": "Which word means 'sick' in French?",
-        "options": ["le médecin", "malade", "le bras"],
+        "options": [
+          "le médecin",
+          "malade",
+          "le bras"
+        ],
         "correctAnswer": "malade",
         "explanation": "'Malade' is an adjective meaning sick or ill. It has the same form for masculine and feminine.",
         "targetWord": "malade"
@@ -441,7 +575,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'the doctor' in French?",
-        "options": ["la fièvre", "le médecin", "le médicament"],
+        "options": [
+          "la fièvre",
+          "le médecin",
+          "le médicament"
+        ],
         "correctAnswer": "le médecin",
         "explanation": "'Le médecin' is the French word for doctor. 'La fièvre' is fever and 'le médicament' is medication.",
         "targetWord": "le médecin"
@@ -471,7 +609,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'avoir de la fièvre' mean?",
-        "options": ["to take medication", "to have a fever", "to see the doctor", "to feel better"],
+        "options": [
+          "to take medication",
+          "to have a fever",
+          "to see the doctor",
+          "to feel better"
+        ],
         "correctAnswer": "to have a fever",
         "explanation": "'Avoir de la fièvre' is the standard expression for having a fever in French.",
         "targetWord": "la fièvre"

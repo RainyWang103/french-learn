@@ -1,6 +1,7 @@
 {
   "day": 18,
   "phase": 1,
+  "isRevision": false,
   "topic": "Asking for Directions",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "the crossroads / the intersection",
         "notes": "A key landmark word when giving or following directions.",
         "examples": [
-          ["Tournez à gauche au carrefour.", "Turn left at the crossroads."],
-          ["Le carrefour est dangereux.", "The intersection is dangerous."]
+          [
+            "Tournez à gauche au carrefour.",
+            "Turn left at the crossroads."
+          ],
+          [
+            "Le carrefour est dangereux.",
+            "The intersection is dangerous."
+          ]
         ],
         "special": ""
       },
@@ -33,8 +40,14 @@
           "ils/elles": "tournent"
         },
         "examples": [
-          ["Tournez à droite après le pont.", "Turn right after the bridge."],
-          ["Je tourne à gauche ici.", "I turn left here."]
+          [
+            "Tournez à droite après le pont.",
+            "Turn right after the bridge."
+          ],
+          [
+            "Je tourne à gauche ici.",
+            "I turn left here."
+          ]
         ],
         "special": ""
       },
@@ -46,8 +59,14 @@
         "meaning": "the square / the plaza",
         "notes": "Refers to a town square or public plaza, not a seat (which is also 'place' in context).",
         "examples": [
-          ["La place du marché est au centre-ville.", "The market square is in the town centre."],
-          ["Rendez-vous sur la place!", "Let's meet at the square!"]
+          [
+            "La place du marché est au centre-ville.",
+            "The market square is in the town centre."
+          ],
+          [
+            "Rendez-vous sur la place!",
+            "Let's meet at the square!"
+          ]
         ],
         "special": ""
       },
@@ -62,7 +81,10 @@
             "Traversez le pont et continuez tout droit.",
             "Cross the bridge and continue straight ahead."
           ],
-          ["Le pont est très vieux.", "The bridge is very old."]
+          [
+            "Le pont est très vieux.",
+            "The bridge is very old."
+          ]
         ],
         "special": ""
       },
@@ -74,8 +96,14 @@
         "meaning": "the pharmacy / the chemist",
         "notes": "French pharmacies are marked by a green cross sign. Very easy to spot.",
         "examples": [
-          ["Il y a une pharmacie près d'ici ?", "Is there a pharmacy near here?"],
-          ["La pharmacie est en face de la boulangerie.", "The pharmacy is opposite the bakery."]
+          [
+            "Il y a une pharmacie près d'ici ?",
+            "Is there a pharmacy near here?"
+          ],
+          [
+            "La pharmacie est en face de la boulangerie.",
+            "The pharmacy is opposite the bakery."
+          ]
         ],
         "special": ""
       }
@@ -89,8 +117,14 @@
         "meaning": "the crossroads / the intersection",
         "notes": "A key landmark word when giving or following directions.",
         "examples": [
-          ["Tournez à gauche au carrefour.", "Turn left at the crossroads."],
-          ["Le carrefour est dangereux.", "The intersection is dangerous."]
+          [
+            "Tournez à gauche au carrefour.",
+            "Turn left at the crossroads."
+          ],
+          [
+            "Le carrefour est dangereux.",
+            "The intersection is dangerous."
+          ]
         ],
         "special": ""
       },
@@ -110,8 +144,14 @@
           "ils/elles": "tournent"
         },
         "examples": [
-          ["Tournez à droite après le pont.", "Turn right after the bridge."],
-          ["Je tourne à gauche ici.", "I turn left here."]
+          [
+            "Tournez à droite après le pont.",
+            "Turn right after the bridge."
+          ],
+          [
+            "Je tourne à gauche ici.",
+            "I turn left here."
+          ]
         ],
         "special": ""
       },
@@ -123,8 +163,14 @@
         "meaning": "the square / the plaza",
         "notes": "Refers to a town square or public plaza, not a seat (which is also 'place' in context).",
         "examples": [
-          ["La place du marché est au centre-ville.", "The market square is in the town centre."],
-          ["Rendez-vous sur la place!", "Let's meet at the square!"]
+          [
+            "La place du marché est au centre-ville.",
+            "The market square is in the town centre."
+          ],
+          [
+            "Rendez-vous sur la place!",
+            "Let's meet at the square!"
+          ]
         ],
         "special": ""
       },
@@ -139,7 +185,10 @@
             "Traversez le pont et continuez tout droit.",
             "Cross the bridge and continue straight ahead."
           ],
-          ["Le pont est très vieux.", "The bridge is very old."]
+          [
+            "Le pont est très vieux.",
+            "The bridge is very old."
+          ]
         ],
         "special": ""
       },
@@ -151,8 +200,14 @@
         "meaning": "the pharmacy / the chemist",
         "notes": "French pharmacies are marked by a green cross sign. Very easy to spot.",
         "examples": [
-          ["Il y a une pharmacie près d'ici ?", "Is there a pharmacy near here?"],
-          ["La pharmacie est en face de la boulangerie.", "The pharmacy is opposite the bakery."]
+          [
+            "Il y a une pharmacie près d'ici ?",
+            "Is there a pharmacy near here?"
+          ],
+          [
+            "La pharmacie est en face de la boulangerie.",
+            "The pharmacy is opposite the bakery."
+          ]
         ],
         "special": ""
       },
@@ -164,8 +219,14 @@
         "meaning": "the roundabout",
         "notes": "France has more roundabouts per capita than almost any other country. Knowing this word is very practical.",
         "examples": [
-          ["Prenez la deuxième sortie au rond-point.", "Take the second exit at the roundabout."],
-          ["Le rond-point est à cinq minutes d'ici.", "The roundabout is five minutes from here."]
+          [
+            "Prenez la deuxième sortie au rond-point.",
+            "Take the second exit at the roundabout."
+          ],
+          [
+            "Le rond-point est à cinq minutes d'ici.",
+            "The roundabout is five minutes from here."
+          ]
         ],
         "special": ""
       },
@@ -177,8 +238,14 @@
         "meaning": "the traffic light (also: fire)",
         "notes": "Short for 'le feu de signalisation'. In directions, 'au feu' means 'at the traffic lights'.",
         "examples": [
-          ["Tournez à droite au feu.", "Turn right at the traffic lights."],
-          ["Le feu est rouge — attendez !", "The light is red — wait!"]
+          [
+            "Tournez à droite au feu.",
+            "Turn right at the traffic lights."
+          ],
+          [
+            "Le feu est rouge — attendez !",
+            "The light is red — wait!"
+          ]
         ],
         "special": ""
       }
@@ -187,31 +254,67 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Excusez-moi, je cherche la gare. Vous pouvez m'aider ?"],
-        ["B", "Bien sûr ! La gare n'est pas loin d'ici."],
-        ["A", "Super ! Je dois tourner à droite ou à gauche ?"],
-        ["B", "Continuez tout droit jusqu'au carrefour."],
-        ["A", "D'accord, et après le carrefour ?"],
-        ["B", "Tournez à gauche, traversez le pont, et la gare est sur votre droite."],
-        ["A", "C'est loin à pied ?"],
-        ["B", "Non, c'est environ dix minutes à pied. Bonne route !"]
+        [
+          "A",
+          "Excusez-moi, je cherche la gare. Vous pouvez m'aider ?"
+        ],
+        [
+          "B",
+          "Bien sûr ! La gare n'est pas loin d'ici."
+        ],
+        [
+          "A",
+          "Super ! Je dois tourner à droite ou à gauche ?"
+        ],
+        [
+          "B",
+          "Continuez tout droit jusqu'au carrefour."
+        ],
+        [
+          "A",
+          "D'accord, et après le carrefour ?"
+        ],
+        [
+          "B",
+          "Tournez à gauche, traversez le pont, et la gare est sur votre droite."
+        ],
+        [
+          "A",
+          "C'est loin à pied ?"
+        ],
+        [
+          "B",
+          "Non, c'est environ dix minutes à pied. Bonne route !"
+        ]
       ],
       "questions": [
         {
           "question": "Qu'est-ce que le touriste cherche ?",
-          "options": ["La pharmacie", "La gare", "La place"],
+          "options": [
+            "La pharmacie",
+            "La gare",
+            "La place"
+          ],
           "correctAnswer": "La gare",
           "explanation": "The tourist says 'je cherche la gare' — I am looking for the train station."
         },
         {
           "question": "Qu'est-ce que le touriste doit traverser ?",
-          "options": ["Le pont", "Le carrefour", "La place"],
+          "options": [
+            "Le pont",
+            "Le carrefour",
+            "La place"
+          ],
           "correctAnswer": "Le pont",
           "explanation": "The local says 'traversez le pont' — cross the bridge."
         },
         {
           "question": "Combien de temps à pied jusqu'à la gare ?",
-          "options": ["Cinq minutes", "Dix minutes", "Vingt minutes"],
+          "options": [
+            "Cinq minutes",
+            "Dix minutes",
+            "Vingt minutes"
+          ],
           "correctAnswer": "Dix minutes",
           "explanation": "The local says 'c'est environ dix minutes à pied' — it's about ten minutes on foot."
         }
@@ -220,16 +323,34 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Pardon, madame. Est-ce qu'il y a une pharmacie dans le quartier ?"],
-        ["B", "Oui, il y en a une rue Voltaire. Ce n'est pas compliqué."],
-        ["A", "Pouvez-vous m'expliquer le chemin, s'il vous plaît ?"],
-        ["B", "Bien sûr. Prenez cette rue jusqu'au rond-point, puis prenez la première sortie."],
-        ["A", "La première sortie au rond-point — d'accord."],
+        [
+          "A",
+          "Pardon, madame. Est-ce qu'il y a une pharmacie dans le quartier ?"
+        ],
+        [
+          "B",
+          "Oui, il y en a une rue Voltaire. Ce n'est pas compliqué."
+        ],
+        [
+          "A",
+          "Pouvez-vous m'expliquer le chemin, s'il vous plaît ?"
+        ],
+        [
+          "B",
+          "Bien sûr. Prenez cette rue jusqu'au rond-point, puis prenez la première sortie."
+        ],
+        [
+          "A",
+          "La première sortie au rond-point — d'accord."
+        ],
         [
           "B",
           "Ensuite, au feu rouge, tournez à droite. Vous verrez la place Saint-Michel devant vous."
         ],
-        ["A", "Et la pharmacie est sur la place ?"],
+        [
+          "A",
+          "Et la pharmacie est sur la place ?"
+        ],
         [
           "B",
           "Non, continuez sur la gauche de la place et la pharmacie est à cinquante mètres, entre la boulangerie et le café."
@@ -305,7 +426,11 @@
         {
           "type": "multipleChoice",
           "question": "Which question word means 'where'?",
-          "options": ["Quand", "Où", "Comment"],
+          "options": [
+            "Quand",
+            "Où",
+            "Comment"
+          ],
           "correctAnswer": "Où",
           "explanation": "'Où' means 'where'. For example: Où est la gare ? (Where is the train station?)"
         },
@@ -437,7 +562,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le pont' mean?",
-        "options": ["The square", "The bridge", "The crossroads"],
+        "options": [
+          "The square",
+          "The bridge",
+          "The crossroads"
+        ],
         "correctAnswer": "The bridge",
         "explanation": "'Le pont' means 'the bridge'. Example: Traversez le pont — Cross the bridge.",
         "targetWord": "le pont"
@@ -471,7 +600,11 @@
       {
         "type": "multipleChoice",
         "question": "A tourist says: 'Je cherche la place.' What are they looking for?",
-        "options": ["The bridge", "The pharmacy", "The square"],
+        "options": [
+          "The bridge",
+          "The pharmacy",
+          "The square"
+        ],
         "correctAnswer": "The square",
         "explanation": "'La place' means 'the square' or 'the plaza' — a public open space in a town.",
         "targetWord": "la place"
@@ -481,7 +614,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le rond-point' mean?",
-        "options": ["The crossroads", "The roundabout", "The traffic light", "The bridge"],
+        "options": [
+          "The crossroads",
+          "The roundabout",
+          "The traffic light",
+          "The bridge"
+        ],
         "correctAnswer": "The roundabout",
         "explanation": "'Le rond-point' means 'the roundabout'. Example: Prenez la deuxième sortie au rond-point.",
         "targetWord": "le rond-point"

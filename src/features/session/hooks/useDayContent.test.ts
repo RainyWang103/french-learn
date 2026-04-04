@@ -5,6 +5,7 @@ import { useDayContent } from './useDayContent'
 const mockContentDay = {
   day: 1,
   phase: 1,
+  isRevision: false as const,
   topic: 'Greetings',
   vocab: { standard: [], advanced: [] },
   listen: { standard: {}, advanced: {} },

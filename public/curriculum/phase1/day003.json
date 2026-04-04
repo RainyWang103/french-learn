@@ -1,6 +1,7 @@
 {
   "day": 3,
   "phase": 1,
+  "isRevision": false,
   "topic": "Breakfast",
   "vocab": {
     "standard": [
@@ -11,8 +12,14 @@
         "pronunciation": "luh ka-fay",
         "meaning": "the coffee",
         "examples": [
-          ["Je bois un café le matin.", "I drink a coffee in the morning."],
-          ["Le café est chaud.", "The coffee is hot."]
+          [
+            "Je bois un café le matin.",
+            "I drink a coffee in the morning."
+          ],
+          [
+            "Le café est chaud.",
+            "The coffee is hot."
+          ]
         ],
         "special": ""
       },
@@ -23,8 +30,14 @@
         "pronunciation": "luh pan",
         "meaning": "the bread",
         "examples": [
-          ["Je mange du pain.", "I eat some bread."],
-          ["Le pain est frais.", "The bread is fresh."]
+          [
+            "Je mange du pain.",
+            "I eat some bread."
+          ],
+          [
+            "Le pain est frais.",
+            "The bread is fresh."
+          ]
         ],
         "special": ""
       },
@@ -35,8 +48,14 @@
         "pronunciation": "luh burr",
         "meaning": "the butter",
         "examples": [
-          ["Du pain avec du beurre.", "Bread with butter."],
-          ["Le beurre est dans le frigo.", "The butter is in the fridge."]
+          [
+            "Du pain avec du beurre.",
+            "Bread with butter."
+          ],
+          [
+            "Le beurre est dans le frigo.",
+            "The butter is in the fridge."
+          ]
         ],
         "special": ""
       },
@@ -48,8 +67,14 @@
         "meaning": "the juice",
         "notes": "Often used with 'de' + fruit: jus d'orange, jus de pomme.",
         "examples": [
-          ["Un jus d'orange, s'il vous plaît.", "An orange juice, please."],
-          ["Le jus est froid.", "The juice is cold."]
+          [
+            "Un jus d'orange, s'il vous plaît.",
+            "An orange juice, please."
+          ],
+          [
+            "Le jus est froid.",
+            "The juice is cold."
+          ]
         ],
         "special": ""
       },
@@ -60,8 +85,14 @@
         "pronunciation": "la kon-fee-toor",
         "meaning": "the jam",
         "examples": [
-          ["Du pain avec de la confiture.", "Bread with jam."],
-          ["La confiture de fraises est bonne.", "The strawberry jam is good."]
+          [
+            "Du pain avec de la confiture.",
+            "Bread with jam."
+          ],
+          [
+            "La confiture de fraises est bonne.",
+            "The strawberry jam is good."
+          ]
         ],
         "special": ""
       }
@@ -75,8 +106,14 @@
         "meaning": "the coffee",
         "notes": "Also means 'café' (the place). Context determines meaning.",
         "examples": [
-          ["Je bois un café le matin.", "I drink a coffee in the morning."],
-          ["Le café est chaud.", "The coffee is hot."]
+          [
+            "Je bois un café le matin.",
+            "I drink a coffee in the morning."
+          ],
+          [
+            "Le café est chaud.",
+            "The coffee is hot."
+          ]
         ],
         "special": ""
       },
@@ -87,8 +124,14 @@
         "pronunciation": "luh pan",
         "meaning": "the bread",
         "examples": [
-          ["Je mange du pain.", "I eat some bread."],
-          ["Le pain est frais.", "The bread is fresh."]
+          [
+            "Je mange du pain.",
+            "I eat some bread."
+          ],
+          [
+            "Le pain est frais.",
+            "The bread is fresh."
+          ]
         ],
         "special": ""
       },
@@ -99,8 +142,14 @@
         "pronunciation": "luh burr",
         "meaning": "the butter",
         "examples": [
-          ["Du pain avec du beurre.", "Bread with butter."],
-          ["Le beurre est dans le frigo.", "The butter is in the fridge."]
+          [
+            "Du pain avec du beurre.",
+            "Bread with butter."
+          ],
+          [
+            "Le beurre est dans le frigo.",
+            "The butter is in the fridge."
+          ]
         ],
         "special": ""
       },
@@ -112,8 +161,14 @@
         "meaning": "the juice",
         "notes": "Often used with 'de' + fruit: jus d'orange, jus de pomme.",
         "examples": [
-          ["Un jus d'orange, s'il vous plaît.", "An orange juice, please."],
-          ["Le jus est froid.", "The juice is cold."]
+          [
+            "Un jus d'orange, s'il vous plaît.",
+            "An orange juice, please."
+          ],
+          [
+            "Le jus est froid.",
+            "The juice is cold."
+          ]
         ],
         "special": ""
       },
@@ -124,8 +179,14 @@
         "pronunciation": "la kon-fee-toor",
         "meaning": "the jam",
         "examples": [
-          ["Du pain avec de la confiture.", "Bread with jam."],
-          ["La confiture de fraises est bonne.", "The strawberry jam is good."]
+          [
+            "Du pain avec de la confiture.",
+            "Bread with jam."
+          ],
+          [
+            "La confiture de fraises est bonne.",
+            "The strawberry jam is good."
+          ]
         ],
         "special": ""
       },
@@ -137,8 +198,14 @@
         "meaning": "the bowl",
         "notes": "Used for café au lait, cereal, soup.",
         "examples": [
-          ["Un bol de café au lait.", "A bowl of coffee with milk."],
-          ["Le bol est sur la table.", "The bowl is on the table."]
+          [
+            "Un bol de café au lait.",
+            "A bowl of coffee with milk."
+          ],
+          [
+            "Le bol est sur la table.",
+            "The bowl is on the table."
+          ]
         ],
         "special": ""
       },
@@ -150,8 +217,14 @@
         "meaning": "the croissant",
         "notes": "From 'croître' (to grow/crescent). A classic French breakfast pastry.",
         "examples": [
-          ["Un croissant au beurre, s'il vous plaît.", "A butter croissant, please."],
-          ["Les croissants sont chauds.", "The croissants are warm."]
+          [
+            "Un croissant au beurre, s'il vous plaît.",
+            "A butter croissant, please."
+          ],
+          [
+            "Les croissants sont chauds.",
+            "The croissants are warm."
+          ]
         ],
         "special": ""
       }
@@ -160,27 +233,57 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu veux un café ?"],
-        ["B", "Oui, et du pain avec du beurre, s'il te plaît."],
-        ["A", "Il y a de la confiture aussi. Tu veux de la confiture ?"],
-        ["B", "Non, pas de confiture. Mais j'ai soif — tu as du jus d'orange ?"],
-        ["A", "Oui, le jus est dans le frigo."],
-        ["B", "Super ! Le pain est bon ce matin."]
+        [
+          "A",
+          "Tu veux un café ?"
+        ],
+        [
+          "B",
+          "Oui, et du pain avec du beurre, s'il te plaît."
+        ],
+        [
+          "A",
+          "Il y a de la confiture aussi. Tu veux de la confiture ?"
+        ],
+        [
+          "B",
+          "Non, pas de confiture. Mais j'ai soif — tu as du jus d'orange ?"
+        ],
+        [
+          "A",
+          "Oui, le jus est dans le frigo."
+        ],
+        [
+          "B",
+          "Super ! Le pain est bon ce matin."
+        ]
       ],
       "questions": [
         {
           "question": "Que veut B pour le petit-déjeuner ?",
-          "options": ["Du café et du pain avec du beurre", "Du café et de la confiture", "Du jus seulement"],
+          "options": [
+            "Du café et du pain avec du beurre",
+            "Du café et de la confiture",
+            "Du jus seulement"
+          ],
           "correctAnswer": "Du café et du pain avec du beurre"
         },
         {
           "question": "Est-ce que B veut de la confiture ?",
-          "options": ["Oui", "Non", "On ne sait pas"],
+          "options": [
+            "Oui",
+            "Non",
+            "On ne sait pas"
+          ],
           "correctAnswer": "Non"
         },
         {
           "question": "Où est le jus d'orange ?",
-          "options": ["Sur la table", "Dans le frigo", "Il n'y a pas de jus"],
+          "options": [
+            "Sur la table",
+            "Dans le frigo",
+            "Il n'y a pas de jus"
+          ],
           "correctAnswer": "Dans le frigo"
         }
       ],
@@ -188,28 +291,64 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Qu'est-ce que tu veux pour le petit-déjeuner ?"],
-        ["B", "Un bol de café au lait et un croissant, s'il te plaît."],
-        ["A", "Il n'y a plus de croissants. Mais il y a du pain frais."],
-        ["B", "D'accord. Du pain avec du beurre et de la confiture alors."],
-        ["A", "Confiture de fraises ou confiture d'abricot ?"],
-        ["B", "Confiture de fraises. Et un jus d'orange aussi, j'ai très soif."],
-        ["A", "Voilà ! Bon appétit !"]
+        [
+          "A",
+          "Qu'est-ce que tu veux pour le petit-déjeuner ?"
+        ],
+        [
+          "B",
+          "Un bol de café au lait et un croissant, s'il te plaît."
+        ],
+        [
+          "A",
+          "Il n'y a plus de croissants. Mais il y a du pain frais."
+        ],
+        [
+          "B",
+          "D'accord. Du pain avec du beurre et de la confiture alors."
+        ],
+        [
+          "A",
+          "Confiture de fraises ou confiture d'abricot ?"
+        ],
+        [
+          "B",
+          "Confiture de fraises. Et un jus d'orange aussi, j'ai très soif."
+        ],
+        [
+          "A",
+          "Voilà ! Bon appétit !"
+        ]
       ],
       "questions": [
         {
           "question": "Que veut B d'abord ?",
-          "options": ["Du pain et du beurre", "Un bol de café au lait et un croissant", "Un jus d'orange", "De la confiture"],
+          "options": [
+            "Du pain et du beurre",
+            "Un bol de café au lait et un croissant",
+            "Un jus d'orange",
+            "De la confiture"
+          ],
           "correctAnswer": "Un bol de café au lait et un croissant"
         },
         {
           "question": "Pourquoi B ne mange pas de croissant ?",
-          "options": ["Il n'aime pas les croissants", "Il n'y a plus de croissants", "Les croissants sont froids", "Les croissants sont trop chers"],
+          "options": [
+            "Il n'aime pas les croissants",
+            "Il n'y a plus de croissants",
+            "Les croissants sont froids",
+            "Les croissants sont trop chers"
+          ],
           "correctAnswer": "Il n'y a plus de croissants"
         },
         {
           "question": "Quelle confiture B choisit-il ?",
-          "options": ["Confiture d'abricot", "Confiture de fraises", "Confiture d'orange", "Pas de confiture"],
+          "options": [
+            "Confiture d'abricot",
+            "Confiture de fraises",
+            "Confiture d'orange",
+            "Pas de confiture"
+          ],
           "correctAnswer": "Confiture de fraises"
         }
       ],
@@ -242,14 +381,22 @@
         {
           "type": "multipleChoice",
           "question": "'Café' is masculine. Which is correct: '___ café est chaud'?",
-          "options": ["Le", "La", "Les"],
+          "options": [
+            "Le",
+            "La",
+            "Les"
+          ],
           "correctAnswer": "Le",
           "explanation": "Masculine singular noun → le."
         },
         {
           "type": "multipleChoice",
           "question": "'Confiture' is feminine. Which article: '___ confiture'?",
-          "options": ["Le", "La", "Les"],
+          "options": [
+            "Le",
+            "La",
+            "Les"
+          ],
           "correctAnswer": "La",
           "explanation": "Feminine singular noun → la."
         },
@@ -268,7 +415,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'some croissants'?",
-          "options": ["un croissants", "des croissants", "les croissants"],
+          "options": [
+            "un croissants",
+            "des croissants",
+            "les croissants"
+          ],
           "correctAnswer": "des croissants",
           "explanation": "Indefinite plural = des."
         }
@@ -307,7 +458,12 @@
         {
           "type": "multipleChoice",
           "question": "In negation, 'du café' becomes:",
-          "options": ["du café", "de café", "le café", "pas café"],
+          "options": [
+            "du café",
+            "de café",
+            "le café",
+            "pas café"
+          ],
           "correctAnswer": "de café",
           "explanation": "After negation, partitive articles become 'de': pas de café."
         },
@@ -320,7 +476,12 @@
         {
           "type": "multipleChoice",
           "question": "Which is correct: 'I drink some water'?",
-          "options": ["Je bois du eau.", "Je bois de l'eau.", "Je bois la eau.", "Je bois un eau."],
+          "options": [
+            "Je bois du eau.",
+            "Je bois de l'eau.",
+            "Je bois la eau.",
+            "Je bois un eau."
+          ],
           "correctAnswer": "Je bois de l'eau.",
           "explanation": "Before a vowel, use de l': de l'eau."
         },
@@ -333,7 +494,12 @@
         {
           "type": "multipleChoice",
           "question": "Which sentence uses the partitive correctly?",
-          "options": ["Je mange le pain.", "Je mange du pain.", "Je mange un pain.", "Je mange des pain."],
+          "options": [
+            "Je mange le pain.",
+            "Je mange du pain.",
+            "Je mange un pain.",
+            "Je mange des pain."
+          ],
           "correctAnswer": "Je mange du pain.",
           "explanation": "When talking about eating 'some' bread (uncountable), use the partitive 'du'."
         },
@@ -351,7 +517,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'le beurre'?",
-        "options": ["the jam", "the butter", "the bread"],
+        "options": [
+          "the jam",
+          "the butter",
+          "the bread"
+        ],
         "correctAnswer": "the butter",
         "explanation": "'Le beurre' means 'the butter'. It is masculine.",
         "targetWord": "le beurre"
@@ -359,7 +529,11 @@
       {
         "type": "multipleChoice",
         "question": "Which article goes with 'confiture' (feminine)?",
-        "options": ["le", "la", "les"],
+        "options": [
+          "le",
+          "la",
+          "les"
+        ],
         "correctAnswer": "la",
         "explanation": "'Confiture' is feminine → la confiture.",
         "targetWord": "la confiture"
@@ -374,7 +548,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'some bread'?",
-        "options": ["le pain", "un pain", "du pain"],
+        "options": [
+          "le pain",
+          "un pain",
+          "du pain"
+        ],
         "correctAnswer": "du pain",
         "explanation": "Use the partitive 'du' for uncountable masculine nouns: du pain.",
         "targetWord": "le pain"
@@ -391,7 +569,12 @@
       {
         "type": "multipleChoice",
         "question": "What is 'le bol'?",
-        "options": ["the cup", "the bowl", "the plate", "the glass"],
+        "options": [
+          "the cup",
+          "the bowl",
+          "the plate",
+          "the glass"
+        ],
         "correctAnswer": "the bowl",
         "explanation": "'Le bol' means 'the bowl'.",
         "targetWord": "le bol"
@@ -406,7 +589,12 @@
       {
         "type": "multipleChoice",
         "question": "In negation, 'du pain' becomes:",
-        "options": ["du pain", "le pain", "de pain", "un pain"],
+        "options": [
+          "du pain",
+          "le pain",
+          "de pain",
+          "un pain"
+        ],
         "correctAnswer": "de pain",
         "explanation": "After negation, partitive 'du' becomes 'de': pas de pain.",
         "targetWord": "le pain"
@@ -421,7 +609,12 @@
       {
         "type": "multipleChoice",
         "question": "Which is correct for 'some water'?",
-        "options": ["du eau", "de l'eau", "la eau", "un eau"],
+        "options": [
+          "du eau",
+          "de l'eau",
+          "la eau",
+          "un eau"
+        ],
         "correctAnswer": "de l'eau",
         "explanation": "Before a vowel, use de l': de l'eau.",
         "targetWord": "le café"
@@ -438,14 +631,23 @@
   "speak": {
     "standard": {
       "scenario": "You're at a café ordering breakfast. Tell the waiter what you'd like to eat and drink.",
-      "keyPhrases": ["Je voudrais...", "Un/une... s'il vous plaît", "Du/de la..."],
+      "keyPhrases": [
+        "Je voudrais...",
+        "Un/une... s'il vous plaît",
+        "Du/de la..."
+      ],
       "modelAnswer": "Bonjour ! Je voudrais un café et du pain avec du beurre, s'il vous plaît. Et un jus d'orange.",
       "modelAnswerExplanation": "Uses 'je voudrais' (I would like — polite), indefinite 'un' for countable items, partitive 'du' for uncountable items, and 's'il vous plaît' for politeness.",
       "tip": "Start with 'Je voudrais...' (I would like...) — it's the polite way to order."
     },
     "advanced": {
       "scenario": "You're having breakfast with a French friend at their home. They ask what you want. Respond with your preferences and ask if certain items are available.",
-      "keyPhrases": ["Est-ce qu'il y a...?", "Je voudrais...", "Avec du/de la...", "Je ne mange pas de..."],
+      "keyPhrases": [
+        "Est-ce qu'il y a...?",
+        "Je voudrais...",
+        "Avec du/de la...",
+        "Je ne mange pas de..."
+      ],
       "modelAnswer": "Je voudrais un bol de café au lait, s'il te plaît. Est-ce qu'il y a des croissants ? Non ? Alors du pain avec du beurre et de la confiture de fraises. Je ne mange pas de confiture d'abricot. Et un jus d'orange aussi, j'ai soif !",
       "modelAnswerExplanation": "Uses 'est-ce qu'il y a' to ask about availability, partitive articles for food, negation with 'de' (pas de confiture), and 'avoir soif' to express thirst.",
       "tip": ""

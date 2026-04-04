@@ -1,6 +1,7 @@
 {
   "day": 11,
   "phase": 1,
+  "isRevision": false,
   "topic": "Telling Time & Daily Schedule",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "the hour / the time",
         "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
         "examples": [
-          ["Quelle heure est-il ?", "What time is it?"],
-          ["Il est deux heures.", "It is two o'clock."]
+          [
+            "Quelle heure est-il ?",
+            "What time is it?"
+          ],
+          [
+            "Il est deux heures.",
+            "It is two o'clock."
+          ]
         ],
         "special": ""
       },
@@ -25,8 +32,14 @@
         "meaning": "noon / midday",
         "notes": "No article needed. Opposite: minuit (midnight).",
         "examples": [
-          ["Il est midi.", "It is noon."],
-          ["On mange à midi.", "We eat at noon."]
+          [
+            "Il est midi.",
+            "It is noon."
+          ],
+          [
+            "On mange à midi.",
+            "We eat at noon."
+          ]
         ],
         "special": ""
       },
@@ -38,8 +51,14 @@
         "meaning": "late (behind schedule)",
         "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
         "examples": [
-          ["Je suis en retard !", "I'm late!"],
-          ["Tu es toujours en retard.", "You are always late."]
+          [
+            "Je suis en retard !",
+            "I'm late!"
+          ],
+          [
+            "Tu es toujours en retard.",
+            "You are always late."
+          ]
         ],
         "special": ""
       },
@@ -59,8 +78,14 @@
           "ils/elles": "commencent"
         },
         "examples": [
-          ["Le cours commence à neuf heures.", "The class starts at nine o'clock."],
-          ["Je commence le travail à huit heures.", "I start work at eight o'clock."]
+          [
+            "Le cours commence à neuf heures.",
+            "The class starts at nine o'clock."
+          ],
+          [
+            "Je commence le travail à huit heures.",
+            "I start work at eight o'clock."
+          ]
         ],
         "special": ""
       },
@@ -71,8 +96,14 @@
         "pronunciation": "la suh-men",
         "meaning": "the week",
         "examples": [
-          ["La semaine prochaine, je suis en vacances.", "Next week, I am on holiday."],
-          ["Il y a sept jours dans une semaine.", "There are seven days in a week."]
+          [
+            "La semaine prochaine, je suis en vacances.",
+            "Next week, I am on holiday."
+          ],
+          [
+            "Il y a sept jours dans une semaine.",
+            "There are seven days in a week."
+          ]
         ],
         "special": ""
       }
@@ -86,8 +117,14 @@
         "meaning": "the hour / the time",
         "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
         "examples": [
-          ["Quelle heure est-il ?", "What time is it?"],
-          ["Il est deux heures.", "It is two o'clock."]
+          [
+            "Quelle heure est-il ?",
+            "What time is it?"
+          ],
+          [
+            "Il est deux heures.",
+            "It is two o'clock."
+          ]
         ],
         "special": ""
       },
@@ -99,8 +136,14 @@
         "meaning": "noon / midday",
         "notes": "No article needed. Opposite: minuit (midnight).",
         "examples": [
-          ["Il est midi.", "It is noon."],
-          ["On mange à midi.", "We eat at noon."]
+          [
+            "Il est midi.",
+            "It is noon."
+          ],
+          [
+            "On mange à midi.",
+            "We eat at noon."
+          ]
         ],
         "special": ""
       },
@@ -112,8 +155,14 @@
         "meaning": "late (behind schedule)",
         "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
         "examples": [
-          ["Je suis en retard !", "I'm late!"],
-          ["Tu es toujours en retard.", "You are always late."]
+          [
+            "Je suis en retard !",
+            "I'm late!"
+          ],
+          [
+            "Tu es toujours en retard.",
+            "You are always late."
+          ]
         ],
         "special": ""
       },
@@ -133,8 +182,14 @@
           "ils/elles": "commencent"
         },
         "examples": [
-          ["Le cours commence à neuf heures.", "The class starts at nine o'clock."],
-          ["Je commence le travail à huit heures.", "I start work at eight o'clock."]
+          [
+            "Le cours commence à neuf heures.",
+            "The class starts at nine o'clock."
+          ],
+          [
+            "Je commence le travail à huit heures.",
+            "I start work at eight o'clock."
+          ]
         ],
         "special": ""
       },
@@ -145,8 +200,14 @@
         "pronunciation": "la suh-men",
         "meaning": "the week",
         "examples": [
-          ["La semaine prochaine, je suis en vacances.", "Next week, I am on holiday."],
-          ["Il y a sept jours dans une semaine.", "There are seven days in a week."]
+          [
+            "La semaine prochaine, je suis en vacances.",
+            "Next week, I am on holiday."
+          ],
+          [
+            "Il y a sept jours dans une semaine.",
+            "There are seven days in a week."
+          ]
         ],
         "special": ""
       },
@@ -158,8 +219,14 @@
         "meaning": "the quarter of an hour",
         "notes": "Used in time: il est deux heures et quart (2:15), il est trois heures moins le quart (2:45).",
         "examples": [
-          ["Il est deux heures et quart.", "It is quarter past two."],
-          ["J'arrive dans un quart d'heure.", "I'll arrive in a quarter of an hour."]
+          [
+            "Il est deux heures et quart.",
+            "It is quarter past two."
+          ],
+          [
+            "J'arrive dans un quart d'heure.",
+            "I'll arrive in a quarter of an hour."
+          ]
         ],
         "special": ""
       },
@@ -171,8 +238,14 @@
         "meaning": "the appointment / the meeting",
         "notes": "Abbreviated: RDV. Also used for dates (romantic meetings).",
         "examples": [
-          ["J'ai un rendez-vous à dix heures.", "I have an appointment at ten o'clock."],
-          ["Mon rendez-vous est à midi.", "My appointment is at noon."]
+          [
+            "J'ai un rendez-vous à dix heures.",
+            "I have an appointment at ten o'clock."
+          ],
+          [
+            "Mon rendez-vous est à midi.",
+            "My appointment is at noon."
+          ]
         ],
         "special": ""
       }
@@ -181,29 +254,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Quelle heure est-il ?"],
-        ["B", "Il est neuf heures. Tu commences à quelle heure ?"],
-        ["A", "Mon cours commence à neuf heures et demie."],
-        ["B", "Et il finit à quelle heure ?"],
-        ["A", "Il finit à midi. Et toi ?"],
-        ["B", "Moi, je commence à dix heures et je finis à une heure."],
-        ["A", "On mange ensemble à midi ?"],
-        ["B", "Non, à midi je suis en cours. On mange à une heure ?"]
+        [
+          "A",
+          "Quelle heure est-il ?"
+        ],
+        [
+          "B",
+          "Il est neuf heures. Tu commences à quelle heure ?"
+        ],
+        [
+          "A",
+          "Mon cours commence à neuf heures et demie."
+        ],
+        [
+          "B",
+          "Et il finit à quelle heure ?"
+        ],
+        [
+          "A",
+          "Il finit à midi. Et toi ?"
+        ],
+        [
+          "B",
+          "Moi, je commence à dix heures et je finis à une heure."
+        ],
+        [
+          "A",
+          "On mange ensemble à midi ?"
+        ],
+        [
+          "B",
+          "Non, à midi je suis en cours. On mange à une heure ?"
+        ]
       ],
       "questions": [
         {
           "question": "À quelle heure commence le cours de A ?",
-          "options": ["À neuf heures", "À neuf heures et demie", "À dix heures"],
+          "options": [
+            "À neuf heures",
+            "À neuf heures et demie",
+            "À dix heures"
+          ],
           "correctAnswer": "À neuf heures et demie"
         },
         {
           "question": "À quelle heure B finit-il ?",
-          "options": ["À midi", "À une heure", "À deux heures"],
+          "options": [
+            "À midi",
+            "À une heure",
+            "À deux heures"
+          ],
           "correctAnswer": "À une heure"
         },
         {
           "question": "Quand est-ce qu'ils mangent ensemble ?",
-          "options": ["À midi", "À une heure", "Ils ne mangent pas ensemble"],
+          "options": [
+            "À midi",
+            "À une heure",
+            "Ils ne mangent pas ensemble"
+          ],
           "correctAnswer": "À une heure"
         }
       ],
@@ -211,29 +320,68 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu as un emploi du temps chargé cette semaine ?"],
-        ["B", "Oui ! Lundi, je commence à huit heures et je finis à cinq heures."],
-        ["A", "C'est long ! Et mardi ?"],
-        ["B", "Mardi, j'ai un rendez-vous chez le médecin à dix heures. Après, je choisis mes cours pour le semestre."],
-        ["A", "Tu finis à quelle heure mardi ?"],
-        ["B", "Je finis à trois heures et quart. Et toi, ta semaine ?"],
-        ["A", "Moi, je ne finis jamais avant six heures. Je suis toujours en retard le matin."],
-        ["B", "Il faut partir plus tôt !"]
+        [
+          "A",
+          "Tu as un emploi du temps chargé cette semaine ?"
+        ],
+        [
+          "B",
+          "Oui ! Lundi, je commence à huit heures et je finis à cinq heures."
+        ],
+        [
+          "A",
+          "C'est long ! Et mardi ?"
+        ],
+        [
+          "B",
+          "Mardi, j'ai un rendez-vous chez le médecin à dix heures. Après, je choisis mes cours pour le semestre."
+        ],
+        [
+          "A",
+          "Tu finis à quelle heure mardi ?"
+        ],
+        [
+          "B",
+          "Je finis à trois heures et quart. Et toi, ta semaine ?"
+        ],
+        [
+          "A",
+          "Moi, je ne finis jamais avant six heures. Je suis toujours en retard le matin."
+        ],
+        [
+          "B",
+          "Il faut partir plus tôt !"
+        ]
       ],
       "questions": [
         {
           "question": "À quelle heure B commence-t-il lundi ?",
-          "options": ["À sept heures", "À huit heures", "À neuf heures", "À dix heures"],
+          "options": [
+            "À sept heures",
+            "À huit heures",
+            "À neuf heures",
+            "À dix heures"
+          ],
           "correctAnswer": "À huit heures"
         },
         {
           "question": "Qu'est-ce que B fait mardi à dix heures ?",
-          "options": ["Un cours", "Un rendez-vous chez le médecin", "Il choisit ses cours", "Il mange"],
+          "options": [
+            "Un cours",
+            "Un rendez-vous chez le médecin",
+            "Il choisit ses cours",
+            "Il mange"
+          ],
           "correctAnswer": "Un rendez-vous chez le médecin"
         },
         {
           "question": "Quel est le problème de A le matin ?",
-          "options": ["Il est fatigué.", "Il est toujours en retard.", "Il ne finit pas.", "Il n'a pas de cours."],
+          "options": [
+            "Il est fatigué.",
+            "Il est toujours en retard.",
+            "Il ne finit pas.",
+            "Il n'a pas de cours."
+          ],
           "correctAnswer": "Il est toujours en retard."
         }
       ],
@@ -284,7 +432,11 @@
         {
           "type": "multipleChoice",
           "question": "What is the correct form: 'Elle ___ l'examen.' (réussir)",
-          "options": ["réussis", "réussit", "réussissent"],
+          "options": [
+            "réussis",
+            "réussit",
+            "réussissent"
+          ],
           "correctAnswer": "réussit",
           "explanation": "Il/elle + réussir = il/elle réussit."
         },
@@ -335,7 +487,12 @@
         {
           "type": "multipleChoice",
           "question": "Which verb is NOT a regular -IR verb?",
-          "options": ["finir", "choisir", "dormir", "réussir"],
+          "options": [
+            "finir",
+            "choisir",
+            "dormir",
+            "réussir"
+          ],
           "correctAnswer": "dormir",
           "explanation": "Dormir is an irregular -IR verb (Group 3): je dors, not je dormis."
         },
@@ -354,7 +511,12 @@
         {
           "type": "multipleChoice",
           "question": "What is 'vous finissez' in English?",
-          "options": ["you finish", "you choose", "you succeed", "you grow"],
+          "options": [
+            "you finish",
+            "you choose",
+            "you succeed",
+            "you grow"
+          ],
           "correctAnswer": "you finish",
           "explanation": "Finir = to finish. Vous finissez = you finish."
         },
@@ -372,7 +534,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'Quelle heure est-il ?' mean?",
-        "options": ["Where is he?", "What time is it?", "How are you?"],
+        "options": [
+          "Where is he?",
+          "What time is it?",
+          "How are you?"
+        ],
         "correctAnswer": "What time is it?",
         "explanation": "'Quelle heure est-il ?' is the standard way to ask the time.",
         "targetWord": "l'heure"
@@ -380,7 +546,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'midi' mean?",
-        "options": ["midnight", "noon", "morning"],
+        "options": [
+          "midnight",
+          "noon",
+          "morning"
+        ],
         "correctAnswer": "noon",
         "explanation": "'Midi' means noon. Midnight is 'minuit'.",
         "targetWord": "midi"
@@ -402,7 +572,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'the week' in French?",
-        "options": ["le jour", "la semaine", "le mois"],
+        "options": [
+          "le jour",
+          "la semaine",
+          "le mois"
+        ],
         "correctAnswer": "la semaine",
         "explanation": "'La semaine' means the week. It is feminine.",
         "targetWord": "la semaine"
@@ -412,7 +586,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'il est deux heures et quart' mean?",
-        "options": ["It is 2:30.", "It is 2:15.", "It is 2:45.", "It is 2:00."],
+        "options": [
+          "It is 2:30.",
+          "It is 2:15.",
+          "It is 2:45.",
+          "It is 2:00."
+        ],
         "correctAnswer": "It is 2:15.",
         "explanation": "'Et quart' means quarter past. 2:45 would be 'trois heures moins le quart'.",
         "targetWord": "le quart d'heure"
@@ -427,7 +606,12 @@
       {
         "type": "multipleChoice",
         "question": "What is the correct form: 'Nous ___ à cinq heures.' (finir)",
-        "options": ["finis", "finissons", "finissez", "finissent"],
+        "options": [
+          "finis",
+          "finissons",
+          "finissez",
+          "finissent"
+        ],
         "correctAnswer": "finissons",
         "explanation": "Nous + finir = nous finissons.",
         "targetWord": "commencer"
@@ -442,7 +626,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'en retard' mean?",
-        "options": ["on time", "early", "late", "absent"],
+        "options": [
+          "on time",
+          "early",
+          "late",
+          "absent"
+        ],
         "correctAnswer": "late",
         "explanation": "'En retard' means late / behind schedule. Opposite: en avance.",
         "targetWord": "en retard"
@@ -459,14 +648,24 @@
   "speak": {
     "standard": {
       "scenario": "Your teacher asks you to describe your typical day with times. Tell them when you start school or work, when you eat lunch, and when you finish.",
-      "keyPhrases": ["Je commence à...", "Je finis à...", "Je mange à...", "Il est... heures."],
+      "keyPhrases": [
+        "Je commence à...",
+        "Je finis à...",
+        "Je mange à...",
+        "Il est... heures."
+      ],
       "modelAnswer": "Je commence le cours à neuf heures. À midi, je mange avec mes amis. Je finis à trois heures. Après, je fais mes devoirs.",
       "modelAnswerExplanation": "This uses time expressions with 'à', the verb 'commencer/finir' for start/end times, and 'à midi' for noon.",
       "tip": "Use 'à' before times (à neuf heures) and say 'midi' for noon without an article."
     },
     "advanced": {
       "scenario": "You are explaining your busy weekly schedule to a friend. Describe at least three different days with times, activities, and appointments. Mention when you are busy and when you are free.",
-      "keyPhrases": ["Lundi, je commence à...", "J'ai un rendez-vous à...", "Je finis à...", "Je suis libre à..."],
+      "keyPhrases": [
+        "Lundi, je commence à...",
+        "J'ai un rendez-vous à...",
+        "Je finis à...",
+        "Je suis libre à..."
+      ],
       "modelAnswer": "Lundi, je commence à huit heures et je finis à cinq heures. Mardi, j'ai un rendez-vous chez le médecin à dix heures et quart. Je choisis mes cours l'après-midi. Mercredi, je suis libre. Je ne finis jamais avant six heures le jeudi. Le week-end, je ne travaille pas.",
       "modelAnswerExplanation": "This uses days of the week, time with 'et quart', -IR verbs (choisir, finir), negation with 'jamais', and the expression 'être libre'.",
       "tip": ""

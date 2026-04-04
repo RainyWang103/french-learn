@@ -1,6 +1,7 @@
 {
   "day": 15,
   "phase": 1,
+  "isRevision": false,
   "topic": "Daily Chores & Housework",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "housework / cleaning",
         "notes": "Used in the expression 'faire le ménage' (to do the housework/cleaning).",
         "examples": [
-          ["Je fais le ménage le samedi.", "I do the housework on Saturday."],
-          ["Le ménage prend beaucoup de temps.", "Housework takes a lot of time."]
+          [
+            "Je fais le ménage le samedi.",
+            "I do the housework on Saturday."
+          ],
+          [
+            "Le ménage prend beaucoup de temps.",
+            "Housework takes a lot of time."
+          ]
         ],
         "special": ""
       },
@@ -33,8 +40,14 @@
           "ils/elles": "nettoient"
         },
         "examples": [
-          ["Je nettoie la salle de bain.", "I clean the bathroom."],
-          ["Il faut nettoyer les vitres.", "The windows need to be cleaned."]
+          [
+            "Je nettoie la salle de bain.",
+            "I clean the bathroom."
+          ],
+          [
+            "Il faut nettoyer les vitres.",
+            "The windows need to be cleaned."
+          ]
         ],
         "special": ""
       },
@@ -46,8 +59,14 @@
         "meaning": "the dishes / the washing-up",
         "notes": "Always singular in French. Used in 'faire la vaisselle' (to do the dishes).",
         "examples": [
-          ["Tu peux faire la vaisselle ?", "Can you do the dishes?"],
-          ["La vaisselle est dans l'évier.", "The dishes are in the sink."]
+          [
+            "Tu peux faire la vaisselle ?",
+            "Can you do the dishes?"
+          ],
+          [
+            "La vaisselle est dans l'évier.",
+            "The dishes are in the sink."
+          ]
         ],
         "special": ""
       },
@@ -59,8 +78,14 @@
         "meaning": "the broom",
         "notes": "Used in 'donner un coup de balai' (to give a quick sweep).",
         "examples": [
-          ["Où est le balai ?", "Where is the broom?"],
-          ["Elle prend le balai pour nettoyer le sol.", "She takes the broom to clean the floor."]
+          [
+            "Où est le balai ?",
+            "Where is the broom?"
+          ],
+          [
+            "Elle prend le balai pour nettoyer le sol.",
+            "She takes the broom to clean the floor."
+          ]
         ],
         "special": ""
       },
@@ -80,8 +105,14 @@
           "ils/elles": "rangent"
         },
         "examples": [
-          ["Je range mes affaires après le dîner.", "I tidy up my things after dinner."],
-          ["Il faut ranger le salon.", "The living room needs to be tidied up."]
+          [
+            "Je range mes affaires après le dîner.",
+            "I tidy up my things after dinner."
+          ],
+          [
+            "Il faut ranger le salon.",
+            "The living room needs to be tidied up."
+          ]
         ],
         "special": ""
       }
@@ -95,8 +126,14 @@
         "meaning": "housework / cleaning",
         "notes": "Used in the expression 'faire le ménage' (to do the housework/cleaning).",
         "examples": [
-          ["Je fais le ménage le samedi.", "I do the housework on Saturday."],
-          ["Le ménage prend beaucoup de temps.", "Housework takes a lot of time."]
+          [
+            "Je fais le ménage le samedi.",
+            "I do the housework on Saturday."
+          ],
+          [
+            "Le ménage prend beaucoup de temps.",
+            "Housework takes a lot of time."
+          ]
         ],
         "special": ""
       },
@@ -116,8 +153,14 @@
           "ils/elles": "nettoient"
         },
         "examples": [
-          ["Je nettoie la salle de bain.", "I clean the bathroom."],
-          ["Il faut nettoyer les vitres.", "The windows need to be cleaned."]
+          [
+            "Je nettoie la salle de bain.",
+            "I clean the bathroom."
+          ],
+          [
+            "Il faut nettoyer les vitres.",
+            "The windows need to be cleaned."
+          ]
         ],
         "special": ""
       },
@@ -129,8 +172,14 @@
         "meaning": "the dishes / the washing-up",
         "notes": "Always singular in French. Used in 'faire la vaisselle' (to do the dishes).",
         "examples": [
-          ["Tu peux faire la vaisselle ?", "Can you do the dishes?"],
-          ["La vaisselle est dans l'évier.", "The dishes are in the sink."]
+          [
+            "Tu peux faire la vaisselle ?",
+            "Can you do the dishes?"
+          ],
+          [
+            "La vaisselle est dans l'évier.",
+            "The dishes are in the sink."
+          ]
         ],
         "special": ""
       },
@@ -142,8 +191,14 @@
         "meaning": "the broom",
         "notes": "Used in 'donner un coup de balai' (to give a quick sweep).",
         "examples": [
-          ["Où est le balai ?", "Where is the broom?"],
-          ["Elle prend le balai pour nettoyer le sol.", "She takes the broom to clean the floor."]
+          [
+            "Où est le balai ?",
+            "Where is the broom?"
+          ],
+          [
+            "Elle prend le balai pour nettoyer le sol.",
+            "She takes the broom to clean the floor."
+          ]
         ],
         "special": ""
       },
@@ -163,8 +218,14 @@
           "ils/elles": "rangent"
         },
         "examples": [
-          ["Je range mes affaires après le dîner.", "I tidy up my things after dinner."],
-          ["Il faut ranger le salon.", "The living room needs to be tidied up."]
+          [
+            "Je range mes affaires après le dîner.",
+            "I tidy up my things after dinner."
+          ],
+          [
+            "Il faut ranger le salon.",
+            "The living room needs to be tidied up."
+          ]
         ],
         "special": ""
       },
@@ -176,8 +237,14 @@
         "meaning": "the vacuum cleaner",
         "notes": "Used in 'passer l'aspirateur' (to vacuum / to hoover).",
         "examples": [
-          ["Je passe l'aspirateur dans le couloir.", "I vacuum the hallway."],
-          ["L'aspirateur est en panne.", "The vacuum cleaner is broken."]
+          [
+            "Je passe l'aspirateur dans le couloir.",
+            "I vacuum the hallway."
+          ],
+          [
+            "L'aspirateur est en panne.",
+            "The vacuum cleaner is broken."
+          ]
         ],
         "special": ""
       },
@@ -189,8 +256,14 @@
         "meaning": "the laundry / the washing",
         "notes": "Used in 'faire la lessive' (to do the laundry). Can also refer to the laundry detergent itself.",
         "examples": [
-          ["Je fais la lessive deux fois par semaine.", "I do the laundry twice a week."],
-          ["La lessive est dans le lave-linge.", "The laundry is in the washing machine."]
+          [
+            "Je fais la lessive deux fois par semaine.",
+            "I do the laundry twice a week."
+          ],
+          [
+            "La lessive est dans le lave-linge.",
+            "The laundry is in the washing machine."
+          ]
         ],
         "special": ""
       }
@@ -199,14 +272,38 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Il faut faire le ménage ce week-end. Tu peux aider ?"],
-        ["B", "Oui, bien sûr. Qu'est-ce que je dois faire ?"],
-        ["A", "Tu peux faire la vaisselle et ranger la cuisine ?"],
-        ["B", "D'accord. Et toi, tu fais quoi ?"],
-        ["A", "Je vais nettoyer la salle de bain et passer le balai dans le couloir."],
-        ["B", "Et la lessive ? Il y a beaucoup de vêtements sales."],
-        ["A", "Je m'en occupe samedi matin. C'est facile."],
-        ["B", "Super. On finit vite comme ça !"]
+        [
+          "A",
+          "Il faut faire le ménage ce week-end. Tu peux aider ?"
+        ],
+        [
+          "B",
+          "Oui, bien sûr. Qu'est-ce que je dois faire ?"
+        ],
+        [
+          "A",
+          "Tu peux faire la vaisselle et ranger la cuisine ?"
+        ],
+        [
+          "B",
+          "D'accord. Et toi, tu fais quoi ?"
+        ],
+        [
+          "A",
+          "Je vais nettoyer la salle de bain et passer le balai dans le couloir."
+        ],
+        [
+          "B",
+          "Et la lessive ? Il y a beaucoup de vêtements sales."
+        ],
+        [
+          "A",
+          "Je m'en occupe samedi matin. C'est facile."
+        ],
+        [
+          "B",
+          "Super. On finit vite comme ça !"
+        ]
       ],
       "questions": [
         {
@@ -220,12 +317,20 @@
         },
         {
           "question": "Qu'est-ce que A va nettoyer ?",
-          "options": ["La cuisine", "Le salon", "La salle de bain"],
+          "options": [
+            "La cuisine",
+            "Le salon",
+            "La salle de bain"
+          ],
           "correctAnswer": "La salle de bain"
         },
         {
           "question": "Quand A fait-il la lessive ?",
-          "options": ["Vendredi soir", "Samedi matin", "Dimanche après-midi"],
+          "options": [
+            "Vendredi soir",
+            "Samedi matin",
+            "Dimanche après-midi"
+          ],
           "correctAnswer": "Samedi matin"
         }
       ],
@@ -233,17 +338,38 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "On doit vraiment s'organiser pour les tâches ménagères cette semaine."],
-        ["B", "Je sais. Moi, je déteste faire la vaisselle. Tu peux t'en occuper ?"],
-        ["A", "Ça dépend. Tu fais la lessive en échange ?"],
-        ["B", "D'accord, mais je veux aussi passer l'aspirateur. J'aime bien ça."],
-        ["A", "Vraiment ? Moi, je préfère nettoyer les surfaces avec le balai. C'est plus rapide."],
+        [
+          "A",
+          "On doit vraiment s'organiser pour les tâches ménagères cette semaine."
+        ],
+        [
+          "B",
+          "Je sais. Moi, je déteste faire la vaisselle. Tu peux t'en occuper ?"
+        ],
+        [
+          "A",
+          "Ça dépend. Tu fais la lessive en échange ?"
+        ],
+        [
+          "B",
+          "D'accord, mais je veux aussi passer l'aspirateur. J'aime bien ça."
+        ],
+        [
+          "A",
+          "Vraiment ? Moi, je préfère nettoyer les surfaces avec le balai. C'est plus rapide."
+        ],
         [
           "B",
           "Alors, on se partage comme ça : toi la vaisselle et le balai, moi la lessive et l'aspirateur."
         ],
-        ["A", "Et le ménage général ? Le salon est dans un état terrible."],
-        ["B", "On le fait ensemble dimanche ? Comme ça, ce sera vite fait."]
+        [
+          "A",
+          "Et le ménage général ? Le salon est dans un état terrible."
+        ],
+        [
+          "B",
+          "On le fait ensemble dimanche ? Comme ça, ce sera vite fait."
+        ]
       ],
       "questions": [
         {
@@ -318,7 +444,11 @@
         {
           "type": "multipleChoice",
           "question": "Which is the correct form of 'se laver' for 'nous' ?",
-          "options": ["nous se lavons", "nous lavons", "nous nous lavons"],
+          "options": [
+            "nous se lavons",
+            "nous lavons",
+            "nous nous lavons"
+          ],
           "correctAnswer": "nous nous lavons",
           "explanation": "With 'nous', both the subject and reflexive pronoun are 'nous': nous nous lavons."
         },
@@ -331,7 +461,11 @@
         {
           "type": "multipleChoice",
           "question": "What does 'se brosser les dents' mean?",
-          "options": ["to comb your hair", "to brush your teeth", "to wash your face"],
+          "options": [
+            "to comb your hair",
+            "to brush your teeth",
+            "to wash your face"
+          ],
           "correctAnswer": "to brush your teeth",
           "explanation": "'Brosser' means to brush, 'les dents' means the teeth: se brosser les dents = to brush one's teeth."
         }
@@ -406,7 +540,12 @@
         {
           "type": "multipleChoice",
           "question": "Which form is correct: 'je ___ occupe' ?",
-          "options": ["me", "m'", "se", "te"],
+          "options": [
+            "me",
+            "m'",
+            "se",
+            "te"
+          ],
           "correctAnswer": "m'",
           "explanation": "'Me' becomes 'm'' before a vowel: je m'occupe (s'occuper starts with a vowel)."
         },
@@ -424,7 +563,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le ménage' mean?",
-        "options": ["the broom", "the dishes", "housework"],
+        "options": [
+          "the broom",
+          "the dishes",
+          "housework"
+        ],
         "correctAnswer": "housework",
         "explanation": "'Le ménage' means housework or cleaning. Common expression: faire le ménage.",
         "targetWord": "le ménage"
@@ -439,7 +582,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'to do the dishes' in French?",
-        "options": ["faire le balai", "faire la vaisselle", "faire le ménage"],
+        "options": [
+          "faire le balai",
+          "faire la vaisselle",
+          "faire le ménage"
+        ],
         "correctAnswer": "faire la vaisselle",
         "explanation": "'La vaisselle' means dishes/washing-up. 'Faire la vaisselle' = to do the dishes.",
         "targetWord": "la vaisselle"
@@ -454,7 +601,11 @@
       {
         "type": "multipleChoice",
         "question": "What is the correct reflexive pronoun for 'il ___ prépare' ?",
-        "options": ["me", "te", "se"],
+        "options": [
+          "me",
+          "te",
+          "se"
+        ],
         "correctAnswer": "se",
         "explanation": "With 'il/elle', the reflexive pronoun is 'se': il se prépare.",
         "targetWord": "ranger"
@@ -464,7 +615,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'passer l'aspirateur' mean?",
-        "options": ["to clean the sink", "to take out the bin", "to vacuum", "to mop the floor"],
+        "options": [
+          "to clean the sink",
+          "to take out the bin",
+          "to vacuum",
+          "to mop the floor"
+        ],
         "correctAnswer": "to vacuum",
         "explanation": "'L'aspirateur' is the vacuum cleaner. 'Passer l'aspirateur' = to vacuum/hoover.",
         "targetWord": "l'aspirateur"
@@ -521,7 +677,11 @@
   "speak": {
     "standard": {
       "scenario": "You have a new flatmate moving in. Describe your weekly household chores to them — mention at least three tasks and use reflexive verbs where appropriate.",
-      "keyPhrases": ["Je fais le ménage...", "Je m'occupe de...", "Je nettoie... / Je range..."],
+      "keyPhrases": [
+        "Je fais le ménage...",
+        "Je m'occupe de...",
+        "Je nettoie... / Je range..."
+      ],
       "modelAnswer": "Bonjour ! Voici comment on fait le ménage ici. Le samedi matin, je nettoie la salle de bain et je passe le balai dans le couloir. Je fais aussi la vaisselle chaque soir après dîner. Je m'occupe de la lessive le dimanche. Tu peux ranger ta chambre et nettoyer la cuisine ?",
       "modelAnswerExplanation": "This uses three key vocab words (nettoyer, le balai, la vaisselle), the reflexive verb 'm'occupe de', frequency expressions (le samedi matin, chaque soir, le dimanche), and ends with a polite suggestion.",
       "tip": "Remember that reflexive verbs need a pronoun that matches the subject: je m'occupe, tu t'occupes, il s'occupe. Before a vowel, me/te/se shorten to m'/t'/s'."

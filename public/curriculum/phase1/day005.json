@@ -1,6 +1,7 @@
 {
   "day": 5,
   "phase": 1,
+  "isRevision": false,
   "topic": "Leaving the House",
   "vocab": {
     "standard": [
@@ -12,8 +13,14 @@
         "meaning": "the house / home",
         "notes": "Also used in expressions: à la maison (at home), rentrer à la maison (to go home).",
         "examples": [
-          ["Je quitte la maison à huit heures.", "I leave the house at eight o'clock."],
-          ["La maison est grande.", "The house is big."]
+          [
+            "Je quitte la maison à huit heures.",
+            "I leave the house at eight o'clock."
+          ],
+          [
+            "La maison est grande.",
+            "The house is big."
+          ]
         ],
         "special": ""
       },
@@ -24,8 +31,14 @@
         "pronunciation": "la port",
         "meaning": "the door",
         "examples": [
-          ["Je ferme la porte.", "I close the door."],
-          ["La porte est ouverte.", "The door is open."]
+          [
+            "Je ferme la porte.",
+            "I close the door."
+          ],
+          [
+            "La porte est ouverte.",
+            "The door is open."
+          ]
         ],
         "special": ""
       },
@@ -37,8 +50,14 @@
         "meaning": "the key",
         "notes": "Also spelled 'clef'. Both are correct.",
         "examples": [
-          ["Où est ma clé ?", "Where is my key?"],
-          ["J'ai ma clé dans mon sac.", "I have my key in my bag."]
+          [
+            "Où est ma clé ?",
+            "Where is my key?"
+          ],
+          [
+            "J'ai ma clé dans mon sac.",
+            "I have my key in my bag."
+          ]
         ],
         "special": ""
       },
@@ -49,8 +68,14 @@
         "pronunciation": "la roo",
         "meaning": "the street",
         "examples": [
-          ["La rue est calme le matin.", "The street is quiet in the morning."],
-          ["Je marche dans la rue.", "I walk in the street."]
+          [
+            "La rue est calme le matin.",
+            "The street is quiet in the morning."
+          ],
+          [
+            "Je marche dans la rue.",
+            "I walk in the street."
+          ]
         ],
         "special": ""
       },
@@ -62,8 +87,14 @@
         "meaning": "the bus",
         "notes": "Short for 'autobus'. Use 'prendre le bus' (to take the bus).",
         "examples": [
-          ["Je prends le bus le matin.", "I take the bus in the morning."],
-          ["Le bus arrive à huit heures.", "The bus arrives at eight o'clock."]
+          [
+            "Je prends le bus le matin.",
+            "I take the bus in the morning."
+          ],
+          [
+            "Le bus arrive à huit heures.",
+            "The bus arrives at eight o'clock."
+          ]
         ],
         "special": ""
       }
@@ -77,8 +108,14 @@
         "meaning": "the house / home",
         "notes": "Also used in expressions: à la maison (at home), rentrer à la maison (to go home).",
         "examples": [
-          ["Je quitte la maison à huit heures.", "I leave the house at eight o'clock."],
-          ["La maison est grande.", "The house is big."]
+          [
+            "Je quitte la maison à huit heures.",
+            "I leave the house at eight o'clock."
+          ],
+          [
+            "La maison est grande.",
+            "The house is big."
+          ]
         ],
         "special": ""
       },
@@ -89,8 +126,14 @@
         "pronunciation": "la port",
         "meaning": "the door",
         "examples": [
-          ["Je ferme la porte.", "I close the door."],
-          ["La porte est ouverte.", "The door is open."]
+          [
+            "Je ferme la porte.",
+            "I close the door."
+          ],
+          [
+            "La porte est ouverte.",
+            "The door is open."
+          ]
         ],
         "special": ""
       },
@@ -102,8 +145,14 @@
         "meaning": "the key",
         "notes": "Also spelled 'clef'. Both are correct.",
         "examples": [
-          ["Où est ma clé ?", "Where is my key?"],
-          ["J'ai ma clé dans mon sac.", "I have my key in my bag."]
+          [
+            "Où est ma clé ?",
+            "Where is my key?"
+          ],
+          [
+            "J'ai ma clé dans mon sac.",
+            "I have my key in my bag."
+          ]
         ],
         "special": ""
       },
@@ -114,8 +163,14 @@
         "pronunciation": "la roo",
         "meaning": "the street",
         "examples": [
-          ["La rue est calme le matin.", "The street is quiet in the morning."],
-          ["Je marche dans la rue.", "I walk in the street."]
+          [
+            "La rue est calme le matin.",
+            "The street is quiet in the morning."
+          ],
+          [
+            "Je marche dans la rue.",
+            "I walk in the street."
+          ]
         ],
         "special": ""
       },
@@ -127,8 +182,14 @@
         "meaning": "the bus",
         "notes": "Short for 'autobus'. Use 'prendre le bus' (to take the bus).",
         "examples": [
-          ["Je prends le bus le matin.", "I take the bus in the morning."],
-          ["Le bus arrive à huit heures.", "The bus arrives at eight o'clock."]
+          [
+            "Je prends le bus le matin.",
+            "I take the bus in the morning."
+          ],
+          [
+            "Le bus arrive à huit heures.",
+            "The bus arrives at eight o'clock."
+          ]
         ],
         "special": ""
       },
@@ -139,8 +200,14 @@
         "pronunciation": "luh tro-twahr",
         "meaning": "the sidewalk / pavement",
         "examples": [
-          ["Je marche sur le trottoir.", "I walk on the sidewalk."],
-          ["Le trottoir est mouillé.", "The sidewalk is wet."]
+          [
+            "Je marche sur le trottoir.",
+            "I walk on the sidewalk."
+          ],
+          [
+            "Le trottoir est mouillé.",
+            "The sidewalk is wet."
+          ]
         ],
         "special": ""
       },
@@ -152,8 +219,14 @@
         "meaning": "the commute / journey",
         "notes": "Used for daily travel: mon trajet (my commute).",
         "examples": [
-          ["Mon trajet dure trente minutes.", "My commute takes thirty minutes."],
-          ["Le trajet en bus est long.", "The bus journey is long."]
+          [
+            "Mon trajet dure trente minutes.",
+            "My commute takes thirty minutes."
+          ],
+          [
+            "Le trajet en bus est long.",
+            "The bus journey is long."
+          ]
         ],
         "special": ""
       }
@@ -162,27 +235,57 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Excuse-moi, l'arrêt de bus, c'est où ?"],
-        ["B", "C'est facile. Tu vas tout droit dans la rue."],
-        ["A", "Tout droit ? D'accord."],
-        ["B", "Oui, et l'arrêt de bus est à gauche, après la grande maison."],
-        ["A", "Après la grande maison, à gauche. Merci !"],
-        ["B", "De rien ! Le bus arrive dans cinq minutes."]
+        [
+          "A",
+          "Excuse-moi, l'arrêt de bus, c'est où ?"
+        ],
+        [
+          "B",
+          "C'est facile. Tu vas tout droit dans la rue."
+        ],
+        [
+          "A",
+          "Tout droit ? D'accord."
+        ],
+        [
+          "B",
+          "Oui, et l'arrêt de bus est à gauche, après la grande maison."
+        ],
+        [
+          "A",
+          "Après la grande maison, à gauche. Merci !"
+        ],
+        [
+          "B",
+          "De rien ! Le bus arrive dans cinq minutes."
+        ]
       ],
       "questions": [
         {
           "question": "Que cherche A ?",
-          "options": ["La maison", "L'arrêt de bus", "La clé"],
+          "options": [
+            "La maison",
+            "L'arrêt de bus",
+            "La clé"
+          ],
           "correctAnswer": "L'arrêt de bus"
         },
         {
           "question": "Dans quelle direction faut-il aller ?",
-          "options": ["À droite", "Tout droit", "En arrière"],
+          "options": [
+            "À droite",
+            "Tout droit",
+            "En arrière"
+          ],
           "correctAnswer": "Tout droit"
         },
         {
           "question": "Où est l'arrêt de bus exactement ?",
-          "options": ["À droite de la maison", "À gauche, après la grande maison", "Devant la porte"],
+          "options": [
+            "À droite de la maison",
+            "À gauche, après la grande maison",
+            "Devant la porte"
+          ],
           "correctAnswer": "À gauche, après la grande maison"
         }
       ],
@@ -190,29 +293,68 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Pardon, je suis nouveau dans le quartier. Comment je vais à l'arrêt de bus ?"],
-        ["B", "Ah, bienvenue ! Alors, tu sors de la maison et tu vas à gauche."],
-        ["A", "À gauche, d'accord."],
-        ["B", "Tu marches sur le trottoir pendant deux minutes. L'arrêt est dans la rue principale."],
-        ["A", "C'est loin ?"],
-        ["B", "Non, pas du tout. Le trajet à pied, c'est cinq minutes. Le bus passe toutes les dix minutes."],
-        ["A", "Super ! Et je ferme la porte à clé, bien sûr."],
-        ["B", "Oui, c'est important ! Bonne journée !"]
+        [
+          "A",
+          "Pardon, je suis nouveau dans le quartier. Comment je vais à l'arrêt de bus ?"
+        ],
+        [
+          "B",
+          "Ah, bienvenue ! Alors, tu sors de la maison et tu vas à gauche."
+        ],
+        [
+          "A",
+          "À gauche, d'accord."
+        ],
+        [
+          "B",
+          "Tu marches sur le trottoir pendant deux minutes. L'arrêt est dans la rue principale."
+        ],
+        [
+          "A",
+          "C'est loin ?"
+        ],
+        [
+          "B",
+          "Non, pas du tout. Le trajet à pied, c'est cinq minutes. Le bus passe toutes les dix minutes."
+        ],
+        [
+          "A",
+          "Super ! Et je ferme la porte à clé, bien sûr."
+        ],
+        [
+          "B",
+          "Oui, c'est important ! Bonne journée !"
+        ]
       ],
       "questions": [
         {
           "question": "Pourquoi A demande son chemin ?",
-          "options": ["Il est perdu", "Il est nouveau dans le quartier", "Il est en retard", "Il n'a pas de bus"],
+          "options": [
+            "Il est perdu",
+            "Il est nouveau dans le quartier",
+            "Il est en retard",
+            "Il n'a pas de bus"
+          ],
           "correctAnswer": "Il est nouveau dans le quartier"
         },
         {
           "question": "Combien de temps faut-il marcher ?",
-          "options": ["Deux minutes", "Cinq minutes", "Dix minutes", "Quinze minutes"],
+          "options": [
+            "Deux minutes",
+            "Cinq minutes",
+            "Dix minutes",
+            "Quinze minutes"
+          ],
           "correctAnswer": "Cinq minutes"
         },
         {
           "question": "Le bus passe tous les combien ?",
-          "options": ["Cinq minutes", "Dix minutes", "Quinze minutes", "Vingt minutes"],
+          "options": [
+            "Cinq minutes",
+            "Dix minutes",
+            "Quinze minutes",
+            "Vingt minutes"
+          ],
           "correctAnswer": "Dix minutes"
         }
       ],
@@ -263,14 +405,22 @@
         {
           "type": "multipleChoice",
           "question": "'Le bus' is masculine. How do you say 'to the bus'?",
-          "options": ["à le bus", "au bus", "à la bus"],
+          "options": [
+            "à le bus",
+            "au bus",
+            "à la bus"
+          ],
           "correctAnswer": "au bus",
           "explanation": "à + le = au. Never say 'à le'."
         },
         {
           "type": "multipleChoice",
           "question": "'La maison' is feminine. How do you say 'to the house'?",
-          "options": ["au maison", "à la maison", "à l'maison"],
+          "options": [
+            "au maison",
+            "à la maison",
+            "à l'maison"
+          ],
           "correctAnswer": "à la maison",
           "explanation": "Feminine noun → à la maison."
         }
@@ -315,7 +465,12 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'She is going to leave the house'?",
-          "options": ["Elle va quitter la maison.", "Elle aller quitter la maison.", "Elle quitte va la maison.", "Elle va à quitter la maison."],
+          "options": [
+            "Elle va quitter la maison.",
+            "Elle aller quitter la maison.",
+            "Elle quitte va la maison.",
+            "Elle va à quitter la maison."
+          ],
           "correctAnswer": "Elle va quitter la maison.",
           "explanation": "Aller (conjugated) + infinitive: elle va + quitter."
         },
@@ -328,7 +483,12 @@
         {
           "type": "multipleChoice",
           "question": "'L'école' starts with a vowel. Which is correct?",
-          "options": ["à la école", "à l'école", "au école", "aux école"],
+          "options": [
+            "à la école",
+            "à l'école",
+            "au école",
+            "aux école"
+          ],
           "correctAnswer": "à l'école",
           "explanation": "Before a vowel, use à l': à l'école."
         },
@@ -341,7 +501,12 @@
         {
           "type": "multipleChoice",
           "question": "What does 'Nous allons prendre le bus' mean?",
-          "options": ["We take the bus.", "We are going to take the bus.", "We took the bus.", "We want to take the bus."],
+          "options": [
+            "We take the bus.",
+            "We are going to take the bus.",
+            "We took the bus.",
+            "We want to take the bus."
+          ],
           "correctAnswer": "We are going to take the bus.",
           "explanation": "Aller + infinitive = near future (going to)."
         }
@@ -353,7 +518,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'la clé'?",
-        "options": ["the door", "the key", "the street"],
+        "options": [
+          "the door",
+          "the key",
+          "the street"
+        ],
         "correctAnswer": "the key",
         "explanation": "'La clé' means 'the key'. It is feminine.",
         "targetWord": "la clé"
@@ -368,7 +537,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'to the bus' (masculine)?",
-        "options": ["à le bus", "au bus", "à la bus"],
+        "options": [
+          "à le bus",
+          "au bus",
+          "à la bus"
+        ],
         "correctAnswer": "au bus",
         "explanation": "à + le = au.",
         "targetWord": "le bus"
@@ -376,7 +549,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'la rue'?",
-        "options": ["the bus", "the house", "the street"],
+        "options": [
+          "the bus",
+          "the house",
+          "the street"
+        ],
         "correctAnswer": "the street",
         "explanation": "'La rue' means 'the street'.",
         "targetWord": "la rue"
@@ -393,7 +570,12 @@
       {
         "type": "multipleChoice",
         "question": "What is 'le trottoir'?",
-        "options": ["the road", "the sidewalk", "the bridge", "the bus stop"],
+        "options": [
+          "the road",
+          "the sidewalk",
+          "the bridge",
+          "the bus stop"
+        ],
         "correctAnswer": "the sidewalk",
         "explanation": "'Le trottoir' means 'the sidewalk'.",
         "targetWord": "le trottoir"
@@ -408,7 +590,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'Je vais prendre le bus' mean?",
-        "options": ["I take the bus.", "I took the bus.", "I'm going to take the bus.", "I want to take the bus."],
+        "options": [
+          "I take the bus.",
+          "I took the bus.",
+          "I'm going to take the bus.",
+          "I want to take the bus."
+        ],
         "correctAnswer": "I'm going to take the bus.",
         "explanation": "Aller + infinitive = near future.",
         "targetWord": "le bus"
@@ -423,7 +610,12 @@
       {
         "type": "multipleChoice",
         "question": "Which is correct: 'to the school' (l'école starts with vowel)?",
-        "options": ["au école", "à la école", "à l'école", "aux école"],
+        "options": [
+          "au école",
+          "à la école",
+          "à l'école",
+          "aux école"
+        ],
         "correctAnswer": "à l'école",
         "explanation": "Before a vowel, use à l'.",
         "targetWord": "la clé"
@@ -440,14 +632,23 @@
   "speak": {
     "standard": {
       "scenario": "A new neighbour asks you how you get to work or school each morning. Describe leaving your house and your journey.",
-      "keyPhrases": ["Je quitte la maison à...", "Je vais à...", "Je prends le bus..."],
+      "keyPhrases": [
+        "Je quitte la maison à...",
+        "Je vais à...",
+        "Je prends le bus..."
+      ],
       "modelAnswer": "Le matin, je quitte la maison à huit heures. Je ferme la porte et je marche dans la rue. Je vais à l'arrêt de bus. Je prends le bus pour aller au travail.",
       "modelAnswerExplanation": "This describes leaving (quitter la maison), walking (marcher dans la rue), and taking the bus (prendre le bus) with aller + au travail.",
       "tip": "Describe your routine step by step: leaving the house → walking → taking transport."
     },
     "advanced": {
       "scenario": "You're explaining your daily commute to a French colleague in detail — how you leave the house, what route you take, how long it takes, and how you get to work.",
-      "keyPhrases": ["Je quitte la maison à...", "Je marche sur le trottoir...", "Mon trajet dure...", "Je vais prendre..."],
+      "keyPhrases": [
+        "Je quitte la maison à...",
+        "Je marche sur le trottoir...",
+        "Mon trajet dure...",
+        "Je vais prendre..."
+      ],
       "modelAnswer": "Je quitte la maison à sept heures et demie. Je ferme la porte à clé et je marche sur le trottoir. L'arrêt de bus est dans la rue principale, à cinq minutes de la maison. Je prends le bus et mon trajet dure trente minutes. Je vais prendre le métro la semaine prochaine parce que c'est plus rapide.",
       "modelAnswerExplanation": "Uses 'fermer à clé' (to lock), 'marcher sur le trottoir', 'le trajet dure...' for commute duration, and 'aller + infinitive' for near future plans.",
       "tip": ""
