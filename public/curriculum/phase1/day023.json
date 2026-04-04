@@ -1,0 +1,512 @@
+{
+  "day": 23,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Seasons & Calendar",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le printemps",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pran-ton",
+        "meaning": "spring",
+        "notes": "Use 'au printemps' (in spring) — this is the only season that uses 'au' instead of 'en'. The final 's' is silent.",
+        "examples": [
+          ["Au printemps, les fleurs poussent partout.", "In spring, flowers grow everywhere."],
+          ["Le printemps commence en mars.", "Spring begins in March."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'été",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay-tay",
+        "meaning": "summer",
+        "notes": "Use 'en été' (in summer). The accent on the first 'é' is important for pronunciation.",
+        "examples": [
+          ["En été, il fait très chaud.", "In summer, it is very hot."],
+          ["L'été est ma saison préférée.", "Summer is my favourite season."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'automne",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lo-ton",
+        "meaning": "autumn / fall",
+        "notes": "Use 'en automne' (in autumn). The 'mn' at the end is pronounced as a single nasal 'n' sound. Despite starting with a vowel, it is masculine.",
+        "examples": [
+          ["En automne, les feuilles changent de couleur.", "In autumn, the leaves change colour."],
+          ["L'automne est beau à la campagne.", "Autumn is beautiful in the countryside."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'hiver",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lee-vair",
+        "meaning": "winter",
+        "notes": "Use 'en hiver' (in winter). The 'h' is silent, so the article elides: l'hiver (not le hiver).",
+        "examples": [
+          ["En hiver, on porte un manteau.", "In winter, we wear a coat."],
+          ["L'hiver est long cette année.", "Winter is long this year."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le mois",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh mwa",
+        "meaning": "the month",
+        "notes": "The final 's' is silent. 'Quel mois ?' = Which month? Months in French are not capitalised: janvier, février, mars, etc.",
+        "examples": [
+          ["Quel mois est-ce qu'on est ?", "What month are we in?"],
+          ["Il y a douze mois dans une année.", "There are twelve months in a year."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le printemps",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pran-ton",
+        "meaning": "spring",
+        "notes": "Use 'au printemps' (in spring) — this is the only season that uses 'au' instead of 'en'. The final 's' is silent.",
+        "examples": [
+          ["Au printemps, les fleurs poussent partout.", "In spring, flowers grow everywhere."],
+          ["Le printemps commence en mars.", "Spring begins in March."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'été",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay-tay",
+        "meaning": "summer",
+        "notes": "Use 'en été' (in summer). The accent on the first 'é' is important for pronunciation.",
+        "examples": [
+          ["En été, il fait très chaud.", "In summer, it is very hot."],
+          ["L'été est ma saison préférée.", "Summer is my favourite season."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'automne",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lo-ton",
+        "meaning": "autumn / fall",
+        "notes": "Use 'en automne' (in autumn). The 'mn' at the end is pronounced as a single nasal 'n' sound. Despite starting with a vowel, it is masculine.",
+        "examples": [
+          ["En automne, les feuilles changent de couleur.", "In autumn, the leaves change colour."],
+          ["L'automne est beau à la campagne.", "Autumn is beautiful in the countryside."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'hiver",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lee-vair",
+        "meaning": "winter",
+        "notes": "Use 'en hiver' (in winter). The 'h' is silent, so the article elides: l'hiver (not le hiver).",
+        "examples": [
+          ["En hiver, on porte un manteau.", "In winter, we wear a coat."],
+          ["L'hiver est long cette année.", "Winter is long this year."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le mois",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh mwa",
+        "meaning": "the month",
+        "notes": "The final 's' is silent. 'Quel mois ?' = Which month? Months in French are not capitalised: janvier, février, mars, etc.",
+        "examples": [
+          ["Quel mois est-ce qu'on est ?", "What month are we in?"],
+          ["Il y a douze mois dans une année.", "There are twelve months in a year."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la saison",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la seh-zon",
+        "meaning": "the season",
+        "notes": "Used for both weather seasons and figurative seasons (e.g. TV season). 'Les quatre saisons' = the four seasons.",
+        "examples": [
+          ["Quelle est ta saison préférée ?", "What is your favourite season?"],
+          ["Chaque saison a ses avantages.", "Each season has its advantages."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'année",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la-nay",
+        "meaning": "the year",
+        "notes": "'L'année' emphasises duration (the whole year). 'L'an' is used in specific expressions like 'le Nouvel An' (New Year) or 'j'ai vingt ans' (I'm twenty years old).",
+        "examples": [
+          ["Cette année, je veux voyager en France.", "This year, I want to travel to France."],
+          ["L'année dernière, on a visité Paris.", "Last year, we visited Paris."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu aimes quelle saison ?"],
+        ["B", "J'adore l'été ! Il fait beau et je vais souvent à la plage."],
+        ["A", "Moi aussi ! Mais j'aime bien le printemps aussi. Il y a des fleurs partout."],
+        ["B", "Et l'automne ? Tu aimes ?"],
+        ["A", "Oui, parfois. Les couleurs sont jolies, mais il pleut souvent."],
+        ["B", "L'hiver, c'est difficile pour moi. Il fait toujours froid !"],
+        ["A", "C'est vrai. Mais en hiver, on boit du chocolat chaud — c'est agréable !"],
+        ["B", "Tu as raison. Chaque saison a quelque chose de bien."]
+      ],
+      "questions": [
+        {
+          "question": "Which season does speaker B love?",
+          "options": ["Spring", "Summer", "Winter"],
+          "correctAnswer": "Summer"
+        },
+        {
+          "question": "What does speaker A like about spring?",
+          "options": ["The warm weather", "The flowers everywhere", "The long days"],
+          "correctAnswer": "The flowers everywhere"
+        },
+        {
+          "question": "What does speaker A enjoy doing in winter?",
+          "options": ["Going skiing", "Drinking hot chocolate", "Reading by the fire"],
+          "correctAnswer": "Drinking hot chocolate"
+        }
+      ],
+      "summary": "Two friends discuss their favourite seasons. Speaker B loves summer for the beach, while speaker A also enjoys spring for the flowers. They agree autumn has beautiful colours but lots of rain, and winter is cold but has the comfort of hot chocolate. They conclude that every season has something good."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu fais quoi en général selon les saisons ?"],
+        [
+          "B",
+          "Ça dépend ! Au printemps, je fais souvent du vélo. En été, je voyage toujours quelque part."
+        ],
+        ["A", "Tu voyages où d'habitude ?"],
+        [
+          "B",
+          "L'année dernière, je suis allée dans le sud de la France. Cette année, je veux aller en Italie."
+        ],
+        ["A", "Super ! Et en automne ?"],
+        [
+          "B",
+          "En automne, je reste souvent à la maison. Je lis et je cuisine. Et toi, tu fais quoi ?"
+        ],
+        [
+          "A",
+          "Moi, je fais rarement du sport en hiver, mais je cours toujours en été. Au printemps, je jardine parfois."
+        ],
+        ["B", "C'est bien d'avoir des activités pour chaque saison !"],
+        ["A", "Oui, ça rend l'année plus intéressante."],
+        ["B", "Tout à fait ! Le mois de juin, c'est le meilleur pour moi — le début de l'été !"]
+      ],
+      "questions": [
+        {
+          "question": "What does speaker B often do in spring?",
+          "options": ["Travel abroad", "Go cycling", "Stay home and read", "Go running"],
+          "correctAnswer": "Go cycling"
+        },
+        {
+          "question": "Where did speaker B travel last year?",
+          "options": ["Italy", "Southern France", "Northern Spain", "Switzerland"],
+          "correctAnswer": "Southern France"
+        },
+        {
+          "question": "Which month does speaker B consider the best?",
+          "options": ["March", "May", "June", "September"],
+          "correctAnswer": "June"
+        }
+      ],
+      "summary": "Two friends discuss their seasonal routines. Speaker B cycles in spring, always travels in summer (last year to southern France, this year Italy), and reads at home in autumn. Speaker A runs in summer, rarely exercises in winter, and sometimes gardens in spring. They agree that having varied activities makes the year more interesting, with speaker B naming June as the best month."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Adverbs of Frequency & Time (souvent, toujours, parfois, rarement)",
+      "explanation": "Adverbs of frequency tell you how often something happens. In French, the most common ones are:\n\n**From most to least frequent:**\n- **toujours** — always\n- **souvent** — often\n- **parfois** / **quelquefois** — sometimes\n- **rarement** — rarely\n- **jamais** — never (used with 'ne': ne…jamais)\n\n**Position in the sentence:**\nIn French, these adverbs usually go **after the conjugated verb**:\n- Je mange **souvent** au restaurant. (I often eat at the restaurant.)\n- Il fait **toujours** beau en été. (It is always nice in summer.)\n- On va **rarement** au cinéma. (We rarely go to the cinema.)\n\n**With negation (jamais):**\n'Jamais' replaces 'pas' in the negation pattern ne…pas:\n- Je ne mange **jamais** de glace en hiver. (I never eat ice cream in winter.)\n\n**Key difference from English:** In English, frequency adverbs go before the verb ('I often eat'). In French, they go after it ('Je mange souvent').",
+      "examples": [
+        {
+          "french": "Il pleut souvent en automne.",
+          "english": "It often rains in autumn."
+        },
+        {
+          "french": "On va toujours à la mer en été.",
+          "english": "We always go to the sea in summer."
+        },
+        {
+          "french": "Elle fait parfois du ski en hiver.",
+          "english": "She sometimes goes skiing in winter."
+        },
+        {
+          "french": "Je ne mange jamais dehors en hiver.",
+          "english": "I never eat outside in winter."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il fait ___ beau au printemps. (It is always nice in spring.)",
+          "correctAnswer": "toujours",
+          "explanation": "'Toujours' means always. It goes after the conjugated verb 'fait'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does 'souvent' go in the sentence 'Je mange au restaurant'?",
+          "options": [
+            "Souvent je mange au restaurant.",
+            "Je mange souvent au restaurant.",
+            "Je souvent mange au restaurant."
+          ],
+          "correctAnswer": "Je mange souvent au restaurant.",
+          "explanation": "In French, frequency adverbs go after the conjugated verb: 'Je mange souvent…'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: On va ___ au cinéma — une fois par an, peut-être. (We rarely go to the cinema.)",
+          "correctAnswer": "rarement",
+          "explanation": "'Rarement' means rarely. It follows the conjugated verb 'va'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'I never ski' in French?",
+          "options": [
+            "Je ne fais pas de ski.",
+            "Je ne fais jamais de ski.",
+            "Je fais jamais de ski."
+          ],
+          "correctAnswer": "Je ne fais jamais de ski.",
+          "explanation": "'Jamais' replaces 'pas' in the negation: ne…jamais. 'Je ne fais jamais de ski.'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle cuisine ___ le dimanche — pas toujours, mais de temps en temps. (She sometimes cooks on Sundays.)",
+          "correctAnswer": "parfois",
+          "explanation": "'Parfois' means sometimes. It goes after the conjugated verb 'cuisine'."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Adverbs of Frequency & Time — Position, Nuance & Common Expressions",
+      "explanation": "**Frequency adverbs ranked:**\n- **toujours** — always (100%)\n- **d'habitude / en général** — usually (~80%)\n- **souvent** — often (~60%)\n- **parfois / quelquefois** — sometimes (~30%)\n- **de temps en temps** — from time to time (~20%)\n- **rarement** — rarely (~10%)\n- **ne…jamais** — never (0%)\n\n**Placement rules:**\n1. **Simple tenses** (present, imperfect, future): adverb goes directly after the conjugated verb.\n   - Je mange **souvent** italien. (I often eat Italian.)\n2. **Compound tenses** (passé composé): short adverbs (toujours, souvent, jamais) go between the auxiliary and the past participle.\n   - J'ai **souvent** visité ce musée. (I have often visited this museum.)\n   - Il n'a **jamais** voyagé en avion. (He has never travelled by plane.)\n3. **Longer expressions** (de temps en temps, d'habitude, en général) go at the beginning or end of the sentence.\n   - **D'habitude**, je prends le bus. / Je prends le bus **d'habitude**.\n\n**Nuance:**\n- 'Toujours' can also mean 'still': Il habite toujours à Paris. (He still lives in Paris.)\n- 'Parfois' and 'quelquefois' are interchangeable, but 'parfois' is slightly more common in writing.\n- 'Jamais' without 'ne' means 'ever' in questions: Tu as jamais visité la France ? (Have you ever visited France?)",
+      "examples": [
+        {
+          "french": "D'habitude, on reste à la maison en hiver.",
+          "english": "Usually, we stay at home in winter."
+        },
+        {
+          "french": "J'ai souvent pris ce train.",
+          "english": "I have often taken this train."
+        },
+        {
+          "french": "Il n'a jamais vu la neige.",
+          "english": "He has never seen snow."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: J'ai ___ mangé dans ce restaurant. C'est excellent ! (I have often eaten at this restaurant.)",
+          "correctAnswer": "souvent",
+          "explanation": "In compound tenses, short adverbs go between the auxiliary (ai) and the past participle (mangé)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does 'd'habitude' go in 'Je prends le métro'?",
+          "options": [
+            "Je d'habitude prends le métro.",
+            "Je prends d'habitude le métro.",
+            "D'habitude, je prends le métro.",
+            "Je prends le métro d'habitude d'habitude."
+          ],
+          "correctAnswer": "D'habitude, je prends le métro.",
+          "explanation": "Longer expressions like 'd'habitude' go at the beginning or end of the sentence, not between verb and object."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle n'a ___ visité le sud de la France. (She has never visited the south of France.)",
+          "correctAnswer": "jamais",
+          "explanation": "'Ne…jamais' in compound tenses: 'jamais' goes between the auxiliary and the past participle."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "In 'Il habite toujours à Paris', what does 'toujours' mean?",
+          "options": ["Always", "Still", "Often", "Sometimes"],
+          "correctAnswer": "Still",
+          "explanation": "'Toujours' can mean 'still' as well as 'always'. Context tells you: here it means 'He still lives in Paris.'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Nous voyageons ___ en été — chaque année sans exception. (We always travel in summer.)",
+          "correctAnswer": "toujours",
+          "explanation": "'Toujours' (always) follows the conjugated verb 'voyageons'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly places the adverb?",
+          "options": [
+            "Rarement je fais du sport.",
+            "Je fais rarement du sport.",
+            "Je rarement fais du sport.",
+            "Je fais du sport rarement du."
+          ],
+          "correctAnswer": "Je fais rarement du sport.",
+          "explanation": "Short adverbs go directly after the conjugated verb: 'Je fais rarement…'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___, je me promène dans le parc le dimanche. (From time to time, I walk in the park on Sundays.)",
+          "correctAnswer": "De temps en temps",
+          "explanation": "'De temps en temps' is a longer expression, so it goes at the beginning (or end) of the sentence."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "'Tu as jamais goûté la raclette ?' — What does 'jamais' mean here?",
+          "options": ["Never", "Ever", "Always", "Sometimes"],
+          "correctAnswer": "Ever",
+          "explanation": "Without 'ne', 'jamais' means 'ever' in questions: 'Have you ever tasted raclette?'"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le printemps' mean?",
+        "options": ["Summer", "Spring", "Autumn"],
+        "correctAnswer": "Spring",
+        "explanation": "'Le printemps' means spring. It is the only season that uses 'au' (au printemps) instead of 'en'.",
+        "targetWord": "le printemps"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il fait ___ chaud en été. (It is always hot in summer.)",
+        "correctAnswer": "toujours",
+        "explanation": "'Toujours' (always) goes after the conjugated verb 'fait'.",
+        "targetWord": "l'été"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which preposition do you use with 'hiver'?",
+        "options": ["au hiver", "en hiver", "dans hiver"],
+        "correctAnswer": "en hiver",
+        "explanation": "Three of the four seasons use 'en': en été, en automne, en hiver. Only spring uses 'au': au printemps.",
+        "targetWord": "l'hiver"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Je mange ___ des crêpes le dimanche. (I sometimes eat crêpes on Sundays.)",
+        "correctAnswer": "parfois",
+        "explanation": "'Parfois' (sometimes) goes after the conjugated verb 'mange'.",
+        "targetWord": "le mois"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'the month' in French?",
+        "options": ["le mois", "la saison", "l'année"],
+        "correctAnswer": "le mois",
+        "explanation": "'Le mois' means the month. 'La saison' is the season and 'l'année' is the year.",
+        "targetWord": "le mois"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la saison' mean?",
+        "options": ["The month", "The season", "The year", "The week"],
+        "correctAnswer": "The season",
+        "explanation": "'La saison' means the season. 'Les quatre saisons' = the four seasons.",
+        "targetWord": "la saison"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: J'ai ___ visité ce musée — au moins dix fois ! (I have often visited this museum.)",
+        "correctAnswer": "souvent",
+        "explanation": "In compound tenses, short adverbs go between the auxiliary (ai) and the past participle (visité).",
+        "targetWord": "la saison"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "In 'Elle habite toujours à Lyon', what does 'toujours' mean?",
+        "options": ["Always", "Still", "Often", "Sometimes"],
+        "correctAnswer": "Still",
+        "explanation": "'Toujours' can mean 'still' depending on context. Here: 'She still lives in Lyon.'",
+        "targetWord": "l'année"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ dernière, on a voyagé en Espagne. (Last year, we travelled to Spain.)",
+        "correctAnswer": "L'année",
+        "explanation": "'L'année dernière' = last year. 'L'année' emphasises the duration of the whole year.",
+        "targetWord": "l'année"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Where does 'rarement' go in 'Nous allons au parc'?",
+        "options": [
+          "Rarement nous allons au parc.",
+          "Nous allons rarement au parc.",
+          "Nous rarement allons au parc.",
+          "Nous allons au parc rarement nous."
+        ],
+        "correctAnswer": "Nous allons rarement au parc.",
+        "explanation": "Short adverbs go after the conjugated verb: 'Nous allons rarement au parc.'",
+        "targetWord": "la saison"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il ne neige ___ en été. (It never snows in summer.)",
+        "correctAnswer": "jamais",
+        "explanation": "'Ne…jamais' means never. 'Jamais' replaces 'pas' in the negation.",
+        "targetWord": "l'été"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A new colleague asks about your favourite season and what you usually do during it. Describe the season and mention how often you do different activities.",
+      "keyPhrases": [
+        "Ma saison préférée, c'est… (My favourite season is…)",
+        "En été / En hiver / En automne / Au printemps (In summer / winter / autumn / spring)",
+        "Je fais souvent… (I often do…)",
+        "Il fait beau / chaud / froid (The weather is nice / hot / cold)"
+      ],
+      "modelAnswer": "Ma saison préférée, c'est l'été. En été, il fait toujours beau et chaud. Je vais souvent à la plage avec mes amis et parfois on fait du vélo. Je ne reste jamais à la maison en été — j'aime être dehors !",
+      "modelAnswerExplanation": "The model answer names a favourite season, describes the weather using 'il fait', and uses three frequency adverbs naturally: 'toujours' (always), 'souvent' (often), and 'jamais' (never). It ends with a personal touch about preferring to be outdoors.",
+      "tip": "Start by naming your season with 'Ma saison préférée, c'est…' then add what you do using 'souvent', 'parfois', or 'toujours'."
+    },
+    "advanced": {
+      "scenario": "You are chatting with a French friend about how your habits change throughout the year. Describe what you do in at least two different seasons, using a variety of frequency adverbs and time expressions.",
+      "keyPhrases": [
+        "D'habitude, en… (Usually, in…)",
+        "Je fais souvent / rarement / toujours… (I often / rarely / always…)",
+        "De temps en temps… (From time to time…)",
+        "L'année dernière / Cette année (Last year / This year)"
+      ],
+      "modelAnswer": "D'habitude, au printemps, je fais souvent du vélo et parfois du jardinage. En été, je voyage toujours — l'année dernière, je suis allé dans le sud. En automne, je reste souvent à la maison et je lis. Je fais rarement du sport en hiver, mais de temps en temps je vais à la piscine.",
+      "modelAnswerExplanation": "The model answer covers all four seasons with varied frequency adverbs (souvent, parfois, toujours, rarement, de temps en temps), uses time expressions (d'habitude, l'année dernière), and shows correct adverb placement after the conjugated verb in simple tenses.",
+      "tip": ""
+    }
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "day": 27,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "School & Studying",
+  "vocab": {
+    "standard": [
+      {
+        "word": "l'école",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lay-kol",
+        "meaning": "the school",
+        "notes": "'Aller à l'école' = to go to school. 'L'école primaire' = primary school, 'l'école maternelle' = nursery school. In France, school is mandatory from age 3.",
+        "examples": [
+          ["Les enfants vont à l'école le matin.", "The children go to school in the morning."],
+          [
+            "L'école est fermée le mercredi après-midi.",
+            "The school is closed on Wednesday afternoon."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le cahier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ka-yay",
+        "meaning": "the notebook / exercise book",
+        "notes": "A standard school supply in France. 'Un cahier de brouillon' = a rough/draft notebook. 'Un cahier de textes' = a homework diary.",
+        "examples": [
+          ["Ouvrez votre cahier à la page dix.", "Open your notebook to page ten."],
+          ["J'ai écrit la leçon dans mon cahier.", "I wrote the lesson in my notebook."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le stylo",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh stee-lo",
+        "meaning": "the pen",
+        "notes": "Short for 'le stylo à bille' (ballpoint pen). 'Un stylo-plume' = a fountain pen. 'Un crayon' = a pencil (different from a pen).",
+        "examples": [
+          ["Tu as un stylo, s'il te plaît ?", "Do you have a pen, please?"],
+          ["J'écris avec un stylo bleu.", "I write with a blue pen."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "apprendre",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "a-pron-dr",
+        "meaning": "to learn / to teach",
+        "notes": "Conjugated like 'prendre'. Can mean both 'to learn' (apprendre le français) and 'to teach' (apprendre quelque chose à quelqu'un). Past participle: appris.",
+        "conjugation": {
+          "je": "apprends",
+          "tu": "apprends",
+          "il/elle": "apprend",
+          "nous": "apprenons",
+          "vous": "apprenez",
+          "ils/elles": "apprennent"
+        },
+        "examples": [
+          ["J'apprends le français à l'école.", "I learn French at school."],
+          ["On a appris beaucoup de choses aujourd'hui.", "We learned a lot of things today."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le professeur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pro-feh-suhr",
+        "meaning": "the teacher / professor",
+        "notes": "Often shortened to 'le/la prof' in informal speech. Traditionally masculine, but 'la professeure' is increasingly used for women. Used for secondary school and university teachers.",
+        "examples": [
+          ["Le professeur explique la leçon.", "The teacher explains the lesson."],
+          ["Notre prof de maths est très sympa.", "Our maths teacher is very nice."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "l'école",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lay-kol",
+        "meaning": "the school",
+        "notes": "'Aller à l'école' = to go to school. 'L'école primaire' = primary school, 'l'école maternelle' = nursery school. In France, school is mandatory from age 3.",
+        "examples": [
+          ["Les enfants vont à l'école le matin.", "The children go to school in the morning."],
+          [
+            "L'école est fermée le mercredi après-midi.",
+            "The school is closed on Wednesday afternoon."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le cahier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ka-yay",
+        "meaning": "the notebook / exercise book",
+        "notes": "A standard school supply in France. 'Un cahier de brouillon' = a rough/draft notebook. 'Un cahier de textes' = a homework diary.",
+        "examples": [
+          ["Ouvrez votre cahier à la page dix.", "Open your notebook to page ten."],
+          ["J'ai écrit la leçon dans mon cahier.", "I wrote the lesson in my notebook."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le stylo",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh stee-lo",
+        "meaning": "the pen",
+        "notes": "Short for 'le stylo à bille' (ballpoint pen). 'Un stylo-plume' = a fountain pen. 'Un crayon' = a pencil (different from a pen).",
+        "examples": [
+          ["Tu as un stylo, s'il te plaît ?", "Do you have a pen, please?"],
+          ["J'écris avec un stylo bleu.", "I write with a blue pen."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "apprendre",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "a-pron-dr",
+        "meaning": "to learn / to teach",
+        "notes": "Conjugated like 'prendre'. Can mean both 'to learn' (apprendre le français) and 'to teach' (apprendre quelque chose à quelqu'un). Past participle: appris.",
+        "conjugation": {
+          "je": "apprends",
+          "tu": "apprends",
+          "il/elle": "apprend",
+          "nous": "apprenons",
+          "vous": "apprenez",
+          "ils/elles": "apprennent"
+        },
+        "examples": [
+          ["J'apprends le français à l'école.", "I learn French at school."],
+          ["On a appris beaucoup de choses aujourd'hui.", "We learned a lot of things today."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le professeur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pro-feh-suhr",
+        "meaning": "the teacher / professor",
+        "notes": "Often shortened to 'le/la prof' in informal speech. Traditionally masculine, but 'la professeure' is increasingly used for women. Used for secondary school and university teachers.",
+        "examples": [
+          ["Le professeur explique la leçon.", "The teacher explains the lesson."],
+          ["Notre prof de maths est très sympa.", "Our maths teacher is very nice."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la bibliothèque",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la bee-blee-o-tek",
+        "meaning": "the library",
+        "notes": "False friend alert! 'La bibliothèque' = the library, NOT the bookshop. 'La librairie' = the bookshop. 'Aller à la bibliothèque' = to go to the library.",
+        "examples": [
+          ["Je vais à la bibliothèque pour étudier.", "I go to the library to study."],
+          [
+            "La bibliothèque a beaucoup de livres en français.",
+            "The library has many books in French."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'examen",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "leg-za-man",
+        "meaning": "the exam / test",
+        "notes": "'Passer un examen' = to TAKE an exam (not to pass it!). 'Réussir un examen' = to pass an exam. 'Rater un examen' = to fail an exam.",
+        "examples": [
+          ["J'ai un examen de maths demain.", "I have a maths exam tomorrow."],
+          ["Il a réussi son examen !", "He passed his exam!"]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Salut ! Tu as fait quoi à l'école aujourd'hui ?"],
+        ["B", "J'ai étudié les maths ce matin. Et toi ?"],
+        ["A", "Moi, j'ai appris des nouveaux mots en français."],
+        ["B", "Super ! Tu as écrit dans ton cahier ?"],
+        ["A", "Oui, j'ai écrit tous les mots avec un stylo rouge."],
+        ["B", "Le professeur était content ?"],
+        ["A", "Oui, il a dit que j'ai bien travaillé !"],
+        ["B", "Génial ! On a bien travaillé tous les deux aujourd'hui."]
+      ],
+      "questions": [
+        {
+          "question": "What did speaker B study this morning?",
+          "options": ["French", "Maths", "Science"],
+          "correctAnswer": "Maths"
+        },
+        {
+          "question": "What did speaker A learn at school?",
+          "options": ["New maths formulas", "New French words", "New songs"],
+          "correctAnswer": "New French words"
+        },
+        {
+          "question": "What did the teacher say about speaker A's work?",
+          "options": ["It was too short", "It was well done", "It had mistakes"],
+          "correctAnswer": "It was well done"
+        }
+      ],
+      "summary": "Two students compare their school days. Speaker B studied maths in the morning, while speaker A learned new French vocabulary words and wrote them all in their notebook with a red pen. The teacher praised speaker A for working well, and both agree they had a productive day."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Quelle journée ! J'ai eu un examen de maths ce matin."],
+        ["B", "Ah bon ? C'était difficile ?"],
+        [
+          "A",
+          "Assez difficile, oui. J'ai révisé hier soir à la bibliothèque, mais il y avait des questions surprises."
+        ],
+        ["B", "Moi, j'ai passé l'après-midi à lire un roman pour le cours de littérature."],
+        ["A", "Tu as lu tout le livre ?"],
+        ["B", "Non, j'ai lu seulement cent pages. J'ai pris des notes dans mon cahier."],
+        ["A", "Bonne idée ! Le professeur a demandé un résumé aussi ?"],
+        ["B", "Oui, on a écrit un résumé en classe. J'ai appris beaucoup de vocabulaire nouveau."],
+        ["A", "Au moins, on a bien travaillé aujourd'hui !"],
+        ["B", "C'est vrai. Demain, j'ai un examen d'histoire — il faut que je révise ce soir."]
+      ],
+      "questions": [
+        {
+          "question": "Where did speaker A study the night before?",
+          "options": ["At home", "At the library", "At a café", "At school"],
+          "correctAnswer": "At the library"
+        },
+        {
+          "question": "How many pages did speaker B read?",
+          "options": ["Fifty", "Eighty", "One hundred", "The whole book"],
+          "correctAnswer": "One hundred"
+        },
+        {
+          "question": "What exam does speaker B have tomorrow?",
+          "options": ["Maths", "Literature", "History", "French"],
+          "correctAnswer": "History"
+        }
+      ],
+      "summary": "Two students discuss their busy school day. Speaker A had a difficult maths exam despite studying at the library the night before. Speaker B spent the afternoon reading a novel for literature class — a hundred pages — and took notes. The teacher asked for a written summary in class. Speaker B has a history exam the next day and needs to revise that evening."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Passé Composé with Avoir (Introduction)",
+      "explanation": "The passé composé is the most common past tense in French. It describes completed actions — things that happened and are finished.\n\n**How to form it:**\nsubject + **avoir** (conjugated) + **past participle**\n\n**Avoir conjugation:**\n- j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont\n\n**Regular past participles:**\n- **-ER verbs → -é:** manger → mang**é**, regarder → regard**é**, étudier → étudi**é**\n- **-IR verbs → -i:** finir → fin**i**, choisir → chois**i**, réussir → réuss**i**\n- **-RE verbs → -u:** attendre → attend**u**, vendre → vend**u**, perdre → perd**u**\n\n**Examples:**\n- J'ai mangé une pomme. (I ate an apple.)\n- Tu as fini tes devoirs. (You finished your homework.)\n- Elle a attendu le bus. (She waited for the bus.)\n\n**Key point:** The past participle does NOT change — it stays the same regardless of the subject (with avoir). J'ai mangé, elle a mangé, ils ont mangé — always 'mangé'.",
+      "examples": [
+        {
+          "french": "J'ai appris trois mots nouveaux.",
+          "english": "I learned three new words."
+        },
+        {
+          "french": "Tu as écrit dans ton cahier ?",
+          "english": "Did you write in your notebook?"
+        },
+        {
+          "french": "Nous avons étudié le français.",
+          "english": "We studied French."
+        },
+        {
+          "french": "Ils ont fini l'examen.",
+          "english": "They finished the exam."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: J'ai ___ un livre hier. (I read a book yesterday. — past participle of lire)",
+          "correctAnswer": "lu",
+          "explanation": "'Lire' has an irregular past participle: lu. J'ai lu = I read (past)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the past participle of 'manger'?",
+          "options": ["mangé", "mangi", "mangu"],
+          "correctAnswer": "mangé",
+          "explanation": "-ER verbs form their past participle with -é: manger → mangé."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle ___ fini ses devoirs. (She finished her homework.)",
+          "correctAnswer": "a",
+          "explanation": "Passé composé = avoir + past participle. 'Elle' takes 'a': elle a fini."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'We studied' in French?",
+          "options": ["Nous avons étudié", "Nous avons étudir", "Nous sommes étudié"],
+          "correctAnswer": "Nous avons étudié",
+          "explanation": "Étudier is an -ER verb: past participle = étudié. With avoir: nous avons étudié."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu as ___ le bus ? (Did you wait for the bus? — past participle of attendre)",
+          "correctAnswer": "attendu",
+          "explanation": "-RE verbs form their past participle with -u: attendre → attendu."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Passé Composé with Avoir — Formation, Common Past Participles & Negation",
+      "explanation": "**Formation:** subject + avoir (conjugated) + past participle\n\n**Regular past participles:**\n- -ER → -é: étudié, mangé, regardé\n- -IR → -i: fini, choisi, réussi\n- -RE → -u: attendu, vendu, perdu\n\n**Common irregular past participles (must memorise):**\n| Infinitive | Past Participle | Meaning |\n|---|---|---|\n| avoir | **eu** | had |\n| être | **été** | been |\n| faire | **fait** | done/made |\n| prendre | **pris** | taken |\n| apprendre | **appris** | learned |\n| mettre | **mis** | put |\n| voir | **vu** | seen |\n| lire | **lu** | read |\n| écrire | **écrit** | written |\n| dire | **dit** | said |\n\n**Negation in passé composé:**\n'Ne' goes before avoir, 'pas' goes after avoir (before the past participle):\n- Je **n'ai pas** mangé. (I didn't eat.)\n- Il **n'a pas** fini. (He didn't finish.)\n- Nous **n'avons pas** compris. (We didn't understand.)\n\n**Useful time expressions with passé composé:**\n- **hier** (yesterday), **avant-hier** (the day before yesterday)\n- **la semaine dernière** (last week), **le mois dernier** (last month)\n- **ce matin** (this morning — if it's now afternoon)\n- **il y a + time** (ago): il y a deux jours (two days ago)\n\n**Questions:**\n- Est-ce que tu as fini ? / Tu as fini ? (Did you finish?)\n- Qu'est-ce que tu as fait ? (What did you do?)",
+      "examples": [
+        {
+          "french": "J'ai appris le français à l'école.",
+          "english": "I learned French at school."
+        },
+        {
+          "french": "Elle n'a pas lu le livre.",
+          "english": "She didn't read the book."
+        },
+        {
+          "french": "Qu'est-ce que vous avez fait hier ?",
+          "english": "What did you do yesterday?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: J'ai ___ mes devoirs hier soir. (I did my homework last night. — past participle of faire)",
+          "correctAnswer": "fait",
+          "explanation": "'Faire' has an irregular past participle: fait."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the past participle of 'prendre'?",
+          "options": ["prendu", "pris", "prenu", "prit"],
+          "correctAnswer": "pris",
+          "explanation": "'Prendre' → 'pris'. All compounds follow: apprendre → appris, comprendre → compris."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle n'a pas ___ la question. (She didn't understand the question. — past participle of comprendre)",
+          "correctAnswer": "compris",
+          "explanation": "'Comprendre' → 'compris' (like prendre → pris). Negation: n'a pas compris."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'I didn't eat' in French?",
+          "options": [
+            "Je ne mangé pas.",
+            "Je n'ai pas mangé.",
+            "Je n'ai mangé pas.",
+            "Je pas ai mangé."
+          ],
+          "correctAnswer": "Je n'ai pas mangé.",
+          "explanation": "Negation wraps 'avoir': ne + ai + pas, then the past participle follows: n'ai pas mangé."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Nous avons ___ un film intéressant. (We saw an interesting film. — past participle of voir)",
+          "correctAnswer": "vu",
+          "explanation": "'Voir' has an irregular past participle: vu."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence means 'What did you do yesterday?'?",
+          "options": [
+            "Qu'est-ce que tu fais hier ?",
+            "Qu'est-ce que tu as fait hier ?",
+            "Qu'est-ce que tu vas faire hier ?",
+            "Qu'est-ce que tu avais fait hier ?"
+          ],
+          "correctAnswer": "Qu'est-ce que tu as fait hier ?",
+          "explanation": "Use passé composé for completed past actions: 'tu as fait' (you did)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il a ___ une lettre à son ami. (He wrote a letter to his friend. — past participle of écrire)",
+          "correctAnswer": "écrit",
+          "explanation": "'Écrire' has an irregular past participle: écrit."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'il y a deux jours' mean?",
+          "options": ["In two days", "Two days ago", "For two days", "Every two days"],
+          "correctAnswer": "Two days ago",
+          "explanation": "'Il y a' + time expression = ago. 'Il y a deux jours' = two days ago."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le cahier' mean?",
+        "options": ["The pen", "The notebook", "The book"],
+        "correctAnswer": "The notebook",
+        "explanation": "'Le cahier' is a notebook or exercise book. 'Le stylo' is a pen.",
+        "targetWord": "le cahier"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: J'ai ___ le français à l'école. (I learned French at school. — past participle of apprendre)",
+        "correctAnswer": "appris",
+        "explanation": "'Apprendre' has an irregular past participle: appris (like prendre → pris).",
+        "targetWord": "apprendre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'the teacher' in French?",
+        "options": ["le cahier", "le professeur", "le stylo"],
+        "correctAnswer": "le professeur",
+        "explanation": "'Le professeur' (often shortened to 'le/la prof') is the teacher.",
+        "targetWord": "le professeur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elle ___ étudié ce matin. (She studied this morning.)",
+        "correctAnswer": "a",
+        "explanation": "Passé composé: avoir (conjugated) + past participle. 'Elle' → 'a'. Elle a étudié.",
+        "targetWord": "l'école"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the past participle of 'finir'?",
+        "options": ["finé", "fini", "finu"],
+        "correctAnswer": "fini",
+        "explanation": "-IR verbs form their past participle with -i: finir → fini.",
+        "targetWord": "le stylo"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la bibliothèque' mean?",
+        "options": ["The bookshop", "The library", "The classroom", "The office"],
+        "correctAnswer": "The library",
+        "explanation": "'La bibliothèque' is a library. A bookshop is 'la librairie' — a common false friend!",
+        "targetWord": "la bibliothèque"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il n'a pas ___ le livre. (He didn't read the book. — past participle of lire)",
+        "correctAnswer": "lu",
+        "explanation": "'Lire' has an irregular past participle: lu. Negation: n'a pas lu.",
+        "targetWord": "la bibliothèque"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'l'examen' mean?",
+        "options": ["The exercise", "The example", "The exam", "The explanation"],
+        "correctAnswer": "The exam",
+        "explanation": "'L'examen' means the exam or test. 'Passer un examen' = to take an exam (not to pass it!).",
+        "targetWord": "l'examen"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Qu'est-ce que tu as ___ hier ? (What did you do yesterday? — past participle of faire)",
+        "correctAnswer": "fait",
+        "explanation": "'Faire' → 'fait'. This is one of the most common irregular past participles.",
+        "targetWord": "l'examen"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'two days ago' in French?",
+        "options": [
+          "dans deux jours",
+          "il y a deux jours",
+          "depuis deux jours",
+          "pendant deux jours"
+        ],
+        "correctAnswer": "il y a deux jours",
+        "explanation": "'Il y a' + duration = ago. 'Dans deux jours' = in two days (future).",
+        "targetWord": "le cahier"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Nous avons ___ beaucoup de vocabulaire. (We learned a lot of vocabulary. — past participle of apprendre)",
+        "correctAnswer": "appris",
+        "explanation": "'Apprendre' → 'appris'. Compounds of prendre all follow this pattern.",
+        "targetWord": "apprendre"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You meet a classmate after school. Tell them about two or three things you did at school today using the passé composé.",
+      "keyPhrases": [
+        "Aujourd'hui, j'ai… (Today, I…)",
+        "J'ai appris / étudié / écrit… (I learned / studied / wrote…)",
+        "Le professeur a… (The teacher…)",
+        "Et toi, tu as fait quoi ? (And you, what did you do?)"
+      ],
+      "modelAnswer": "Salut ! Aujourd'hui, j'ai étudié les maths et j'ai appris des mots nouveaux en français. J'ai écrit dans mon cahier avec mon nouveau stylo. Le professeur a dit que j'ai bien travaillé ! Et toi, tu as fait quoi ?",
+      "modelAnswerExplanation": "The model answer uses multiple passé composé forms naturally (ai étudié, ai appris, ai écrit, a dit, ai travaillé), mentions school vocabulary (cahier, stylo, professeur), and ends with a question to keep the conversation going.",
+      "tip": "Use 'j'ai' + past participle for each thing you did. Remember: -ER verbs → -é, -IR verbs → -i."
+    },
+    "advanced": {
+      "scenario": "Describe a full school day to a French friend. Include what subjects you studied, what you read or wrote, and how an exam went. Use a variety of past participles and time expressions.",
+      "keyPhrases": [
+        "Ce matin, j'ai… / Cet après-midi, j'ai… (This morning, I… / This afternoon, I…)",
+        "J'ai passé un examen de… (I took a… exam.)",
+        "J'ai lu / écrit / appris / fait… (I read / wrote / learned / did…)",
+        "La semaine dernière / Hier / Il y a deux jours (Last week / Yesterday / Two days ago)"
+      ],
+      "modelAnswer": "Ce matin, j'ai passé un examen de maths — c'était assez difficile, mais j'ai répondu à toutes les questions. Ensuite, j'ai lu cinquante pages d'un roman à la bibliothèque et j'ai pris des notes dans mon cahier. Cet après-midi, le professeur a expliqué une leçon de grammaire et j'ai appris des verbes irréguliers. Hier, j'ai aussi écrit un résumé pour le cours de littérature.",
+      "modelAnswerExplanation": "The model answer uses varied time expressions (ce matin, ensuite, cet après-midi, hier), multiple irregular past participles (passé, lu, pris, appris, écrit), and school vocabulary (examen, bibliothèque, cahier, professeur). It creates a natural narrative arc across the school day.",
+      "tip": ""
+    }
+  }
+}

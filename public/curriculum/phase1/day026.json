@@ -1,0 +1,520 @@
+{
+  "day": 26,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Errands & Services",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la lettre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la leh-tr",
+        "meaning": "the letter",
+        "notes": "Refers to a letter you send by post. 'Écrire une lettre' = to write a letter. 'Poster une lettre' = to mail a letter.",
+        "examples": [
+          ["J'écris une lettre à ma grand-mère.", "I am writing a letter to my grandmother."],
+          ["La lettre arrive demain.", "The letter arrives tomorrow."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le timbre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tam-br",
+        "meaning": "the stamp",
+        "notes": "Short for 'le timbre-poste' (postage stamp). 'Coller un timbre' = to stick on a stamp. Also means 'tone' in music contexts.",
+        "examples": [
+          ["Il faut un timbre pour envoyer cette lettre.", "You need a stamp to send this letter."],
+          ["Un timbre coûte un euro vingt.", "A stamp costs one euro twenty."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "envoyer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "on-vwa-yay",
+        "meaning": "to send",
+        "notes": "Stem-changing verb: the 'y' changes to 'i' before silent endings (j'envoie, tu envoies). Used for letters, emails, packages, and messages.",
+        "conjugation": {
+          "je": "envoie",
+          "tu": "envoies",
+          "il/elle": "envoie",
+          "nous": "envoyons",
+          "vous": "envoyez",
+          "ils/elles": "envoient"
+        },
+        "examples": [
+          ["J'envoie une lettre à mon ami.", "I send a letter to my friend."],
+          ["Envoyez le colis avant vendredi.", "Send the package before Friday."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la banque",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la bank",
+        "meaning": "the bank",
+        "notes": "Refers to a financial bank. 'Aller à la banque' = to go to the bank. The person working there is 'le/la banquier/banquière'.",
+        "examples": [
+          ["Je vais à la banque cet après-midi.", "I am going to the bank this afternoon."],
+          ["La banque ferme à dix-sept heures.", "The bank closes at five o'clock."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'argent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lar-zhon",
+        "meaning": "money / silver",
+        "notes": "Means both 'money' and 'silver' (the metal). 'Avoir de l'argent' = to have money. 'L'argent liquide' = cash.",
+        "examples": [
+          ["Je n'ai pas assez d'argent.", "I don't have enough money."],
+          ["Il faut de l'argent pour acheter un billet.", "You need money to buy a ticket."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la lettre",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la leh-tr",
+        "meaning": "the letter",
+        "notes": "Refers to a letter you send by post. 'Écrire une lettre' = to write a letter. 'Poster une lettre' = to mail a letter.",
+        "examples": [
+          ["J'écris une lettre à ma grand-mère.", "I am writing a letter to my grandmother."],
+          ["La lettre arrive demain.", "The letter arrives tomorrow."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le timbre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tam-br",
+        "meaning": "the stamp",
+        "notes": "Short for 'le timbre-poste' (postage stamp). 'Coller un timbre' = to stick on a stamp. Also means 'tone' in music contexts.",
+        "examples": [
+          ["Il faut un timbre pour envoyer cette lettre.", "You need a stamp to send this letter."],
+          ["Un timbre coûte un euro vingt.", "A stamp costs one euro twenty."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "envoyer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "on-vwa-yay",
+        "meaning": "to send",
+        "notes": "Stem-changing verb: the 'y' changes to 'i' before silent endings (j'envoie, tu envoies). Used for letters, emails, packages, and messages.",
+        "conjugation": {
+          "je": "envoie",
+          "tu": "envoies",
+          "il/elle": "envoie",
+          "nous": "envoyons",
+          "vous": "envoyez",
+          "ils/elles": "envoient"
+        },
+        "examples": [
+          ["J'envoie une lettre à mon ami.", "I send a letter to my friend."],
+          ["Envoyez le colis avant vendredi.", "Send the package before Friday."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la banque",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la bank",
+        "meaning": "the bank",
+        "notes": "Refers to a financial bank. 'Aller à la banque' = to go to the bank. The person working there is 'le/la banquier/banquière'.",
+        "examples": [
+          ["Je vais à la banque cet après-midi.", "I am going to the bank this afternoon."],
+          ["La banque ferme à dix-sept heures.", "The bank closes at five o'clock."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'argent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lar-zhon",
+        "meaning": "money / silver",
+        "notes": "Means both 'money' and 'silver' (the metal). 'Avoir de l'argent' = to have money. 'L'argent liquide' = cash.",
+        "examples": [
+          ["Je n'ai pas assez d'argent.", "I don't have enough money."],
+          ["Il faut de l'argent pour acheter un billet.", "You need money to buy a ticket."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le colis",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ko-lee",
+        "meaning": "the package / parcel",
+        "notes": "'Envoyer un colis' = to send a package. 'Recevoir un colis' = to receive a package. The final 's' is silent.",
+        "examples": [
+          ["J'envoie un colis à ma famille.", "I send a package to my family."],
+          ["Le colis arrive dans une semaine.", "The package arrives in a week."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le compte",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kont",
+        "meaning": "the account",
+        "notes": "'Un compte bancaire' = a bank account. 'Ouvrir un compte' = to open an account. Do not confuse with 'le conte' (a tale/story) or 'le comte' (a count/earl).",
+        "examples": [
+          [
+            "Je voudrais ouvrir un compte, s'il vous plaît.",
+            "I would like to open an account, please."
+          ],
+          ["Mon compte est à la Banque Populaire.", "My account is at Banque Populaire."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour, je voudrais envoyer cette lettre, s'il vous plaît."],
+        ["B", "Bien sûr ! C'est pour la France ou pour l'étranger ?"],
+        ["A", "Pour la France, s'il vous plaît."],
+        ["B", "D'accord. Achetez un timbre à un euro vingt. Collez-le sur l'enveloppe."],
+        ["A", "Et après, je fais quoi ?"],
+        ["B", "Mettez la lettre dans la boîte aux lettres dehors. Elle arrive en deux jours."],
+        ["A", "Merci beaucoup ! Et je peux aussi envoyer de l'argent par courrier ?"],
+        ["B", "Non, pour l'argent, allez à la banque. C'est plus sûr."]
+      ],
+      "questions": [
+        {
+          "question": "Where is the customer sending the letter?",
+          "options": ["Abroad", "To France", "To a bank"],
+          "correctAnswer": "To France"
+        },
+        {
+          "question": "How much does a stamp cost?",
+          "options": ["One euro", "One euro twenty", "Two euros"],
+          "correctAnswer": "One euro twenty"
+        },
+        {
+          "question": "What does the worker say about sending money?",
+          "options": ["Use a special stamp", "Go to the bank instead", "Send it in a package"],
+          "correctAnswer": "Go to the bank instead"
+        }
+      ],
+      "summary": "A customer wants to send a letter within France. The postal worker explains they need a stamp costing one euro twenty, which should be stuck on the envelope and dropped in the letterbox outside. Delivery takes two days. When asked about sending money, the worker advises going to the bank instead."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonjour, je voudrais envoyer ce colis au Canada, s'il vous plaît."],
+        ["B", "D'accord. Posez-le sur la balance... Il fait trois kilos. C'est quinze euros."],
+        ["A", "Très bien. Il arrive en combien de temps ?"],
+        [
+          "B",
+          "Comptez une semaine environ. Remplissez ce formulaire de douane — écrivez le contenu et la valeur."
+        ],
+        ["A", "Voilà, c'est fait. Je peux payer par carte ?"],
+        ["B", "Oui, bien sûr. Insérez votre carte ici. N'oubliez pas votre reçu."],
+        [
+          "A",
+          "Merci ! J'ai aussi besoin d'aller à la banque. Savez-vous à quelle heure elle ouvre ?"
+        ],
+        [
+          "B",
+          "La banque à côté ouvre à neuf heures. Dépêchez-vous, il est déjà huit heures cinquante !"
+        ],
+        ["A", "Merci beaucoup pour votre aide !"],
+        ["B", "De rien. Bonne journée !"]
+      ],
+      "questions": [
+        {
+          "question": "How much does the package weigh?",
+          "options": ["Two kilos", "Three kilos", "Five kilos", "One kilo"],
+          "correctAnswer": "Three kilos"
+        },
+        {
+          "question": "How long will delivery to Canada take?",
+          "options": ["Two days", "Three days", "About one week", "Two weeks"],
+          "correctAnswer": "About one week"
+        },
+        {
+          "question": "What does the worker tell the customer not to forget?",
+          "options": ["The customs form", "The receipt", "The stamp", "The address"],
+          "correctAnswer": "The receipt"
+        }
+      ],
+      "summary": "A customer sends a three-kilo package to Canada for fifteen euros. The postal worker weighs it, asks the customer to fill in a customs form with contents and value, and accepts card payment. Delivery takes about a week. The customer also asks about the nearby bank, which opens at nine — and they need to hurry as it is nearly nine already."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "The Imperative Mood (tu, vous, nous commands)",
+      "explanation": "The imperative mood is used to give commands, instructions, or advice. Unlike other verb forms, it has no subject pronoun — you speak directly to the person.\n\n**Three forms only:**\n- **tu** form (informal, one person): Regarde ! (Look!)\n- **vous** form (formal, or plural): Regardez ! (Look!)\n- **nous** form (let's…): Regardons ! (Let's look!)\n\n**How to form it:**\n\n**-ER verbs:** Use the present tense forms BUT drop the -s from the tu form:\n- tu regardes → **Regarde !** (Look!)\n- tu envoies → **Envoie !** (Send!)\n- vous regardez → **Regardez !** (Look!)\n- nous regardons → **Regardons !** (Let's look!)\n\n**-IR verbs:** Keep the normal present tense forms:\n- tu finis → **Finis !** (Finish!)\n- vous finissez → **Finissez !** (Finish!)\n- nous finissons → **Finissons !** (Let's finish!)\n\n**-RE verbs:** Keep the normal present tense forms:\n- tu attends → **Attends !** (Wait!)\n- vous attendez → **Attendez !** (Wait!)\n\n**Key rule for -ER verbs:** The tu form loses its -s. This is the most common mistake — remember: 'Regarde !' NOT 'Regardes !'",
+      "examples": [
+        {
+          "french": "Envoie cette lettre aujourd'hui !",
+          "english": "Send this letter today!"
+        },
+        {
+          "french": "Attendez ici, s'il vous plaît.",
+          "english": "Wait here, please."
+        },
+        {
+          "french": "Allons à la banque ensemble.",
+          "english": "Let's go to the bank together."
+        },
+        {
+          "french": "Achetez un timbre au guichet.",
+          "english": "Buy a stamp at the counter."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete the tu imperative: ___ cette lettre ! (Send this letter! — envoyer)",
+          "correctAnswer": "Envoie",
+          "explanation": "Envoyer is an -ER verb. Tu form: 'tu envoies' → drop the -s → 'Envoie !'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the vous imperative of 'attendre'?",
+          "options": ["Attende !", "Attendez !", "Attendes !"],
+          "correctAnswer": "Attendez !",
+          "explanation": "-RE verbs keep normal present tense forms. Vous attendez → Attendez !"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ à la banque ! (Let's go to the bank! — aller)",
+          "correctAnswer": "Allons",
+          "explanation": "The nous form means 'let's': nous allons → Allons !"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct tu imperative of 'regarder'?",
+          "options": ["Regardes !", "Regarde !", "Regarder !"],
+          "correctAnswer": "Regarde !",
+          "explanation": "-ER verbs drop the -s from the tu form: tu regardes → Regarde !"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete the vous imperative: ___ ce formulaire ! (Fill in this form! — remplir)",
+          "correctAnswer": "Remplissez",
+          "explanation": "Remplir is an -IR verb. Vous remplissez → Remplissez !"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "The Imperative Mood — Formation, Irregular Forms & Negation",
+      "explanation": "**Regular formation recap:**\n- **-ER (tu):** drop -s: Regarde ! Envoie ! Achète !\n- **-IR / -RE (tu):** keep form: Finis ! Attends !\n- **vous / nous:** identical to present tense: Finissez ! Allons !\n\n**Irregular imperatives (must memorise):**\n\n| Verb | tu | vous | nous |\n|---|---|---|---|\n| **être** | sois | soyez | soyons |\n| **avoir** | aie | ayez | ayons |\n| **savoir** | sache | sachez | sachons |\n\n- Sois patient ! (Be patient!)\n- Ayez confiance ! (Have confidence!)\n- Sachez que la banque ferme à cinq heures. (Know that the bank closes at five.)\n\n**Negative imperative:**\nWrap the verb in ne…pas (same as normal negation):\n- **Ne** touche **pas** ! (Don't touch!)\n- **N'**oubliez **pas** le timbre ! (Don't forget the stamp!)\n- **Ne** sois **pas** en retard ! (Don't be late!)\n\n**Pronouns with the imperative:**\n- **Affirmative:** pronoun goes AFTER the verb, joined by a hyphen. 'Me' becomes 'moi':\n  - Regarde-**moi** ! (Look at me!) Envoie-**le** ! (Send it!)\n- **Negative:** pronoun goes BEFORE the verb (normal position). 'Moi' stays 'me':\n  - **Ne me** regarde **pas** ! (Don't look at me!) **Ne l'**envoie **pas** ! (Don't send it!)",
+      "examples": [
+        {
+          "french": "Soyez polis avec le guichetier.",
+          "english": "Be polite with the counter clerk."
+        },
+        {
+          "french": "N'oubliez pas de signer le formulaire.",
+          "english": "Don't forget to sign the form."
+        },
+        {
+          "french": "Donne-moi le colis, s'il te plaît.",
+          "english": "Give me the package, please."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete the tu imperative of 'être': ___ patient ! (Be patient!)",
+          "correctAnswer": "Sois",
+          "explanation": "'Être' has an irregular imperative: tu → sois, vous → soyez, nous → soyons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the vous imperative of 'avoir'?",
+          "options": ["Avez !", "Ayez !", "Avons !", "Aie !"],
+          "correctAnswer": "Ayez !",
+          "explanation": "'Avoir' has an irregular imperative: tu → aie, vous → ayez, nous → ayons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Make this negative: 'Envoie cette lettre !' → ___ cette lettre !",
+          "correctAnswer": "N'envoie pas",
+          "explanation": "Negative imperative: Ne + verb + pas. 'Ne' becomes 'N'' before a vowel: N'envoie pas !"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct for 'Look at me!' (tu)?",
+          "options": ["Regarde-moi !", "Me regarde !", "Regarde-me !", "Regardes-moi !"],
+          "correctAnswer": "Regarde-moi !",
+          "explanation": "Affirmative imperative: pronoun after verb with hyphen. 'Me' becomes 'moi' after the verb. -ER tu form drops -s."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ que la poste ferme à midi. (Know that the post office closes at noon — vous form of savoir)",
+          "correctAnswer": "Sachez",
+          "explanation": "'Savoir' has an irregular imperative: tu → sache, vous → sachez, nous → sachons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'Don't send it!' (tu, 'le' for it)?",
+          "options": [
+            "N'envoie-le pas !",
+            "Ne l'envoie pas !",
+            "Ne le envoie pas !",
+            "Envoie-le pas !"
+          ],
+          "correctAnswer": "Ne l'envoie pas !",
+          "explanation": "In negative imperatives, the pronoun goes before the verb: Ne + pronoun + verb + pas. 'Le' elides before a vowel: l'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: N'___ pas peur ! (Don't be afraid! — tu form of avoir)",
+          "correctAnswer": "aie",
+          "explanation": "Irregular imperative of 'avoir': tu → aie. With negation: N'aie pas peur !"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct nous imperative of 'être'?",
+          "options": ["Sommes !", "Soyons !", "Soyez !", "Soions !"],
+          "correctAnswer": "Soyons !",
+          "explanation": "Irregular: nous → soyons. 'Soyons courageux !' = Let's be brave!"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le timbre' mean?",
+        "options": ["The letter", "The stamp", "The envelope"],
+        "correctAnswer": "The stamp",
+        "explanation": "'Le timbre' is a postage stamp. 'Coller un timbre' = to stick on a stamp.",
+        "targetWord": "le timbre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ cette lettre demain ! (Send this letter tomorrow! — tu imperative of envoyer)",
+        "correctAnswer": "Envoie",
+        "explanation": "Envoyer is an -ER verb. Tu imperative drops the -s: 'tu envoies' → 'Envoie !'",
+        "targetWord": "envoyer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'money' in French?",
+        "options": ["la banque", "la lettre", "l'argent"],
+        "correctAnswer": "l'argent",
+        "explanation": "'L'argent' means money (also silver). 'La banque' is the bank.",
+        "targetWord": "l'argent"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which is the correct vous imperative of 'attendre' (to wait)?",
+        "options": ["Attende !", "Attendez !", "Attendes !"],
+        "correctAnswer": "Attendez !",
+        "explanation": "-RE verbs keep their normal present tense form: vous attendez → Attendez !",
+        "targetWord": "la banque"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Je colle un ___ sur la lettre. (I stick a stamp on the letter.)",
+        "correctAnswer": "timbre",
+        "explanation": "'Un timbre' = a stamp. 'Coller un timbre' is the standard expression for sticking a stamp on.",
+        "targetWord": "le timbre"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le colis' mean?",
+        "options": ["The letter", "The stamp", "The package", "The envelope"],
+        "correctAnswer": "The package",
+        "explanation": "'Le colis' is a package or parcel. 'Envoyer un colis' = to send a package.",
+        "targetWord": "le colis"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ patient ! (Be patient! — tu imperative of être)",
+        "correctAnswer": "Sois",
+        "explanation": "'Être' has an irregular imperative: tu → sois.",
+        "targetWord": "la banque"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'Don't forget the stamp!' (vous)?",
+        "options": [
+          "Ne pas oubliez le timbre !",
+          "N'oubliez pas le timbre !",
+          "Oubliez pas le timbre !",
+          "Ne oubliez le timbre pas !"
+        ],
+        "correctAnswer": "N'oubliez pas le timbre !",
+        "explanation": "Negative imperative: Ne + verb + pas. 'Ne' becomes 'N'' before a vowel.",
+        "targetWord": "le timbre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: J'ai un ___ à la banque. (I have an account at the bank.)",
+        "correctAnswer": "compte",
+        "explanation": "'Un compte' (bancaire) = a (bank) account. 'Ouvrir un compte' = to open an account.",
+        "targetWord": "le compte"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which is correct for 'Give me the letter!' (tu)?",
+        "options": [
+          "Donne-moi la lettre !",
+          "Me donne la lettre !",
+          "Donnes-moi la lettre !",
+          "Donne-me la lettre !"
+        ],
+        "correctAnswer": "Donne-moi la lettre !",
+        "explanation": "Affirmative imperative: pronoun after verb with hyphen. 'Me' → 'moi'. -ER tu form drops -s.",
+        "targetWord": "la lettre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ de l'argent à la banque. (Let's withdraw money at the bank. — nous imperative of retirer)",
+        "correctAnswer": "Retirons",
+        "explanation": "Nous imperative = present tense nous form without pronoun: nous retirons → Retirons !",
+        "targetWord": "l'argent"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at the post office and want to send a letter to a friend in another city. Ask the worker for stamps and how to send it.",
+      "keyPhrases": [
+        "Je voudrais envoyer… (I would like to send…)",
+        "Il faut un timbre ? (Do I need a stamp?)",
+        "Combien ça coûte ? (How much does it cost?)",
+        "Où est la boîte aux lettres ? (Where is the letterbox?)"
+      ],
+      "modelAnswer": "Bonjour ! Je voudrais envoyer cette lettre à Marseille, s'il vous plaît. Il faut un timbre ? Combien ça coûte ? Et après, où est-ce que je mets la lettre — il y a une boîte aux lettres ici ?",
+      "modelAnswerExplanation": "The model answer politely greets the worker, states the purpose (sending a letter), asks about stamps and cost, and finishes by asking where to post it. It uses key phrases naturally and maintains a polite register with 's'il vous plaît'.",
+      "tip": "Start with 'Bonjour' and 'je voudrais' — politeness is very important in French service interactions."
+    },
+    "advanced": {
+      "scenario": "You need to run two errands: first, send a package at the post office, then go to the bank to ask about opening an account. Handle both interactions, using imperative-style requests and polite language.",
+      "keyPhrases": [
+        "Je voudrais envoyer ce colis à… (I would like to send this package to…)",
+        "Donnez-moi un formulaire, s'il vous plaît. (Give me a form, please.)",
+        "Je voudrais ouvrir un compte. (I would like to open an account.)",
+        "Expliquez-moi les étapes. (Explain the steps to me.)"
+      ],
+      "modelAnswer": "À la poste : Bonjour, je voudrais envoyer ce colis au Canada. Donnez-moi le formulaire de douane, s'il vous plaît. Combien ça coûte pour trois kilos ? À la banque : Bonjour, je voudrais ouvrir un compte, s'il vous plaît. Expliquez-moi les étapes — quels documents est-ce qu'il faut ? Dites-moi aussi les horaires d'ouverture.",
+      "modelAnswerExplanation": "The model answer handles both errands with natural transitions. It uses polite imperatives (donnez-moi, expliquez-moi, dites-moi) combined with 's'il vous plaît', asks practical questions about cost, required documents, and opening hours, demonstrating confident service interactions.",
+      "tip": ""
+    }
+  }
+}
