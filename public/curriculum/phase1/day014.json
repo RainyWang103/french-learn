@@ -1,184 +1,162 @@
 {
-  "day": 18,
+  "day": 14,
   "phase": 1,
-  "topic": "Asking for Directions",
+  "topic": "Clothing & Colours",
   "vocab": {
     "standard": [
       {
-        "word": "le carrefour",
+        "word": "la robe",
         "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh kar-FOOR",
-        "meaning": "the crossroads / the intersection",
-        "notes": "A key landmark word when giving or following directions.",
+        "gender": "female",
+        "pronunciation": "la rob",
+        "meaning": "the dress",
         "examples": [
-          ["Tournez à gauche au carrefour.", "Turn left at the crossroads."],
-          ["Le carrefour est dangereux.", "The intersection is dangerous."]
+          ["La robe est rouge.", "The dress is red."],
+          ["Elle porte une robe bleue.", "She is wearing a blue dress."]
         ],
         "special": ""
       },
       {
-        "word": "tourner",
-        "partOfSpeech": "verb",
+        "word": "le pantalon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pon-ta-lon",
+        "meaning": "the trousers / the pants",
+        "notes": "Always singular in French (le pantalon), unlike English 'trousers/pants'.",
+        "examples": [
+          ["Mon pantalon est noir.", "My trousers are black."],
+          ["Il porte un pantalon gris.", "He is wearing grey trousers."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le chapeau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sha-po",
+        "meaning": "the hat",
+        "notes": "Plural: les chapeaux (add -x, not -s).",
+        "examples": [
+          ["Le chapeau est blanc.", "The hat is white."],
+          ["Il porte un grand chapeau.", "He is wearing a big hat."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "rouge",
+        "partOfSpeech": "adjective",
         "gender": null,
-        "pronunciation": "toor-NAY",
-        "meaning": "to turn",
-        "notes": "Regular -er verb. Essential for giving directions.",
-        "conjugation": {
-          "je": "tourne",
-          "tu": "tournes",
-          "il/elle": "tourne",
-          "nous": "tournons",
-          "vous": "tournez",
-          "ils/elles": "tournent"
-        },
+        "pronunciation": "roozh",
+        "meaning": "red",
+        "notes": "Same form for masculine and feminine: un sac rouge, une robe rouge.",
         "examples": [
-          ["Tournez à droite après le pont.", "Turn right after the bridge."],
-          ["Je tourne à gauche ici.", "I turn left here."]
+          ["La robe est rouge.", "The dress is red."],
+          ["J'ai un sac rouge.", "I have a red bag."]
         ],
         "special": ""
       },
       {
-        "word": "la place",
-        "partOfSpeech": "noun",
-        "gender": "female",
-        "pronunciation": "lah PLASS",
-        "meaning": "the square / the plaza",
-        "notes": "Refers to a town square or public plaza, not a seat (which is also 'place' in context).",
+        "word": "blanc",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "blon",
+        "meaning": "white",
+        "notes": "Feminine form: blanche. Blanc → blanche is an irregular change.",
         "examples": [
-          ["La place du marché est au centre-ville.", "The market square is in the town centre."],
-          ["Rendez-vous sur la place!", "Let's meet at the square!"]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le pont",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh PON",
-        "meaning": "the bridge",
-        "examples": [
-          [
-            "Traversez le pont et continuez tout droit.",
-            "Cross the bridge and continue straight ahead."
-          ],
-          ["Le pont est très vieux.", "The bridge is very old."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "la pharmacie",
-        "partOfSpeech": "noun",
-        "gender": "female",
-        "pronunciation": "lah far-mah-SEE",
-        "meaning": "the pharmacy / the chemist",
-        "notes": "French pharmacies are marked by a green cross sign. Very easy to spot.",
-        "examples": [
-          ["Il y a une pharmacie près d'ici ?", "Is there a pharmacy near here?"],
-          ["La pharmacie est en face de la boulangerie.", "The pharmacy is opposite the bakery."]
+          ["Le chapeau est blanc.", "The hat is white."],
+          ["La chemise est blanche.", "The shirt is white."]
         ],
         "special": ""
       }
     ],
     "advanced": [
       {
-        "word": "le carrefour",
+        "word": "la robe",
         "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh kar-FOOR",
-        "meaning": "the crossroads / the intersection",
-        "notes": "A key landmark word when giving or following directions.",
+        "gender": "female",
+        "pronunciation": "la rob",
+        "meaning": "the dress",
         "examples": [
-          ["Tournez à gauche au carrefour.", "Turn left at the crossroads."],
-          ["Le carrefour est dangereux.", "The intersection is dangerous."]
+          ["La robe est rouge.", "The dress is red."],
+          ["Elle porte une robe bleue.", "She is wearing a blue dress."]
         ],
         "special": ""
       },
       {
-        "word": "tourner",
-        "partOfSpeech": "verb",
+        "word": "le pantalon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pon-ta-lon",
+        "meaning": "the trousers / the pants",
+        "notes": "Always singular in French (le pantalon), unlike English 'trousers/pants'.",
+        "examples": [
+          ["Mon pantalon est noir.", "My trousers are black."],
+          ["Il porte un pantalon gris.", "He is wearing grey trousers."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le chapeau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sha-po",
+        "meaning": "the hat",
+        "notes": "Plural: les chapeaux (add -x, not -s).",
+        "examples": [
+          ["Le chapeau est blanc.", "The hat is white."],
+          ["Il porte un grand chapeau.", "He is wearing a big hat."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "rouge",
+        "partOfSpeech": "adjective",
         "gender": null,
-        "pronunciation": "toor-NAY",
-        "meaning": "to turn",
-        "notes": "Regular -er verb. Essential for giving directions.",
-        "conjugation": {
-          "je": "tourne",
-          "tu": "tournes",
-          "il/elle": "tourne",
-          "nous": "tournons",
-          "vous": "tournez",
-          "ils/elles": "tournent"
-        },
+        "pronunciation": "roozh",
+        "meaning": "red",
+        "notes": "Same form for masculine and feminine: un sac rouge, une robe rouge.",
         "examples": [
-          ["Tournez à droite après le pont.", "Turn right after the bridge."],
-          ["Je tourne à gauche ici.", "I turn left here."]
+          ["La robe est rouge.", "The dress is red."],
+          ["J'ai un sac rouge.", "I have a red bag."]
         ],
         "special": ""
       },
       {
-        "word": "la place",
+        "word": "blanc",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "blon",
+        "meaning": "white",
+        "notes": "Feminine form: blanche. Blanc → blanche is an irregular change.",
+        "examples": [
+          ["Le chapeau est blanc.", "The hat is white."],
+          ["La chemise est blanche.", "The shirt is white."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les chaussures",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "lah PLASS",
-        "meaning": "the square / the plaza",
-        "notes": "Refers to a town square or public plaza, not a seat (which is also 'place' in context).",
+        "pronunciation": "lay show-sur",
+        "meaning": "the shoes",
+        "notes": "Usually plural. Singular: la chaussure (one shoe).",
         "examples": [
-          ["La place du marché est au centre-ville.", "The market square is in the town centre."],
-          ["Rendez-vous sur la place!", "Let's meet at the square!"]
+          ["Mes chaussures sont noires.", "My shoes are black."],
+          ["Elle achète des chaussures rouges.", "She is buying red shoes."]
         ],
         "special": ""
       },
       {
-        "word": "le pont",
+        "word": "le manteau",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh PON",
-        "meaning": "the bridge",
+        "pronunciation": "luh mon-to",
+        "meaning": "the coat",
+        "notes": "Plural: les manteaux (add -x). Worn in cold weather.",
         "examples": [
-          [
-            "Traversez le pont et continuez tout droit.",
-            "Cross the bridge and continue straight ahead."
-          ],
-          ["Le pont est très vieux.", "The bridge is very old."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "la pharmacie",
-        "partOfSpeech": "noun",
-        "gender": "female",
-        "pronunciation": "lah far-mah-SEE",
-        "meaning": "the pharmacy / the chemist",
-        "notes": "French pharmacies are marked by a green cross sign. Very easy to spot.",
-        "examples": [
-          ["Il y a une pharmacie près d'ici ?", "Is there a pharmacy near here?"],
-          ["La pharmacie est en face de la boulangerie.", "The pharmacy is opposite the bakery."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le rond-point",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh ron-PWAN",
-        "meaning": "the roundabout",
-        "notes": "France has more roundabouts per capita than almost any other country. Knowing this word is very practical.",
-        "examples": [
-          ["Prenez la deuxième sortie au rond-point.", "Take the second exit at the roundabout."],
-          ["Le rond-point est à cinq minutes d'ici.", "The roundabout is five minutes from here."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le feu",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh FUH",
-        "meaning": "the traffic light (also: fire)",
-        "notes": "Short for 'le feu de signalisation'. In directions, 'au feu' means 'at the traffic lights'.",
-        "examples": [
-          ["Tournez à droite au feu.", "Turn right at the traffic lights."],
-          ["Le feu est rouge — attendez !", "The light is red — wait!"]
+          ["Il fait froid, prends ton manteau.", "It's cold, take your coat."],
+          ["Le manteau bleu est joli.", "The blue coat is pretty."]
         ],
         "special": ""
       }
@@ -187,247 +165,188 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Excusez-moi, je cherche la gare. Vous pouvez m'aider ?"],
-        ["B", "Bien sûr ! La gare n'est pas loin d'ici."],
-        ["A", "Super ! Je dois tourner à droite ou à gauche ?"],
-        ["B", "Continuez tout droit jusqu'au carrefour."],
-        ["A", "D'accord, et après le carrefour ?"],
-        ["B", "Tournez à gauche, traversez le pont, et la gare est sur votre droite."],
-        ["A", "C'est loin à pied ?"],
-        ["B", "Non, c'est environ dix minutes à pied. Bonne route !"]
+        ["A", "Qu'est-ce que tu portes pour la fête ?"],
+        ["B", "Je ne sais pas. La robe rouge ou le pantalon noir ?"],
+        ["A", "La robe rouge est très jolie !"],
+        ["B", "Oui, mais il fait froid ce soir."],
+        ["A", "Tu peux porter la robe avec un manteau."],
+        ["B", "Bonne idée ! Et toi, tu portes quoi ?"],
+        ["A", "Un pantalon blanc et un chapeau."],
+        ["B", "Un chapeau ? C'est original !"]
       ],
       "questions": [
         {
-          "question": "Qu'est-ce que le touriste cherche ?",
-          "options": ["La pharmacie", "La gare", "La place"],
-          "correctAnswer": "La gare",
-          "explanation": "The tourist says 'je cherche la gare' — I am looking for the train station."
+          "question": "Qu'est-ce que B hésite à porter ?",
+          "options": ["Une jupe ou un pantalon", "Une robe rouge ou un pantalon noir", "Un manteau ou une robe"],
+          "correctAnswer": "Une robe rouge ou un pantalon noir"
         },
         {
-          "question": "Qu'est-ce que le touriste doit traverser ?",
-          "options": ["Le pont", "Le carrefour", "La place"],
-          "correctAnswer": "Le pont",
-          "explanation": "The local says 'traversez le pont' — cross the bridge."
+          "question": "Pourquoi B hésite-t-il ?",
+          "options": ["La robe est trop petite.", "Il fait froid ce soir.", "Le pantalon est sale."],
+          "correctAnswer": "Il fait froid ce soir."
         },
         {
-          "question": "Combien de temps à pied jusqu'à la gare ?",
-          "options": ["Cinq minutes", "Dix minutes", "Vingt minutes"],
-          "correctAnswer": "Dix minutes",
-          "explanation": "The local says 'c'est environ dix minutes à pied' — it's about ten minutes on foot."
+          "question": "Que porte A ?",
+          "options": ["Une robe bleue", "Un pantalon blanc et un chapeau", "Un manteau noir"],
+          "correctAnswer": "Un pantalon blanc et un chapeau"
         }
       ],
-      "summary": "A tourist asks a local for directions to the train station. The local explains to go straight ahead to the crossroads, turn left, cross the bridge, and the station will be on the right — about ten minutes on foot."
+      "summary": "Two friends discuss what to wear to a party. B hesitates between a red dress and black trousers because it's cold. A suggests wearing the dress with a coat. A will wear white trousers and a hat."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Pardon, madame. Est-ce qu'il y a une pharmacie dans le quartier ?"],
-        ["B", "Oui, il y en a une rue Voltaire. Ce n'est pas compliqué."],
-        ["A", "Pouvez-vous m'expliquer le chemin, s'il vous plaît ?"],
-        ["B", "Bien sûr. Prenez cette rue jusqu'au rond-point, puis prenez la première sortie."],
-        ["A", "La première sortie au rond-point — d'accord."],
-        [
-          "B",
-          "Ensuite, au feu rouge, tournez à droite. Vous verrez la place Saint-Michel devant vous."
-        ],
-        ["A", "Et la pharmacie est sur la place ?"],
-        [
-          "B",
-          "Non, continuez sur la gauche de la place et la pharmacie est à cinquante mètres, entre la boulangerie et le café."
-        ]
+        ["A", "Tu es prête pour la fête ?"],
+        ["B", "Presque. Je ne sais pas quelles chaussures porter."],
+        ["A", "Avec ta robe bleue ? Les chaussures noires sont bien."],
+        ["B", "Oui, mais elles ne sont pas très confortables. Et les blanches ?"],
+        ["A", "Les blanches avec une robe bleue ? C'est joli. Mets ton manteau gris aussi."],
+        ["B", "Le gris ? Non, je préfère le manteau noir. Il est plus élégant."],
+        ["A", "D'accord. Moi, je porte un pantalon vert et une chemise blanche."],
+        ["B", "Vert et blanc ? C'est un bon choix. On y va !"]
       ],
       "questions": [
         {
-          "question": "Où se trouve la pharmacie ?",
-          "options": [
-            "Rue Voltaire",
-            "Rue de la Paix",
-            "Boulevard Victor Hugo",
-            "Place de la République"
-          ],
-          "correctAnswer": "Rue Voltaire",
-          "explanation": "The local specifies 'il y en a une rue Voltaire' — there is one on Rue Voltaire."
+          "question": "Quel est le problème de B ?",
+          "options": ["Elle n'a pas de robe.", "Elle ne sait pas quelles chaussures porter.", "Elle n'aime pas la fête.", "Son manteau est sale."],
+          "correctAnswer": "Elle ne sait pas quelles chaussures porter."
         },
         {
-          "question": "Que faut-il faire au rond-point ?",
-          "options": [
-            "Tourner à gauche",
-            "Prendre la deuxième sortie",
-            "Prendre la première sortie",
-            "Continuer tout droit"
-          ],
-          "correctAnswer": "Prendre la première sortie",
-          "explanation": "The local says 'prenez la première sortie' at the roundabout."
+          "question": "Quel manteau B choisit-elle ?",
+          "options": ["Le gris", "Le noir", "Le bleu", "Le blanc"],
+          "correctAnswer": "Le noir"
         },
         {
-          "question": "Où est la pharmacie par rapport à la place Saint-Michel ?",
-          "options": [
-            "Sur la place",
-            "À droite de la place",
-            "À gauche de la place, à cinquante mètres",
-            "En face de la place"
-          ],
-          "correctAnswer": "À gauche de la place, à cinquante mètres",
-          "explanation": "The local says to continue on the left side of the square — the pharmacy is fifty metres along, between the bakery and the café."
+          "question": "Quelles couleurs porte A ?",
+          "options": ["Bleu et noir", "Rouge et blanc", "Vert et blanc", "Noir et gris"],
+          "correctAnswer": "Vert et blanc"
         }
       ],
-      "summary": "A tourist asks a local how to find a pharmacy. The local gives detailed directions: take the street to the roundabout, take the first exit, turn right at the red light, pass the Place Saint-Michel, then continue to the left of the square where the pharmacy is located fifty metres along."
+      "summary": "Two friends get ready for a party. B has a blue dress and debates between black shoes (uncomfortable) and white ones. She picks the black coat over the grey one. A wears a green trouser and white shirt combination."
     }
   },
   "grammar": {
     "standard": {
-      "title": "Question Formation (est-ce que, intonation, question words)",
-      "explanation": "In French, there are three main ways to ask a question.\n\n**1. Rising intonation** — Take a statement and raise your voice at the end. This is the most casual and common in speech.\n• Vous avez une pharmacie ? (You have a pharmacy?)\n\n**2. Est-ce que** — Place 'est-ce que' before a regular statement. This works in any situation and is very natural.\n• Est-ce que vous avez une pharmacie ? (Do you have a pharmacy?)\n\n**3. Question words** — Use a question word to ask for specific information. The most useful ones are:\n• où (where) — Où est la gare ?\n• quand (when) — Quand est-ce que le bus arrive ?\n• comment (how) — Comment est-ce que je peux aller à la place ?\n• pourquoi (why) — Pourquoi est-ce que le pont est fermé ?\n• qu'est-ce que (what) — Qu'est-ce que vous cherchez ?\n• combien (how much/many) — Combien de minutes à pied ?\n\nQuestion words can be combined with est-ce que for a complete, natural-sounding question.",
+      "title": "Adjective Agreement & Placement (masculine/feminine, before/after noun)",
+      "explanation": "In French, adjectives must agree in gender and number with the noun they describe. Most adjectives add -e for feminine and -s for plural: petit → petite → petits → petites. Colour adjectives go AFTER the noun: une robe rouge (a red dress), un chapeau blanc (a white hat). Some common short adjectives go BEFORE the noun (BANGS rule): beau, autre, nouveau, grand, petit. Example: un grand chapeau, une petite robe. Irregular feminines: blanc → blanche, beau → belle, nouveau → nouvelle.",
       "examples": [
         {
-          "french": "Est-ce que vous parlez anglais ?",
-          "english": "Do you speak English?"
+          "french": "Une robe rouge.",
+          "english": "A red dress."
         },
         {
-          "french": "Où est la pharmacie ?",
-          "english": "Where is the pharmacy?"
+          "french": "Un chapeau blanc.",
+          "english": "A white hat."
         },
         {
-          "french": "Comment est-ce que je peux aller à la gare ?",
-          "english": "How can I get to the train station?"
+          "french": "La chemise est blanche.",
+          "english": "The shirt is white."
         },
         {
-          "french": "C'est loin, le carrefour ?",
-          "english": "Is the crossroads far? (intonation)"
+          "french": "Un grand manteau noir.",
+          "english": "A big black coat."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "___-ce que vous pouvez m'aider ? (Can you help me?)",
-          "correctAnswer": "Est",
-          "explanation": "'Est-ce que' is placed at the start of a question to turn a statement into a question without changing word order."
-        },
-        {
-          "type": "multipleChoice",
-          "question": "Which question word means 'where'?",
-          "options": ["Quand", "Où", "Comment"],
-          "correctAnswer": "Où",
-          "explanation": "'Où' means 'where'. For example: Où est la gare ? (Where is the train station?)"
+          "question": "La robe est ___. (white, feminine)",
+          "correctAnswer": "blanche",
+          "explanation": "Blanc → blanche for feminine nouns."
         },
         {
           "type": "fillInTheBlank",
-          "question": "___ est le prochain carrefour ? (Where is the next crossroads?)",
-          "correctAnswer": "Où",
-          "explanation": "'Où' asks about location. It goes at the beginning of the question."
+          "question": "Un chapeau ___. (red)",
+          "correctAnswer": "rouge",
+          "explanation": "Rouge is the same for masculine and feminine."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you ask 'How many minutes on foot?' in French?",
-          "options": [
-            "Quand de minutes à pied ?",
-            "Comment de minutes à pied ?",
-            "Combien de minutes à pied ?"
-          ],
-          "correctAnswer": "Combien de minutes à pied ?",
-          "explanation": "'Combien' means 'how much' or 'how many'. It is followed by 'de' before a noun."
+          "question": "Where does the colour go in French?",
+          "options": ["Before the noun", "After the noun", "It doesn't matter"],
+          "correctAnswer": "After the noun",
+          "explanation": "Colour adjectives go after the noun: une robe rouge, not une rouge robe."
         },
         {
-          "type": "multipleChoice",
-          "question": "Which sentence is a correct question using est-ce que?",
-          "options": [
-            "Est-ce que le pont est loin ?",
-            "Le pont est-ce que loin ?",
-            "Loin est-ce que le pont ?"
-          ],
-          "correctAnswer": "Est-ce que le pont est loin ?",
-          "explanation": "'Est-ce que' goes at the very beginning, followed by the normal statement word order: le pont est loin."
+          "type": "fillInTheBlank",
+          "question": "Les chaussures sont ___. (black, feminine plural)",
+          "correctAnswer": "noires",
+          "explanation": "Noir → noire (fem) → noires (fem plural)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Un ___ chapeau. (big)",
+          "correctAnswer": "grand",
+          "explanation": "Grand goes before the noun (BANGS adjective)."
         }
       ]
     },
     "advanced": {
-      "title": "Question Formation — Est-ce que, Inversion & Question Words",
-      "explanation": "French has three question-forming methods, each suited to a different register.\n\n**1. Rising intonation** — Informal speech only. Keep statement word order, raise pitch at the end.\n• Vous habitez ici ? (You live here?)\n\n**2. Est-ce que** — Neutral register, works in speech and writing. Place est-ce que before the subject + verb.\n• Est-ce que vous habitez ici ?\n\n**3. Inversion** — Formal register, written French, and official speech. Invert the subject pronoun and verb with a hyphen.\n• Habitez-vous ici ?\nWith a third-person singular verb ending in a vowel, insert -t- to aid pronunciation:\n• Parle-t-il français ? (Does he speak French?)\n• Où va-t-elle ? (Where is she going?)\n\n**Extended question words with est-ce que or inversion:**\n• Pourquoi est-ce que le carrefour est fermé ? / Pourquoi le carrefour est-il fermé ?\n• À quelle heure est-ce que le train part ? / À quelle heure le train part-il ?\n• De où venez-vous ? → D'où venez-vous ? (Where are you from?)\n\nNote: 'Qu'est-ce que' is already a fixed expression and does not combine with further inversion in everyday French.",
+      "title": "Adjective Agreement — Regular, Irregular & BANGS Rule",
+      "explanation": "Regular agreement: add -e (feminine), -s (plural), -es (feminine plural): vert → verte → verts → vertes. Irregular feminines: blanc/blanche, gris/grise, long/longue, beau/belle, nouveau/nouvelle, vieux/vieille. BANGS adjectives go BEFORE the noun: Beauty (beau, joli), Age (jeune, vieux, nouveau), Number (premier, dernier), Goodness (bon, mauvais, gentil), Size (grand, petit, gros, long). Multiple adjectives: size before noun + colour after: un grand manteau noir. Colour adjectives ending in -e don't change: rouge, jaune, rose.",
       "examples": [
         {
-          "french": "Pourquoi le pont est-il fermé ?",
-          "english": "Why is the bridge closed? (formal inversion)"
+          "french": "Une belle robe blanche.",
+          "english": "A beautiful white dress."
         },
         {
-          "french": "À quelle heure est-ce que la pharmacie ouvre ?",
-          "english": "What time does the pharmacy open?"
+          "french": "De nouvelles chaussures noires.",
+          "english": "New black shoes."
         },
         {
-          "french": "D'où venez-vous ?",
-          "english": "Where are you from? (formal)"
+          "french": "Le vieux manteau gris.",
+          "english": "The old grey coat."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Parle-___-il français ? (Does he speak French? — insert the linking letter)",
-          "correctAnswer": "t",
-          "explanation": "When a third-person singular verb ends in a vowel and the subject is 'il', 'elle', or 'on', insert '-t-' between the verb and subject pronoun to avoid hiatus (two vowel sounds clashing)."
-        },
-        {
-          "type": "multipleChoice",
-          "question": "Which is the formal (inversion) form of 'Est-ce que vous cherchez la gare ?'",
-          "options": [
-            "Cherchez-vous la gare ?",
-            "Vous cherchez la gare ?",
-            "La gare, vous la cherchez ?",
-            "Qu'est-ce que vous cherchez la gare ?"
-          ],
-          "correctAnswer": "Cherchez-vous la gare ?",
-          "explanation": "Inversion places the verb first, then adds the subject pronoun with a hyphen: Cherchez-vous…?"
+          "question": "La chemise est ___. (white, feminine)",
+          "correctAnswer": "blanche",
+          "explanation": "Blanc → blanche (irregular feminine)."
         },
         {
           "type": "fillInTheBlank",
-          "question": "D'___ venez-vous ? (Where are you from?)",
-          "correctAnswer": "où",
-          "explanation": "'D'où' is the contracted form of 'de où'. In French, 'de' and 'où' contract to 'd'où' when asking about origin."
+          "question": "Les chaussures sont ___. (green, feminine plural)",
+          "correctAnswer": "vertes",
+          "explanation": "Vert → verte → vertes (regular agreement)."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'Why is the pharmacy closed?' using inversion?",
-          "options": [
-            "Pourquoi la pharmacie est fermée ?",
-            "Pourquoi est-ce que fermée la pharmacie ?",
-            "Pourquoi la pharmacie est-elle fermée ?",
-            "Pourquoi ferme-t-elle la pharmacie ?"
-          ],
-          "correctAnswer": "Pourquoi la pharmacie est-elle fermée ?",
-          "explanation": "When the subject is a noun (not a pronoun), you keep the noun, then add the matching pronoun after the verb with a hyphen: la pharmacie est-elle…?"
-        },
-        {
-          "type": "multipleChoice",
-          "question": "Which question asks 'What time does the train leave?' correctly?",
-          "options": [
-            "À quelle heure est-ce que le train part ?",
-            "Comment le train part ?",
-            "Quand est-ce que part le train à heure ?",
-            "Quelle part le train est-ce que ?"
-          ],
-          "correctAnswer": "À quelle heure est-ce que le train part ?",
-          "explanation": "'À quelle heure' means 'at what time'. It combines naturally with est-ce que followed by normal statement word order."
+          "question": "Which is correct?",
+          "options": ["une rouge robe", "une robe rouge", "une robe rouges", "un robe rouge"],
+          "correctAnswer": "une robe rouge",
+          "explanation": "Colour after noun, agree in gender: une robe rouge."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Où ___ -t-il habiter ? (Where does he want to live? — verb: veut)",
-          "correctAnswer": "veut",
-          "explanation": "The inversion form is: question word + verb + -t- (because 'veut' ends in a vowel) + pronoun. Result: Où veut-il habiter ?"
-        },
-        {
-          "type": "multipleChoice",
-          "question": "Which sentence correctly uses inversion with a noun subject?",
-          "options": [
-            "Quand le bus arrive-il ?",
-            "Quand le bus arrive-t-il ?",
-            "Quand arrive le bus ?",
-            "Quand est-ce que arrive-t-il le bus ?"
-          ],
-          "correctAnswer": "Quand le bus arrive-t-il ?",
-          "explanation": "With a noun subject, keep the noun before the verb, then add the pronoun after: le bus arrive-t-il? The -t- is needed because 'arrive' ends in a vowel."
+          "question": "Une ___ robe. (beautiful)",
+          "correctAnswer": "belle",
+          "explanation": "Beau → belle (feminine). BANGS: goes before noun."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Combien de temps ___ -il pour aller à la gare ? (How long does it take to get to the station? — verb: faut)",
-          "correctAnswer": "faut",
-          "explanation": "'Combien de temps faut-il ?' is a fixed, very useful expression meaning 'how long does it take?'. 'Faut' comes from the impersonal verb 'falloir'."
+          "question": "De ___ chaussures noires. (new, feminine plural)",
+          "correctAnswer": "nouvelles",
+          "explanation": "Nouveau → nouvelle → nouvelles (irregular)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which adjective does NOT change in the feminine?",
+          "options": ["blanc", "rouge", "noir", "vert"],
+          "correctAnswer": "rouge",
+          "explanation": "Rouge already ends in -e, so it stays the same for masculine and feminine."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Le ___ manteau gris. (old)",
+          "correctAnswer": "vieux",
+          "explanation": "Vieux = old (masculine). Feminine: vieille. Goes before the noun."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "La jupe est ___. (grey, feminine)",
+          "correctAnswer": "grise",
+          "explanation": "Gris → grise (add -e for feminine)."
         }
       ]
     }
@@ -436,133 +355,104 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "What does 'le pont' mean?",
-        "options": ["The square", "The bridge", "The crossroads"],
-        "correctAnswer": "The bridge",
-        "explanation": "'Le pont' means 'the bridge'. Example: Traversez le pont — Cross the bridge.",
-        "targetWord": "le pont"
+        "question": "What does 'la robe' mean?",
+        "options": ["the skirt", "the dress", "the shirt"],
+        "correctAnswer": "the dress",
+        "explanation": "'La robe' means the dress. It is feminine.",
+        "targetWord": "la robe"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Complete the direction: Tournez à gauche au ___. (Turn left at the crossroads.)",
-        "correctAnswer": "carrefour",
-        "explanation": "'Le carrefour' means 'the crossroads' or 'the intersection'. It is a masculine noun.",
-        "targetWord": "le carrefour"
+        "question": "Le chapeau est ___. (white, masculine)",
+        "correctAnswer": "blanc",
+        "explanation": "Blanc is the masculine form. Feminine: blanche.",
+        "targetWord": "blanc"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'Where is the pharmacy?' in French?",
-        "options": [
-          "Où est la pharmacie ?",
-          "Comment est la pharmacie ?",
-          "Quand est la pharmacie ?"
-        ],
-        "correctAnswer": "Où est la pharmacie ?",
-        "explanation": "'Où' means 'where'. 'Où est la pharmacie ?' — Where is the pharmacy?",
-        "targetWord": "la pharmacie"
+        "question": "How do you say 'a red dress'?",
+        "options": ["une rouge robe", "une robe rouge", "un robe rouge"],
+        "correctAnswer": "une robe rouge",
+        "explanation": "Colour goes after the noun. Robe is feminine: une robe rouge.",
+        "targetWord": "rouge"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le pantalon'?",
+        "options": ["the shirt", "the hat", "the trousers"],
+        "correctAnswer": "the trousers",
+        "explanation": "'Le pantalon' means trousers/pants. Singular in French.",
+        "targetWord": "le pantalon"
       },
       {
         "type": "fillInTheBlank",
-        "question": "___-ce que vous pouvez répéter ? (Can you repeat that?)",
-        "correctAnswer": "Est",
-        "explanation": "'Est-ce que' is used to form a question without changing the word order of the statement.",
-        "targetWord": "tourner"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "A tourist says: 'Je cherche la place.' What are they looking for?",
-        "options": ["The bridge", "The pharmacy", "The square"],
-        "correctAnswer": "The square",
-        "explanation": "'La place' means 'the square' or 'the plaza' — a public open space in a town.",
-        "targetWord": "la place"
+        "question": "Il porte un grand ___. (hat)",
+        "correctAnswer": "chapeau",
+        "explanation": "'Le chapeau' means the hat. Plural: les chapeaux.",
+        "targetWord": "le chapeau"
       }
     ],
     "advanced": [
       {
         "type": "multipleChoice",
-        "question": "What does 'le rond-point' mean?",
-        "options": ["The crossroads", "The roundabout", "The traffic light", "The bridge"],
-        "correctAnswer": "The roundabout",
-        "explanation": "'Le rond-point' means 'the roundabout'. Example: Prenez la deuxième sortie au rond-point.",
-        "targetWord": "le rond-point"
+        "question": "What are 'les chaussures'?",
+        "options": ["the coats", "the hats", "the shoes", "the socks"],
+        "correctAnswer": "the shoes",
+        "explanation": "'Les chaussures' means shoes. Usually plural.",
+        "targetWord": "les chaussures"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Tournez à droite au ___. (Turn right at the traffic lights.)",
-        "correctAnswer": "feu",
-        "explanation": "'Le feu' (short for 'feu de signalisation') means 'the traffic light'. 'Au feu' = at the traffic lights.",
-        "targetWord": "le feu"
+        "question": "Il fait froid, prends ton ___. (coat)",
+        "correctAnswer": "manteau",
+        "explanation": "'Le manteau' means the coat. Plural: les manteaux.",
+        "targetWord": "le manteau"
       },
       {
         "type": "multipleChoice",
-        "question": "Which is the correct formal inversion question for 'Est-ce qu'il parle français ?'",
-        "options": [
-          "Parle-il français ?",
-          "Parle-t-il français ?",
-          "Il parle-t français ?",
-          "Est-il parle français ?"
-        ],
-        "correctAnswer": "Parle-t-il français ?",
-        "explanation": "When the verb ends in a vowel and the pronoun is 'il', insert '-t-' to aid pronunciation: Parle-t-il ?",
-        "targetWord": "tourner"
+        "question": "What is the feminine of 'blanc'?",
+        "options": ["blance", "blanche", "blane", "blanc"],
+        "correctAnswer": "blanche",
+        "explanation": "Blanc → blanche is an irregular feminine change.",
+        "targetWord": "blanc"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Traversez le ___ et continuez tout droit. (Cross the bridge and continue straight ahead.)",
-        "correctAnswer": "pont",
-        "explanation": "'Le pont' means 'the bridge'. 'Traverser' means 'to cross'.",
-        "targetWord": "le pont"
+        "question": "Les chaussures sont ___. (black, feminine plural)",
+        "correctAnswer": "noires",
+        "explanation": "Noir → noire (fem) → noires (fem plural).",
+        "targetWord": "les chaussures"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'Where are you from?' using formal inversion?",
-        "options": [
-          "Où vous venez ?",
-          "D'où venez-vous ?",
-          "Où est-ce que vous venez ?",
-          "D'où vous venez-vous ?"
-        ],
-        "correctAnswer": "D'où venez-vous ?",
-        "explanation": "'D'où' is the contracted form of 'de où'. With inversion: D'où venez-vous ? — Where are you from?",
-        "targetWord": "le carrefour"
+        "question": "Where does 'grand' go in a sentence?",
+        "options": ["After the noun", "Before the noun", "At the end", "It doesn't matter"],
+        "correctAnswer": "Before the noun",
+        "explanation": "Grand is a BANGS adjective — it goes before the noun: un grand manteau.",
+        "targetWord": "le manteau"
       },
       {
-        "type": "multipleChoice",
-        "question": "Which sentence correctly asks 'What time does the pharmacy open?' using est-ce que?",
-        "options": [
-          "À quelle heure ouvre est-ce que la pharmacie ?",
-          "À quelle heure est-ce que la pharmacie ouvre ?",
-          "Est-ce que à quelle heure la pharmacie ouvre ?",
-          "La pharmacie est-ce que à quelle heure ouvre ?"
-        ],
-        "correctAnswer": "À quelle heure est-ce que la pharmacie ouvre ?",
-        "explanation": "The question word phrase 'à quelle heure' comes first, then 'est-ce que', then the normal subject + verb order.",
-        "targetWord": "la pharmacie"
+        "type": "fillInTheBlank",
+        "question": "Une ___ robe bleue. (beautiful)",
+        "correctAnswer": "belle",
+        "explanation": "Beau → belle (feminine). BANGS adjective: before the noun.",
+        "targetWord": "la robe"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "A stranger stops you on the street and asks you how to find the nearest pharmacy. You know it is straight ahead, then turn left at the crossroads, and it is next to the bridge. Give them clear step-by-step directions in French.",
-      "keyPhrases": [
-        "Continuez tout droit jusqu'au… (Continue straight ahead to the…)",
-        "Tournez à gauche / à droite (Turn left / right)",
-        "C'est à côté de… (It is next to…)"
-      ],
-      "modelAnswer": "Continuez tout droit jusqu'au carrefour. Tournez à gauche au carrefour. La pharmacie est à côté du pont, sur votre droite.",
-      "modelAnswerExplanation": "This model answer uses three clear steps: go straight to the crossroads, turn left, then identify the pharmacy by its position next to the bridge. 'Sur votre droite' (on your right) is a helpful final landmark phrase.",
-      "tip": "When giving directions in French, use the imperative (command form): 'Continuez', 'Tournez', 'Traversez'. These are the vous-form imperatives — polite and clear for a stranger."
+      "scenario": "Your friend asks what you're wearing today. Describe your outfit — mention at least three clothing items and their colours.",
+      "keyPhrases": ["Je porte...", "Mon/Ma... est...", "Il/Elle est... (colour)"],
+      "modelAnswer": "Aujourd'hui, je porte un pantalon noir et une chemise blanche. Mon chapeau est rouge. Mes chaussures sont noires.",
+      "modelAnswerExplanation": "This uses 'je porte' for wearing, colour adjectives after the noun, and agreement: blanc → blanche (feminine), noir → noires (feminine plural).",
+      "tip": "Remember: colours go after the noun. Use 'blanc/blanche' and 'noir/noire' depending on gender."
     },
     "advanced": {
-      "scenario": "You are lost in a French city and need to find the train station. Stop a passerby, ask for directions politely, ask them to slow down or repeat if you don't understand, and confirm the key steps of the route before you leave.",
-      "keyPhrases": [
-        "Excusez-moi, pourriez-vous m'indiquer le chemin pour… ? (Could you show me the way to…?)",
-        "Pourriez-vous répéter plus lentement, s'il vous plaît ? (Could you repeat that more slowly, please?)",
-        "Si je comprends bien, je dois… c'est bien ça ? (If I understand correctly, I need to… is that right?)",
-        "Prenez la sortie / le feu / le rond-point (Take the exit / the traffic light / the roundabout)"
-      ],
-      "modelAnswer": "Excusez-moi, madame. Pourriez-vous m'indiquer le chemin pour aller à la gare ? Je suis un peu perdu. … Pardon, pourriez-vous répéter plus lentement, s'il vous plaît ? … Alors, si je comprends bien, je dois continuer jusqu'au rond-point, prendre la deuxième sortie, tourner à droite au feu, traverser le pont, et la gare est sur la place — c'est bien ça ? Merci beaucoup, vous êtes très aimable !",
-      "modelAnswerExplanation": "This model answer demonstrates a full interaction: asking politely with 'pourriez-vous' (conditional — more polite than 'pouvez-vous'), requesting clarification, summarising the route to confirm understanding, and closing with a warm thank-you. Summarising directions back to the speaker ('si je comprends bien…') is both a real-life strategy and impressive language use.",
+      "scenario": "You're helping a friend choose an outfit for an important dinner. Describe what they should wear, suggest colours that go well together, and explain why you recommend each item. Use adjectives before and after the nouns.",
+      "keyPhrases": ["Tu peux porter...", "La/Le... est plus...", "...va bien avec...", "Une belle... avec un/une..."],
+      "modelAnswer": "Pour le dîner, tu peux porter ta belle robe bleue. Elle est élégante. Avec la robe, les chaussures noires vont bien. Prends ton nouveau manteau gris, il fait froid ce soir. Le blanc va aussi bien avec le bleu, mais le noir est plus élégant.",
+      "modelAnswerExplanation": "This uses BANGS adjectives before nouns (belle robe, nouveau manteau), colours after nouns (robe bleue, chaussures noires), comparative (plus élégant), and 'aller bien avec' for matching.",
       "tip": ""
     }
   }

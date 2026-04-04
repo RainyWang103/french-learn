@@ -1,178 +1,160 @@
 {
-  "day": 13,
+  "day": 10,
   "phase": 1,
-  "topic": "At the Market",
+  "topic": "My Family",
   "vocab": {
     "standard": [
       {
-        "word": "le marché",
+        "word": "la mère",
         "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh mar-shay",
-        "meaning": "the market",
+        "gender": "female",
+        "pronunciation": "la mair",
+        "meaning": "the mother",
+        "notes": "Informal: maman (mum).",
         "examples": [
-          ["Je vais au marché le samedi.", "I go to the market on Saturdays."],
-          ["Le marché est ouvert le matin.", "The market is open in the morning."]
+          ["Ma mère est gentille.", "My mother is kind."],
+          ["La mère de Pierre travaille.", "Pierre's mother works."]
         ],
         "special": ""
       },
       {
-        "word": "acheter",
-        "partOfSpeech": "verb",
+        "word": "le père",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pair",
+        "meaning": "the father",
+        "notes": "Informal: papa (dad).",
+        "examples": [
+          ["Mon père est grand.", "My father is tall."],
+          ["Le père de Marie est français.", "Marie's father is French."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le frère",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh frair",
+        "meaning": "the brother",
+        "examples": [
+          ["Mon frère a dix ans.", "My brother is ten years old."],
+          ["J'ai un frère.", "I have a brother."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la sœur",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la sir",
+        "meaning": "the sister",
+        "examples": [
+          ["Ma sœur habite à Paris.", "My sister lives in Paris."],
+          ["J'ai une sœur.", "I have a sister."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'enfant",
+        "partOfSpeech": "noun",
         "gender": null,
-        "pronunciation": "ash-tay",
-        "meaning": "to buy",
-        "notes": "Stem change: j'achète (è in singular forms and ils/elles).",
-        "conjugation": {
-          "je": "achète",
-          "tu": "achètes",
-          "il/elle": "achète",
-          "nous": "achetons",
-          "vous": "achetez",
-          "ils/elles": "achètent"
-        },
+        "pronunciation": "lon-fon",
+        "meaning": "the child",
+        "notes": "Can be masculine or feminine. Plural: les enfants.",
         "examples": [
-          ["J'achète des pommes au marché.", "I buy apples at the market."],
-          ["Qu'est-ce que tu achètes ?", "What are you buying?"]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le prix",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh pree",
-        "meaning": "the price",
-        "notes": "The final 'x' is silent.",
-        "examples": [
-          ["Quel est le prix ?", "What is the price?"],
-          ["Le prix est deux euros.", "The price is two euros."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le vendeur",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh von-dur",
-        "meaning": "the seller / the shop assistant",
-        "notes": "Feminine form: la vendeuse.",
-        "examples": [
-          ["Le vendeur est très gentil.", "The seller is very kind."],
-          ["Le vendeur donne le sac.", "The seller gives the bag."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "un kilo",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "an kee-lo",
-        "meaning": "a kilogram",
-        "notes": "Short for kilogramme. Used with 'de': un kilo de pommes.",
-        "examples": [
-          ["Un kilo de pommes, s'il vous plaît.", "A kilo of apples, please."],
-          ["C'est combien le kilo ?", "How much is it per kilo?"]
+          ["L'enfant joue dans le parc.", "The child plays in the park."],
+          ["Ils ont deux enfants.", "They have two children."]
         ],
         "special": ""
       }
     ],
     "advanced": [
       {
-        "word": "le marché",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh mar-shay",
-        "meaning": "the market",
-        "examples": [
-          ["Je vais au marché le samedi.", "I go to the market on Saturdays."],
-          ["Le marché est ouvert le matin.", "The market is open in the morning."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "acheter",
-        "partOfSpeech": "verb",
-        "gender": null,
-        "pronunciation": "ash-tay",
-        "meaning": "to buy",
-        "notes": "Stem change: j'achète (è in singular forms and ils/elles).",
-        "conjugation": {
-          "je": "achète",
-          "tu": "achètes",
-          "il/elle": "achète",
-          "nous": "achetons",
-          "vous": "achetez",
-          "ils/elles": "achètent"
-        },
-        "examples": [
-          ["J'achète des pommes au marché.", "I buy apples at the market."],
-          ["Qu'est-ce que tu achètes ?", "What are you buying?"]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le prix",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh pree",
-        "meaning": "the price",
-        "notes": "The final 'x' is silent.",
-        "examples": [
-          ["Quel est le prix ?", "What is the price?"],
-          ["Le prix est deux euros.", "The price is two euros."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le vendeur",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh von-dur",
-        "meaning": "the seller / the shop assistant",
-        "notes": "Feminine form: la vendeuse.",
-        "examples": [
-          ["Le vendeur est très gentil.", "The seller is very kind."],
-          ["Le vendeur donne le sac.", "The seller gives the bag."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "un kilo",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "an kee-lo",
-        "meaning": "a kilogram",
-        "notes": "Short for kilogramme. Used with 'de': un kilo de pommes.",
-        "examples": [
-          ["Un kilo de pommes, s'il vous plaît.", "A kilo of apples, please."],
-          ["C'est combien le kilo ?", "How much is it per kilo?"]
-        ],
-        "special": ""
-      },
-      {
-        "word": "la monnaie",
+        "word": "la mère",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la mo-nay",
-        "meaning": "the change (money) / coins",
-        "notes": "Also means currency. 'Faire la monnaie' = to make change.",
+        "pronunciation": "la mair",
+        "meaning": "the mother",
+        "notes": "Informal: maman (mum).",
         "examples": [
-          ["Vous avez la monnaie ?", "Do you have change?"],
-          ["Je n'ai pas de monnaie.", "I don't have any change."]
+          ["Ma mère est gentille.", "My mother is kind."],
+          ["La mère de Pierre travaille.", "Pierre's mother works."]
         ],
         "special": ""
       },
       {
-        "word": "le sac",
+        "word": "le père",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh sak",
-        "meaning": "the bag",
-        "notes": "Le sac à main = handbag. Le sac en plastique = plastic bag.",
+        "pronunciation": "luh pair",
+        "meaning": "the father",
+        "notes": "Informal: papa (dad).",
         "examples": [
-          ["Vous voulez un sac ?", "Would you like a bag?"],
-          ["Je mets les fruits dans le sac.", "I put the fruit in the bag."]
+          ["Mon père est grand.", "My father is tall."],
+          ["Le père de Marie est français.", "Marie's father is French."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le frère",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh frair",
+        "meaning": "the brother",
+        "examples": [
+          ["Mon frère a dix ans.", "My brother is ten years old."],
+          ["J'ai un frère.", "I have a brother."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la sœur",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la sir",
+        "meaning": "the sister",
+        "examples": [
+          ["Ma sœur habite à Paris.", "My sister lives in Paris."],
+          ["J'ai une sœur.", "I have a sister."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'enfant",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "lon-fon",
+        "meaning": "the child",
+        "notes": "Can be masculine or feminine. Plural: les enfants.",
+        "examples": [
+          ["L'enfant joue dans le parc.", "The child plays in the park."],
+          ["Ils ont deux enfants.", "They have two children."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le grand-père",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh gron-pair",
+        "meaning": "the grandfather",
+        "notes": "Informal: papy or papi. Plural: les grands-pères.",
+        "examples": [
+          ["Mon grand-père a soixante-dix ans.", "My grandfather is seventy years old."],
+          ["Le grand-père raconte des histoires.", "The grandfather tells stories."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la grand-mère",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la gron-mair",
+        "meaning": "the grandmother",
+        "notes": "Informal: mamie. Plural: les grands-mères.",
+        "examples": [
+          ["Ma grand-mère fait des gâteaux.", "My grandmother makes cakes."],
+          ["La grand-mère habite à la campagne.", "The grandmother lives in the countryside."]
         ],
         "special": ""
       }
@@ -181,188 +163,188 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonjour ! Je voudrais des pommes, s'il vous plaît."],
-        ["B", "Bien sûr ! Combien ?"],
-        ["A", "Un kilo, s'il vous plaît. C'est combien ?"],
-        ["B", "Deux euros le kilo."],
-        ["A", "D'accord. Et je voudrais aussi du fromage."],
-        ["B", "Voilà le fromage. Trois euros cinquante."],
-        ["A", "Je peux payer avec un billet de dix euros ?"],
-        ["B", "Oui, bien sûr. Voilà votre monnaie. Bonne journée !"]
+        ["A", "Tu as une grande famille ?"],
+        ["B", "Oui ! J'ai un frère et une sœur."],
+        ["A", "Comment s'appelle ton frère ?"],
+        ["B", "Mon frère s'appelle Lucas. Il a douze ans."],
+        ["A", "Et ta sœur ?"],
+        ["B", "Ma sœur s'appelle Emma. Elle a huit ans."],
+        ["A", "Et tes parents ?"],
+        ["B", "Ma mère est professeur et mon père est médecin."]
       ],
       "questions": [
         {
-          "question": "Qu'est-ce que A achète en premier ?",
-          "options": ["Du fromage", "Des pommes", "Du pain"],
-          "correctAnswer": "Des pommes"
+          "question": "Combien de frères et sœurs a B ?",
+          "options": ["Un frère", "Une sœur", "Un frère et une sœur"],
+          "correctAnswer": "Un frère et une sœur"
         },
         {
-          "question": "Combien coûtent les pommes ?",
-          "options": ["Un euro le kilo", "Deux euros le kilo", "Trois euros le kilo"],
-          "correctAnswer": "Deux euros le kilo"
+          "question": "Quel âge a Lucas ?",
+          "options": ["Huit ans", "Dix ans", "Douze ans"],
+          "correctAnswer": "Douze ans"
         },
         {
-          "question": "Combien coûte le fromage ?",
-          "options": ["Deux euros", "Trois euros cinquante", "Cinq euros"],
-          "correctAnswer": "Trois euros cinquante"
+          "question": "Quelle est la profession de la mère de B ?",
+          "options": ["Médecin", "Professeur", "Vendeur"],
+          "correctAnswer": "Professeur"
         }
       ],
-      "summary": "A customer buys apples (one kilo at two euros) and cheese (three euros fifty) at the market. The customer pays with a ten-euro note and receives change."
+      "summary": "A asks B about their family. B has a brother named Lucas who is twelve and a sister named Emma who is eight. B's mother is a teacher and father is a doctor."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Bonjour monsieur ! Je voudrais un kilo de tomates, s'il vous plaît."],
-        ["B", "Voilà, un kilo de tomates. Vous voulez autre chose ?"],
-        ["A", "Oui, je peux avoir du fromage ? Le petit rond, là."],
-        ["B", "Celui-ci ? C'est du chèvre. Quatre euros la pièce."],
-        ["A", "C'est un peu cher. Vous pouvez faire trois euros cinquante ?"],
-        ["B", "Hmm, d'accord, pour vous, trois euros cinquante."],
-        ["A", "Merci ! Je prends aussi un sac de pommes de terre. C'est combien le tout ?"],
-        ["B", "Alors, les tomates deux euros, le fromage trois cinquante, les pommes de terre un euro cinquante. Ça fait sept euros."]
+        ["A", "C'est une photo de ta famille ?"],
+        ["B", "Oui ! Ici, c'est ma mère et mon père. Ils habitent à Lyon."],
+        ["A", "Et là, c'est ton frère ?"],
+        ["B", "Oui, c'est mon frère aîné, Thomas. Il a vingt-cinq ans. Et à côté, c'est sa femme."],
+        ["A", "Ils ont des enfants ?"],
+        ["B", "Oui, ils ont un enfant. Et là, ce sont mes grands-parents."],
+        ["A", "Ta grand-mère a l'air gentille."],
+        ["B", "Oui, elle est très gentille. Mon grand-père et ma grand-mère habitent à la campagne."]
       ],
       "questions": [
         {
-          "question": "Quel type de fromage A veut-il ?",
-          "options": ["Du camembert", "Du chèvre", "Du gruyère", "Du brie"],
-          "correctAnswer": "Du chèvre"
+          "question": "Où habitent les parents de B ?",
+          "options": ["À Paris", "À Lyon", "À la campagne", "À Marseille"],
+          "correctAnswer": "À Lyon"
         },
         {
-          "question": "Combien coûte le fromage après la négociation ?",
-          "options": ["Quatre euros", "Trois euros cinquante", "Trois euros", "Deux euros cinquante"],
-          "correctAnswer": "Trois euros cinquante"
+          "question": "Quel âge a Thomas ?",
+          "options": ["Vingt ans", "Vingt-deux ans", "Vingt-cinq ans", "Trente ans"],
+          "correctAnswer": "Vingt-cinq ans"
         },
         {
-          "question": "Quel est le prix total ?",
-          "options": ["Cinq euros", "Six euros", "Sept euros", "Huit euros"],
-          "correctAnswer": "Sept euros"
+          "question": "Où habitent les grands-parents de B ?",
+          "options": ["À Lyon", "À Paris", "En ville", "À la campagne"],
+          "correctAnswer": "À la campagne"
         }
       ],
-      "summary": "A customer at an outdoor market buys tomatoes (two euros), goat cheese (negotiated from four euros to three fifty), and potatoes (one fifty). The total is seven euros."
+      "summary": "B shows A a family photo. B's parents live in Lyon. B's older brother Thomas is twenty-five and has a wife and one child. B's grandparents live in the countryside and the grandmother is very kind."
     }
   },
   "grammar": {
     "standard": {
-      "title": "Vouloir & Pouvoir (je voudrais, je peux)",
-      "explanation": "Vouloir (to want) and pouvoir (to be able to / can) are essential modal verbs. They are followed by an infinitive: je veux manger (I want to eat), je peux payer (I can pay). For polite requests, use the conditional form 'je voudrais' (I would like) instead of 'je veux' (I want). Conjugation of vouloir: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent. Conjugation of pouvoir: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent.",
+      "title": "Possessive Adjectives (mon, ma, mes, ton, ta, tes)",
+      "explanation": "Possessive adjectives show who owns something. They must agree with the noun they describe (not the owner). For 'my': mon (masculine), ma (feminine), mes (plural). For 'your' (informal): ton (masculine), ta (feminine), tes (plural). Important: before feminine words starting with a vowel, use mon/ton instead of ma/ta. Example: mon amie (my female friend), not 'ma amie'.",
       "examples": [
         {
-          "french": "Je voudrais un kilo de pommes.",
-          "english": "I would like a kilo of apples."
+          "french": "Mon frère est grand.",
+          "english": "My brother is tall."
         },
         {
-          "french": "Tu peux m'aider ?",
-          "english": "Can you help me?"
+          "french": "Ma sœur habite à Paris.",
+          "english": "My sister lives in Paris."
         },
         {
-          "french": "Nous voulons acheter du fromage.",
-          "english": "We want to buy cheese."
+          "french": "Mes parents sont gentils.",
+          "english": "My parents are kind."
         },
         {
-          "french": "Vous pouvez payer par carte ?",
-          "english": "Can you pay by card?"
+          "french": "Ton père est médecin ?",
+          "english": "Is your father a doctor?"
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Je ___ un kilo de pommes, s'il vous plaît. (would like)",
-          "correctAnswer": "voudrais",
-          "explanation": "'Je voudrais' is the polite form of 'je veux'."
+          "question": "___ frère s'appelle Lucas. (my)",
+          "correctAnswer": "Mon",
+          "explanation": "Frère is masculine → mon."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Tu ___ m'aider ? (can)",
-          "correctAnswer": "peux",
-          "explanation": "Tu + pouvoir = tu peux."
+          "question": "___ mère est professeur. (my)",
+          "correctAnswer": "Ma",
+          "explanation": "Mère is feminine → ma."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Nous ___ acheter du fromage. (to want)",
-          "correctAnswer": "voulons",
-          "explanation": "Nous + vouloir = nous voulons."
+          "question": "___ parents habitent à Lyon. (my)",
+          "correctAnswer": "Mes",
+          "explanation": "Parents is plural → mes."
         },
         {
           "type": "multipleChoice",
-          "question": "Which is more polite?",
-          "options": ["Je veux un café.", "Je voudrais un café.", "Je peux un café."],
-          "correctAnswer": "Je voudrais un café.",
-          "explanation": "'Je voudrais' (I would like) is more polite than 'je veux' (I want)."
+          "question": "How do you say 'your sister' (informal)?",
+          "options": ["ton sœur", "ta sœur", "tes sœur"],
+          "correctAnswer": "ta sœur",
+          "explanation": "Sœur is feminine singular → ta sœur."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Vous ___ payer par carte ? (can)",
-          "correctAnswer": "pouvez",
-          "explanation": "Vous + pouvoir = vous pouvez."
+          "question": "___ enfants sont à l'école. (your, informal)",
+          "correctAnswer": "Tes",
+          "explanation": "Enfants is plural → tes."
         }
       ]
     },
     "advanced": {
-      "title": "Vouloir, Pouvoir & Devoir — Modal Verbs",
-      "explanation": "The three main modal verbs: vouloir (to want), pouvoir (can/to be able), devoir (must/to have to). All are irregular and followed by an infinitive. Vouloir: je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent. Pouvoir: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent. Devoir: je dois, tu dois, il doit, nous devons, vous devez, ils doivent. Polite form: je voudrais (I would like), je pourrais (could I). Negation: je ne peux pas payer.",
+      "title": "Possessive Adjectives — All Forms + de (Possession)",
+      "explanation": "Full possessive adjective chart: mon/ma/mes (my), ton/ta/tes (your informal), son/sa/ses (his/her/its), notre/nos (our), votre/vos (your formal/plural), leur/leurs (their). Son/sa/ses agrees with the possessed noun, not the owner: 'sa mère' can mean his mother or her mother. Before feminine nouns starting with a vowel, use mon/ton/son: mon amie. To express 'of' possession: le frère de Marie (Marie's brother).",
       "examples": [
         {
-          "french": "Je dois partir à midi.",
-          "english": "I must leave at noon."
+          "french": "Son père est français.",
+          "english": "His/her father is French."
         },
         {
-          "french": "Elle ne peut pas venir.",
-          "english": "She cannot come."
+          "french": "Leur grand-mère habite à la campagne.",
+          "english": "Their grandmother lives in the countryside."
         },
         {
-          "french": "Vous devez payer avant de partir.",
-          "english": "You must pay before leaving."
+          "french": "C'est le frère de Marie.",
+          "english": "It's Marie's brother."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Je ___ un kilo de tomates. (would like)",
-          "correctAnswer": "voudrais",
-          "explanation": "'Je voudrais' is the polite conditional of vouloir."
+          "question": "___ père est médecin. (his/her)",
+          "correctAnswer": "Son",
+          "explanation": "Père is masculine → son (for his or her)."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Tu ___ m'aider ? (can)",
-          "correctAnswer": "peux",
-          "explanation": "Tu + pouvoir = tu peux."
+          "question": "___ mère est professeur. (his/her)",
+          "correctAnswer": "Sa",
+          "explanation": "Mère is feminine → sa (for his or her)."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Nous ___ partir maintenant. (must)",
-          "correctAnswer": "devons",
-          "explanation": "Nous + devoir = nous devons."
+          "question": "___ enfants sont grands. (their)",
+          "correctAnswer": "Leurs",
+          "explanation": "Enfants is plural → leurs."
         },
         {
           "type": "multipleChoice",
-          "question": "What does 'je dois' mean?",
-          "options": ["I can", "I want", "I must", "I would like"],
-          "correctAnswer": "I must",
-          "explanation": "Devoir = must/to have to. Je dois = I must."
+          "question": "How do you say 'our house'?",
+          "options": ["nos maison", "notre maison", "nos maisons", "nôtre maison"],
+          "correctAnswer": "notre maison",
+          "explanation": "Maison is singular → notre maison. Plural would be: nos maisons."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Ils ne ___ pas venir ce soir. (can)",
-          "correctAnswer": "peuvent",
-          "explanation": "Ils + pouvoir = ils peuvent. Negation: ne peuvent pas."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "Vous ___ payer avant de partir. (must)",
-          "correctAnswer": "devez",
-          "explanation": "Vous + devoir = vous devez."
+          "question": "C'est la sœur ___ Thomas. (of)",
+          "correctAnswer": "de",
+          "explanation": "'De' expresses possession: la sœur de Thomas = Thomas's sister."
         },
         {
           "type": "multipleChoice",
-          "question": "Which sentence is correct?",
-          "options": ["Je ne veux pas acheter.", "Je veux ne pas acheter.", "Je ne acheter veux pas.", "Ne je veux pas acheter."],
-          "correctAnswer": "Je ne veux pas acheter.",
-          "explanation": "Negation wraps the conjugated verb: ne + veux + pas. The infinitive follows."
+          "question": "Which is correct for 'her friend (female)'?",
+          "options": ["sa amie", "son amie", "ses amie", "sa ami"],
+          "correctAnswer": "son amie",
+          "explanation": "Before a feminine noun starting with a vowel, use son instead of sa."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Elle ___ trois langues. (can — is able to speak)",
-          "correctAnswer": "peut",
-          "explanation": "Elle + pouvoir = elle peut. 'Elle peut parler trois langues.'"
+          "question": "___ grands-parents habitent à la campagne. (our)",
+          "correctAnswer": "Nos",
+          "explanation": "Grands-parents is plural → nos."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ famille est grande. (your, formal)",
+          "correctAnswer": "Votre",
+          "explanation": "Famille is singular → votre (formal/plural 'your')."
         }
       ]
     }
@@ -371,104 +353,104 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "What does 'le marché' mean?",
-        "options": ["the shop", "the market", "the restaurant"],
-        "correctAnswer": "the market",
-        "explanation": "'Le marché' means the market.",
-        "targetWord": "le marché"
+        "question": "What does 'la mère' mean?",
+        "options": ["the sister", "the mother", "the grandmother"],
+        "correctAnswer": "the mother",
+        "explanation": "'La mère' means 'the mother'. Informal: maman.",
+        "targetWord": "la mère"
       },
       {
         "type": "fillInTheBlank",
-        "question": "J'___ des pommes au marché. (to buy)",
-        "correctAnswer": "achète",
-        "explanation": "J'achète — stem change with è in singular forms.",
-        "targetWord": "acheter"
+        "question": "___ frère a douze ans. (my)",
+        "correctAnswer": "Mon",
+        "explanation": "Frère is masculine → mon frère.",
+        "targetWord": "le frère"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you politely say 'I would like' in French?",
-        "options": ["Je veux", "Je peux", "Je voudrais"],
-        "correctAnswer": "Je voudrais",
-        "explanation": "'Je voudrais' is the polite conditional form of vouloir.",
-        "targetWord": "acheter"
+        "question": "How do you say 'my sister' in French?",
+        "options": ["mon sœur", "ma sœur", "mes sœur"],
+        "correctAnswer": "ma sœur",
+        "explanation": "Sœur is feminine singular → ma sœur.",
+        "targetWord": "la sœur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le père'?",
+        "options": ["the brother", "the child", "the father"],
+        "correctAnswer": "the father",
+        "explanation": "'Le père' means 'the father'. Informal: papa.",
+        "targetWord": "le père"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Quel est le ___ ? (price)",
-        "correctAnswer": "prix",
-        "explanation": "'Le prix' means the price.",
-        "targetWord": "le prix"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "What does 'le vendeur' mean?",
-        "options": ["the buyer", "the seller", "the customer"],
-        "correctAnswer": "the seller",
-        "explanation": "'Le vendeur' means the seller or shop assistant.",
-        "targetWord": "le vendeur"
+        "question": "Ils ont deux ___. (children)",
+        "correctAnswer": "enfants",
+        "explanation": "'Les enfants' means children. Singular: l'enfant.",
+        "targetWord": "l'enfant"
       }
     ],
     "advanced": [
       {
         "type": "multipleChoice",
-        "question": "What is 'la monnaie'?",
-        "options": ["the price", "the change / coins", "the bag", "the receipt"],
-        "correctAnswer": "the change / coins",
-        "explanation": "'La monnaie' means change (money) or coins.",
-        "targetWord": "la monnaie"
+        "question": "How do you say 'his mother' in French?",
+        "options": ["son mère", "sa mère", "ses mère", "leur mère"],
+        "correctAnswer": "sa mère",
+        "explanation": "Mère is feminine singular → sa mère (his or her mother).",
+        "targetWord": "la mère"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Je mets les fruits dans le ___. (bag)",
-        "correctAnswer": "sac",
-        "explanation": "'Le sac' means the bag.",
-        "targetWord": "le sac"
+        "question": "C'est le frère ___ Marie. (of)",
+        "correctAnswer": "de",
+        "explanation": "'De' expresses possession: le frère de Marie.",
+        "targetWord": "le frère"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'je dois' mean?",
-        "options": ["I can", "I want", "I must", "I would like"],
-        "correctAnswer": "I must",
-        "explanation": "Devoir = must/to have to. Je dois = I must.",
-        "targetWord": "le marché"
+        "question": "What is 'le grand-père'?",
+        "options": ["the father", "the uncle", "the grandfather", "the brother"],
+        "correctAnswer": "the grandfather",
+        "explanation": "'Le grand-père' means grandfather. Informal: papy.",
+        "targetWord": "le grand-père"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Vous ___ payer par carte ? (can)",
-        "correctAnswer": "pouvez",
-        "explanation": "Vous + pouvoir = vous pouvez.",
-        "targetWord": "le prix"
+        "question": "___ grand-mère fait des gâteaux. (my)",
+        "correctAnswer": "Ma",
+        "explanation": "Grand-mère is feminine → ma grand-mère.",
+        "targetWord": "la grand-mère"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'a kilo of apples'?",
-        "options": ["un kilo pommes", "un kilo de pommes", "un kilo des pommes", "un kilo à pommes"],
-        "correctAnswer": "un kilo de pommes",
-        "explanation": "Quantities use 'de' (not des): un kilo de pommes.",
-        "targetWord": "un kilo"
+        "question": "Which is correct for 'their children'?",
+        "options": ["leur enfants", "leurs enfants", "ses enfants", "son enfants"],
+        "correctAnswer": "leurs enfants",
+        "explanation": "Plural noun → leurs (not leur). 'Ses enfants' means his/her children.",
+        "targetWord": "l'enfant"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Le ___ est très gentil. (seller)",
-        "correctAnswer": "vendeur",
-        "explanation": "'Le vendeur' means the seller. Feminine: la vendeuse.",
-        "targetWord": "le vendeur"
+        "question": "___ sœur habite à Paris. (your, informal)",
+        "correctAnswer": "Ta",
+        "explanation": "Sœur is feminine singular → ta sœur.",
+        "targetWord": "la sœur"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "You're at a French market stall. Ask the vendor for three items, ask the price, and say thank you politely.",
-      "keyPhrases": ["Je voudrais...", "C'est combien ?", "Un kilo de...", "Merci beaucoup !"],
-      "modelAnswer": "Bonjour ! Je voudrais un kilo de pommes, s'il vous plaît. Et je voudrais aussi du fromage. C'est combien ? D'accord, merci beaucoup ! Bonne journée !",
-      "modelAnswerExplanation": "This uses 'je voudrais' for polite requests, 'un kilo de' for quantities, 'c'est combien' to ask the price, and 's'il vous plaît / merci' for politeness.",
-      "tip": "Always start with 'Bonjour' and use 'je voudrais' instead of 'je veux' to be polite."
+      "scenario": "A new classmate asks about your family. Tell them how many people are in your family, who they are, and one thing about each person.",
+      "keyPhrases": ["J'ai...", "Mon/Ma... s'appelle...", "Il/Elle a... ans.", "Mon/Ma... est..."],
+      "modelAnswer": "J'ai une grande famille. Mon père s'appelle Jean, il est grand. Ma mère s'appelle Sophie, elle est gentille. J'ai un frère, il a dix ans. Et j'ai une sœur, elle a six ans.",
+      "modelAnswerExplanation": "This uses possessive adjectives (mon, ma), 'j'ai' to state family members, 'il/elle a' for age, and 'il/elle est' for descriptions.",
+      "tip": "Start with 'J'ai...' to say how many siblings you have, then describe each person with 'Mon/Ma... est...'."
     },
     "advanced": {
-      "scenario": "You're at an outdoor market buying ingredients for dinner. Ask for specific quantities, negotiate a price that seems too high, ask about payment methods, and make small talk with the vendor about the weather or the products.",
-      "keyPhrases": ["Je voudrais...", "C'est un peu cher.", "Vous pouvez faire... ?", "Je peux payer par carte ?"],
-      "modelAnswer": "Bonjour ! Je voudrais un kilo de tomates et du fromage de chèvre. C'est combien le fromage ? Quatre euros ? C'est un peu cher. Vous pouvez faire trois euros cinquante ? Merci ! Je peux payer par carte ? Non ? D'accord, je paie en monnaie. Vos tomates sont très belles aujourd'hui !",
-      "modelAnswerExplanation": "This uses polite requests with 'je voudrais', price negotiation with 'c'est un peu cher' and 'vous pouvez faire...?', 'je peux' to ask about payment, and a compliment to make small talk.",
+      "scenario": "You're showing a photo of your family to a new friend. Describe each person in the photo — their name, their relationship to you, their age, where they live, and what they do.",
+      "keyPhrases": ["Ici, c'est...", "Son/Sa... s'appelle...", "Il/Elle habite à...", "Mes grands-parents..."],
+      "modelAnswer": "Ici, c'est mon père. Il s'appelle Marc et il a cinquante ans. Il est ingénieur. À côté, c'est ma mère, Sophie. Elle est professeur. Mon frère Thomas habite à Paris avec sa femme. Mes grands-parents habitent à la campagne. Ma grand-mère fait des gâteaux pour toute la famille.",
+      "modelAnswerExplanation": "This uses possessive adjectives for multiple people, 'habiter à' for location, professions without articles, and 'de' phrases for relationships.",
       "tip": ""
     }
   }

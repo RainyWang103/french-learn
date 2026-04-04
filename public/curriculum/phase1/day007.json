@@ -1,157 +1,219 @@
 {
-  "day": 9,
+  "day": 7,
   "phase": 1,
-  "topic": "The Weather",
+  "topic": "Evening Routine",
   "vocab": {
     "standard": [
       {
-        "word": "le soleil",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh so-lay",
-        "meaning": "the sun",
+        "word": "manger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "mon-zhay",
+        "meaning": "to eat",
+        "notes": "Regular -ER verb. Note: nous mangeons (extra 'e' to keep soft 'g').",
+        "conjugation": {
+          "je": "mange",
+          "tu": "manges",
+          "il/elle": "mange",
+          "nous": "mangeons",
+          "vous": "mangez",
+          "ils/elles": "mangent"
+        },
         "examples": [
-          ["Le soleil est beau aujourd'hui.", "The sun is beautiful today."],
-          ["Il y a du soleil.", "It's sunny."]
+          ["Je mange à huit heures.", "I eat at eight o'clock."],
+          ["Nous mangeons ensemble.", "We eat together."]
         ],
         "special": ""
       },
       {
-        "word": "la pluie",
+        "word": "regarder",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ruh-gar-day",
+        "meaning": "to watch / to look at",
+        "notes": "Regular -ER verb. Direct object — no preposition needed.",
+        "conjugation": {
+          "je": "regarde",
+          "tu": "regardes",
+          "il/elle": "regarde",
+          "nous": "regardons",
+          "vous": "regardez",
+          "ils/elles": "regardent"
+        },
+        "examples": [
+          ["Je regarde la télévision.", "I watch television."],
+          ["Elle regarde un film.", "She watches a movie."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "écouter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ay-koo-tay",
+        "meaning": "to listen to",
+        "notes": "Regular -ER verb. Direct object — no 'to' needed in French: j'écoute la radio (not *j'écoute à la radio).",
+        "conjugation": {
+          "je": "écoute",
+          "tu": "écoutes",
+          "il/elle": "écoute",
+          "nous": "écoutons",
+          "vous": "écoutez",
+          "ils/elles": "écoutent"
+        },
+        "examples": [
+          ["J'écoute de la musique.", "I listen to music."],
+          ["Tu écoutes la radio ?", "Do you listen to the radio?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la télévision",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la plwee",
-        "meaning": "the rain",
+        "pronunciation": "la tay-lay-vee-zyon",
+        "meaning": "the television",
+        "notes": "Often shortened to 'la télé' in spoken French.",
         "examples": [
-          ["La pluie tombe.", "The rain is falling."],
-          ["Je n'aime pas la pluie.", "I don't like rain."]
+          ["Je regarde la télévision le soir.", "I watch television in the evening."],
+          ["La télé est dans le salon.", "The TV is in the living room."]
         ],
         "special": ""
       },
       {
-        "word": "le vent",
+        "word": "le dîner",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh von",
-        "meaning": "the wind",
+        "pronunciation": "luh dee-nay",
+        "meaning": "the dinner",
+        "notes": "Also a verb: dîner (to have dinner).",
         "examples": [
-          ["Le vent est fort aujourd'hui.", "The wind is strong today."],
-          ["Il y a du vent.", "It's windy."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "chaud",
-        "partOfSpeech": "adjective",
-        "gender": null,
-        "pronunciation": "show",
-        "meaning": "hot / warm",
-        "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
-        "examples": [
-          ["Il fait chaud aujourd'hui.", "It's hot today."],
-          ["L'eau est chaude.", "The water is hot."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "froid",
-        "partOfSpeech": "adjective",
-        "gender": null,
-        "pronunciation": "frwa",
-        "meaning": "cold",
-        "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
-        "examples": [
-          ["Il fait froid en hiver.", "It's cold in winter."],
-          ["Le café est froid.", "The coffee is cold."]
+          ["Le dîner est à sept heures.", "Dinner is at seven o'clock."],
+          ["Nous dînons ensemble.", "We have dinner together."]
         ],
         "special": ""
       }
     ],
     "advanced": [
       {
-        "word": "le soleil",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh so-lay",
-        "meaning": "the sun",
+        "word": "manger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "mon-zhay",
+        "meaning": "to eat",
+        "notes": "Regular -ER verb. Note: nous mangeons (extra 'e' to keep soft 'g').",
+        "conjugation": {
+          "je": "mange",
+          "tu": "manges",
+          "il/elle": "mange",
+          "nous": "mangeons",
+          "vous": "mangez",
+          "ils/elles": "mangent"
+        },
         "examples": [
-          ["Le soleil est beau aujourd'hui.", "The sun is beautiful today."],
-          ["Il y a du soleil.", "It's sunny."]
+          ["Je mange à huit heures.", "I eat at eight o'clock."],
+          ["Nous mangeons ensemble.", "We eat together."]
         ],
         "special": ""
       },
       {
-        "word": "la pluie",
+        "word": "regarder",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ruh-gar-day",
+        "meaning": "to watch / to look at",
+        "notes": "Regular -ER verb. Direct object — no preposition needed.",
+        "conjugation": {
+          "je": "regarde",
+          "tu": "regardes",
+          "il/elle": "regarde",
+          "nous": "regardons",
+          "vous": "regardez",
+          "ils/elles": "regardent"
+        },
+        "examples": [
+          ["Je regarde la télévision.", "I watch television."],
+          ["Elle regarde un film.", "She watches a movie."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "écouter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ay-koo-tay",
+        "meaning": "to listen to",
+        "notes": "Regular -ER verb. Direct object — no 'to' needed in French: j'écoute la radio (not *j'écoute à la radio).",
+        "conjugation": {
+          "je": "écoute",
+          "tu": "écoutes",
+          "il/elle": "écoute",
+          "nous": "écoutons",
+          "vous": "écoutez",
+          "ils/elles": "écoutent"
+        },
+        "examples": [
+          ["J'écoute de la musique.", "I listen to music."],
+          ["Tu écoutes la radio ?", "Do you listen to the radio?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la télévision",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la plwee",
-        "meaning": "the rain",
+        "pronunciation": "la tay-lay-vee-zyon",
+        "meaning": "the television",
+        "notes": "Often shortened to 'la télé' in spoken French.",
         "examples": [
-          ["La pluie tombe.", "The rain is falling."],
-          ["Je n'aime pas la pluie.", "I don't like rain."]
+          ["Je regarde la télévision le soir.", "I watch television in the evening."],
+          ["La télé est dans le salon.", "The TV is in the living room."]
         ],
         "special": ""
       },
       {
-        "word": "le vent",
+        "word": "le dîner",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh von",
-        "meaning": "the wind",
+        "pronunciation": "luh dee-nay",
+        "meaning": "the dinner",
+        "notes": "Also a verb: dîner (to have dinner).",
         "examples": [
-          ["Le vent est fort aujourd'hui.", "The wind is strong today."],
-          ["Il y a du vent.", "It's windy."]
+          ["Le dîner est à sept heures.", "Dinner is at seven o'clock."],
+          ["Nous dînons ensemble.", "We have dinner together."]
         ],
         "special": ""
       },
       {
-        "word": "chaud",
-        "partOfSpeech": "adjective",
+        "word": "se coucher",
+        "partOfSpeech": "verb",
         "gender": null,
-        "pronunciation": "show",
-        "meaning": "hot / warm",
-        "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
+        "pronunciation": "suh koo-shay",
+        "meaning": "to go to bed",
+        "notes": "Reflexive verb. Opposite of se lever (to get up).",
+        "conjugation": {
+          "je": "me couche",
+          "tu": "te couches",
+          "il/elle": "se couche",
+          "nous": "nous couchons",
+          "vous": "vous couchez",
+          "ils/elles": "se couchent"
+        },
         "examples": [
-          ["Il fait chaud aujourd'hui.", "It's hot today."],
-          ["L'eau est chaude.", "The water is hot."]
+          ["Je me couche à dix heures.", "I go to bed at ten o'clock."],
+          ["Les enfants se couchent tôt.", "The children go to bed early."]
         ],
-        "special": ""
+        "special": "reflexive"
       },
       {
-        "word": "froid",
-        "partOfSpeech": "adjective",
-        "gender": null,
-        "pronunciation": "frwa",
-        "meaning": "cold",
-        "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
-        "examples": [
-          ["Il fait froid en hiver.", "It's cold in winter."],
-          ["Le café est froid.", "The coffee is cold."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "le nuage",
-        "partOfSpeech": "noun",
-        "gender": "male",
-        "pronunciation": "luh noo-azh",
-        "meaning": "the cloud",
-        "examples": [
-          ["Il y a des nuages dans le ciel.", "There are clouds in the sky."],
-          ["Le nuage est gris.", "The cloud is grey."]
-        ],
-        "special": ""
-      },
-      {
-        "word": "la neige",
+        "word": "la musique",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la nezh",
-        "meaning": "the snow",
-        "notes": "Also used as a verb: neiger (to snow) — il neige (it's snowing).",
+        "pronunciation": "la moo-zeek",
+        "meaning": "the music",
         "examples": [
-          ["Il y a de la neige en hiver.", "There is snow in winter."],
-          ["La neige est blanche.", "The snow is white."]
+          ["J'écoute de la musique le soir.", "I listen to music in the evening."],
+          ["La musique est relaxante.", "The music is relaxing."]
         ],
         "special": ""
       }
@@ -160,188 +222,187 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Quel temps fait-il aujourd'hui ?"],
-        ["B", "Il fait chaud ! Il y a du soleil."],
-        ["A", "Super ! On va au parc samedi ?"],
-        ["B", "Samedi ? Non, il va faire froid samedi."],
-        ["A", "Et dimanche ?"],
-        ["B", "Dimanche, il y a de la pluie. On reste à la maison."],
-        ["A", "Oh non ! Je n'aime pas la pluie."],
-        ["B", "Moi non plus. Mais lundi, il fait beau !"]
+        ["A", "Qu'est-ce que tu fais ce soir ?"],
+        ["B", "D'abord, je mange. Le dîner est à sept heures."],
+        ["A", "Et après le dîner ?"],
+        ["B", "Je regarde la télé un peu. Et toi ?"],
+        ["A", "Moi, j'écoute de la musique. Je ne regarde pas la télé."],
+        ["B", "Tu écoutes quoi comme musique ?"],
+        ["A", "Du jazz. C'est relaxant le soir."]
       ],
       "questions": [
         {
-          "question": "Quel temps fait-il aujourd'hui ?",
-          "options": ["Il fait froid.", "Il fait chaud avec du soleil.", "Il pleut."],
-          "correctAnswer": "Il fait chaud avec du soleil."
+          "question": "À quelle heure B mange-t-il ?",
+          "options": ["À six heures", "À sept heures", "À huit heures"],
+          "correctAnswer": "À sept heures"
         },
         {
-          "question": "Pourquoi ils ne vont pas au parc samedi ?",
-          "options": ["Il y a du vent.", "Il fait froid.", "Il y a de la pluie."],
-          "correctAnswer": "Il fait froid."
+          "question": "Que fait B après le dîner ?",
+          "options": ["Il écoute de la musique", "Il regarde la télé", "Il dort"],
+          "correctAnswer": "Il regarde la télé"
         },
         {
-          "question": "Quel jour fait-il beau ?",
-          "options": ["Samedi", "Dimanche", "Lundi"],
-          "correctAnswer": "Lundi"
+          "question": "Que fait A le soir ?",
+          "options": ["Il regarde la télé", "Il écoute du jazz", "Il mange"],
+          "correctAnswer": "Il écoute du jazz"
         }
       ],
-      "summary": "Two friends discuss the weather for the weekend. Today is hot and sunny, but Saturday will be cold and Sunday will be rainy. They decide to wait for Monday when the weather will be nice."
+      "summary": "Two friends discuss their evening plans. B has dinner at 7 p.m. then watches TV. A prefers listening to jazz music in the evening and doesn't watch TV."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu as vu la météo pour ce week-end ?"],
-        ["B", "Oui, samedi il fait froid et il y a du vent. Pas idéal pour une promenade."],
-        ["A", "Et dimanche ?"],
-        ["B", "Dimanche matin, il y a des nuages, mais l'après-midi il fait beau."],
-        ["A", "Parfait ! On peut aller au parc dimanche après-midi alors."],
-        ["B", "Bonne idée. Mais prends un pull, il ne fait pas très chaud."],
-        ["A", "D'accord. Et s'il pleut ?"],
-        ["B", "S'il pleut, on va au cinéma. Il y a un bon film français."]
+        ["A", "Tu fais quoi le soir en général ?"],
+        ["B", "Après le travail, je rentre à la maison et je mange vers sept heures et demie."],
+        ["A", "Tu manges seul ou avec quelqu'un ?"],
+        ["B", "Avec ma copine. Nous mangeons ensemble et après, nous regardons un film ou j'écoute de la musique."],
+        ["A", "Et tu te couches à quelle heure ?"],
+        ["B", "En général, je me couche à onze heures. Mais le week-end, je me couche plus tard — vers minuit."],
+        ["A", "Minuit ! Tu n'es pas fatigué le matin ?"],
+        ["B", "Le week-end, je me réveille tard aussi. C'est normal !"]
       ],
       "questions": [
         {
-          "question": "Quel temps fait-il samedi ?",
-          "options": ["Il fait chaud.", "Il fait froid avec du vent.", "Il neige.", "Il y a du soleil."],
-          "correctAnswer": "Il fait froid avec du vent."
+          "question": "À quelle heure B mange-t-il ?",
+          "options": ["À sept heures", "Vers sept heures et demie", "À huit heures", "Vers six heures"],
+          "correctAnswer": "Vers sept heures et demie"
         },
         {
-          "question": "Quand est-ce qu'il fait beau dimanche ?",
-          "options": ["Le matin", "L'après-midi", "Le soir", "Toute la journée"],
-          "correctAnswer": "L'après-midi"
+          "question": "Avec qui B mange-t-il ?",
+          "options": ["Seul", "Avec sa copine", "Avec ses amis", "Avec sa famille"],
+          "correctAnswer": "Avec sa copine"
         },
         {
-          "question": "Que font-ils s'il pleut ?",
-          "options": ["Ils restent à la maison.", "Ils vont au cinéma.", "Ils vont au parc.", "Ils ne sortent pas."],
-          "correctAnswer": "Ils vont au cinéma."
+          "question": "À quelle heure B se couche-t-il le week-end ?",
+          "options": ["À dix heures", "À onze heures", "Vers minuit", "À une heure"],
+          "correctAnswer": "Vers minuit"
         }
       ],
-      "summary": "Two friends check the weekend forecast. Saturday is cold and windy. Sunday morning is cloudy but the afternoon is nice, so they plan to go to the park. If it rains, they'll go see a French film at the cinema."
+      "summary": "B describes a typical evening: coming home from work, eating dinner with their girlfriend around 7:30, then watching a film or listening to music. B goes to bed at 11 p.m. on weekdays and around midnight on weekends."
     }
   },
   "grammar": {
     "standard": {
-      "title": "Faire + Weather Expressions",
-      "explanation": "In French, the verb 'faire' (to do/make) is used to talk about the weather. You always use the impersonal 'il' (it) as the subject — just like English says 'it's hot'. The key forms are: il fait chaud (it's hot), il fait froid (it's cold), il fait beau (the weather is nice), il fait mauvais (the weather is bad). For rain and snow, French uses different verbs: il pleut (it's raining, from pleuvoir) and il neige (it's snowing, from neiger). To ask about weather: 'Quel temps fait-il ?' (What's the weather like?).",
+      "title": "Regular -ER Verbs (Present Tense)",
+      "explanation": "Most French verbs end in -ER and follow the same pattern. Remove -ER from the infinitive to get the stem, then add the endings: -e, -es, -e, -ons, -ez, -ent. Example with 'manger' (stem: mang-): je mange, tu manges, il/elle mange, nous mangeons, vous mangez, ils/elles mangent. The endings -e, -es, -ent are all silent — only -ons and -ez are pronounced.",
       "examples": [
         {
-          "french": "Il fait chaud aujourd'hui.",
-          "english": "It's hot today."
+          "french": "Je regarde la télé.",
+          "english": "I watch TV."
         },
         {
-          "french": "Il fait froid en hiver.",
-          "english": "It's cold in winter."
+          "french": "Tu écoutes de la musique.",
+          "english": "You listen to music."
         },
         {
-          "french": "Il fait beau ce matin.",
-          "english": "The weather is nice this morning."
+          "french": "Nous mangeons à sept heures.",
+          "english": "We eat at seven o'clock."
         },
         {
-          "french": "Il pleut.",
-          "english": "It's raining."
+          "french": "Ils regardent un film.",
+          "english": "They watch a movie."
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Il ___ chaud aujourd'hui. (faire)",
-          "correctAnswer": "fait",
-          "explanation": "Weather expressions use il fait + adjective."
+          "question": "Je ___ la télé le soir. (regarder)",
+          "correctAnswer": "regarde",
+          "explanation": "Je + regarder: stem 'regard-' + ending '-e' = regarde."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Quel ___ fait-il ? (weather)",
-          "correctAnswer": "temps",
-          "explanation": "'Quel temps fait-il ?' means 'What's the weather like?'"
+          "question": "Tu ___ de la musique ? (écouter)",
+          "correctAnswer": "écoutes",
+          "explanation": "Tu + écouter: stem 'écout-' + ending '-es' = écoutes."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Il ___ en hiver. (to snow)",
-          "correctAnswer": "neige",
-          "explanation": "Neiger → il neige (it's snowing). Used only with 'il'."
+          "question": "Nous ___ ensemble. (manger)",
+          "correctAnswer": "mangeons",
+          "explanation": "Nous + manger = nous mangeons (extra 'e' to keep soft 'g')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ un film. (regarder)",
+          "correctAnswer": "regardent",
+          "explanation": "Ils + regarder: stem 'regard-' + ending '-ent' = regardent."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'It's raining' in French?",
-          "options": ["Il fait pluie.", "Il pleut.", "Il est pluie."],
-          "correctAnswer": "Il pleut.",
-          "explanation": "Rain uses the verb pleuvoir: il pleut (not il fait pluie)."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "Il fait ___ ce matin. (nice weather)",
-          "correctAnswer": "beau",
-          "explanation": "Il fait beau = the weather is nice / it's a beautiful day."
+          "question": "Which ending is used with 'vous'?",
+          "options": ["-ons", "-ez", "-ent"],
+          "correctAnswer": "-ez",
+          "explanation": "Vous + -ER verb = stem + -ez: vous regardez, vous écoutez."
         }
       ]
     },
     "advanced": {
-      "title": "Faire — Weather, Activities & Impersonal Expressions",
-      "explanation": "Faire is one of the most versatile French verbs. For weather: il fait + adjective (il fait chaud/froid/beau/mauvais). Rain and snow use specific verbs: il pleut, il neige. Faire also expresses activities: faire du sport, faire la cuisine, faire les courses. Conjugation: je fais, tu fais, il fait, nous faisons, vous faites, ils font. Negation: il ne fait pas chaud.",
+      "title": "Regular -ER Verbs — Conjugation, Negation & Common Patterns",
+      "explanation": "-ER verbs are the largest group. Stem + endings: -e, -es, -e, -ons, -ez, -ent. Spelling variations: manger → nous mangeons (keep 'e' for soft 'g'), commencer → nous commençons (ç for soft 'c'). In negation: je ne regarde pas. Common -ER verbs: parler (to speak), travailler (to work), chercher (to look for), aimer (to like/love), détester (to hate).",
       "examples": [
         {
-          "french": "Il ne fait pas beau aujourd'hui.",
-          "english": "The weather isn't nice today."
+          "french": "Elle ne regarde pas la télé.",
+          "english": "She doesn't watch TV."
         },
         {
-          "french": "Quel temps fait-il en été ?",
-          "english": "What's the weather like in summer?"
+          "french": "Nous mangeons et nous écoutons de la musique.",
+          "english": "We eat and we listen to music."
         },
         {
-          "french": "Quand il fait beau, je fais du sport.",
-          "english": "When the weather is nice, I do sports."
+          "french": "Vous regardez un film ce soir ?",
+          "english": "Are you watching a movie tonight?"
         }
       ],
       "drills": [
         {
           "type": "fillInTheBlank",
-          "question": "Il ___ chaud en été. (faire)",
-          "correctAnswer": "fait",
-          "explanation": "Weather: il fait + adjective."
+          "question": "Elle ___ la radio. (écouter)",
+          "correctAnswer": "écoute",
+          "explanation": "Il/elle + écouter: stem 'écout-' + '-e' = écoute."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Nous ___ du sport le samedi. (faire)",
-          "correctAnswer": "faisons",
-          "explanation": "Nous + faire = nous faisons."
+          "question": "Je ne ___ pas la télé. (regarder)",
+          "correctAnswer": "regarde",
+          "explanation": "Negation wraps the verb: ne regarde pas."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Il ne ___ pas beau aujourd'hui. (faire)",
-          "correctAnswer": "fait",
-          "explanation": "Negation: il ne fait pas + adjective."
+          "question": "Vous ___ à quelle heure ? (manger)",
+          "correctAnswer": "mangez",
+          "explanation": "Vous + manger: stem 'mang-' + '-ez' = mangez."
         },
         {
           "type": "multipleChoice",
-          "question": "Which is the correct conjugation for 'vous' + faire?",
-          "options": ["faisez", "faites", "font", "faisent"],
-          "correctAnswer": "faites",
-          "explanation": "Vous faites — irregular form, must be memorised."
+          "question": "Why is 'nous mangeons' spelled with an extra 'e'?",
+          "options": ["It's irregular", "To keep the soft 'g' sound", "It's a spelling mistake", "It's an old French rule"],
+          "correctAnswer": "To keep the soft 'g' sound",
+          "explanation": "Without the 'e', 'g' before 'o' would be hard (like 'go'). The 'e' keeps it soft (like 'je')."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Ils ___ les courses le samedi. (faire)",
-          "correctAnswer": "font",
-          "explanation": "Ils/elles + faire = ils font."
+          "question": "Ils ___ ensemble le soir. (manger)",
+          "correctAnswer": "mangent",
+          "explanation": "Ils + manger: stem 'mang-' + '-ent' = mangent."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ne ___ pas de musique ? (écouter)",
+          "correctAnswer": "écoutes",
+          "explanation": "Tu + écouter = écoutes. Negation: ne écoutes pas → n'écoutes pas."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'It's not cold' in French?",
-          "options": ["Il fait ne pas froid.", "Il ne fait pas froid.", "Il pas fait froid.", "Ne il fait pas froid."],
-          "correctAnswer": "Il ne fait pas froid.",
-          "explanation": "Negation wraps the verb: ne + fait + pas."
+          "question": "Which endings are silent in -ER verbs?",
+          "options": ["-ons and -ez", "-e, -es, and -ent", "All of them", "None of them"],
+          "correctAnswer": "-e, -es, and -ent",
+          "explanation": "The endings -e, -es, -ent are silent. Only -ons and -ez are pronounced."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Tu ___ la cuisine ce soir ? (faire)",
-          "correctAnswer": "fais",
-          "explanation": "Tu + faire = tu fais."
-        },
-        {
-          "type": "fillInTheBlank",
-          "question": "Je ___ du sport quand il fait beau. (faire)",
-          "correctAnswer": "fais",
-          "explanation": "Je + faire = je fais."
+          "question": "Nous ___ français. (parler)",
+          "correctAnswer": "parlons",
+          "explanation": "Nous + parler: stem 'parl-' + '-ons' = parlons."
         }
       ]
     }
@@ -350,104 +411,104 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "What does 'il fait chaud' mean?",
-        "options": ["It's cold.", "It's hot.", "It's windy."],
-        "correctAnswer": "It's hot.",
-        "explanation": "'Il fait chaud' uses faire + adjective to describe hot weather.",
-        "targetWord": "chaud"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "What is 'le soleil'?",
-        "options": ["the moon", "the sun", "the cloud"],
-        "correctAnswer": "the sun",
-        "explanation": "'Le soleil' means 'the sun'. It is masculine.",
-        "targetWord": "le soleil"
+        "question": "What does 'regarder' mean?",
+        "options": ["to listen", "to eat", "to watch"],
+        "correctAnswer": "to watch",
+        "explanation": "'Regarder' means 'to watch' or 'to look at'.",
+        "targetWord": "regarder"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Il y a de la ___ en hiver. (rain)",
-        "correctAnswer": "pluie",
-        "explanation": "'La pluie' means rain.",
-        "targetWord": "la pluie"
+        "question": "J'___ de la musique. (écouter)",
+        "correctAnswer": "écoute",
+        "explanation": "Je + écouter = j'écoute.",
+        "targetWord": "écouter"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'It's windy' in French?",
-        "options": ["Il fait vent.", "Il y a du vent.", "Il est vent."],
-        "correctAnswer": "Il y a du vent.",
-        "explanation": "Wind uses 'il y a du vent' (there is wind), not 'il fait vent'.",
-        "targetWord": "le vent"
+        "question": "What is 'le dîner'?",
+        "options": ["lunch", "dinner", "breakfast"],
+        "correctAnswer": "dinner",
+        "explanation": "'Le dîner' means dinner. Le déjeuner = lunch, le petit-déjeuner = breakfast.",
+        "targetWord": "le dîner"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Il fait ___ en hiver. (cold)",
-        "correctAnswer": "froid",
-        "explanation": "'Il fait froid' means 'it's cold'.",
-        "targetWord": "froid"
+        "question": "Nous ___ ensemble. (manger)",
+        "correctAnswer": "mangeons",
+        "explanation": "Nous + manger = mangeons (extra 'e' for soft 'g').",
+        "targetWord": "manger"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'She watches television'?",
+        "options": ["Elle écoute la télévision.", "Elle mange la télévision.", "Elle regarde la télévision."],
+        "correctAnswer": "Elle regarde la télévision.",
+        "explanation": "Regarder = to watch. Elle regarde la télévision.",
+        "targetWord": "la télévision"
       }
     ],
     "advanced": [
       {
-        "type": "multipleChoice",
-        "question": "Which expression means 'the weather is bad'?",
-        "options": ["Il fait beau.", "Il fait mauvais.", "Il fait chaud.", "Il fait froid."],
-        "correctAnswer": "Il fait mauvais.",
-        "explanation": "'Il fait mauvais' describes bad weather. 'Il fait beau' is the opposite.",
-        "targetWord": "froid"
-      },
-      {
         "type": "fillInTheBlank",
-        "question": "Il y a des ___ dans le ciel. (clouds)",
-        "correctAnswer": "nuages",
-        "explanation": "'Les nuages' means clouds. Singular: le nuage.",
-        "targetWord": "le nuage"
+        "question": "Je me ___ à dix heures. (se coucher)",
+        "correctAnswer": "couche",
+        "explanation": "Je + se coucher = je me couche.",
+        "targetWord": "se coucher"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'il neige' mean?",
-        "options": ["It's raining.", "It's snowing.", "It's cold.", "It's cloudy."],
-        "correctAnswer": "It's snowing.",
-        "explanation": "'Neiger' means to snow. Il neige = it's snowing.",
-        "targetWord": "la neige"
+        "question": "What is 'la musique'?",
+        "options": ["the movie", "the music", "the radio", "the television"],
+        "correctAnswer": "the music",
+        "explanation": "'La musique' means 'the music'.",
+        "targetWord": "la musique"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Quel ___ fait-il aujourd'hui ? (weather)",
-        "correctAnswer": "temps",
-        "explanation": "'Quel temps fait-il ?' is the standard way to ask about weather.",
-        "targetWord": "chaud"
+        "question": "Ils ___ un film le soir. (regarder)",
+        "correctAnswer": "regardent",
+        "explanation": "Ils + regarder = ils regardent.",
+        "targetWord": "regarder"
       },
       {
         "type": "multipleChoice",
-        "question": "How do you say 'It's not hot today'?",
-        "options": ["Il fait ne pas chaud.", "Il ne fait pas chaud.", "Il pas fait chaud.", "Ne il fait pas chaud."],
-        "correctAnswer": "Il ne fait pas chaud.",
-        "explanation": "Negation: ne + fait + pas. Il ne fait pas chaud.",
-        "targetWord": "chaud"
+        "question": "Which -ER verb ending is used with 'nous'?",
+        "options": ["-ez", "-ent", "-ons", "-es"],
+        "correctAnswer": "-ons",
+        "explanation": "Nous → -ons: nous mangeons, nous regardons, nous écoutons.",
+        "targetWord": "manger"
       },
       {
         "type": "fillInTheBlank",
-        "question": "La ___ est blanche en hiver. (snow)",
-        "correctAnswer": "neige",
-        "explanation": "'La neige' means snow. Feminine noun.",
-        "targetWord": "la neige"
+        "question": "Elle n'___ pas la radio. (écouter)",
+        "correctAnswer": "écoute",
+        "explanation": "Elle + écouter = écoute. Negation: n'écoute pas.",
+        "targetWord": "écouter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'se coucher' mean?",
+        "options": ["to wake up", "to eat dinner", "to go to bed", "to watch TV"],
+        "correctAnswer": "to go to bed",
+        "explanation": "'Se coucher' means 'to go to bed'. It's a reflexive verb.",
+        "targetWord": "se coucher"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "A colleague at work asks you what the weather is like today and what kind of weather you prefer. Tell them about today's weather and what you like to do in your favourite weather.",
-      "keyPhrases": ["Il fait...", "Il y a du...", "J'aime quand il fait...", "Je n'aime pas..."],
-      "modelAnswer": "Aujourd'hui, il fait chaud et il y a du soleil. J'aime quand il fait beau. Quand il fait chaud, je vais au parc. Je n'aime pas la pluie.",
-      "modelAnswerExplanation": "This answer uses 'il fait' for weather descriptions, 'il y a du' for sun/wind, 'j'aime quand' to express preference, and 'je n'aime pas' for dislike.",
-      "tip": "Start with 'Aujourd'hui, il fait...' to describe the current weather, then use 'J'aime quand...' for your preference."
+      "scenario": "Your friend asks what you do in a typical evening. Describe what you do after dinner — watching TV, listening to music, etc.",
+      "keyPhrases": ["Le soir, je...", "Je mange...", "Je regarde/écoute...", "Après le dîner..."],
+      "modelAnswer": "Le soir, je mange à sept heures. Après le dîner, je regarde la télé. Parfois, j'écoute de la musique. C'est relaxant.",
+      "modelAnswerExplanation": "Uses -ER verbs (manger, regarder, écouter) with time expressions (le soir, après le dîner) and 'parfois' (sometimes).",
+      "tip": "Use 'le soir' to set the time, then describe activities in order with 'après' (after) and 'parfois' (sometimes)."
     },
     "advanced": {
-      "scenario": "You're planning a weekend trip with a friend. Discuss the weather forecast for both days, suggest activities depending on the weather, and propose a backup plan if the weather is bad.",
-      "keyPhrases": ["Quel temps fait-il...", "Il fait beau / mauvais", "S'il pleut...", "Quand il fait chaud..."],
-      "modelAnswer": "Samedi, il fait beau et il y a du soleil. On peut faire du sport au parc. Mais dimanche, il fait froid et il y a des nuages. S'il pleut dimanche, on peut aller au cinéma ou rester à la maison.",
-      "modelAnswerExplanation": "This uses weather expressions with days of the week, 'on peut' for suggestions, 's'il pleut' for a conditional backup, and vocabulary for activities.",
+      "scenario": "Describe your complete evening routine to a new friend — from getting home from work to going to bed. Include what you eat, what you do for fun, and when you go to sleep.",
+      "keyPhrases": ["Après le travail...", "Je mange/dîne...", "Je regarde/écoute...", "Je me couche à..."],
+      "modelAnswer": "Après le travail, je rentre à la maison vers six heures. Je mange avec ma copine à sept heures et demie. Nous regardons un film ou j'écoute de la musique. Parfois, je regarde la télé seul sur le canapé. Je me couche à onze heures en semaine, mais le week-end, je me couche vers minuit.",
+      "modelAnswerExplanation": "Uses 'rentrer' (to come home), -ER verbs for activities, 'parfois' and 'ou' (or) for variety, reflexive 'se coucher' with time, and contrasts weekday/weekend routines.",
       "tip": ""
     }
   }
