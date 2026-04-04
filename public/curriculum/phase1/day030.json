@@ -1,0 +1,487 @@
+{
+  "day": 30,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "At the Café",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la terrasse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la teh-rass",
+        "meaning": "the terrace / the outdoor seating area",
+        "notes": "In France, café terraces are an iconic part of daily life. 'En terrasse' = outside on the terrace. 'On s'assoit en terrasse ?' = Shall we sit outside?",
+        "examples": [
+          ["On s'assoit en terrasse ?", "Shall we sit on the terrace?"],
+          ["La terrasse est pleine aujourd'hui.", "The terrace is full today."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la tasse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tass",
+        "meaning": "the cup",
+        "notes": "'Une tasse de café' = a cup of coffee. 'Une tasse de thé' = a cup of tea. Different from 'un verre' (a glass) which is used for cold drinks.",
+        "examples": [
+          ["Je voudrais une tasse de thé, s'il vous plaît.", "I would like a cup of tea, please."],
+          ["La tasse est chaude, fais attention !", "The cup is hot, be careful!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le thé",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tay",
+        "meaning": "the tea",
+        "notes": "'Le thé vert' = green tea. 'Le thé noir' = black tea. 'Un thé à la menthe' = mint tea (very popular in North African French culture). Tea is less common than coffee in France but gaining popularity.",
+        "examples": [
+          ["Tu préfères le thé ou le café ?", "Do you prefer tea or coffee?"],
+          ["Un thé à la menthe, s'il vous plaît.", "A mint tea, please."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le sucre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sookr",
+        "meaning": "the sugar",
+        "notes": "'Un morceau de sucre' = a sugar cube (the traditional French way). 'Avec ou sans sucre ?' = With or without sugar? 'Sucré' = sweet (adjective).",
+        "examples": [
+          ["Vous voulez du sucre ?", "Do you want some sugar?"],
+          ["Je prends mon café sans sucre.", "I take my coffee without sugar."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la carte",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la kart",
+        "meaning": "the menu",
+        "notes": "In a café or restaurant, 'la carte' is the menu. It can also mean 'the card' or 'the map' in other contexts. 'La carte des boissons' = the drinks menu. 'À la carte' = choosing individual items (not a set menu).",
+        "examples": [
+          ["Est-ce que je peux voir la carte ?", "Can I see the menu?"],
+          ["Il y a beaucoup de choix sur la carte.", "There are many choices on the menu."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la terrasse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la teh-rass",
+        "meaning": "the terrace / the outdoor seating area",
+        "notes": "In France, café terraces are an iconic part of daily life. 'En terrasse' = outside on the terrace. 'On s'assoit en terrasse ?' = Shall we sit outside?",
+        "examples": [
+          ["On s'assoit en terrasse ?", "Shall we sit on the terrace?"],
+          ["La terrasse est pleine aujourd'hui.", "The terrace is full today."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la tasse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tass",
+        "meaning": "the cup",
+        "notes": "'Une tasse de café' = a cup of coffee. 'Une tasse de thé' = a cup of tea. Different from 'un verre' (a glass) which is used for cold drinks.",
+        "examples": [
+          ["Je voudrais une tasse de thé, s'il vous plaît.", "I would like a cup of tea, please."],
+          ["La tasse est chaude, fais attention !", "The cup is hot, be careful!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le thé",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tay",
+        "meaning": "the tea",
+        "notes": "'Le thé vert' = green tea. 'Le thé noir' = black tea. 'Un thé à la menthe' = mint tea (very popular in North African French culture). Tea is less common than coffee in France but gaining popularity.",
+        "examples": [
+          ["Tu préfères le thé ou le café ?", "Do you prefer tea or coffee?"],
+          ["Un thé à la menthe, s'il vous plaît.", "A mint tea, please."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le sucre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sookr",
+        "meaning": "the sugar",
+        "notes": "'Un morceau de sucre' = a sugar cube (the traditional French way). 'Avec ou sans sucre ?' = With or without sugar? 'Sucré' = sweet (adjective).",
+        "examples": [
+          ["Vous voulez du sucre ?", "Do you want some sugar?"],
+          ["Je prends mon café sans sucre.", "I take my coffee without sugar."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la carte",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la kart",
+        "meaning": "the menu",
+        "notes": "In a café or restaurant, 'la carte' is the menu. It can also mean 'the card' or 'the map' in other contexts. 'La carte des boissons' = the drinks menu. 'À la carte' = choosing individual items (not a set menu).",
+        "examples": [
+          ["Est-ce que je peux voir la carte ?", "Can I see the menu?"],
+          ["Il y a beaucoup de choix sur la carte.", "There are many choices on the menu."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la boisson",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la bwa-son",
+        "meaning": "the drink / the beverage",
+        "notes": "'Les boissons chaudes' = hot drinks. 'Les boissons fraîches' = cold drinks. 'La carte des boissons' = the drinks menu. From the verb 'boire' (to drink).",
+        "examples": [
+          ["Quelle boisson voulez-vous ?", "What drink would you like?"],
+          ["Les boissons chaudes sont à deux euros.", "Hot drinks are two euros."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le sirop",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh see-ro",
+        "meaning": "the syrup / the cordial",
+        "notes": "Very popular in French cafés. 'Un sirop de menthe' = mint syrup (served with water, a classic French drink). 'Un sirop de grenadine' = grenadine syrup. 'Un diabolo menthe' = lemonade with mint syrup.",
+        "examples": [
+          ["Un sirop de menthe à l'eau, s'il vous plaît.", "A mint syrup with water, please."],
+          ["Les enfants aiment le sirop de grenadine.", "Children like grenadine syrup."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Il fait beau aujourd'hui. On va au café ?"],
+        ["B", "Bonne idée ! On s'assoit en terrasse ?"],
+        ["A", "Oui, j'y vais souvent. La terrasse est très agréable."],
+        ["B", "Parfait. Tu veux quoi ?"],
+        ["A", "Je vais prendre un thé. Et toi ?"],
+        ["B", "Moi, un café. Est-ce que je peux voir la carte ?"],
+        ["A", "Tiens, la voilà. Tu veux du sucre avec ton café ?"],
+        ["B", "Non, je prends mon café sans sucre. Merci !"]
+      ],
+      "questions": [
+        {
+          "question": "Where do they decide to sit?",
+          "options": ["Inside the café", "On the terrace", "At the bar"],
+          "correctAnswer": "On the terrace"
+        },
+        {
+          "question": "What does speaker A order?",
+          "options": ["A coffee", "A tea", "A juice"],
+          "correctAnswer": "A tea"
+        },
+        {
+          "question": "Does speaker B want sugar?",
+          "options": ["Yes, one sugar", "Yes, two sugars", "No sugar"],
+          "correctAnswer": "No sugar"
+        }
+      ],
+      "summary": "Two friends decide to go to a café on a nice day. They sit on the terrace, which speaker A often visits. Speaker A orders a tea, while speaker B orders a coffee without sugar. Speaker B asks to see the menu."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "On se retrouve au café de la Place Victor Hugo ?"],
+        ["B", "D'accord ! J'y suis déjà. Je suis en terrasse."],
+        ["A", "Super, j'y arrive dans cinq minutes."],
+        ["B", "Prends ton temps. Je regarde la carte en attendant."],
+        ["A", "Salut ! Ah, il y a beaucoup de boissons sur la carte."],
+        ["B", "Oui ! Moi, je vais prendre un sirop de menthe à l'eau. J'y viens souvent et c'est ma boisson préférée ici."],
+        ["A", "Intéressant. Moi, je voudrais un thé vert. Avec du sucre."],
+        ["B", "Tu mets toujours du sucre dans ton thé ?"],
+        ["A", "Oui, j'y mets toujours un morceau. C'est meilleur comme ça !"],
+        ["B", "Moi, je n'y mets jamais de sucre. Mais chacun ses goûts !"]
+      ],
+      "questions": [
+        {
+          "question": "Where is the café located?",
+          "options": ["Near the station", "On Place Victor Hugo", "Next to the park", "On the main street"],
+          "correctAnswer": "On Place Victor Hugo"
+        },
+        {
+          "question": "What does speaker B order?",
+          "options": ["A coffee", "A green tea", "A mint syrup with water", "An orange juice"],
+          "correctAnswer": "A mint syrup with water"
+        },
+        {
+          "question": "How does speaker A take their tea?",
+          "options": ["Without sugar", "With milk", "With one sugar", "With two sugars"],
+          "correctAnswer": "With one sugar"
+        },
+        {
+          "question": "What does 'j'y viens souvent' mean in context?",
+          "options": ["I'm coming soon", "I come here often", "I go there sometimes", "I came yesterday"],
+          "correctAnswer": "I come here often"
+        }
+      ],
+      "summary": "Two friends meet at a café on Place Victor Hugo. Speaker B is already sitting on the terrace and looking at the menu. Speaker B orders a mint syrup with water — their favourite drink at this café. Speaker A orders a green tea with one sugar cube. They playfully disagree about whether to put sugar in tea."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "The Pronoun Y (Replacing à + Place)",
+      "explanation": "The pronoun **y** replaces a **place** that was already mentioned. It means **'there'** or **'to there'**.\n\n**When to use y:**\nWhen you would repeat **à + a place** (or another preposition of place like 'dans', 'en', 'chez').\n\n**Where y goes:** Before the verb (or before the auxiliary in passé composé).\n\n**Examples:**\n- Tu vas **au café** ? → Oui, j'**y** vais. (Are you going to the café? → Yes, I'm going there.)\n- Elle est **à la maison** ? → Oui, elle **y** est. (Is she at home? → Yes, she's there.)\n- Vous allez **en France** ? → Oui, nous **y** allons. (Are you going to France? → Yes, we're going there.)\n\n**With negation:**\n- Je n'**y** vais pas. (I'm not going there.)\n- Il n'**y** est pas. (He's not there.)\n\n**Common fixed expressions:**\n- **On y va !** = Let's go! (literally: we're going there!)\n- **J'y suis !** = I've got it! / I'm there!\n- **Il y a** = there is/are (you already know this one!)",
+      "examples": [
+        {
+          "french": "Tu vas au parc ? — Oui, j'y vais.",
+          "english": "Are you going to the park? — Yes, I'm going there."
+        },
+        {
+          "french": "Elle habite à Lyon ? — Oui, elle y habite.",
+          "english": "Does she live in Lyon? — Yes, she lives there."
+        },
+        {
+          "french": "On y va !",
+          "english": "Let's go!"
+        },
+        {
+          "french": "Je n'y vais pas souvent.",
+          "english": "I don't go there often."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu vas au café ? — Oui, j'___ vais. (Yes, I'm going there.)",
+          "correctAnswer": "y",
+          "explanation": "'Y' replaces 'au café' (the place). It goes before the verb: j'y vais."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'J'y suis' mean?",
+          "options": ["I'm going", "I'm there", "I have it"],
+          "correctAnswer": "I'm there",
+          "explanation": "'Y' replaces the place. 'J'y suis' = I am there."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle va à la bibliothèque ? — Non, elle n'___ va pas. (No, she's not going there.)",
+          "correctAnswer": "y",
+          "explanation": "'Y' replaces 'à la bibliothèque'. In negation: n'y va pas."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'Let's go!' using the pronoun y?",
+          "options": ["On va y !", "On y va !", "Y on va !"],
+          "correctAnswer": "On y va !",
+          "explanation": "'Y' goes before the verb: On y va ! This is a very common expression."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Vous habitez en France ? — Oui, nous ___ habitons. (Yes, we live there.)",
+          "correctAnswer": "y",
+          "explanation": "'Y' replaces 'en France'. Nous y habitons = We live there."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "The Pronoun Y — Place Replacement, Position & Common Expressions",
+      "explanation": "**What 'y' replaces:**\n'Y' replaces a prepositional phrase indicating a **place** — most commonly **à + place**, but also **dans**, **en**, **sur**, **chez**, etc.:\n- Tu vas **au café** ? → Tu **y** vas ? (Are you going there?)\n- Il est **dans sa chambre** ? → Il **y** est ? (Is he there?)\n- Vous allez **chez le médecin** ? → Vous **y** allez ? (Are you going there?)\n\n**Position of y:**\n| Tense | Position | Example |\n|---|---|---|\n| Present | Before verb | J'**y** vais. |\n| Passé composé | Before auxiliary | J'**y** suis allé. |\n| Negation | ne + **y** + verb + pas | Je n'**y** vais pas. |\n| Near future | Before infinitive | Je vais **y** aller. |\n| Imperative (affirm.) | After verb + hyphen | Vas-**y** ! (Go!) |\n| Imperative (neg.) | Before verb | N'**y** va pas ! (Don't go!) |\n\n**Common expressions with y:**\n- **On y va !** = Let's go!\n- **Vas-y !** = Go ahead! / Go for it!\n- **Allons-y !** = Let's go!\n- **J'y suis, j'y reste.** = I'm here and I'm staying. (a famous quote)\n- **Ça y est !** = That's it! / It's done!\n- **Il y a** = there is/are\n\n**Important:** 'Y' does NOT replace people. For people, use indirect object pronouns (lui, leur).",
+      "examples": [
+        {
+          "french": "J'y suis allé hier.",
+          "english": "I went there yesterday."
+        },
+        {
+          "french": "Vas-y, commande !",
+          "english": "Go ahead, order!"
+        },
+        {
+          "french": "Je vais y aller demain.",
+          "english": "I'm going to go there tomorrow."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu es allé au café ? — Oui, j'___ suis allé. (Yes, I went there.)",
+          "correctAnswer": "y",
+          "explanation": "In passé composé, 'y' goes before the auxiliary (être/avoir): j'y suis allé."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Vas-y !' mean?",
+          "options": ["Go there!", "Go ahead! / Go for it!", "Go away!", "Come here!"],
+          "correctAnswer": "Go ahead! / Go for it!",
+          "explanation": "'Vas-y' in the imperative is a common expression meaning 'go ahead' or 'go for it'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle va aller à Paris ? — Oui, elle va ___ aller. (Yes, she's going to go there.)",
+          "correctAnswer": "y",
+          "explanation": "In near future (aller + infinitive), 'y' goes before the infinitive: va y aller."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does 'y' go in a negative sentence?",
+          "options": [
+            "After the verb",
+            "After 'pas'",
+            "Between 'ne' and the verb",
+            "Before 'ne'"
+          ],
+          "correctAnswer": "Between 'ne' and the verb",
+          "explanation": "Negation: ne + y + verb + pas. Example: Je n'y vais pas."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Nous n'___ sommes pas allés. (We didn't go there.)",
+          "correctAnswer": "y",
+          "explanation": "In negative passé composé: ne + y + auxiliary + pas + participle."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Ça y est !' mean?",
+          "options": ["That's it! / It's done!", "That's here!", "Is it there?", "It's not there."],
+          "correctAnswer": "That's it! / It's done!",
+          "explanation": "'Ça y est' is a fixed expression meaning 'That's it!' or 'It's done!'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Rewrite using y: Tu habites à Marseille ? — Oui, j'___ habite. (Yes, I live there.)",
+          "correctAnswer": "y",
+          "explanation": "'Y' replaces 'à Marseille': j'y habite = I live there."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly uses 'y' in the imperative?",
+          "options": ["Y va !", "Va-y !", "Vas-y !", "Vas y !"],
+          "correctAnswer": "Vas-y !",
+          "explanation": "In the affirmative imperative with 'tu', add -s to 'va' before 'y' and use a hyphen: Vas-y !"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la terrasse' mean in a café context?",
+        "options": ["The counter", "The outdoor seating area", "The kitchen"],
+        "correctAnswer": "The outdoor seating area",
+        "explanation": "'La terrasse' is the outdoor seating area of a café. 'S'asseoir en terrasse' = to sit outside.",
+        "targetWord": "la terrasse"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Tu vas au café ? — Oui, j'___ vais. (Yes, I'm going there.)",
+        "correctAnswer": "y",
+        "explanation": "'Y' replaces the place (au café). It goes before the verb.",
+        "targetWord": "la tasse"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'a cup of tea' in French?",
+        "options": ["un verre de thé", "une tasse de thé", "un bol de thé"],
+        "correctAnswer": "une tasse de thé",
+        "explanation": "'Une tasse de thé' = a cup of tea. 'Un verre' is for glasses (cold drinks).",
+        "targetWord": "le thé"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Je prends mon café sans ___. (I take my coffee without sugar.)",
+        "correctAnswer": "sucre",
+        "explanation": "'Sans sucre' = without sugar. 'Avec sucre' = with sugar.",
+        "targetWord": "le sucre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la carte' mean in a café?",
+        "options": ["The card", "The map", "The menu"],
+        "correctAnswer": "The menu",
+        "explanation": "In a café or restaurant, 'la carte' means the menu.",
+        "targetWord": "la carte"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la boisson' mean?",
+        "options": ["The food", "The drink", "The dessert", "The bill"],
+        "correctAnswer": "The drink",
+        "explanation": "'La boisson' means the drink or beverage. From 'boire' (to drink).",
+        "targetWord": "la boisson"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Tu es allé au café ? — Oui, j'___ suis allé hier. (Yes, I went there yesterday.)",
+        "correctAnswer": "y",
+        "explanation": "In passé composé, 'y' goes before the auxiliary: j'y suis allé.",
+        "targetWord": "la terrasse"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'un sirop de menthe' ?",
+        "options": ["A mint tea", "A mint syrup drink", "A mint ice cream", "A mint candy"],
+        "correctAnswer": "A mint syrup drink",
+        "explanation": "'Le sirop de menthe' is mint syrup, typically served with water. A classic French café drink.",
+        "targetWord": "le sirop"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elle va aller à Paris ? — Oui, elle va ___ aller demain. (Yes, she's going to go there tomorrow.)",
+        "correctAnswer": "y",
+        "explanation": "In near future (aller + infinitive), 'y' goes before the infinitive: va y aller.",
+        "targetWord": "le thé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'Vas-y !' mean?",
+        "options": ["Go away!", "Go ahead!", "Come here!", "Wait there!"],
+        "correctAnswer": "Go ahead!",
+        "explanation": "'Vas-y' is a common imperative expression meaning 'Go ahead!' or 'Go for it!'",
+        "targetWord": "le sucre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Je n'___ vais pas souvent. (I don't go there often.)",
+        "correctAnswer": "y",
+        "explanation": "In negation, 'y' goes between 'ne' and the verb: n'y vais pas.",
+        "targetWord": "la carte"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are meeting a friend at a French café. Greet them, suggest sitting on the terrace, look at the menu together, and order your drinks. Ask your friend what they would like.",
+      "keyPhrases": [
+        "On s'assoit en terrasse ? (Shall we sit on the terrace?)",
+        "Je voudrais un(e)… s'il vous plaît. (I would like a… please.)",
+        "Une tasse de thé / café (A cup of tea / coffee)",
+        "Avec ou sans sucre ? (With or without sugar?)"
+      ],
+      "modelAnswer": "Salut ! Ça fait plaisir de te voir. On s'assoit en terrasse ? Il fait beau aujourd'hui. Est-ce que je peux voir la carte ? Moi, je voudrais une tasse de thé avec du sucre, s'il vous plaît. Et toi, qu'est-ce que tu veux ?",
+      "modelAnswerExplanation": "The model answer uses café vocabulary naturally (terrasse, carte, tasse, thé, sucre), polite ordering phrases (je voudrais, s'il vous plaît), and engages the friend with questions.",
+      "tip": "In French cafés, you can use 'je voudrais' (I would like) or 'je vais prendre' (I'll have) to order politely."
+    },
+    "advanced": {
+      "scenario": "You are a regular at a French café and are showing it to a friend who has never been there. Describe the café, recommend your favourite drink, order for both of you, and use the pronoun 'y' naturally when talking about the café.",
+      "keyPhrases": [
+        "J'y viens souvent. (I come here often.)",
+        "On y va ! / Vas-y, choisis ! (Let's go! / Go ahead, choose!)",
+        "La carte des boissons (The drinks menu)",
+        "Je te recommande le… (I recommend the…)"
+      ],
+      "modelAnswer": "Bienvenue ! J'y viens tous les samedis — c'est mon café préféré. On s'assoit en terrasse, il y a de la place. Tiens, voilà la carte des boissons. Je te recommande le sirop de menthe à l'eau, c'est délicieux. Moi, j'y prends toujours un thé vert sans sucre. Vas-y, choisis ta boisson ! Tu veux une tasse de thé aussi, ou tu préfères autre chose ?",
+      "modelAnswerExplanation": "The answer uses 'y' three times naturally (j'y viens, il y a, j'y prends), recommends a drink, orders confidently, and uses café vocabulary (terrasse, carte, boissons, sirop, thé, tasse, sucre).",
+      "tip": ""
+    }
+  }
+}

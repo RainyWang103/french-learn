@@ -1,0 +1,497 @@
+{
+  "day": 34,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "At the Cinema",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le film",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh feelm",
+        "meaning": "the film / the movie",
+        "notes": "'Un film d'action' = an action film. 'Un film d'horreur' = a horror film. 'Regarder un film' = to watch a film. 'Tourner un film' = to shoot a film.",
+        "examples": [
+          ["Tu as vu un bon film récemment ?", "Have you seen a good film recently?"],
+          ["Ce film est vraiment intéressant.", "This film is really interesting."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le cinéma",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh see-nay-ma",
+        "meaning": "the cinema / the movie theatre",
+        "notes": "Often shortened to 'le ciné' in informal speech. 'Aller au cinéma' = to go to the cinema. France has a strong cinema culture — it's where cinema was invented by the Lumière brothers!",
+        "examples": [
+          ["On va au cinéma ce soir ?", "Shall we go to the cinema tonight?"],
+          ["Le cinéma est à cinq minutes d'ici.", "The cinema is five minutes from here."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'écran",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay-kron",
+        "meaning": "the screen",
+        "notes": "Used for cinema screens, TV screens, phone screens, and computer screens. 'Le grand écran' = the big screen (cinema). 'Sur l'écran' = on the screen.",
+        "examples": [
+          ["L'écran de ce cinéma est énorme !", "The screen in this cinema is huge!"],
+          ["Le film passe sur le grand écran.", "The film is showing on the big screen."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la séance",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la say-ons",
+        "meaning": "the showing / the screening session",
+        "notes": "'La séance de 20h' = the 8pm showing. 'La prochaine séance' = the next showing. Can also mean 'session' in other contexts (gym session, therapy session).",
+        "examples": [
+          ["La séance commence à quelle heure ?", "What time does the showing start?"],
+          ["Il y a une séance à 14h et une à 17h.", "There's a showing at 2pm and one at 5pm."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'acteur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lak-tuhr",
+        "meaning": "the actor",
+        "notes": "Feminine: 'l'actrice'. 'Un acteur célèbre' = a famous actor. French cinema has many internationally known actors. 'Jouer un rôle' = to play a role.",
+        "examples": [
+          ["Cet acteur est très connu.", "This actor is very well known."],
+          ["Mon actrice préférée est française.", "My favourite actress is French."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le film",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh feelm",
+        "meaning": "the film / the movie",
+        "notes": "'Un film d'action' = an action film. 'Un film d'horreur' = a horror film. 'Regarder un film' = to watch a film. 'Tourner un film' = to shoot a film.",
+        "examples": [
+          ["Tu as vu un bon film récemment ?", "Have you seen a good film recently?"],
+          ["Ce film est vraiment intéressant.", "This film is really interesting."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le cinéma",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh see-nay-ma",
+        "meaning": "the cinema / the movie theatre",
+        "notes": "Often shortened to 'le ciné' in informal speech. 'Aller au cinéma' = to go to the cinema. France has a strong cinema culture — it's where cinema was invented by the Lumière brothers!",
+        "examples": [
+          ["On va au cinéma ce soir ?", "Shall we go to the cinema tonight?"],
+          ["Le cinéma est à cinq minutes d'ici.", "The cinema is five minutes from here."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'écran",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lay-kron",
+        "meaning": "the screen",
+        "notes": "Used for cinema screens, TV screens, phone screens, and computer screens. 'Le grand écran' = the big screen (cinema). 'Sur l'écran' = on the screen.",
+        "examples": [
+          ["L'écran de ce cinéma est énorme !", "The screen in this cinema is huge!"],
+          ["Le film passe sur le grand écran.", "The film is showing on the big screen."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la séance",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la say-ons",
+        "meaning": "the showing / the screening session",
+        "notes": "'La séance de 20h' = the 8pm showing. 'La prochaine séance' = the next showing. Can also mean 'session' in other contexts (gym session, therapy session).",
+        "examples": [
+          ["La séance commence à quelle heure ?", "What time does the showing start?"],
+          ["Il y a une séance à 14h et une à 17h.", "There's a showing at 2pm and one at 5pm."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'acteur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lak-tuhr",
+        "meaning": "the actor",
+        "notes": "Feminine: 'l'actrice'. 'Un acteur célèbre' = a famous actor. French cinema has many internationally known actors. 'Jouer un rôle' = to play a role.",
+        "examples": [
+          ["Cet acteur est très connu.", "This actor is very well known."],
+          ["Mon actrice préférée est française.", "My favourite actress is French."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le sous-titre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh soo-teetr",
+        "meaning": "the subtitle",
+        "notes": "'Avec des sous-titres' = with subtitles. 'Un film sous-titré' = a subtitled film. In France, 'VO' (version originale) = original language with subtitles. 'VF' (version française) = dubbed in French.",
+        "examples": [
+          ["Je préfère les films en VO avec des sous-titres.", "I prefer films in the original language with subtitles."],
+          ["Les sous-titres sont en français.", "The subtitles are in French."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la comédie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ko-may-dee",
+        "meaning": "the comedy",
+        "notes": "'Une comédie romantique' = a romantic comedy (rom-com). 'Une comédie musicale' = a musical. French comedies are very popular — 'Les Intouchables' and 'Bienvenue chez les Ch'tis' are among the most-watched films in French history.",
+        "examples": [
+          ["J'adore les comédies françaises.", "I love French comedies."],
+          ["On regarde une comédie ce soir ?", "Shall we watch a comedy tonight?"]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu veux aller au cinéma ce soir ?"],
+        ["B", "Bonne idée ! Il y a quoi comme film ?"],
+        ["A", "Il y a une comédie française. Je la trouve sur le programme."],
+        ["B", "Super ! Tu la connais ?"],
+        ["A", "Non, mais l'acteur est très connu. Tout le monde le recommande."],
+        ["B", "D'accord ! La séance est à quelle heure ?"],
+        ["A", "Il y a une séance à 19h et une à 21h. Tu préfères laquelle ?"],
+        ["B", "Je la préfère à 19h. On mange après le film ?"]
+      ],
+      "questions": [
+        {
+          "question": "What type of film are they going to see?",
+          "options": ["An action film", "A French comedy", "A horror film"],
+          "correctAnswer": "A French comedy"
+        },
+        {
+          "question": "What is special about the actor?",
+          "options": ["He is new", "He is very well known", "He is American"],
+          "correctAnswer": "He is very well known"
+        },
+        {
+          "question": "Which showing does speaker B prefer?",
+          "options": ["The 7pm showing", "The 9pm showing", "The afternoon showing"],
+          "correctAnswer": "The 7pm showing"
+        }
+      ],
+      "summary": "Two friends plan to go to the cinema tonight. There's a French comedy with a very well-known actor that everyone recommends. Speaker A finds the showings on the programme — 7pm and 9pm. Speaker B prefers the 7pm showing and suggests eating after the film."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu as vu le nouveau film de Jean Dujardin ?"],
+        ["B", "Non, pas encore. Tu l'as vu ?"],
+        ["A", "Oui, je l'ai vu samedi. C'est une comédie — je l'ai adoré !"],
+        ["B", "Il passe dans quel cinéma ?"],
+        ["A", "Au Pathé, sur le grand écran. La séance de 20h est la meilleure."],
+        ["B", "C'est en VO ou en VF ?"],
+        ["A", "C'est en français, donc pas de sous-titres. Mais si tu veux le voir en VO, il y a aussi une séance en anglais avec des sous-titres français."],
+        ["B", "Non, je le veux en français. Tu me le recommandes vraiment ?"],
+        ["A", "Oui, je te le recommande ! Les acteurs sont excellents. Tu vas l'adorer."],
+        ["B", "D'accord, j'y vais ce soir !"]
+      ],
+      "questions": [
+        {
+          "question": "When did speaker A see the film?",
+          "options": ["Last Friday", "Last Saturday", "Yesterday", "Two days ago"],
+          "correctAnswer": "Last Saturday"
+        },
+        {
+          "question": "What type of film is it?",
+          "options": ["A drama", "A comedy", "An action film", "A documentary"],
+          "correctAnswer": "A comedy"
+        },
+        {
+          "question": "What does 'VO' mean in the context of French cinema?",
+          "options": ["Very old", "Version originale (original language)", "Video option", "Voice only"],
+          "correctAnswer": "Version originale (original language)"
+        },
+        {
+          "question": "In which language does speaker B want to see the film?",
+          "options": ["English with subtitles", "French", "English without subtitles", "Both languages"],
+          "correctAnswer": "French"
+        }
+      ],
+      "summary": "Speaker A recommends a new Jean Dujardin comedy they saw on Saturday at the Pathé cinema. It plays on the big screen with a great 8pm showing. The film is available in French (no subtitles needed) or in English with French subtitles. Speaker B chooses the French version and decides to go tonight."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Direct Object Pronouns (le, la, les)",
+      "explanation": "**Direct object pronouns** replace a noun that receives the action of the verb directly (no preposition between verb and noun).\n\n**The pronouns:**\n- **le** → replaces a masculine singular noun\n- **la** → replaces a feminine singular noun\n- **l'** → replaces le/la before a vowel\n- **les** → replaces a plural noun (any gender)\n\n**Where they go:** Before the verb.\n\n**Examples:**\n- Tu regardes **le film** ? → Tu **le** regardes ? (Are you watching it?)\n- J'aime **la comédie**. → Je **l'**aime. (I love it.)\n- Il connaît **les acteurs**. → Il **les** connaît. (He knows them.)\n\n**With negation:**\n- Je **ne le** regarde **pas**. (I'm not watching it.)\n\n**In passé composé:** Before the auxiliary (avoir).\n- Tu as vu **le film** ? → Tu **l'**as vu ? (Did you see it?)\n- J'ai regardé **la comédie**. → Je **l'**ai regardée. (I watched it.)\n\n**Note:** In passé composé with avoir, the past participle agrees with the direct object pronoun when it comes before the verb:\n- Je l'ai vu**e** (la comédie — feminine, add -e)",
+      "examples": [
+        {
+          "french": "Le film ? Je le regarde ce soir.",
+          "english": "The film? I'm watching it tonight."
+        },
+        {
+          "french": "La comédie ? Je l'adore !",
+          "english": "The comedy? I love it!"
+        },
+        {
+          "french": "Les acteurs ? Je les connais.",
+          "english": "The actors? I know them."
+        },
+        {
+          "french": "Tu l'as vu ?",
+          "english": "Did you see it?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Le film ? Je ___ regarde ce soir. (The film? I'm watching it tonight.)",
+          "correctAnswer": "le",
+          "explanation": "'Le film' is masculine singular → 'le'. It goes before the verb: je le regarde."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'I love it' for 'la comédie'?",
+          "options": ["Je le aime.", "Je l'aime.", "Je la aime."],
+          "correctAnswer": "Je l'aime.",
+          "explanation": "'La' becomes 'l'' before a vowel: je l'aime."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Les acteurs ? Je ___ connais bien. (The actors? I know them well.)",
+          "correctAnswer": "les",
+          "explanation": "'Les acteurs' is plural → 'les'. Je les connais."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does the direct object pronoun go?",
+          "options": ["After the verb", "Before the verb", "At the end of the sentence"],
+          "correctAnswer": "Before the verb",
+          "explanation": "Direct object pronouns always go before the verb in French."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu as vu le film ? — Oui, je ___ai vu. (Yes, I saw it.)",
+          "correctAnswer": "l'",
+          "explanation": "In passé composé, the pronoun goes before the auxiliary: je l'ai vu."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Direct Object Pronouns — le, la, les with All Tenses & Agreement",
+      "explanation": "**Direct object pronouns replace the direct object of a verb:**\n\n| Pronoun | Replaces | Example |\n|---|---|---|\n| **me / m'** | me | Il **me** voit. (He sees me.) |\n| **te / t'** | you (informal) | Je **te** connais. (I know you.) |\n| **le / l'** | him / it (masc.) | Je **le** regarde. |\n| **la / l'** | her / it (fem.) | Je **la** préfère. |\n| **nous** | us | Il **nous** invite. |\n| **vous** | you (formal/plural) | Je **vous** comprends. |\n| **les** | them | Je **les** adore. |\n\n**Position in different tenses:**\n\n| Tense | Position | Example |\n|---|---|---|\n| Present | Before verb | Je **le** vois. |\n| Passé composé | Before auxiliary | Je **l'**ai vu. |\n| Near future | Before infinitive | Je vais **le** voir. |\n| Negation | ne + pronoun + verb + pas | Je ne **le** vois pas. |\n| Imperative (affirm.) | After verb + hyphen | Regarde-**le** ! |\n| Imperative (neg.) | Before verb | Ne **le** regarde pas ! |\n\n**Past participle agreement with avoir:**\nWhen a direct object pronoun comes BEFORE avoir, the past participle **agrees** with the pronoun:\n- La comédie ? Je **l'**ai regardé**e**. (feminine → -e)\n- Les films ? Je **les** ai vu**s**. (masculine plural → -s)\n- Les actrices ? Je **les** ai adoré**es**. (feminine plural → -es)\n\nThis agreement only happens when the pronoun is placed BEFORE avoir.",
+      "examples": [
+        {
+          "french": "Ce film ? Je l'ai vu la semaine dernière.",
+          "english": "This film? I saw it last week."
+        },
+        {
+          "french": "Les sous-titres ? Je ne les lis pas.",
+          "english": "The subtitles? I don't read them."
+        },
+        {
+          "french": "Je vais le regarder ce soir.",
+          "english": "I'm going to watch it tonight."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: La comédie ? Je ___ai adorée. (The comedy? I loved it.)",
+          "correctAnswer": "l'",
+          "explanation": "'La comédie' is feminine → l' (before vowel). Past participle agrees: adorée."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does the pronoun go in 'Je vais voir le film'?",
+          "options": [
+            "Je le vais voir.",
+            "Je vais le voir.",
+            "Je vais voir le.",
+            "Le je vais voir."
+          ],
+          "correctAnswer": "Je vais le voir.",
+          "explanation": "With near future (aller + infinitive), the pronoun goes before the infinitive: vais le voir."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Les films ? Je ___ ai vus hier. (The films? I saw them yesterday.)",
+          "correctAnswer": "les",
+          "explanation": "'Les films' is masculine plural → 'les'. Past participle agrees: vus (-s for plural)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'Watch it!' (imperative, informal, masculine object)?",
+          "options": ["Le regarde !", "Regarde-le !", "Regarde le !", "Le regardes !"],
+          "correctAnswer": "Regarde-le !",
+          "explanation": "Affirmative imperative: verb + hyphen + pronoun: Regarde-le !"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Je ne ___ regarde pas. (I'm not watching it — masculine.)",
+          "correctAnswer": "le",
+          "explanation": "Negation: ne + pronoun + verb + pas. Je ne le regarde pas."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "In 'Je l'ai regardée', why is there an extra -e on 'regardée'?",
+          "options": [
+            "Because the subject is feminine",
+            "Because the direct object pronoun (l') refers to something feminine",
+            "Because it's passé composé",
+            "Because of negation"
+          ],
+          "correctAnswer": "Because the direct object pronoun (l') refers to something feminine",
+          "explanation": "With avoir, the past participle agrees with a preceding direct object pronoun. 'L'' refers to a feminine noun → regardée."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ne ___ regarde pas ! (Don't watch it! — feminine object, imperative)",
+          "correctAnswer": "la",
+          "explanation": "Negative imperative: ne + pronoun + verb + pas. Ne la regarde pas !"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "J'ai les vus hier.",
+            "Je les ai vus hier.",
+            "Je les vus ai hier.",
+            "Les j'ai vus hier."
+          ],
+          "correctAnswer": "Je les ai vus hier.",
+          "explanation": "In passé composé: pronoun before auxiliary. Je les ai vus (agreement: -s for plural)."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le cinéma' mean?",
+        "options": ["The film", "The cinema", "The screen"],
+        "correctAnswer": "The cinema",
+        "explanation": "'Le cinéma' is the cinema or movie theatre. 'Le film' is the film itself.",
+        "targetWord": "le cinéma"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Le film ? Je ___ regarde ce soir. (The film? I'm watching it tonight.)",
+        "correctAnswer": "le",
+        "explanation": "'Le film' is masculine → 'le'. Direct object pronoun goes before the verb.",
+        "targetWord": "le film"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la séance' in a cinema context?",
+        "options": ["The seat", "The showing / screening", "The ticket"],
+        "correctAnswer": "The showing / screening",
+        "explanation": "'La séance' is a showing or screening. 'La séance de 20h' = the 8pm showing.",
+        "targetWord": "la séance"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Tu as vu le film ? — Oui, je ___ai vu. (Yes, I saw it.)",
+        "correctAnswer": "l'",
+        "explanation": "In passé composé, the pronoun goes before avoir: je l'ai vu.",
+        "targetWord": "l'écran"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'l'acteur' mean?",
+        "options": ["The action", "The actor", "The audience"],
+        "correctAnswer": "The actor",
+        "explanation": "'L'acteur' is the actor. The feminine form is 'l'actrice'.",
+        "targetWord": "l'acteur"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le sous-titre' mean?",
+        "options": ["The title", "The subtitle", "The headline", "The chapter"],
+        "correctAnswer": "The subtitle",
+        "explanation": "'Le sous-titre' is a subtitle. 'Un film sous-titré' = a subtitled film.",
+        "targetWord": "le sous-titre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: La comédie ? Je ___ai adorée ! (The comedy? I loved it!)",
+        "correctAnswer": "l'",
+        "explanation": "'La comédie' is feminine → l' before vowel. Past participle agrees: adorée (-e).",
+        "targetWord": "la comédie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "In French cinema, what does 'VO' stand for?",
+        "options": ["Voix originale", "Version ordinaire", "Version originale", "Vidéo officielle"],
+        "correctAnswer": "Version originale",
+        "explanation": "'VO' = version originale = the film in its original language (usually with French subtitles).",
+        "targetWord": "le sous-titre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Les acteurs ? Je ___ connais bien. (The actors? I know them well.)",
+        "correctAnswer": "les",
+        "explanation": "'Les acteurs' is plural → 'les'. Je les connais.",
+        "targetWord": "l'acteur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'I'm going to watch it' (near future, masculine object)?",
+        "options": ["Je le vais regarder.", "Je vais le regarder.", "Je vais regarder le.", "Le je vais regarder."],
+        "correctAnswer": "Je vais le regarder.",
+        "explanation": "In near future, the pronoun goes before the infinitive: vais le regarder.",
+        "targetWord": "le film"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Les films ? Je ___ ai vus hier. (The films? I saw them yesterday.)",
+        "correctAnswer": "les",
+        "explanation": "Plural → 'les'. Past participle agrees with preceding DOP: vus (-s for masc. plural).",
+        "targetWord": "le cinéma"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You want to invite a friend to the cinema. Tell them about a film you want to see, ask if they've seen it, suggest a showing time, and discuss what type of films you both like. Use direct object pronouns where natural.",
+      "keyPhrases": [
+        "Tu l'as vu ? (Have you seen it?)",
+        "Je le/la trouve… (I find it…)",
+        "La séance est à… (The showing is at…)",
+        "On va au cinéma ? (Shall we go to the cinema?)"
+      ],
+      "modelAnswer": "Salut ! Tu veux aller au cinéma ce soir ? Il y a un nouveau film français — tu l'as vu ? L'acteur est très connu, je le vois dans beaucoup de films. La séance est à 19h, sur le grand écran. Je la préfère à la séance de 21h. Tu aimes les comédies ? Moi, je les adore !",
+      "modelAnswerExplanation": "The answer uses three direct object pronouns naturally (l'as vu, le vois, la préfère, les adore), cinema vocabulary (film, acteur, séance, écran, comédies), and invites the friend to respond.",
+      "tip": "Think about what noun you're replacing. Masculine → le, feminine → la, plural → les. Put it before the verb!"
+    },
+    "advanced": {
+      "scenario": "You just saw a fantastic film at the cinema and are telling a French friend all about it. Describe the film, the actors, the screen, whether it had subtitles, and recommend it. Use direct object pronouns in the passé composé and show past participle agreement.",
+      "keyPhrases": [
+        "Je l'ai vu(e) hier / samedi… (I saw it yesterday / Saturday…)",
+        "Je te le/la recommande. (I recommend it to you.)",
+        "Les sous-titres ? Je ne les ai pas lus. (The subtitles? I didn't read them.)",
+        "Regarde-le/la ! (Watch it!)"
+      ],
+      "modelAnswer": "J'ai vu une comédie incroyable samedi — je l'ai adorée ! C'est un film de Jean Dujardin. Tu le connais ? Il est brillant. Je l'ai vu au Pathé, sur le grand écran — l'écran est énorme, je le préfère au petit cinéma du centre. C'était en VO avec des sous-titres, mais je ne les ai pas lus parce que c'était en français. La séance de 20h était parfaite. Je te la recommande — regarde-la ce week-end !",
+      "modelAnswerExplanation": "The answer demonstrates DOP agreement in passé composé (l'ai adorée — feminine), uses pronouns naturally across tenses (le connais — present, l'ai vu — PC, le préfère — present, les ai pas lus — negative PC), and ends with an imperative (regarde-la).",
+      "tip": ""
+    }
+  }
+}
