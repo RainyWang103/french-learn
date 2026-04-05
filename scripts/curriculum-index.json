@@ -1,250 +1,898 @@
 {
   "lastDay": 35,
   "grammarTitles": [
-    "Subject Pronouns + Être (to be)",
-    "Subject Pronouns + Être — Full Conjugation & Negation",
-    "Avoir (to have) + Expressions with Avoir",
-    "Avoir — Full Conjugation, Expressions & Negation",
-    "Definite & Indefinite Articles (le, la, l', les / un, une, des)",
-    "Articles — Definite, Indefinite & Partitive (du, de la, de l')",
-    "Aller (to go) + à / au / à la / à l'",
-    "Aller — Full Conjugation + Aller + Infinitive (Near Future)",
-    "Il y a + Prepositions of Place (dans, sur, sous, devant, derrière)",
-    "Il y a / Il n'y a pas + Extended Prepositions (à côté de, entre, en face de)",
-    "Regular -ER Verbs (Present Tense)",
-    "Regular -ER Verbs — Conjugation, Negation & Common Patterns",
-    "Faire + Weather Expressions",
-    "Faire — Weather, Activities & Impersonal Expressions",
-    "Possessive Adjectives (mon, ma, mes, ton, ta, tes)",
-    "Possessive Adjectives — All Forms + de (Possession)",
-    "Regular -IR Verbs (finir, choisir, réussir)",
-    "Regular -IR Verbs — Full Conjugation, Negation & Common Patterns",
-    "Vouloir & Pouvoir (je voudrais, je peux)",
-    "Vouloir, Pouvoir & Devoir — Modal Verbs",
-    "Adjective Agreement & Placement (masculine/feminine, before/after noun)",
-    "Adjective Agreement — Regular, Irregular & BANGS Rule",
-    "Reflexive Verbs (Present Tense)",
-    "Reflexive Verbs — Conjugation, Negation & Reciprocal Use",
-    "Regular -RE Verbs (Present Tense)",
-    "Regular -RE Verbs — Full Conjugation, Negation & Common Patterns",
-    "Question Formation (est-ce que, intonation, question words)",
-    "Question Formation — Est-ce que, Inversion & Question Words",
-    "Avoir mal à + Extended Negation (ne...jamais, ne...rien, ne...plus)",
-    "Avoir mal à — Body Parts & Extended Negation Patterns",
-    "Jouer à / Jouer de + On (Informal We)",
-    "Jouer à / Jouer de — Sports, Games & Instruments + On as Impersonal Pronoun",
-    "Demonstrative Adjectives (ce, cet, cette, ces)",
-    "Demonstrative Adjectives — ce, cet, cette, ces with -ci / -là Distinction",
-    "Adverbs of Frequency & Time (souvent, toujours, parfois, rarement)",
-    "Adverbs of Frequency & Time — Position, Nuance & Common Expressions",
-    "Comparative Adjectives (plus...que, moins...que, aussi...que)",
-    "Comparative Adjectives — plus/moins/aussi...que + Irregular Comparatives",
-    "The Imperative Mood (tu, vous, nous commands)",
-    "The Imperative Mood — Formation, Irregular Forms & Negation",
-    "Passé Composé with Avoir (Introduction)",
-    "Passé Composé with Avoir — Formation, Common Past Participles & Negation",
-    "Passé Composé with Être (Movement & State Verbs)",
-    "Passé Composé with Être — Movement Verbs, Agreement & Negation",
-    "The Pronoun Y (Replacing à + Place)",
-    "The Pronoun Y — Place Replacement, Position & Common Expressions",
-    "C'est vs Il/Elle est",
-    "C'est vs Il/Elle est — Full Rules, Plural & Common Traps",
-    "Superlative Adjectives (le plus, le moins)",
-    "Superlative Adjectives — le plus/moins, Irregular Forms & Position",
-    "Direct Object Pronouns (le, la, les)",
-    "Direct Object Pronouns — le, la, les with All Tenses & Agreement",
-    "The Pronoun En (Replacing de + Noun / Expressing Quantity)",
-    "The Pronoun En — Quantity, de + Noun & Fixed Expressions"
+    {
+      "day": 1,
+      "standard": "Subject Pronouns + Être (to be)",
+      "advanced": "Subject Pronouns + Être — Full Conjugation & Negation"
+    },
+    {
+      "day": 2,
+      "standard": "Avoir (to have) + Expressions with Avoir",
+      "advanced": "Avoir — Full Conjugation, Expressions & Negation"
+    },
+    {
+      "day": 3,
+      "standard": "Definite & Indefinite Articles (le, la, l', les / un, une, des)",
+      "advanced": "Articles — Definite, Indefinite & Partitive (du, de la, de l')"
+    },
+    {
+      "day": 5,
+      "standard": "Aller (to go) + à / au / à la / à l'",
+      "advanced": "Aller — Full Conjugation + Aller + Infinitive (Near Future)"
+    },
+    {
+      "day": 6,
+      "standard": "Il y a + Prepositions of Place (dans, sur, sous, devant, derrière)",
+      "advanced": "Il y a / Il n'y a pas + Extended Prepositions (à côté de, entre, en face de)"
+    },
+    {
+      "day": 7,
+      "standard": "Regular -ER Verbs (Present Tense)",
+      "advanced": "Regular -ER Verbs — Conjugation, Negation & Common Patterns"
+    },
+    {
+      "day": 9,
+      "standard": "Faire + Weather Expressions",
+      "advanced": "Faire — Weather, Activities & Impersonal Expressions"
+    },
+    {
+      "day": 10,
+      "standard": "Possessive Adjectives (mon, ma, mes, ton, ta, tes)",
+      "advanced": "Possessive Adjectives — All Forms + de (Possession)"
+    },
+    {
+      "day": 11,
+      "standard": "Regular -IR Verbs (finir, choisir, réussir)",
+      "advanced": "Regular -IR Verbs — Full Conjugation, Negation & Common Patterns"
+    },
+    {
+      "day": 13,
+      "standard": "Vouloir & Pouvoir (je voudrais, je peux)",
+      "advanced": "Vouloir, Pouvoir & Devoir — Modal Verbs"
+    },
+    {
+      "day": 14,
+      "standard": "Adjective Agreement & Placement (masculine/feminine, before/after noun)",
+      "advanced": "Adjective Agreement — Regular, Irregular & BANGS Rule"
+    },
+    {
+      "day": 15,
+      "standard": "Reflexive Verbs (Present Tense)",
+      "advanced": "Reflexive Verbs — Conjugation, Negation & Reciprocal Use"
+    },
+    {
+      "day": 17,
+      "standard": "Regular -RE Verbs (Present Tense)",
+      "advanced": "Regular -RE Verbs — Full Conjugation, Negation & Common Patterns"
+    },
+    {
+      "day": 18,
+      "standard": "Question Formation (est-ce que, intonation, question words)",
+      "advanced": "Question Formation — Est-ce que, Inversion & Question Words"
+    },
+    {
+      "day": 19,
+      "standard": "Avoir mal à + Extended Negation (ne...jamais, ne...rien, ne...plus)",
+      "advanced": "Avoir mal à — Body Parts & Extended Negation Patterns"
+    },
+    {
+      "day": 21,
+      "standard": "Jouer à / Jouer de + On (Informal We)",
+      "advanced": "Jouer à / Jouer de — Sports, Games & Instruments + On as Impersonal Pronoun"
+    },
+    {
+      "day": 22,
+      "standard": "Demonstrative Adjectives (ce, cet, cette, ces)",
+      "advanced": "Demonstrative Adjectives — ce, cet, cette, ces with -ci / -là Distinction"
+    },
+    {
+      "day": 23,
+      "standard": "Adverbs of Frequency & Time (souvent, toujours, parfois, rarement)",
+      "advanced": "Adverbs of Frequency & Time — Position, Nuance & Common Expressions"
+    },
+    {
+      "day": 25,
+      "standard": "Comparative Adjectives (plus...que, moins...que, aussi...que)",
+      "advanced": "Comparative Adjectives — plus/moins/aussi...que + Irregular Comparatives"
+    },
+    {
+      "day": 26,
+      "standard": "The Imperative Mood (tu, vous, nous commands)",
+      "advanced": "The Imperative Mood — Formation, Irregular Forms & Negation"
+    },
+    {
+      "day": 27,
+      "standard": "Passé Composé with Avoir (Introduction)",
+      "advanced": "Passé Composé with Avoir — Formation, Common Past Participles & Negation"
+    },
+    {
+      "day": 29,
+      "standard": "Passé Composé with Être (Movement & State Verbs)",
+      "advanced": "Passé Composé with Être — Movement Verbs, Agreement & Negation"
+    },
+    {
+      "day": 30,
+      "standard": "The Pronoun Y (Replacing à + Place)",
+      "advanced": "The Pronoun Y — Place Replacement, Position & Common Expressions"
+    },
+    {
+      "day": 31,
+      "standard": "C'est vs Il/Elle est",
+      "advanced": "C'est vs Il/Elle est — Full Rules, Plural & Common Traps"
+    },
+    {
+      "day": 33,
+      "standard": "Superlative Adjectives (le plus, le moins)",
+      "advanced": "Superlative Adjectives — le plus/moins, Irregular Forms & Position"
+    },
+    {
+      "day": 34,
+      "standard": "Direct Object Pronouns (le, la, les)",
+      "advanced": "Direct Object Pronouns — le, la, les with All Tenses & Agreement"
+    },
+    {
+      "day": 35,
+      "standard": "The Pronoun En (Replacing de + Noun / Expressing Quantity)",
+      "advanced": "The Pronoun En — Quantity, de + Noun & Fixed Expressions"
+    }
   ],
   "vocabWords": [
-    "acheter",
-    "apprendre",
-    "blanc",
-    "chaud",
-    "commencer",
-    "content",
-    "dormir",
-    "en colère",
-    "en retard",
-    "envoyer",
-    "fatigué",
-    "froid",
-    "grand",
-    "inquiet",
-    "jeune",
-    "jouer",
-    "l'acteur",
-    "l'addition",
-    "l'année",
-    "l'argent",
-    "l'arrêt",
-    "l'aspirateur",
-    "l'automne",
-    "l'avion",
-    "l'enfant",
-    "l'entrée",
-    "l'examen",
-    "l'heure",
-    "l'hiver",
-    "l'hôtel",
-    "l'oiseau",
-    "l'école",
-    "l'écran",
-    "l'été",
-    "la banque",
-    "la barbe",
-    "la bibliothèque",
-    "la boisson",
-    "la boulangerie",
-    "la carte",
-    "la chaise",
-    "la chambre",
-    "la chanson",
-    "la clé",
-    "la comédie",
-    "la confiture",
-    "la cuisine",
-    "la douche",
-    "la fenêtre",
-    "la ferme",
-    "la fièvre",
-    "la gare",
-    "la grand-mère",
-    "la joie",
-    "la lecture",
-    "la lessive",
-    "la lettre",
-    "la mairie",
-    "la maison",
-    "la monnaie",
-    "la musique",
-    "la mère",
-    "la neige",
-    "la peinture",
-    "la pharmacie",
-    "la place",
-    "la plage",
-    "la pluie",
-    "la porte",
-    "la poste",
-    "la randonnée",
-    "la robe",
-    "la rue",
-    "la réservation",
-    "la saison",
-    "la semaine",
-    "la séance",
-    "la sœur",
-    "la table",
-    "la tasse",
-    "la terrasse",
-    "la télévision",
-    "la tête",
-    "la vaisselle",
-    "la valise",
-    "le balai",
-    "le beurre",
-    "le billet",
-    "le bol",
-    "le bras",
-    "le bus",
-    "le café",
-    "le cahier",
-    "le canapé",
-    "le carrefour",
-    "le chapeau",
-    "le chat",
-    "le cheval",
-    "le chien",
-    "le cinéma",
-    "le coin",
-    "le colis",
-    "le compte",
-    "le croissant",
-    "le dessert",
-    "le dessin",
-    "le dîner",
-    "le feu",
-    "le film",
-    "le frère",
-    "le grand-père",
-    "le jus",
-    "le lapin",
-    "le lit",
-    "le manteau",
-    "le marché",
-    "le matin",
-    "le miroir",
-    "le mois",
-    "le médecin",
-    "le médicament",
-    "le ménage",
-    "le métro",
-    "le nuage",
-    "le pain",
-    "le pantalon",
-    "le parc",
-    "le passeport",
-    "le peigne",
-    "le plat",
-    "le poisson",
-    "le pont",
-    "le pourboire",
-    "le printemps",
-    "le prix",
-    "le professeur",
-    "le père",
-    "le quai",
-    "le quart d'heure",
-    "le quartier",
-    "le rendez-vous",
-    "le restaurant",
-    "le rond-point",
-    "le réveil",
-    "le sac",
-    "le salon",
-    "le serveur",
-    "le sirop",
-    "le soleil",
-    "le sous-titre",
-    "le sport",
-    "le stylo",
-    "le sucre",
-    "le thé",
-    "le timbre",
-    "le train",
-    "le trajet",
-    "le trottoir",
-    "le vendeur",
-    "le vent",
-    "le ventre",
-    "le voisin",
-    "le vélo",
-    "les chaussures",
-    "les cheveux",
-    "les vacances",
-    "les vêtements",
-    "les yeux",
-    "malade",
-    "manger",
-    "midi",
-    "mince",
-    "nerveux",
-    "nettoyer",
-    "petit",
-    "prêt",
-    "ranger",
-    "regarder",
-    "rouge",
-    "s'habiller",
-    "se coucher",
-    "se dépêcher",
-    "se réveiller",
-    "surpris",
-    "tourner",
-    "triste",
-    "tôt",
-    "un kilo",
-    "écouter"
+    {
+      "day": 1,
+      "word": "dormir"
+    },
+    {
+      "day": 1,
+      "word": "fatigué"
+    },
+    {
+      "day": 1,
+      "word": "le lit"
+    },
+    {
+      "day": 1,
+      "word": "le matin"
+    },
+    {
+      "day": 1,
+      "word": "le réveil"
+    },
+    {
+      "day": 1,
+      "word": "se réveiller"
+    },
+    {
+      "day": 1,
+      "word": "tôt"
+    },
+    {
+      "day": 2,
+      "word": "la douche"
+    },
+    {
+      "day": 2,
+      "word": "le miroir"
+    },
+    {
+      "day": 2,
+      "word": "le peigne"
+    },
+    {
+      "day": 2,
+      "word": "les vêtements"
+    },
+    {
+      "day": 2,
+      "word": "prêt"
+    },
+    {
+      "day": 2,
+      "word": "s'habiller"
+    },
+    {
+      "day": 2,
+      "word": "se dépêcher"
+    },
+    {
+      "day": 3,
+      "word": "la confiture"
+    },
+    {
+      "day": 3,
+      "word": "le beurre"
+    },
+    {
+      "day": 3,
+      "word": "le bol"
+    },
+    {
+      "day": 3,
+      "word": "le café"
+    },
+    {
+      "day": 3,
+      "word": "le croissant"
+    },
+    {
+      "day": 3,
+      "word": "le jus"
+    },
+    {
+      "day": 3,
+      "word": "le pain"
+    },
+    {
+      "day": 5,
+      "word": "la clé"
+    },
+    {
+      "day": 5,
+      "word": "la maison"
+    },
+    {
+      "day": 5,
+      "word": "la porte"
+    },
+    {
+      "day": 5,
+      "word": "la rue"
+    },
+    {
+      "day": 5,
+      "word": "le bus"
+    },
+    {
+      "day": 5,
+      "word": "le trajet"
+    },
+    {
+      "day": 5,
+      "word": "le trottoir"
+    },
+    {
+      "day": 6,
+      "word": "la chaise"
+    },
+    {
+      "day": 6,
+      "word": "la chambre"
+    },
+    {
+      "day": 6,
+      "word": "la cuisine"
+    },
+    {
+      "day": 6,
+      "word": "la fenêtre"
+    },
+    {
+      "day": 6,
+      "word": "la table"
+    },
+    {
+      "day": 6,
+      "word": "le canapé"
+    },
+    {
+      "day": 6,
+      "word": "le salon"
+    },
+    {
+      "day": 7,
+      "word": "la musique"
+    },
+    {
+      "day": 7,
+      "word": "la télévision"
+    },
+    {
+      "day": 7,
+      "word": "le dîner"
+    },
+    {
+      "day": 7,
+      "word": "manger"
+    },
+    {
+      "day": 7,
+      "word": "regarder"
+    },
+    {
+      "day": 7,
+      "word": "se coucher"
+    },
+    {
+      "day": 7,
+      "word": "écouter"
+    },
+    {
+      "day": 9,
+      "word": "chaud"
+    },
+    {
+      "day": 9,
+      "word": "froid"
+    },
+    {
+      "day": 9,
+      "word": "la neige"
+    },
+    {
+      "day": 9,
+      "word": "la pluie"
+    },
+    {
+      "day": 9,
+      "word": "le nuage"
+    },
+    {
+      "day": 9,
+      "word": "le soleil"
+    },
+    {
+      "day": 9,
+      "word": "le vent"
+    },
+    {
+      "day": 10,
+      "word": "l'enfant"
+    },
+    {
+      "day": 10,
+      "word": "la grand-mère"
+    },
+    {
+      "day": 10,
+      "word": "la mère"
+    },
+    {
+      "day": 10,
+      "word": "la sœur"
+    },
+    {
+      "day": 10,
+      "word": "le frère"
+    },
+    {
+      "day": 10,
+      "word": "le grand-père"
+    },
+    {
+      "day": 10,
+      "word": "le père"
+    },
+    {
+      "day": 11,
+      "word": "commencer"
+    },
+    {
+      "day": 11,
+      "word": "en retard"
+    },
+    {
+      "day": 11,
+      "word": "l'heure"
+    },
+    {
+      "day": 11,
+      "word": "la semaine"
+    },
+    {
+      "day": 11,
+      "word": "le quart d'heure"
+    },
+    {
+      "day": 11,
+      "word": "le rendez-vous"
+    },
+    {
+      "day": 11,
+      "word": "midi"
+    },
+    {
+      "day": 13,
+      "word": "acheter"
+    },
+    {
+      "day": 13,
+      "word": "la monnaie"
+    },
+    {
+      "day": 13,
+      "word": "le marché"
+    },
+    {
+      "day": 13,
+      "word": "le prix"
+    },
+    {
+      "day": 13,
+      "word": "le sac"
+    },
+    {
+      "day": 13,
+      "word": "le vendeur"
+    },
+    {
+      "day": 13,
+      "word": "un kilo"
+    },
+    {
+      "day": 14,
+      "word": "blanc"
+    },
+    {
+      "day": 14,
+      "word": "la robe"
+    },
+    {
+      "day": 14,
+      "word": "le chapeau"
+    },
+    {
+      "day": 14,
+      "word": "le manteau"
+    },
+    {
+      "day": 14,
+      "word": "le pantalon"
+    },
+    {
+      "day": 14,
+      "word": "les chaussures"
+    },
+    {
+      "day": 14,
+      "word": "rouge"
+    },
+    {
+      "day": 15,
+      "word": "l'aspirateur"
+    },
+    {
+      "day": 15,
+      "word": "la lessive"
+    },
+    {
+      "day": 15,
+      "word": "la vaisselle"
+    },
+    {
+      "day": 15,
+      "word": "le balai"
+    },
+    {
+      "day": 15,
+      "word": "le ménage"
+    },
+    {
+      "day": 15,
+      "word": "nettoyer"
+    },
+    {
+      "day": 15,
+      "word": "ranger"
+    },
+    {
+      "day": 17,
+      "word": "l'addition"
+    },
+    {
+      "day": 17,
+      "word": "l'entrée"
+    },
+    {
+      "day": 17,
+      "word": "le dessert"
+    },
+    {
+      "day": 17,
+      "word": "le plat"
+    },
+    {
+      "day": 17,
+      "word": "le pourboire"
+    },
+    {
+      "day": 17,
+      "word": "le restaurant"
+    },
+    {
+      "day": 17,
+      "word": "le serveur"
+    },
+    {
+      "day": 18,
+      "word": "la pharmacie"
+    },
+    {
+      "day": 18,
+      "word": "la place"
+    },
+    {
+      "day": 18,
+      "word": "le carrefour"
+    },
+    {
+      "day": 18,
+      "word": "le feu"
+    },
+    {
+      "day": 18,
+      "word": "le pont"
+    },
+    {
+      "day": 18,
+      "word": "le rond-point"
+    },
+    {
+      "day": 18,
+      "word": "tourner"
+    },
+    {
+      "day": 19,
+      "word": "la fièvre"
+    },
+    {
+      "day": 19,
+      "word": "la tête"
+    },
+    {
+      "day": 19,
+      "word": "le bras"
+    },
+    {
+      "day": 19,
+      "word": "le médecin"
+    },
+    {
+      "day": 19,
+      "word": "le médicament"
+    },
+    {
+      "day": 19,
+      "word": "le ventre"
+    },
+    {
+      "day": 19,
+      "word": "malade"
+    },
+    {
+      "day": 21,
+      "word": "jouer"
+    },
+    {
+      "day": 21,
+      "word": "la chanson"
+    },
+    {
+      "day": 21,
+      "word": "la lecture"
+    },
+    {
+      "day": 21,
+      "word": "la peinture"
+    },
+    {
+      "day": 21,
+      "word": "la randonnée"
+    },
+    {
+      "day": 21,
+      "word": "le dessin"
+    },
+    {
+      "day": 21,
+      "word": "le sport"
+    },
+    {
+      "day": 22,
+      "word": "l'arrêt"
+    },
+    {
+      "day": 22,
+      "word": "la gare"
+    },
+    {
+      "day": 22,
+      "word": "le billet"
+    },
+    {
+      "day": 22,
+      "word": "le métro"
+    },
+    {
+      "day": 22,
+      "word": "le quai"
+    },
+    {
+      "day": 22,
+      "word": "le train"
+    },
+    {
+      "day": 22,
+      "word": "le vélo"
+    },
+    {
+      "day": 23,
+      "word": "l'année"
+    },
+    {
+      "day": 23,
+      "word": "l'automne"
+    },
+    {
+      "day": 23,
+      "word": "l'hiver"
+    },
+    {
+      "day": 23,
+      "word": "l'été"
+    },
+    {
+      "day": 23,
+      "word": "la saison"
+    },
+    {
+      "day": 23,
+      "word": "le mois"
+    },
+    {
+      "day": 23,
+      "word": "le printemps"
+    },
+    {
+      "day": 25,
+      "word": "grand"
+    },
+    {
+      "day": 25,
+      "word": "jeune"
+    },
+    {
+      "day": 25,
+      "word": "la barbe"
+    },
+    {
+      "day": 25,
+      "word": "les cheveux"
+    },
+    {
+      "day": 25,
+      "word": "les yeux"
+    },
+    {
+      "day": 25,
+      "word": "mince"
+    },
+    {
+      "day": 25,
+      "word": "petit"
+    },
+    {
+      "day": 26,
+      "word": "envoyer"
+    },
+    {
+      "day": 26,
+      "word": "l'argent"
+    },
+    {
+      "day": 26,
+      "word": "la banque"
+    },
+    {
+      "day": 26,
+      "word": "la lettre"
+    },
+    {
+      "day": 26,
+      "word": "le colis"
+    },
+    {
+      "day": 26,
+      "word": "le compte"
+    },
+    {
+      "day": 26,
+      "word": "le timbre"
+    },
+    {
+      "day": 27,
+      "word": "apprendre"
+    },
+    {
+      "day": 27,
+      "word": "l'examen"
+    },
+    {
+      "day": 27,
+      "word": "l'école"
+    },
+    {
+      "day": 27,
+      "word": "la bibliothèque"
+    },
+    {
+      "day": 27,
+      "word": "le cahier"
+    },
+    {
+      "day": 27,
+      "word": "le professeur"
+    },
+    {
+      "day": 27,
+      "word": "le stylo"
+    },
+    {
+      "day": 29,
+      "word": "content"
+    },
+    {
+      "day": 29,
+      "word": "en colère"
+    },
+    {
+      "day": 29,
+      "word": "inquiet"
+    },
+    {
+      "day": 29,
+      "word": "la joie"
+    },
+    {
+      "day": 29,
+      "word": "nerveux"
+    },
+    {
+      "day": 29,
+      "word": "surpris"
+    },
+    {
+      "day": 29,
+      "word": "triste"
+    },
+    {
+      "day": 30,
+      "word": "la boisson"
+    },
+    {
+      "day": 30,
+      "word": "la carte"
+    },
+    {
+      "day": 30,
+      "word": "la tasse"
+    },
+    {
+      "day": 30,
+      "word": "la terrasse"
+    },
+    {
+      "day": 30,
+      "word": "le sirop"
+    },
+    {
+      "day": 30,
+      "word": "le sucre"
+    },
+    {
+      "day": 30,
+      "word": "le thé"
+    },
+    {
+      "day": 31,
+      "word": "l'oiseau"
+    },
+    {
+      "day": 31,
+      "word": "la ferme"
+    },
+    {
+      "day": 31,
+      "word": "le chat"
+    },
+    {
+      "day": 31,
+      "word": "le cheval"
+    },
+    {
+      "day": 31,
+      "word": "le chien"
+    },
+    {
+      "day": 31,
+      "word": "le lapin"
+    },
+    {
+      "day": 31,
+      "word": "le poisson"
+    },
+    {
+      "day": 33,
+      "word": "l'avion"
+    },
+    {
+      "day": 33,
+      "word": "l'hôtel"
+    },
+    {
+      "day": 33,
+      "word": "la plage"
+    },
+    {
+      "day": 33,
+      "word": "la réservation"
+    },
+    {
+      "day": 33,
+      "word": "la valise"
+    },
+    {
+      "day": 33,
+      "word": "le passeport"
+    },
+    {
+      "day": 33,
+      "word": "les vacances"
+    },
+    {
+      "day": 34,
+      "word": "l'acteur"
+    },
+    {
+      "day": 34,
+      "word": "l'écran"
+    },
+    {
+      "day": 34,
+      "word": "la comédie"
+    },
+    {
+      "day": 34,
+      "word": "la séance"
+    },
+    {
+      "day": 34,
+      "word": "le cinéma"
+    },
+    {
+      "day": 34,
+      "word": "le film"
+    },
+    {
+      "day": 34,
+      "word": "le sous-titre"
+    },
+    {
+      "day": 35,
+      "word": "la boulangerie"
+    },
+    {
+      "day": 35,
+      "word": "la mairie"
+    },
+    {
+      "day": 35,
+      "word": "la poste"
+    },
+    {
+      "day": 35,
+      "word": "le coin"
+    },
+    {
+      "day": 35,
+      "word": "le parc"
+    },
+    {
+      "day": 35,
+      "word": "le quartier"
+    },
+    {
+      "day": 35,
+      "word": "le voisin"
+    }
   ]
 }
