@@ -403,3 +403,12 @@ getScaffolding: all cases, boundaries, ceiling/floor
 src/curriculum.test.ts — auto-discovers all phase/dayNNN.json files,
 validates JSON parsing, schema structure, enum values, non-empty fields,
 track content counts, and correctAnswer-in-options integrity
+
+## Curriculum Index
+scripts/curriculum-index.json tracks all grammar titles and vocab words
+used across all curriculum phases. It must be updated whenever new
+curriculum files are added:
+- After each batch generation: append new grammarTitles and vocabWords
+- After Phase 14 (A2) and Phase 15 (B1) generation: same rule applies
+- Never regenerate from scratch — always append to preserve history
+Structure: { lastDay, grammarTitles: string[], vocabWords: string[] }
