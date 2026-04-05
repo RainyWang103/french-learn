@@ -1,0 +1,487 @@
+{
+  "day": 33,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Travel & Vacation",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la valise",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la va-leez",
+        "meaning": "the suitcase",
+        "notes": "'Faire sa valise' = to pack one's suitcase. 'Défaire sa valise' = to unpack. 'Une valise à roulettes' = a wheeled suitcase. Essential travel vocabulary!",
+        "examples": [
+          ["J'ai fait ma valise hier soir.", "I packed my suitcase last night."],
+          ["Ma valise est trop lourde !", "My suitcase is too heavy!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'avion",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "la-vee-on",
+        "meaning": "the plane / the aeroplane",
+        "notes": "'Prendre l'avion' = to take the plane / to fly. 'En avion' = by plane. 'L'aéroport' = the airport. 'Un vol' = a flight.",
+        "examples": [
+          ["Nous prenons l'avion à dix heures.", "We're taking the plane at ten o'clock."],
+          ["C'est mon premier voyage en avion.", "It's my first trip by plane."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'hôtel",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lo-tel",
+        "meaning": "the hotel",
+        "notes": "Note the silent 'h' — use 'l'' not 'le'. 'Réserver un hôtel' = to book a hotel. 'Une chambre d'hôtel' = a hotel room. French hotels are rated with stars: 'un hôtel trois étoiles' = a three-star hotel.",
+        "examples": [
+          ["L'hôtel est près de la plage.", "The hotel is near the beach."],
+          ["Nous avons réservé un hôtel deux étoiles.", "We booked a two-star hotel."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la plage",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la plazh",
+        "meaning": "the beach",
+        "notes": "'Aller à la plage' = to go to the beach. 'Sur la plage' = on the beach. Famous French beaches include the Côte d'Azur (French Riviera) and the Atlantic coast in Biarritz.",
+        "examples": [
+          ["On va à la plage demain ?", "Shall we go to the beach tomorrow?"],
+          ["La plage est magnifique ici.", "The beach is magnificent here."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les vacances",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lay va-kons",
+        "meaning": "the holiday(s) / the vacation",
+        "notes": "Always plural in French! 'Partir en vacances' = to go on holiday. 'Les grandes vacances' = the summer holidays (July-August in France). 'Bonnes vacances !' = Have a good holiday!",
+        "examples": [
+          ["Nous partons en vacances la semaine prochaine.", "We're going on holiday next week."],
+          ["Bonnes vacances !", "Have a good holiday!"]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la valise",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la va-leez",
+        "meaning": "the suitcase",
+        "notes": "'Faire sa valise' = to pack one's suitcase. 'Défaire sa valise' = to unpack. 'Une valise à roulettes' = a wheeled suitcase. Essential travel vocabulary!",
+        "examples": [
+          ["J'ai fait ma valise hier soir.", "I packed my suitcase last night."],
+          ["Ma valise est trop lourde !", "My suitcase is too heavy!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'avion",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "la-vee-on",
+        "meaning": "the plane / the aeroplane",
+        "notes": "'Prendre l'avion' = to take the plane / to fly. 'En avion' = by plane. 'L'aéroport' = the airport. 'Un vol' = a flight.",
+        "examples": [
+          ["Nous prenons l'avion à dix heures.", "We're taking the plane at ten o'clock."],
+          ["C'est mon premier voyage en avion.", "It's my first trip by plane."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'hôtel",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lo-tel",
+        "meaning": "the hotel",
+        "notes": "Note the silent 'h' — use 'l'' not 'le'. 'Réserver un hôtel' = to book a hotel. 'Une chambre d'hôtel' = a hotel room. French hotels are rated with stars: 'un hôtel trois étoiles' = a three-star hotel.",
+        "examples": [
+          ["L'hôtel est près de la plage.", "The hotel is near the beach."],
+          ["Nous avons réservé un hôtel deux étoiles.", "We booked a two-star hotel."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la plage",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la plazh",
+        "meaning": "the beach",
+        "notes": "'Aller à la plage' = to go to the beach. 'Sur la plage' = on the beach. Famous French beaches include the Côte d'Azur (French Riviera) and the Atlantic coast in Biarritz.",
+        "examples": [
+          ["On va à la plage demain ?", "Shall we go to the beach tomorrow?"],
+          ["La plage est magnifique ici.", "The beach is magnificent here."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "les vacances",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lay va-kons",
+        "meaning": "the holiday(s) / the vacation",
+        "notes": "Always plural in French! 'Partir en vacances' = to go on holiday. 'Les grandes vacances' = the summer holidays (July-August in France). 'Bonnes vacances !' = Have a good holiday!",
+        "examples": [
+          ["Nous partons en vacances la semaine prochaine.", "We're going on holiday next week."],
+          ["Bonnes vacances !", "Have a good holiday!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le passeport",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pass-por",
+        "meaning": "the passport",
+        "notes": "'Un contrôle des passeports' = a passport check. 'Votre passeport, s'il vous plaît' = Your passport, please. Within the EU Schengen zone, passports are not usually checked at borders.",
+        "examples": [
+          ["N'oublie pas ton passeport !", "Don't forget your passport!"],
+          ["Mon passeport est valide jusqu'en 2030.", "My passport is valid until 2030."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la réservation",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ray-zair-va-syon",
+        "meaning": "the reservation / the booking",
+        "notes": "'Faire une réservation' = to make a reservation. 'Confirmer une réservation' = to confirm a booking. 'Annuler une réservation' = to cancel a reservation. Used for hotels, restaurants, and trains.",
+        "examples": [
+          ["J'ai une réservation au nom de Dupont.", "I have a reservation under the name Dupont."],
+          ["Il faut faire une réservation à l'avance.", "You need to book in advance."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu pars en vacances cet été ?"],
+        ["B", "Oui ! Je vais à la plage avec ma famille."],
+        ["A", "Super ! Vous prenez l'avion ?"],
+        ["B", "Oui, on prend l'avion samedi matin."],
+        ["A", "Et l'hôtel, c'est bien ?"],
+        ["B", "C'est le plus bel hôtel de la ville ! Il est près de la plage."],
+        ["A", "Génial ! Tu as déjà fait ta valise ?"],
+        ["B", "Non, pas encore. Ma valise est trop petite — c'est le plus gros problème !"]
+      ],
+      "questions": [
+        {
+          "question": "Where is speaker B going on holiday?",
+          "options": ["To the mountains", "To the beach", "To a city"],
+          "correctAnswer": "To the beach"
+        },
+        {
+          "question": "How are they travelling?",
+          "options": ["By train", "By car", "By plane"],
+          "correctAnswer": "By plane"
+        },
+        {
+          "question": "What is speaker B's problem?",
+          "options": ["No passport", "The suitcase is too small", "The hotel is far away"],
+          "correctAnswer": "The suitcase is too small"
+        }
+      ],
+      "summary": "Speaker B is going to the beach with their family for summer holiday. They are flying on Saturday morning. The hotel is described as the most beautiful in the city, near the beach. Speaker B hasn't packed yet because the suitcase is too small."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Alors, tu as choisi ta destination de vacances ?"],
+        ["B", "Oui ! J'hésite entre Nice et Barcelone."],
+        ["A", "Nice, c'est la plus belle ville de la Côte d'Azur !"],
+        ["B", "C'est vrai, mais Barcelone est la moins chère des deux."],
+        ["A", "Tu as regardé les vols ?"],
+        ["B", "Oui, l'avion pour Nice est le plus rapide — seulement une heure trente."],
+        ["A", "Et l'hôtel ?"],
+        ["B", "J'ai trouvé un hôtel trois étoiles à Nice. La réservation est faite. Il a la meilleure vue sur la plage."],
+        ["A", "Et ton passeport, il est valide ?"],
+        ["B", "Oui, heureusement ! J'ai fait ma valise hier. C'est les meilleures vacances de l'année !"]
+      ],
+      "questions": [
+        {
+          "question": "Which two destinations is speaker B choosing between?",
+          "options": ["Paris and Lyon", "Nice and Barcelone", "Marseille and Rome", "Nice and Cannes"],
+          "correctAnswer": "Nice and Barcelone"
+        },
+        {
+          "question": "Why does speaker A recommend Nice?",
+          "options": ["It's the cheapest", "It's the most beautiful city on the Côte d'Azur", "It has the best food", "It's closest to home"],
+          "correctAnswer": "It's the most beautiful city on the Côte d'Azur"
+        },
+        {
+          "question": "What does the hotel in Nice have?",
+          "options": ["A swimming pool", "The best view of the beach", "A restaurant", "Free parking"],
+          "correctAnswer": "The best view of the beach"
+        },
+        {
+          "question": "Has speaker B already packed?",
+          "options": ["No, not yet", "Yes, yesterday", "They haven't decided what to bring", "They will pack tomorrow"],
+          "correctAnswer": "Yes, yesterday"
+        }
+      ],
+      "summary": "Speaker B is choosing between Nice and Barcelona for a holiday. Nice has a faster flight (90 minutes) and is considered the most beautiful city on the Côte d'Azur, while Barcelona is cheaper. B has booked a three-star hotel in Nice with the best beach view, confirmed their passport is valid, and already packed their suitcase."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Superlative Adjectives (le plus, le moins)",
+      "explanation": "The **superlative** is used to say something is 'the most' or 'the least' in a group.\n\n**How to form it:**\n- **The most:** le/la/les **plus** + adjective\n- **The least:** le/la/les **moins** + adjective\n\n**The article (le/la/les) agrees with the noun:**\n- **la plus** belle plage (the most beautiful beach — feminine)\n- **le plus** grand hôtel (the biggest hotel — masculine)\n- **les plus** belles vacances (the best holidays — plural)\n\n**After the superlative, use 'de' (not 'dans'):**\n- C'est le plus bel hôtel **de** la ville. (It's the most beautiful hotel in the city.)\n- C'est la plage la moins chère **de** la région. (It's the cheapest beach in the region.)\n\n**Irregular superlatives:**\n- bon → **le meilleur / la meilleure** (the best)\n- mauvais → **le pire / la pire** (the worst)\n\n**Position:** The superlative goes in the same position as the adjective:\n- le **plus grand** hôtel (before the noun — grand normally goes before)\n- la plage **la plus belle** (after the noun — belle normally goes after)",
+      "examples": [
+        {
+          "french": "C'est le plus grand hôtel de la ville.",
+          "english": "It's the biggest hotel in the city."
+        },
+        {
+          "french": "C'est la plage la plus belle de la côte.",
+          "english": "It's the most beautiful beach on the coast."
+        },
+        {
+          "french": "C'est le meilleur restaurant du quartier.",
+          "english": "It's the best restaurant in the neighbourhood."
+        },
+        {
+          "french": "C'est le vol le moins cher.",
+          "english": "It's the cheapest flight."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est ___ hôtel de la ville. (It's the biggest hotel in the city. — le plus grand)",
+          "correctAnswer": "le plus grand",
+          "explanation": "Masculine noun (hôtel) → le plus + adjective: le plus grand hôtel."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'the most beautiful beach'?",
+          "options": ["la plus belle plage", "le plus belle plage", "la plus beau plage"],
+          "correctAnswer": "la plus belle plage",
+          "explanation": "'Plage' is feminine → la plus + feminine adjective: la plus belle plage."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est le ___ restaurant du quartier. (It's the best restaurant in the neighbourhood.)",
+          "correctAnswer": "meilleur",
+          "explanation": "'Bon' → 'meilleur' in the superlative (irregular). Le meilleur restaurant."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "After a superlative, which word means 'in' (as in 'in the city')?",
+          "options": ["dans", "de", "en"],
+          "correctAnswer": "de",
+          "explanation": "After superlatives, use 'de' (not 'dans'): le plus grand de la ville."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est la valise la ___ lourde. (It's the least heavy suitcase.)",
+          "correctAnswer": "moins",
+          "explanation": "'The least' = le/la moins. Feminine: la moins lourde."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Superlative Adjectives — le plus/moins, Irregular Forms & Position",
+      "explanation": "**Formation:**\n- **The most:** le/la/les **plus** + adjective + **de** (in/of)\n- **The least:** le/la/les **moins** + adjective + **de** (in/of)\n\n**Agreement:**\nThe article matches the noun's gender and number:\n- **le plus** grand avion (masc. sing.)\n- **la plus** belle plage (fem. sing.)\n- **les plus** longues vacances (fem. plur.)\n\n**Irregular superlatives:**\n| Adjective | Superlative | Meaning |\n|---|---|---|\n| bon(ne) | **le/la meilleur(e)** | the best |\n| mauvais(e) | **le/la pire** | the worst |\n| petit(e) | **le/la moindre** (abstract) | the slightest |\n\n**Position rules:**\nThe superlative mirrors the adjective's normal position:\n- BANGS adjectives (before noun): le **plus petit** hôtel\n- Other adjectives (after noun): l'hôtel **le plus confortable**\n\n**Note:** When the superlative goes AFTER the noun, the article appears twice:\n- **la** plage **la** plus belle (the most beautiful beach)\n- **l'**hôtel **le** plus cher (the most expensive hotel)\n\n**With 'de' for scope:**\n- C'est le meilleur hôtel **de** Nice.\n- C'est la plage la plus célèbre **du** monde. (de + le = du)\n- Ce sont les plus belles vacances **de** ma vie.",
+      "examples": [
+        {
+          "french": "C'est la ville la plus touristique de France.",
+          "english": "It's the most touristy city in France."
+        },
+        {
+          "french": "Ce sont les meilleures vacances de ma vie.",
+          "english": "These are the best holidays of my life."
+        },
+        {
+          "french": "C'est l'hôtel le moins cher de la liste.",
+          "english": "It's the cheapest hotel on the list."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est la ville ___ de France. (It's the most beautiful city in France.)",
+          "correctAnswer": "la plus belle",
+          "explanation": "After a feminine noun, repeat the article: la ville la plus belle."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the superlative of 'bon'?",
+          "options": ["le plus bon", "le meilleur", "le mieux", "le plus bien"],
+          "correctAnswer": "le meilleur",
+          "explanation": "'Bon' has an irregular superlative: le meilleur (not 'le plus bon')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ce sont les ___ vacances de ma vie. (These are the best holidays of my life.)",
+          "correctAnswer": "meilleures",
+          "explanation": "'Les vacances' is feminine plural → les meilleures vacances."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly places the superlative?",
+          "options": [
+            "C'est le plus hôtel confortable.",
+            "C'est l'hôtel le plus confortable.",
+            "C'est le confortable plus hôtel.",
+            "C'est plus le confortable hôtel."
+          ],
+          "correctAnswer": "C'est l'hôtel le plus confortable.",
+          "explanation": "'Confortable' normally goes after the noun, so the superlative does too: l'hôtel le plus confortable."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est l'avion le ___ rapide de tous. (It's the fastest plane of all.)",
+          "correctAnswer": "plus",
+          "explanation": "'The most' + adjective = le plus + adjective: le plus rapide."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'the worst hotel'?",
+          "options": ["le plus mauvais hôtel", "le pire hôtel", "Both are acceptable", "le mauvais plus hôtel"],
+          "correctAnswer": "Both are acceptable",
+          "explanation": "Both 'le pire hôtel' and 'le plus mauvais hôtel' are correct. 'Le pire' is more common in speech."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est la plage la moins ___ de la côte. (It's the least crowded beach on the coast.)",
+          "correctAnswer": "fréquentée",
+          "explanation": "'Fréquentée' (crowded/busy) agrees with 'la plage' (feminine). La moins fréquentée."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'de' mean after a superlative?",
+          "options": ["of / in", "with", "for", "at"],
+          "correctAnswer": "of / in",
+          "explanation": "'De' after a superlative means 'in' or 'of': le plus grand de la ville = the biggest in the city."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la valise' mean?",
+        "options": ["The ticket", "The suitcase", "The bag"],
+        "correctAnswer": "The suitcase",
+        "explanation": "'La valise' is a suitcase. 'Faire sa valise' = to pack one's suitcase.",
+        "targetWord": "la valise"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: C'est le plus ___ hôtel de la ville. (It's the biggest hotel in the city.)",
+        "correctAnswer": "grand",
+        "explanation": "Le plus grand = the biggest. 'Grand' goes before the noun.",
+        "targetWord": "l'hôtel"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'to take the plane' in French?",
+        "options": ["aller l'avion", "prendre l'avion", "faire l'avion"],
+        "correctAnswer": "prendre l'avion",
+        "explanation": "'Prendre l'avion' = to take the plane / to fly.",
+        "targetWord": "l'avion"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: C'est la ___ plage de la côte. (It's the most beautiful beach on the coast.)",
+        "correctAnswer": "plus belle",
+        "explanation": "Feminine superlative: la plus belle. After noun: la plage la plus belle.",
+        "targetWord": "la plage"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'Bonnes vacances !' mean?",
+        "options": ["Good morning!", "Have a good holiday!", "Good luck!"],
+        "correctAnswer": "Have a good holiday!",
+        "explanation": "'Les vacances' = the holidays. 'Bonnes vacances' = Have a good holiday!",
+        "targetWord": "les vacances"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la réservation' mean?",
+        "options": ["The reservation", "The reception", "The recommendation", "The reception desk"],
+        "correctAnswer": "The reservation",
+        "explanation": "'La réservation' is a reservation or booking. 'Faire une réservation' = to make a booking.",
+        "targetWord": "la réservation"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Ce sont les ___ vacances de ma vie. (These are the best holidays of my life.)",
+        "correctAnswer": "meilleures",
+        "explanation": "'Bon' → 'meilleur' (superlative). Feminine plural: meilleures.",
+        "targetWord": "les vacances"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le passeport' mean?",
+        "options": ["The ticket", "The passport", "The boarding pass", "The visa"],
+        "correctAnswer": "The passport",
+        "explanation": "'Le passeport' is the passport. Essential for international travel.",
+        "targetWord": "le passeport"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: C'est l'hôtel le ___ confortable de la ville. (It's the most comfortable hotel in the city.)",
+        "correctAnswer": "plus",
+        "explanation": "Superlative after noun: l'hôtel le plus confortable.",
+        "targetWord": "l'hôtel"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "After a superlative, how do you say 'in the world'?",
+        "options": ["dans le monde", "du monde", "en le monde", "au monde"],
+        "correctAnswer": "du monde",
+        "explanation": "After superlatives, use 'de': de + le = du. 'La plus belle plage du monde.'",
+        "targetWord": "la plage"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: L'avion est le moyen de transport le plus ___ . (The plane is the fastest means of transport.)",
+        "correctAnswer": "rapide",
+        "explanation": "Le plus rapide = the fastest. Superlative after noun: le moyen le plus rapide.",
+        "targetWord": "l'avion"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A friend asks about your holiday plans for this summer. Tell them where you want to go, how you will travel, where you will stay, and what makes this destination the best choice. Use at least one superlative.",
+      "keyPhrases": [
+        "Je pars en vacances à… (I'm going on holiday to…)",
+        "On prend l'avion / le train… (We're taking the plane / train…)",
+        "L'hôtel est le plus… (The hotel is the most…)",
+        "C'est la plus belle plage de… (It's the most beautiful beach in…)"
+      ],
+      "modelAnswer": "Cet été, je pars en vacances à Nice avec ma famille. On prend l'avion samedi matin — c'est le plus rapide. L'hôtel est le plus grand de la ville et il est près de la plage. La plage est la plus belle de la côte ! J'ai déjà fait ma valise. Bonnes vacances à toi aussi !",
+      "modelAnswerExplanation": "The model answer uses travel vocabulary (vacances, avion, hôtel, plage, valise), three superlatives (le plus rapide, le plus grand, la plus belle), and the preposition 'de' after each superlative.",
+      "tip": "Remember: after a superlative, use 'de' to say 'in' or 'of' — never 'dans'."
+    },
+    "advanced": {
+      "scenario": "You have just returned from an amazing holiday and are telling a French colleague about it. Compare different aspects of your trip using superlatives — the hotel, the beach, the food, the city. Mention your passport, your booking, and how you packed. Use at least three superlatives.",
+      "keyPhrases": [
+        "C'était les meilleures vacances de… (It was the best holiday of…)",
+        "L'hôtel le plus… de la ville (The most… hotel in the city)",
+        "La réservation / le passeport (The booking / the passport)",
+        "C'est la plage la moins / la plus… (It's the least / most… beach)"
+      ],
+      "modelAnswer": "Je suis revenu de Nice hier — c'étaient les meilleures vacances de ma vie ! L'hôtel était le plus confortable de la ville, avec la meilleure vue sur la plage. La plage était la plus belle de toute la Côte d'Azur. J'avais fait ma réservation deux mois à l'avance. Heureusement, mon passeport était encore valide ! Ma valise était la plus lourde à l'aéroport parce que j'ai acheté beaucoup de souvenirs. C'est la destination la moins chère que j'ai trouvée pour un hôtel quatre étoiles.",
+      "modelAnswerExplanation": "The answer uses five superlatives (les meilleures, le plus confortable, la meilleure, la plus belle, la plus lourde, la moins chère), integrates all advanced vocabulary (réservation, passeport, valise), and uses natural past-tense narration.",
+      "tip": ""
+    }
+  }
+}

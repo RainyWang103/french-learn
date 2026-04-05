@@ -1,0 +1,492 @@
+{
+  "day": 29,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Feelings & Emotions",
+  "vocab": {
+    "standard": [
+      {
+        "word": "content",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "kon-ton",
+        "meaning": "happy / pleased / glad",
+        "notes": "Feminine form: 'contente'. Similar to 'heureux' but less intense — 'content' means satisfied or pleased. 'Je suis content de te voir' = I'm happy to see you.",
+        "examples": [
+          ["Je suis content de mon résultat.", "I am happy with my result."],
+          ["Elle est contente aujourd'hui.", "She is happy today."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "triste",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "treest",
+        "meaning": "sad",
+        "notes": "Same form for masculine and feminine. 'Être triste' = to be sad. 'Une histoire triste' = a sad story. Can also be used with 'de + infinitive': 'Je suis triste de partir' = I am sad to leave.",
+        "examples": [
+          ["Il est triste parce qu'il a perdu son chat.", "He is sad because he lost his cat."],
+          ["Ne sois pas triste !", "Don't be sad!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "en colère",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "on ko-lair",
+        "meaning": "angry",
+        "notes": "Always used with 'être': 'être en colère'. Can add 'contre' to say angry at someone: 'Je suis en colère contre toi' = I am angry at you. 'La colère' alone is the noun 'anger'.",
+        "examples": [
+          ["Mon père est en colère contre moi.", "My father is angry at me."],
+          ["Elle est en colère parce qu'il est en retard.", "She is angry because he is late."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "nerveux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "nair-vuh",
+        "meaning": "nervous / anxious",
+        "notes": "Feminine form: 'nerveuse'. Used for both temporary nervousness and a nervous personality. 'Je suis nerveux avant l'examen' = I am nervous before the exam.",
+        "examples": [
+          ["Tu es nerveux avant le concert ?", "Are you nervous before the concert?"],
+          ["Elle est nerveuse parce qu'elle a un entretien.", "She is nervous because she has an interview."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "inquiet",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "an-kee-ay",
+        "meaning": "worried / anxious",
+        "notes": "Feminine form: 'inquiète' (note the accent change). Stronger than 'nerveux' — implies genuine worry. 'S'inquiéter' = to worry (reflexive verb). 'Ne t'inquiète pas' = Don't worry.",
+        "examples": [
+          ["Ma mère est inquiète quand je rentre tard.", "My mother is worried when I come home late."],
+          ["Ne sois pas inquiet, tout va bien.", "Don't be worried, everything is fine."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "content",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "kon-ton",
+        "meaning": "happy / pleased / glad",
+        "notes": "Feminine form: 'contente'. Similar to 'heureux' but less intense — 'content' means satisfied or pleased. 'Je suis content de te voir' = I'm happy to see you.",
+        "examples": [
+          ["Je suis content de mon résultat.", "I am happy with my result."],
+          ["Elle est contente aujourd'hui.", "She is happy today."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "triste",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "treest",
+        "meaning": "sad",
+        "notes": "Same form for masculine and feminine. 'Être triste' = to be sad. 'Une histoire triste' = a sad story. Can also be used with 'de + infinitive': 'Je suis triste de partir' = I am sad to leave.",
+        "examples": [
+          ["Il est triste parce qu'il a perdu son chat.", "He is sad because he lost his cat."],
+          ["Ne sois pas triste !", "Don't be sad!"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "en colère",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "on ko-lair",
+        "meaning": "angry",
+        "notes": "Always used with 'être': 'être en colère'. Can add 'contre' to say angry at someone: 'Je suis en colère contre toi' = I am angry at you. 'La colère' alone is the noun 'anger'.",
+        "examples": [
+          ["Mon père est en colère contre moi.", "My father is angry at me."],
+          ["Elle est en colère parce qu'il est en retard.", "She is angry because he is late."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "nerveux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "nair-vuh",
+        "meaning": "nervous / anxious",
+        "notes": "Feminine form: 'nerveuse'. Used for both temporary nervousness and a nervous personality. 'Je suis nerveux avant l'examen' = I am nervous before the exam.",
+        "examples": [
+          ["Tu es nerveux avant le concert ?", "Are you nervous before the concert?"],
+          ["Elle est nerveuse parce qu'elle a un entretien.", "She is nervous because she has an interview."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "inquiet",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "an-kee-ay",
+        "meaning": "worried / anxious",
+        "notes": "Feminine form: 'inquiète' (note the accent change). Stronger than 'nerveux' — implies genuine worry. 'S'inquiéter' = to worry (reflexive verb). 'Ne t'inquiète pas' = Don't worry.",
+        "examples": [
+          ["Ma mère est inquiète quand je rentre tard.", "My mother is worried when I come home late."],
+          ["Ne sois pas inquiet, tout va bien.", "Don't be worried, everything is fine."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "surpris",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "soor-pree",
+        "meaning": "surprised",
+        "notes": "Feminine form: 'surprise'. Past participle of 'surprendre' (to surprise) used as an adjective. 'Être surpris de' = to be surprised by/at. 'Quelle surprise !' = What a surprise!",
+        "examples": [
+          ["Je suis surpris de te voir ici !", "I am surprised to see you here!"],
+          ["Elle était très surprise par la nouvelle.", "She was very surprised by the news."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la joie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la zhwa",
+        "meaning": "joy / happiness",
+        "notes": "'Avec joie' = with joy / gladly. 'La joie de vivre' = the joy of living (a famous French expression). 'Pleurer de joie' = to cry with joy. More intense and deeper than 'le bonheur' (happiness).",
+        "examples": [
+          ["Les enfants crient de joie.", "The children shout with joy."],
+          ["Quelle joie de te revoir !", "What a joy to see you again!"]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Salut ! Comment ça va aujourd'hui ?"],
+        ["B", "Je suis triste. Mon ami est parti hier."],
+        ["A", "Oh non ! Moi aussi, je suis un peu inquiet cette semaine."],
+        ["B", "Pourquoi tu es inquiet ?"],
+        ["A", "J'ai un examen vendredi. Je suis très nerveux."],
+        ["B", "Ne sois pas nerveux ! Tu vas réussir."],
+        ["A", "Merci, c'est gentil. Et toi, tu es en colère aussi ?"],
+        ["B", "Non, je ne suis pas en colère. Je suis juste triste. Mais demain, je vais être content !"]
+      ],
+      "questions": [
+        {
+          "question": "Why is speaker B sad?",
+          "options": ["They lost a pet", "Their friend left", "They failed an exam"],
+          "correctAnswer": "Their friend left"
+        },
+        {
+          "question": "Why is speaker A nervous?",
+          "options": ["A job interview", "An exam on Friday", "A doctor's appointment"],
+          "correctAnswer": "An exam on Friday"
+        },
+        {
+          "question": "How does speaker B expect to feel tomorrow?",
+          "options": ["Angry", "Happy", "Nervous"],
+          "correctAnswer": "Happy"
+        }
+      ],
+      "summary": "Two friends discuss their feelings. Speaker B is sad because a friend left yesterday. Speaker A is worried and nervous about an exam on Friday. Speaker B reassures A that they will succeed. B is not angry, just sad, but expects to be happy tomorrow."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu as l'air fatigué. Tout va bien ?"],
+        ["B", "Pas vraiment. Je suis allé au travail ce matin et mon chef était en colère contre moi."],
+        ["A", "Pourquoi il était en colère ?"],
+        ["B", "Je suis arrivé en retard. Et après, j'ai fait une erreur dans un document."],
+        ["A", "Oh là là. Tu es inquiet pour ton travail ?"],
+        ["B", "Oui, un peu. Mais ma collègue est venue me parler et elle m'a dit de ne pas m'inquiéter."],
+        ["A", "C'est gentil ! Tu te sens mieux maintenant ?"],
+        ["B", "Oui, je suis surpris parce que le chef est revenu et il s'est excusé. Il était nerveux à cause d'une réunion."],
+        ["A", "Alors tout va bien ! Tu peux être content ce soir."],
+        ["B", "Oui, quelle joie ! La journée a bien fini."]
+      ],
+      "questions": [
+        {
+          "question": "Why was the boss angry at speaker B?",
+          "options": ["B forgot a meeting", "B arrived late and made an error", "B lost an important file", "B left work early"],
+          "correctAnswer": "B arrived late and made an error"
+        },
+        {
+          "question": "Who came to reassure speaker B?",
+          "options": ["The boss", "A colleague", "A friend from outside work", "The receptionist"],
+          "correctAnswer": "A colleague"
+        },
+        {
+          "question": "Why had the boss been nervous?",
+          "options": ["A deadline was approaching", "Because of a meeting", "He had a problem at home", "He was sick"],
+          "correctAnswer": "Because of a meeting"
+        },
+        {
+          "question": "How does speaker B feel at the end of the conversation?",
+          "options": ["Still worried", "Angry at the boss", "Happy and relieved", "Nervous about tomorrow"],
+          "correctAnswer": "Happy and relieved"
+        }
+      ],
+      "summary": "Speaker B had a rough day at work — arriving late and making an error in a document, which made the boss angry. A colleague reassured B. Later, the boss apologised, explaining he had been nervous about a meeting. B ends the day feeling surprised and happy that everything worked out."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Passé Composé with Être (Movement & State Verbs)",
+      "explanation": "Some verbs use **être** (not avoir) as the auxiliary in the passé composé. These are mostly verbs of **movement** or **change of state**.\n\n**How to form it:**\nsubject + **être** (conjugated) + **past participle**\n\n**Être conjugation:**\n- je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont\n\n**Key rule:** With être, the past participle **agrees** with the subject!\n- Il est allé (he went) → Elle est all**ée** (she went)\n- Ils sont partis (they left) → Elles sont parti**es** (they left)\n\n**The most common être verbs (DR MRS VANDERTRAMP):**\n- **aller** → allé (went)\n- **venir** → venu (came)\n- **arriver** → arrivé (arrived)\n- **partir** → parti (left)\n- **entrer** → entré (entered)\n- **sortir** → sorti (went out)\n- **monter** → monté (went up)\n- **descendre** → descendu (went down)\n- **rester** → resté (stayed)\n- **tomber** → tombé (fell)\n- **naître** → né (was born)\n- **mourir** → mort (died)\n- **retourner** → retourné (returned)\n- **revenir** → revenu (came back)\n\n**Examples:**\n- Je suis allé au cinéma. (I went to the cinema.)\n- Elle est arrivée à huit heures. (She arrived at eight o'clock.)\n- Ils sont partis hier. (They left yesterday.)",
+      "examples": [
+        {
+          "french": "Je suis allé au parc ce matin.",
+          "english": "I went to the park this morning."
+        },
+        {
+          "french": "Elle est partie à six heures.",
+          "english": "She left at six o'clock."
+        },
+        {
+          "french": "Nous sommes arrivés en retard.",
+          "english": "We arrived late."
+        },
+        {
+          "french": "Ils sont restés à la maison.",
+          "english": "They stayed at home."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle est ___ au marché ce matin. (She went to the market this morning. — past participle of aller, feminine)",
+          "correctAnswer": "allée",
+          "explanation": "'Aller' → 'allé'. With être, add -e for feminine: allée."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which auxiliary do you use with 'partir' in the passé composé?",
+          "options": ["avoir", "être", "faire"],
+          "correctAnswer": "être",
+          "explanation": "'Partir' is a movement verb — it uses être. Il est parti."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Nous sommes ___ à la maison. (We stayed at home. — past participle of rester)",
+          "correctAnswer": "restés",
+          "explanation": "'Rester' → 'resté'. With être and 'nous' (mixed/masculine plural), add -s: restés."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'She arrived' in French?",
+          "options": ["Elle a arrivé", "Elle est arrivée", "Elle est arrivé"],
+          "correctAnswer": "Elle est arrivée",
+          "explanation": "'Arriver' uses être. Feminine subject = add -e: elle est arrivée."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il est ___ hier soir. (He came back yesterday evening. — past participle of revenir)",
+          "correctAnswer": "revenu",
+          "explanation": "'Revenir' → 'revenu' (like venir → venu). Masculine, no agreement change needed."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Passé Composé with Être — Movement Verbs, Agreement & Negation",
+      "explanation": "**Verbs that use être in the passé composé:**\nThese are primarily verbs of movement or change of state. A useful mnemonic is **DR MRS VANDERTRAMP**:\n\n| Infinitive | Past Participle | Meaning |\n|---|---|---|\n| aller | allé | went |\n| venir | venu | came |\n| arriver | arrivé | arrived |\n| partir | parti | left |\n| entrer | entré | entered |\n| sortir | sorti | went out |\n| monter | monté | went up |\n| descendre | descendu | went down |\n| rester | resté | stayed |\n| tomber | tombé | fell |\n| naître | né | was born |\n| mourir | mort | died |\n| retourner | retourné | returned |\n| revenir | revenu | came back |\n| devenir | devenu | became |\n| passer | passé | passed by |\n\n**Agreement rules:**\nThe past participle must agree in gender and number with the **subject**:\n- Il est parti → Elle est parti**e**\n- Ils sont venus → Elles sont venu**es**\n- Nous sommes arrivé**s** (masc. or mixed) / arrivé**es** (all fem.)\n\n**Negation:**\n'Ne' before être, 'pas' after être:\n- Je **ne suis pas** allé au cinéma.\n- Elle **n'est pas** venue hier.\n- Ils **ne sont pas** restés longtemps.\n\n**With time expressions:**\n- Il est arrivé **il y a** une heure. (He arrived an hour ago.)\n- Elle est partie **ce matin**. (She left this morning.)\n- Nous sommes revenus **la semaine dernière**. (We came back last week.)",
+      "examples": [
+        {
+          "french": "Elle est venue avec sa sœur.",
+          "english": "She came with her sister."
+        },
+        {
+          "french": "Ils ne sont pas restés longtemps.",
+          "english": "They didn't stay long."
+        },
+        {
+          "french": "Nous sommes descendus au premier étage.",
+          "english": "We went down to the first floor."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elles sont ___ au théâtre hier. (They (f.) went to the theatre yesterday. — past participle of aller)",
+          "correctAnswer": "allées",
+          "explanation": "'Aller' → 'allé'. Feminine plural = allées (add -es)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is correctly formed?",
+          "options": ["Elle a venue hier.", "Elle est venue hier.", "Elle est venu hier.", "Elle a venu hier."],
+          "correctAnswer": "Elle est venue hier.",
+          "explanation": "'Venir' uses être. Feminine subject requires agreement: venue (not venu)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il n'est pas ___ à la fête. (He didn't come to the party. — past participle of venir)",
+          "correctAnswer": "venu",
+          "explanation": "'Venir' → 'venu'. Masculine singular, no extra agreement. Negation wraps être: n'est pas venu."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'We (masc.) stayed at home' in the passé composé?",
+          "options": [
+            "Nous avons resté à la maison.",
+            "Nous sommes resté à la maison.",
+            "Nous sommes restés à la maison.",
+            "Nous avons restés à la maison."
+          ],
+          "correctAnswer": "Nous sommes restés à la maison.",
+          "explanation": "'Rester' uses être. Masculine plural 'nous' requires -s: restés."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ma sœur est ___ de Paris la semaine dernière. (My sister came back from Paris last week. — past participle of revenir)",
+          "correctAnswer": "revenue",
+          "explanation": "'Revenir' → 'revenu'. Feminine subject (ma sœur) = revenue."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which verb does NOT use être in the passé composé?",
+          "options": ["partir", "manger", "arriver", "tomber"],
+          "correctAnswer": "manger",
+          "explanation": "'Manger' is a regular -ER verb that uses avoir: j'ai mangé. The others use être."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Les filles sont ___ de l'immeuble. (The girls went out of the building. — past participle of sortir)",
+          "correctAnswer": "sorties",
+          "explanation": "'Sortir' → 'sorti'. Feminine plural = sorties (add -es)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Elle n'est pas partie' mean?",
+          "options": ["She didn't leave", "She didn't arrive", "She hasn't come", "She didn't stay"],
+          "correctAnswer": "She didn't leave",
+          "explanation": "'Partir' = to leave. Negation: n'est pas partie. 'She didn't leave.'"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'triste' mean?",
+        "options": ["Angry", "Sad", "Nervous"],
+        "correctAnswer": "Sad",
+        "explanation": "'Triste' means sad. 'En colère' means angry, 'nerveux' means nervous.",
+        "targetWord": "triste"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elle est ___ au cinéma hier. (She went to the cinema yesterday. — past participle of aller, feminine)",
+        "correctAnswer": "allée",
+        "explanation": "'Aller' uses être. Feminine agreement: allée.",
+        "targetWord": "content"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'I am worried' in French?",
+        "options": ["Je suis content", "Je suis inquiet", "Je suis en colère"],
+        "correctAnswer": "Je suis inquiet",
+        "explanation": "'Inquiet' means worried. 'Content' means happy, 'en colère' means angry.",
+        "targetWord": "inquiet"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Mon père est ___ contre moi. (My father is angry at me.)",
+        "correctAnswer": "en colère",
+        "explanation": "'Être en colère contre' = to be angry at someone.",
+        "targetWord": "en colère"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which auxiliary does the verb 'partir' use in the passé composé?",
+        "options": ["avoir", "être", "aller"],
+        "correctAnswer": "être",
+        "explanation": "'Partir' is a movement verb and uses être: il est parti.",
+        "targetWord": "nerveux"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la joie' mean?",
+        "options": ["The sadness", "The anger", "The joy", "The fear"],
+        "correctAnswer": "The joy",
+        "explanation": "'La joie' means joy or happiness. 'La joie de vivre' = the joy of living.",
+        "targetWord": "la joie"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Elles sont ___ à Paris hier. (They (f.) arrived in Paris yesterday. — past participle of arriver)",
+        "correctAnswer": "arrivées",
+        "explanation": "'Arriver' uses être. Feminine plural agreement: arrivées.",
+        "targetWord": "surpris"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the feminine form of 'surpris'?",
+        "options": ["surprise", "surprisée", "surprise", "surpriste"],
+        "correctAnswer": "surprise",
+        "explanation": "'Surpris' → 'surprise' in the feminine. Like most past participles ending in -s.",
+        "targetWord": "surpris"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il n'est pas ___ à la fête. (He didn't come to the party. — past participle of venir)",
+        "correctAnswer": "venu",
+        "explanation": "'Venir' → 'venu'. Negation wraps être: n'est pas venu.",
+        "targetWord": "la joie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly uses the passé composé with être?",
+        "options": [
+          "Elle a partie à midi.",
+          "Elle est partie à midi.",
+          "Elle est parti à midi.",
+          "Elle a parti à midi."
+        ],
+        "correctAnswer": "Elle est partie à midi.",
+        "explanation": "'Partir' uses être. Feminine subject requires -e agreement: partie.",
+        "targetWord": "en colère"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Les enfants sont ___ de joie. (The children shouted with joy. — past participle of crier... wait — this uses avoir. Try: Les enfants sont ___ dans le jardin. — past participle of tomber)",
+        "correctAnswer": "tombés",
+        "explanation": "'Tomber' uses être. Masculine plural: tombés.",
+        "targetWord": "inquiet"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You meet a friend after the weekend. Tell them about your weekend — where you went, what you did, and how you felt. Use the passé composé with être for movement verbs and describe at least two different emotions.",
+      "keyPhrases": [
+        "Je suis allé(e) à… (I went to…)",
+        "Je suis resté(e)… (I stayed…)",
+        "J'étais content(e) / triste / nerveux(-se)… (I was happy / sad / nervous…)",
+        "Et toi, comment était ton week-end ? (And you, how was your weekend?)"
+      ],
+      "modelAnswer": "Ce week-end, je suis allé au parc avec ma sœur. J'étais très content parce qu'il faisait beau. Samedi soir, je suis resté à la maison et j'étais un peu triste parce que mon ami est parti en vacances. Dimanche, je suis sorti avec ma famille. Et toi, comment était ton week-end ?",
+      "modelAnswerExplanation": "The model answer uses passé composé with être naturally (suis allé, suis resté, est parti, suis sorti), describes multiple emotions (content, triste), and ends with a question to engage the listener.",
+      "tip": "Remember: with être, the past participle agrees with you! If you are female, say 'je suis allée' with an extra -e."
+    },
+    "advanced": {
+      "scenario": "You had a difficult week with many ups and downs. A French friend asks how your week went. Describe at least three events using the passé composé with être (where you went, who came or left), and express how you felt about each one. Include at least one negative sentence.",
+      "keyPhrases": [
+        "Je suis allé(e) / venu(e) / parti(e) / arrivé(e)… (I went / came / left / arrived…)",
+        "J'étais surpris(e) / en colère / inquiet(-ète)… (I was surprised / angry / worried…)",
+        "Quelle joie ! (What a joy!)",
+        "Je ne suis pas resté(e) longtemps. (I didn't stay long.)"
+      ],
+      "modelAnswer": "Ma semaine a été mouvementée ! Lundi, je suis arrivé en retard au travail et mon chef était en colère. J'étais nerveux toute la matinée. Mercredi, une amie est venue de Lyon pour me voir — quelle joie ! Nous sommes sortis au restaurant. Mais jeudi, elle est repartie et j'étais triste. Vendredi, je suis allé à un entretien et j'étais très inquiet. Finalement, ils m'ont dit oui — j'étais surpris et content !",
+      "modelAnswerExplanation": "The answer uses six être verbs in passé composé (suis arrivé, est venue, sommes sortis, est repartie, suis allé), expresses five emotions (en colère, nerveux, joie, triste, inquiet, surpris, content), and includes natural time markers (lundi, mercredi, jeudi, vendredi, finalement).",
+      "tip": ""
+    }
+  }
+}

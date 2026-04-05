@@ -1,0 +1,493 @@
+{
+  "day": 31,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Animals & Pets",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le chien",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shee-an",
+        "meaning": "the dog",
+        "notes": "Feminine: 'la chienne'. 'Un chiot' = a puppy. 'Promener le chien' = to walk the dog. 'Attention au chien !' = Beware of the dog! Dogs are very popular pets in France.",
+        "examples": [
+          ["Mon chien s'appelle Max.", "My dog is called Max."],
+          ["Je promène le chien tous les matins.", "I walk the dog every morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le chat",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sha",
+        "meaning": "the cat",
+        "notes": "Feminine: 'la chatte'. 'Un chaton' = a kitten. Cats are the most popular pets in France. French expression: 'avoir un chat dans la gorge' = to have a frog in one's throat.",
+        "examples": [
+          ["Le chat dort sur le canapé.", "The cat is sleeping on the sofa."],
+          ["Elle a deux chats noirs.", "She has two black cats."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'oiseau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lwa-zo",
+        "meaning": "the bird",
+        "notes": "Plural: 'les oiseaux' (one of the few -eau → -eaux plurals). 'Un oiseau chante' = a bird sings. 'Une cage à oiseaux' = a birdcage. Common pet birds include parakeets (perruches).",
+        "examples": [
+          ["L'oiseau chante dans l'arbre.", "The bird sings in the tree."],
+          ["Il y a beaucoup d'oiseaux dans le parc.", "There are many birds in the park."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le poisson",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pwa-son",
+        "meaning": "the fish",
+        "notes": "Can mean the animal or the food. 'Un poisson rouge' = a goldfish (literally 'a red fish'). 'Poisson d'avril !' = April Fools! (literally 'April fish' — a French tradition).",
+        "examples": [
+          ["Mon fils a un poisson rouge.", "My son has a goldfish."],
+          ["Les poissons nagent dans l'eau.", "The fish swim in the water."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la ferme",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la fairm",
+        "meaning": "the farm",
+        "notes": "'Un fermier / une fermière' = a farmer. 'Les animaux de la ferme' = farm animals. 'À la ferme' = at the farm. Many French farms produce cheese, wine, or other regional specialities.",
+        "examples": [
+          ["Il y a des vaches à la ferme.", "There are cows at the farm."],
+          ["Nous allons visiter une ferme dimanche.", "We are going to visit a farm on Sunday."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le chien",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shee-an",
+        "meaning": "the dog",
+        "notes": "Feminine: 'la chienne'. 'Un chiot' = a puppy. 'Promener le chien' = to walk the dog. 'Attention au chien !' = Beware of the dog! Dogs are very popular pets in France.",
+        "examples": [
+          ["Mon chien s'appelle Max.", "My dog is called Max."],
+          ["Je promène le chien tous les matins.", "I walk the dog every morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le chat",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sha",
+        "meaning": "the cat",
+        "notes": "Feminine: 'la chatte'. 'Un chaton' = a kitten. Cats are the most popular pets in France. French expression: 'avoir un chat dans la gorge' = to have a frog in one's throat.",
+        "examples": [
+          ["Le chat dort sur le canapé.", "The cat is sleeping on the sofa."],
+          ["Elle a deux chats noirs.", "She has two black cats."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'oiseau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lwa-zo",
+        "meaning": "the bird",
+        "notes": "Plural: 'les oiseaux' (one of the few -eau → -eaux plurals). 'Un oiseau chante' = a bird sings. 'Une cage à oiseaux' = a birdcage. Common pet birds include parakeets (perruches).",
+        "examples": [
+          ["L'oiseau chante dans l'arbre.", "The bird sings in the tree."],
+          ["Il y a beaucoup d'oiseaux dans le parc.", "There are many birds in the park."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le poisson",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pwa-son",
+        "meaning": "the fish",
+        "notes": "Can mean the animal or the food. 'Un poisson rouge' = a goldfish (literally 'a red fish'). 'Poisson d'avril !' = April Fools! (literally 'April fish' — a French tradition).",
+        "examples": [
+          ["Mon fils a un poisson rouge.", "My son has a goldfish."],
+          ["Les poissons nagent dans l'eau.", "The fish swim in the water."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la ferme",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la fairm",
+        "meaning": "the farm",
+        "notes": "'Un fermier / une fermière' = a farmer. 'Les animaux de la ferme' = farm animals. 'À la ferme' = at the farm. Many French farms produce cheese, wine, or other regional specialities.",
+        "examples": [
+          ["Il y a des vaches à la ferme.", "There are cows at the farm."],
+          ["Nous allons visiter une ferme dimanche.", "We are going to visit a farm on Sunday."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le lapin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh la-pan",
+        "meaning": "the rabbit",
+        "notes": "'Un lapin nain' = a dwarf rabbit (popular pet). 'Poser un lapin à quelqu'un' = to stand someone up (idiom). 'Le lapin de Pâques' = the Easter bunny. Also a common farm animal and traditional dish in France.",
+        "examples": [
+          ["Ma fille a un lapin blanc.", "My daughter has a white rabbit."],
+          ["Les lapins mangent des carottes.", "Rabbits eat carrots."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le cheval",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shuh-val",
+        "meaning": "the horse",
+        "notes": "Plural: 'les chevaux' (irregular -al → -aux). 'Faire du cheval' = to go horse riding. 'L'équitation' = horse riding (the sport). France has a strong equestrian tradition.",
+        "examples": [
+          ["Le cheval court dans le champ.", "The horse runs in the field."],
+          ["Elle fait du cheval le week-end.", "She goes horse riding at the weekend."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu as un animal de compagnie ?"],
+        ["B", "Oui ! J'ai un chien et un chat. Et toi ?"],
+        ["A", "Moi, j'ai un poisson rouge. C'est un petit poisson."],
+        ["B", "C'est mignon ! Mon chien, c'est un grand chien noir. Il s'appelle Réglisse."],
+        ["A", "Et le chat, il est comment ?"],
+        ["B", "C'est une petite chatte blanche. Elle est très calme."],
+        ["A", "Tu les promènes ?"],
+        ["B", "Je promène le chien, mais le chat, il reste à la maison. Il préfère dormir !"]
+      ],
+      "questions": [
+        {
+          "question": "What pets does speaker B have?",
+          "options": ["A dog and a fish", "A dog and a cat", "A cat and a bird"],
+          "correctAnswer": "A dog and a cat"
+        },
+        {
+          "question": "What is the dog's name?",
+          "options": ["Max", "Réglisse", "Noir"],
+          "correctAnswer": "Réglisse"
+        },
+        {
+          "question": "What does the cat prefer to do?",
+          "options": ["Go outside", "Play", "Sleep"],
+          "correctAnswer": "Sleep"
+        }
+      ],
+      "summary": "Two friends discuss their pets. Speaker B has a big black dog named Réglisse and a small white cat that likes to sleep. Speaker A has a goldfish. Speaker B walks the dog but the cat stays home."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Salut ! Qu'est-ce que c'est, ce bruit ?"],
+        ["B", "C'est mon nouveau lapin ! Il s'appelle Caramel."],
+        ["A", "Oh, il est adorable ! C'est un lapin nain ?"],
+        ["B", "Oui, c'est un lapin nain. Il est tout petit et très doux."],
+        ["A", "Moi, j'aimerais avoir un cheval, mais c'est impossible en appartement !"],
+        ["B", "C'est vrai ! Mais il y a une ferme près de chez moi. Ils ont des chevaux, des oiseaux, et même des poissons dans un étang."],
+        ["A", "C'est un chien, là, dans le jardin ?"],
+        ["B", "Oui, c'est le chien de ma voisine. Il est gentil mais il est très grand."],
+        ["A", "Il est beau ! C'est quelle race ?"],
+        ["B", "Je ne sais pas. C'est un chien très calme. Ce n'est pas un chien méchant du tout."]
+      ],
+      "questions": [
+        {
+          "question": "What kind of animal is Caramel?",
+          "options": ["A cat", "A dwarf rabbit", "A dog", "A hamster"],
+          "correctAnswer": "A dwarf rabbit"
+        },
+        {
+          "question": "What animal would speaker A like to have?",
+          "options": ["A rabbit", "A bird", "A horse", "A dog"],
+          "correctAnswer": "A horse"
+        },
+        {
+          "question": "What animals are at the nearby farm?",
+          "options": ["Dogs and cats", "Horses, birds, and fish", "Only horses", "Cows and chickens"],
+          "correctAnswer": "Horses, birds, and fish"
+        },
+        {
+          "question": "Whose dog is in the garden?",
+          "options": ["Speaker A's", "Speaker B's", "The neighbour's", "From the farm"],
+          "correctAnswer": "The neighbour's"
+        }
+      ],
+      "summary": "Speaker B shows off a new dwarf rabbit named Caramel. Speaker A would love a horse but lives in an apartment. Speaker B mentions a nearby farm with horses, birds, and fish in a pond. They also notice the neighbour's large but gentle dog in the garden."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "C'est vs Il/Elle est",
+      "explanation": "French has two ways to say 'it is' or 'he/she is': **c'est** and **il/elle est**. They are NOT interchangeable!\n\n**Use C'EST + article + noun:**\n- C'est **un** chien. (It's a dog.)\n- C'est **mon** chat. (It's my cat.)\n- C'est **le** professeur. (It's the teacher.)\n- Ce sont **des** oiseaux. (They are birds.) — plural form\n\n**Use IL/ELLE EST + adjective (alone):**\n- Il est **grand**. (He/It is big.)\n- Elle est **belle**. (She/It is beautiful.)\n- Il est **calme**. (He/It is calm.)\n\n**Easy rule of thumb:**\n- Followed by a **noun** (with an article) → **c'est**\n- Followed by an **adjective** (no article) → **il/elle est**\n\n**Examples:**\n- C'est un petit chat. ✓ (noun phrase)\n- Il est petit. ✓ (adjective alone)\n- ~~Il est un petit chat.~~ ✗ (wrong!)\n\n**Ce n'est pas** = It isn't:\n- Ce n'est pas un chien, c'est un chat !",
+      "examples": [
+        {
+          "french": "C'est un chien noir.",
+          "english": "It's a black dog."
+        },
+        {
+          "french": "Il est très gentil.",
+          "english": "He is very nice."
+        },
+        {
+          "french": "C'est mon animal préféré.",
+          "english": "It's my favourite animal."
+        },
+        {
+          "french": "Elle est petite et blanche.",
+          "english": "She is small and white."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'It's a cat'?",
+          "options": ["Il est un chat.", "C'est un chat.", "Il est chat."],
+          "correctAnswer": "C'est un chat.",
+          "explanation": "Before a noun with an article (un chat), use 'c'est': C'est un chat."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ très grand. (He is very big.)",
+          "correctAnswer": "Il est",
+          "explanation": "Before an adjective alone (grand), use 'il est': Il est très grand."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct: 'C'est gentil' or 'Il est un chien gentil'?",
+          "options": ["C'est gentil", "Il est un chien gentil", "Both are correct"],
+          "correctAnswer": "C'est gentil",
+          "explanation": "'C'est + adjective' is correct for general comments. 'Il est un chien' is incorrect — use 'C'est un chien'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ mon poisson rouge. (It's my goldfish.)",
+          "correctAnswer": "C'est",
+          "explanation": "Before a noun with a possessive (mon poisson), use 'c'est'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'They are birds' (plural)?",
+          "options": ["C'est des oiseaux.", "Ce sont des oiseaux.", "Ils est des oiseaux."],
+          "correctAnswer": "Ce sont des oiseaux.",
+          "explanation": "Plural of 'c'est' = 'ce sont': Ce sont des oiseaux."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "C'est vs Il/Elle est — Full Rules, Plural & Common Traps",
+      "explanation": "**C'EST (ce sont for plural) — use before:**\n\n| Pattern | Example |\n|---|---|\n| article + noun | C'est **un chien**. |\n| possessive + noun | C'est **mon chat**. |\n| demonstrative + noun | C'est **ce lapin**. |\n| proper noun | C'est **Marie**. |\n| pronoun (stressed) | C'est **lui**. |\n| adjective (general comment) | C'est **beau** ! |\n\n**IL/ELLE EST (ils/elles sont for plural) — use before:**\n\n| Pattern | Example |\n|---|---|\n| adjective (describing subject) | Il est **grand**. |\n| nationality (no article) | Elle est **française**. |\n| profession (no article) | Il est **médecin**. |\n| religion (no article) | Elle est **musulmane**. |\n\n**Key contrast — professions:**\n- **C'est un** médecin. ✓ (c'est + article + noun)\n- **Il est** médecin. ✓ (il est + bare profession)\n- ~~Il est **un** médecin.~~ ✗ (never il est + article + noun!)\n\n**Negative forms:**\n- Ce **n'est pas** un chien. (It's not a dog.)\n- Il **n'est pas** gentil. (He's not nice.)\n- Ce **ne sont pas** des chats. (They aren't cats.)\n\n**Common trap:**\nWhen adding an adjective to 'c'est + noun', the adjective goes WITH the noun phrase:\n- C'est un **petit** chien. ✓\n- ~~Il est un petit chien.~~ ✗",
+      "examples": [
+        {
+          "french": "C'est un lapin nain. Il est très doux.",
+          "english": "It's a dwarf rabbit. It is very gentle."
+        },
+        {
+          "french": "Ce sont des chevaux. Ils sont magnifiques.",
+          "english": "They are horses. They are magnificent."
+        },
+        {
+          "french": "C'est le chien de ma voisine. Il est très calme.",
+          "english": "It's my neighbour's dog. He is very calm."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ un très beau cheval. (It's a very beautiful horse.)",
+          "correctAnswer": "C'est",
+          "explanation": "Before 'un + noun' (un très beau cheval), always use 'c'est'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct for 'She is French'?",
+          "options": ["C'est française.", "Elle est française.", "C'est une française.", "Elle est une française."],
+          "correctAnswer": "Elle est française.",
+          "explanation": "Nationality without article uses 'il/elle est': Elle est française."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ des poissons rouges. (They are goldfish.)",
+          "correctAnswer": "Ce sont",
+          "explanation": "Plural of 'c'est' = 'ce sont'. Before 'des + noun': ce sont des poissons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which pair of sentences is correct?",
+          "options": [
+            "Il est un chat. Il est noir.",
+            "C'est un chat. Il est noir.",
+            "C'est un chat. C'est noir.",
+            "Il est un chat. C'est noir."
+          ],
+          "correctAnswer": "C'est un chat. Il est noir.",
+          "explanation": "C'est + article + noun (un chat). Then il est + adjective (noir) to describe it."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ pas un chien, c'est un loup ! (It's not a dog, it's a wolf!)",
+          "correctAnswer": "Ce n'est",
+          "explanation": "Negative of 'c'est' = 'ce n'est pas'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'He is a doctor' using c'est?",
+          "options": ["Il est un médecin.", "C'est un médecin.", "C'est médecin.", "Ce sont un médecin."],
+          "correctAnswer": "C'est un médecin.",
+          "explanation": "With an article: c'est un médecin. Without an article: il est médecin. Both are correct but use different structures."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Le lapin ? ___ adorable ! (The rabbit? It's adorable!)",
+          "correctAnswer": "Il est",
+          "explanation": "Describing a specific subject with an adjective: il est adorable."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is INCORRECT?",
+          "options": [
+            "C'est un grand chien.",
+            "Il est grand.",
+            "Il est un grand chien.",
+            "Ce n'est pas un chat."
+          ],
+          "correctAnswer": "Il est un grand chien.",
+          "explanation": "'Il est + un + noun' is always wrong. Use 'c'est un grand chien' instead."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le chien' mean?",
+        "options": ["The cat", "The dog", "The bird"],
+        "correctAnswer": "The dog",
+        "explanation": "'Le chien' is the dog. 'Le chat' is the cat.",
+        "targetWord": "le chien"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ un chat noir. (It's a black cat.)",
+        "correctAnswer": "C'est",
+        "explanation": "Before 'un + noun', use 'c'est': C'est un chat noir.",
+        "targetWord": "le chat"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'un poisson rouge'?",
+        "options": ["A red bird", "A goldfish", "A red dog"],
+        "correctAnswer": "A goldfish",
+        "explanation": "'Un poisson rouge' literally means 'a red fish' — it's a goldfish.",
+        "targetWord": "le poisson"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: L'oiseau ? ___ petit et il chante bien. (The bird? It is small and it sings well.)",
+        "correctAnswer": "Il est",
+        "explanation": "Before an adjective describing a specific subject, use 'il est'.",
+        "targetWord": "l'oiseau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la ferme' mean?",
+        "options": ["The family", "The farm", "The market"],
+        "correctAnswer": "The farm",
+        "explanation": "'La ferme' is the farm. 'Les animaux de la ferme' = farm animals.",
+        "targetWord": "la ferme"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le lapin' mean?",
+        "options": ["The hamster", "The rabbit", "The guinea pig", "The squirrel"],
+        "correctAnswer": "The rabbit",
+        "explanation": "'Le lapin' is the rabbit. 'Un lapin nain' = a dwarf rabbit.",
+        "targetWord": "le lapin"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: ___ des chevaux magnifiques. (They are magnificent horses.)",
+        "correctAnswer": "Ce sont",
+        "explanation": "Plural of 'c'est' = 'ce sont'. Before 'des + noun': ce sont des chevaux.",
+        "targetWord": "le cheval"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the plural of 'le cheval'?",
+        "options": ["les chevals", "les chevaux", "les cheveaux", "les cheveux"],
+        "correctAnswer": "les chevaux",
+        "explanation": "'Le cheval' → 'les chevaux'. Irregular -al → -aux plural. (Note: 'les cheveux' means 'hair'!)",
+        "targetWord": "le cheval"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Ce n'est ___ un chien, c'est un loup ! (It's not a dog, it's a wolf!)",
+        "correctAnswer": "pas",
+        "explanation": "Negation of 'c'est': ce n'est pas. 'Pas' goes after 'est'.",
+        "targetWord": "le chien"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which is correct: 'Il est un chat' or 'C'est un chat'?",
+        "options": ["Il est un chat", "C'est un chat", "Both are correct", "Neither is correct"],
+        "correctAnswer": "C'est un chat",
+        "explanation": "Before 'un/une + noun', always use 'c'est'. 'Il est un chat' is incorrect.",
+        "targetWord": "le chat"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Le lapin, ___ très doux. (The rabbit, it is very gentle.)",
+        "correctAnswer": "il est",
+        "explanation": "Describing a specific subject with an adjective: il est très doux.",
+        "targetWord": "le lapin"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A classmate asks if you have a pet. Tell them about your pet (or an animal you like). Describe what it looks like using c'est and il/elle est correctly.",
+      "keyPhrases": [
+        "J'ai un/une… (I have a…)",
+        "C'est un/une… (It's a…)",
+        "Il/Elle est… (He/She/It is…)",
+        "Mon animal préféré, c'est… (My favourite animal is…)"
+      ],
+      "modelAnswer": "Oui, j'ai un chat ! C'est un petit chat gris. Il s'appelle Minou. Il est très calme et il aime dormir. C'est mon animal préféré. Et toi, tu as un animal de compagnie ?",
+      "modelAnswerExplanation": "The answer correctly uses 'c'est' before noun phrases (c'est un petit chat gris, c'est mon animal préféré) and 'il est' before adjectives (il est très calme). It describes the pet's appearance and personality.",
+      "tip": "Remember: 'C'est + un/mon/le + noun' but 'Il est + adjective'. Think: noun → c'est, adjective → il est."
+    },
+    "advanced": {
+      "scenario": "You are visiting a friend's home and discover they have several pets. Ask about each one, describe them using c'est and il/elle est correctly, and talk about what animals you would like to have. Mention at least three different animals.",
+      "keyPhrases": [
+        "C'est un(e)… / Ce sont des… (It's a… / They are…)",
+        "Il/Elle est… (He/She/It is…)",
+        "Qu'est-ce que c'est ? (What is it?)",
+        "J'aimerais avoir un(e)… (I would like to have a…)"
+      ],
+      "modelAnswer": "Oh, qu'est-ce que c'est ? C'est un lapin ? Il est adorable ! C'est un lapin nain, non ? Il est tout petit et très doux. Et là, ce sont des poissons rouges — ils sont magnifiques ! Et dans le jardin, c'est le chien de tes parents ? Il est énorme ! Moi, j'aimerais avoir un cheval, mais c'est impossible en ville. C'est un animal magnifique et il est très intelligent.",
+      "modelAnswerExplanation": "The answer uses 'c'est' with nouns (c'est un lapin, c'est le chien), 'ce sont' for plural (ce sont des poissons), and 'il est' with adjectives (il est adorable, il est énorme, il est intelligent). It mentions four animals and uses both structures naturally.",
+      "tip": ""
+    }
+  }
+}

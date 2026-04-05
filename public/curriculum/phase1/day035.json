@@ -1,0 +1,482 @@
+{
+  "day": 35,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "The Neighbourhood",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le quartier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kar-tee-ay",
+        "meaning": "the neighbourhood / the district",
+        "notes": "'Mon quartier' = my neighbourhood. 'Un quartier calme' = a quiet neighbourhood. In Paris, each 'arrondissement' contains several quartiers. 'Le quartier latin' = the Latin Quarter (famous Parisian district).",
+        "examples": [
+          ["J'habite dans un quartier calme.", "I live in a quiet neighbourhood."],
+          ["Le quartier est très agréable.", "The neighbourhood is very pleasant."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la boulangerie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la boo-lonzh-ree",
+        "meaning": "the bakery",
+        "notes": "'Le boulanger / la boulangère' = the baker. A boulangerie must bake bread on-site to use the name legally. France has around 33,000 boulangeries. 'Aller à la boulangerie' = to go to the bakery.",
+        "examples": [
+          ["Il y a une boulangerie au coin de la rue.", "There's a bakery on the corner of the street."],
+          ["J'achète du pain à la boulangerie tous les jours.", "I buy bread at the bakery every day."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le parc",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh park",
+        "meaning": "the park",
+        "notes": "'Aller au parc' = to go to the park. 'Un parc public' = a public park. 'Se promener dans le parc' = to walk in the park. French cities typically have many well-maintained public parks.",
+        "examples": [
+          ["Les enfants jouent dans le parc.", "The children play in the park."],
+          ["Il y a un grand parc près de chez moi.", "There's a big park near my home."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la poste",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la post",
+        "meaning": "the post office",
+        "notes": "'La Poste' is the national postal service in France. 'Aller à la poste' = to go to the post office. 'Un bureau de poste' = a post office branch. Also a useful landmark for giving directions.",
+        "examples": [
+          ["La poste est ouverte le samedi matin.", "The post office is open on Saturday morning."],
+          ["Il y a une poste dans mon quartier.", "There's a post office in my neighbourhood."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le voisin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh vwa-zan",
+        "meaning": "the neighbour",
+        "notes": "Feminine: 'la voisine'. 'Les voisins' = the neighbours. 'Chez les voisins' = at the neighbours' place. 'La Fête des voisins' = Neighbours' Day (a French tradition celebrated in May).",
+        "examples": [
+          ["Mon voisin est très gentil.", "My neighbour is very nice."],
+          ["Nous avons de bons voisins.", "We have good neighbours."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le quartier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kar-tee-ay",
+        "meaning": "the neighbourhood / the district",
+        "notes": "'Mon quartier' = my neighbourhood. 'Un quartier calme' = a quiet neighbourhood. In Paris, each 'arrondissement' contains several quartiers. 'Le quartier latin' = the Latin Quarter (famous Parisian district).",
+        "examples": [
+          ["J'habite dans un quartier calme.", "I live in a quiet neighbourhood."],
+          ["Le quartier est très agréable.", "The neighbourhood is very pleasant."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la boulangerie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la boo-lonzh-ree",
+        "meaning": "the bakery",
+        "notes": "'Le boulanger / la boulangère' = the baker. A boulangerie must bake bread on-site to use the name legally. France has around 33,000 boulangeries. 'Aller à la boulangerie' = to go to the bakery.",
+        "examples": [
+          ["Il y a une boulangerie au coin de la rue.", "There's a bakery on the corner of the street."],
+          ["J'achète du pain à la boulangerie tous les jours.", "I buy bread at the bakery every day."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le parc",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh park",
+        "meaning": "the park",
+        "notes": "'Aller au parc' = to go to the park. 'Un parc public' = a public park. 'Se promener dans le parc' = to walk in the park. French cities typically have many well-maintained public parks.",
+        "examples": [
+          ["Les enfants jouent dans le parc.", "The children play in the park."],
+          ["Il y a un grand parc près de chez moi.", "There's a big park near my home."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la poste",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la post",
+        "meaning": "the post office",
+        "notes": "'La Poste' is the national postal service in France. 'Aller à la poste' = to go to the post office. 'Un bureau de poste' = a post office branch. Also a useful landmark for giving directions.",
+        "examples": [
+          ["La poste est ouverte le samedi matin.", "The post office is open on Saturday morning."],
+          ["Il y a une poste dans mon quartier.", "There's a post office in my neighbourhood."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le voisin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh vwa-zan",
+        "meaning": "the neighbour",
+        "notes": "Feminine: 'la voisine'. 'Les voisins' = the neighbours. 'Chez les voisins' = at the neighbours' place. 'La Fête des voisins' = Neighbours' Day (a French tradition celebrated in May).",
+        "examples": [
+          ["Mon voisin est très gentil.", "My neighbour is very nice."],
+          ["Nous avons de bons voisins.", "We have good neighbours."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le coin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kwan",
+        "meaning": "the corner / the area / the spot",
+        "notes": "'Au coin de la rue' = on the corner of the street. 'Un coin tranquille' = a quiet spot. 'Du coin' = local: 'le café du coin' = the local café. 'Les gens du coin' = the locals.",
+        "examples": [
+          ["La boulangerie est au coin de la rue.", "The bakery is on the corner of the street."],
+          ["C'est un bon coin pour se promener.", "It's a good spot for a walk."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la mairie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la meh-ree",
+        "meaning": "the town hall / the city hall",
+        "notes": "'Le maire' = the mayor. 'Se marier à la mairie' = to get married at the town hall (civil marriages in France must take place at the mairie). Used for official documents like birth certificates, ID cards, etc.",
+        "examples": [
+          ["La mairie est sur la place principale.", "The town hall is on the main square."],
+          ["Il faut aller à la mairie pour le passeport.", "You need to go to the town hall for the passport."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu habites dans quel quartier ?"],
+        ["B", "J'habite dans un quartier calme, près du parc."],
+        ["A", "Il y a des commerces ?"],
+        ["B", "Oui ! Il y a une boulangerie — j'en achète du pain tous les matins."],
+        ["A", "Et une poste ?"],
+        ["B", "Oui, il y en a une à cinq minutes. Et un supermarché aussi."],
+        ["A", "Et les voisins, ils sont comment ?"],
+        ["B", "J'en ai trois sur mon étage. Ils sont très gentils !"]
+      ],
+      "questions": [
+        {
+          "question": "Where does speaker B live?",
+          "options": ["In a noisy neighbourhood", "In a quiet neighbourhood near the park", "In the city centre"],
+          "correctAnswer": "In a quiet neighbourhood near the park"
+        },
+        {
+          "question": "What does speaker B buy at the bakery every morning?",
+          "options": ["Croissants", "Bread", "Cakes"],
+          "correctAnswer": "Bread"
+        },
+        {
+          "question": "How many neighbours does speaker B have on their floor?",
+          "options": ["Two", "Three", "Four"],
+          "correctAnswer": "Three"
+        }
+      ],
+      "summary": "Speaker B lives in a quiet neighbourhood near a park. The area has a bakery where B buys bread every morning, a post office five minutes away, and a supermarket. Speaker B has three neighbours on the same floor, and they are all very nice."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Je viens d'emménager dans le quartier. Tu le connais bien ?"],
+        ["B", "Oui, j'y habite depuis cinq ans ! C'est un quartier très agréable."],
+        ["A", "Il y a une boulangerie ?"],
+        ["B", "Bien sûr ! Il y en a deux. La meilleure est au coin de la rue Victor Hugo."],
+        ["A", "Super ! Et des parcs ?"],
+        ["B", "Il y en a un très grand, juste derrière la mairie. Les voisins s'y retrouvent le dimanche."],
+        ["A", "Il y a une poste dans le coin ?"],
+        ["B", "Oui, il y en a une sur la place, à côté de la mairie. Elle est ouverte le matin."],
+        ["A", "Et les voisins, ils sont sympathiques ?"],
+        ["B", "Oui, j'en connais plusieurs. On fait la Fête des voisins en mai — tu vas adorer !"]
+      ],
+      "questions": [
+        {
+          "question": "How long has speaker B lived in the neighbourhood?",
+          "options": ["Two years", "Three years", "Five years", "Ten years"],
+          "correctAnswer": "Five years"
+        },
+        {
+          "question": "How many bakeries are there in the neighbourhood?",
+          "options": ["One", "Two", "Three", "None"],
+          "correctAnswer": "Two"
+        },
+        {
+          "question": "Where is the park located?",
+          "options": ["Next to the bakery", "Behind the town hall", "Near the post office", "On the main street"],
+          "correctAnswer": "Behind the town hall"
+        },
+        {
+          "question": "What event does speaker B mention?",
+          "options": ["A market in June", "Neighbours' Day in May", "A park festival in July", "A bakery opening in April"],
+          "correctAnswer": "Neighbours' Day in May"
+        }
+      ],
+      "summary": "Speaker A just moved to the neighbourhood and asks speaker B for advice. B has lived there for five years. The neighbourhood has two bakeries (the best one on the corner of rue Victor Hugo), a large park behind the town hall where neighbours gather on Sundays, and a post office on the square next to the town hall. B knows several neighbours and mentions the annual Neighbours' Day celebration in May."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "The Pronoun En (Replacing de + Noun / Expressing Quantity)",
+      "explanation": "The pronoun **en** replaces a noun introduced by **de** (du, de la, de l', des) or replaces a **quantity expression**.\n\n**When to use en:**\n\n**1. Replacing 'de + noun' (some/any):**\n- Tu veux **du pain** ? → Tu **en** veux ? (Do you want some?)\n- J'achète **des croissants**. → J'**en** achète. (I'm buying some.)\n\n**2. Replacing a quantity (the number stays!):**\n- Il y a **trois boulangeries**. → Il y **en** a **trois**. (There are three.)\n- J'ai **deux voisins**. → J'**en** ai **deux**. (I have two.)\n- Tu veux **beaucoup de pain** ? → Tu **en** veux **beaucoup** ? (Do you want a lot?)\n\n**Where en goes:** Before the verb (same position as y, le, la, les).\n\n**With negation:**\n- Je n'**en** veux **pas**. (I don't want any.)\n- Il n'y **en** a **pas**. (There aren't any.)\n\n**Key expressions with en:**\n- **Il y en a** = there is/are some (replaces il y a + des/du)\n- **J'en ai** = I have some\n- **J'en veux** = I want some",
+      "examples": [
+        {
+          "french": "Tu veux du pain ? — Oui, j'en veux.",
+          "english": "Do you want some bread? — Yes, I want some."
+        },
+        {
+          "french": "Il y a des parcs ? — Oui, il y en a deux.",
+          "english": "Are there parks? — Yes, there are two."
+        },
+        {
+          "french": "Tu as des voisins ? — Oui, j'en ai trois.",
+          "english": "Do you have neighbours? — Yes, I have three."
+        },
+        {
+          "french": "Je n'en veux pas.",
+          "english": "I don't want any."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu veux du café ? — Oui, j'___ veux. (Yes, I want some.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces 'du café' (partitive). J'en veux = I want some."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'There are three' using en?",
+          "options": ["Il en y a trois.", "Il y en a trois.", "Il y a en trois."],
+          "correctAnswer": "Il y en a trois.",
+          "explanation": "'En' goes before 'a' in 'il y a': il y en a trois."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu as des voisins ? — Oui, j'___ ai cinq. (Yes, I have five.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces 'des voisins'. The number stays: j'en ai cinq."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Je n'en veux pas' mean?",
+          "options": ["I want some", "I don't want any", "I don't have any"],
+          "correctAnswer": "I don't want any",
+          "explanation": "Negation: ne + en + verb + pas. Je n'en veux pas = I don't want any."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il y a une boulangerie ? — Oui, il y ___ a une. (Yes, there is one.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces the noun in quantity expressions. Il y en a une = There is one."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "The Pronoun En — Quantity, de + Noun & Fixed Expressions",
+      "explanation": "**'En' replaces:**\n\n**1. Partitive articles (du, de la, de l', des) + noun:**\n- Tu veux **du pain** ? → Tu **en** veux ?\n- Elle mange **de la salade**. → Elle **en** mange.\n- Il boit **de l'eau**. → Il **en** boit.\n\n**2. Quantity expressions (number/adverb stays, noun goes):**\n- J'ai **trois chats**. → J'**en** ai **trois**.\n- Il y a **beaucoup de parcs**. → Il y **en** a **beaucoup**.\n- Tu veux **un peu de sucre** ? → Tu **en** veux **un peu** ?\n- Je n'ai **pas de voisins**. → Je n'**en** ai **pas**.\n\n**3. De + noun (after verbs that use 'de'):**\n- Tu parles **de ton quartier** ? → Tu **en** parles ? (Are you talking about it?)\n- J'ai besoin **d'une carte**. → J'**en** ai besoin. (I need one.)\n\n**Position of en:**\n| Tense | Position | Example |\n|---|---|---|\n| Present | Before verb | J'**en** veux. |\n| Passé composé | Before auxiliary | J'**en** ai acheté. |\n| Near future | Before infinitive | Je vais **en** acheter. |\n| Negation | ne + **en** + verb + pas | Je n'**en** veux pas. |\n| Imperative (affirm.) | After verb + hyphen | Prends-**en** ! (Take some!) |\n| Imperative (neg.) | Before verb | N'**en** prends pas ! |\n\n**Important:** Unlike direct object pronouns, 'en' does NOT trigger past participle agreement:\n- Des croissants ? J'en ai acheté. ✓ (NOT achetés)\n\n**Common expressions:**\n- **J'en ai marre !** = I'm fed up!\n- **Je m'en vais.** = I'm leaving.\n- **S'en aller** = to leave / to go away",
+      "examples": [
+        {
+          "french": "Des boulangeries ? Il y en a deux dans mon quartier.",
+          "english": "Bakeries? There are two in my neighbourhood."
+        },
+        {
+          "french": "J'en ai acheté ce matin.",
+          "english": "I bought some this morning."
+        },
+        {
+          "french": "Tu en veux combien ?",
+          "english": "How many do you want?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu veux des croissants ? — Oui, j'___ veux trois. (Yes, I want three.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces 'des croissants'. The number stays: j'en veux trois."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does 'en' go in the near future?",
+          "options": ["Before aller", "Between aller and infinitive", "Before the infinitive", "After the infinitive"],
+          "correctAnswer": "Before the infinitive",
+          "explanation": "Near future: en goes before the infinitive. Je vais en acheter."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu as besoin d'aide ? — Oui, j'___ ai besoin. (Yes, I need some.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces 'de + noun' after 'avoir besoin de': j'en ai besoin."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Does 'en' trigger past participle agreement with avoir?",
+          "options": ["Yes, always", "No, never", "Only with feminine nouns", "Only in formal French"],
+          "correctAnswer": "No, never",
+          "explanation": "Unlike le/la/les, 'en' does NOT trigger agreement: J'en ai acheté (not achetés)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il y a combien de parcs ? — Il y ___ a trois. (There are three.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces the noun in 'il y a + number + noun': il y en a trois."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'Take some!' (imperative, informal)?",
+          "options": ["En prends !", "Prends-en !", "Prends en !", "En-prends !"],
+          "correctAnswer": "Prends-en !",
+          "explanation": "Affirmative imperative: verb + hyphen + en: Prends-en !"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Des voisins sympathiques ? J'___ connais plusieurs. (Nice neighbours? I know several.)",
+          "correctAnswer": "en",
+          "explanation": "'En' replaces 'des voisins'. Quantity word stays: j'en connais plusieurs."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'J'en ai marre !' mean?",
+          "options": ["I have some!", "I'm leaving!", "I'm fed up!", "I remember!"],
+          "correctAnswer": "I'm fed up!",
+          "explanation": "'En avoir marre' is a common expression meaning 'to be fed up'."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le quartier' mean?",
+        "options": ["The quarter hour", "The neighbourhood", "The apartment"],
+        "correctAnswer": "The neighbourhood",
+        "explanation": "'Le quartier' is the neighbourhood or district.",
+        "targetWord": "le quartier"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Tu veux du pain ? — Oui, j'___ veux. (Yes, I want some.)",
+        "correctAnswer": "en",
+        "explanation": "'En' replaces 'du pain' (partitive). J'en veux = I want some.",
+        "targetWord": "la boulangerie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la boulangerie'?",
+        "options": ["The butcher shop", "The bakery", "The grocery store"],
+        "correctAnswer": "The bakery",
+        "explanation": "'La boulangerie' is the bakery. A key feature of every French neighbourhood!",
+        "targetWord": "la boulangerie"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il y a des parcs ? — Oui, il y ___ a deux. (Yes, there are two.)",
+        "correctAnswer": "en",
+        "explanation": "'En' replaces the noun. The number stays: il y en a deux.",
+        "targetWord": "le parc"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le voisin' mean?",
+        "options": ["The visitor", "The neighbour", "The cousin"],
+        "correctAnswer": "The neighbour",
+        "explanation": "'Le voisin' is the neighbour. Feminine: 'la voisine'.",
+        "targetWord": "le voisin"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le coin' mean in 'le café du coin'?",
+        "options": ["The corner / local area", "The counter", "The cup", "The menu"],
+        "correctAnswer": "The corner / local area",
+        "explanation": "'Du coin' = local. 'Le café du coin' = the local café.",
+        "targetWord": "le coin"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Des croissants ? J'___ ai acheté ce matin. (Croissants? I bought some this morning.)",
+        "correctAnswer": "en",
+        "explanation": "'En' replaces 'des croissants'. Note: no past participle agreement with 'en'.",
+        "targetWord": "la boulangerie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la mairie'?",
+        "options": ["The market", "The town hall", "The library", "The church"],
+        "correctAnswer": "The town hall",
+        "explanation": "'La mairie' is the town hall. Civil marriages in France take place here.",
+        "targetWord": "la mairie"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Tu as besoin d'aide ? — Oui, j'___ ai besoin. (Yes, I need some.)",
+        "correctAnswer": "en",
+        "explanation": "'En' replaces 'de + noun' after 'avoir besoin de'.",
+        "targetWord": "le quartier"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'Take some!' (imperative)?",
+        "options": ["En prends !", "Prends-en !", "Prends en !", "En-prends !"],
+        "correctAnswer": "Prends-en !",
+        "explanation": "Affirmative imperative: verb-en. Prends-en !",
+        "targetWord": "le voisin"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Fill in the blank: Il y a combien de boulangeries ? — Il y ___ a deux. (There are two.)",
+        "correctAnswer": "en",
+        "explanation": "'En' in 'il y a' expressions: il y en a + number.",
+        "targetWord": "la poste"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A new classmate asks about your neighbourhood. Describe where you live — mention the shops, the park, and your neighbours. Use the pronoun 'en' when talking about quantities.",
+      "keyPhrases": [
+        "J'habite dans un quartier… (I live in a… neighbourhood)",
+        "Il y en a… (There is/are… of them)",
+        "J'en ai… (I have… of them)",
+        "Près de chez moi, il y a… (Near my home, there is…)"
+      ],
+      "modelAnswer": "J'habite dans un quartier calme. Il y a une boulangerie — j'en achète du pain tous les matins. Des parcs ? Il y en a deux près de chez moi. La poste est à cinq minutes. J'ai des voisins très gentils — j'en ai quatre sur mon étage. Mon quartier est très agréable !",
+      "modelAnswerExplanation": "The answer uses 'en' naturally three times (j'en achète, il y en a deux, j'en ai quatre), describes the neighbourhood with key vocabulary (quartier, boulangerie, parcs, poste, voisins), and gives a complete picture of the area.",
+      "tip": "When someone asks 'how many?' or you mention a quantity, use 'en' to avoid repeating the noun. Keep the number at the end!"
+    },
+    "advanced": {
+      "scenario": "You have just moved to a new neighbourhood and are telling a French friend about it. Describe what shops and facilities are nearby, how many of each there are, and what your neighbours are like. Use 'en' for quantities and 'de + noun' replacements. Mention the town hall and local spots.",
+      "keyPhrases": [
+        "Il y en a… dans mon quartier. (There are… in my neighbourhood.)",
+        "J'en ai besoin / J'en connais… (I need some / I know some…)",
+        "Au coin de la rue / Près de la mairie (On the corner / Near the town hall)",
+        "Des voisins ? J'en ai… (Neighbours? I have…)"
+      ],
+      "modelAnswer": "Mon nouveau quartier est super ! Il y a deux boulangeries — j'en ai testé une hier, le pain est excellent. Des parcs, il y en a un très grand derrière la mairie. La poste est au coin de la rue, j'en ai besoin pour envoyer un colis. Les voisins sont sympathiques — j'en connais déjà trois. Le café du coin est très agréable, j'en viens à l'instant. C'est vraiment un bon quartier !",
+      "modelAnswerExplanation": "The answer uses 'en' five times in varied contexts (j'en ai testé, il y en a un, j'en ai besoin, j'en connais, j'en viens), integrates advanced vocabulary (mairie, coin), and creates a vivid picture of the neighbourhood.",
+      "tip": ""
+    }
+  }
+}
