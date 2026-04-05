@@ -140,759 +140,327 @@
   "vocabWords": [
     {
       "day": 1,
-      "word": "dormir"
-    },
-    {
-      "day": 1,
-      "word": "fatigué"
-    },
-    {
-      "day": 1,
-      "word": "le lit"
-    },
-    {
-      "day": 1,
-      "word": "le matin"
-    },
-    {
-      "day": 1,
-      "word": "le réveil"
-    },
-    {
-      "day": 1,
-      "word": "se réveiller"
-    },
-    {
-      "day": 1,
-      "word": "tôt"
+      "words": [
+        "dormir",
+        "fatigué",
+        "le lit",
+        "le matin",
+        "le réveil",
+        "se réveiller",
+        "tôt"
+      ]
     },
     {
       "day": 2,
-      "word": "la douche"
-    },
-    {
-      "day": 2,
-      "word": "le miroir"
-    },
-    {
-      "day": 2,
-      "word": "le peigne"
-    },
-    {
-      "day": 2,
-      "word": "les vêtements"
-    },
-    {
-      "day": 2,
-      "word": "prêt"
-    },
-    {
-      "day": 2,
-      "word": "s'habiller"
-    },
-    {
-      "day": 2,
-      "word": "se dépêcher"
+      "words": [
+        "la douche",
+        "le miroir",
+        "le peigne",
+        "les vêtements",
+        "prêt",
+        "s'habiller",
+        "se dépêcher"
+      ]
     },
     {
       "day": 3,
-      "word": "la confiture"
-    },
-    {
-      "day": 3,
-      "word": "le beurre"
-    },
-    {
-      "day": 3,
-      "word": "le bol"
-    },
-    {
-      "day": 3,
-      "word": "le café"
-    },
-    {
-      "day": 3,
-      "word": "le croissant"
-    },
-    {
-      "day": 3,
-      "word": "le jus"
-    },
-    {
-      "day": 3,
-      "word": "le pain"
+      "words": [
+        "la confiture",
+        "le beurre",
+        "le bol",
+        "le café",
+        "le croissant",
+        "le jus",
+        "le pain"
+      ]
     },
     {
       "day": 5,
-      "word": "la clé"
-    },
-    {
-      "day": 5,
-      "word": "la maison"
-    },
-    {
-      "day": 5,
-      "word": "la porte"
-    },
-    {
-      "day": 5,
-      "word": "la rue"
-    },
-    {
-      "day": 5,
-      "word": "le bus"
-    },
-    {
-      "day": 5,
-      "word": "le trajet"
-    },
-    {
-      "day": 5,
-      "word": "le trottoir"
+      "words": [
+        "la clé",
+        "la maison",
+        "la porte",
+        "la rue",
+        "le bus",
+        "le trajet",
+        "le trottoir"
+      ]
     },
     {
       "day": 6,
-      "word": "la chaise"
-    },
-    {
-      "day": 6,
-      "word": "la chambre"
-    },
-    {
-      "day": 6,
-      "word": "la cuisine"
-    },
-    {
-      "day": 6,
-      "word": "la fenêtre"
-    },
-    {
-      "day": 6,
-      "word": "la table"
-    },
-    {
-      "day": 6,
-      "word": "le canapé"
-    },
-    {
-      "day": 6,
-      "word": "le salon"
+      "words": [
+        "la chaise",
+        "la chambre",
+        "la cuisine",
+        "la fenêtre",
+        "la table",
+        "le canapé",
+        "le salon"
+      ]
     },
     {
       "day": 7,
-      "word": "la musique"
-    },
-    {
-      "day": 7,
-      "word": "la télévision"
-    },
-    {
-      "day": 7,
-      "word": "le dîner"
-    },
-    {
-      "day": 7,
-      "word": "manger"
-    },
-    {
-      "day": 7,
-      "word": "regarder"
-    },
-    {
-      "day": 7,
-      "word": "se coucher"
-    },
-    {
-      "day": 7,
-      "word": "écouter"
+      "words": [
+        "la musique",
+        "la télévision",
+        "le dîner",
+        "manger",
+        "regarder",
+        "se coucher",
+        "écouter"
+      ]
     },
     {
       "day": 9,
-      "word": "chaud"
-    },
-    {
-      "day": 9,
-      "word": "froid"
-    },
-    {
-      "day": 9,
-      "word": "la neige"
-    },
-    {
-      "day": 9,
-      "word": "la pluie"
-    },
-    {
-      "day": 9,
-      "word": "le nuage"
-    },
-    {
-      "day": 9,
-      "word": "le soleil"
-    },
-    {
-      "day": 9,
-      "word": "le vent"
+      "words": [
+        "chaud",
+        "froid",
+        "la neige",
+        "la pluie",
+        "le nuage",
+        "le soleil",
+        "le vent"
+      ]
     },
     {
       "day": 10,
-      "word": "l'enfant"
-    },
-    {
-      "day": 10,
-      "word": "la grand-mère"
-    },
-    {
-      "day": 10,
-      "word": "la mère"
-    },
-    {
-      "day": 10,
-      "word": "la sœur"
-    },
-    {
-      "day": 10,
-      "word": "le frère"
-    },
-    {
-      "day": 10,
-      "word": "le grand-père"
-    },
-    {
-      "day": 10,
-      "word": "le père"
+      "words": [
+        "l'enfant",
+        "la grand-mère",
+        "la mère",
+        "la sœur",
+        "le frère",
+        "le grand-père",
+        "le père"
+      ]
     },
     {
       "day": 11,
-      "word": "commencer"
-    },
-    {
-      "day": 11,
-      "word": "en retard"
-    },
-    {
-      "day": 11,
-      "word": "l'heure"
-    },
-    {
-      "day": 11,
-      "word": "la semaine"
-    },
-    {
-      "day": 11,
-      "word": "le quart d'heure"
-    },
-    {
-      "day": 11,
-      "word": "le rendez-vous"
-    },
-    {
-      "day": 11,
-      "word": "midi"
+      "words": [
+        "commencer",
+        "en retard",
+        "l'heure",
+        "la semaine",
+        "le quart d'heure",
+        "le rendez-vous",
+        "midi"
+      ]
     },
     {
       "day": 13,
-      "word": "acheter"
-    },
-    {
-      "day": 13,
-      "word": "la monnaie"
-    },
-    {
-      "day": 13,
-      "word": "le marché"
-    },
-    {
-      "day": 13,
-      "word": "le prix"
-    },
-    {
-      "day": 13,
-      "word": "le sac"
-    },
-    {
-      "day": 13,
-      "word": "le vendeur"
-    },
-    {
-      "day": 13,
-      "word": "un kilo"
+      "words": [
+        "acheter",
+        "la monnaie",
+        "le marché",
+        "le prix",
+        "le sac",
+        "le vendeur",
+        "un kilo"
+      ]
     },
     {
       "day": 14,
-      "word": "blanc"
-    },
-    {
-      "day": 14,
-      "word": "la robe"
-    },
-    {
-      "day": 14,
-      "word": "le chapeau"
-    },
-    {
-      "day": 14,
-      "word": "le manteau"
-    },
-    {
-      "day": 14,
-      "word": "le pantalon"
-    },
-    {
-      "day": 14,
-      "word": "les chaussures"
-    },
-    {
-      "day": 14,
-      "word": "rouge"
+      "words": [
+        "blanc",
+        "la robe",
+        "le chapeau",
+        "le manteau",
+        "le pantalon",
+        "les chaussures",
+        "rouge"
+      ]
     },
     {
       "day": 15,
-      "word": "l'aspirateur"
-    },
-    {
-      "day": 15,
-      "word": "la lessive"
-    },
-    {
-      "day": 15,
-      "word": "la vaisselle"
-    },
-    {
-      "day": 15,
-      "word": "le balai"
-    },
-    {
-      "day": 15,
-      "word": "le ménage"
-    },
-    {
-      "day": 15,
-      "word": "nettoyer"
-    },
-    {
-      "day": 15,
-      "word": "ranger"
+      "words": [
+        "l'aspirateur",
+        "la lessive",
+        "la vaisselle",
+        "le balai",
+        "le ménage",
+        "nettoyer",
+        "ranger"
+      ]
     },
     {
       "day": 17,
-      "word": "l'addition"
-    },
-    {
-      "day": 17,
-      "word": "l'entrée"
-    },
-    {
-      "day": 17,
-      "word": "le dessert"
-    },
-    {
-      "day": 17,
-      "word": "le plat"
-    },
-    {
-      "day": 17,
-      "word": "le pourboire"
-    },
-    {
-      "day": 17,
-      "word": "le restaurant"
-    },
-    {
-      "day": 17,
-      "word": "le serveur"
+      "words": [
+        "l'addition",
+        "l'entrée",
+        "le dessert",
+        "le plat",
+        "le pourboire",
+        "le restaurant",
+        "le serveur"
+      ]
     },
     {
       "day": 18,
-      "word": "la pharmacie"
-    },
-    {
-      "day": 18,
-      "word": "la place"
-    },
-    {
-      "day": 18,
-      "word": "le carrefour"
-    },
-    {
-      "day": 18,
-      "word": "le feu"
-    },
-    {
-      "day": 18,
-      "word": "le pont"
-    },
-    {
-      "day": 18,
-      "word": "le rond-point"
-    },
-    {
-      "day": 18,
-      "word": "tourner"
+      "words": [
+        "la pharmacie",
+        "la place",
+        "le carrefour",
+        "le feu",
+        "le pont",
+        "le rond-point",
+        "tourner"
+      ]
     },
     {
       "day": 19,
-      "word": "la fièvre"
-    },
-    {
-      "day": 19,
-      "word": "la tête"
-    },
-    {
-      "day": 19,
-      "word": "le bras"
-    },
-    {
-      "day": 19,
-      "word": "le médecin"
-    },
-    {
-      "day": 19,
-      "word": "le médicament"
-    },
-    {
-      "day": 19,
-      "word": "le ventre"
-    },
-    {
-      "day": 19,
-      "word": "malade"
+      "words": [
+        "la fièvre",
+        "la tête",
+        "le bras",
+        "le médecin",
+        "le médicament",
+        "le ventre",
+        "malade"
+      ]
     },
     {
       "day": 21,
-      "word": "jouer"
-    },
-    {
-      "day": 21,
-      "word": "la chanson"
-    },
-    {
-      "day": 21,
-      "word": "la lecture"
-    },
-    {
-      "day": 21,
-      "word": "la peinture"
-    },
-    {
-      "day": 21,
-      "word": "la randonnée"
-    },
-    {
-      "day": 21,
-      "word": "le dessin"
-    },
-    {
-      "day": 21,
-      "word": "le sport"
+      "words": [
+        "jouer",
+        "la chanson",
+        "la lecture",
+        "la peinture",
+        "la randonnée",
+        "le dessin",
+        "le sport"
+      ]
     },
     {
       "day": 22,
-      "word": "l'arrêt"
-    },
-    {
-      "day": 22,
-      "word": "la gare"
-    },
-    {
-      "day": 22,
-      "word": "le billet"
-    },
-    {
-      "day": 22,
-      "word": "le métro"
-    },
-    {
-      "day": 22,
-      "word": "le quai"
-    },
-    {
-      "day": 22,
-      "word": "le train"
-    },
-    {
-      "day": 22,
-      "word": "le vélo"
+      "words": [
+        "l'arrêt",
+        "la gare",
+        "le billet",
+        "le métro",
+        "le quai",
+        "le train",
+        "le vélo"
+      ]
     },
     {
       "day": 23,
-      "word": "l'année"
-    },
-    {
-      "day": 23,
-      "word": "l'automne"
-    },
-    {
-      "day": 23,
-      "word": "l'hiver"
-    },
-    {
-      "day": 23,
-      "word": "l'été"
-    },
-    {
-      "day": 23,
-      "word": "la saison"
-    },
-    {
-      "day": 23,
-      "word": "le mois"
-    },
-    {
-      "day": 23,
-      "word": "le printemps"
+      "words": [
+        "l'année",
+        "l'automne",
+        "l'hiver",
+        "l'été",
+        "la saison",
+        "le mois",
+        "le printemps"
+      ]
     },
     {
       "day": 25,
-      "word": "grand"
-    },
-    {
-      "day": 25,
-      "word": "jeune"
-    },
-    {
-      "day": 25,
-      "word": "la barbe"
-    },
-    {
-      "day": 25,
-      "word": "les cheveux"
-    },
-    {
-      "day": 25,
-      "word": "les yeux"
-    },
-    {
-      "day": 25,
-      "word": "mince"
-    },
-    {
-      "day": 25,
-      "word": "petit"
+      "words": [
+        "grand",
+        "jeune",
+        "la barbe",
+        "les cheveux",
+        "les yeux",
+        "mince",
+        "petit"
+      ]
     },
     {
       "day": 26,
-      "word": "envoyer"
-    },
-    {
-      "day": 26,
-      "word": "l'argent"
-    },
-    {
-      "day": 26,
-      "word": "la banque"
-    },
-    {
-      "day": 26,
-      "word": "la lettre"
-    },
-    {
-      "day": 26,
-      "word": "le colis"
-    },
-    {
-      "day": 26,
-      "word": "le compte"
-    },
-    {
-      "day": 26,
-      "word": "le timbre"
+      "words": [
+        "envoyer",
+        "l'argent",
+        "la banque",
+        "la lettre",
+        "le colis",
+        "le compte",
+        "le timbre"
+      ]
     },
     {
       "day": 27,
-      "word": "apprendre"
-    },
-    {
-      "day": 27,
-      "word": "l'examen"
-    },
-    {
-      "day": 27,
-      "word": "l'école"
-    },
-    {
-      "day": 27,
-      "word": "la bibliothèque"
-    },
-    {
-      "day": 27,
-      "word": "le cahier"
-    },
-    {
-      "day": 27,
-      "word": "le professeur"
-    },
-    {
-      "day": 27,
-      "word": "le stylo"
+      "words": [
+        "apprendre",
+        "l'examen",
+        "l'école",
+        "la bibliothèque",
+        "le cahier",
+        "le professeur",
+        "le stylo"
+      ]
     },
     {
       "day": 29,
-      "word": "content"
-    },
-    {
-      "day": 29,
-      "word": "en colère"
-    },
-    {
-      "day": 29,
-      "word": "inquiet"
-    },
-    {
-      "day": 29,
-      "word": "la joie"
-    },
-    {
-      "day": 29,
-      "word": "nerveux"
-    },
-    {
-      "day": 29,
-      "word": "surpris"
-    },
-    {
-      "day": 29,
-      "word": "triste"
+      "words": [
+        "content",
+        "en colère",
+        "inquiet",
+        "la joie",
+        "nerveux",
+        "surpris",
+        "triste"
+      ]
     },
     {
       "day": 30,
-      "word": "la boisson"
-    },
-    {
-      "day": 30,
-      "word": "la carte"
-    },
-    {
-      "day": 30,
-      "word": "la tasse"
-    },
-    {
-      "day": 30,
-      "word": "la terrasse"
-    },
-    {
-      "day": 30,
-      "word": "le sirop"
-    },
-    {
-      "day": 30,
-      "word": "le sucre"
-    },
-    {
-      "day": 30,
-      "word": "le thé"
+      "words": [
+        "la boisson",
+        "la carte",
+        "la tasse",
+        "la terrasse",
+        "le sirop",
+        "le sucre",
+        "le thé"
+      ]
     },
     {
       "day": 31,
-      "word": "l'oiseau"
-    },
-    {
-      "day": 31,
-      "word": "la ferme"
-    },
-    {
-      "day": 31,
-      "word": "le chat"
-    },
-    {
-      "day": 31,
-      "word": "le cheval"
-    },
-    {
-      "day": 31,
-      "word": "le chien"
-    },
-    {
-      "day": 31,
-      "word": "le lapin"
-    },
-    {
-      "day": 31,
-      "word": "le poisson"
+      "words": [
+        "l'oiseau",
+        "la ferme",
+        "le chat",
+        "le cheval",
+        "le chien",
+        "le lapin",
+        "le poisson"
+      ]
     },
     {
       "day": 33,
-      "word": "l'avion"
-    },
-    {
-      "day": 33,
-      "word": "l'hôtel"
-    },
-    {
-      "day": 33,
-      "word": "la plage"
-    },
-    {
-      "day": 33,
-      "word": "la réservation"
-    },
-    {
-      "day": 33,
-      "word": "la valise"
-    },
-    {
-      "day": 33,
-      "word": "le passeport"
-    },
-    {
-      "day": 33,
-      "word": "les vacances"
+      "words": [
+        "l'avion",
+        "l'hôtel",
+        "la plage",
+        "la réservation",
+        "la valise",
+        "le passeport",
+        "les vacances"
+      ]
     },
     {
       "day": 34,
-      "word": "l'acteur"
-    },
-    {
-      "day": 34,
-      "word": "l'écran"
-    },
-    {
-      "day": 34,
-      "word": "la comédie"
-    },
-    {
-      "day": 34,
-      "word": "la séance"
-    },
-    {
-      "day": 34,
-      "word": "le cinéma"
-    },
-    {
-      "day": 34,
-      "word": "le film"
-    },
-    {
-      "day": 34,
-      "word": "le sous-titre"
+      "words": [
+        "l'acteur",
+        "l'écran",
+        "la comédie",
+        "la séance",
+        "le cinéma",
+        "le film",
+        "le sous-titre"
+      ]
     },
     {
       "day": 35,
-      "word": "la boulangerie"
-    },
-    {
-      "day": 35,
-      "word": "la mairie"
-    },
-    {
-      "day": 35,
-      "word": "la poste"
-    },
-    {
-      "day": 35,
-      "word": "le coin"
-    },
-    {
-      "day": 35,
-      "word": "le parc"
-    },
-    {
-      "day": 35,
-      "word": "le quartier"
-    },
-    {
-      "day": 35,
-      "word": "le voisin"
+      "words": [
+        "la boulangerie",
+        "la mairie",
+        "la poste",
+        "le coin",
+        "le parc",
+        "le quartier",
+        "le voisin"
+      ]
     }
   ]
 }
