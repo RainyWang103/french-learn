@@ -1,0 +1,722 @@
+{
+  "day": 38,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "At the Outdoor Market",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le panier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pa-nyay",
+        "meaning": "the basket",
+        "notes": "Market staple in France. 'Un panier en osier' = a wicker basket. Shoppers at French outdoor markets ('marchés') typically carry a 'panier' rather than a plastic bag. 'Faire son marché avec un panier' is seen as an eco-friendly and traditional practice.",
+        "examples": [
+          [
+            "Elle remplit son panier de légumes frais.",
+            "She fills her basket with fresh vegetables."
+          ],
+          [
+            "J'ai acheté un panier au marché.",
+            "I bought a basket at the market."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la caisse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la kess",
+        "meaning": "the till / the checkout / the cashier's desk",
+        "notes": "'Passer à la caisse' = to go to the checkout. 'La caissière / le caissier' = the cashier. In French markets, the 'caisse' is where you pay after the vendor weighs your produce. Also used in supermarkets.",
+        "examples": [
+          [
+            "Vous payez à la caisse, s'il vous plaît.",
+            "You pay at the till, please."
+          ],
+          [
+            "Il y a la queue à la caisse.",
+            "There is a queue at the checkout."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "frais",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "freh (m) / fresh (f: fraîche)",
+        "meaning": "fresh / cool",
+        "notes": "Feminine form: 'fraîche'. 'Des légumes frais' = fresh vegetables. 'Des fraises fraîches' = fresh strawberries. Also means cool (temperature): 'Il fait frais ce matin' = It is cool this morning. A key selling word at French markets.",
+        "examples": [
+          [
+            "Ces tomates sont très fraîches.",
+            "These tomatoes are very fresh."
+          ],
+          [
+            "Le poisson est frais ce matin.",
+            "The fish is fresh this morning."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "peser",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "puh-zay",
+        "meaning": "to weigh",
+        "notes": "Regular -er verb with a spelling change (è before silent endings). 'Pouvez-vous peser les pommes ?' = Can you weigh the apples? At French markets, produce is sold by weight (au kilo). 'La balance' = the scales used for weighing.",
+        "conjugation": {
+          "je pèse": "I weigh",
+          "tu pèses": "you weigh",
+          "il/elle pèse": "he/she weighs",
+          "nous pesons": "we weigh",
+          "vous pesez": "you weigh",
+          "ils/elles pèsent": "they weigh"
+        },
+        "examples": [
+          [
+            "Il pèse les pommes sur la balance.",
+            "He weighs the apples on the scales."
+          ],
+          [
+            "Pouvez-vous peser un kilo de cerises ?",
+            "Can you weigh a kilo of cherries?"
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le rayon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh reh-yohn",
+        "meaning": "the aisle / the section / the department",
+        "notes": "'Le rayon fruits et légumes' = the fruit and vegetable section. Used in supermarkets and large market halls to refer to specific sections. 'Le rayon boucherie' = the butcher's section. 'Quel rayon cherchez-vous ?' = Which section are you looking for?",
+        "examples": [
+          [
+            "Les fromages sont au rayon crémerie.",
+            "The cheeses are in the dairy section."
+          ],
+          [
+            "Je cherche le rayon fruits et légumes.",
+            "I am looking for the fruit and vegetable section."
+          ]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le panier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pa-nyay",
+        "meaning": "the basket",
+        "notes": "Market staple in France. 'Un panier en osier' = a wicker basket. Shoppers at French outdoor markets ('marchés') typically carry a 'panier' rather than a plastic bag. 'Faire son marché avec un panier' is seen as an eco-friendly and traditional practice.",
+        "examples": [
+          [
+            "Elle remplit son panier de légumes frais.",
+            "She fills her basket with fresh vegetables."
+          ],
+          [
+            "J'ai acheté un panier au marché.",
+            "I bought a basket at the market."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la caisse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la kess",
+        "meaning": "the till / the checkout / the cashier's desk",
+        "notes": "'Passer à la caisse' = to go to the checkout. 'La caissière / le caissier' = the cashier. In French markets, the 'caisse' is where you pay after the vendor weighs your produce. Also used in supermarkets.",
+        "examples": [
+          [
+            "Vous payez à la caisse, s'il vous plaît.",
+            "You pay at the till, please."
+          ],
+          [
+            "Il y a la queue à la caisse.",
+            "There is a queue at the checkout."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "frais",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "freh (m) / fresh (f: fraîche)",
+        "meaning": "fresh / cool",
+        "notes": "Feminine form: 'fraîche'. 'Des légumes frais' = fresh vegetables. 'Des fraises fraîches' = fresh strawberries. Also means cool (temperature): 'Il fait frais ce matin' = It is cool this morning. A key selling word at French markets.",
+        "examples": [
+          [
+            "Ces tomates sont très fraîches.",
+            "These tomatoes are very fresh."
+          ],
+          [
+            "Le poisson est frais ce matin.",
+            "The fish is fresh this morning."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "peser",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "puh-zay",
+        "meaning": "to weigh",
+        "notes": "Regular -er verb with a spelling change (è before silent endings). 'Pouvez-vous peser les pommes ?' = Can you weigh the apples? At French markets, produce is sold by weight (au kilo). 'La balance' = the scales used for weighing.",
+        "conjugation": {
+          "je pèse": "I weigh",
+          "tu pèses": "you weigh",
+          "il/elle pèse": "he/she weighs",
+          "nous pesons": "we weigh",
+          "vous pesez": "you weigh",
+          "ils/elles pèsent": "they weigh"
+        },
+        "examples": [
+          [
+            "Il pèse les pommes sur la balance.",
+            "He weighs the apples on the scales."
+          ],
+          [
+            "Pouvez-vous peser un kilo de cerises ?",
+            "Can you weigh a kilo of cherries?"
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le rayon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh reh-yohn",
+        "meaning": "the aisle / the section / the department",
+        "notes": "'Le rayon fruits et légumes' = the fruit and vegetable section. Used in supermarkets and large market halls to refer to specific sections. 'Le rayon boucherie' = the butcher's section. 'Quel rayon cherchez-vous ?' = Which section are you looking for?",
+        "examples": [
+          [
+            "Les fromages sont au rayon crémerie.",
+            "The cheeses are in the dairy section."
+          ],
+          [
+            "Je cherche le rayon fruits et légumes.",
+            "I am looking for the fruit and vegetable section."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le reçu",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ruh-soo",
+        "meaning": "the receipt",
+        "notes": "'Vous voulez un reçu ?' = Do you want a receipt? In French markets, receipts are less common for small cash purchases, but can always be requested. 'Garder son reçu' = to keep one's receipt. Essential for returns.",
+        "examples": [
+          [
+            "Vous voulez un reçu ?",
+            "Do you want a receipt?"
+          ],
+          [
+            "J'ai perdu mon reçu.",
+            "I have lost my receipt."
+          ]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la file",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la feel",
+        "meaning": "the queue / the line",
+        "notes": "'Faire la file' or 'faire la queue' = to queue / to stand in line. 'La file d'attente' = the waiting queue. At busy French markets, queuing is expected and cutting in line ('resquiller') is frowned upon. 'Il y a une longue file' = there is a long queue.",
+        "examples": [
+          [
+            "Il y a une longue file devant le stand.",
+            "There is a long queue in front of the stall."
+          ],
+          [
+            "Je fais la file depuis dix minutes.",
+            "I have been queuing for ten minutes."
+          ]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Moi, je prends les fruits — toi, tu prends le fromage, d'accord ?"
+        ],
+        [
+          "B",
+          "D'accord ! Et lui, il s'occupe des légumes ?"
+        ],
+        [
+          "A",
+          "Oui, c'est ça. Vous, vous pouvez peser les pommes, s'il vous plaît ?"
+        ],
+        [
+          "vendeur",
+          "Bien sûr. Un kilo de pommes — voilà !"
+        ],
+        [
+          "A",
+          "Merci. Et ces fraises — elles sont fraîches ?"
+        ],
+        [
+          "vendeur",
+          "Très fraîches, madame. Ramassées ce matin."
+        ],
+        [
+          "B",
+          "Moi, je paye à la caisse — toi, tu gardes le panier ?"
+        ],
+        [
+          "A",
+          "Oui ! On se retrouve là-bas dans cinq minutes."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Who is in charge of buying the fruit?",
+          "options": [
+            "Speaker B",
+            "Speaker A",
+            "The vendor"
+          ],
+          "correctAnswer": "Speaker A"
+        },
+        {
+          "question": "What does the vendor confirm about the strawberries?",
+          "options": [
+            "They are imported",
+            "They were picked this morning",
+            "They are on special offer"
+          ],
+          "correctAnswer": "They were picked this morning"
+        },
+        {
+          "question": "Who will pay at the till?",
+          "options": [
+            "Speaker A",
+            "The vendor",
+            "Speaker B"
+          ],
+          "correctAnswer": "Speaker B"
+        }
+      ],
+      "summary": "Two friends divide tasks at an outdoor market using emphatic pronouns: Speaker A takes the fruit, Speaker B takes the cheese, and a third person handles the vegetables. The vendor confirms the strawberries were picked that morning. Speaker B will pay at the till while Speaker A holds the basket."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Moi, je commence par le rayon fromages — toi, tu t'occupes des fruits ?"
+        ],
+        [
+          "B",
+          "Oui, moi je prends les pommes et les fraises. Elles sont fraîches ?"
+        ],
+        [
+          "vendeur",
+          "Très fraîches — ramassées ce matin. Je vous pèse combien de kilos ?"
+        ],
+        [
+          "B",
+          "Deux kilos de pommes, s'il vous plaît. Et lui, il arrive bientôt ?"
+        ],
+        [
+          "A",
+          "Oui, lui il apporte les sacs. Nous, on n'a qu'un panier !"
+        ],
+        [
+          "vendeur",
+          "Voilà votre reçu. Vous voulez passer à la caisse maintenant ?"
+        ],
+        [
+          "B",
+          "Oui, moi je paye — toi, tu gardes notre place dans la file ?"
+        ],
+        [
+          "A",
+          "D'accord. Eux, ils attendent aussi — la file est longue aujourd'hui !"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Who is buying the cheese?",
+          "options": [
+            "Speaker B",
+            "The vendor",
+            "Speaker A",
+            "A third friend"
+          ],
+          "correctAnswer": "Speaker A"
+        },
+        {
+          "question": "How many kilos of apples are ordered?",
+          "options": [
+            "One kilo",
+            "Two kilos",
+            "Three kilos",
+            "Half a kilo"
+          ],
+          "correctAnswer": "Two kilos"
+        },
+        {
+          "question": "What does Speaker A note about their carrying situation?",
+          "options": [
+            "They have too many bags",
+            "They only have one basket",
+            "They forgot the receipt",
+            "They lost their place in the queue"
+          ],
+          "correctAnswer": "They only have one basket"
+        },
+        {
+          "question": "What will Speaker B do while Speaker A holds their place in the queue?",
+          "options": [
+            "Buy more fruit",
+            "Talk to the vendor",
+            "Pay at the till",
+            "Find the third friend"
+          ],
+          "correctAnswer": "Pay at the till"
+        }
+      ],
+      "summary": "Two friends split tasks at a busy outdoor market using emphatic pronouns throughout. Speaker A handles the cheese section while Speaker B buys fruit (two kilos of apples). A third friend is bringing bags. Speaker B will pay at the till while Speaker A holds their place in the long queue."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Stressed / Emphatic Pronouns (moi, toi, lui, elle, nous, vous, eux, elles)",
+      "explanation": "**Stressed pronouns** (also called emphatic or disjunctive pronouns) are a separate set of pronouns used in specific situations — they are never the main subject of a verb.\n\n**The full set:**\n| Subject pronoun | Stressed pronoun |\n|---|---|\n| je | **moi** |\n| tu | **toi** |\n| il | **lui** |\n| elle | **elle** |\n| nous | **nous** |\n| vous | **vous** |\n| ils | **eux** |\n| elles | **elles** |\n\n**When to use stressed pronouns:**\n\n1. **After prepositions** (avec, pour, chez, sans, etc.)\n - *C'est pour moi.* = It's for me.\n - *Je viens avec toi.* = I'm coming with you.\n\n2. **For emphasis or contrast**\n - *Moi, j'aime le marché. Toi, tu préfères le supermarché.*\n - = I like the market. You prefer the supermarket.\n\n3. **In comparisons**\n - *Elle est plus grande que moi.* = She is taller than me.\n\n4. **Alone or in short answers**\n - *Qui veut du fromage ? — Moi !* = Who wants cheese? — Me!\n\n5. **With 'c'est'**\n - *C'est lui.* = It's him. *C'est elles.* = It's them.",
+      "examples": [
+        {
+          "french": "Moi, je prends les fruits.",
+          "english": "I'll take the fruit. (emphatic — contrast with others)"
+        },
+        {
+          "french": "C'est pour toi, ce panier ?",
+          "english": "Is this basket for you?"
+        },
+        {
+          "french": "Elle est plus grande que lui.",
+          "english": "She is taller than him."
+        },
+        {
+          "french": "Qui paye ? — Moi !",
+          "english": "Who's paying? — Me!"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Which stressed pronoun replaces 'tu'?",
+          "options": [
+            "lui",
+            "toi",
+            "vous"
+          ],
+          "correctAnswer": "toi",
+          "explanation": "'Toi' is the stressed/emphatic form of 'tu'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est pour ___ ? (Is it for me?)",
+          "correctAnswer": "moi",
+          "explanation": "After prepositions like 'pour', use stressed pronouns. 'Pour moi' = for me."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct? 'She is taller than ___.'",
+          "options": [
+            "que il",
+            "que lui",
+            "que ils"
+          ],
+          "correctAnswer": "que lui",
+          "explanation": "In comparisons, use stressed pronouns after 'que'. 'Il' becomes 'lui'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___, je prends le fromage. (I'll take the cheese. — emphatic)",
+          "correctAnswer": "Moi",
+          "explanation": "'Moi' at the start of a sentence gives emphasis or contrast."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'Who wants the basket? — Them! (feminine)'?",
+          "options": [
+            "— Eux !",
+            "— Elles !",
+            "— Leur !"
+          ],
+          "correctAnswer": "— Elles !",
+          "explanation": "For a group of women/feminine, use 'elles' as a stressed pronoun."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Stressed / Emphatic Pronouns — All Uses, Contrast & Fixed Expressions",
+      "explanation": "**Stressed pronouns** (pronoms toniques / disjoints) stand apart from the main verb. They appear in a range of grammatical and stylistic contexts.\n\n**Full set:**\n| Subject | Stressed |\n|---|---|\n| je | **moi** |\n| tu | **toi** |\n| il | **lui** |\n| elle | **elle** |\n| nous | **nous** |\n| vous | **vous** |\n| ils | **eux** |\n| elles | **elles** |\n\n**All major uses:**\n\n**1. After prepositions** (chez, avec, pour, sans, devant, derrière, etc.)\n- *chez moi* = at my place | *sans elle* = without her | *devant eux* = in front of them\n\n**2. Emphasis / contrast** (often with a comma)\n- *Moi, je travaille. Lui, il reste.* = I'm working. He's staying.\n- *Toi, tu exagères !* = You're exaggerating!\n\n**3. Compound subjects** (two or more subjects)\n- *Toi et moi, nous partons.* = You and I are leaving.\n- *Elle et lui arrivent ensemble.* = She and he are arriving together.\n\n**4. Comparisons**\n- *Il court plus vite que moi.* = He runs faster than me.\n- *Elle est aussi intelligente que lui.* = She is as intelligent as him.\n\n**5. Alone / short answers**\n- *Qui fait la vaisselle ? — Moi !* = Who does the dishes? — Me!\n\n**6. With 'c'est / ce sont'**\n- *C'est moi / toi / lui / elle / nous / vous.* = It's me/you/him…\n- *Ce sont eux / elles.* = It's them. (plural: use 'ce sont')\n\n**7. With '-même(s)' for reflexive emphasis**\n- *Je le fais moi-même.* = I'm doing it myself.\n- *Ils l'ont construit eux-mêmes.* = They built it themselves.\n\n**Common fixed expressions:**\n- *Chez moi* = at my place | *Chez toi* = at your place\n- *Entre nous* = between us | *À toi de jouer* = your turn\n- *Quant à moi* = as for me | *Pour eux* = for them",
+      "examples": [
+        {
+          "french": "Moi, je prends les fruits. Toi, tu prends le fromage.",
+          "english": "I'll take the fruit. You'll take the cheese. (contrast)"
+        },
+        {
+          "french": "C'est elle qui paye — pas moi !",
+          "english": "It's her who's paying — not me!"
+        },
+        {
+          "french": "Ils l'ont fait eux-mêmes.",
+          "english": "They did it themselves."
+        },
+        {
+          "french": "Ce sont eux qui attendent dans la file.",
+          "english": "It's them (they) who are waiting in the queue."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Which stressed pronoun is correct? 'It's them (a mixed group).'",
+          "options": [
+            "C'est elles.",
+            "C'est eux.",
+            "Ce sont eux.",
+            "Ce sont leur."
+          ],
+          "correctAnswer": "Ce sont eux.",
+          "explanation": "For plural 'them', use 'ce sont' (not 'c'est') + eux (mixed/masculine) or elles (all feminine)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Je le fais ___-même. (I'm doing it myself.)",
+          "correctAnswer": "moi",
+          "explanation": "'-même' attaches to the stressed pronoun: moi-même = myself, toi-même = yourself, etc."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Choose the correct form: 'Between you and me, the queue is long.'",
+          "options": [
+            "Entre tu et moi",
+            "Entre toi et je",
+            "Entre toi et moi"
+          ],
+          "correctAnswer": "Entre toi et moi",
+          "explanation": "After the preposition 'entre', use stressed pronouns: toi et moi."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: À ___ de jouer ! (Your turn! — singular informal)",
+          "correctAnswer": "toi",
+          "explanation": "'À toi de jouer' = your turn (informal singular). 'Toi' is the stressed form of 'tu'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence uses an emphatic pronoun for contrast correctly?",
+          "options": [
+            "Moi, je reste. Lui, il part.",
+            "Je reste, moi. Il part, lui.",
+            "Je moi reste. Il lui part."
+          ],
+          "correctAnswer": "Moi, je reste. Lui, il part.",
+          "explanation": "For emphasis/contrast, the stressed pronoun comes first (before the subject + verb): Moi, je… / Lui, il…"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle court plus vite que ___. (She runs faster than him.)",
+          "correctAnswer": "lui",
+          "explanation": "In comparisons after 'que', use stressed pronouns. 'Il' → 'lui' in stressed position."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'They built it themselves (all female)'?",
+          "options": [
+            "Elles l'ont construit eux-mêmes.",
+            "Elles l'ont construit elles-mêmes.",
+            "Elles l'ont construit elle-mêmes."
+          ],
+          "correctAnswer": "Elles l'ont construit elles-mêmes.",
+          "explanation": "'-même' agrees with the subject: elles → elles-mêmes (plural feminine)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: C'est ___ qui apporte le panier. (It's her who's bringing the basket.)",
+          "correctAnswer": "elle",
+          "explanation": "After 'c'est … qui', use the stressed pronoun: c'est elle qui… = it's her who…"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le panier' mean?",
+        "options": [
+          "The till",
+          "The basket",
+          "The receipt"
+        ],
+        "correctAnswer": "The basket",
+        "explanation": "'Le panier' = the basket. Used for carrying shopping at a French outdoor market.",
+        "targetWord": "le panier"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which stressed pronoun is the emphatic form of 'ils'?",
+        "options": [
+          "lui",
+          "leur",
+          "eux"
+        ],
+        "correctAnswer": "eux",
+        "explanation": "'Eux' is the stressed/emphatic form of 'ils' (masculine plural).",
+        "targetWord": "le rayon"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: C'est pour ___, ce fromage ? (Is this cheese for me?)",
+        "correctAnswer": "moi",
+        "explanation": "After 'pour', use a stressed pronoun. 'Moi' = me (stressed form of 'je').",
+        "targetWord": "la caisse"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'peser' mean?",
+        "options": [
+          "To buy",
+          "To weigh",
+          "To pay"
+        ],
+        "correctAnswer": "To weigh",
+        "explanation": "'Peser' = to weigh. At a French market, the vendor 'pèse' the produce before you pay.",
+        "targetWord": "peser"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'frais / fraîche' mean?",
+        "options": [
+          "Expensive",
+          "Fresh / cool",
+          "Frozen"
+        ],
+        "correctAnswer": "Fresh / cool",
+        "explanation": "'Frais' (m) / 'fraîche' (f) = fresh or cool. 'Des légumes frais' = fresh vegetables.",
+        "targetWord": "frais"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la file d'attente' mean?",
+        "options": [
+          "The receipt",
+          "The waiting queue",
+          "The checkout",
+          "The aisle"
+        ],
+        "correctAnswer": "The waiting queue",
+        "explanation": "'La file d'attente' = the waiting queue. 'Faire la file' = to queue.",
+        "targetWord": "la file"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly uses 'ce sont' with a stressed pronoun?",
+        "options": [
+          "C'est eux qui attendent.",
+          "Ce sont eux qui attendent.",
+          "Ce sont ils qui attendent.",
+          "C'est leur qui attendent."
+        ],
+        "correctAnswer": "Ce sont eux qui attendent.",
+        "explanation": "With plural emphasis, use 'ce sont' + stressed pronoun: ce sont eux (not c'est eux).",
+        "targetWord": "le rayon"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Ils l'ont pesé ___-mêmes. (They weighed it themselves — masculine.)",
+        "correctAnswer": "eux",
+        "explanation": "'Eux-mêmes' = themselves (masculine plural). '-même' always attaches to the stressed pronoun.",
+        "targetWord": "peser"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le reçu' mean?",
+        "options": [
+          "The basket",
+          "The stall",
+          "The receipt",
+          "The queue"
+        ],
+        "correctAnswer": "The receipt",
+        "explanation": "'Le reçu' = the receipt. 'Vous voulez un reçu ?' = Do you want a receipt?",
+        "targetWord": "le reçu"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Quant à ___, je préfère les marchés. (As for me, I prefer markets.)",
+        "correctAnswer": "moi",
+        "explanation": "'Quant à moi' = as for me. A fixed expression using the stressed pronoun 'moi'.",
+        "targetWord": "le panier"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'without her' in French?",
+        "options": [
+          "sans elle",
+          "sans lui",
+          "sans elles",
+          "sans la"
+        ],
+        "correctAnswer": "sans elle",
+        "explanation": "After prepositions like 'sans', use stressed pronouns. 'Elle' = stressed form for 'elle' (singular feminine).",
+        "targetWord": "frais"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at an outdoor market with a friend. Discuss who will buy what using emphatic pronouns (moi, toi, lui, elle). Order some fruit by weight and ask where to pay.",
+      "keyPhrases": [
+        "Moi, je prends… / Toi, tu prends… (I'll take… / You'll take…)",
+        "C'est pour moi. (It's for me.)",
+        "Pouvez-vous peser… ? (Can you weigh…?)",
+        "Un kilo de… s'il vous plaît. (A kilo of… please.)",
+        "Je paye à la caisse ? (Do I pay at the till?)"
+      ],
+      "modelAnswer": "Moi, je prends les fruits et toi, tu prends le fromage. Bonjour ! Pouvez-vous peser un kilo de pommes et un demi-kilo de fraises ? Elles sont fraîches ? Parfait. Et je paye à la caisse ?",
+      "modelAnswerExplanation": "The answer opens with emphatic pronouns for task allocation, then addresses the vendor directly using 'vous', requests specific weights, asks about freshness using 'fraîches', and ends by asking about payment.",
+      "tip": "Emphatic pronouns come at the start of a sentence for contrast: 'Moi, je…' and 'Toi, tu…' — the subject pronoun still follows!"
+    },
+    "advanced": {
+      "scenario": "At a busy outdoor market, negotiate with your friend who buys what, using emphatic pronouns throughout (including '-même' and 'c'est … qui'). Order produce by weight and discuss the queue and receipt.",
+      "keyPhrases": [
+        "Moi, je m'occupe de… / Toi, tu t'occupes de… (I'll handle… / You'll handle…)",
+        "C'est elle qui paye — pas moi ! (It's her who pays — not me!)",
+        "Je le fais moi-même. (I'll do it myself.)",
+        "Pouvez-vous me peser deux kilos de… ? (Can you weigh me two kilos of…?)",
+        "La file est longue — garde notre place ! (The queue is long — hold our spot!)"
+      ],
+      "modelAnswer": "Moi, je m'occupe du fromage — toi, tu t'occupes des fruits. C'est toi qui pèses les légumes, pas moi ! Bonjour — pouvez-vous me peser deux kilos de tomates ? Elles sont fraîches ce matin ? Vous pouvez me donner un reçu, s'il vous plaît ? La file est longue — lui, il garde notre place pendant que moi, je passe à la caisse.",
+      "modelAnswerExplanation": "The answer uses moi/toi/lui for task allocation, the 'c'est … qui' construction for emphasis, -même implied in 'moi, je passe', requests specific weights, confirms freshness, asks for a receipt, and uses 'pendant que' for simultaneous actions.",
+      "tip": ""
+    }
+  }
+}
