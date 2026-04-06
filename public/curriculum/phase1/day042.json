@@ -10,11 +10,17 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "pronunciation": "la veel",
-        "meaning": "the city / the town",
-        "notes": "'En ville' = in town / in the city (no article needed). 'Aller en ville' = to go into town. 'Le centre-ville' = the city centre. 'Une grande ville' = a large city. 'Une petite ville' = a small town. France has over 35,000 communes — 'la ville' typically implies a more urban settlement.",
+        "meaning": "the town / the city",
+        "notes": "'En ville' = in town / into town (no article needed after 'en'). 'Aller en ville' = to go into town. 'Une grande ville' = a large city. 'Une petite ville' = a small town. 'La ville de Paris' = the city of Paris. Note: 'la cité' can also mean city but is used in more formal or historical contexts.",
         "examples": [
-          ["J'habite dans une grande ville.", "I live in a large city."],
-          ["Nous allons en ville ce week-end.", "We are going into town this weekend."]
+          [
+            "Je vais en ville cet après-midi.",
+            "I am going into town this afternoon."
+          ],
+          [
+            "Paris est une grande ville magnifique.",
+            "Paris is a beautiful large city."
+          ]
         ],
         "special": ""
       },
@@ -24,10 +30,16 @@
         "gender": "male",
         "pronunciation": "luh ma-ga-zan",
         "meaning": "the shop / the store",
-        "notes": "'Faire les magasins' = to go shopping (visiting several shops). 'Un grand magasin' = a department store (e.g. Galeries Lafayette). 'Ouvrir / fermer le magasin' = to open / close the shop. 'En magasin' = in store (as opposed to online).",
+        "notes": "'Faire les magasins' = to go shopping (literally 'to do the shops'). 'Un grand magasin' = a department store (e.g. Galeries Lafayette, Le Bon Marché). Not to be confused with 'le magazine' (a periodical). 'Le magasin est ouvert' = the shop is open.",
         "examples": [
-          ["Il y a beaucoup de magasins dans le centre.", "There are many shops in the centre."],
-          ["Le magasin est fermé le dimanche.", "The shop is closed on Sunday."]
+          [
+            "Il y a beaucoup de magasins dans le centre-ville.",
+            "There are many shops in the town centre."
+          ],
+          [
+            "Le magasin ferme à vingt heures.",
+            "The shop closes at 8 PM."
+          ]
         ],
         "special": ""
       },
@@ -37,10 +49,16 @@
         "gender": "female",
         "pronunciation": "lay-gleez",
         "meaning": "the church",
-        "notes": "'Aller à l'église' = to go to church. 'La messe' = the mass. Churches are major landmarks in French cities and villages. Notre-Dame de Paris and Sacré-Cœur are famous examples. 'Devant l'église' = in front of the church (common meeting point).",
+        "notes": "One of the most iconic features of French towns and villages — many French villages are built around a central church. 'L'église Notre-Dame' = Notre-Dame church. French culture is historically Catholic, so churches ('les églises') are prominent landmarks. 'La cathédrale' = the cathedral (a larger church).",
         "examples": [
-          ["L'église est au centre du village.", "The church is in the centre of the village."],
-          ["On se retrouve devant l'église à dix heures.", "We'll meet in front of the church at 10."]
+          [
+            "L'église est au centre du village.",
+            "The church is in the centre of the village."
+          ],
+          [
+            "Nous visitons l'église ce matin.",
+            "We are visiting the church this morning."
+          ]
         ],
         "special": ""
       },
@@ -48,25 +66,37 @@
         "word": "la fontaine",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la fon-ten",
+        "pronunciation": "la fohn-ten",
         "meaning": "the fountain",
-        "notes": "'La fontaine' is a common landmark in French town squares and parks. 'La Fontaine de Trevi' = the Trevi Fountain (Rome). French towns often have historic ornamental fountains. 'Une fontaine d'eau potable' = a drinking fountain. Used as landmarks: 'C'est près de la fontaine' = It's near the fountain.",
+        "notes": "French town squares ('les places') traditionally feature a central fountain. 'La fontaine est belle' = the fountain is beautiful. 'Une fontaine à eau' = a drinking water fountain. In Paris, 'les fontaines Wallace' are green cast-iron drinking fountains, donated by philanthropist Richard Wallace in 1872.",
         "examples": [
-          ["Il y a une belle fontaine sur la place principale.", "There is a beautiful fountain on the main square."],
-          ["On se retrouve à la fontaine.", "We'll meet at the fountain."]
+          [
+            "Il y a une grande fontaine sur la place.",
+            "There is a large fountain in the square."
+          ],
+          [
+            "Les enfants jouent près de la fontaine.",
+            "The children are playing near the fountain."
+          ]
         ],
-        "special": ""
+        "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace."
       },
       {
         "word": "le jardin",
         "partOfSpeech": "noun",
         "gender": "male",
         "pronunciation": "luh zhar-dan",
-        "meaning": "the garden",
-        "notes": "'Le jardin public' = the public garden / park. 'Le Jardin du Luxembourg' is one of Paris's most famous parks. 'Faire du jardinage' = to do gardening. 'Le jardin zoologique' = the zoo. 'Un jardin à la française' = a formal French garden (geometrical style).",
+        "meaning": "the garden / the park",
+        "notes": "'Le jardin public' = public garden / park. 'Le Jardin du Luxembourg' and 'le Jardin des Tuileries' are famous Parisian public gardens. 'Faire du jardinage' = to do gardening. In French urban contexts, 'le jardin' can refer to both a private garden and a public green space.",
         "examples": [
-          ["Le jardin du palais est magnifique.", "The palace garden is magnificent."],
-          ["On peut pique-niquer dans le jardin public.", "We can have a picnic in the public garden."]
+          [
+            "Le jardin public est à côté de la mairie.",
+            "The public garden is next to the town hall."
+          ],
+          [
+            "Nous nous promenons dans le jardin.",
+            "We are walking in the garden."
+          ]
         ],
         "special": ""
       }
@@ -77,11 +107,17 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "pronunciation": "la veel",
-        "meaning": "the city / the town",
-        "notes": "'En ville' = in town / in the city (no article needed). 'Aller en ville' = to go into town. 'Le centre-ville' = the city centre. 'Une grande ville' = a large city. 'Une petite ville' = a small town. France has over 35,000 communes — 'la ville' typically implies a more urban settlement.",
+        "meaning": "the town / the city",
+        "notes": "'En ville' = in town / into town (no article needed after 'en'). 'Aller en ville' = to go into town. 'Une grande ville' = a large city. 'Une petite ville' = a small town. 'La ville de Paris' = the city of Paris. Note: 'la cité' can also mean city but is used in more formal or historical contexts.",
         "examples": [
-          ["J'habite dans une grande ville.", "I live in a large city."],
-          ["Nous allons en ville ce week-end.", "We are going into town this weekend."]
+          [
+            "Je vais en ville cet après-midi.",
+            "I am going into town this afternoon."
+          ],
+          [
+            "Paris est une grande ville magnifique.",
+            "Paris is a beautiful large city."
+          ]
         ],
         "special": ""
       },
@@ -91,10 +127,16 @@
         "gender": "male",
         "pronunciation": "luh ma-ga-zan",
         "meaning": "the shop / the store",
-        "notes": "'Faire les magasins' = to go shopping (visiting several shops). 'Un grand magasin' = a department store (e.g. Galeries Lafayette). 'Ouvrir / fermer le magasin' = to open / close the shop. 'En magasin' = in store (as opposed to online).",
+        "notes": "'Faire les magasins' = to go shopping (literally 'to do the shops'). 'Un grand magasin' = a department store (e.g. Galeries Lafayette, Le Bon Marché). Not to be confused with 'le magazine' (a periodical). 'Le magasin est ouvert' = the shop is open.",
         "examples": [
-          ["Il y a beaucoup de magasins dans le centre.", "There are many shops in the centre."],
-          ["Le magasin est fermé le dimanche.", "The shop is closed on Sunday."]
+          [
+            "Il y a beaucoup de magasins dans le centre-ville.",
+            "There are many shops in the town centre."
+          ],
+          [
+            "Le magasin ferme à vingt heures.",
+            "The shop closes at 8 PM."
+          ]
         ],
         "special": ""
       },
@@ -104,10 +146,16 @@
         "gender": "female",
         "pronunciation": "lay-gleez",
         "meaning": "the church",
-        "notes": "'Aller à l'église' = to go to church. 'La messe' = the mass. Churches are major landmarks in French cities and villages. Notre-Dame de Paris and Sacré-Cœur are famous examples. 'Devant l'église' = in front of the church (common meeting point).",
+        "notes": "One of the most iconic features of French towns and villages — many French villages are built around a central church. 'L'église Notre-Dame' = Notre-Dame church. French culture is historically Catholic, so churches ('les églises') are prominent landmarks. 'La cathédrale' = the cathedral (a larger church).",
         "examples": [
-          ["L'église est au centre du village.", "The church is in the centre of the village."],
-          ["On se retrouve devant l'église à dix heures.", "We'll meet in front of the church at 10."]
+          [
+            "L'église est au centre du village.",
+            "The church is in the centre of the village."
+          ],
+          [
+            "Nous visitons l'église ce matin.",
+            "We are visiting the church this morning."
+          ]
         ],
         "special": ""
       },
@@ -115,25 +163,37 @@
         "word": "la fontaine",
         "partOfSpeech": "noun",
         "gender": "female",
-        "pronunciation": "la fon-ten",
+        "pronunciation": "la fohn-ten",
         "meaning": "the fountain",
-        "notes": "'La fontaine' is a common landmark in French town squares and parks. 'La Fontaine de Trevi' = the Trevi Fountain (Rome). French towns often have historic ornamental fountains. 'Une fontaine d'eau potable' = a drinking fountain. Used as landmarks: 'C'est près de la fontaine' = It's near the fountain.",
+        "notes": "French town squares ('les places') traditionally feature a central fountain. 'La fontaine est belle' = the fountain is beautiful. 'Une fontaine à eau' = a drinking water fountain. In Paris, 'les fontaines Wallace' are green cast-iron drinking fountains, donated by philanthropist Richard Wallace in 1872.",
         "examples": [
-          ["Il y a une belle fontaine sur la place principale.", "There is a beautiful fountain on the main square."],
-          ["On se retrouve à la fontaine.", "We'll meet at the fountain."]
+          [
+            "Il y a une grande fontaine sur la place.",
+            "There is a large fountain in the square."
+          ],
+          [
+            "Les enfants jouent près de la fontaine.",
+            "The children are playing near the fountain."
+          ]
         ],
-        "special": ""
+        "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace."
       },
       {
         "word": "le jardin",
         "partOfSpeech": "noun",
         "gender": "male",
         "pronunciation": "luh zhar-dan",
-        "meaning": "the garden",
-        "notes": "'Le jardin public' = the public garden / park. 'Le Jardin du Luxembourg' is one of Paris's most famous parks. 'Faire du jardinage' = to do gardening. 'Le jardin zoologique' = the zoo. 'Un jardin à la française' = a formal French garden (geometrical style).",
+        "meaning": "the garden / the park",
+        "notes": "'Le jardin public' = public garden / park. 'Le Jardin du Luxembourg' and 'le Jardin des Tuileries' are famous Parisian public gardens. 'Faire du jardinage' = to do gardening. In French urban contexts, 'le jardin' can refer to both a private garden and a public green space.",
         "examples": [
-          ["Le jardin du palais est magnifique.", "The palace garden is magnificent."],
-          ["On peut pique-niquer dans le jardin public.", "We can have a picnic in the public garden."]
+          [
+            "Le jardin public est à côté de la mairie.",
+            "The public garden is next to the town hall."
+          ],
+          [
+            "Nous nous promenons dans le jardin.",
+            "We are walking in the garden."
+          ]
         ],
         "special": ""
       },
@@ -143,10 +203,16 @@
         "gender": "male",
         "pronunciation": "luh moo-zay",
         "meaning": "the museum",
-        "notes": "'Visiter un musée' = to visit a museum. France is home to some of the world's most visited museums — the Louvre is the most visited museum globally. 'Le musée est gratuit le premier dimanche' = The museum is free on the first Sunday (many French national museums offer free entry on the first Sunday of the month).",
+        "notes": "France has the highest museum attendance in the world. 'Le musée du Louvre' is the world's most visited museum. 'Visiter un musée' = to visit a museum. 'Le musée est gratuit le premier dimanche du mois' = many French national museums offer free entry on the first Sunday of the month.",
         "examples": [
-          ["Le musée est ouvert du mardi au dimanche.", "The museum is open from Tuesday to Sunday."],
-          ["En France, on peut visiter beaucoup de musées gratuits.", "In France, you can visit many free museums."]
+          [
+            "Nous allons au musée demain matin.",
+            "We are going to the museum tomorrow morning."
+          ],
+          [
+            "Le musée d'Orsay est magnifique.",
+            "The Orsay Museum is magnificent."
+          ]
         ],
         "special": ""
       },
@@ -154,12 +220,18 @@
         "word": "le centre-ville",
         "partOfSpeech": "noun",
         "gender": "male",
-        "pronunciation": "luh son-truh-veel",
-        "meaning": "the city centre / the town centre",
-        "notes": "'Habiter en centre-ville' = to live in the city centre. 'Le commerce en centre-ville' = city-centre retail. In France, town centres typically have covered markets, pedestrian zones ('les zones piétonnes'), and historic buildings. 'La revitalisation du centre-ville' is a frequent topic in French urban planning.",
+        "pronunciation": "luh sohn-truh veel",
+        "meaning": "the town centre / the city centre",
+        "notes": "'Au centre-ville' = in the town centre. 'Direction centre-ville' = towards the town centre (common road sign). French town centres ('centres-villes') typically feature pedestrianised streets, markets, and historic buildings. 'Habiter en centre-ville' = to live in the town centre.",
         "examples": [
-          ["Le marché est au centre-ville.", "The market is in the town centre."],
-          ["J'habite en centre-ville, près de la fontaine.", "I live in the city centre, near the fountain."]
+          [
+            "Les meilleurs restaurants sont au centre-ville.",
+            "The best restaurants are in the town centre."
+          ],
+          [
+            "J'habite à cinq minutes du centre-ville.",
+            "I live five minutes from the town centre."
+          ]
         ],
         "special": ""
       }
@@ -168,197 +240,313 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Vous venez de quel pays ?"],
-        ["B", "Nous venons d'Australie — c'est notre première visite en France !"],
-        ["A", "Bienvenue ! Qu'est-ce que vous voulez voir à Paris ?"],
-        ["B", "En France, on peut visiter beaucoup de musées, non ?"],
-        ["A", "Oui ! À Paris, il y a le Louvre et beaucoup de jardins magnifiques."],
-        ["B", "Et des fontaines ? En France, les fontaines sont célèbres !"],
-        ["A", "Oui, il y en a partout ! Et il y a aussi de belles églises."],
-        ["B", "Super — nous voulons tout voir. Par où commencer ?"]
+        [
+          "A",
+          "Tu viens de Paris, toi ?"
+        ],
+        [
+          "B",
+          "Oui, j'habite à Paris. Et vous, vous habitez en France aussi ?"
+        ],
+        [
+          "A",
+          "Non, nous habitons en Angleterre — mais on visite la France chaque été."
+        ],
+        [
+          "B",
+          "Ah, c'est bien ! Il y a beaucoup à voir. À Paris, il y a l'église Notre-Dame."
+        ],
+        [
+          "A",
+          "Oui, et le jardin des Tuileries ! On adore se promener là-bas."
+        ],
+        [
+          "B",
+          "Et en France, on peut visiter tellement de villes magnifiques. Lyon, Bordeaux…"
+        ],
+        [
+          "A",
+          "On va à Lyon la semaine prochaine. Qu'est-ce qu'il y a à voir là-bas ?"
+        ],
+        [
+          "B",
+          "Il y a un vieux quartier magnifique — et de très bons restaurants, bien sûr !"
+        ]
       ],
       "questions": [
         {
-          "question": "Where are the visitors from?",
-          "options": ["The United States", "Australia", "Canada"],
-          "correctAnswer": "Australia"
+          "question": "Where does Speaker A live?",
+          "options": [
+            "In France",
+            "In England",
+            "In Paris"
+          ],
+          "correctAnswer": "In England"
         },
         {
-          "question": "What famous museum does speaker A mention?",
-          "options": ["The Orsay", "The Louvre", "The Pompidou"],
-          "correctAnswer": "The Louvre"
+          "question": "Which Paris landmark do they both mention?",
+          "options": [
+            "The Eiffel Tower",
+            "The Tuileries Garden",
+            "The Louvre"
+          ],
+          "correctAnswer": "The Tuileries Garden"
         },
         {
-          "question": "What does speaker B say about fountains?",
-          "options": ["They want to find one", "They say French fountains are famous", "They don't like fountains"],
-          "correctAnswer": "They say French fountains are famous"
+          "question": "Where are Speakers A going next week?",
+          "options": [
+            "Paris",
+            "Bordeaux",
+            "Lyon"
+          ],
+          "correctAnswer": "Lyon"
         }
       ],
-      "summary": "Friends visiting from Australia are on their first trip to France. They ask about what to see in Paris. Speaker A recommends the Louvre, the gardens, and the churches, and notes there are fountains everywhere. The visitors are enthusiastic about seeing everything and wonder where to start."
+      "summary": "Two friends from different countries talk about visiting France. Speaker A lives in England but visits France every summer; Speaker B lives in Paris. They discuss Paris landmarks including Notre-Dame church and the Tuileries Garden. Speaker A is heading to Lyon the following week, and Speaker B recommends the old quarter and the restaurants there."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Vous habitez en France ?"],
-        ["B", "Oui, j'habite à Bordeaux. Et vous, vous venez d'où ?"],
-        ["A", "Nous venons du Japon — c'est notre troisième visite en France."],
-        ["B", "Ah, vous connaissez bien ! Vous avez déjà visité beaucoup de villes ?"],
-        ["A", "Oui — nous sommes allés à Paris, à Lyon, et maintenant à Bordeaux. En France, chaque ville a son caractère."],
-        ["B", "C'est vrai ! À Bordeaux, il y a de magnifiques jardins, des musées excellents, et une belle fontaine au centre-ville."],
-        ["A", "Oui, nous avons vu la fontaine hier. Et les magasins en centre-ville sont très sympas."],
-        ["B", "Exactement. Au Japon, dans quelle ville habitez-vous ?"]
+        [
+          "A",
+          "Alors, vous venez d'où, vous deux ?"
+        ],
+        [
+          "B",
+          "Nous venons du Japon — nous sommes à Paris pour une semaine."
+        ],
+        [
+          "A",
+          "Bienvenue en France ! Vous avez visité le centre-ville ?"
+        ],
+        [
+          "B",
+          "Oui, nous avons vu le musée d'Orsay et le jardin des Tuileries. C'est magnifique."
+        ],
+        [
+          "A",
+          "Et demain, vous allez où ?"
+        ],
+        [
+          "B",
+          "Nous allons au Louvre le matin. L'après-midi, on cherche une église ancienne."
+        ],
+        [
+          "A",
+          "Il y a Sainte-Chapelle — c'est dans le centre-ville, à côté de la fontaine Saint-Michel."
+        ],
+        [
+          "B",
+          "Parfait. Et pour les magasins — on peut trouver des souvenirs au centre-ville aussi ?"
+        ]
       ],
       "questions": [
         {
-          "question": "Where does speaker B live?",
-          "options": ["Paris", "Lyon", "Bordeaux", "Marseille"],
-          "correctAnswer": "Bordeaux"
+          "question": "Where are Speaker B and their companion from?",
+          "options": [
+            "China",
+            "Japan",
+            "South Korea",
+            "Australia"
+          ],
+          "correctAnswer": "Japan"
         },
         {
-          "question": "Which cities have the visitors already seen?",
-          "options": ["Paris and Lyon", "Paris, Lyon and Bordeaux", "Lyon and Bordeaux", "Only Paris"],
-          "correctAnswer": "Paris and Lyon"
+          "question": "Which two places have they already visited?",
+          "options": [
+            "The Louvre and Notre-Dame",
+            "The Musée d'Orsay and the Tuileries Garden",
+            "Sainte-Chapelle and the Eiffel Tower",
+            "The centre-ville shops and a fountain"
+          ],
+          "correctAnswer": "The Musée d'Orsay and the Tuileries Garden"
         },
         {
-          "question": "What did the visitors see yesterday?",
-          "options": ["The museum", "The gardens", "The fountain", "The shops"],
-          "correctAnswer": "The fountain"
+          "question": "What are they planning to visit in the afternoon?",
+          "options": [
+            "The Louvre",
+            "A restaurant",
+            "An old church",
+            "The market"
+          ],
+          "correctAnswer": "An old church"
         },
         {
-          "question": "What does speaker B say about Bordeaux?",
-          "options": ["It is very large", "It has gardens, museums and a fountain in the centre", "It has the best shops in France", "It is better than Paris"],
-          "correctAnswer": "It has gardens, museums and a fountain in the centre"
+          "question": "Where is Sainte-Chapelle, according to Speaker A?",
+          "options": [
+            "Near the Eiffel Tower",
+            "Outside the city centre",
+            "In the town centre, next to the Saint-Michel fountain",
+            "In the Tuileries Garden"
+          ],
+          "correctAnswer": "In the town centre, next to the Saint-Michel fountain"
         }
       ],
-      "summary": "Speaker A and their companion are visiting from Japan — it is their third trip to France. They have already visited Paris and Lyon, and are now in Bordeaux. Speaker B (a Bordeaux resident) recommends the gardens, museums, and the central fountain. The visitors already saw the fountain yesterday and enjoyed the city-centre shops. Speaker B asks which city the visitors are from in Japan."
+      "summary": "Two Japanese visitors discuss their Paris trip with a local. They have already seen the Musée d'Orsay and the Tuileries Garden. The next day, they plan to visit the Louvre in the morning and an old church in the afternoon. The local recommends Sainte-Chapelle, located in the town centre near the Saint-Michel fountain, and the visitors also ask about souvenir shops in the centre."
     }
   },
   "grammar": {
     "standard": {
       "title": "Prepositions with Cities & Countries (à, en, au, aux)",
-      "explanation": "In French, the preposition you use before a city or country name depends on the gender and number of the place.\n\n**With cities:** always use **à**\n- J'habite **à** Paris. (I live in Paris.)\n- Je vais **à** Lyon. (I'm going to Lyon.)\n\n**With countries:**\n| Country type | Preposition | Example |\n|---|---|---|\n| Feminine country | **en** | en France, en Espagne, en Italie |\n| Masculine country (starts with consonant) | **au** | au Japon, au Portugal, au Canada |\n| Masculine country (starts with vowel) | **en** | en Iran, en Irak |\n| Plural country | **aux** | aux États-Unis, aux Pays-Bas |\n\n**How to know if a country is feminine:** Most countries ending in **-e** are feminine (la France, l'Italie, l'Espagne). Exceptions: le Mexique, le Cambodge, le Zimbabwe.\n\n**Common examples:**\n- Je viens **de** France. (I come from France.)\n- Elle habite **au** Japon. (She lives in Japan.)\n- Ils sont **aux** États-Unis. (They are in the US.)",
+      "explanation": "In French, the preposition you use to say you are 'in' or 'going to' a place depends on the gender and number of the place name.\n\n**With cities — always 'à':**\n- *Je suis à Paris.* = I am in Paris.\n- *Je vais à Londres.* = I am going to London.\n- *Nous habitons à Lyon.* = We live in Lyon.\n\n**With countries and regions:**\n\n| Type | Preposition | Example |\n|---|---|---|\n| Feminine country (most countries ending in -e) | **en** | *en France, en Espagne, en Angleterre* |\n| Masculine country | **au** | *au Japon, au Canada, au Maroc* |\n| Plural countries | **aux** | *aux États-Unis, aux Pays-Bas* |\n| Countries starting with a vowel | **en** | *en Iran, en Israël* |\n\n**Quick tip for gender:**\nMost countries ending in -e are feminine: France (f), Italie (f), Allemagne (f), Espagne (f).\nExceptions: le Mexique (m), le Cambodge (m), le Zimbabwe (m).\n\n**Examples:**\n- *Elle vit en France.* = She lives in France.\n- *Il vient du Japon.* = He comes from Japan. ('du' = de + au)\n- *Nous allons aux États-Unis.* = We are going to the United States.\n- *Je reviens de Paris.* = I'm coming back from Paris.",
       "examples": [
         {
-          "french": "J'habite à Paris, en France.",
-          "english": "I live in Paris, in France."
+          "french": "Nous habitons en Angleterre.",
+          "english": "We live in England."
         },
         {
-          "french": "Il vient au Japon — il habite à Tokyo.",
-          "english": "He is going to Japan — he lives in Tokyo."
+          "french": "Il travaille à Paris.",
+          "english": "He works in Paris."
         },
         {
-          "french": "Nous allons aux États-Unis cet été.",
-          "english": "We are going to the United States this summer."
+          "french": "Elle va au Japon.",
+          "english": "She is going to Japan."
         },
         {
-          "french": "En Italie, il y a de belles fontaines.",
-          "english": "In Italy, there are beautiful fountains."
+          "french": "Ils viennent des États-Unis.",
+          "english": "They come from the United States."
         }
       ],
       "drills": [
         {
           "type": "multipleChoice",
-          "question": "How do you say 'in France'?",
-          "options": ["au France", "en France", "à France"],
-          "correctAnswer": "en France",
-          "explanation": "France is feminine (la France). Feminine countries use 'en': en France."
+          "question": "Which preposition goes with 'France' (feminine country)?",
+          "options": [
+            "au",
+            "en",
+            "à"
+          ],
+          "correctAnswer": "en",
+          "explanation": "Feminine countries use 'en'. France is feminine, so: en France."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Complete: J'habite ___ Paris. (I live in Paris.)",
+          "question": "Complete: Je vais ___ Paris. (I am going to Paris.)",
           "correctAnswer": "à",
-          "explanation": "Cities always use 'à'. J'habite à Paris."
+          "explanation": "Cities always use 'à': à Paris, à Lyon, à Rome."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'in Japan'?",
-          "options": ["en Japon", "à Japon", "au Japon"],
-          "correctAnswer": "au Japon",
-          "explanation": "Japan is masculine (le Japon). Masculine countries starting with consonant: au Japon."
+          "question": "How do you say 'He lives in Japan'?",
+          "options": [
+            "Il habite à Japon.",
+            "Il habite en Japon.",
+            "Il habite au Japon."
+          ],
+          "correctAnswer": "Il habite au Japon.",
+          "explanation": "'Le Japon' is masculine, so use 'au' (à + le): au Japon."
         },
         {
           "type": "fillInTheBlank",
           "question": "Complete: Ils habitent ___ États-Unis. (They live in the United States.)",
           "correctAnswer": "aux",
-          "explanation": "Plural country: use 'aux'. Les États-Unis → aux États-Unis."
+          "explanation": "Plural country names use 'aux' (à + les): aux États-Unis."
         },
         {
           "type": "multipleChoice",
-          "question": "Which preposition do you use with feminine countries?",
-          "options": ["au", "en", "à"],
-          "correctAnswer": "en",
-          "explanation": "Feminine countries (most ending in -e) use 'en': en France, en Italie, en Espagne."
+          "question": "Which sentence is correct for 'We are going to Spain'?",
+          "options": [
+            "Nous allons au Espagne.",
+            "Nous allons à Espagne.",
+            "Nous allons en Espagne."
+          ],
+          "correctAnswer": "Nous allons en Espagne.",
+          "explanation": "'Espagne' (Spain) is feminine (ends in -e), so use 'en': en Espagne."
         }
       ]
     },
     "advanced": {
       "title": "Prepositions with Cities & Countries — à, en, au, aux + Exceptions",
-      "explanation": "**Cities: always à**\n- *à Paris, à Lyon, à Tokyo, à New York*\n- *Je vais **à** Madrid.* (I'm going to Madrid.)\n\n**Countries — preposition depends on gender and number:**\n| Type | Prep (in/to) | Prep (from) | Examples |\n|---|---|---|---|\n| Feminine (ending -e) | **en** | **de** | en France, de France |\n| Masc. (consonant) | **au** | **du** | au Japon, du Japon |\n| Masc. (vowel) | **en** | **d'** | en Iran, d'Iran |\n| Plural | **aux** | **des** | aux États-Unis, des États-Unis |\n\n**Feminine country exceptions (masculine despite ending in -e):**\n- *le Mexique* → **au** Mexique\n- *le Cambodge* → **au** Cambodge\n- *le Zimbabwe* → **au** Zimbabwe\n\n**Islands and regions vary — learn as fixed phrases:**\n- *à Cuba, à Haïti, à Malte* (small islands: use à)\n- *en Corse* (larger island, treated as region: en)\n- *en Provence, en Normandie* (French regions: en)\n- *dans le Midi* (some regions with 'le': dans le)\n\n**With 'from' (venir de):**\n- *Je viens **de** France.* (de = from feminine country)\n- *Je viens **du** Japon.* (du = de + le)\n- *Je viens **des** États-Unis.* (des = de + les)\n- *Je viens **d'**Australie.* (d' = de + vowel)\n\n**Key contrast — city vs country:**\n- *J'habite **à** Paris **en** France.*\n- *Il est **au** Japon — **à** Tokyo.*",
+      "explanation": "**Core rules:**\n\n| Place type | Preposition | Examples |\n|---|---|---|\n| All cities | **à** | à Paris, à Londres, à New York |\n| Feminine countries (end in -e) | **en** | en France, en Italie, en Espagne |\n| Masculine countries | **au** | au Japon, au Canada, au Portugal |\n| Plural countries | **aux** | aux États-Unis, aux Pays-Bas |\n| Countries starting with vowel | **en** | en Iran, en Israël, en Ouganda |\n| French regions (most feminine) | **en** | en Bretagne, en Normandie, en Provence |\n| French regions (masculine) | **dans le / au** | dans le Midi, au Périgord |\n\n**'Coming from' — de, du, des:**\n\n| From | Preposition | Example |\n|---|---|---|\n| City | de / d' | Je viens de Paris. / Je viens d'Oslo. |\n| Feminine country | de / d' | Je viens de France. / d'Italie. |\n| Masculine country | du | Je viens du Japon. |\n| Plural country | des | Je viens des États-Unis. |\n\n**Key exceptions to memorise:**\n- **le Mexique** (m) → *au Mexique* (not 'en' despite -e ending)\n- **le Cambodge** (m) → *au Cambodge*\n- **le Mozambique** (m) → *au Mozambique*\n\n**Islands — special rule:**\nSmall / close islands often use 'à': *à Cuba, à Malte, à Chypre*\nLarger / distant islands use 'en': *en Corse, en Sardaigne*\n\n**Prepositions with continents:**\n- *en Europe, en Afrique, en Asie, en Amérique du Nord/Sud, en Océanie*\n- *dans* is occasionally used with continents in formal contexts.",
       "examples": [
         {
-          "french": "Elle habite à Bordeaux, en France — elle vient du Japon.",
-          "english": "She lives in Bordeaux, France — she comes from Japan."
+          "french": "Nous allons en Italie, puis au Maroc.",
+          "english": "We are going to Italy, then to Morocco."
         },
         {
-          "french": "En Provence, il y a de beaux jardins et des fontaines magnifiques.",
-          "english": "In Provence, there are beautiful gardens and magnificent fountains."
+          "french": "Elle vient du Canada mais habite en France.",
+          "english": "She comes from Canada but lives in France."
         },
         {
-          "french": "Ils viennent des États-Unis mais ils habitent à Paris.",
-          "english": "They come from the United States but they live in Paris."
+          "french": "Ils sont aux États-Unis pour le travail.",
+          "english": "They are in the United States for work."
+        },
+        {
+          "french": "Je viens d'Oslo — je suis en visite à Paris.",
+          "english": "I come from Oslo — I am visiting Paris."
         }
       ],
       "drills": [
         {
           "type": "multipleChoice",
-          "question": "How do you say 'in Australia'?",
-          "options": ["au Australie", "à Australie", "en Australie", "aux Australie"],
-          "correctAnswer": "en Australie",
-          "explanation": "Australia is feminine (l'Australie, ends in -e). Feminine countries: en. Also starts with vowel so 'en' is confirmed."
+          "question": "How do you say 'She lives in Mexico'?",
+          "options": [
+            "Elle habite en Mexique.",
+            "Elle habite à Mexique.",
+            "Elle habite au Mexique.",
+            "Elle habite dans Mexique."
+          ],
+          "correctAnswer": "Elle habite au Mexique.",
+          "explanation": "'Le Mexique' is masculine (exception — ends in -e but is masculine). Use 'au': au Mexique."
         },
         {
           "type": "fillInTheBlank",
           "question": "Complete: Je viens ___ Japon. (I come from Japan.)",
           "correctAnswer": "du",
-          "explanation": "'De + le Japon = du Japon'. Venir du Japon = to come from Japan."
+          "explanation": "'Du' = de + le. For masculine countries: je viens du Japon."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'in Mexico'?",
-          "options": ["en Mexique", "à Mexique", "au Mexique", "aux Mexique"],
-          "correctAnswer": "au Mexique",
-          "explanation": "Le Mexique is a masculine exception (ends in -e but is masculine). Use 'au': au Mexique."
+          "question": "Which is correct for 'We are going to Corsica'?",
+          "options": [
+            "Nous allons à Corse.",
+            "Nous allons en Corse.",
+            "Nous allons au Corse.",
+            "Nous allons dans Corse."
+          ],
+          "correctAnswer": "Nous allons en Corse.",
+          "explanation": "Corse (Corsica) is a larger island — it uses 'en': en Corse. Small islands use 'à'."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Complete: Elle vient ___ États-Unis. (She comes from the United States.)",
+          "question": "Complete: Elle revient ___ États-Unis. (She's coming back from the United States.)",
           "correctAnswer": "des",
-          "explanation": "'De + les États-Unis = des États-Unis'. Plural countries use 'des' for 'from'."
+          "explanation": "'Des' = de + les. For plural countries: elle revient des États-Unis."
         },
         {
           "type": "multipleChoice",
-          "question": "How do you say 'in Corsica'?",
-          "options": ["à Corse", "au Corse", "en Corse", "dans Corse"],
-          "correctAnswer": "en Corse",
-          "explanation": "Corse is treated as a region in French. Regions use 'en': en Corse, en Provence."
+          "question": "How do you say 'They work in Asia'?",
+          "options": [
+            "Ils travaillent à Asie.",
+            "Ils travaillent au Asie.",
+            "Ils travaillent en Asie.",
+            "Ils travaillent aux Asie."
+          ],
+          "correctAnswer": "Ils travaillent en Asie.",
+          "explanation": "Continents always use 'en': en Europe, en Asie, en Afrique, en Amérique."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Complete: J'habite ___ Tokyo, ___ Japon. (I live in Tokyo, Japan.)",
-          "correctAnswer": "à / au",
-          "explanation": "Cities use 'à' (à Tokyo); masculine countries use 'au' (au Japon)."
+          "question": "Complete: Nous allons ___ Bretagne cet été. (We are going to Brittany this summer.)",
+          "correctAnswer": "en",
+          "explanation": "French regions ending in -e are typically feminine: en Bretagne, en Normandie, en Provence."
         },
         {
           "type": "multipleChoice",
-          "question": "Which is correct: 'I come from France'?",
-          "options": ["Je viens d'en France.", "Je viens de France.", "Je viens du France.", "Je viens à France."],
-          "correctAnswer": "Je viens de France.",
-          "explanation": "'De' + feminine country (no article needed): je viens de France. NOT 'du' (which is de + le, for masculine)."
+          "question": "Which sentence is correct?",
+          "options": [
+            "Il vient de le Canada.",
+            "Il vient du Canada.",
+            "Il vient en Canada.",
+            "Il vient au Canada."
+          ],
+          "correctAnswer": "Il vient du Canada.",
+          "explanation": "'Du' = de + le. Canada is masculine: il vient du Canada."
         },
         {
           "type": "fillInTheBlank",
-          "question": "Complete: En Provence, ___ y a de beaux jardins. (In Provence, there are beautiful gardens.)",
-          "correctAnswer": "il",
-          "explanation": "'Il y a' = there is/are. En Provence, il y a de beaux jardins."
+          "question": "Complete: Je visite ___ musées ___ centre-ville de Paris. (I'm visiting the museums in the town centre of Paris.)",
+          "correctAnswer": "les",
+          "explanation": "'Les musées' = the museums (plural definite article). The full phrase: je visite les musées du centre-ville de Paris."
         }
       ]
     }
@@ -367,118 +555,154 @@
     "standard": [
       {
         "type": "multipleChoice",
-        "question": "How do you say 'in France'?",
-        "options": ["au France", "en France", "à France"],
-        "correctAnswer": "en France",
-        "explanation": "Feminine countries use 'en'. France is feminine (la France) → en France.",
+        "question": "Which preposition is used for feminine countries?",
+        "options": [
+          "au",
+          "à",
+          "en"
+        ],
+        "correctAnswer": "en",
+        "explanation": "Feminine countries (most ending in -e) use 'en': en France, en Espagne, en Italie.",
         "targetWord": "la ville"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'le jardin' mean?",
-        "options": ["The garden", "The station", "The square"],
-        "correctAnswer": "The garden",
-        "explanation": "'Le jardin' = the garden. 'Le jardin public' = the public garden / park.",
+        "question": "What does 'le jardin public' mean?",
+        "options": [
+          "The private garden",
+          "The public garden / park",
+          "The town square"
+        ],
+        "correctAnswer": "The public garden / park",
+        "explanation": "'Le jardin public' = the public garden or park. Famous examples include the Jardin du Luxembourg in Paris.",
         "targetWord": "le jardin"
       },
       {
         "type": "fillInTheBlank",
-        "question": "Complete: J'habite ___ Paris. (I live in Paris.)",
-        "correctAnswer": "à",
-        "explanation": "Cities always use 'à': j'habite à Paris.",
-        "targetWord": "la ville"
+        "question": "Complete: Je vais ___ Japon. (I am going to Japan.)",
+        "correctAnswer": "au",
+        "explanation": "'Le Japon' is masculine, so use 'au' (à + le): au Japon.",
+        "targetWord": "la fontaine"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'l'église' mean?",
-        "options": ["The school", "The church", "The town hall"],
-        "correctAnswer": "The church",
-        "explanation": "'L'église' = the church. A common landmark used for meetings: 'devant l'église'.",
-        "targetWord": "l'église"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "How do you say 'in Japan'?",
-        "options": ["en Japon", "à Japon", "au Japon"],
-        "correctAnswer": "au Japon",
-        "explanation": "Japan is masculine (le Japon), starting with a consonant → au Japon.",
+        "question": "What does 'un grand magasin' mean?",
+        "options": [
+          "A large warehouse",
+          "A department store",
+          "A large magazine"
+        ],
+        "correctAnswer": "A department store",
+        "explanation": "'Un grand magasin' = a department store (like Galeries Lafayette). Not a magazine — 'magazine' is written the same but means a periodical.",
         "targetWord": "le magasin"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'We are going to the United States'?",
+        "options": [
+          "Nous allons à États-Unis.",
+          "Nous allons en États-Unis.",
+          "Nous allons aux États-Unis."
+        ],
+        "correctAnswer": "Nous allons aux États-Unis.",
+        "explanation": "'Les États-Unis' is plural, so use 'aux' (à + les): aux États-Unis.",
+        "targetWord": "l'église"
       }
     ],
     "advanced": [
       {
         "type": "multipleChoice",
-        "question": "What does 'le centre-ville' mean?",
-        "options": ["The city outskirts", "The city centre", "The shopping centre", "The main square"],
-        "correctAnswer": "The city centre",
-        "explanation": "'Le centre-ville' = the city/town centre. 'Habiter en centre-ville' = to live in the city centre.",
-        "targetWord": "le centre-ville"
-      },
-      {
-        "type": "fillInTheBlank",
-        "question": "Complete: Je viens ___ États-Unis. (I come from the United States.)",
-        "correctAnswer": "des",
-        "explanation": "'De + les États-Unis = des États-Unis'. Plural countries use 'des' for 'from'.",
+        "question": "How do you say 'She comes from Mexico'?",
+        "options": [
+          "Elle vient de Mexique.",
+          "Elle vient d'en Mexique.",
+          "Elle vient du Mexique.",
+          "Elle vient en Mexique."
+        ],
+        "correctAnswer": "Elle vient du Mexique.",
+        "explanation": "'Le Mexique' is masculine (exception — ends in -e). 'Du' = de + le: elle vient du Mexique.",
         "targetWord": "la ville"
       },
       {
-        "type": "multipleChoice",
-        "question": "How do you say 'in Mexico'?",
-        "options": ["en Mexique", "au Mexique", "à Mexique", "dans Mexique"],
-        "correctAnswer": "au Mexique",
-        "explanation": "Le Mexique is masculine (exception — ends in -e but masculine). Use 'au': au Mexique.",
-        "targetWord": "le magasin"
+        "type": "fillInTheBlank",
+        "question": "Complete: Ils habitent ___ Pays-Bas. (They live in the Netherlands.)",
+        "correctAnswer": "aux",
+        "explanation": "'Les Pays-Bas' (Netherlands) is plural: use 'aux' (à + les).",
+        "targetWord": "le centre-ville"
       },
       {
         "type": "multipleChoice",
-        "question": "What does 'le musée' mean?",
-        "options": ["The music hall", "The museum", "The town hall", "The monument"],
-        "correctAnswer": "The museum",
-        "explanation": "'Le musée' = the museum. France has many world-famous museums, including the Louvre.",
+        "question": "What is 'le musée d'Orsay' famous for?",
+        "options": [
+          "Ancient Egyptian artefacts",
+          "Impressionist and post-impressionist art",
+          "Medieval French history",
+          "Modern and contemporary sculpture"
+        ],
+        "correctAnswer": "Impressionist and post-impressionist art",
+        "explanation": "The Musée d'Orsay in Paris is famous for its Impressionist and post-Impressionist collections, including works by Monet, Renoir, and Van Gogh.",
         "targetWord": "le musée"
       },
       {
-        "type": "fillInTheBlank",
-        "question": "Complete: J'habite ___ Tokyo, ___ Japon. (I live in Tokyo, Japan.)",
-        "correctAnswer": "à / au",
-        "explanation": "Cities use 'à' (à Tokyo); masculine countries use 'au' (au Japon).",
+        "type": "multipleChoice",
+        "question": "How do you say 'I am going to Corsica'?",
+        "options": [
+          "Je vais à Corse.",
+          "Je vais au Corse.",
+          "Je vais en Corse.",
+          "Je vais dans Corse."
+        ],
+        "correctAnswer": "Je vais en Corse.",
+        "explanation": "Corse (Corsica) is a larger island — it uses 'en': en Corse. Smaller islands use 'à'.",
         "targetWord": "le jardin"
       },
       {
+        "type": "fillInTheBlank",
+        "question": "Complete: Il revient ___ Canada. (He is coming back from Canada.)",
+        "correctAnswer": "du",
+        "explanation": "'Du' = de + le. Canada is masculine: il revient du Canada.",
+        "targetWord": "la fontaine"
+      },
+      {
         "type": "multipleChoice",
-        "question": "How do you say 'in Corsica'?",
-        "options": ["à Corse", "au Corse", "en Corse", "dans Corse"],
-        "correctAnswer": "en Corse",
-        "explanation": "Corsica is treated as a French region → en Corse. Same for en Provence, en Normandie.",
-        "targetWord": "l'église"
+        "question": "Which is correct for 'We are going to Normandy'?",
+        "options": [
+          "Nous allons au Normandie.",
+          "Nous allons en Normandie.",
+          "Nous allons à Normandie.",
+          "Nous allons dans la Normandie."
+        ],
+        "correctAnswer": "Nous allons en Normandie.",
+        "explanation": "French regions ending in -e are typically feminine: en Normandie, en Bretagne, en Provence.",
+        "targetWord": "le magasin"
       }
     ]
   },
   "speak": {
     "standard": {
-      "scenario": "Describe your city or neighbourhood to a French pen pal. Mention where things are located (churches, gardens, fountains, shops) and say which country and city you live in. Use the correct prepositions with your city and country.",
+      "scenario": "Describe your city or neighbourhood to a French pen pal. Mention what there is to see and where things are located. Use 'à', 'en', 'au' / 'aux' to say where different things are.",
       "keyPhrases": [
-        "J'habite à… en… / au… (I live in [city], in [country])",
         "Dans ma ville, il y a… (In my town, there is…)",
-        "L'église est près de la fontaine. (The church is near the fountain.)",
-        "Il y a beaucoup de magasins en centre-ville. (There are many shops in the city centre.)",
-        "Tu peux visiter… (You can visit…)"
+        "L'église / le jardin / la fontaine est à… (The church / garden / fountain is in…)",
+        "Je viens de… (I come from…)",
+        "On peut visiter… (You can visit…)",
+        "Comparé à Paris / en France… (Compared to Paris / in France…)"
       ],
-      "modelAnswer": "Bonjour ! J'habite à Sydney, en Australie. C'est une grande ville au bord de la mer. Dans ma ville, il y a de beaux jardins et beaucoup de magasins en centre-ville. Il y a aussi une grande église près de la fontaine principale. En Australie, il fait souvent chaud et il y a beaucoup à visiter. Tu peux venir un jour !",
-      "modelAnswerExplanation": "The answer uses 'à' + city (à Sydney), 'en' + feminine country (en Australie), describes the city with 'il y a', references key vocabulary (jardins, magasins, église, fontaine), and invites the pen pal to visit.",
-      "tip": "Remember: cities = à; feminine countries (usually ending in -e) = en; masculine countries = au; plural countries = aux."
+      "modelAnswer": "Bonjour ! Je viens d'Angleterre — j'habite dans une ville au bord de la mer. Dans ma ville, il y a une vieille église et un grand jardin public. Il n'y a pas de fontaine célèbre, mais il y a beaucoup de magasins. En France, j'adore les fontaines et les vieux quartiers. Je veux visiter Paris — je vais à Paris l'année prochaine !",
+      "modelAnswerExplanation": "The answer uses 'je viens de' for origin, describes the city with 'il y a', makes a comparison with France using 'en France', and ends with a future plan using 'aller à + city'.",
+      "tip": "Remember the key rule: cities always use 'à', feminine countries use 'en', masculine countries use 'au'."
     },
     "advanced": {
-      "scenario": "You are chatting with a French friend about cities you have visited and where you live now. Use 'à', 'en', 'au', 'aux' correctly with multiple cities and countries. Compare your city to a French city, and mention landmarks like museums, gardens, and fountains.",
+      "scenario": "Describe your city to a French pen pal. Mention where things are using all preposition rules (à, en, au, aux), compare your city with a French city, and use 'venir de' to talk about origin and recent actions.",
       "keyPhrases": [
-        "J'habite à… en / au / aux… (I live in [city], in [country])",
-        "Je viens de / du / des… (I come from…)",
-        "En France / Au Japon / Aux États-Unis, il y a… (In France / Japan / the US, there is…)",
-        "Comme à Paris, il y a… (Like in Paris, there is…)",
-        "Le centre-ville a… / Le musée est… (The city centre has… / The museum is…)"
+        "Je viens de… / Je viens d'arriver de… (I come from… / I have just arrived from…)",
+        "En France, on peut… / À Paris, il y a… (In France, you can… / In Paris, there is…)",
+        "Le musée / le centre-ville est… (The museum / town centre is…)",
+        "Comparé au centre-ville de Paris… (Compared to the town centre of Paris…)",
+        "Je reviens des États-Unis / du Japon / d'Espagne. (I'm back from the US / Japan / Spain.)"
       ],
-      "modelAnswer": "J'habite à Melbourne, en Australie — mais je viens du Japon, de Tokyo. C'est intéressant : à Melbourne, il y a de très beaux jardins, comme le Jardin du Luxembourg à Paris. Il y a aussi des musées excellents et une grande fontaine dans le centre-ville. En Australie, les magasins ferment plus tôt qu'en France. Toi, tu habites à Bordeaux ? En France, chaque ville a son caractère — comme au Japon !",
-      "modelAnswerExplanation": "The answer uses 'à' + city (three cities), 'en' + feminine country (en Australie, en France), 'du' + masculine country (du Japon), makes a cross-cultural comparison, and uses key vocabulary (jardins, musées, fontaine, centre-ville, magasins).",
+      "modelAnswer": "Bonjour ! Je viens d'Angleterre, d'une ville au bord de la mer. Dans mon centre-ville, il y a un vieux musée et un jardin public avec une belle fontaine. Il y a aussi beaucoup de magasins et une église du douzième siècle. Comparé à Paris, ma ville est petite — mais il y a une bonne ambiance. En France, j'adore aller en Bretagne — la côte est magnifique. L'année prochaine, je vais en Espagne et puis au Maroc.",
+      "modelAnswerExplanation": "The answer uses 'je viens de' for origin, describes the town centre with key vocab, makes a comparison with Paris using 'à Paris', uses 'en Bretagne' for a French region, and correctly deploys 'en Espagne' and 'au Maroc' for the travel plans.",
       "tip": ""
     }
   }
