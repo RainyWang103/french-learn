@@ -1,0 +1,398 @@
+{
+  "day": 46,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Emotions & Mental States",
+  "vocab": {
+    "standard": [
+      {
+        "word": "heureux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "uh-ruh",
+        "meaning": "happy",
+        "notes": "Feminine form: heureuse. Used both for temporary mood and general happiness.",
+        "examples": [
+          ["Je suis heureux de te voir.", "I am happy to see you."],
+          ["Elle est heureuse de sa nouvelle vie.", "She is happy with her new life."]
+        ],
+        "special": "Core emotion adjective"
+      },
+      {
+        "word": "calme",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "kalm",
+        "meaning": "calm",
+        "notes": "Same form for masculine and feminine. Also used as a noun: le calme (the calm).",
+        "examples": [
+          ["Il est très calme avant l'examen.", "He is very calm before the exam."],
+          ["Reste calme — tout va bien.", "Stay calm — everything is fine."]
+        ],
+        "special": "Invariable for gender"
+      },
+      {
+        "word": "faible",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "feb-luh",
+        "meaning": "weak",
+        "notes": "Opposite: fort (strong). Can describe physical or emotional weakness.",
+        "examples": [
+          ["Je me sens faible aujourd'hui.", "I feel weak today."],
+          ["Elle est trop faible pour travailler.", "She is too weak to work."]
+        ],
+        "special": "Used for both physical and emotional weakness"
+      },
+      {
+        "word": "la peur",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah pur",
+        "meaning": "fear",
+        "notes": "Common expression: avoir peur (de) — to be afraid (of)",
+        "examples": [
+          ["Il a beaucoup de peur des examens.", "He has a lot of fear of exams."],
+          ["Elle a peur de parler en public.", "She is afraid of speaking in public."]
+        ],
+        "special": "Key expression: avoir peur"
+      },
+      {
+        "word": "se sentir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh sɑ̃-teer",
+        "meaning": "to feel (oneself)",
+        "notes": "Reflexive verb. Conjugation: je me sens, tu te sens, il/elle se sent, nous nous sentons, vous vous sentez, ils/elles se sentent.",
+        "conjugation": {
+          "je": "me sens",
+          "tu": "te sens",
+          "il/elle": "se sent",
+          "nous": "nous sentons",
+          "vous": "vous sentez",
+          "ils/elles": "se sentent"
+        },
+        "examples": [
+          ["Je me sens fatigué aujourd'hui.", "I feel tired today."],
+          ["Comment tu te sens ?", "How are you feeling?"]
+        ],
+        "special": "Essential for expressing how you feel"
+      }
+    ],
+    "advanced": [
+      {
+        "word": "heureux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "uh-ruh",
+        "meaning": "happy",
+        "notes": "Feminine: heureuse. 'Heureux qui comme Ulysse…' — classic French literary reference. Nuance: deeper than 'content'.",
+        "examples": [
+          ["Je suis heureux de te voir après si longtemps.", "I am so happy to see you after so long."],
+          ["Elle est heureuse, même dans les moments difficiles.", "She is happy, even in difficult moments."]
+        ],
+        "special": "Core emotion adjective"
+      },
+      {
+        "word": "calme",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "kalm",
+        "meaning": "calm",
+        "notes": "Same form for both genders. Noun: 'le calme'. Expression: 'garder son calme' (to keep one's composure).",
+        "examples": [
+          ["Elle garde son calme malgré la pression.", "She stays calm despite the pressure."],
+          ["Un quartier calme est important pour se détendre.", "A quiet neighbourhood is important for relaxing."]
+        ],
+        "special": "Invariable for gender"
+      },
+      {
+        "word": "faible",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "feb-luh",
+        "meaning": "weak",
+        "notes": "Opposite: fort. Can be used physically, emotionally, or academically ('faible en maths' — weak in maths).",
+        "examples": [
+          ["Je me sens faible — je n'ai pas dormi.", "I feel weak — I haven't slept."],
+          ["Son point faible, c'est la grammaire.", "His weak point is grammar."]
+        ],
+        "special": "Used for both physical and emotional weakness"
+      },
+      {
+        "word": "la peur",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah pur",
+        "meaning": "fear",
+        "notes": "Key expressions: 'avoir peur de' (to be afraid of), 'faire peur à' (to scare someone), 'de peur que' (for fear that + subjunctive)",
+        "examples": [
+          ["Il a trop de peur pour parler devant la classe.", "He is too afraid to speak in front of the class."],
+          ["Ses histoires me font peur.", "His stories scare me."]
+        ],
+        "special": "Key expression: avoir peur"
+      },
+      {
+        "word": "se sentir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh sɑ̃-teer",
+        "meaning": "to feel (oneself)",
+        "notes": "Reflexive. Conjugation uses 'sentir' stem. Often followed by an adjective: 'se sentir bien/mal/fatigué/stressé'.",
+        "conjugation": {
+          "je": "me sens",
+          "tu": "te sens",
+          "il/elle": "se sent",
+          "nous": "nous sentons",
+          "vous": "vous sentez",
+          "ils/elles": "se sentent"
+        },
+        "examples": [
+          ["Je ne me sens pas bien — j'ai trop de travail.", "I don't feel well — I have too much work."],
+          ["Elle se sent soulagée après l'examen.", "She feels relieved after the exam."]
+        ],
+        "special": "Essential for expressing how you feel"
+      },
+      {
+        "word": "épuisé",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "ay-pwee-zay",
+        "meaning": "exhausted",
+        "notes": "Feminine: épuisée. Stronger than fatigué (tired). Used for both physical and emotional exhaustion.",
+        "examples": [
+          ["Je suis épuisé — j'ai travaillé toute la nuit.", "I am exhausted — I worked all night."],
+          ["Elle est épuisée à cause de trop de stress.", "She is exhausted because of too much stress."]
+        ],
+        "special": "Stronger than fatigué"
+      },
+      {
+        "word": "soulagé",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "soo-lah-zhay",
+        "meaning": "relieved",
+        "notes": "Feminine: soulagée. Related noun: le soulagement (relief). Common after stressful events.",
+        "examples": [
+          ["Je suis soulagé — l'examen est fini.", "I am relieved — the exam is over."],
+          ["Elle se sent soulagée après la bonne nouvelle.", "She feels relieved after the good news."]
+        ],
+        "special": "Common emotional response after stress"
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu n'as pas l'air bien. Comment tu te sens ?"],
+        ["B", "Je me sens très fatigué et un peu faible. J'ai trop de travail en ce moment."],
+        ["A", "Combien d'heures tu travailles par jour ?"],
+        ["B", "Beaucoup trop ! J'ai peu de temps pour dormir et beaucoup de stress."],
+        ["A", "Et tu dors combien d'heures ?"],
+        ["B", "Seulement quatre ou cinq heures. J'ai peur de rater mes examens."],
+        ["A", "Tu as besoin de repos. Trop de stress, c'est mauvais pour la santé."],
+        ["B", "Je sais. Je ne me sens pas heureux du tout en ce moment."]
+      ],
+      "questions": [
+        "Comment est-ce que B se sent ?",
+        "Pourquoi est-ce que B a peur ?",
+        "Qu'est-ce que A conseille à B ?"
+      ],
+      "summary": "A student tells a friend about feeling overwhelmed — they have too much work, not enough sleep, and a lot of stress because of upcoming exams."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu sembles épuisée. Tout va bien ?"],
+        ["B", "Pas vraiment. Je me sens complètement épuisée et très stressée depuis deux semaines."],
+        ["A", "Qu'est-ce qui se passe exactement ?"],
+        ["B", "J'ai trop de travail — beaucoup de projets, peu de temps libre et assez de pression pour ne plus dormir correctement."],
+        ["A", "Assez de pression pour ne plus dormir… c'est sérieux. Tu ne te sens pas du tout calme ?"],
+        ["B", "Non. J'ai beaucoup de peur de ne pas réussir. Je me sens faible et peu sûre de moi."],
+        ["A", "Tu dois trouver un équilibre. Trop de stress et peu de repos, c'est dangereux."],
+        ["B", "Je sais. Mais je me sens soulagée d'en parler. Merci de m'écouter."]
+      ],
+      "questions": [
+        "Depuis combien de temps est-ce que B se sent épuisée ?",
+        "Quelles expressions de quantité entends-tu dans ce dialogue ?",
+        "Comment est-ce que B se sent à la fin de la conversation ?"
+      ],
+      "summary": "A student confides in a friend about feeling overwhelmed for two weeks. She describes too much work, not enough free time, and a lot of pressure. By the end of the conversation, she feels relieved to have talked about it."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Expressions of Quantity (beaucoup de, peu de, trop de, assez de)",
+      "explanation": "Quantity expressions in French are followed directly by a noun WITHOUT an article. The key expressions are:\n- beaucoup de = a lot of\n- peu de = little / few / not much\n- trop de = too much / too many\n- assez de = enough\n\nRule: quantity expression + de/d' + noun (no article!)\n\nExamples:\n- J'ai beaucoup de travail. (I have a lot of work.)\n- Elle a peu de temps. (She has little time.)\n- Il a trop de stress. (He has too much stress.)\n- Nous avons assez d'argent. (We have enough money.)",
+      "examples": [
+        ["J'ai beaucoup de peur avant l'examen.", "I have a lot of fear before the exam."],
+        ["Elle a peu de temps pour dormir.", "She has little time to sleep."],
+        ["Il a trop de stress en ce moment.", "He has too much stress right now."],
+        ["Nous avons assez de courage pour continuer.", "We have enough courage to continue."]
+      ],
+      "drills": [
+        "Translate: She has too much work and not enough rest.",
+        "Fill in: Il a ___ de stress. (too much)",
+        "Correct the error: J'ai beaucoup du travail.",
+        "Translate: We have little fear but a lot of calm.",
+        "Create a sentence using 'assez de' and an emotion word."
+      ]
+    },
+    "advanced": {
+      "title": "Expressions of Quantity — beaucoup de, peu de, trop de, assez de + Extensions",
+      "explanation": "Quantity expressions drop the article before nouns: beaucoup de, peu de, trop de, assez de + noun.\n\nAdditional expressions:\n- énormément de = an enormous amount of\n- un peu de = a little of\n- moins de = less / fewer of\n- plus de = more of\n- autant de = as much / as many of\n\nKey nuances:\n- 'peu de' (few/little) vs 'un peu de' (a little) — 'peu de' is more negative\n- After these expressions, nouns lose their definite/indefinite article: NOT 'beaucoup du travail' but 'beaucoup de travail'\n- Exception: specific noun → keep article: 'beaucoup de ce travail' (a lot of this work)\n\nWith verbs: beaucoup, peu, trop, assez can modify verbs directly (no 'de'): 'Je travaille trop. Elle dort peu.'",
+      "examples": [
+        ["J'ai énormément de stress et peu de calme en ce moment.", "I have an enormous amount of stress and little calm right now."],
+        ["Elle a trop de peur pour se sentir heureuse.", "She has too much fear to feel happy."],
+        ["Il dort peu mais travaille beaucoup.", "He sleeps little but works a lot."],
+        ["Nous avons assez de courage pour continuer.", "We have enough courage to continue."],
+        ["Tu as autant de travail que moi.", "You have as much work as I do."],
+        ["Je travaille trop et je me sens épuisée.", "I work too much and I feel exhausted."]
+      ],
+      "drills": [
+        "Translate: I have an enormous amount of stress and not enough sleep.",
+        "Explain the difference: 'peu de temps' vs 'un peu de temps'.",
+        "Fill in: Elle a ___ de courage mais ___ de peur. (enough / too much)",
+        "Correct: J'ai beaucoup du travail et peu des loisirs.",
+        "Translate: He works a lot but feels little joy.",
+        "Create a sentence contrasting two quantity expressions with emotion words.",
+        "Translate: You have as much fear as she does.",
+        "Modify the verb directly: 'I sleep too little and work too much' — translate using trop/peu with verbs."
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence is grammatically correct?",
+        "options": [
+          "J'ai beaucoup du stress.",
+          "J'ai beaucoup de stress.",
+          "J'ai beaucoup stress."
+        ],
+        "correctAnswer": "J'ai beaucoup de stress.",
+        "explanation": "Quantity expressions (beaucoup, trop, peu, assez) are followed by 'de/d'' without an article before the noun.",
+        "targetWord": "beaucoup de"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'se sentir' mean?",
+        "options": ["to feel (oneself)", "to smell", "to think"],
+        "correctAnswer": "to feel (oneself)",
+        "explanation": "'Se sentir' is a reflexive verb meaning 'to feel' (in the sense of one's emotional or physical state). Example: 'Je me sens fatigué' (I feel tired).",
+        "targetWord": "se sentir"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'She has too much fear'?",
+        "options": [
+          "Elle a trop de peur.",
+          "Elle a trop la peur.",
+          "Elle est trop peur."
+        ],
+        "correctAnswer": "Elle a trop de peur.",
+        "explanation": "'Trop de' + noun (without article) = too much/many. Use 'avoir peur' for expressing fear, but 'avoir trop de peur' for 'too much fear'.",
+        "targetWord": "la peur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the feminine form of 'heureux'?",
+        "options": ["heureuse", "heureaux", "heureusse"],
+        "correctAnswer": "heureuse",
+        "explanation": "'Heureux' → feminine 'heureuse'. Adjectives ending in -eux change to -euse in the feminine form.",
+        "targetWord": "heureux"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complétez : Il a ___ de travail et ___ de temps libre. (too much / little)",
+        "correctAnswer": "trop / peu",
+        "explanation": "'Trop de' = too much/many, 'peu de' = little/few. Both drop the article before the noun.",
+        "targetWord": "trop de / peu de"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly translates 'She works a lot but sleeps little'?",
+        "options": [
+          "Elle travaille beaucoup mais elle dort peu.",
+          "Elle travaille beaucoup de mais elle dort peu de.",
+          "Elle a beaucoup de travail mais peu de sommeil.",
+          "Elle travaille beaucoup mais elle a peu de dormir."
+        ],
+        "correctAnswer": "Elle travaille beaucoup mais elle dort peu.",
+        "explanation": "When quantity words modify verbs directly, they are used without 'de': 'travailler beaucoup', 'dormir peu'. 'De' is only added when they precede a noun.",
+        "targetWord": "beaucoup / peu"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is the difference between 'peu de temps' and 'un peu de temps'?",
+        "options": [
+          "'Peu de temps' means a little time; 'un peu de temps' means very little time.",
+          "'Peu de temps' means very little time (more negative); 'un peu de temps' means a little time (more positive).",
+          "They mean exactly the same thing.",
+          "'Un peu de temps' is only used with liquids and abstract nouns."
+        ],
+        "correctAnswer": "'Peu de temps' means very little time (more negative); 'un peu de temps' means a little time (more positive).",
+        "explanation": "'Peu de' emphasises scarcity or insufficiency (hardly any); 'un peu de' suggests a small but sufficient amount. Compare: 'J'ai peu de temps' (I have very little time — it's a problem) vs 'J'ai un peu de temps' (I have a bit of time — it's okay).",
+        "targetWord": "peu de / un peu de"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'épuisé' mean?",
+        "options": ["worried", "relieved", "exhausted", "calm"],
+        "correctAnswer": "exhausted",
+        "explanation": "'Épuisé(e)' means exhausted — stronger than 'fatigué' (tired). It can describe physical or emotional depletion.",
+        "targetWord": "épuisé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly uses 'autant de'?",
+        "options": [
+          "Tu as autant de stress que moi.",
+          "Tu as autant stress que moi.",
+          "Tu as autant du stress que moi.",
+          "Tu autant de stress que moi."
+        ],
+        "correctAnswer": "Tu as autant de stress que moi.",
+        "explanation": "'Autant de' + noun = as much/as many as. Like other quantity expressions, it is followed by 'de' without an article before the noun.",
+        "targetWord": "autant de"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complétez : J'ai ___ de stress et ___ de calme. Je me sens ___ . (too much / little / exhausted)",
+        "correctAnswer": "trop / peu / épuisé",
+        "explanation": "'Trop de' + noun = too much; 'peu de' + noun = little/not enough; 'épuisé(e)' = exhausted. All fit the emotional context.",
+        "targetWord": "trop de / peu de / épuisé"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A friend asks how you are feeling today. Describe your emotional state and explain why, using at least two quantity expressions.",
+      "keyPhrases": [
+        "Je me sens…",
+        "J'ai beaucoup / trop / peu de…",
+        "Assez de…",
+        "J'ai peur de…",
+        "En ce moment…"
+      ],
+      "modelAnswer": "Je me sens fatigué aujourd'hui. J'ai trop de travail et peu de temps pour me reposer. J'ai aussi beaucoup de peur de rater mon examen. Je ne suis pas très heureux en ce moment.",
+      "modelAnswerExplanation": "The model answer uses 'se sentir' + adjective, 'trop de', 'peu de', and 'beaucoup de' with nouns, and 'avoir peur de' + infinitive to express emotional state.",
+      "tip": "Remember: quantity expressions (trop de, peu de, beaucoup de, assez de) are always followed by 'de/d'' + noun WITHOUT an article."
+    },
+    "advanced": {
+      "scenario": "A close friend asks how you have been feeling this week. Give a detailed description of your emotional state, using multiple quantity expressions and advanced emotion vocabulary.",
+      "keyPhrases": [
+        "Je me sens… depuis…",
+        "J'ai énormément / trop / peu de…",
+        "Je suis épuisé(e) à cause de…",
+        "Je me sens soulagé(e) quand…",
+        "Autant de… que…"
+      ],
+      "modelAnswer": "Franchement, je me sens épuisée cette semaine. J'ai énormément de stress à cause du travail — trop de réunions et peu de temps pour me concentrer. J'ai aussi beaucoup de peur de ne pas finir mon projet à temps. Mais je me sens soulagée ce soir parce que j'en parle avec toi.",
+      "modelAnswerExplanation": "The model answer uses 'épuisée', multiple quantity expressions (énormément de, trop de, peu de, beaucoup de), 'avoir peur de' + infinitive, and 'se sentir soulagée' for the emotional arc.",
+      "tip": "Use 'à cause de' (because of) + noun or 'parce que' (because) + verb clause to explain reasons for your feelings."
+    }
+  }
+}
