@@ -1,14 +1,30 @@
 export type PartOfSpeech = 'verb' | 'noun' | 'adjective' | 'adverb' | 'expression'
 export type Gender = 'male' | 'female' | null
 
+export interface VerbForms {
+  je: string
+  tu: string
+  il: string // il / elle / on
+  nous: string
+  vous: string
+  ils: string // ils / elles
+}
+
+export interface GenderForms {
+  masculine: string
+  feminine: string
+  masculinePlural: string
+  femininePlural: string
+}
+
 export interface VocabWord {
   word: string
   partOfSpeech: PartOfSpeech
   gender: Gender
+  forms: VerbForms | GenderForms
   pronunciation: string
   meaning: string
   notes?: string
-  conjugation?: Record<string, string>
   examples: [string, string][]
   special: string
 }

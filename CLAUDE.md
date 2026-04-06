@@ -116,8 +116,8 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
   "phase": 1,
   "topic": "string",
   "vocab": {
-    "standard": [{ "word","partOfSpeech","gender","pronunciation","meaning","notes","conjugation","examples","special" }],
-    "advanced":  [{ "word","partOfSpeech","gender","pronunciation","meaning","notes","conjugation","examples","special" }]
+    "standard": [{ "word","partOfSpeech","gender","forms","pronunciation","meaning","notes","examples","special" }],
+    "advanced":  [{ "word","partOfSpeech","gender","forms","pronunciation","meaning","notes","examples","special" }]
   },
   "listen": {
     "standard": { "dialogue": [["A","text"],["B","text"]], "questions": [...], "summary": "string" },
@@ -142,8 +142,8 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
 
 ```ts
 { word: string, partOfSpeech: "verb"|"noun"|"adjective"|"adverb"|"expression",
-  gender: "male"|"female"|null, pronunciation: string, meaning: string, notes?: string,
-  conjugation?: Record<string,string>, examples: [string,string][], special: string }
+  gender: "male"|"female"|null, forms: VerbForms | GenderForms, pronunciation: string,
+  meaning: string, notes?: string, examples: [string,string][], special: string }
 ```
 
 ### Quiz question shape
@@ -412,3 +412,11 @@ curriculum files are added:
 - After Phase 14 (A2) and Phase 15 (B1) generation: same rule applies
 - Never regenerate from scratch — always append to preserve history
 Structure: { lastDay, grammarTitles: string[], vocabWords: string[] }
+
+## Vocab Word Forms — Phase R.1 update
+VocabWord.conjugation removed. Replaced by VocabWord.forms (required).
+forms shape depends on partOfSpeech:
+  verb        → VerbForms { je, tu, il, nous, vous, ils } — full phrases
+  noun/adj    → GenderForms { masculine, feminine, masculinePlural, femininePlural }
+                If no feminine form exists, repeat masculine in feminine fields
+  adverb/expr → GenderForms with all four fields set to the word itself

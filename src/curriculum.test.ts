@@ -66,23 +66,22 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
     assertNonEmptyString(word.notes, `${label}.notes`)
   }
 
-  // Conjugation: required for verbs, optional for others
+  // Forms: required on every word
+  expect(word.forms, `${label}.forms should exist`).toBeDefined()
+  expect(typeof word.forms, `${label}.forms should be an object`).toBe('object')
+  expect(word.forms, `${label}.forms should not be null`).not.toBeNull()
+  const forms = word.forms as Record<string, unknown>
+
   if (word.partOfSpeech === 'verb') {
-    if (word.conjugation !== undefined) {
-      expect(typeof word.conjugation, `${label}.conjugation should be an object`).toBe('object')
-      expect(word.conjugation, `${label}.conjugation should not be null`).not.toBeNull()
-      const conj = word.conjugation as Record<string, unknown>
-      expect(Object.keys(conj).length, `${label}.conjugation should have entries`).toBeGreaterThan(
-        0,
-      )
-      for (const [key, val] of Object.entries(conj)) {
-        assertNonEmptyString(val, `${label}.conjugation.${key}`)
-      }
+    for (const key of ['je', 'tu', 'il', 'nous', 'vous', 'ils']) {
+      assertNonEmptyString(forms[key], `${label}.forms.${key}`)
+    }
+  } else if (word.partOfSpeech === 'noun' || word.partOfSpeech === 'adjective') {
+    for (const key of ['masculine', 'feminine', 'masculinePlural', 'femininePlural']) {
+      assertNonEmptyString(forms[key], `${label}.forms.${key}`)
     }
   }
-  if (word.conjugation !== undefined && word.conjugation !== null) {
-    expect(typeof word.conjugation, `${label}.conjugation should be object`).toBe('object')
-  }
+  // adverb / expression: forms must exist but content is not strictly validated
 
   // Examples: non-empty array of [french, english] pairs
   assertNonEmptyArray(word.examples, `${label}.examples`)
