@@ -1,0 +1,499 @@
+{
+  "day": 39,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Asking for Directions",
+  "vocab": {
+    "standard": [
+      {
+        "word": "tout droit",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "too drwa",
+        "meaning": "straight ahead",
+        "notes": "Always used as a fixed expression. 'Allez tout droit' = Go straight ahead. 'Continuez tout droit' = Continue straight on. Never changes form. Often the first direction given when explaining a route in French.",
+        "examples": [
+          ["Allez tout droit jusqu'au carrefour.", "Go straight ahead until the crossroads."],
+          ["Continuez tout droit pendant cinq minutes.", "Continue straight ahead for five minutes."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "à gauche",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "ah gohsh",
+        "meaning": "on the left / to the left",
+        "notes": "'Tournez à gauche' = Turn left. 'À gauche du magasin' = To the left of the shop. In France, traffic drives on the right, so 'à gauche' is frequently used in directions. 'Sur votre gauche' = on your left (formal).",
+        "examples": [
+          ["Tournez à gauche au feu.", "Turn left at the traffic light."],
+          ["La pharmacie est à gauche.", "The pharmacy is on the left."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "à droite",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "ah drwat",
+        "meaning": "on the right / to the right",
+        "notes": "'Tournez à droite' = Turn right. 'À droite du pont' = To the right of the bridge. 'Sur votre droite' = on your right (formal). Also the political meaning: 'la droite' = the political right, but this is a separate usage.",
+        "examples": [
+          ["Prenez la première rue à droite.", "Take the first street on the right."],
+          ["La gare est à droite après le pont.", "The station is on the right after the bridge."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le plan",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh plon",
+        "meaning": "the map / the plan",
+        "notes": "'Un plan de la ville' = a city map. 'Avez-vous un plan ?' = Do you have a map? 'Le plan du métro' = the metro map. Also means a plan or layout: 'le plan de l'appartement' = the floor plan of the flat. Tourist offices in France often provide free printed maps.",
+        "examples": [
+          ["J'ai un plan de la ville.", "I have a city map."],
+          ["Je regarde le plan pour trouver la rue.", "I'm looking at the map to find the street."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la direction",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la dee-rek-syon",
+        "meaning": "the direction",
+        "notes": "'Dans quelle direction ?' = In which direction? 'Dans la bonne direction' = in the right direction. Also used on road signs: 'direction Paris' = towards Paris. 'Vous n'êtes pas dans la bonne direction' = You're not going the right way.",
+        "examples": [
+          ["Dans quelle direction est la gare ?", "In which direction is the station?"],
+          ["Vous allez dans la bonne direction.", "You are going in the right direction."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "tout droit",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "too drwa",
+        "meaning": "straight ahead",
+        "notes": "Always used as a fixed expression. 'Allez tout droit' = Go straight ahead. 'Continuez tout droit' = Continue straight on. Never changes form. Often the first direction given when explaining a route in French.",
+        "examples": [
+          ["Allez tout droit jusqu'au carrefour.", "Go straight ahead until the crossroads."],
+          ["Continuez tout droit pendant cinq minutes.", "Continue straight ahead for five minutes."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "à gauche",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "ah gohsh",
+        "meaning": "on the left / to the left",
+        "notes": "'Tournez à gauche' = Turn left. 'À gauche du magasin' = To the left of the shop. In France, traffic drives on the right, so 'à gauche' is frequently used in directions. 'Sur votre gauche' = on your left (formal).",
+        "examples": [
+          ["Tournez à gauche au feu.", "Turn left at the traffic light."],
+          ["La pharmacie est à gauche.", "The pharmacy is on the left."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "à droite",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "ah drwat",
+        "meaning": "on the right / to the right",
+        "notes": "'Tournez à droite' = Turn right. 'À droite du pont' = To the right of the bridge. 'Sur votre droite' = on your right (formal). Also the political meaning: 'la droite' = the political right, but this is a separate usage.",
+        "examples": [
+          ["Prenez la première rue à droite.", "Take the first street on the right."],
+          ["La gare est à droite après le pont.", "The station is on the right after the bridge."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le plan",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh plon",
+        "meaning": "the map / the plan",
+        "notes": "'Un plan de la ville' = a city map. 'Avez-vous un plan ?' = Do you have a map? 'Le plan du métro' = the metro map. Also means a plan or layout: 'le plan de l'appartement' = the floor plan of the flat. Tourist offices in France often provide free printed maps.",
+        "examples": [
+          ["J'ai un plan de la ville.", "I have a city map."],
+          ["Je regarde le plan pour trouver la rue.", "I'm looking at the map to find the street."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la direction",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la dee-rek-syon",
+        "meaning": "the direction",
+        "notes": "'Dans quelle direction ?' = In which direction? 'Dans la bonne direction' = in the right direction. Also used on road signs: 'direction Paris' = towards Paris. 'Vous n'êtes pas dans la bonne direction' = You're not going the right way.",
+        "examples": [
+          ["Dans quelle direction est la gare ?", "In which direction is the station?"],
+          ["Vous allez dans la bonne direction.", "You are going in the right direction."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "traverser",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "tra-vehr-say",
+        "meaning": "to cross",
+        "notes": "Regular -er verb. 'Traverser la rue' = to cross the street. 'Traverser le pont' = to cross the bridge. 'Traversez au passage piéton' = Cross at the pedestrian crossing. Essential vocabulary for giving directions in French.",
+        "conjugation": {
+          "je traverse": "I cross",
+          "tu traverses": "you cross",
+          "il/elle traverse": "he/she crosses",
+          "nous traversons": "we cross",
+          "vous traversez": "you cross",
+          "ils/elles traversent": "they cross"
+        },
+        "examples": [
+          ["Traversez le pont et tournez à gauche.", "Cross the bridge and turn left."],
+          ["Il faut traverser la place principale.", "You need to cross the main square."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "continuer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "kon-tee-noo-ay",
+        "meaning": "to continue / to carry on",
+        "notes": "Regular -er verb. 'Continuez tout droit' = Carry on straight ahead. 'Continuer jusqu'à' = to continue as far as. 'Continuer à + infinitive' = to keep doing something: 'Elle continue à marcher' = She keeps walking. Common in both directions and daily speech.",
+        "conjugation": {
+          "je continue": "I continue",
+          "tu continues": "you continue",
+          "il/elle continue": "he/she continues",
+          "nous continuons": "we continue",
+          "vous continuez": "you continue",
+          "ils/elles continuent": "they continue"
+        },
+        "examples": [
+          ["Continuez tout droit jusqu'à la pharmacie.", "Carry on straight ahead until the pharmacy."],
+          ["Il continue dans cette direction.", "He carries on in this direction."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Excusez-moi ! Je viens d'arriver en ville. Où est la gare ?"],
+        ["B", "Bienvenue ! La gare ? Allez tout droit jusqu'au carrefour."],
+        ["A", "Tout droit — d'accord. Et après ?"],
+        ["B", "Après, tournez à gauche. Vous voyez le pont ?"],
+        ["A", "Oui, je vois le pont."],
+        ["B", "Traversez le pont, puis la gare est à droite."],
+        ["A", "À droite après le pont. Merci ! C'est loin ?"],
+        ["B", "Non, dix minutes à pied. Vous allez dans la bonne direction !"]
+      ],
+      "questions": [
+        {
+          "question": "Why has speaker A just arrived?",
+          "options": ["They are lost", "They have just arrived in town", "They need a map"],
+          "correctAnswer": "They have just arrived in town"
+        },
+        {
+          "question": "Which direction do you turn at the crossroads?",
+          "options": ["Right", "Left", "Straight ahead"],
+          "correctAnswer": "Left"
+        },
+        {
+          "question": "Where is the station in relation to the bridge?",
+          "options": ["Before the bridge on the left", "On the right after the bridge", "On the left after the bridge"],
+          "correctAnswer": "On the right after the bridge"
+        }
+      ],
+      "summary": "Speaker A has just arrived in town and asks for directions to the train station. Speaker B explains: go straight ahead to the crossroads, turn left, cross the bridge, and the station is on the right. The walk takes about ten minutes on foot."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Pardon ! Je viens d'arriver de Lyon et je cherche la gare routière."],
+        ["B", "La gare routière — elle vient juste d'ouvrir une nouvelle entrée. Vous avez un plan ?"],
+        ["A", "Non, je n'en ai pas. Vous pouvez m'expliquer ?"],
+        ["B", "Bien sûr. Continuez tout droit jusqu'à la place de la Mairie."],
+        ["A", "Jusqu'à la place. Et après ?"],
+        ["B", "Traversez la place, puis prenez la deuxième rue à gauche. Attention — pas la première, la deuxième."],
+        ["A", "La deuxième à gauche. Et ensuite ?"],
+        ["B", "Ensuite, continuez dans cette direction — la gare routière est à droite, vous ne pouvez pas la rater."]
+      ],
+      "questions": [
+        {
+          "question": "Where has speaker A come from?",
+          "options": ["Paris", "Lyon", "Marseille", "Bordeaux"],
+          "correctAnswer": "Lyon"
+        },
+        {
+          "question": "What landmark should speaker A walk to first?",
+          "options": ["The bridge", "The town hall square", "The train station", "The pharmacy"],
+          "correctAnswer": "The town hall square"
+        },
+        {
+          "question": "Which turning should speaker A take?",
+          "options": ["The first left", "The second left", "The first right", "The second right"],
+          "correctAnswer": "The second left"
+        },
+        {
+          "question": "What does speaker B say about the bus station?",
+          "options": ["It has just moved", "It just opened a new entrance", "It is closed", "It is difficult to find"],
+          "correctAnswer": "It just opened a new entrance"
+        }
+      ],
+      "summary": "Speaker A has just arrived from Lyon and needs the bus station. Speaker B (who notes the station just opened a new entrance) explains: continue straight ahead to the town hall square, cross it, take the second left (not the first), and continue in that direction — the bus station will be on the right and impossible to miss."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Venir (Present Tense — Conjugation & Common Uses)",
+      "explanation": "**Venir** (to come) is an irregular verb. It is one of the most important verbs to know.\n\n**Present tense conjugation:**\n| Pronoun | Venir | Meaning |\n|---|---|---|\n| je | **viens** | I come |\n| tu | **viens** | you come |\n| il/elle | **vient** | he/she comes |\n| nous | **venons** | we come |\n| vous | **venez** | you come |\n| ils/elles | **viennent** | they come |\n\n**Common uses:**\n\n**1. To say where you come from:**\n- Je **viens** de France. (I come from France.)\n- Il **vient** de Paris. (He comes from Paris.)\n- Vous **venez** d'où ? (Where do you come from?)\n\n**2. To say you are arriving / coming:**\n- Je **viens** d'arriver. (I have just arrived.)\n- Elle **vient** avec nous. (She is coming with us.)\n\n**Note:** *Venir de + infinitive* = to have just done something (recent past):\n- Je **viens de** manger. (I have just eaten.)\n- Il **vient d'**arriver. (He has just arrived.)",
+      "examples": [
+        {
+          "french": "Je viens de Lyon.",
+          "english": "I come from Lyon."
+        },
+        {
+          "french": "Elle vient avec nous ce soir.",
+          "english": "She is coming with us tonight."
+        },
+        {
+          "french": "Je viens d'arriver — je ne connais pas encore la ville.",
+          "english": "I have just arrived — I don't know the city yet."
+        },
+        {
+          "french": "Vous venez d'où ?",
+          "english": "Where do you come from?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Je ___ de Paris. (I come from Paris.)",
+          "correctAnswer": "viens",
+          "explanation": "'Venir' = to come. Je viens — first person singular present tense."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'they come' (masculine) with venir?",
+          "options": ["ils vienent", "ils viennent", "ils venent"],
+          "correctAnswer": "ils viennent",
+          "explanation": "'Viennent' is the third-person plural form. Note the double 'n': ils/elles viennent."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il ___ d'arriver. (He has just arrived.)",
+          "correctAnswer": "vient",
+          "explanation": "'Venir de + infinitive' = to have just done something. Il vient de + arriver."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Vous venez d'où ?' mean?",
+          "options": ["Where are you going?", "Where do you come from?", "How do you get there?"],
+          "correctAnswer": "Where do you come from?",
+          "explanation": "'Venir de' + place = to come from. 'D'où' = from where."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Nous ___ ensemble. (We are coming together.)",
+          "correctAnswer": "venons",
+          "explanation": "'Venir' nous form = venons. Nous venons ensemble."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Venir — Present, Venir de + Infinitive (Recent Past) & Common Expressions",
+      "explanation": "**Present tense (irregular):**\n| Pronoun | Venir |\n|---|---|\n| je | **viens** |\n| tu | **viens** |\n| il/elle | **vient** |\n| nous | **venons** |\n| vous | **venez** |\n| ils/elles | **viennent** |\n\n**Note the pattern:** The singular and ils/elles forms have the stem *vien-/vienn-*, while nous and vous use *ven-*.\n\n---\n\n**Venir de + infinitive → Recent Past:**\nThis construction expresses something that has *just* happened:\n- *Je **viens de** manger.* = I have just eaten. (a few minutes ago)\n- *Il **vient d'**arriver.* = He has just arrived.\n- *Nous **venons de** finir.* = We have just finished.\n- *Ils **viennent de** partir.* = They have just left.\n\n**Important:** This is present tense in French, but translates as a past in English.\n\n---\n\n**Venir de + place → Origin:**\n- *Je **viens** de France.* = I come from France.\n- *Elle **vient** de Lyon.* = She is from Lyon.\n- *Ils **viennent** du Canada.* = They come from Canada.\n\n**Note:** *de + le = du*; *de + les = des*.\n\n---\n\n**Related verbs (same pattern):**\n| Verb | Meaning |\n|---|---|\n| **revenir** | to come back |\n| **devenir** | to become |\n| **se souvenir de** | to remember |\n| **tenir** | to hold (same endings) |\n\nExample: *Elle **revient** de Paris.* = She is coming back from Paris.",
+      "examples": [
+        {
+          "french": "Je viens d'arriver — je cherche la gare.",
+          "english": "I have just arrived — I'm looking for the station."
+        },
+        {
+          "french": "Ils viennent du Canada — ils ne connaissent pas encore Paris.",
+          "english": "They come from Canada — they don't know Paris yet."
+        },
+        {
+          "french": "Elle vient de traverser le pont.",
+          "english": "She has just crossed the bridge."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ils ___ de partir. (They have just left.)",
+          "correctAnswer": "viennent",
+          "explanation": "'Venir de + infinitive' for recent past. Ils/elles form = viennent."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which verb shares the same conjugation pattern as 'venir'?",
+          "options": ["finir", "aller", "tenir"],
+          "correctAnswer": "tenir",
+          "explanation": "'Tenir' (to hold) follows the exact same pattern as 'venir': je tiens, tu tiens, il tient, nous tenons, vous tenez, ils tiennent."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle ___ de Paris — elle connaît bien la ville. (She comes from Paris — she knows the city well.)",
+          "correctAnswer": "vient",
+          "explanation": "'Venir de + place' = to come from. Elle vient de Paris."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Nous venons de finir' mean?",
+          "options": ["We are finishing", "We have just finished", "We finished yesterday", "We will finish soon"],
+          "correctAnswer": "We have just finished",
+          "explanation": "'Venir de + infinitive' = to have just done something (recent past in the present)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ils ___ du Canada. (They come from Canada.)",
+          "correctAnswer": "viennent",
+          "explanation": "'De + le = du'. Ils viennent du Canada. (du = from the, contraction of de + le)"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'She is coming back from Paris'?",
+          "options": ["Elle vient de Paris.", "Elle revient de Paris.", "Elle devient de Paris.", "Elle vient à Paris."],
+          "correctAnswer": "Elle revient de Paris.",
+          "explanation": "'Revenir' = to come back. Elle revient de Paris (she is returning from Paris)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Je ___ de traverser le pont. (I have just crossed the bridge.)",
+          "correctAnswer": "viens",
+          "explanation": "'Venir de + infinitive' for recent past. Je viens de traverser le pont."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'devenir' mean?",
+          "options": ["To come back", "To become", "To remember", "To arrive"],
+          "correctAnswer": "To become",
+          "explanation": "'Devenir' = to become. It follows the same conjugation as venir: il devient, ils deviennent."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'tout droit' mean?",
+        "options": ["Turn right", "Straight ahead", "On the left"],
+        "correctAnswer": "Straight ahead",
+        "explanation": "'Tout droit' = straight ahead. 'Allez tout droit' = Go straight ahead.",
+        "targetWord": "tout droit"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Je ___ de Lyon. (I come from Lyon.)",
+        "correctAnswer": "viens",
+        "explanation": "'Venir' = to come. Je viens — first person singular.",
+        "targetWord": "la direction"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'Turn left at the traffic light'?",
+        "options": ["Tournez à droite au feu.", "Tournez à gauche au feu.", "Allez tout droit au feu."],
+        "correctAnswer": "Tournez à gauche au feu.",
+        "explanation": "'À gauche' = on the left. 'Tournez à gauche' = Turn left.",
+        "targetWord": "à gauche"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'Je viens d'arriver' mean?",
+        "options": ["I am arriving soon", "I have just arrived", "I arrived yesterday"],
+        "correctAnswer": "I have just arrived",
+        "explanation": "'Venir de + infinitive' = to have just done something (recent past).",
+        "targetWord": "le plan"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: La pharmacie est à ___. (The pharmacy is on the right.)",
+        "correctAnswer": "droite",
+        "explanation": "'À droite' = on the right. Always 'à droite' (with the preposition 'à').",
+        "targetWord": "à droite"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'traverser' mean?",
+        "options": ["To turn", "To cross", "To continue", "To arrive"],
+        "correctAnswer": "To cross",
+        "explanation": "'Traverser' = to cross. 'Traversez le pont' = Cross the bridge.",
+        "targetWord": "traverser"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Ils ___ de partir. (They have just left.)",
+        "correctAnswer": "viennent",
+        "explanation": "'Venir de + infinitive' for recent past. Ils/elles form = viennent.",
+        "targetWord": "la direction"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which verb follows the same pattern as 'venir'?",
+        "options": ["finir", "avoir", "tenir", "aller"],
+        "correctAnswer": "tenir",
+        "explanation": "'Tenir' follows the same conjugation pattern as 'venir': je tiens, ils tiennent.",
+        "targetWord": "tout droit"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'continuer jusqu'à' mean?",
+        "options": ["To turn as far as", "To continue as far as", "To cross as far as", "To stop at"],
+        "correctAnswer": "To continue as far as",
+        "explanation": "'Continuer jusqu'à' = to continue until / as far as. 'Continuez jusqu'à la pharmacie.'",
+        "targetWord": "continuer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Elle ___ de traverser le pont. (She has just crossed the bridge.)",
+        "correctAnswer": "vient",
+        "explanation": "'Venir de + infinitive' for recent past. Elle vient de traverser le pont.",
+        "targetWord": "traverser"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'She is coming back from Paris'?",
+        "options": ["Elle vient de Paris.", "Elle revient de Paris.", "Elle devient de Paris.", "Elle vient à Paris."],
+        "correctAnswer": "Elle revient de Paris.",
+        "explanation": "'Revenir' = to come back. It follows the same pattern as venir.",
+        "targetWord": "le plan"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "A visitor asks you for directions to the nearest pharmacy. Give clear step-by-step directions using direction words. Mention that you have just arrived in the area too, using 'venir de'.",
+      "keyPhrases": [
+        "Je viens d'arriver — mais… (I have just arrived — but…)",
+        "Allez tout droit jusqu'à… (Go straight ahead until…)",
+        "Tournez à gauche / à droite. (Turn left / right.)",
+        "La pharmacie est à droite / à gauche. (The pharmacy is on the right / left.)",
+        "Vous allez dans la bonne direction. (You're going in the right direction.)"
+      ],
+      "modelAnswer": "Bonjour ! La pharmacie ? Je viens d'arriver dans ce quartier, mais je crois que c'est par là. Allez tout droit jusqu'au carrefour. Tournez à droite — la pharmacie est à gauche, après le feu. Vous avez un plan ? Non ? C'est à cinq minutes. Vous allez dans la bonne direction, bonne chance !",
+      "modelAnswerExplanation": "The answer uses 'je viens d'arriver' for the recent past, gives step-by-step directions with tout droit, à droite, à gauche, references key landmarks, and checks if the visitor has a map.",
+      "tip": "String directions together with 'puis' (then) and 'ensuite' (next) to make your instructions clear and easy to follow."
+    },
+    "advanced": {
+      "scenario": "A tourist has just arrived from another city and asks you for directions to the bus station. Give detailed directions, use 'venir de' for both your own actions and theirs, include 'traverser' and 'continuer', and warn about any tricky turns.",
+      "keyPhrases": [
+        "Vous venez d'où ? / Je viens de… (Where do you come from? / I come from…)",
+        "Traversez la place / le pont. (Cross the square / the bridge.)",
+        "Continuez tout droit jusqu'à… (Continue straight ahead until…)",
+        "Prenez la deuxième rue à gauche — pas la première ! (Take the second left — not the first!)",
+        "Vous ne pouvez pas la rater. (You can't miss it.)"
+      ],
+      "modelAnswer": "Bienvenue ! Vous venez d'arriver ? La gare routière — d'accord. Continuez tout droit jusqu'à la place de la Mairie. Traversez la place, puis prenez la deuxième rue à gauche — attention, pas la première, la deuxième ! Continuez dans cette direction pendant deux minutes, et la gare routière est à droite. Vous ne pouvez pas la rater. Bon voyage !",
+      "modelAnswerExplanation": "The answer uses 'venez d'arriver' for recent past, includes 'traversez', 'continuez', and full direction instructions, emphasises a tricky turn (second not first), and ends naturally.",
+      "tip": ""
+    }
+  }
+}

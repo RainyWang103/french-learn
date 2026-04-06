@@ -1,0 +1,484 @@
+{
+  "day": 41,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "At Work",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le bureau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh boo-roh",
+        "meaning": "the office / the desk",
+        "notes": "'Aller au bureau' = to go to the office. 'Mon bureau' = my desk. 'Le bureau à domicile' = the home office. 'Un bureau ouvert' = an open-plan office. The same word means both the physical desk and the workplace (office). 'Travailler en bureau' = to work in an office.",
+        "examples": [
+          ["Je travaille dans un bureau au centre-ville.", "I work in an office in the city centre."],
+          ["Mon bureau est près de la fenêtre.", "My desk is near the window."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le collègue",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ko-leg",
+        "meaning": "the colleague",
+        "notes": "Feminine: 'la collègue'. 'Un bon collègue' = a good colleague. 'Mes collègues de travail' = my work colleagues. In French workplaces, colleagues often use 'tu' with each other but 'vous' with managers. 'Déjeuner avec des collègues' = to have lunch with colleagues.",
+        "examples": [
+          ["Mon collègue m'aide avec le projet.", "My colleague helps me with the project."],
+          ["Je mange avec mes collègues à midi.", "I eat with my colleagues at noon."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'ordinateur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lor-dee-na-tuhr",
+        "meaning": "the computer",
+        "notes": "'Un ordinateur portable' = a laptop. 'Allumer l'ordinateur' = to turn on the computer. 'Éteindre l'ordinateur' = to turn off the computer. The word was coined in French in 1955 — most other languages borrowed 'computer' from English, but French created their own word.",
+        "examples": [
+          ["Je travaille sur mon ordinateur toute la journée.", "I work on my computer all day."],
+          ["L'ordinateur est en panne.", "The computer is broken."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la réunion",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ray-oo-nyon",
+        "meaning": "the meeting",
+        "notes": "'Avoir une réunion' = to have a meeting. 'La réunion commence à neuf heures' = the meeting starts at 9. 'Une réunion en ligne' = an online meeting. France has a reputation for long meetings ('réunionite' — meeting sickness — is a French word for having too many meetings).",
+        "examples": [
+          ["J'ai une réunion à dix heures.", "I have a meeting at ten o'clock."],
+          ["La réunion dure deux heures.", "The meeting lasts two hours."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le travail",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tra-vye",
+        "meaning": "the work / the job",
+        "notes": "'Aller au travail' = to go to work. 'Chercher un travail' = to look for a job. 'Le travail est terminé' = the work is done. Plural: 'les travaux' = works / roadworks. 'Bon travail !' = Good work! 'Travail à temps plein' = full-time work. 'À mi-temps' = part-time.",
+        "examples": [
+          ["J'aime mon travail.", "I like my job."],
+          ["Le travail commence à huit heures et demie.", "Work starts at 8:30."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le bureau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh boo-roh",
+        "meaning": "the office / the desk",
+        "notes": "'Aller au bureau' = to go to the office. 'Mon bureau' = my desk. 'Le bureau à domicile' = the home office. 'Un bureau ouvert' = an open-plan office. The same word means both the physical desk and the workplace (office). 'Travailler en bureau' = to work in an office.",
+        "examples": [
+          ["Je travaille dans un bureau au centre-ville.", "I work in an office in the city centre."],
+          ["Mon bureau est près de la fenêtre.", "My desk is near the window."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le collègue",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ko-leg",
+        "meaning": "the colleague",
+        "notes": "Feminine: 'la collègue'. 'Un bon collègue' = a good colleague. 'Mes collègues de travail' = my work colleagues. In French workplaces, colleagues often use 'tu' with each other but 'vous' with managers. 'Déjeuner avec des collègues' = to have lunch with colleagues.",
+        "examples": [
+          ["Mon collègue m'aide avec le projet.", "My colleague helps me with the project."],
+          ["Je mange avec mes collègues à midi.", "I eat with my colleagues at noon."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'ordinateur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lor-dee-na-tuhr",
+        "meaning": "the computer",
+        "notes": "'Un ordinateur portable' = a laptop. 'Allumer l'ordinateur' = to turn on the computer. 'Éteindre l'ordinateur' = to turn off the computer. The word was coined in French in 1955 — most other languages borrowed 'computer' from English, but French created their own word.",
+        "examples": [
+          ["Je travaille sur mon ordinateur toute la journée.", "I work on my computer all day."],
+          ["L'ordinateur est en panne.", "The computer is broken."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la réunion",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ray-oo-nyon",
+        "meaning": "the meeting",
+        "notes": "'Avoir une réunion' = to have a meeting. 'La réunion commence à neuf heures' = the meeting starts at 9. 'Une réunion en ligne' = an online meeting. France has a reputation for long meetings ('réunionite' — meeting sickness — is a French word for having too many meetings).",
+        "examples": [
+          ["J'ai une réunion à dix heures.", "I have a meeting at ten o'clock."],
+          ["La réunion dure deux heures.", "The meeting lasts two hours."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le travail",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tra-vye",
+        "meaning": "the work / the job",
+        "notes": "'Aller au travail' = to go to work. 'Chercher un travail' = to look for a job. 'Le travail est terminé' = the work is done. Plural: 'les travaux' = works / roadworks. 'Bon travail !' = Good work! 'Travail à temps plein' = full-time work. 'À mi-temps' = part-time.",
+        "examples": [
+          ["J'aime mon travail.", "I like my job."],
+          ["Le travail commence à huit heures et demie.", "Work starts at 8:30."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le patron",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pa-tron",
+        "meaning": "the boss / the owner",
+        "notes": "Feminine: 'la patronne'. 'Mon patron est strict' = My boss is strict. Informal but very common; the formal equivalent is 'le directeur' / 'la directrice' (director) or 'le responsable'. 'Patron' can also mean 'saint patron' (patron saint). 'Le patron du café' = the café owner.",
+        "examples": [
+          ["Je parle à mon patron de la réunion.", "I'm talking to my boss about the meeting."],
+          ["La patronne donne les instructions à l'équipe.", "The boss gives instructions to the team."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'emploi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lom-plwa",
+        "meaning": "the job / the employment",
+        "notes": "'Chercher un emploi' = to look for a job. 'L'emploi du temps' = the timetable / schedule. 'Le marché de l'emploi' = the job market. More formal than 'le travail'. 'Un emploi à plein temps' = a full-time job. 'Un emploi précaire' = precarious employment.",
+        "examples": [
+          ["Il cherche un emploi dans le marketing.", "He is looking for a job in marketing."],
+          ["Mon emploi du temps est chargé cette semaine.", "My schedule is busy this week."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bienvenue ! C'est ton premier jour. Je te montre le bureau."],
+        ["B", "Merci ! Et pour la réunion de ce matin — qu'est-ce que je dois apporter ?"],
+        ["A", "Apporte ton ordinateur. Je lui donne le dossier avant la réunion."],
+        ["B", "Et les autres collègues — je leur envoie un email ?"],
+        ["A", "Oui, tu leur envoies un message pour confirmer l'heure."],
+        ["B", "D'accord. Et le patron — je lui parle maintenant ?"],
+        ["A", "Non, je lui parle d'abord. Il est dans son bureau."],
+        ["B", "Parfait. Merci pour ton aide !"]
+      ],
+      "questions": [
+        {
+          "question": "What is speaker B's situation?",
+          "options": ["It is their last day", "It is their first day", "They are visiting"],
+          "correctAnswer": "It is their first day"
+        },
+        {
+          "question": "What should speaker B bring to the meeting?",
+          "options": ["A document", "Their computer", "A notebook"],
+          "correctAnswer": "Their computer"
+        },
+        {
+          "question": "What does speaker A give to the boss?",
+          "options": ["An email", "The file", "The schedule"],
+          "correctAnswer": "The file"
+        }
+      ],
+      "summary": "Speaker A is showing speaker B around on their first day at work. For the morning meeting, B should bring their computer. A will give the boss the file before the meeting. B should email the other colleagues to confirm the time. A will speak to the boss first before B does."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonjour et bienvenue dans l'équipe ! Je t'explique le fonctionnement."],
+        ["B", "Merci ! Pour la réunion de cet après-midi — je lui envoie le rapport au patron avant ?"],
+        ["A", "Oui, envoie-lui le rapport avant midi. Et les collègues — tu leur envoies l'ordre du jour aussi."],
+        ["B", "D'accord. Et si j'ai des questions sur l'ordinateur ?"],
+        ["A", "Tu demandes à Marie — je lui ai déjà expliqué ton emploi du temps."],
+        ["B", "Super. Et le patron — il aime qu'on lui parle directement ou par email ?"],
+        ["A", "Il préfère qu'on lui envoie un message d'abord. Il répond toujours."],
+        ["B", "Noté ! Je lui envoie un message maintenant pour me présenter."]
+      ],
+      "questions": [
+        {
+          "question": "What should speaker B send to the boss before noon?",
+          "options": ["The agenda", "The report", "The schedule", "An introduction email"],
+          "correctAnswer": "The report"
+        },
+        {
+          "question": "What should speaker B send to the colleagues?",
+          "options": ["The report", "The file", "The agenda", "An introduction"],
+          "correctAnswer": "The agenda"
+        },
+        {
+          "question": "Who has speaker A already told about B's schedule?",
+          "options": ["The boss", "The whole team", "Marie", "Nobody yet"],
+          "correctAnswer": "Marie"
+        },
+        {
+          "question": "How does the boss prefer to be contacted?",
+          "options": ["By phone", "In person directly", "By email/message first", "Through the assistant"],
+          "correctAnswer": "By email/message first"
+        }
+      ],
+      "summary": "Speaker A welcomes B to the team and explains procedures. B should send the boss the report before noon and send the colleagues the agenda. A has already explained B's schedule to Marie (the IT/admin contact). The boss prefers to be messaged first rather than approached directly — and always replies. B decides to message the boss immediately to introduce themselves."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Indirect Object Pronouns (lui, leur)",
+      "explanation": "Indirect object pronouns replace a noun that follows **à** and refers to a person — they answer 'to whom?' or 'for whom?'.\n\n**The two pronouns:**\n| French | Meaning |\n|---|---|\n| **lui** | to him / to her |\n| **leur** | to them |\n\n**Position:** Before the verb (like direct object pronouns).\n\n**Common verbs that use indirect objects (with à):**\n- **parler à** (to speak to): *Je lui parle.* (I speak to him/her.)\n- **donner à** (to give to): *Je lui donne le dossier.* (I give him/her the file.)\n- **envoyer à** (to send to): *Tu leur envoies l'email.* (You send them the email.)\n- **dire à** (to say to): *Il lui dit bonjour.* (He says hello to him/her.)\n- **téléphoner à** (to phone): *Je lui téléphone.* (I phone him/her.)\n\n**Examples:**\n- Je parle **au patron**. → Je **lui** parle. (I speak to the boss.)\n- Elle envoie un email **aux collègues**. → Elle **leur** envoie un email. (She sends them an email.)\n\n**Note:** *Lui* = to him OR to her (no gender distinction!)",
+      "examples": [
+        {
+          "french": "Je lui donne le dossier.",
+          "english": "I give him/her the file."
+        },
+        {
+          "french": "Tu leur envoies l'email.",
+          "english": "You send them the email."
+        },
+        {
+          "french": "Il lui parle avant la réunion.",
+          "english": "He speaks to him/her before the meeting."
+        },
+        {
+          "french": "Nous leur disons bonjour.",
+          "english": "We say hello to them."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Replace 'au patron': Je parle au patron. → Je ___ parle.",
+          "options": ["le", "lui", "leur"],
+          "correctAnswer": "lui",
+          "explanation": "'Au patron' = to the boss (singular). Use 'lui' for 'to him'. Je lui parle."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Replace 'aux collègues': Tu envoies un email aux collègues. → Tu ___ envoies un email.",
+          "correctAnswer": "leur",
+          "explanation": "'Aux collègues' = to the colleagues (plural). Use 'leur' for 'to them'. Tu leur envoies."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Je lui téléphone' mean?",
+          "options": ["I call them", "I call him/her", "I call you"],
+          "correctAnswer": "I call him/her",
+          "explanation": "'Lui' = to him / to her (both genders). Je lui téléphone = I phone him or her."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Elle ___ dit bonjour. (She says hello to them.)",
+          "correctAnswer": "leur",
+          "explanation": "'Their' = à eux/elles (plural). 'Leur' replaces 'à + plural person'. Elle leur dit bonjour."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Where does 'lui' / 'leur' go in the sentence?",
+          "options": ["After the verb", "Before the verb", "At the end of the sentence"],
+          "correctAnswer": "Before the verb",
+          "explanation": "Like all object pronouns, lui and leur go directly before the verb: Je lui donne (NOT Je donne lui)."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Indirect Object Pronouns — lui, leur with All Tenses & Common Verbs",
+      "explanation": "**Indirect object pronouns replace 'à + person':**\n| Person | Indirect pronoun |\n|---|---|\n| à moi | me (m' before vowel) |\n| à toi | te (t' before vowel) |\n| à lui / à elle | **lui** |\n| à nous | nous |\n| à vous | vous |\n| à eux / à elles | **leur** |\n\n**Position rules:**\n| Tense | Example |\n|---|---|\n| Present | Je **lui** parle. |\n| Passé composé | Je **lui** ai parlé. |\n| Near future | Je vais **lui** parler. |\n| Imperative (affirmative) | Parle-**lui** ! / Envoyez-**leur** ! |\n| Imperative (negative) | Ne **lui** parle pas ! |\n\n**Common verbs with indirect objects:**\n- *parler à, donner à, dire à, envoyer à, téléphoner à*\n- *écrire à, répondre à, demander à, montrer à, expliquer à*\n- *plaire à* (to please): *Ça lui plaît.* (He/she likes it.)\n- *manquer à* (to miss): *Tu me manques.* (I miss you — literally 'you are missing to me')\n\n**Direct vs Indirect Object Pronouns:**\n| Direct (le/la/les) | Indirect (lui/leur) |\n|---|---|\n| Je **le** vois. (I see him.) | Je **lui** parle. (I speak to him.) |\n| Je **les** attends. (I wait for them.) | Je **leur** envoie. (I send to them.) |\n\n**Key distinction:** Verbs like 'voir, aimer, appeler' take direct objects; 'parler, donner, envoyer' take indirect objects.",
+      "examples": [
+        {
+          "french": "Je lui ai envoyé le rapport avant midi.",
+          "english": "I sent him/her the report before noon."
+        },
+        {
+          "french": "Je vais leur expliquer le projet.",
+          "english": "I am going to explain the project to them."
+        },
+        {
+          "french": "Envoie-lui le dossier maintenant !",
+          "english": "Send him/her the file now!"
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Replace 'à la patronne': Je vais parler à la patronne. → Je vais ___ parler.",
+          "correctAnswer": "lui",
+          "explanation": "'À la patronne' = to the boss (singular, feminine). Use 'lui' (no gender distinction). Je vais lui parler."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct for 'I sent them the email' (passé composé)?",
+          "options": ["Je leur ai envoyé l'email.", "Je les ai envoyé l'email.", "Je leur envoyé l'email.", "J'ai envoyé leur l'email."],
+          "correctAnswer": "Je leur ai envoyé l'email.",
+          "explanation": "Passé composé: indirect object pronoun goes before the auxiliary (avoir). Je leur ai envoyé."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Envoie-___ le rapport ! (Send him/her the report! — imperative)",
+          "correctAnswer": "lui",
+          "explanation": "Affirmative imperative: verb + hyphen + pronoun. Envoie-lui le rapport !"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which verb takes a direct object (le/la/les), NOT an indirect one?",
+          "options": ["parler à", "voir", "envoyer à", "donner à"],
+          "correctAnswer": "voir",
+          "explanation": "'Voir' (to see) takes a direct object: Je le vois. 'Parler à, envoyer à, donner à' take indirect objects: Je lui parle."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Ne ___ envoie pas l'email ! (Don't send them the email! — imperative negative)",
+          "correctAnswer": "leur",
+          "explanation": "Negative imperative: ne + pronoun + verb + pas. Ne leur envoie pas l'email !"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Ça lui plaît' mean?",
+          "options": ["He/she pleases it", "It pleases him/her / He/she likes it", "They like it", "It is pleasing"],
+          "correctAnswer": "It pleases him/her / He/she likes it",
+          "explanation": "'Plaire à' = to be pleasing to. Ça lui plaît = it pleases him/her = he/she likes it."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Je ___ ai expliqué l'emploi du temps. (I explained the schedule to him/her.)",
+          "correctAnswer": "lui",
+          "explanation": "Passé composé with indirect pronoun before auxiliary: Je lui ai expliqué."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the difference between 'Je le vois' and 'Je lui parle'?",
+          "options": ["There is no difference", "'Le' is direct object; 'lui' is indirect object (replaces à + person)", "'Lui' is masculine only; 'le' is for all genders", "'Le' is for things; 'lui' is only for people"],
+          "correctAnswer": "'Le' is direct object; 'lui' is indirect object (replaces à + person)",
+          "explanation": "Direct pronoun (le) replaces a direct object; indirect pronoun (lui) replaces 'à + person'."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la réunion' mean?",
+        "options": ["The reunion party", "The meeting", "The office"],
+        "correctAnswer": "The meeting",
+        "explanation": "'La réunion' = the meeting. 'J'ai une réunion à dix heures' = I have a meeting at 10.",
+        "targetWord": "la réunion"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Replace 'au patron': Je parle au patron. → Je ___ parle.",
+        "correctAnswer": "lui",
+        "explanation": "'Au patron' = to the boss (singular). 'Lui' replaces 'à + singular person'. Je lui parle.",
+        "targetWord": "le bureau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'l'ordinateur' mean?",
+        "options": ["The printer", "The computer", "The telephone"],
+        "correctAnswer": "The computer",
+        "explanation": "'L'ordinateur' = the computer. A uniquely French word coined in 1955.",
+        "targetWord": "l'ordinateur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Replace 'aux collègues': Tu envoies un email aux collègues. → Tu ___ envoies un email.",
+        "correctAnswer": "leur",
+        "explanation": "'Aux collègues' = to the colleagues (plural). 'Leur' replaces 'à + plural people'.",
+        "targetWord": "le collègue"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le travail' mean?",
+        "options": ["The travel", "The job/work", "The office"],
+        "correctAnswer": "The job/work",
+        "explanation": "'Le travail' = work/job. 'J'aime mon travail' = I like my job. Not to confuse with 'le voyage' (travel).",
+        "targetWord": "le travail"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'l'emploi du temps' mean?",
+        "options": ["The employment market", "The timetable/schedule", "The working hours", "The job title"],
+        "correctAnswer": "The timetable/schedule",
+        "explanation": "'L'emploi du temps' = timetable/schedule. 'Mon emploi du temps est chargé' = My schedule is busy.",
+        "targetWord": "l'emploi"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Envoie-___ le rapport ! (Send him/her the report! — imperative)",
+        "correctAnswer": "lui",
+        "explanation": "Affirmative imperative with indirect pronoun: verb + hyphen + lui. Envoie-lui !",
+        "targetWord": "le bureau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which is correct for 'I sent them the email' (passé composé)?",
+        "options": ["Je leur ai envoyé l'email.", "Je les ai envoyé l'email.", "J'ai envoyé leur l'email.", "Je leur envoyé l'email."],
+        "correctAnswer": "Je leur ai envoyé l'email.",
+        "explanation": "Passé composé: indirect pronoun goes before the auxiliary avoir. Je leur ai envoyé.",
+        "targetWord": "le collègue"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le patron' mean?",
+        "options": ["The pattern", "The patron saint", "The boss/owner", "The client"],
+        "correctAnswer": "The boss/owner",
+        "explanation": "'Le patron' = the boss or owner (informal). Formal equivalent: 'le directeur'.",
+        "targetWord": "le patron"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Ne ___ parle pas maintenant ! (Don't speak to him/her now! — imperative)",
+        "correctAnswer": "lui",
+        "explanation": "Negative imperative: ne + pronoun + verb + pas. Ne lui parle pas !",
+        "targetWord": "la réunion"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'Ça lui plaît' mean?",
+        "options": ["He/she is pleasing", "He/she likes it", "They like it", "It is pleasant"],
+        "correctAnswer": "He/she likes it",
+        "explanation": "'Plaire à' = to be pleasing to. Ça lui plaît = it pleases him/her = he/she likes it.",
+        "targetWord": "le travail"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe your typical workday to a new colleague. Explain who you report to, mention the meetings you attend, and use indirect object pronouns (lui, leur) to describe how you communicate with your boss and colleagues.",
+      "keyPhrases": [
+        "Je travaille dans un bureau… (I work in an office…)",
+        "J'ai une réunion à… (I have a meeting at…)",
+        "Je lui parle chaque matin. (I speak to him/her every morning.)",
+        "Je leur envoie un email. (I send them an email.)",
+        "Mon collègue m'aide avec… (My colleague helps me with…)"
+      ],
+      "modelAnswer": "Je travaille dans un bureau au centre-ville. Ma journée commence à neuf heures. J'ai une réunion chaque matin — je leur envoie l'ordre du jour avant. Mon patron est très sympa — je lui parle tous les matins. Mes collègues sont sympas aussi — je déjeune avec eux. L'après-midi, je travaille sur mon ordinateur. J'aime mon travail !",
+      "modelAnswerExplanation": "The answer describes a typical workday, uses 'leur' (to send colleagues the agenda), 'lui' (to speak to the boss), includes meeting vocabulary and closes with a positive comment about the job.",
+      "tip": "Remember: 'lui' replaces 'à + one person', 'leur' replaces 'à + several people'. Always place these before the verb."
+    },
+    "advanced": {
+      "scenario": "You are explaining your work life to a French contact. Describe your office, your boss, and your schedule. Use 'lui' and 'leur' in multiple tenses (present, passé composé, near future), and include 'l'emploi' and 'le patron'.",
+      "keyPhrases": [
+        "Mon emploi du temps est… (My schedule is…)",
+        "Je lui ai envoyé le rapport ce matin. (I sent him/her the report this morning.)",
+        "Je vais leur expliquer le projet demain. (I'm going to explain the project to them tomorrow.)",
+        "Envoie-lui un message d'abord. (Send him/her a message first.)",
+        "Le patron préfère qu'on lui écrive. (The boss prefers that you write to him.)"
+      ],
+      "modelAnswer": "Mon emploi du temps est très chargé cette semaine. Ce matin, j'ai une réunion avec mon patron — je lui ai déjà envoyé le rapport hier soir. Mes collègues ne connaissent pas encore le projet — je vais leur expliquer demain. Mon patron préfère les emails — il dit toujours : 'Envoyez-moi un message d'abord !' Moi, j'aime bien mon travail même si les réunions sont longues. Je leur envoie souvent des emails pour tout coordonner.",
+      "modelAnswerExplanation": "The answer uses 'lui' in passé composé (lui ai envoyé), 'leur' in near future (vais leur expliquer), affirmative imperative (envoyez-moi), and present tense — demonstrating all key tense positions.",
+      "tip": ""
+    }
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "day": 37,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Shopping for Clothes",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la taille",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tie-yuh",
+        "meaning": "the size (clothing) / the waist",
+        "notes": "'Quelle est votre taille ?' = What is your size? Clothing sizes in France use European sizing (e.g. 38, 40, 42). Also means 'waist': 'tour de taille' = waist measurement.",
+        "examples": [
+          ["Je fais quelle taille ?", "What size am I?"],
+          ["Vous avez cette robe en taille 40 ?", "Do you have this dress in size 40?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la jupe",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la zhoop",
+        "meaning": "the skirt",
+        "notes": "'Une jupe longue' = a long skirt. 'Une jupe courte' = a short skirt. 'Une mini-jupe' = a mini-skirt. Often paired with 'un chemisier' (a blouse) or 'un pull' (a jumper).",
+        "examples": [
+          ["Elle porte une belle jupe bleue.", "She is wearing a beautiful blue skirt."],
+          ["Je cherche une jupe noire.", "I am looking for a black skirt."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "essayer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "eh-say-yay",
+        "meaning": "to try on / to try",
+        "notes": "Regular -er verb. 'Essayer' can mean to try something on (clothes) or to try/attempt something. 'Est-ce que je peux l'essayer ?' = Can I try it on? 'Essayer de + infinitive' = to try to do something.",
+        "conjugation": {
+          "j'essaie": "I try on",
+          "tu essaies": "you try on",
+          "il/elle essaie": "he/she tries on",
+          "nous essayons": "we try on",
+          "vous essayez": "you try on",
+          "ils/elles essaient": "they try on"
+        },
+        "examples": [
+          ["Je peux essayer ce manteau ?", "Can I try on this coat?"],
+          ["Elle essaie la robe dans la cabine.", "She is trying on the dress in the fitting room."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la vitrine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la vee-treen",
+        "meaning": "the shop window / the display window",
+        "notes": "'Faire du lèche-vitrine' = to go window shopping (literally 'to lick the windows'). 'En vitrine' = in the window display. 'La vitrine est belle' = the window display is beautiful.",
+        "examples": [
+          ["J'ai vu cette robe en vitrine.", "I saw this dress in the shop window."],
+          ["Nous faisons du lèche-vitrine.", "We are window shopping."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la cabine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ka-been",
+        "meaning": "the fitting room / the cabin / the booth",
+        "notes": "'La cabine d'essayage' = the fitting room (full name). 'Les cabines sont à gauche' = the fitting rooms are on the left. Also used for 'cabine de plage' (beach hut) or 'cabine téléphonique' (phone booth).",
+        "examples": [
+          ["Où sont les cabines d'essayage ?", "Where are the fitting rooms?"],
+          ["Il y a trois cabines disponibles.", "There are three fitting rooms available."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la taille",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la tie-yuh",
+        "meaning": "the size (clothing) / the waist",
+        "notes": "'Quelle est votre taille ?' = What is your size? Clothing sizes in France use European sizing (e.g. 38, 40, 42). Also means 'waist': 'tour de taille' = waist measurement.",
+        "examples": [
+          ["Je fais quelle taille ?", "What size am I?"],
+          ["Vous avez cette robe en taille 40 ?", "Do you have this dress in size 40?"]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la jupe",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la zhoop",
+        "meaning": "the skirt",
+        "notes": "'Une jupe longue' = a long skirt. 'Une jupe courte' = a short skirt. 'Une mini-jupe' = a mini-skirt. Often paired with 'un chemisier' (a blouse) or 'un pull' (a jumper).",
+        "examples": [
+          ["Elle porte une belle jupe bleue.", "She is wearing a beautiful blue skirt."],
+          ["Je cherche une jupe noire.", "I am looking for a black skirt."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "essayer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "eh-say-yay",
+        "meaning": "to try on / to try",
+        "notes": "Regular -er verb. 'Essayer' can mean to try something on (clothes) or to try/attempt something. 'Est-ce que je peux l'essayer ?' = Can I try it on? 'Essayer de + infinitive' = to try to do something.",
+        "conjugation": {
+          "j'essaie": "I try on",
+          "tu essaies": "you try on",
+          "il/elle essaie": "he/she tries on",
+          "nous essayons": "we try on",
+          "vous essayez": "you try on",
+          "ils/elles essaient": "they try on"
+        },
+        "examples": [
+          ["Je peux essayer ce manteau ?", "Can I try on this coat?"],
+          ["Elle essaie la robe dans la cabine.", "She is trying on the dress in the fitting room."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la vitrine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la vee-treen",
+        "meaning": "the shop window / the display window",
+        "notes": "'Faire du lèche-vitrine' = to go window shopping (literally 'to lick the windows'). 'En vitrine' = in the window display. 'La vitrine est belle' = the window display is beautiful.",
+        "examples": [
+          ["J'ai vu cette robe en vitrine.", "I saw this dress in the shop window."],
+          ["Nous faisons du lèche-vitrine.", "We are window shopping."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la cabine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la ka-been",
+        "meaning": "the fitting room / the cabin / the booth",
+        "notes": "'La cabine d'essayage' = the fitting room (full name). 'Les cabines sont à gauche' = the fitting rooms are on the left. Also used for 'cabine de plage' (beach hut) or 'cabine téléphonique' (phone booth).",
+        "examples": [
+          ["Où sont les cabines d'essayage ?", "Where are the fitting rooms?"],
+          ["Il y a trois cabines disponibles.", "There are three fitting rooms available."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'écharpe",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "leh-sharp",
+        "meaning": "the scarf",
+        "notes": "'Porter une écharpe' = to wear a scarf. 'Une écharpe en laine' = a woollen scarf. Distinct from 'le foulard' (a lighter, decorative scarf). Common winter accessory in France.",
+        "examples": [
+          ["Il fait froid — je mets mon écharpe.", "It's cold — I'm putting on my scarf."],
+          ["Elle a une belle écharpe rouge.", "She has a beautiful red scarf."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la ceinture",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la san-toor",
+        "meaning": "the belt",
+        "notes": "'Une ceinture en cuir' = a leather belt. 'Serrer la ceinture' = to tighten one's belt (idiom for living frugally). 'Ceinture de sécurité' = seatbelt. Used as an accessory with trousers or a skirt.",
+        "examples": [
+          ["Cette jupe est trop grande — j'ai besoin d'une ceinture.", "This skirt is too big — I need a belt."],
+          ["La ceinture est en cuir marron.", "The belt is in brown leather."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour ! Je cherche une jupe — j'en ai vu une en vitrine."],
+        ["B", "Bien sûr ! Quelle taille faites-vous ?"],
+        ["A", "Je fais du 38. Est-ce que je peux l'essayer ?"],
+        ["B", "Bien sûr. Les cabines sont à droite. Le magasin ferme à dix-huit heures."],
+        ["A", "À dix-huit heures ? Il est quelle heure maintenant ?"],
+        ["B", "Il est seize heures et demie. Vous avez le temps !"],
+        ["A", "Super. La jupe est aussi en noir ?"],
+        ["B", "Oui, nous l'avons en noir et en gris."]
+      ],
+      "questions": [
+        {
+          "question": "What is the customer looking for?",
+          "options": ["A dress", "A skirt", "A coat"],
+          "correctAnswer": "A skirt"
+        },
+        {
+          "question": "What time does the store close?",
+          "options": ["At 17:00", "At 18:00", "At 18:30"],
+          "correctAnswer": "At 18:00"
+        },
+        {
+          "question": "What is the current time?",
+          "options": ["16:00", "16:30", "17:00"],
+          "correctAnswer": "16:30"
+        }
+      ],
+      "summary": "A customer enters a clothing shop looking for a skirt she saw in the window display. The assistant asks for her size (38) and directs her to the fitting rooms on the right. The store closes at 18:00 and the current time is 16:30, so the customer has plenty of time. The skirt is also available in black and grey."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonjour ! J'ai vu cette écharpe en vitrine. Elle est en laine ?"],
+        ["B", "Oui, c'est une écharpe en laine mélangée. Nous l'avons aussi en cachemire."],
+        ["A", "Et la jupe à côté — elle est en quelle taille ?"],
+        ["B", "Elle va du 36 au 44. Quelle est votre taille ?"],
+        ["A", "Je fais du 40. Je peux essayer la jupe et l'écharpe ?"],
+        ["B", "Bien sûr ! Les cabines sont au fond à gauche. Mais attention — nous fermons à dix-sept heures et quart aujourd'hui."],
+        ["A", "Il est déjà seize heures moins le quart ! Je me dépêche."],
+        ["B", "Prenez votre temps. Nous ouvrons demain à neuf heures et demie si vous voulez revenir."]
+      ],
+      "questions": [
+        {
+          "question": "What material is the scarf made of?",
+          "options": ["Pure cashmere", "Blended wool", "Silk", "Cotton"],
+          "correctAnswer": "Blended wool"
+        },
+        {
+          "question": "What time does the shop close today?",
+          "options": ["17:00", "17:15", "17:30", "18:00"],
+          "correctAnswer": "17:15"
+        },
+        {
+          "question": "What time is it during the conversation?",
+          "options": ["15:45", "16:00", "15:30", "16:15"],
+          "correctAnswer": "15:45"
+        },
+        {
+          "question": "What time does the shop open the next day?",
+          "options": ["9:00", "9:15", "9:30", "10:00"],
+          "correctAnswer": "9:30"
+        }
+      ],
+      "summary": "A customer enquires about a scarf in the window (blended wool, also available in cashmere) and a skirt (sizes 36–44). The assistant offers fitting rooms at the back left but notes the shop closes at 17:15 today. It is currently 15:45, so the customer hurries. The assistant says the shop opens at 9:30 the next day if the customer wants to come back."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Telling Time (il est + heure, et demie, et quart, moins le quart)",
+      "explanation": "In French, use **il est** to tell the time.\n\n**Basic structure:** Il est + [number] + heure(s)\n\n**Key words:**\n- **heure** = o'clock (singular for 1 h, plural otherwise)\n- **et demie** = half past (+ 30 minutes)\n- **et quart** = quarter past (+ 15 minutes)\n- **moins le quart** = quarter to (– 15 minutes)\n- **midi** = noon / **minuit** = midnight\n\n**Examples:**\n| French | English |\n|---|---|\n| Il est sept heures. | It is 7:00. |\n| Il est sept heures et quart. | It is 7:15. |\n| Il est sept heures et demie. | It is 7:30. |\n| Il est huit heures moins le quart. | It is 7:45. |\n| Il est midi. | It is noon. |\n\n**Asking the time:**\n- **Il est quelle heure ?** = What time is it? (informal)\n- **Quelle heure est-il ?** = What time is it? (formal)\n\n**Note:** In everyday speech, French people use the 12-hour clock. Official times (transport, shops) use the 24-hour clock: *dix-huit heures* = 18:00.",
+      "examples": [
+        {
+          "french": "Il est neuf heures et demie.",
+          "english": "It is 9:30."
+        },
+        {
+          "french": "Il est midi et quart.",
+          "english": "It is 12:15."
+        },
+        {
+          "french": "Le magasin ferme à dix-huit heures.",
+          "english": "The shop closes at 18:00."
+        },
+        {
+          "french": "Il est quelle heure ? — Il est huit heures moins le quart.",
+          "english": "What time is it? — It is 7:45."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'It is 3:30'?",
+          "options": ["Il est trois heures et quart.", "Il est trois heures et demie.", "Il est trois heures moins le quart."],
+          "correctAnswer": "Il est trois heures et demie.",
+          "explanation": "'Et demie' = half past. Il est trois heures et demie = 3:30."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il est dix heures ___ quart. (It is 10:15.)",
+          "correctAnswer": "et",
+          "explanation": "'Et quart' = quarter past. Il est dix heures et quart = 10:15."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'It is 6:45'?",
+          "options": ["Il est six heures et demie.", "Il est sept heures moins le quart.", "Il est six heures moins le quart."],
+          "correctAnswer": "Il est sept heures moins le quart.",
+          "explanation": "6:45 = 7:00 minus 15 minutes. Il est sept heures moins le quart."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: ___ est quelle heure ? (What time is it?)",
+          "correctAnswer": "Il",
+          "explanation": "'Il est quelle heure ?' is the standard way to ask the time."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Il est midi et demie' mean?",
+          "options": ["It is 11:30", "It is 12:30", "It is 12:15"],
+          "correctAnswer": "It is 12:30",
+          "explanation": "'Midi' = noon (12:00). 'Midi et demie' = 12:30."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Telling Time — 12-hour, 24-hour, Official & Spoken Forms",
+      "explanation": "**Basic structure:** Il est + [number] + heure(s)\n\n**Key vocabulary:**\n| Expression | Meaning | Example |\n|---|---|---|\n| et quart | quarter past (+15) | Il est deux heures et quart (2:15) |\n| et demie | half past (+30) | Il est deux heures et demie (2:30) |\n| moins le quart | quarter to (–15) | Il est trois heures moins le quart (2:45) |\n| moins + number | minutes to | Il est trois heures moins dix (2:50) |\n| et + number | minutes past | Il est deux heures et cinq (2:05) |\n\n**Spoken vs official time:**\n- Spoken (12h): *Il est six heures du soir / Il est six heures et demie.*\n- Official (24h): *Le magasin ferme à dix-huit heures trente.*\n\n**AM/PM in spoken French:**\n- *du matin* = in the morning (AM)\n- *de l'après-midi* = in the afternoon (PM, 12–18h)\n- *du soir* = in the evening (PM, 18h+)\n\nExamples:\n- *Il est neuf heures du matin.* = It is 9:00 AM.\n- *Il est trois heures de l'après-midi.* = It is 3:00 PM.\n- *Il est huit heures du soir.* = It is 8:00 PM.\n\n**Asking the time:**\n- *Il est quelle heure ?* (informal)\n- *Quelle heure est-il ?* (formal/written)\n- *Tu as l'heure ?* = Do you have the time? (very informal)\n\n**À + time (at what time):**\n- *Le train part à seize heures cinquante.* = The train leaves at 16:50.\n- *Vers* = around: *Je viens vers midi.* = I'm coming around noon.",
+      "examples": [
+        {
+          "french": "Il est quinze heures moins le quart. (Official: 14h45)",
+          "english": "It is 2:45 PM."
+        },
+        {
+          "french": "Le magasin ouvre à neuf heures et demie.",
+          "english": "The shop opens at 9:30."
+        },
+        {
+          "french": "Tu as l'heure ? — Oui, il est dix-sept heures cinq.",
+          "english": "Do you have the time? — Yes, it is 5:05 PM."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 14:50 in spoken French (12-hour)?",
+          "options": ["Il est deux heures cinquante de l'après-midi.", "Il est trois heures moins dix de l'après-midi.", "Il est quatorze heures cinquante."],
+          "correctAnswer": "Il est trois heures moins dix de l'après-midi.",
+          "explanation": "14:50 = 3:00 PM minus 10 minutes = trois heures moins dix de l'après-midi."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Le film commence ___ vingt heures trente. (The film starts at 8:30 PM.)",
+          "correctAnswer": "à",
+          "explanation": "'À' = at (for time). Le film commence à vingt heures trente."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Il est neuf heures du matin' mean?",
+          "options": ["It is 9:00 PM", "It is 9:00 AM", "It is 21:00"],
+          "correctAnswer": "It is 9:00 AM",
+          "explanation": "'Du matin' = in the morning. Il est neuf heures du matin = 9:00 AM."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il est sept heures ___ demie. (It is 7:30.)",
+          "correctAnswer": "et",
+          "explanation": "'Et demie' = half past. The connector is always 'et': sept heures et demie."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'around noon' in French?",
+          "options": ["À midi précis", "Vers midi", "Dès midi"],
+          "correctAnswer": "Vers midi",
+          "explanation": "'Vers' = around / approximately. Vers midi = around noon."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Tu as ___heure ? (Do you have the time? — very informal)",
+          "correctAnswer": "l'",
+          "explanation": "'Tu as l'heure ?' is informal French for asking what time it is."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the formal way to ask the time?",
+          "options": ["Tu as l'heure ?", "Il est quelle heure ?", "Quelle heure est-il ?"],
+          "correctAnswer": "Quelle heure est-il ?",
+          "explanation": "'Quelle heure est-il ?' (inversion) is the formal/written form. 'Il est quelle heure ?' is informal."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: Il est dix heures moins ___ quart. (It is 9:45.)",
+          "correctAnswer": "le",
+          "explanation": "'Moins le quart' = quarter to. Always 'moins le quart' (with the definite article 'le')."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la vitrine' mean?",
+        "options": ["The fitting room", "The shop window", "The checkout"],
+        "correctAnswer": "The shop window",
+        "explanation": "'La vitrine' is the shop window or display window. 'Faire du lèche-vitrine' = window shopping.",
+        "targetWord": "la vitrine"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'It is 8:30'?",
+        "options": ["Il est huit heures et quart.", "Il est huit heures moins le quart.", "Il est huit heures et demie."],
+        "correctAnswer": "Il est huit heures et demie.",
+        "explanation": "'Et demie' = half past. Il est huit heures et demie = 8:30.",
+        "targetWord": "la taille"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'essayer' mean in a clothes shop?",
+        "options": ["To buy", "To try on", "To return"],
+        "correctAnswer": "To try on",
+        "explanation": "'Essayer' means to try on (clothes). 'Je peux essayer ?' = Can I try it on?",
+        "targetWord": "essayer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Il est neuf heures ___ le quart. (It is 8:45.)",
+        "correctAnswer": "moins",
+        "explanation": "9:00 minus 15 minutes = 8:45. 'Moins le quart' = quarter to.",
+        "targetWord": "la cabine"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la cabine d'essayage' mean?",
+        "options": ["The checkout desk", "The fitting room", "The shop floor"],
+        "correctAnswer": "The fitting room",
+        "explanation": "'La cabine d'essayage' = the fitting room. 'La cabine' alone can also refer to it.",
+        "targetWord": "la cabine"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la ceinture' mean?",
+        "options": ["The collar", "The belt", "The hem", "The buckle"],
+        "correctAnswer": "The belt",
+        "explanation": "'La ceinture' = the belt. 'Serrer la ceinture' = to tighten one's belt (idiom).",
+        "targetWord": "la ceinture"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Il est trois heures moins ___ quart. (It is 2:45.)",
+        "correctAnswer": "le",
+        "explanation": "'Moins le quart' = quarter to. Always 'le' here: trois heures moins le quart = 2:45.",
+        "targetWord": "la taille"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 16:50 in spoken French (12-hour)?",
+        "options": ["Il est cinq heures moins dix de l'après-midi.", "Il est quatre heures cinquante de l'après-midi.", "Il est seize heures moins dix."],
+        "correctAnswer": "Il est cinq heures moins dix de l'après-midi.",
+        "explanation": "16:50 = 17:00 – 10 = cinq heures moins dix de l'après-midi.",
+        "targetWord": "essayer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'l'écharpe'?",
+        "options": ["The glove", "The hat", "The scarf", "The jacket"],
+        "correctAnswer": "The scarf",
+        "explanation": "'L'écharpe' = the scarf (typically woollen). Distinct from 'le foulard' (light decorative scarf).",
+        "targetWord": "l'écharpe"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete: Je viens ___ midi. (I'm coming around noon.)",
+        "correctAnswer": "vers",
+        "explanation": "'Vers' = around / approximately. Vers midi = around noon.",
+        "targetWord": "la vitrine"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'faire du lèche-vitrine' mean?",
+        "options": ["To clean the windows", "To go window shopping", "To arrange the display", "To pay at the checkout"],
+        "correctAnswer": "To go window shopping",
+        "explanation": "'Faire du lèche-vitrine' literally means 'to lick the windows' — it means going window shopping.",
+        "targetWord": "la vitrine"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are in a clothing shop. Ask the shop assistant what time the store closes, then describe what size and colour you are looking for in a skirt or top. Ask if you can try it on.",
+      "keyPhrases": [
+        "Le magasin ferme à quelle heure ? (What time does the shop close?)",
+        "Il est quelle heure ? (What time is it?)",
+        "Je cherche une jupe / un haut en taille… (I'm looking for a skirt / top in size…)",
+        "Je peux l'essayer ? (Can I try it on?)",
+        "Où sont les cabines ? (Where are the fitting rooms?)"
+      ],
+      "modelAnswer": "Bonjour ! Le magasin ferme à quelle heure ? Ah, à dix-huit heures — il est quelle heure maintenant ? Seize heures et demie, très bien. Je cherche une jupe noire en taille 38. Vous l'avez en taille 38 ? Je peux l'essayer ? Merci — où sont les cabines ?",
+      "modelAnswerExplanation": "The answer asks the closing time and current time using 'il est quelle heure', describes the item (colour + size), uses 'essayer' and 'cabines', and stays polite and natural.",
+      "tip": "Remember: tell the time with 'il est' + number + 'heure(s)' + (et quart / et demie / moins le quart)."
+    },
+    "advanced": {
+      "scenario": "You are in a clothing boutique looking for a skirt and a scarf. Ask about closing time using both 12-hour and 24-hour expressions, enquire about sizes and colours, and ask to try things on. Refer to the fitting rooms and the shop window.",
+      "keyPhrases": [
+        "Vous fermez à quelle heure ? / Vous ouvrez à quelle heure demain ? (What time do you close/open?)",
+        "Vers quelle heure… ? (Around what time…?)",
+        "Je cherche une écharpe / une jupe en taille… (I'm looking for a scarf / skirt in size…)",
+        "Je l'ai vue en vitrine. (I saw it in the window.)",
+        "Est-ce que je peux essayer la jupe et l'écharpe ? (Can I try on the skirt and scarf?)"
+      ],
+      "modelAnswer": "Bonjour ! J'ai vu cette écharpe en vitrine — elle est en laine ? Et la jupe à côté, elle est disponible en taille 40 ? Vous fermez à quelle heure aujourd'hui ? À dix-sept heures quinze — il est presque seize heures moins le quart, j'ai le temps. Est-ce que je peux essayer la jupe et l'écharpe ? Les cabines sont à gauche ? Parfait, merci !",
+      "modelAnswerExplanation": "The answer references the shop window (vitrine), asks about closing time using 24-hour style, calculates remaining time using 'moins le quart', requests to try on multiple items, and confirms fitting room location.",
+      "tip": ""
+    }
+  }
+}
