@@ -1,5 +1,5 @@
 {
-  "lastDay": 35,
+  "lastDay": 42,
   "grammarTitles": [
     {
       "day": 1,
@@ -135,6 +135,31 @@
       "day": 35,
       "standard": "The Pronoun En (Replacing de + Noun / Expressing Quantity)",
       "advanced": "The Pronoun En — Quantity, de + Noun & Fixed Expressions"
+    },
+    {
+      "day": 37,
+      "standard": "Telling Time (il est + heure, et demie, et quart, moins le quart)",
+      "advanced": "Telling Time — 12-hour, 24-hour, Official & Spoken Forms"
+    },
+    {
+      "day": 38,
+      "standard": "Stressed / Emphatic Pronouns (moi, toi, lui, elle, nous, vous, eux, elles)",
+      "advanced": "Stressed / Emphatic Pronouns — All Uses, Contrast & Fixed Expressions"
+    },
+    {
+      "day": 39,
+      "standard": "Venir (Present Tense — Conjugation & Common Uses)",
+      "advanced": "Venir — Present, Venir de + Infinitive (Recent Past) & Common Expressions"
+    },
+    {
+      "day": 41,
+      "standard": "Indirect Object Pronouns (lui, leur)",
+      "advanced": "Indirect Object Pronouns — lui, leur with All Tenses & Common Verbs"
+    },
+    {
+      "day": 42,
+      "standard": "Prepositions with Cities & Countries (à, en, au, aux)",
+      "advanced": "Prepositions with Cities & Countries — à, en, au, aux + Exceptions"
     }
   ],
   "vocabWords": [
@@ -460,6 +485,66 @@
         "le parc",
         "le quartier",
         "le voisin"
+      ]
+    },
+    {
+      "day": 37,
+      "words": [
+        "essayer",
+        "l'écharpe",
+        "la cabine",
+        "la ceinture",
+        "la jupe",
+        "la taille",
+        "la vitrine"
+      ]
+    },
+    {
+      "day": 38,
+      "words": [
+        "frais",
+        "la caisse",
+        "la file",
+        "le panier",
+        "le rayon",
+        "le reçu",
+        "peser"
+      ]
+    },
+    {
+      "day": 39,
+      "words": [
+        "à droite",
+        "à gauche",
+        "continuer",
+        "la direction",
+        "le plan",
+        "tout droit",
+        "traverser"
+      ]
+    },
+    {
+      "day": 41,
+      "words": [
+        "l'emploi",
+        "l'ordinateur",
+        "la réunion",
+        "le bureau",
+        "le collègue",
+        "le patron",
+        "le travail"
+      ]
+    },
+    {
+      "day": 42,
+      "words": [
+        "l'église",
+        "la fontaine",
+        "la ville",
+        "le centre-ville",
+        "le jardin",
+        "le magasin",
+        "le musée"
       ]
     }
   ]
