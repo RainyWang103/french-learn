@@ -66,21 +66,27 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
     assertNonEmptyString(word.notes, `${label}.notes`)
   }
 
-  // Conjugation: required for verbs, optional for others
-  if (word.partOfSpeech === 'verb') {
-    if (word.conjugation !== undefined) {
-      expect(typeof word.conjugation, `${label}.conjugation should be an object`).toBe('object')
-      expect(word.conjugation, `${label}.conjugation should not be null`).not.toBeNull()
-      const conj = word.conjugation as Record<string, unknown>
-      expect(Object.keys(conj).length, `${label}.conjugation should have entries`).toBeGreaterThan(
-        0,
-      )
-      for (const [key, val] of Object.entries(conj)) {
-        assertNonEmptyString(val, `${label}.conjugation.${key}`)
+  // Forms validation (R.1+):
+  // - New format: forms object is present → validate its shape
+  // - Legacy format: only verbs had a conjugation field; non-verbs had neither
+  // Once all JSON files are migrated in R.2/R.3, forms will be required on every word.
+  if (word.forms !== undefined) {
+    expect(typeof word.forms, `${label}.forms should be an object`).toBe('object')
+    expect(word.forms, `${label}.forms should not be null`).not.toBeNull()
+    const forms = word.forms as Record<string, unknown>
+
+    if (word.partOfSpeech === 'verb') {
+      for (const key of ['je', 'tu', 'il', 'nous', 'vous', 'ils']) {
+        assertNonEmptyString(forms[key], `${label}.forms.${key}`)
+      }
+    } else if (word.partOfSpeech === 'noun' || word.partOfSpeech === 'adjective') {
+      for (const key of ['masculine', 'feminine', 'masculinePlural', 'femininePlural']) {
+        assertNonEmptyString(forms[key], `${label}.forms.${key}`)
       }
     }
-  }
-  if (word.conjugation !== undefined && word.conjugation !== null) {
+    // adverb / expression: forms must exist but content is not strictly validated
+  } else if (word.conjugation !== undefined && word.conjugation !== null) {
+    // Legacy verb conjugation field — accepted during R.1→R.2 transition
     expect(typeof word.conjugation, `${label}.conjugation should be object`).toBe('object')
   }
 
