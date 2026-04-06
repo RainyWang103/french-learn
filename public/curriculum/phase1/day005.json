@@ -9,6 +9,12 @@
         "word": "la maison",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "maison",
+          "feminine": "maison",
+          "masculinePlural": "maisons",
+          "femininePlural": "maisons"
+        },
         "pronunciation": "la meh-zon",
         "meaning": "the house / home",
         "notes": "Also used in expressions: à la maison (at home), rentrer à la maison (to go home).",
@@ -28,6 +34,12 @@
         "word": "la porte",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "porte",
+          "feminine": "porte",
+          "masculinePlural": "portes",
+          "femininePlural": "portes"
+        },
         "pronunciation": "la port",
         "meaning": "the door",
         "examples": [
@@ -46,6 +58,12 @@
         "word": "la clé",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "clé",
+          "feminine": "clé",
+          "masculinePlural": "clés",
+          "femininePlural": "clés"
+        },
         "pronunciation": "la klay",
         "meaning": "the key",
         "notes": "Also spelled 'clef'. Both are correct.",
@@ -65,6 +83,12 @@
         "word": "la rue",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "rue",
+          "feminine": "rue",
+          "masculinePlural": "rues",
+          "femininePlural": "rues"
+        },
         "pronunciation": "la roo",
         "meaning": "the street",
         "examples": [
@@ -83,6 +107,12 @@
         "word": "le bus",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "bus",
+          "feminine": "bus",
+          "masculinePlural": "bus",
+          "femininePlural": "bus"
+        },
         "pronunciation": "luh boos",
         "meaning": "the bus",
         "notes": "Short for 'autobus'. Use 'prendre le bus' (to take the bus).",
@@ -104,6 +134,12 @@
         "word": "la maison",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "maison",
+          "feminine": "maison",
+          "masculinePlural": "maisons",
+          "femininePlural": "maisons"
+        },
         "pronunciation": "la meh-zon",
         "meaning": "the house / home",
         "notes": "Also used in expressions: à la maison (at home), rentrer à la maison (to go home).",
@@ -123,6 +159,12 @@
         "word": "la porte",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "porte",
+          "feminine": "porte",
+          "masculinePlural": "portes",
+          "femininePlural": "portes"
+        },
         "pronunciation": "la port",
         "meaning": "the door",
         "examples": [
@@ -141,6 +183,12 @@
         "word": "la clé",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "clé",
+          "feminine": "clé",
+          "masculinePlural": "clés",
+          "femininePlural": "clés"
+        },
         "pronunciation": "la klay",
         "meaning": "the key",
         "notes": "Also spelled 'clef'. Both are correct.",
@@ -160,6 +208,12 @@
         "word": "la rue",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "rue",
+          "feminine": "rue",
+          "masculinePlural": "rues",
+          "femininePlural": "rues"
+        },
         "pronunciation": "la roo",
         "meaning": "the street",
         "examples": [
@@ -178,6 +232,12 @@
         "word": "le bus",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "bus",
+          "feminine": "bus",
+          "masculinePlural": "bus",
+          "femininePlural": "bus"
+        },
         "pronunciation": "luh boos",
         "meaning": "the bus",
         "notes": "Short for 'autobus'. Use 'prendre le bus' (to take the bus).",
@@ -197,6 +257,12 @@
         "word": "le trottoir",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "trottoir",
+          "feminine": "trottoir",
+          "masculinePlural": "trottoirs",
+          "femininePlural": "trottoirs"
+        },
         "pronunciation": "luh tro-twahr",
         "meaning": "the sidewalk / pavement",
         "examples": [
@@ -215,6 +281,12 @@
         "word": "le trajet",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "trajet",
+          "feminine": "trajet",
+          "masculinePlural": "trajets",
+          "femininePlural": "trajets"
+        },
         "pronunciation": "luh tra-zheh",
         "meaning": "the commute / journey",
         "notes": "Used for daily travel: mon trajet (my commute).",

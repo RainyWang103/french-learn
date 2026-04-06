@@ -9,6 +9,12 @@
         "word": "le soleil",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "soleil",
+          "feminine": "soleil",
+          "masculinePlural": "soleils",
+          "femininePlural": "soleils"
+        },
         "pronunciation": "luh so-lay",
         "meaning": "the sun",
         "examples": [
@@ -27,6 +33,12 @@
         "word": "la pluie",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "pluie",
+          "feminine": "pluie",
+          "masculinePlural": "pluies",
+          "femininePlural": "pluies"
+        },
         "pronunciation": "la plwee",
         "meaning": "the rain",
         "examples": [
@@ -45,6 +57,12 @@
         "word": "le vent",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "vent",
+          "feminine": "vent",
+          "masculinePlural": "vents",
+          "femininePlural": "vents"
+        },
         "pronunciation": "luh von",
         "meaning": "the wind",
         "examples": [
@@ -63,6 +81,12 @@
         "word": "chaud",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "chaud",
+          "feminine": "chaude",
+          "masculinePlural": "chauds",
+          "femininePlural": "chaudes"
+        },
         "pronunciation": "show",
         "meaning": "hot / warm",
         "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
@@ -82,6 +106,12 @@
         "word": "froid",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "froid",
+          "feminine": "froide",
+          "masculinePlural": "froids",
+          "femininePlural": "froides"
+        },
         "pronunciation": "frwa",
         "meaning": "cold",
         "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
@@ -103,6 +133,12 @@
         "word": "le soleil",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "soleil",
+          "feminine": "soleil",
+          "masculinePlural": "soleils",
+          "femininePlural": "soleils"
+        },
         "pronunciation": "luh so-lay",
         "meaning": "the sun",
         "examples": [
@@ -121,6 +157,12 @@
         "word": "la pluie",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "pluie",
+          "feminine": "pluie",
+          "masculinePlural": "pluies",
+          "femininePlural": "pluies"
+        },
         "pronunciation": "la plwee",
         "meaning": "the rain",
         "examples": [
@@ -139,6 +181,12 @@
         "word": "le vent",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "vent",
+          "feminine": "vent",
+          "masculinePlural": "vents",
+          "femininePlural": "vents"
+        },
         "pronunciation": "luh von",
         "meaning": "the wind",
         "examples": [
@@ -157,6 +205,12 @@
         "word": "chaud",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "chaud",
+          "feminine": "chaude",
+          "masculinePlural": "chauds",
+          "femininePlural": "chaudes"
+        },
         "pronunciation": "show",
         "meaning": "hot / warm",
         "notes": "Used with faire for weather: il fait chaud. Add -e for feminine: chaude.",
@@ -176,6 +230,12 @@
         "word": "froid",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "froid",
+          "feminine": "froide",
+          "masculinePlural": "froids",
+          "femininePlural": "froides"
+        },
         "pronunciation": "frwa",
         "meaning": "cold",
         "notes": "Used with faire for weather: il fait froid. Add -e for feminine: froide.",
@@ -195,6 +255,12 @@
         "word": "le nuage",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "nuage",
+          "feminine": "nuage",
+          "masculinePlural": "nuages",
+          "femininePlural": "nuages"
+        },
         "pronunciation": "luh noo-azh",
         "meaning": "the cloud",
         "examples": [
@@ -213,6 +279,12 @@
         "word": "la neige",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "neige",
+          "feminine": "neige",
+          "masculinePlural": "neiges",
+          "femininePlural": "neiges"
+        },
         "pronunciation": "la nezh",
         "meaning": "the snow",
         "notes": "Also used as a verb: neiger (to snow) — il neige (it's snowing).",

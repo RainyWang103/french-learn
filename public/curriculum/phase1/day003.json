@@ -9,6 +9,12 @@
         "word": "le café",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "café",
+          "feminine": "café",
+          "masculinePlural": "cafés",
+          "femininePlural": "cafés"
+        },
         "pronunciation": "luh ka-fay",
         "meaning": "the coffee",
         "examples": [
@@ -27,6 +33,12 @@
         "word": "le pain",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pain",
+          "feminine": "pain",
+          "masculinePlural": "pains",
+          "femininePlural": "pains"
+        },
         "pronunciation": "luh pan",
         "meaning": "the bread",
         "examples": [
@@ -45,6 +57,12 @@
         "word": "le beurre",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "beurre",
+          "feminine": "beurre",
+          "masculinePlural": "beurres",
+          "femininePlural": "beurres"
+        },
         "pronunciation": "luh burr",
         "meaning": "the butter",
         "examples": [
@@ -63,6 +81,12 @@
         "word": "le jus",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "jus",
+          "feminine": "jus",
+          "masculinePlural": "jus",
+          "femininePlural": "jus"
+        },
         "pronunciation": "luh zhoo",
         "meaning": "the juice",
         "notes": "Often used with 'de' + fruit: jus d'orange, jus de pomme.",
@@ -82,6 +106,12 @@
         "word": "la confiture",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "confiture",
+          "feminine": "confiture",
+          "masculinePlural": "confitures",
+          "femininePlural": "confitures"
+        },
         "pronunciation": "la kon-fee-toor",
         "meaning": "the jam",
         "examples": [
@@ -102,6 +132,12 @@
         "word": "le café",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "café",
+          "feminine": "café",
+          "masculinePlural": "cafés",
+          "femininePlural": "cafés"
+        },
         "pronunciation": "luh ka-fay",
         "meaning": "the coffee",
         "notes": "Also means 'café' (the place). Context determines meaning.",
@@ -121,6 +157,12 @@
         "word": "le pain",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pain",
+          "feminine": "pain",
+          "masculinePlural": "pains",
+          "femininePlural": "pains"
+        },
         "pronunciation": "luh pan",
         "meaning": "the bread",
         "examples": [
@@ -139,6 +181,12 @@
         "word": "le beurre",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "beurre",
+          "feminine": "beurre",
+          "masculinePlural": "beurres",
+          "femininePlural": "beurres"
+        },
         "pronunciation": "luh burr",
         "meaning": "the butter",
         "examples": [
@@ -157,6 +205,12 @@
         "word": "le jus",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "jus",
+          "feminine": "jus",
+          "masculinePlural": "jus",
+          "femininePlural": "jus"
+        },
         "pronunciation": "luh zhoo",
         "meaning": "the juice",
         "notes": "Often used with 'de' + fruit: jus d'orange, jus de pomme.",
@@ -176,6 +230,12 @@
         "word": "la confiture",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "confiture",
+          "feminine": "confiture",
+          "masculinePlural": "confitures",
+          "femininePlural": "confitures"
+        },
         "pronunciation": "la kon-fee-toor",
         "meaning": "the jam",
         "examples": [
@@ -194,6 +254,12 @@
         "word": "le bol",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "bol",
+          "feminine": "bol",
+          "masculinePlural": "bols",
+          "femininePlural": "bols"
+        },
         "pronunciation": "luh bohl",
         "meaning": "the bowl",
         "notes": "Used for café au lait, cereal, soup.",
@@ -213,6 +279,12 @@
         "word": "le croissant",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "croissant",
+          "feminine": "croissant",
+          "masculinePlural": "croissants",
+          "femininePlural": "croissants"
+        },
         "pronunciation": "luh kwah-son",
         "meaning": "the croissant",
         "notes": "From 'croître' (to grow/crescent). A classic French breakfast pastry.",

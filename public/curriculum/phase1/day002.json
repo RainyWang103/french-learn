@@ -9,6 +9,12 @@
         "word": "la douche",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "douche",
+          "feminine": "douche",
+          "masculinePlural": "douches",
+          "femininePlural": "douches"
+        },
         "pronunciation": "la doosh",
         "meaning": "the shower",
         "examples": [
@@ -27,17 +33,17 @@
         "word": "s'habiller",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je m'habille",
+          "tu": "tu t'habilles",
+          "il": "il/elle/on s'habille",
+          "nous": "nous nous habillons",
+          "vous": "vous vous habillez",
+          "ils": "ils/elles s'habillent"
+        },
         "pronunciation": "sa-bee-yay",
         "meaning": "to get dressed",
         "notes": "Reflexive verb — je m'habille, tu t'habilles, etc.",
-        "conjugation": {
-          "je": "m'habille",
-          "tu": "t'habilles",
-          "il/elle": "s'habille",
-          "nous": "nous habillons",
-          "vous": "vous habillez",
-          "ils/elles": "s'habillent"
-        },
         "examples": [
           [
             "Je m'habille vite.",
@@ -54,6 +60,12 @@
         "word": "les vêtements",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "vêtement",
+          "feminine": "vêtement",
+          "masculinePlural": "vêtements",
+          "femininePlural": "vêtements"
+        },
         "pronunciation": "lay vet-mon",
         "meaning": "the clothes",
         "notes": "Always plural. Singular: un vêtement.",
@@ -73,6 +85,12 @@
         "word": "le miroir",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "miroir",
+          "feminine": "miroir",
+          "masculinePlural": "miroirs",
+          "femininePlural": "miroirs"
+        },
         "pronunciation": "luh meer-wahr",
         "meaning": "the mirror",
         "examples": [
@@ -91,6 +109,12 @@
         "word": "prêt",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "prêt",
+          "feminine": "prête",
+          "masculinePlural": "prêts",
+          "femininePlural": "prêtes"
+        },
         "pronunciation": "preh",
         "meaning": "ready",
         "notes": "Feminine: prête. Used with être: je suis prêt(e).",
@@ -112,6 +136,12 @@
         "word": "la douche",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "douche",
+          "feminine": "douche",
+          "masculinePlural": "douches",
+          "femininePlural": "douches"
+        },
         "pronunciation": "la doosh",
         "meaning": "the shower",
         "examples": [
@@ -130,17 +160,17 @@
         "word": "s'habiller",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je m'habille",
+          "tu": "tu t'habilles",
+          "il": "il/elle/on s'habille",
+          "nous": "nous nous habillons",
+          "vous": "vous vous habillez",
+          "ils": "ils/elles s'habillent"
+        },
         "pronunciation": "sa-bee-yay",
         "meaning": "to get dressed",
         "notes": "Reflexive verb — je m'habille, tu t'habilles, etc.",
-        "conjugation": {
-          "je": "m'habille",
-          "tu": "t'habilles",
-          "il/elle": "s'habille",
-          "nous": "nous habillons",
-          "vous": "vous habillez",
-          "ils/elles": "s'habillent"
-        },
         "examples": [
           [
             "Je m'habille vite.",
@@ -157,6 +187,12 @@
         "word": "les vêtements",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "vêtement",
+          "feminine": "vêtement",
+          "masculinePlural": "vêtements",
+          "femininePlural": "vêtements"
+        },
         "pronunciation": "lay vet-mon",
         "meaning": "the clothes",
         "notes": "Always plural. Singular: un vêtement.",
@@ -176,6 +212,12 @@
         "word": "le miroir",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "miroir",
+          "feminine": "miroir",
+          "masculinePlural": "miroirs",
+          "femininePlural": "miroirs"
+        },
         "pronunciation": "luh meer-wahr",
         "meaning": "the mirror",
         "examples": [
@@ -194,6 +236,12 @@
         "word": "prêt",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "prêt",
+          "feminine": "prête",
+          "masculinePlural": "prêts",
+          "femininePlural": "prêtes"
+        },
         "pronunciation": "preh",
         "meaning": "ready",
         "notes": "Feminine: prête. Used with être: je suis prêt(e).",
@@ -213,17 +261,17 @@
         "word": "se dépêcher",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je me dépêche",
+          "tu": "tu te dépêches",
+          "il": "il/elle/on se dépêche",
+          "nous": "nous nous dépêchons",
+          "vous": "vous vous dépêchez",
+          "ils": "ils/elles se dépêchent"
+        },
         "pronunciation": "suh day-peh-shay",
         "meaning": "to hurry",
         "notes": "Reflexive verb. Common imperative: Dépêche-toi ! (Hurry up!)",
-        "conjugation": {
-          "je": "me dépêche",
-          "tu": "te dépêches",
-          "il/elle": "se dépêche",
-          "nous": "nous dépêchons",
-          "vous": "vous dépêchez",
-          "ils/elles": "se dépêchent"
-        },
         "examples": [
           [
             "Dépêche-toi, on est en retard !",
@@ -240,6 +288,12 @@
         "word": "le peigne",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "peigne",
+          "feminine": "peigne",
+          "masculinePlural": "peignes",
+          "femininePlural": "peignes"
+        },
         "pronunciation": "luh pen-yuh",
         "meaning": "the comb",
         "examples": [
