@@ -9,6 +9,12 @@
         "word": "l'heure",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "heure",
+          "feminine": "heure",
+          "masculinePlural": "heures",
+          "femininePlural": "heures"
+        },
         "pronunciation": "lur",
         "meaning": "the hour / the time",
         "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
@@ -28,6 +34,12 @@
         "word": "midi",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "midi",
+          "feminine": "midi",
+          "masculinePlural": "midi",
+          "femininePlural": "midi"
+        },
         "pronunciation": "mee-dee",
         "meaning": "noon / midday",
         "notes": "No article needed. Opposite: minuit (midnight).",
@@ -47,6 +59,12 @@
         "word": "en retard",
         "partOfSpeech": "expression",
         "gender": null,
+        "forms": {
+          "masculine": "en retard",
+          "feminine": "en retard",
+          "masculinePlural": "en retard",
+          "femininePlural": "en retard"
+        },
         "pronunciation": "on ruh-tar",
         "meaning": "late (behind schedule)",
         "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
@@ -66,17 +84,17 @@
         "word": "commencer",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je commence",
+          "tu": "tu commences",
+          "il": "il/elle/on commence",
+          "nous": "nous commençons",
+          "vous": "vous commencez",
+          "ils": "ils/elles commencent"
+        },
         "pronunciation": "ko-mon-say",
         "meaning": "to start / to begin",
         "notes": "Regular -ER verb. Note: nous commençons (ç before -ons).",
-        "conjugation": {
-          "je": "commence",
-          "tu": "commences",
-          "il/elle": "commence",
-          "nous": "commençons",
-          "vous": "commencez",
-          "ils/elles": "commencent"
-        },
         "examples": [
           [
             "Le cours commence à neuf heures.",
@@ -93,6 +111,12 @@
         "word": "la semaine",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "semaine",
+          "feminine": "semaine",
+          "masculinePlural": "semaines",
+          "femininePlural": "semaines"
+        },
         "pronunciation": "la suh-men",
         "meaning": "the week",
         "examples": [
@@ -113,6 +137,12 @@
         "word": "l'heure",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "heure",
+          "feminine": "heure",
+          "masculinePlural": "heures",
+          "femininePlural": "heures"
+        },
         "pronunciation": "lur",
         "meaning": "the hour / the time",
         "notes": "Used in 'Quelle heure est-il ?' (What time is it?). Plural: les heures.",
@@ -132,6 +162,12 @@
         "word": "midi",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "midi",
+          "feminine": "midi",
+          "masculinePlural": "midi",
+          "femininePlural": "midi"
+        },
         "pronunciation": "mee-dee",
         "meaning": "noon / midday",
         "notes": "No article needed. Opposite: minuit (midnight).",
@@ -151,6 +187,12 @@
         "word": "en retard",
         "partOfSpeech": "expression",
         "gender": null,
+        "forms": {
+          "masculine": "en retard",
+          "feminine": "en retard",
+          "masculinePlural": "en retard",
+          "femininePlural": "en retard"
+        },
         "pronunciation": "on ruh-tar",
         "meaning": "late (behind schedule)",
         "notes": "Opposite: en avance (early). Used with être: je suis en retard.",
@@ -170,17 +212,17 @@
         "word": "commencer",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je commence",
+          "tu": "tu commences",
+          "il": "il/elle/on commence",
+          "nous": "nous commençons",
+          "vous": "vous commencez",
+          "ils": "ils/elles commencent"
+        },
         "pronunciation": "ko-mon-say",
         "meaning": "to start / to begin",
         "notes": "Regular -ER verb. Note: nous commençons (ç before -ons).",
-        "conjugation": {
-          "je": "commence",
-          "tu": "commences",
-          "il/elle": "commence",
-          "nous": "commençons",
-          "vous": "commencez",
-          "ils/elles": "commencent"
-        },
         "examples": [
           [
             "Le cours commence à neuf heures.",
@@ -197,6 +239,12 @@
         "word": "la semaine",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "semaine",
+          "feminine": "semaine",
+          "masculinePlural": "semaines",
+          "femininePlural": "semaines"
+        },
         "pronunciation": "la suh-men",
         "meaning": "the week",
         "examples": [
@@ -215,6 +263,12 @@
         "word": "le quart d'heure",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "quart d'heure",
+          "feminine": "quart d'heure",
+          "masculinePlural": "quarts d'heure",
+          "femininePlural": "quarts d'heure"
+        },
         "pronunciation": "luh kar dur",
         "meaning": "the quarter of an hour",
         "notes": "Used in time: il est deux heures et quart (2:15), il est trois heures moins le quart (2:45).",
@@ -234,6 +288,12 @@
         "word": "le rendez-vous",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "rendez-vous",
+          "feminine": "rendez-vous",
+          "masculinePlural": "rendez-vous",
+          "femininePlural": "rendez-vous"
+        },
         "pronunciation": "luh ron-day-voo",
         "meaning": "the appointment / the meeting",
         "notes": "Abbreviated: RDV. Also used for dates (romantic meetings).",

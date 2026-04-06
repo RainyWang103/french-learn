@@ -9,6 +9,12 @@
         "word": "la mère",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "mère",
+          "feminine": "mère",
+          "masculinePlural": "mères",
+          "femininePlural": "mères"
+        },
         "pronunciation": "la mair",
         "meaning": "the mother",
         "notes": "Informal: maman (mum).",
@@ -28,6 +34,12 @@
         "word": "le père",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "père",
+          "feminine": "père",
+          "masculinePlural": "pères",
+          "femininePlural": "pères"
+        },
         "pronunciation": "luh pair",
         "meaning": "the father",
         "notes": "Informal: papa (dad).",
@@ -47,6 +59,12 @@
         "word": "le frère",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "frère",
+          "feminine": "sœur",
+          "masculinePlural": "frères",
+          "femininePlural": "sœurs"
+        },
         "pronunciation": "luh frair",
         "meaning": "the brother",
         "examples": [
@@ -65,6 +83,12 @@
         "word": "la sœur",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "frère",
+          "feminine": "sœur",
+          "masculinePlural": "frères",
+          "femininePlural": "sœurs"
+        },
         "pronunciation": "la sir",
         "meaning": "the sister",
         "examples": [
@@ -83,6 +107,12 @@
         "word": "l'enfant",
         "partOfSpeech": "noun",
         "gender": null,
+        "forms": {
+          "masculine": "enfant",
+          "feminine": "enfant",
+          "masculinePlural": "enfants",
+          "femininePlural": "enfants"
+        },
         "pronunciation": "lon-fon",
         "meaning": "the child",
         "notes": "Can be masculine or feminine. Plural: les enfants.",
@@ -104,6 +134,12 @@
         "word": "la mère",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "mère",
+          "feminine": "mère",
+          "masculinePlural": "mères",
+          "femininePlural": "mères"
+        },
         "pronunciation": "la mair",
         "meaning": "the mother",
         "notes": "Informal: maman (mum).",
@@ -123,6 +159,12 @@
         "word": "le père",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "père",
+          "feminine": "père",
+          "masculinePlural": "pères",
+          "femininePlural": "pères"
+        },
         "pronunciation": "luh pair",
         "meaning": "the father",
         "notes": "Informal: papa (dad).",
@@ -142,6 +184,12 @@
         "word": "le frère",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "frère",
+          "feminine": "sœur",
+          "masculinePlural": "frères",
+          "femininePlural": "sœurs"
+        },
         "pronunciation": "luh frair",
         "meaning": "the brother",
         "examples": [
@@ -160,6 +208,12 @@
         "word": "la sœur",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "frère",
+          "feminine": "sœur",
+          "masculinePlural": "frères",
+          "femininePlural": "sœurs"
+        },
         "pronunciation": "la sir",
         "meaning": "the sister",
         "examples": [
@@ -178,6 +232,12 @@
         "word": "l'enfant",
         "partOfSpeech": "noun",
         "gender": null,
+        "forms": {
+          "masculine": "enfant",
+          "feminine": "enfant",
+          "masculinePlural": "enfants",
+          "femininePlural": "enfants"
+        },
         "pronunciation": "lon-fon",
         "meaning": "the child",
         "notes": "Can be masculine or feminine. Plural: les enfants.",
@@ -197,6 +257,12 @@
         "word": "le grand-père",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "grand-père",
+          "feminine": "grand-mère",
+          "masculinePlural": "grands-pères",
+          "femininePlural": "grands-mères"
+        },
         "pronunciation": "luh gron-pair",
         "meaning": "the grandfather",
         "notes": "Informal: papy or papi. Plural: les grands-pères.",
@@ -216,6 +282,12 @@
         "word": "la grand-mère",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "grand-père",
+          "feminine": "grand-mère",
+          "masculinePlural": "grands-pères",
+          "femininePlural": "grands-mères"
+        },
         "pronunciation": "la gron-mair",
         "meaning": "the grandmother",
         "notes": "Informal: mamie. Plural: les grands-mères.",

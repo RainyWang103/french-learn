@@ -9,6 +9,12 @@
         "word": "la robe",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "robe",
+          "feminine": "robe",
+          "masculinePlural": "robes",
+          "femininePlural": "robes"
+        },
         "pronunciation": "la rob",
         "meaning": "the dress",
         "examples": [
@@ -27,6 +33,12 @@
         "word": "le pantalon",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pantalon",
+          "feminine": "pantalon",
+          "masculinePlural": "pantalons",
+          "femininePlural": "pantalons"
+        },
         "pronunciation": "luh pon-ta-lon",
         "meaning": "the trousers / the pants",
         "notes": "Always singular in French (le pantalon), unlike English 'trousers/pants'.",
@@ -46,6 +58,12 @@
         "word": "le chapeau",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "chapeau",
+          "feminine": "chapeau",
+          "masculinePlural": "chapeaux",
+          "femininePlural": "chapeaux"
+        },
         "pronunciation": "luh sha-po",
         "meaning": "the hat",
         "notes": "Plural: les chapeaux (add -x, not -s).",
@@ -65,6 +83,12 @@
         "word": "rouge",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "rouge",
+          "feminine": "rouge",
+          "masculinePlural": "rouges",
+          "femininePlural": "rouges"
+        },
         "pronunciation": "roozh",
         "meaning": "red",
         "notes": "Same form for masculine and feminine: un sac rouge, une robe rouge.",
@@ -84,6 +108,12 @@
         "word": "blanc",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "blanc",
+          "feminine": "blanche",
+          "masculinePlural": "blancs",
+          "femininePlural": "blanches"
+        },
         "pronunciation": "blon",
         "meaning": "white",
         "notes": "Feminine form: blanche. Blanc → blanche is an irregular change.",
@@ -105,6 +135,12 @@
         "word": "la robe",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "robe",
+          "feminine": "robe",
+          "masculinePlural": "robes",
+          "femininePlural": "robes"
+        },
         "pronunciation": "la rob",
         "meaning": "the dress",
         "examples": [
@@ -123,6 +159,12 @@
         "word": "le pantalon",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pantalon",
+          "feminine": "pantalon",
+          "masculinePlural": "pantalons",
+          "femininePlural": "pantalons"
+        },
         "pronunciation": "luh pon-ta-lon",
         "meaning": "the trousers / the pants",
         "notes": "Always singular in French (le pantalon), unlike English 'trousers/pants'.",
@@ -142,6 +184,12 @@
         "word": "le chapeau",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "chapeau",
+          "feminine": "chapeau",
+          "masculinePlural": "chapeaux",
+          "femininePlural": "chapeaux"
+        },
         "pronunciation": "luh sha-po",
         "meaning": "the hat",
         "notes": "Plural: les chapeaux (add -x, not -s).",
@@ -161,6 +209,12 @@
         "word": "rouge",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "rouge",
+          "feminine": "rouge",
+          "masculinePlural": "rouges",
+          "femininePlural": "rouges"
+        },
         "pronunciation": "roozh",
         "meaning": "red",
         "notes": "Same form for masculine and feminine: un sac rouge, une robe rouge.",
@@ -180,6 +234,12 @@
         "word": "blanc",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "blanc",
+          "feminine": "blanche",
+          "masculinePlural": "blancs",
+          "femininePlural": "blanches"
+        },
         "pronunciation": "blon",
         "meaning": "white",
         "notes": "Feminine form: blanche. Blanc → blanche is an irregular change.",
@@ -199,6 +259,12 @@
         "word": "les chaussures",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chaussure",
+          "feminine": "chaussure",
+          "masculinePlural": "chaussures",
+          "femininePlural": "chaussures"
+        },
         "pronunciation": "lay show-sur",
         "meaning": "the shoes",
         "notes": "Usually plural. Singular: la chaussure (one shoe).",
@@ -218,6 +284,12 @@
         "word": "le manteau",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "manteau",
+          "feminine": "manteau",
+          "masculinePlural": "manteaux",
+          "femininePlural": "manteaux"
+        },
         "pronunciation": "luh mon-to",
         "meaning": "the coat",
         "notes": "Plural: les manteaux (add -x). Worn in cold weather.",
