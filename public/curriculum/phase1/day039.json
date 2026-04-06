@@ -257,35 +257,35 @@
     "standard": {
       "dialogue": [
         [
-          "touriste",
+          "A",
           "Excusez-moi, je viens d'arriver en ville. Où est la gare, s'il vous plaît ?"
         ],
         [
-          "local",
+          "B",
           "La gare ? Vous allez tout droit jusqu'au carrefour."
         ],
         [
-          "touriste",
+          "A",
           "Jusqu'au carrefour — d'accord. Et ensuite ?"
         ],
         [
-          "local",
+          "B",
           "Ensuite, vous tournez à gauche. La gare est à droite, après deux cents mètres."
         ],
         [
-          "touriste",
+          "A",
           "À gauche, puis à droite. Je comprends. Vous avez un plan ?"
         ],
         [
-          "local",
+          "B",
           "Désolé, je n'ai pas de plan. Mais c'est simple — dix minutes à pied."
         ],
         [
-          "touriste",
+          "A",
           "Dans quelle direction exactement ? Nord, sud ?"
         ],
         [
-          "local",
+          "B",
           "Vers le nord. Suivez la direction 'Gare centrale'."
         ]
       ],
@@ -323,35 +323,35 @@
     "advanced": {
       "dialogue": [
         [
-          "touriste",
+          "A",
           "Pardon — je viens d'arriver et je cherche la pharmacie la plus proche."
         ],
         [
-          "local",
+          "B",
           "La pharmacie ? Vous venez d'où — de la gare ?"
         ],
         [
-          "touriste",
+          "A",
           "Oui, je viens de la gare. J'ai marché cinq minutes."
         ],
         [
-          "local",
+          "B",
           "D'accord. Continuez tout droit jusqu'au feu rouge, puis traversez la place."
         ],
         [
-          "touriste",
+          "A",
           "Je traverse la place — et ensuite ?"
         ],
         [
-          "local",
+          "B",
           "Ensuite, prenez la direction du marché. Tournez à droite au plan de la ville."
         ],
         [
-          "touriste",
+          "A",
           "À droite au plan — c'est loin ?"
         ],
         [
-          "local",
+          "B",
           "Non, la pharmacie est à gauche, à deux minutes. Vous ne pouvez pas la manquer."
         ]
       ],

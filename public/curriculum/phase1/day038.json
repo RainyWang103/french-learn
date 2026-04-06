@@ -269,7 +269,7 @@
           "Oui, c'est ça. Vous, vous pouvez peser les pommes, s'il vous plaît ?"
         ],
         [
-          "vendeur",
+          "B",
           "Bien sûr. Un kilo de pommes — voilà !"
         ],
         [
@@ -277,7 +277,7 @@
           "Merci. Et ces fraises — elles sont fraîches ?"
         ],
         [
-          "vendeur",
+          "B",
           "Très fraîches, madame. Ramassées ce matin."
         ],
         [
@@ -331,7 +331,7 @@
           "Oui, moi je prends les pommes et les fraises. Elles sont fraîches ?"
         ],
         [
-          "vendeur",
+          "B",
           "Très fraîches — ramassées ce matin. Je vous pèse combien de kilos ?"
         ],
         [
@@ -343,7 +343,7 @@
           "Oui, lui il apporte les sacs. Nous, on n'a qu'un panier !"
         ],
         [
-          "vendeur",
+          "B",
           "Voilà votre reçu. Vous voulez passer à la caisse maintenant ?"
         ],
         [
