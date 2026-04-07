@@ -9,17 +9,17 @@
         "word": "se réveiller",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je me réveille",
+          "tu": "tu te réveilles",
+          "il": "il/elle/on se réveille",
+          "nous": "nous nous réveillons",
+          "vous": "vous vous réveillez",
+          "ils": "ils/elles se réveillent"
+        },
         "pronunciation": "suh ray-vay-yay",
         "meaning": "to wake up",
         "notes": "Reflexive verb — always used with me/te/se etc.",
-        "conjugation": {
-          "je": "me réveille",
-          "tu": "te réveilles",
-          "il/elle": "se réveille",
-          "nous": "nous réveillons",
-          "vous": "vous réveillez",
-          "ils/elles": "se réveillent"
-        },
         "examples": [
           [
             "Je me réveille à sept heures.",
@@ -36,6 +36,12 @@
         "word": "le matin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "matin",
+          "feminine": "matin",
+          "masculinePlural": "matins",
+          "femininePlural": "matins"
+        },
         "pronunciation": "luh ma-tan",
         "meaning": "the morning",
         "examples": [
@@ -54,6 +60,12 @@
         "word": "le lit",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "lit",
+          "feminine": "lit",
+          "masculinePlural": "lits",
+          "femininePlural": "lits"
+        },
         "pronunciation": "luh lee",
         "meaning": "the bed",
         "examples": [
@@ -72,6 +84,12 @@
         "word": "fatigué",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "fatigué",
+          "feminine": "fatiguée",
+          "masculinePlural": "fatigués",
+          "femininePlural": "fatiguées"
+        },
         "pronunciation": "fa-tee-gay",
         "meaning": "tired",
         "notes": "Add -e for feminine: fatiguée",
@@ -91,17 +109,17 @@
         "word": "dormir",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je dors",
+          "tu": "tu dors",
+          "il": "il/elle/on dort",
+          "nous": "nous dormons",
+          "vous": "vous dormez",
+          "ils": "ils/elles dorment"
+        },
         "pronunciation": "dor-meer",
         "meaning": "to sleep",
         "notes": "Irregular verb — stem changes in singular forms",
-        "conjugation": {
-          "je": "dors",
-          "tu": "dors",
-          "il/elle": "dort",
-          "nous": "dormons",
-          "vous": "dormez",
-          "ils/elles": "dorment"
-        },
         "examples": [
           [
             "Je dors huit heures.",
@@ -120,17 +138,17 @@
         "word": "se réveiller",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je me réveille",
+          "tu": "tu te réveilles",
+          "il": "il/elle/on se réveille",
+          "nous": "nous nous réveillons",
+          "vous": "vous vous réveillez",
+          "ils": "ils/elles se réveillent"
+        },
         "pronunciation": "suh ray-vay-yay",
         "meaning": "to wake up",
         "notes": "Reflexive verb — always used with me/te/se etc.",
-        "conjugation": {
-          "je": "me réveille",
-          "tu": "te réveilles",
-          "il/elle": "se réveille",
-          "nous": "nous réveillons",
-          "vous": "vous réveillez",
-          "ils/elles": "se réveillent"
-        },
         "examples": [
           [
             "Je me réveille à sept heures.",
@@ -147,6 +165,12 @@
         "word": "le matin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "matin",
+          "feminine": "matin",
+          "masculinePlural": "matins",
+          "femininePlural": "matins"
+        },
         "pronunciation": "luh ma-tan",
         "meaning": "the morning",
         "examples": [
@@ -165,6 +189,12 @@
         "word": "le lit",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "lit",
+          "feminine": "lit",
+          "masculinePlural": "lits",
+          "femininePlural": "lits"
+        },
         "pronunciation": "luh lee",
         "meaning": "the bed",
         "examples": [
@@ -183,6 +213,12 @@
         "word": "fatigué",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "fatigué",
+          "feminine": "fatiguée",
+          "masculinePlural": "fatigués",
+          "femininePlural": "fatiguées"
+        },
         "pronunciation": "fa-tee-gay",
         "meaning": "tired",
         "notes": "Add -e for feminine: fatiguée",
@@ -202,17 +238,17 @@
         "word": "dormir",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je dors",
+          "tu": "tu dors",
+          "il": "il/elle/on dort",
+          "nous": "nous dormons",
+          "vous": "vous dormez",
+          "ils": "ils/elles dorment"
+        },
         "pronunciation": "dor-meer",
         "meaning": "to sleep",
         "notes": "Irregular verb — stem changes in singular forms",
-        "conjugation": {
-          "je": "dors",
-          "tu": "dors",
-          "il/elle": "dort",
-          "nous": "dormons",
-          "vous": "dormez",
-          "ils/elles": "dorment"
-        },
         "examples": [
           [
             "Je dors huit heures.",
@@ -229,6 +265,12 @@
         "word": "tôt",
         "partOfSpeech": "adverb",
         "gender": null,
+        "forms": {
+          "masculine": "tôt",
+          "feminine": "tôt",
+          "masculinePlural": "tôt",
+          "femininePlural": "tôt"
+        },
         "pronunciation": "toh",
         "meaning": "early",
         "notes": "Opposite: tard (late)",
@@ -248,6 +290,12 @@
         "word": "le réveil",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "réveil",
+          "feminine": "réveil",
+          "masculinePlural": "réveils",
+          "femininePlural": "réveils"
+        },
         "pronunciation": "luh ray-vay",
         "meaning": "the alarm clock",
         "notes": "Same root as se réveiller",

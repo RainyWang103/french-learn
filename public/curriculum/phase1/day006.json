@@ -9,6 +9,12 @@
         "word": "la cuisine",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "cuisine",
+          "feminine": "cuisine",
+          "masculinePlural": "cuisines",
+          "femininePlural": "cuisines"
+        },
         "pronunciation": "la kwee-zeen",
         "meaning": "the kitchen",
         "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
@@ -28,6 +34,12 @@
         "word": "la chambre",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chambre",
+          "feminine": "chambre",
+          "masculinePlural": "chambres",
+          "femininePlural": "chambres"
+        },
         "pronunciation": "la shom-bruh",
         "meaning": "the bedroom",
         "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
@@ -47,6 +59,12 @@
         "word": "la table",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "table",
+          "feminine": "table",
+          "masculinePlural": "tables",
+          "femininePlural": "tables"
+        },
         "pronunciation": "la tah-bluh",
         "meaning": "the table",
         "examples": [
@@ -65,6 +83,12 @@
         "word": "la chaise",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chaise",
+          "feminine": "chaise",
+          "masculinePlural": "chaises",
+          "femininePlural": "chaises"
+        },
         "pronunciation": "la shehz",
         "meaning": "the chair",
         "examples": [
@@ -83,6 +107,12 @@
         "word": "la fenêtre",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "fenêtre",
+          "feminine": "fenêtre",
+          "masculinePlural": "fenêtres",
+          "femininePlural": "fenêtres"
+        },
         "pronunciation": "la fuh-neh-truh",
         "meaning": "the window",
         "examples": [
@@ -103,6 +133,12 @@
         "word": "la cuisine",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "cuisine",
+          "feminine": "cuisine",
+          "masculinePlural": "cuisines",
+          "femininePlural": "cuisines"
+        },
         "pronunciation": "la kwee-zeen",
         "meaning": "the kitchen",
         "notes": "Also means 'cooking' in some contexts: faire la cuisine (to cook).",
@@ -122,6 +158,12 @@
         "word": "la chambre",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chambre",
+          "feminine": "chambre",
+          "masculinePlural": "chambres",
+          "femininePlural": "chambres"
+        },
         "pronunciation": "la shom-bruh",
         "meaning": "the bedroom",
         "notes": "Full form: la chambre à coucher (the bedroom for sleeping).",
@@ -141,6 +183,12 @@
         "word": "la table",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "table",
+          "feminine": "table",
+          "masculinePlural": "tables",
+          "femininePlural": "tables"
+        },
         "pronunciation": "la tah-bluh",
         "meaning": "the table",
         "examples": [
@@ -159,6 +207,12 @@
         "word": "la chaise",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chaise",
+          "feminine": "chaise",
+          "masculinePlural": "chaises",
+          "femininePlural": "chaises"
+        },
         "pronunciation": "la shehz",
         "meaning": "the chair",
         "examples": [
@@ -177,6 +231,12 @@
         "word": "la fenêtre",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "fenêtre",
+          "feminine": "fenêtre",
+          "masculinePlural": "fenêtres",
+          "femininePlural": "fenêtres"
+        },
         "pronunciation": "la fuh-neh-truh",
         "meaning": "the window",
         "examples": [
@@ -195,6 +255,12 @@
         "word": "le salon",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "salon",
+          "feminine": "salon",
+          "masculinePlural": "salons",
+          "femininePlural": "salons"
+        },
         "pronunciation": "luh sa-lon",
         "meaning": "the living room",
         "examples": [
@@ -213,6 +279,12 @@
         "word": "le canapé",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "canapé",
+          "feminine": "canapé",
+          "masculinePlural": "canapés",
+          "femininePlural": "canapés"
+        },
         "pronunciation": "luh ka-na-pay",
         "meaning": "the sofa / couch",
         "examples": [

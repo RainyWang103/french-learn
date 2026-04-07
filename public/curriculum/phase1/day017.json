@@ -9,6 +9,12 @@
         "word": "le restaurant",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "restaurant",
+          "feminine": "restaurant",
+          "masculinePlural": "restaurants",
+          "femininePlural": "restaurants"
+        },
         "pronunciation": "luh res-toh-RAHN",
         "meaning": "the restaurant",
         "notes": "Used the same way as in English — a place to eat out.",
@@ -28,6 +34,12 @@
         "word": "le serveur",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "serveur",
+          "feminine": "serveuse",
+          "masculinePlural": "serveurs",
+          "femininePlural": "serveuses"
+        },
         "pronunciation": "luh sehr-VUR",
         "meaning": "the waiter",
         "notes": "The feminine form is 'la serveuse' (the waitress).",
@@ -47,6 +59,12 @@
         "word": "le plat",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "plat",
+          "feminine": "plat",
+          "masculinePlural": "plats",
+          "femininePlural": "plats"
+        },
         "pronunciation": "luh PLAH",
         "meaning": "the dish / the main course",
         "notes": "'Le plat du jour' means 'the dish of the day' — very common in French restaurants.",
@@ -66,6 +84,12 @@
         "word": "l'entrée",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "entrée",
+          "feminine": "entrée",
+          "masculinePlural": "entrées",
+          "femininePlural": "entrées"
+        },
         "pronunciation": "lahn-TRAY",
         "meaning": "the starter / the first course",
         "notes": "In France, 'l'entrée' is the starter (first course), not the main — opposite of American English usage.",
@@ -85,6 +109,12 @@
         "word": "le dessert",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "dessert",
+          "feminine": "dessert",
+          "masculinePlural": "desserts",
+          "femininePlural": "desserts"
+        },
         "pronunciation": "luh deh-ZEHR",
         "meaning": "the dessert",
         "notes": "Spelled and pronounced similarly to English, but note the double 's'.",
@@ -106,6 +136,12 @@
         "word": "le restaurant",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "restaurant",
+          "feminine": "restaurant",
+          "masculinePlural": "restaurants",
+          "femininePlural": "restaurants"
+        },
         "pronunciation": "luh res-toh-RAHN",
         "meaning": "the restaurant",
         "notes": "Used the same way as in English — a place to eat out.",
@@ -125,6 +161,12 @@
         "word": "le serveur",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "serveur",
+          "feminine": "serveuse",
+          "masculinePlural": "serveurs",
+          "femininePlural": "serveuses"
+        },
         "pronunciation": "luh sehr-VUR",
         "meaning": "the waiter",
         "notes": "The feminine form is 'la serveuse' (the waitress).",
@@ -144,6 +186,12 @@
         "word": "le plat",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "plat",
+          "feminine": "plat",
+          "masculinePlural": "plats",
+          "femininePlural": "plats"
+        },
         "pronunciation": "luh PLAH",
         "meaning": "the dish / the main course",
         "notes": "'Le plat du jour' means 'the dish of the day' — very common in French restaurants.",
@@ -163,6 +211,12 @@
         "word": "l'entrée",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "entrée",
+          "feminine": "entrée",
+          "masculinePlural": "entrées",
+          "femininePlural": "entrées"
+        },
         "pronunciation": "lahn-TRAY",
         "meaning": "the starter / the first course",
         "notes": "In France, 'l'entrée' is the starter (first course), not the main — opposite of American English usage.",
@@ -182,6 +236,12 @@
         "word": "le dessert",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "dessert",
+          "feminine": "dessert",
+          "masculinePlural": "desserts",
+          "femininePlural": "desserts"
+        },
         "pronunciation": "luh deh-ZEHR",
         "meaning": "the dessert",
         "notes": "Spelled and pronounced similarly to English, but note the double 's'.",
@@ -201,6 +261,12 @@
         "word": "l'addition",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "addition",
+          "feminine": "addition",
+          "masculinePlural": "additions",
+          "femininePlural": "additions"
+        },
         "pronunciation": "lah-dee-SYOHN",
         "meaning": "the bill (at a restaurant)",
         "notes": "'L'addition, s'il vous plaît' is the standard way to ask for the bill. Do not say 'la facture' in a restaurant context — that is for invoices.",
@@ -220,6 +286,12 @@
         "word": "le pourboire",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pourboire",
+          "feminine": "pourboire",
+          "masculinePlural": "pourboires",
+          "femininePlural": "pourboires"
+        },
         "pronunciation": "luh poor-BWAHR",
         "meaning": "the tip (gratuity)",
         "notes": "Tipping is less obligatory in France than in some other countries, as service is often included ('service compris'). Leaving a small tip is appreciated but not expected.",

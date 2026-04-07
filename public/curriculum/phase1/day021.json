@@ -9,6 +9,12 @@
         "word": "le sport",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "sport",
+          "feminine": "sport",
+          "masculinePlural": "sports",
+          "femininePlural": "sports"
+        },
         "pronunciation": "luh spor",
         "meaning": "sport / sports",
         "notes": "Used as a general uncountable noun in French, e.g. 'faire du sport' (to do sport/exercise).",
@@ -28,6 +34,12 @@
         "word": "la lecture",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "lecture",
+          "feminine": "lecture",
+          "masculinePlural": "lectures",
+          "femininePlural": "lectures"
+        },
         "pronunciation": "la lek-tür",
         "meaning": "reading",
         "notes": "Refers to the activity of reading. 'Un livre' is a book; 'la lecture' is the act of reading.",
@@ -47,6 +59,12 @@
         "word": "le dessin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "dessin",
+          "feminine": "dessin",
+          "masculinePlural": "dessins",
+          "femininePlural": "dessins"
+        },
         "pronunciation": "luh deh-san",
         "meaning": "drawing",
         "notes": "Refers both to the activity (drawing) and the product (a drawing/sketch). 'Faire du dessin' = to draw as a hobby.",
@@ -66,17 +84,17 @@
         "word": "jouer",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je joue",
+          "tu": "tu joues",
+          "il": "il/elle/on joue",
+          "nous": "nous jouons",
+          "vous": "vous jouez",
+          "ils": "ils/elles jouent"
+        },
         "pronunciation": "zhoo-ay",
         "meaning": "to play",
         "notes": "Used with 'à' for sports and games (jouer au football), and with 'de' for musical instruments (jouer de la guitare).",
-        "conjugation": {
-          "je": "joue",
-          "tu": "joues",
-          "il/elle": "joue",
-          "nous": "jouons",
-          "vous": "jouez",
-          "ils/elles": "jouent"
-        },
         "examples": [
           [
             "On joue au foot dans le parc.",
@@ -93,6 +111,12 @@
         "word": "la chanson",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chanson",
+          "feminine": "chanson",
+          "masculinePlural": "chansons",
+          "femininePlural": "chansons"
+        },
         "pronunciation": "la shan-son",
         "meaning": "the song",
         "notes": "'La chanson' is specifically a song with lyrics. 'La musique' is music in general.",
@@ -114,6 +138,12 @@
         "word": "le sport",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "sport",
+          "feminine": "sport",
+          "masculinePlural": "sports",
+          "femininePlural": "sports"
+        },
         "pronunciation": "luh spor",
         "meaning": "sport / sports",
         "notes": "Used as a general uncountable noun in French, e.g. 'faire du sport' (to do sport/exercise).",
@@ -133,6 +163,12 @@
         "word": "la lecture",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "lecture",
+          "feminine": "lecture",
+          "masculinePlural": "lectures",
+          "femininePlural": "lectures"
+        },
         "pronunciation": "la lek-tür",
         "meaning": "reading",
         "notes": "Refers to the activity of reading. 'Un livre' is a book; 'la lecture' is the act of reading.",
@@ -152,6 +188,12 @@
         "word": "le dessin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "dessin",
+          "feminine": "dessin",
+          "masculinePlural": "dessins",
+          "femininePlural": "dessins"
+        },
         "pronunciation": "luh deh-san",
         "meaning": "drawing",
         "notes": "Refers both to the activity (drawing) and the product (a drawing/sketch). 'Faire du dessin' = to draw as a hobby.",
@@ -171,17 +213,17 @@
         "word": "jouer",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je joue",
+          "tu": "tu joues",
+          "il": "il/elle/on joue",
+          "nous": "nous jouons",
+          "vous": "vous jouez",
+          "ils": "ils/elles jouent"
+        },
         "pronunciation": "zhoo-ay",
         "meaning": "to play",
         "notes": "Used with 'à' for sports and games (jouer au football), and with 'de' for musical instruments (jouer de la guitare).",
-        "conjugation": {
-          "je": "joue",
-          "tu": "joues",
-          "il/elle": "joue",
-          "nous": "jouons",
-          "vous": "jouez",
-          "ils/elles": "jouent"
-        },
         "examples": [
           [
             "On joue au foot dans le parc.",
@@ -198,6 +240,12 @@
         "word": "la chanson",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "chanson",
+          "feminine": "chanson",
+          "masculinePlural": "chansons",
+          "femininePlural": "chansons"
+        },
         "pronunciation": "la shan-son",
         "meaning": "the song",
         "notes": "'La chanson' is specifically a song with lyrics. 'La musique' is music in general.",
@@ -217,6 +265,12 @@
         "word": "la randonnée",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "randonnée",
+          "feminine": "randonnée",
+          "masculinePlural": "randonnées",
+          "femininePlural": "randonnées"
+        },
         "pronunciation": "la ran-do-nay",
         "meaning": "hiking / a hike",
         "notes": "'Faire une randonnée' means to go on a hike. 'La randonnée pédestre' specifies walking/hiking on foot.",
@@ -236,6 +290,12 @@
         "word": "la peinture",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "peinture",
+          "feminine": "peinture",
+          "masculinePlural": "peintures",
+          "femininePlural": "peintures"
+        },
         "pronunciation": "la pan-tür",
         "meaning": "painting",
         "notes": "Can mean the activity (painting as a hobby), the medium (paint), or the finished artwork (a painting). Context distinguishes the meaning.",
@@ -291,31 +351,31 @@
       ],
       "questions": [
         {
-          "question": "What is Lucas's hobby?",
+          "question": "Quel est le loisir de Lucas ?",
           "options": [
-            "Playing guitar",
-            "Hiking",
-            "Drawing"
+            "Jouer de la guitare",
+            "Faire de la randonnée",
+            "Faire du dessin"
           ],
-          "correctAnswer": "Playing guitar"
+          "correctAnswer": "Jouer de la guitare"
         },
         {
-          "question": "What are Camille's two hobbies?",
+          "question": "Quels sont les deux loisirs de Camille ?",
           "options": [
-            "Guitar and drawing",
-            "Hiking and drawing",
-            "Hiking and singing"
+            "La guitare et le dessin",
+            "La randonnée et le dessin",
+            "La randonnée et le chant"
           ],
-          "correctAnswer": "Hiking and drawing"
+          "correctAnswer": "La randonnée et le dessin"
         },
         {
-          "question": "What does Camille suggest at the end?",
+          "question": "Qu'est-ce que Camille propose à la fin ?",
           "options": [
-            "Going to a concert",
-            "Trying the hiking trail near the park",
-            "Drawing together at home"
+            "Aller à un concert",
+            "Essayer le sentier de randonnée près du parc",
+            "Faire du dessin ensemble à la maison"
           ],
-          "correctAnswer": "Trying the hiking trail near the park"
+          "correctAnswer": "Essayer le sentier de randonnée près du parc"
         }
       ],
       "summary": "Camille and Lucas meet at a party and discover they each have interesting hobbies. Lucas loves playing guitar, while Camille enjoys hiking and drawing. Camille mentions a nice trail nearby and invites Lucas to try it, and Lucas is keen to see her drawings too."
@@ -357,34 +417,34 @@
       ],
       "questions": [
         {
-          "question": "What two activities does Théo enjoy?",
+          "question": "Quelles sont les deux activités de Théo ?",
           "options": [
-            "Painting and tennis",
-            "Piano and tennis",
-            "Piano and hiking",
-            "Drawing and piano"
+            "La peinture et le tennis",
+            "Le piano et le tennis",
+            "Le piano et la randonnée",
+            "Le dessin et le piano"
           ],
-          "correctAnswer": "Piano and tennis"
+          "correctAnswer": "Le piano et le tennis"
         },
         {
-          "question": "What is Inès looking for in her new neighbourhood?",
+          "question": "Qu'est-ce qu'Inès cherche dans son nouveau quartier ?",
           "options": [
-            "A piano teacher",
-            "A tennis club",
-            "A group to explore the area",
-            "A painting class for beginners"
+            "Un professeur de piano",
+            "Un club de tennis",
+            "Un groupe pour explorer la région",
+            "Un cours de peinture pour débutants"
           ],
-          "correctAnswer": "A group to explore the area"
+          "correctAnswer": "Un groupe pour explorer la région"
         },
         {
-          "question": "When does the hiking club meet?",
+          "question": "Quand se réunit le club de randonnée ?",
           "options": [
-            "Friday evening",
-            "Sunday afternoon",
-            "Saturday morning",
-            "Wednesday morning"
+            "Le vendredi soir",
+            "Le dimanche après-midi",
+            "Le samedi matin",
+            "Le mercredi matin"
           ],
-          "correctAnswer": "Saturday morning"
+          "correctAnswer": "Le samedi matin"
         }
       ],
       "summary": "Théo and Inès meet as new acquaintances. Théo plays piano and enjoys tennis; Inès is a painter who loves hiking and wants to connect with local groups. Théo points her towards a hiking club and a community art studio, and they agree to go together. Inès also expresses interest in hearing Théo play piano."

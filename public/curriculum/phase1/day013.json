@@ -9,6 +9,12 @@
         "word": "le marché",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "marché",
+          "feminine": "marché",
+          "masculinePlural": "marchés",
+          "femininePlural": "marchés"
+        },
         "pronunciation": "luh mar-shay",
         "meaning": "the market",
         "examples": [
@@ -27,17 +33,17 @@
         "word": "acheter",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "j'achète",
+          "tu": "tu achètes",
+          "il": "il/elle/on achète",
+          "nous": "nous achetons",
+          "vous": "vous achetez",
+          "ils": "ils/elles achètent"
+        },
         "pronunciation": "ash-tay",
         "meaning": "to buy",
         "notes": "Stem change: j'achète (è in singular forms and ils/elles).",
-        "conjugation": {
-          "je": "achète",
-          "tu": "achètes",
-          "il/elle": "achète",
-          "nous": "achetons",
-          "vous": "achetez",
-          "ils/elles": "achètent"
-        },
         "examples": [
           [
             "J'achète des pommes au marché.",
@@ -54,6 +60,12 @@
         "word": "le prix",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "prix",
+          "feminine": "prix",
+          "masculinePlural": "prix",
+          "femininePlural": "prix"
+        },
         "pronunciation": "luh pree",
         "meaning": "the price",
         "notes": "The final 'x' is silent.",
@@ -73,6 +85,12 @@
         "word": "le vendeur",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "vendeur",
+          "feminine": "vendeuse",
+          "masculinePlural": "vendeurs",
+          "femininePlural": "vendeuses"
+        },
         "pronunciation": "luh von-dur",
         "meaning": "the seller / the shop assistant",
         "notes": "Feminine form: la vendeuse.",
@@ -92,6 +110,12 @@
         "word": "un kilo",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "kilo",
+          "feminine": "kilo",
+          "masculinePlural": "kilos",
+          "femininePlural": "kilos"
+        },
         "pronunciation": "an kee-lo",
         "meaning": "a kilogram",
         "notes": "Short for kilogramme. Used with 'de': un kilo de pommes.",
@@ -113,6 +137,12 @@
         "word": "le marché",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "marché",
+          "feminine": "marché",
+          "masculinePlural": "marchés",
+          "femininePlural": "marchés"
+        },
         "pronunciation": "luh mar-shay",
         "meaning": "the market",
         "examples": [
@@ -131,17 +161,17 @@
         "word": "acheter",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "j'achète",
+          "tu": "tu achètes",
+          "il": "il/elle/on achète",
+          "nous": "nous achetons",
+          "vous": "vous achetez",
+          "ils": "ils/elles achètent"
+        },
         "pronunciation": "ash-tay",
         "meaning": "to buy",
         "notes": "Stem change: j'achète (è in singular forms and ils/elles).",
-        "conjugation": {
-          "je": "achète",
-          "tu": "achètes",
-          "il/elle": "achète",
-          "nous": "achetons",
-          "vous": "achetez",
-          "ils/elles": "achètent"
-        },
         "examples": [
           [
             "J'achète des pommes au marché.",
@@ -158,6 +188,12 @@
         "word": "le prix",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "prix",
+          "feminine": "prix",
+          "masculinePlural": "prix",
+          "femininePlural": "prix"
+        },
         "pronunciation": "luh pree",
         "meaning": "the price",
         "notes": "The final 'x' is silent.",
@@ -177,6 +213,12 @@
         "word": "le vendeur",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "vendeur",
+          "feminine": "vendeuse",
+          "masculinePlural": "vendeurs",
+          "femininePlural": "vendeuses"
+        },
         "pronunciation": "luh von-dur",
         "meaning": "the seller / the shop assistant",
         "notes": "Feminine form: la vendeuse.",
@@ -196,6 +238,12 @@
         "word": "un kilo",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "kilo",
+          "feminine": "kilo",
+          "masculinePlural": "kilos",
+          "femininePlural": "kilos"
+        },
         "pronunciation": "an kee-lo",
         "meaning": "a kilogram",
         "notes": "Short for kilogramme. Used with 'de': un kilo de pommes.",
@@ -215,6 +263,12 @@
         "word": "la monnaie",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "monnaie",
+          "feminine": "monnaie",
+          "masculinePlural": "monnaies",
+          "femininePlural": "monnaies"
+        },
         "pronunciation": "la mo-nay",
         "meaning": "the change (money) / coins",
         "notes": "Also means currency. 'Faire la monnaie' = to make change.",
@@ -234,6 +288,12 @@
         "word": "le sac",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "sac",
+          "feminine": "sac",
+          "masculinePlural": "sacs",
+          "femininePlural": "sacs"
+        },
         "pronunciation": "luh sak",
         "meaning": "the bag",
         "notes": "Le sac à main = handbag. Le sac en plastique = plastic bag.",

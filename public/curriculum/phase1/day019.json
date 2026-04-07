@@ -9,6 +9,12 @@
         "word": "la tête",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "tête",
+          "feminine": "tête",
+          "masculinePlural": "têtes",
+          "femininePlural": "têtes"
+        },
         "pronunciation": "lah tet",
         "meaning": "the head",
         "notes": "Used in the common expression 'avoir mal à la tête' (to have a headache).",
@@ -28,6 +34,12 @@
         "word": "le bras",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "bras",
+          "feminine": "bras",
+          "masculinePlural": "bras",
+          "femininePlural": "bras"
+        },
         "pronunciation": "luh brah",
         "meaning": "the arm",
         "notes": "The final 's' is silent. Plural is also 'les bras'.",
@@ -47,6 +59,12 @@
         "word": "le ventre",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "ventre",
+          "feminine": "ventre",
+          "masculinePlural": "ventres",
+          "femininePlural": "ventres"
+        },
         "pronunciation": "luh vahn-truh",
         "meaning": "the stomach / belly",
         "notes": "Refers to the belly or abdomen. 'Avoir mal au ventre' means to have a stomachache.",
@@ -66,6 +84,12 @@
         "word": "malade",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "malade",
+          "feminine": "malade",
+          "masculinePlural": "malades",
+          "femininePlural": "malades"
+        },
         "pronunciation": "mah-lahd",
         "meaning": "sick / ill",
         "notes": "Same form for masculine and feminine. Can also be used as a noun: 'un malade / une malade' (a sick person).",
@@ -85,6 +109,12 @@
         "word": "le médecin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "médecin",
+          "feminine": "médecin",
+          "masculinePlural": "médecins",
+          "femininePlural": "médecins"
+        },
         "pronunciation": "luh may-duh-san",
         "meaning": "the doctor",
         "notes": "Grammatically masculine even when referring to a female doctor, though 'la médecin' is increasingly accepted. 'Aller chez le médecin' means to go to the doctor.",
@@ -106,6 +136,12 @@
         "word": "la tête",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "tête",
+          "feminine": "tête",
+          "masculinePlural": "têtes",
+          "femininePlural": "têtes"
+        },
         "pronunciation": "lah tet",
         "meaning": "the head",
         "notes": "Used in the common expression 'avoir mal à la tête' (to have a headache).",
@@ -125,6 +161,12 @@
         "word": "le bras",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "bras",
+          "feminine": "bras",
+          "masculinePlural": "bras",
+          "femininePlural": "bras"
+        },
         "pronunciation": "luh brah",
         "meaning": "the arm",
         "notes": "The final 's' is silent. Plural is also 'les bras'.",
@@ -144,6 +186,12 @@
         "word": "le ventre",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "ventre",
+          "feminine": "ventre",
+          "masculinePlural": "ventres",
+          "femininePlural": "ventres"
+        },
         "pronunciation": "luh vahn-truh",
         "meaning": "the stomach / belly",
         "notes": "Refers to the belly or abdomen. 'Avoir mal au ventre' means to have a stomachache.",
@@ -163,6 +211,12 @@
         "word": "malade",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "malade",
+          "feminine": "malade",
+          "masculinePlural": "malades",
+          "femininePlural": "malades"
+        },
         "pronunciation": "mah-lahd",
         "meaning": "sick / ill",
         "notes": "Same form for masculine and feminine. Can also be used as a noun: 'un malade / une malade' (a sick person).",
@@ -182,6 +236,12 @@
         "word": "le médecin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "médecin",
+          "feminine": "médecin",
+          "masculinePlural": "médecins",
+          "femininePlural": "médecins"
+        },
         "pronunciation": "luh may-duh-san",
         "meaning": "the doctor",
         "notes": "Grammatically masculine even when referring to a female doctor, though 'la médecin' is increasingly accepted. 'Aller chez le médecin' means to go to the doctor.",
@@ -201,6 +261,12 @@
         "word": "la fièvre",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "fièvre",
+          "feminine": "fièvre",
+          "masculinePlural": "fièvres",
+          "femininePlural": "fièvres"
+        },
         "pronunciation": "lah fyev-ruh",
         "meaning": "the fever",
         "notes": "'Avoir de la fièvre' means to have a fever. You can specify severity: 'une forte fièvre' (a high fever).",
@@ -220,6 +286,12 @@
         "word": "le médicament",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "médicament",
+          "feminine": "médicament",
+          "masculinePlural": "médicaments",
+          "femininePlural": "médicaments"
+        },
         "pronunciation": "luh may-dee-kah-mahn",
         "meaning": "the medicine / medication",
         "notes": "'Prendre un médicament' means to take a medicine. Note: in French you go to 'la pharmacie' to buy medicines.",
@@ -275,31 +347,31 @@
       ],
       "questions": [
         {
-          "question": "What symptoms does the patient have?",
+          "question": "Quels symptômes a le patient ?",
           "options": [
-            "A headache and stomachache",
-            "A sore arm and fever",
-            "A stomachache only"
+            "Mal à la tête et au ventre",
+            "Mal au bras et de la fièvre",
+            "Seulement mal au ventre"
           ],
-          "correctAnswer": "A headache and stomachache"
+          "correctAnswer": "Mal à la tête et au ventre"
         },
         {
-          "question": "How long has the patient been feeling unwell?",
+          "question": "Depuis quand le patient ne se sent-il pas bien ?",
           "options": [
-            "Since this morning",
-            "Since yesterday evening",
-            "For two days"
+            "Depuis ce matin",
+            "Depuis hier soir",
+            "Depuis deux jours"
           ],
-          "correctAnswer": "Since yesterday evening"
+          "correctAnswer": "Depuis hier soir"
         },
         {
-          "question": "What does the doctor recommend?",
+          "question": "Que recommande le médecin ?",
           "options": [
-            "Go to the hospital immediately",
-            "Take medication and rest",
-            "Stop eating for a day"
+            "Aller à l'hôpital tout de suite",
+            "Prendre un médicament et se reposer",
+            "Ne pas manger pendant une journée"
           ],
-          "correctAnswer": "Take medication and rest"
+          "correctAnswer": "Prendre un médicament et se reposer"
         }
       ],
       "summary": "A patient visits the doctor with a headache and stomachache that started the previous evening. The patient also has a mild fever and has not been eating. The doctor prescribes medication and advises the patient to rest and drink plenty of water."
@@ -341,34 +413,34 @@
       ],
       "questions": [
         {
-          "question": "How long has the patient been experiencing symptoms?",
+          "question": "Depuis combien de temps le patient a-t-il des symptômes ?",
           "options": [
-            "One day",
-            "Two days",
-            "Three days",
-            "A week"
+            "Un jour",
+            "Deux jours",
+            "Trois jours",
+            "Une semaine"
           ],
-          "correctAnswer": "Three days"
+          "correctAnswer": "Trois jours"
         },
         {
-          "question": "Which of these statements about the patient is true?",
+          "question": "Quelle affirmation sur le patient est vraie ?",
           "options": [
-            "The patient has taken antibiotics before",
-            "The patient has a known allergy",
-            "The patient has a fever of 39 degrees",
-            "The patient has pain only in the head"
+            "Le patient a déjà pris des antibiotiques",
+            "Le patient a une allergie connue",
+            "Le patient a une fièvre de trente-neuf degrés",
+            "Le patient a seulement mal à la tête"
           ],
-          "correctAnswer": "The patient has a fever of 39 degrees"
+          "correctAnswer": "Le patient a une fièvre de trente-neuf degrés"
         },
         {
-          "question": "What instructions does the doctor give?",
+          "question": "Quelles instructions donne le médecin ?",
           "options": [
-            "Take medication once a day for a week",
-            "Take medication twice a day for five days and return if fever persists",
-            "Go to the hospital immediately",
-            "Rest for three days without medication"
+            "Prendre le médicament une fois par jour pendant une semaine",
+            "Prendre le médicament deux fois par jour pendant cinq jours et revenir si la fièvre persiste",
+            "Aller à l'hôpital tout de suite",
+            "Se reposer trois jours sans médicament"
           ],
-          "correctAnswer": "Take medication twice a day for five days and return if fever persists"
+          "correctAnswer": "Prendre le médicament deux fois par jour pendant cinq jours et revenir si la fièvre persiste"
         }
       ],
       "summary": "A patient arrives at the doctor having suffered from multiple symptoms — headache, stomachache, arm pain, and a high fever of 39 degrees — for three days. The patient has not been eating or sleeping. The doctor asks about prior medication and allergies, learns the patient has no allergies and has never taken antibiotics, then prescribes medication twice daily for five days with a follow-up if the fever does not improve."

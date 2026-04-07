@@ -9,17 +9,17 @@
         "word": "manger",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je mange",
+          "tu": "tu manges",
+          "il": "il/elle/on mange",
+          "nous": "nous mangeons",
+          "vous": "vous mangez",
+          "ils": "ils/elles mangent"
+        },
         "pronunciation": "mon-zhay",
         "meaning": "to eat",
         "notes": "Regular -ER verb. Note: nous mangeons (extra 'e' to keep soft 'g').",
-        "conjugation": {
-          "je": "mange",
-          "tu": "manges",
-          "il/elle": "mange",
-          "nous": "mangeons",
-          "vous": "mangez",
-          "ils/elles": "mangent"
-        },
         "examples": [
           [
             "Je mange à huit heures.",
@@ -36,17 +36,17 @@
         "word": "regarder",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je regarde",
+          "tu": "tu regardes",
+          "il": "il/elle/on regarde",
+          "nous": "nous regardons",
+          "vous": "vous regardez",
+          "ils": "ils/elles regardent"
+        },
         "pronunciation": "ruh-gar-day",
         "meaning": "to watch / to look at",
         "notes": "Regular -ER verb. Direct object — no preposition needed.",
-        "conjugation": {
-          "je": "regarde",
-          "tu": "regardes",
-          "il/elle": "regarde",
-          "nous": "regardons",
-          "vous": "regardez",
-          "ils/elles": "regardent"
-        },
         "examples": [
           [
             "Je regarde la télévision.",
@@ -63,17 +63,17 @@
         "word": "écouter",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "j'écoute",
+          "tu": "tu écoutes",
+          "il": "il/elle/on écoute",
+          "nous": "nous écoutons",
+          "vous": "vous écoutez",
+          "ils": "ils/elles écoutent"
+        },
         "pronunciation": "ay-koo-tay",
         "meaning": "to listen to",
         "notes": "Regular -ER verb. Direct object — no 'to' needed in French: j'écoute la radio (not *j'écoute à la radio).",
-        "conjugation": {
-          "je": "écoute",
-          "tu": "écoutes",
-          "il/elle": "écoute",
-          "nous": "écoutons",
-          "vous": "écoutez",
-          "ils/elles": "écoutent"
-        },
         "examples": [
           [
             "J'écoute de la musique.",
@@ -90,6 +90,12 @@
         "word": "la télévision",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "télévision",
+          "feminine": "télévision",
+          "masculinePlural": "télévisions",
+          "femininePlural": "télévisions"
+        },
         "pronunciation": "la tay-lay-vee-zyon",
         "meaning": "the television",
         "notes": "Often shortened to 'la télé' in spoken French.",
@@ -109,6 +115,12 @@
         "word": "le dîner",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "dîner",
+          "feminine": "dîner",
+          "masculinePlural": "dîners",
+          "femininePlural": "dîners"
+        },
         "pronunciation": "luh dee-nay",
         "meaning": "the dinner",
         "notes": "Also a verb: dîner (to have dinner).",
@@ -130,17 +142,17 @@
         "word": "manger",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je mange",
+          "tu": "tu manges",
+          "il": "il/elle/on mange",
+          "nous": "nous mangeons",
+          "vous": "vous mangez",
+          "ils": "ils/elles mangent"
+        },
         "pronunciation": "mon-zhay",
         "meaning": "to eat",
         "notes": "Regular -ER verb. Note: nous mangeons (extra 'e' to keep soft 'g').",
-        "conjugation": {
-          "je": "mange",
-          "tu": "manges",
-          "il/elle": "mange",
-          "nous": "mangeons",
-          "vous": "mangez",
-          "ils/elles": "mangent"
-        },
         "examples": [
           [
             "Je mange à huit heures.",
@@ -157,17 +169,17 @@
         "word": "regarder",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je regarde",
+          "tu": "tu regardes",
+          "il": "il/elle/on regarde",
+          "nous": "nous regardons",
+          "vous": "vous regardez",
+          "ils": "ils/elles regardent"
+        },
         "pronunciation": "ruh-gar-day",
         "meaning": "to watch / to look at",
         "notes": "Regular -ER verb. Direct object — no preposition needed.",
-        "conjugation": {
-          "je": "regarde",
-          "tu": "regardes",
-          "il/elle": "regarde",
-          "nous": "regardons",
-          "vous": "regardez",
-          "ils/elles": "regardent"
-        },
         "examples": [
           [
             "Je regarde la télévision.",
@@ -184,17 +196,17 @@
         "word": "écouter",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "j'écoute",
+          "tu": "tu écoutes",
+          "il": "il/elle/on écoute",
+          "nous": "nous écoutons",
+          "vous": "vous écoutez",
+          "ils": "ils/elles écoutent"
+        },
         "pronunciation": "ay-koo-tay",
         "meaning": "to listen to",
         "notes": "Regular -ER verb. Direct object — no 'to' needed in French: j'écoute la radio (not *j'écoute à la radio).",
-        "conjugation": {
-          "je": "écoute",
-          "tu": "écoutes",
-          "il/elle": "écoute",
-          "nous": "écoutons",
-          "vous": "écoutez",
-          "ils/elles": "écoutent"
-        },
         "examples": [
           [
             "J'écoute de la musique.",
@@ -211,6 +223,12 @@
         "word": "la télévision",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "télévision",
+          "feminine": "télévision",
+          "masculinePlural": "télévisions",
+          "femininePlural": "télévisions"
+        },
         "pronunciation": "la tay-lay-vee-zyon",
         "meaning": "the television",
         "notes": "Often shortened to 'la télé' in spoken French.",
@@ -230,6 +248,12 @@
         "word": "le dîner",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "dîner",
+          "feminine": "dîner",
+          "masculinePlural": "dîners",
+          "femininePlural": "dîners"
+        },
         "pronunciation": "luh dee-nay",
         "meaning": "the dinner",
         "notes": "Also a verb: dîner (to have dinner).",
@@ -249,17 +273,17 @@
         "word": "se coucher",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je me couche",
+          "tu": "tu te couches",
+          "il": "il/elle/on se couche",
+          "nous": "nous nous couchons",
+          "vous": "vous vous couchez",
+          "ils": "ils/elles se couchent"
+        },
         "pronunciation": "suh koo-shay",
         "meaning": "to go to bed",
         "notes": "Reflexive verb. Opposite of se lever (to get up).",
-        "conjugation": {
-          "je": "me couche",
-          "tu": "te couches",
-          "il/elle": "se couche",
-          "nous": "nous couchons",
-          "vous": "vous couchez",
-          "ils/elles": "se couchent"
-        },
         "examples": [
           [
             "Je me couche à dix heures.",
@@ -276,6 +300,12 @@
         "word": "la musique",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "musique",
+          "feminine": "musique",
+          "masculinePlural": "musiques",
+          "femininePlural": "musiques"
+        },
         "pronunciation": "la moo-zeek",
         "meaning": "the music",
         "examples": [

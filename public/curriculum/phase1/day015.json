@@ -9,6 +9,12 @@
         "word": "le ménage",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "ménage",
+          "feminine": "ménage",
+          "masculinePlural": "ménages",
+          "femininePlural": "ménages"
+        },
         "pronunciation": "luh may-nazh",
         "meaning": "housework / cleaning",
         "notes": "Used in the expression 'faire le ménage' (to do the housework/cleaning).",
@@ -28,17 +34,17 @@
         "word": "nettoyer",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je nettoie",
+          "tu": "tu nettoies",
+          "il": "il/elle/on nettoie",
+          "nous": "nous nettoyons",
+          "vous": "vous nettoyez",
+          "ils": "ils/elles nettoient"
+        },
         "pronunciation": "neh-twa-yay",
         "meaning": "to clean",
         "notes": "The -yer verb changes y → i before a silent e: je nettoie, tu nettoies.",
-        "conjugation": {
-          "je": "nettoie",
-          "tu": "nettoies",
-          "il/elle": "nettoie",
-          "nous": "nettoyons",
-          "vous": "nettoyez",
-          "ils/elles": "nettoient"
-        },
         "examples": [
           [
             "Je nettoie la salle de bain.",
@@ -55,6 +61,12 @@
         "word": "la vaisselle",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "vaisselle",
+          "feminine": "vaisselle",
+          "masculinePlural": "vaisselles",
+          "femininePlural": "vaisselles"
+        },
         "pronunciation": "la veh-sel",
         "meaning": "the dishes / the washing-up",
         "notes": "Always singular in French. Used in 'faire la vaisselle' (to do the dishes).",
@@ -74,6 +86,12 @@
         "word": "le balai",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "balai",
+          "feminine": "balai",
+          "masculinePlural": "balais",
+          "femininePlural": "balais"
+        },
         "pronunciation": "luh ba-lay",
         "meaning": "the broom",
         "notes": "Used in 'donner un coup de balai' (to give a quick sweep).",
@@ -93,17 +111,17 @@
         "word": "ranger",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je range",
+          "tu": "tu ranges",
+          "il": "il/elle/on range",
+          "nous": "nous rangeons",
+          "vous": "vous rangez",
+          "ils": "ils/elles rangent"
+        },
         "pronunciation": "ron-zhay",
         "meaning": "to tidy up / to put away",
         "notes": "Regular -er verb. Spelling note: we keep -e- before -ons to preserve the soft g: nous rangeons.",
-        "conjugation": {
-          "je": "range",
-          "tu": "ranges",
-          "il/elle": "range",
-          "nous": "rangeons",
-          "vous": "rangez",
-          "ils/elles": "rangent"
-        },
         "examples": [
           [
             "Je range mes affaires après le dîner.",
@@ -122,6 +140,12 @@
         "word": "le ménage",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "ménage",
+          "feminine": "ménage",
+          "masculinePlural": "ménages",
+          "femininePlural": "ménages"
+        },
         "pronunciation": "luh may-nazh",
         "meaning": "housework / cleaning",
         "notes": "Used in the expression 'faire le ménage' (to do the housework/cleaning).",
@@ -141,17 +165,17 @@
         "word": "nettoyer",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je nettoie",
+          "tu": "tu nettoies",
+          "il": "il/elle/on nettoie",
+          "nous": "nous nettoyons",
+          "vous": "vous nettoyez",
+          "ils": "ils/elles nettoient"
+        },
         "pronunciation": "neh-twa-yay",
         "meaning": "to clean",
         "notes": "The -yer verb changes y → i before a silent e: je nettoie, tu nettoies.",
-        "conjugation": {
-          "je": "nettoie",
-          "tu": "nettoies",
-          "il/elle": "nettoie",
-          "nous": "nettoyons",
-          "vous": "nettoyez",
-          "ils/elles": "nettoient"
-        },
         "examples": [
           [
             "Je nettoie la salle de bain.",
@@ -168,6 +192,12 @@
         "word": "la vaisselle",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "vaisselle",
+          "feminine": "vaisselle",
+          "masculinePlural": "vaisselles",
+          "femininePlural": "vaisselles"
+        },
         "pronunciation": "la veh-sel",
         "meaning": "the dishes / the washing-up",
         "notes": "Always singular in French. Used in 'faire la vaisselle' (to do the dishes).",
@@ -187,6 +217,12 @@
         "word": "le balai",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "balai",
+          "feminine": "balai",
+          "masculinePlural": "balais",
+          "femininePlural": "balais"
+        },
         "pronunciation": "luh ba-lay",
         "meaning": "the broom",
         "notes": "Used in 'donner un coup de balai' (to give a quick sweep).",
@@ -206,17 +242,17 @@
         "word": "ranger",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je range",
+          "tu": "tu ranges",
+          "il": "il/elle/on range",
+          "nous": "nous rangeons",
+          "vous": "vous rangez",
+          "ils": "ils/elles rangent"
+        },
         "pronunciation": "ron-zhay",
         "meaning": "to tidy up / to put away",
         "notes": "Regular -er verb. Spelling note: we keep -e- before -ons to preserve the soft g: nous rangeons.",
-        "conjugation": {
-          "je": "range",
-          "tu": "ranges",
-          "il/elle": "range",
-          "nous": "rangeons",
-          "vous": "rangez",
-          "ils/elles": "rangent"
-        },
         "examples": [
           [
             "Je range mes affaires après le dîner.",
@@ -233,6 +269,12 @@
         "word": "l'aspirateur",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "aspirateur",
+          "feminine": "aspirateur",
+          "masculinePlural": "aspirateurs",
+          "femininePlural": "aspirateurs"
+        },
         "pronunciation": "las-pee-ra-teur",
         "meaning": "the vacuum cleaner",
         "notes": "Used in 'passer l'aspirateur' (to vacuum / to hoover).",
@@ -252,6 +294,12 @@
         "word": "la lessive",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "lessive",
+          "feminine": "lessive",
+          "masculinePlural": "lessives",
+          "femininePlural": "lessives"
+        },
         "pronunciation": "la leh-seev",
         "meaning": "the laundry / the washing",
         "notes": "Used in 'faire la lessive' (to do the laundry). Can also refer to the laundry detergent itself.",

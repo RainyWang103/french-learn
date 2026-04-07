@@ -9,6 +9,12 @@
         "word": "le carrefour",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "carrefour",
+          "feminine": "carrefour",
+          "masculinePlural": "carrefours",
+          "femininePlural": "carrefours"
+        },
         "pronunciation": "luh kar-FOOR",
         "meaning": "the crossroads / the intersection",
         "notes": "A key landmark word when giving or following directions.",
@@ -28,17 +34,17 @@
         "word": "tourner",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je tourne",
+          "tu": "tu tournes",
+          "il": "il/elle/on tourne",
+          "nous": "nous tournons",
+          "vous": "vous tournez",
+          "ils": "ils/elles tournent"
+        },
         "pronunciation": "toor-NAY",
         "meaning": "to turn",
         "notes": "Regular -er verb. Essential for giving directions.",
-        "conjugation": {
-          "je": "tourne",
-          "tu": "tournes",
-          "il/elle": "tourne",
-          "nous": "tournons",
-          "vous": "tournez",
-          "ils/elles": "tournent"
-        },
         "examples": [
           [
             "Tournez à droite après le pont.",
@@ -55,6 +61,12 @@
         "word": "la place",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "place",
+          "feminine": "place",
+          "masculinePlural": "places",
+          "femininePlural": "places"
+        },
         "pronunciation": "lah PLASS",
         "meaning": "the square / the plaza",
         "notes": "Refers to a town square or public plaza, not a seat (which is also 'place' in context).",
@@ -74,6 +86,12 @@
         "word": "le pont",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pont",
+          "feminine": "pont",
+          "masculinePlural": "ponts",
+          "femininePlural": "ponts"
+        },
         "pronunciation": "luh PON",
         "meaning": "the bridge",
         "examples": [
@@ -92,6 +110,12 @@
         "word": "la pharmacie",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "pharmacie",
+          "feminine": "pharmacie",
+          "masculinePlural": "pharmacies",
+          "femininePlural": "pharmacies"
+        },
         "pronunciation": "lah far-mah-SEE",
         "meaning": "the pharmacy / the chemist",
         "notes": "French pharmacies are marked by a green cross sign. Very easy to spot.",
@@ -113,6 +137,12 @@
         "word": "le carrefour",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "carrefour",
+          "feminine": "carrefour",
+          "masculinePlural": "carrefours",
+          "femininePlural": "carrefours"
+        },
         "pronunciation": "luh kar-FOOR",
         "meaning": "the crossroads / the intersection",
         "notes": "A key landmark word when giving or following directions.",
@@ -132,17 +162,17 @@
         "word": "tourner",
         "partOfSpeech": "verb",
         "gender": null,
+        "forms": {
+          "je": "je tourne",
+          "tu": "tu tournes",
+          "il": "il/elle/on tourne",
+          "nous": "nous tournons",
+          "vous": "vous tournez",
+          "ils": "ils/elles tournent"
+        },
         "pronunciation": "toor-NAY",
         "meaning": "to turn",
         "notes": "Regular -er verb. Essential for giving directions.",
-        "conjugation": {
-          "je": "tourne",
-          "tu": "tournes",
-          "il/elle": "tourne",
-          "nous": "tournons",
-          "vous": "tournez",
-          "ils/elles": "tournent"
-        },
         "examples": [
           [
             "Tournez à droite après le pont.",
@@ -159,6 +189,12 @@
         "word": "la place",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "place",
+          "feminine": "place",
+          "masculinePlural": "places",
+          "femininePlural": "places"
+        },
         "pronunciation": "lah PLASS",
         "meaning": "the square / the plaza",
         "notes": "Refers to a town square or public plaza, not a seat (which is also 'place' in context).",
@@ -178,6 +214,12 @@
         "word": "le pont",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "pont",
+          "feminine": "pont",
+          "masculinePlural": "ponts",
+          "femininePlural": "ponts"
+        },
         "pronunciation": "luh PON",
         "meaning": "the bridge",
         "examples": [
@@ -196,6 +238,12 @@
         "word": "la pharmacie",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "pharmacie",
+          "feminine": "pharmacie",
+          "masculinePlural": "pharmacies",
+          "femininePlural": "pharmacies"
+        },
         "pronunciation": "lah far-mah-SEE",
         "meaning": "the pharmacy / the chemist",
         "notes": "French pharmacies are marked by a green cross sign. Very easy to spot.",
@@ -215,6 +263,12 @@
         "word": "le rond-point",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "rond-point",
+          "feminine": "rond-point",
+          "masculinePlural": "ronds-points",
+          "femininePlural": "ronds-points"
+        },
         "pronunciation": "luh ron-PWAN",
         "meaning": "the roundabout",
         "notes": "France has more roundabouts per capita than almost any other country. Knowing this word is very practical.",
@@ -234,6 +288,12 @@
         "word": "le feu",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "feu",
+          "feminine": "feu",
+          "masculinePlural": "feux",
+          "femininePlural": "feux"
+        },
         "pronunciation": "luh FUH",
         "meaning": "the traffic light (also: fire)",
         "notes": "Short for 'le feu de signalisation'. In directions, 'au feu' means 'at the traffic lights'.",
