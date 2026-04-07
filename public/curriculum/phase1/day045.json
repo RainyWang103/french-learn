@@ -13,10 +13,22 @@
         "meaning": "the hand",
         "notes": "Used in many expressions like 'donner la main' (to hold hands)",
         "examples": [
-          ["J'ai mal à la main.", "My hand hurts."],
-          ["Elle a levé la main.", "She raised her hand."]
+          [
+            "J'ai mal à la main.",
+            "My hand hurts."
+          ],
+          [
+            "Elle a levé la main.",
+            "She raised her hand."
+          ]
         ],
-        "special": "Essential body part vocabulary"
+        "special": "Essential body part vocabulary",
+        "forms": {
+          "masculine": "",
+          "feminine": "main",
+          "masculinePlural": "",
+          "femininePlural": "mains"
+        }
       },
       {
         "word": "le dos",
@@ -26,10 +38,22 @@
         "meaning": "the back",
         "notes": "Common in phrases like 'avoir mal au dos' (to have a backache)",
         "examples": [
-          ["J'ai mal au dos depuis lundi.", "My back has been hurting since Monday."],
-          ["Il porte un sac sur le dos.", "He carries a bag on his back."]
+          [
+            "J'ai mal au dos depuis lundi.",
+            "My back has been hurting since Monday."
+          ],
+          [
+            "Il porte un sac sur le dos.",
+            "He carries a bag on his back."
+          ]
         ],
-        "special": "Very common in health contexts"
+        "special": "Very common in health contexts",
+        "forms": {
+          "masculine": "dos",
+          "feminine": "",
+          "masculinePlural": "dos",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le genou",
@@ -39,10 +63,22 @@
         "meaning": "the knee",
         "notes": "Plural: les genoux",
         "examples": [
-          ["Mon genou me fait mal depuis deux jours.", "My knee has been hurting for two days."],
-          ["Elle s'est blessé le genou en courant.", "She injured her knee while running."]
+          [
+            "Mon genou me fait mal depuis deux jours.",
+            "My knee has been hurting for two days."
+          ],
+          [
+            "Elle s'est blessé le genou en courant.",
+            "She injured her knee while running."
+          ]
         ],
-        "special": "Irregular plural: genoux"
+        "special": "Irregular plural: genoux",
+        "forms": {
+          "masculine": "genou",
+          "feminine": "",
+          "masculinePlural": "genoux",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'épaule",
@@ -52,10 +88,22 @@
         "meaning": "the shoulder",
         "notes": "Common in sports injury contexts",
         "examples": [
-          ["J'ai mal à l'épaule depuis une semaine.", "My shoulder has been hurting for a week."],
-          ["Il s'est blessé l'épaule au foot.", "He injured his shoulder playing football."]
+          [
+            "J'ai mal à l'épaule depuis une semaine.",
+            "My shoulder has been hurting for a week."
+          ],
+          [
+            "Il s'est blessé l'épaule au foot.",
+            "He injured his shoulder playing football."
+          ]
         ],
-        "special": "Frequently used in medical and sports contexts"
+        "special": "Frequently used in medical and sports contexts",
+        "forms": {
+          "masculine": "",
+          "feminine": "épaule",
+          "masculinePlural": "",
+          "femininePlural": "épaules"
+        }
       },
       {
         "word": "le cœur",
@@ -65,10 +113,22 @@
         "meaning": "the heart",
         "notes": "Also used figuratively: 'de tout mon cœur' (with all my heart)",
         "examples": [
-          ["J'ai mal au cœur.", "I feel nauseous. / My heart hurts."],
-          ["Son cœur bat vite après le sport.", "Her heart beats fast after exercise."]
+          [
+            "J'ai mal au cœur.",
+            "I feel nauseous. / My heart hurts."
+          ],
+          [
+            "Son cœur bat vite après le sport.",
+            "Her heart beats fast after exercise."
+          ]
         ],
-        "special": "Both literal and figurative uses"
+        "special": "Both literal and figurative uses",
+        "forms": {
+          "masculine": "cœur",
+          "feminine": "",
+          "masculinePlural": "cœurs",
+          "femininePlural": ""
+        }
       }
     ],
     "advanced": [
@@ -80,10 +140,22 @@
         "meaning": "the hand",
         "notes": "Used in many expressions like 'donner la main' (to hold hands) and 'serrer la main' (to shake hands)",
         "examples": [
-          ["J'ai mal à la main depuis que je fais du sport.", "My hand has been hurting since I started doing sports."],
-          ["Elle a levé la main pour poser une question.", "She raised her hand to ask a question."]
+          [
+            "J'ai mal à la main depuis que je fais du sport.",
+            "My hand has been hurting since I started doing sports."
+          ],
+          [
+            "Elle a levé la main pour poser une question.",
+            "She raised her hand to ask a question."
+          ]
         ],
-        "special": "Essential body part vocabulary"
+        "special": "Essential body part vocabulary",
+        "forms": {
+          "masculine": "",
+          "feminine": "main",
+          "masculinePlural": "",
+          "femininePlural": "mains"
+        }
       },
       {
         "word": "le dos",
@@ -93,10 +165,22 @@
         "meaning": "the back",
         "notes": "Common in 'avoir mal au dos'; also used in swimming: 'nager sur le dos' (backstroke)",
         "examples": [
-          ["J'ai mal au dos depuis lundi matin.", "My back has been hurting since Monday morning."],
-          ["Il porte un sac lourd sur le dos tous les jours.", "He carries a heavy bag on his back every day."]
+          [
+            "J'ai mal au dos depuis lundi matin.",
+            "My back has been hurting since Monday morning."
+          ],
+          [
+            "Il porte un sac lourd sur le dos tous les jours.",
+            "He carries a heavy bag on his back every day."
+          ]
         ],
-        "special": "Very common in health contexts"
+        "special": "Very common in health contexts",
+        "forms": {
+          "masculine": "dos",
+          "feminine": "",
+          "masculinePlural": "dos",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le genou",
@@ -106,10 +190,22 @@
         "meaning": "the knee",
         "notes": "Plural: les genoux. Common with sports injuries.",
         "examples": [
-          ["Mon genou me fait mal depuis deux jours.", "My knee has been hurting for two days."],
-          ["Elle s'est blessé les genoux en tombant.", "She injured her knees when she fell."]
+          [
+            "Mon genou me fait mal depuis deux jours.",
+            "My knee has been hurting for two days."
+          ],
+          [
+            "Elle s'est blessé les genoux en tombant.",
+            "She injured her knees when she fell."
+          ]
         ],
-        "special": "Irregular plural: genoux"
+        "special": "Irregular plural: genoux",
+        "forms": {
+          "masculine": "genou",
+          "feminine": "",
+          "masculinePlural": "genoux",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'épaule",
@@ -119,10 +215,22 @@
         "meaning": "the shoulder",
         "notes": "Common in sports injury contexts; 'hausser les épaules' means to shrug",
         "examples": [
-          ["J'ai mal à l'épaule depuis une semaine.", "My shoulder has been hurting for a week."],
-          ["Il hausse les épaules sans répondre.", "He shrugs his shoulders without answering."]
+          [
+            "J'ai mal à l'épaule depuis une semaine.",
+            "My shoulder has been hurting for a week."
+          ],
+          [
+            "Il hausse les épaules sans répondre.",
+            "He shrugs his shoulders without answering."
+          ]
         ],
-        "special": "Frequently used in medical and sports contexts"
+        "special": "Frequently used in medical and sports contexts",
+        "forms": {
+          "masculine": "",
+          "feminine": "épaule",
+          "masculinePlural": "",
+          "femininePlural": "épaules"
+        }
       },
       {
         "word": "le cœur",
@@ -132,10 +240,22 @@
         "meaning": "the heart",
         "notes": "Figurative: 'avoir le cœur brisé' (broken heart); 'avoir mal au cœur' means to feel nauseous",
         "examples": [
-          ["J'ai mal au cœur depuis ce matin.", "I've been feeling nauseous since this morning."],
-          ["Son cœur bat vite après le sport.", "Her heart beats fast after exercise."]
+          [
+            "J'ai mal au cœur depuis ce matin.",
+            "I've been feeling nauseous since this morning."
+          ],
+          [
+            "Son cœur bat vite après le sport.",
+            "Her heart beats fast after exercise."
+          ]
         ],
-        "special": "Both literal and figurative uses"
+        "special": "Both literal and figurative uses",
+        "forms": {
+          "masculine": "cœur",
+          "feminine": "",
+          "masculinePlural": "cœurs",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le doigt",
@@ -145,10 +265,22 @@
         "meaning": "the finger",
         "notes": "Also refers to toes as 'les doigts de pied'",
         "examples": [
-          ["Je me suis coupé le doigt en cuisinant.", "I cut my finger while cooking."],
-          ["Elle montre quelque chose du doigt.", "She points at something with her finger."]
+          [
+            "Je me suis coupé le doigt en cuisinant.",
+            "I cut my finger while cooking."
+          ],
+          [
+            "Elle montre quelque chose du doigt.",
+            "She points at something with her finger."
+          ]
         ],
-        "special": "Common in everyday descriptions"
+        "special": "Common in everyday descriptions",
+        "forms": {
+          "masculine": "doigt",
+          "feminine": "",
+          "masculinePlural": "doigts",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la cheville",
@@ -158,47 +290,158 @@
         "meaning": "the ankle",
         "notes": "Frequently used in sports injury vocabulary",
         "examples": [
-          ["Je me suis tordu la cheville en courant.", "I twisted my ankle while running."],
-          ["Ma cheville gonfle depuis ce matin.", "My ankle has been swelling since this morning."]
+          [
+            "Je me suis tordu la cheville en courant.",
+            "I twisted my ankle while running."
+          ],
+          [
+            "Ma cheville gonfle depuis ce matin.",
+            "My ankle has been swelling since this morning."
+          ]
         ],
-        "special": "Common sports injury term"
+        "special": "Common sports injury term",
+        "forms": {
+          "masculine": "",
+          "feminine": "cheville",
+          "masculinePlural": "",
+          "femininePlural": "chevilles"
+        }
       }
     ]
   },
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu n'as pas l'air bien. Qu'est-ce qui se passe ?"],
-        ["B", "J'ai mal au genou depuis deux jours. Je pense que je me suis blessé au foot."],
-        ["A", "Tu as mal depuis combien de temps exactement ?"],
-        ["B", "Depuis samedi soir. J'ai aussi mal à l'épaule depuis hier."],
-        ["A", "Oh là là ! Tu devrais aller voir un médecin."],
-        ["B", "Oui, tu as raison. J'ai aussi mal au dos depuis ce matin."],
-        ["A", "Mais tu t'es fait combien de blessures en un week-end ?"],
-        ["B", "Je sais, c'est beaucoup ! Le foot, c'est dangereux pour moi !"]
+        [
+          "A",
+          "Tu n'as pas l'air bien. Qu'est-ce qui se passe ?"
+        ],
+        [
+          "B",
+          "J'ai mal au genou depuis deux jours. Je pense que je me suis blessé au foot."
+        ],
+        [
+          "A",
+          "Tu as mal depuis combien de temps exactement ?"
+        ],
+        [
+          "B",
+          "Depuis samedi soir. J'ai aussi mal à l'épaule depuis hier."
+        ],
+        [
+          "A",
+          "Oh là là ! Tu devrais aller voir un médecin."
+        ],
+        [
+          "B",
+          "Oui, tu as raison. J'ai aussi mal au dos depuis ce matin."
+        ],
+        [
+          "A",
+          "Mais tu t'es fait combien de blessures en un week-end ?"
+        ],
+        [
+          "B",
+          "Je sais, c'est beaucoup ! Le foot, c'est dangereux pour moi !"
+        ]
       ],
       "questions": [
-        "Depuis quand est-ce que B a mal au genou ?",
-        "Qu'est-ce que A conseille à B de faire ?",
-        "Combien de parties du corps font mal à B ?"
+        {
+          "question": "Depuis quand est-ce que B a mal au genou ?",
+          "options": [
+            "Depuis vendredi",
+            "Depuis samedi soir",
+            "Depuis dimanche"
+          ],
+          "correctAnswer": "Depuis samedi soir"
+        },
+        {
+          "question": "Qu'est-ce que A conseille à B de faire ?",
+          "options": [
+            "Prendre des médicaments",
+            "Aller voir un médecin",
+            "Rester au lit"
+          ],
+          "correctAnswer": "Aller voir un médecin"
+        },
+        {
+          "question": "Combien de parties du corps font mal à B ?",
+          "options": [
+            "Deux",
+            "Trois",
+            "Quatre"
+          ],
+          "correctAnswer": "Trois"
+        }
       ],
       "summary": "Two friends discuss sports injuries. Person B has been suffering from knee, shoulder, and back pain since the weekend after a football game."
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu boites ! Qu'est-ce qui t'est arrivé ?"],
-        ["B", "Je me suis tordu la cheville en courant ce matin. Ça fait mal depuis six heures maintenant."],
-        ["A", "Six heures ! Tu devrais mettre de la glace. Tu as aussi mal ailleurs ?"],
-        ["B", "Oui, j'ai mal au genou depuis plusieurs jours — une vieille blessure de foot. Et l'épaule me tire depuis lundi."],
-        ["A", "L'épaule aussi ? Tu joues trop au sport, mon ami."],
-        ["B", "Je sais. Et mon dos me fait souffrir depuis que je travaille à ce nouveau bureau."],
-        ["A", "Donc la cheville, le genou, l'épaule et le dos… Tu devrais vraiment consulter un kinésithérapeute."],
-        ["B", "Tu as raison. J'ai rendez-vous vendredi. J'espère qu'il va pouvoir m'aider rapidement."]
+        [
+          "A",
+          "Tu boites ! Qu'est-ce qui t'est arrivé ?"
+        ],
+        [
+          "B",
+          "Je me suis tordu la cheville en courant ce matin. Ça fait mal depuis six heures maintenant."
+        ],
+        [
+          "A",
+          "Six heures ! Tu devrais mettre de la glace. Tu as aussi mal ailleurs ?"
+        ],
+        [
+          "B",
+          "Oui, j'ai mal au genou depuis plusieurs jours — une vieille blessure de foot. Et l'épaule me tire depuis lundi."
+        ],
+        [
+          "A",
+          "L'épaule aussi ? Tu joues trop au sport, mon ami."
+        ],
+        [
+          "B",
+          "Je sais. Et mon dos me fait souffrir depuis que je travaille à ce nouveau bureau."
+        ],
+        [
+          "A",
+          "Donc la cheville, le genou, l'épaule et le dos… Tu devrais vraiment consulter un kinésithérapeute."
+        ],
+        [
+          "B",
+          "Tu as raison. J'ai rendez-vous vendredi. J'espère qu'il va pouvoir m'aider rapidement."
+        ]
       ],
       "questions": [
-        "Depuis combien de temps est-ce que B a mal à la cheville ?",
-        "Quelles sont les quatre parties du corps mentionnées ?",
-        "Qu'est-ce que A recommande à B de faire ?"
+        {
+          "question": "Depuis combien de temps est-ce que B a mal à la cheville ?",
+          "options": [
+            "Depuis ce matin",
+            "Depuis six heures",
+            "Depuis hier",
+            "Depuis deux jours"
+          ],
+          "correctAnswer": "Depuis six heures"
+        },
+        {
+          "question": "Quelles sont les quatre parties du corps mentionnées ?",
+          "options": [
+            "Le genou, l'épaule, le dos, le cou",
+            "La cheville, le genou, l'épaule, le dos",
+            "La main, le genou, le dos, la cheville",
+            "Le dos, la cheville, le coude, le genou"
+          ],
+          "correctAnswer": "La cheville, le genou, l'épaule, le dos"
+        },
+        {
+          "question": "Qu'est-ce que A recommande à B de faire ?",
+          "options": [
+            "Aller aux urgences",
+            "Consulter un kinésithérapeute",
+            "Prendre des médicaments",
+            "Se reposer pendant une semaine"
+          ],
+          "correctAnswer": "Consulter un kinésithérapeute"
+        }
       ],
       "summary": "Two friends discuss multiple sports injuries. Person B has been dealing with a twisted ankle, an old knee injury, shoulder pain, and back pain from a new desk setup, and has an appointment with a physiotherapist on Friday."
     }
@@ -208,39 +451,145 @@
       "title": "Depuis + Present Tense (Expressing Duration)",
       "explanation": "In French, use 'depuis' + present tense to express how long something has been happening and is still happening. This is different from English, which uses the past tense ('I have had' → 'j'ai' would be wrong here). Structure: Subject + present tense verb + depuis + time expression.\n\nExamples:\n- J'ai mal au dos depuis lundi. (My back has been hurting since Monday.)\n- Elle travaille ici depuis deux ans. (She has been working here for two years.)\n\nNote: Use 'depuis' with a specific time point (depuis lundi, depuis ce matin) or a duration (depuis deux jours, depuis une semaine).",
       "examples": [
-        ["J'ai mal au genou depuis deux jours.", "My knee has been hurting for two days."],
-        ["Il habite à Paris depuis trois ans.", "He has been living in Paris for three years."],
-        ["Elle attend depuis une heure.", "She has been waiting for an hour."],
-        ["Nous étudions le français depuis septembre.", "We have been studying French since September."]
+        {"french": "J'ai mal au genou depuis deux jours.", "english": "My knee has been hurting for two days."},
+        {"french": "Il habite à Paris depuis trois ans.", "english": "He has been living in Paris for three years."},
+        {"french": "Elle attend depuis une heure.", "english": "She has been waiting for an hour."},
+        {"french": "Nous étudions le français depuis septembre.", "english": "We have been studying French since September."}
       ],
       "drills": [
-        "Translate: My shoulder has been hurting since yesterday.",
-        "Translate: She has been living here for five years.",
-        "Fill in the blank: J'étudie le français ___ six mois. (for six months)",
-        "Correct the error: J'ai mal au dos depuis hier. / J'avais mal au dos depuis hier.",
-        "Translate: He has been waiting for the doctor since this morning."
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'J'étudie le français ___ six mois.' (for six months — use depuis)",
+          "correctAnswer": "depuis",
+          "explanation": "Use 'depuis' + present tense to express how long an ongoing action has been happening. 'Depuis six mois' = for six months (and still continuing)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'My shoulder has been hurting since yesterday'?",
+          "options": [
+            "J'ai eu mal à l'épaule depuis hier.",
+            "J'avais mal à l'épaule depuis hier.",
+            "J'ai mal à l'épaule depuis hier."
+          ],
+          "correctAnswer": "J'ai mal à l'épaule depuis hier.",
+          "explanation": "For ongoing situations with 'depuis', always use the present tense in French, even though English uses 'has been hurting' (present perfect)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly says 'She has been living here for five years'?",
+          "options": [
+            "Elle a vécu ici depuis cinq ans.",
+            "Elle habitait ici depuis cinq ans.",
+            "Elle habite ici depuis cinq ans."
+          ],
+          "correctAnswer": "Elle habite ici depuis cinq ans.",
+          "explanation": "Present tense + depuis = ongoing situation. Passé composé would mean the action is completed; imperfect would mean it was ongoing in the past but is now over."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is INCORRECT when the person still has back pain?",
+          "options": [
+            "J'ai mal au dos depuis lundi.",
+            "J'avais mal au dos depuis lundi.",
+            "J'ai mal au dos depuis ce matin."
+          ],
+          "correctAnswer": "J'avais mal au dos depuis lundi.",
+          "explanation": "The imperfect 'j'avais' implies the pain was ongoing in the past but has stopped. For pain that is still present, use present tense + depuis."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Translate: 'He has been waiting for the doctor since this morning.' (Start with 'Il...')",
+          "correctAnswer": "Il attend le médecin depuis ce matin.",
+          "explanation": "Present tense 'attend' + 'depuis ce matin' expresses an action that started at a point in time (this morning) and is still ongoing."
+        }
       ]
     },
     "advanced": {
       "title": "Depuis + Present Tense — Duration, Negation & Interrogation",
       "explanation": "Use 'depuis' + present tense to describe actions that started in the past and are still ongoing. Key rules:\n1. Affirmative: present tense + depuis (not passé composé)\n2. Negative: ne...pas + present tense + depuis → J'ai → Je n'ai pas mal depuis hier.\n3. Questions: Depuis combien de temps / Depuis quand + present tense?\n\nContrastive note: If the action is COMPLETED, use passé composé: 'Elle a travaillé ici pendant deux ans.' (She worked here for two years — no longer working.)\n\nKey time expressions:\n- depuis + duration: depuis deux heures, depuis longtemps\n- depuis + point in time: depuis lundi, depuis ce matin, depuis son accident",
       "examples": [
-        ["J'ai mal à la cheville depuis six heures.", "My ankle has been hurting for six hours."],
-        ["Il ne dort pas bien depuis une semaine.", "He hasn't been sleeping well for a week."],
-        ["Depuis quand est-ce que tu as mal au dos ?", "Since when has your back been hurting?"],
-        ["Depuis combien de temps travailles-tu ici ?", "How long have you been working here?"],
-        ["Elle étudie le piano depuis l'âge de cinq ans.", "She has been studying piano since age five."],
-        ["Je n'ai pas mangé depuis ce matin.", "I haven't eaten since this morning."]
+        {"french": "J'ai mal à la cheville depuis six heures.", "english": "My ankle has been hurting for six hours."},
+        {"french": "Il ne dort pas bien depuis une semaine.", "english": "He hasn't been sleeping well for a week."},
+        {"french": "Depuis quand est-ce que tu as mal au dos ?", "english": "Since when has your back been hurting?"},
+        {"french": "Depuis combien de temps travailles-tu ici ?", "english": "How long have you been working here?"},
+        {"french": "Elle étudie le piano depuis l'âge de cinq ans.", "english": "She has been studying piano since age five."},
+        {"french": "Je n'ai pas mangé depuis ce matin.", "english": "I haven't eaten since this morning."}
       ],
       "drills": [
-        "Translate: My ankle has been hurting for six hours.",
-        "Translate: He hasn't been sleeping well for a week.",
-        "Form a question: Ask 'How long has she been studying French?'",
-        "Correct the error: J'ai eu mal au genou depuis lundi. (still hurting)",
-        "Distinguish: 'Elle travaille ici depuis deux ans.' vs 'Elle a travaillé ici pendant deux ans.' — explain the difference.",
-        "Translate: Since when have you had back pain?",
-        "Fill in: Je ___ (ne pas manger) depuis ce matin.",
-        "Create a sentence: Use 'depuis' with the verb 'avoir mal' and 'la cheville'."
+        {
+          "type": "fillInTheBlank",
+          "question": "Translate: 'My ankle has been hurting for six hours.' (Start with 'J'ai mal...')",
+          "correctAnswer": "J'ai mal à la cheville depuis six heures.",
+          "explanation": "Present tense 'j'ai mal' + 'depuis' + duration expresses ongoing pain. In French, present tense is used where English uses present perfect ('has been hurting')."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'He hasn't been sleeping well for a week'?",
+          "options": [
+            "Il n'a pas bien dormi depuis une semaine.",
+            "Il ne dort pas bien depuis une semaine.",
+            "Il ne dormait pas bien depuis une semaine."
+          ],
+          "correctAnswer": "Il ne dort pas bien depuis une semaine.",
+          "explanation": "For ongoing negative situations with 'depuis', use the present tense negative. 'Il ne dort pas' (he doesn't sleep / hasn't been sleeping)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which question asks 'How long has she been studying French?'",
+          "options": [
+            "Depuis quand est-ce qu'elle étudie le français ?",
+            "Depuis combien de temps est-ce qu'elle étudie le français ?",
+            "Combien d'années est-ce qu'elle a étudié le français ?"
+          ],
+          "correctAnswer": "Depuis combien de temps est-ce qu'elle étudie le français ?",
+          "explanation": "'Depuis combien de temps' asks for the duration (for how long). 'Depuis quand' asks for the starting point (since when). Both use present tense."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is WRONG if the knee still hurts?",
+          "options": [
+            "J'ai mal au genou depuis lundi.",
+            "J'ai eu mal au genou depuis lundi.",
+            "J'ai mal au genou depuis deux jours."
+          ],
+          "correctAnswer": "J'ai eu mal au genou depuis lundi.",
+          "explanation": "Passé composé with 'depuis' is incorrect for ongoing situations. Use present tense. Passé composé would suggest the pain is over."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the difference between 'Elle travaille ici depuis deux ans' and 'Elle a travaillé ici pendant deux ans'?",
+          "options": [
+            "The first means she still works there; the second means she no longer works there.",
+            "Both sentences mean the same thing.",
+            "The first uses depuis for a point in time; the second uses pendant for duration.",
+            "The first is informal; the second is formal."
+          ],
+          "correctAnswer": "The first means she still works there; the second means she no longer works there.",
+          "explanation": "Depuis + present tense = action is still ongoing. Pendant + passé composé = completed action that is now finished."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete with the correct form of 'ne pas manger': 'Je ___ depuis ce matin.' (I haven't eaten since this morning)",
+          "correctAnswer": "n'ai pas mangé",
+          "explanation": "For negative ongoing actions with 'depuis', use passé composé in the negative: 'je n'ai pas mangé'. This is an exception — most positive ongoing situations use present tense."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you ask 'Since when has your back been hurting?' (tu form)",
+          "options": [
+            "Depuis combien de temps tu as mal au dos ?",
+            "Depuis quand tu as mal au dos ?",
+            "Tu as mal au dos depuis quand ?"
+          ],
+          "correctAnswer": "Depuis quand tu as mal au dos ?",
+          "explanation": "'Depuis quand' asks for the starting point (e.g., since Monday, since yesterday). It uses present tense because the situation is still ongoing."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Create a sentence using 'depuis', 'avoir mal', and 'la cheville'. (Write a complete sentence)",
+          "correctAnswer": "J'ai mal à la cheville depuis ce matin.",
+          "explanation": "Structure: present tense of 'avoir mal à' + body part + 'depuis' + time expression. Any valid sentence with these elements is correct."
+        }
       ]
     }
   },
@@ -261,7 +610,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'l'épaule' mean?",
-        "options": ["the elbow", "the shoulder", "the ankle"],
+        "options": [
+          "the elbow",
+          "the shoulder",
+          "the ankle"
+        ],
         "correctAnswer": "the shoulder",
         "explanation": "'L'épaule' (feminine) means 'the shoulder'. It is commonly heard in sports injury contexts.",
         "targetWord": "l'épaule"
@@ -281,7 +634,11 @@
       {
         "type": "multipleChoice",
         "question": "What is the plural of 'le genou'?",
-        "options": ["les genous", "les genoux", "les genoux"],
+        "options": [
+          "les genous",
+          "les genoux",
+          "les genoux"
+        ],
         "correctAnswer": "les genoux",
         "explanation": "'Le genou' has an irregular plural: 'les genoux'. Words ending in -ou often add -x in the plural (bijou → bijoux, chou → choux).",
         "targetWord": "le genou"
@@ -311,7 +668,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la cheville' mean?",
-        "options": ["the elbow", "the knee", "the ankle", "the wrist"],
+        "options": [
+          "the elbow",
+          "the knee",
+          "the ankle",
+          "the wrist"
+        ],
         "correctAnswer": "the ankle",
         "explanation": "'La cheville' means 'the ankle'. It is frequently encountered in sports injury discussions.",
         "targetWord": "la cheville"

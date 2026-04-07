@@ -13,10 +13,22 @@
         "meaning": "the vegetable",
         "notes": "Plural: les légumes. 'Manger des légumes' = to eat vegetables.",
         "examples": [
-          ["Je ne mange que des légumes le lundi.", "I only eat vegetables on Mondays."],
-          ["Il faut manger beaucoup de légumes.", "You need to eat a lot of vegetables."]
+          [
+            "Je ne mange que des légumes le lundi.",
+            "I only eat vegetables on Mondays."
+          ],
+          [
+            "Il faut manger beaucoup de légumes.",
+            "You need to eat a lot of vegetables."
+          ]
         ],
-        "special": "Core healthy eating vocabulary"
+        "special": "Core healthy eating vocabulary",
+        "forms": {
+          "masculine": "légume",
+          "feminine": "",
+          "masculinePlural": "légumes",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le fruit",
@@ -26,10 +38,22 @@
         "meaning": "the fruit",
         "notes": "Plural: les fruits. 'Un fruit' = a piece of fruit.",
         "examples": [
-          ["Elle ne mange que des fruits au petit déjeuner.", "She only eats fruit for breakfast."],
-          ["J'aime tous les fruits, surtout les pommes.", "I like all fruits, especially apples."]
+          [
+            "Elle ne mange que des fruits au petit déjeuner.",
+            "She only eats fruit for breakfast."
+          ],
+          [
+            "J'aime tous les fruits, surtout les pommes.",
+            "I like all fruits, especially apples."
+          ]
         ],
-        "special": "Core healthy eating vocabulary"
+        "special": "Core healthy eating vocabulary",
+        "forms": {
+          "masculine": "fruit",
+          "feminine": "",
+          "masculinePlural": "fruits",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la salade",
@@ -39,10 +63,22 @@
         "meaning": "the salad / the lettuce",
         "notes": "Can refer to the dish (salad) or the ingredient (lettuce). Context clarifies.",
         "examples": [
-          ["Il ne mange qu'une salade pour le déjeuner.", "He only eats a salad for lunch."],
-          ["J'ai acheté une salade verte au marché.", "I bought a lettuce at the market."]
+          [
+            "Il ne mange qu'une salade pour le déjeuner.",
+            "He only eats a salad for lunch."
+          ],
+          [
+            "J'ai acheté une salade verte au marché.",
+            "I bought a lettuce at the market."
+          ]
         ],
-        "special": "Can mean salad dish or lettuce leaf"
+        "special": "Can mean salad dish or lettuce leaf",
+        "forms": {
+          "masculine": "",
+          "feminine": "salade",
+          "masculinePlural": "",
+          "femininePlural": "salades"
+        }
       },
       {
         "word": "la soupe",
@@ -52,10 +88,22 @@
         "meaning": "the soup",
         "notes": "Very common in French cuisine. 'Manger la soupe' = to eat soup.",
         "examples": [
-          ["Je ne mange que de la soupe le soir quand il fait froid.", "I only eat soup in the evening when it's cold."],
-          ["Cette soupe de légumes est délicieuse.", "This vegetable soup is delicious."]
+          [
+            "Je ne mange que de la soupe le soir quand il fait froid.",
+            "I only eat soup in the evening when it's cold."
+          ],
+          [
+            "Cette soupe de légumes est délicieuse.",
+            "This vegetable soup is delicious."
+          ]
         ],
-        "special": "Common in French cuisine"
+        "special": "Common in French cuisine",
+        "forms": {
+          "masculine": "",
+          "feminine": "soupe",
+          "masculinePlural": "",
+          "femininePlural": "soupes"
+        }
       },
       {
         "word": "l'eau",
@@ -65,10 +113,22 @@
         "meaning": "the water",
         "notes": "Feminine noun despite starting with a vowel. 'Je bois de l'eau' = I drink water.",
         "examples": [
-          ["Je ne bois que de l'eau — pas de jus.", "I only drink water — no juice."],
-          ["Il boit au moins deux litres d'eau par jour.", "He drinks at least two litres of water per day."]
+          [
+            "Je ne bois que de l'eau — pas de jus.",
+            "I only drink water — no juice."
+          ],
+          [
+            "Il boit au moins deux litres d'eau par jour.",
+            "He drinks at least two litres of water per day."
+          ]
         ],
-        "special": "Essential daily vocabulary"
+        "special": "Essential daily vocabulary",
+        "forms": {
+          "masculine": "",
+          "feminine": "eau",
+          "masculinePlural": "",
+          "femininePlural": "eaux"
+        }
       }
     ],
     "advanced": [
@@ -80,10 +140,22 @@
         "meaning": "the vegetable",
         "notes": "Plural: les légumes. Note: 'les légumes secs' = pulses/legumes (dried). Used colloquially: 'une grosse légume' = a bigwig (informal).",
         "examples": [
-          ["Il ne cuisine qu'avec des légumes frais du marché.", "He only cooks with fresh vegetables from the market."],
-          ["Les légumes verts sont riches en vitamines.", "Green vegetables are rich in vitamins."]
+          [
+            "Il ne cuisine qu'avec des légumes frais du marché.",
+            "He only cooks with fresh vegetables from the market."
+          ],
+          [
+            "Les légumes verts sont riches en vitamines.",
+            "Green vegetables are rich in vitamins."
+          ]
         ],
-        "special": "Core healthy eating vocabulary"
+        "special": "Core healthy eating vocabulary",
+        "forms": {
+          "masculine": "légume",
+          "feminine": "",
+          "masculinePlural": "légumes",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le fruit",
@@ -93,10 +165,22 @@
         "meaning": "the fruit",
         "notes": "Plural: les fruits. 'Les fruits de mer' = seafood. 'Les fruits secs' = dried fruit/nuts.",
         "examples": [
-          ["Elle ne mange que des fruits bio.", "She only eats organic fruit."],
-          ["Les fruits sont essentiels pour une alimentation équilibrée.", "Fruits are essential for a balanced diet."]
+          [
+            "Elle ne mange que des fruits bio.",
+            "She only eats organic fruit."
+          ],
+          [
+            "Les fruits sont essentiels pour une alimentation équilibrée.",
+            "Fruits are essential for a balanced diet."
+          ]
         ],
-        "special": "Core healthy eating vocabulary"
+        "special": "Core healthy eating vocabulary",
+        "forms": {
+          "masculine": "fruit",
+          "feminine": "",
+          "masculinePlural": "fruits",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la salade",
@@ -106,10 +190,22 @@
         "meaning": "the salad / the lettuce",
         "notes": "'La salade verte' = green salad/lettuce. 'Une salade composée' = a mixed salad with various ingredients.",
         "examples": [
-          ["Il ne prend qu'une salade composée au déjeuner pour rester en forme.", "He only has a mixed salad for lunch to stay healthy."],
-          ["Cette salade de tomates et de concombres est fraîche.", "This tomato and cucumber salad is refreshing."]
+          [
+            "Il ne prend qu'une salade composée au déjeuner pour rester en forme.",
+            "He only has a mixed salad for lunch to stay healthy."
+          ],
+          [
+            "Cette salade de tomates et de concombres est fraîche.",
+            "This tomato and cucumber salad is refreshing."
+          ]
         ],
-        "special": "Can mean salad dish or lettuce leaf"
+        "special": "Can mean salad dish or lettuce leaf",
+        "forms": {
+          "masculine": "",
+          "feminine": "salade",
+          "masculinePlural": "",
+          "femininePlural": "salades"
+        }
       },
       {
         "word": "la soupe",
@@ -119,10 +215,22 @@
         "meaning": "the soup",
         "notes": "'Il tombe dans les pommes — il boit la soupe' is not idiomatic, but 'soupe au lait' (someone who gets angry quickly) is colloquial.",
         "examples": [
-          ["Elle ne mange que de la soupe le soir pour garder la ligne.", "She only eats soup in the evening to keep her figure."],
-          ["On prépare une soupe de légumes pour toute la semaine.", "We're making a vegetable soup for the whole week."]
+          [
+            "Elle ne mange que de la soupe le soir pour garder la ligne.",
+            "She only eats soup in the evening to keep her figure."
+          ],
+          [
+            "On prépare une soupe de légumes pour toute la semaine.",
+            "We're making a vegetable soup for the whole week."
+          ]
         ],
-        "special": "Common in French cuisine"
+        "special": "Common in French cuisine",
+        "forms": {
+          "masculine": "",
+          "feminine": "soupe",
+          "masculinePlural": "",
+          "femininePlural": "soupes"
+        }
       },
       {
         "word": "l'eau",
@@ -132,10 +240,22 @@
         "meaning": "the water",
         "notes": "'L'eau plate' = still water; 'l'eau gazeuse' = sparkling water. Expression: 'mettre de l'eau dans son vin' (to tone it down).",
         "examples": [
-          ["Je ne bois que de l'eau plate — je ne supporte pas l'eau gazeuse.", "I only drink still water — I can't stand sparkling water."],
-          ["Il est important de boire suffisamment d'eau par jour.", "It's important to drink enough water each day."]
+          [
+            "Je ne bois que de l'eau plate — je ne supporte pas l'eau gazeuse.",
+            "I only drink still water — I can't stand sparkling water."
+          ],
+          [
+            "Il est important de boire suffisamment d'eau par jour.",
+            "It's important to drink enough water each day."
+          ]
         ],
-        "special": "Essential daily vocabulary"
+        "special": "Essential daily vocabulary",
+        "forms": {
+          "masculine": "",
+          "feminine": "eau",
+          "masculinePlural": "",
+          "femininePlural": "eaux"
+        }
       },
       {
         "word": "la carotte",
@@ -145,10 +265,22 @@
         "meaning": "the carrot",
         "notes": "Idiom: 'les carottes sont cuites' = it's all over / the die is cast. Common healthy snack.",
         "examples": [
-          ["Il ne mange que des carottes et du houmous comme collation.", "He only eats carrots and hummus as a snack."],
-          ["Les carottes sont riches en vitamine A.", "Carrots are rich in vitamin A."]
+          [
+            "Il ne mange que des carottes et du houmous comme collation.",
+            "He only eats carrots and hummus as a snack."
+          ],
+          [
+            "Les carottes sont riches en vitamine A.",
+            "Carrots are rich in vitamin A."
+          ]
         ],
-        "special": "Includes a well-known French idiom"
+        "special": "Includes a well-known French idiom",
+        "forms": {
+          "masculine": "",
+          "feminine": "carotte",
+          "masculinePlural": "",
+          "femininePlural": "carottes"
+        }
       },
       {
         "word": "la pomme",
@@ -158,47 +290,158 @@
         "meaning": "the apple",
         "notes": "'La pomme de terre' = potato (literally 'apple of the earth'). 'Tomber dans les pommes' = to faint (colloquial).",
         "examples": [
-          ["Elle ne mange qu'une pomme le matin pour rester en bonne santé.", "She only eats an apple in the morning to stay healthy."],
-          ["Une pomme par jour éloigne le médecin — comme on dit en anglais.", "An apple a day keeps the doctor away — as they say in English."]
+          [
+            "Elle ne mange qu'une pomme le matin pour rester en bonne santé.",
+            "She only eats an apple in the morning to stay healthy."
+          ],
+          [
+            "Une pomme par jour éloigne le médecin — comme on dit en anglais.",
+            "An apple a day keeps the doctor away — as they say in English."
+          ]
         ],
-        "special": "Key for 'pomme de terre' (potato)"
+        "special": "Key for 'pomme de terre' (potato)",
+        "forms": {
+          "masculine": "",
+          "feminine": "pomme",
+          "masculinePlural": "",
+          "femininePlural": "pommes"
+        }
       }
     ]
   },
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "On prépare les repas de la semaine. Qu'est-ce qu'on a dans le frigo ?"],
-        ["B", "On n'a que quelques légumes et un peu de fruit. Il n'y a pas de viande."],
-        ["A", "Il faut aller faire les courses alors. Je ne veux que des produits frais cette semaine."],
-        ["B", "D'accord. On achète des carottes, des pommes et de la salade ?"],
-        ["A", "Oui, et aussi de l'eau et des tomates. Je veux faire une soupe de légumes."],
-        ["B", "Bonne idée. Tu ne veux pas acheter du poulet aussi ?"],
-        ["A", "Non, cette semaine je veux manger que des légumes et des fruits."],
-        ["B", "Comme tu veux ! On y va ?"]
+        [
+          "A",
+          "On prépare les repas de la semaine. Qu'est-ce qu'on a dans le frigo ?"
+        ],
+        [
+          "B",
+          "On n'a que quelques légumes et un peu de fruit. Il n'y a pas de viande."
+        ],
+        [
+          "A",
+          "Il faut aller faire les courses alors. Je ne veux que des produits frais cette semaine."
+        ],
+        [
+          "B",
+          "D'accord. On achète des carottes, des pommes et de la salade ?"
+        ],
+        [
+          "A",
+          "Oui, et aussi de l'eau et des tomates. Je veux faire une soupe de légumes."
+        ],
+        [
+          "B",
+          "Bonne idée. Tu ne veux pas acheter du poulet aussi ?"
+        ],
+        [
+          "A",
+          "Non, cette semaine je veux manger que des légumes et des fruits."
+        ],
+        [
+          "B",
+          "Comme tu veux ! On y va ?"
+        ]
       ],
       "questions": [
-        "Qu'est-ce qu'il y a dans le frigo ?",
-        "Qu'est-ce que A veut faire comme plat ?",
-        "Qu'est-ce que A veut acheter au marché ?"
+        {
+          "question": "Qu'est-ce qu'il y a dans le frigo ?",
+          "options": [
+            "De la viande et des légumes",
+            "Quelques légumes et un peu de fruit",
+            "Beaucoup de fruits et légumes"
+          ],
+          "correctAnswer": "Quelques légumes et un peu de fruit"
+        },
+        {
+          "question": "Qu'est-ce que A veut faire comme plat ?",
+          "options": [
+            "Une salade composée",
+            "Une soupe de légumes",
+            "Un plat de fruits"
+          ],
+          "correctAnswer": "Une soupe de légumes"
+        },
+        {
+          "question": "Qu'est-ce que A veut acheter au marché ?",
+          "options": [
+            "De la viande et des légumes",
+            "Des carottes, des pommes, de la salade, de l'eau et des tomates",
+            "Du poulet et des légumes"
+          ],
+          "correctAnswer": "Des carottes, des pommes, de la salade, de l'eau et des tomates"
+        }
       ],
       "summary": "A couple plans meals for the week. They have very few ingredients — only some vegetables and a little fruit. They decide to go shopping for fresh produce including carrots, apples, salad, water, and tomatoes to make a vegetable soup."
     },
     "advanced": {
       "dialogue": [
-        ["A", "On n'a presque rien à manger — il ne reste que deux carottes et une pomme."],
-        ["B", "Vraiment ? Il faut aller au marché ce matin alors. Je ne veux acheter que des produits frais cette semaine."],
-        ["A", "Bonne idée. Je ne prends que des légumes de saison, c'est moins cher et plus sain."],
-        ["B", "D'accord. Tu prends quoi exactement ?"],
-        ["A", "Des carottes, des poireaux, des courgettes pour une soupe. Et de la salade pour le déjeuner."],
-        ["B", "Et pour boire ? Je ne bois que de l'eau plate — pas besoin de jus."],
-        ["A", "Pareil pour moi. Ah, et je voulais aussi prendre des pommes et des poires — les fruits sont moins chers le mardi."],
-        ["B", "Super. Et on n'achète que le nécessaire cette fois — la dernière fois on a acheté trop de choses !"]
+        [
+          "A",
+          "On n'a presque rien à manger — il ne reste que deux carottes et une pomme."
+        ],
+        [
+          "B",
+          "Vraiment ? Il faut aller au marché ce matin alors. Je ne veux acheter que des produits frais cette semaine."
+        ],
+        [
+          "A",
+          "Bonne idée. Je ne prends que des légumes de saison, c'est moins cher et plus sain."
+        ],
+        [
+          "B",
+          "D'accord. Tu prends quoi exactement ?"
+        ],
+        [
+          "A",
+          "Des carottes, des poireaux, des courgettes pour une soupe. Et de la salade pour le déjeuner."
+        ],
+        [
+          "B",
+          "Et pour boire ? Je ne bois que de l'eau plate — pas besoin de jus."
+        ],
+        [
+          "A",
+          "Pareil pour moi. Ah, et je voulais aussi prendre des pommes et des poires — les fruits sont moins chers le mardi."
+        ],
+        [
+          "B",
+          "Super. Et on n'achète que le nécessaire cette fois — la dernière fois on a acheté trop de choses !"
+        ]
       ],
       "questions": [
-        "Qu'est-ce qu'il reste à manger chez A et B ?",
-        "Quels légumes est-ce que A veut acheter ?",
-        "Pourquoi est-ce que A et B veulent seulement acheter le nécessaire cette fois ?"
+        {
+          "question": "Qu'est-ce qu'il reste à manger chez A et B ?",
+          "options": [
+            "Quelques légumes et beaucoup de fruits",
+            "Deux carottes et une pomme",
+            "De la soupe et de la salade",
+            "Des carottes, des pommes et des poires"
+          ],
+          "correctAnswer": "Deux carottes et une pomme"
+        },
+        {
+          "question": "Quels légumes est-ce que A veut acheter ?",
+          "options": [
+            "Des carottes, des haricots et des tomates",
+            "Des carottes, des poireaux et des courgettes",
+            "Des carottes, des pommes de terre et des poireaux",
+            "Des pommes, des carottes et de la salade"
+          ],
+          "correctAnswer": "Des carottes, des poireaux et des courgettes"
+        },
+        {
+          "question": "Pourquoi est-ce que A et B veulent seulement acheter le nécessaire cette fois ?",
+          "options": [
+            "Ils n'ont pas assez d'argent",
+            "Ils ont acheté trop de choses la dernière fois",
+            "Ils n'ont pas de voiture",
+            "Le marché ferme tôt"
+          ],
+          "correctAnswer": "Ils ont acheté trop de choses la dernière fois"
+        }
       ],
       "summary": "A couple realises they have almost no food left and plan a market trip. They decide to buy only fresh seasonal vegetables for soup, salad, water, and fruit. They agree to buy only what they need after overspending last time."
     }
@@ -208,39 +451,170 @@
       "title": "Ne...que (Restriction — 'only')",
       "explanation": "Ne...que is used to express restriction, meaning 'only'. It is NOT a negation — it does not mean 'not'.\n\nStructure: subject + ne + verb + que + restricted element\n\nExamples:\n- Je ne mange que des légumes. (I only eat vegetables.)\n- Elle ne boit que de l'eau. (She only drinks water.)\n- Il n'achète que des fruits bio. (He only buys organic fruit.)\n\nImportant: ne comes before the verb (or auxiliary), que comes directly before the element being restricted.\n\nWith articles after que: the article is NOT changed to de/d' (unlike with negation ne...pas):\n- Je ne mange pas de légumes. (negation — article changes to de)\n- Je ne mange que des légumes. (restriction — article stays as des)\n\nNote: 'que' becomes 'qu'' before a vowel: 'Je ne bois qu'de l'eau.' → 'Je ne bois que de l'eau.'",
       "examples": [
-        ["Je ne mange que des fruits le matin.", "I only eat fruit in the morning."],
-        ["Il ne boit que de l'eau.", "He only drinks water."],
-        ["Elle n'achète que des légumes frais.", "She only buys fresh vegetables."],
-        ["Nous ne cuisinons qu'avec de l'huile d'olive.", "We only cook with olive oil."]
+        {
+          "french": "Je ne mange que des fruits le matin.",
+          "english": "I only eat fruit in the morning."
+        },
+        {
+          "french": "Il ne boit que de l'eau.",
+          "english": "He only drinks water."
+        },
+        {
+          "french": "Elle n'achète que des légumes frais.",
+          "english": "She only buys fresh vegetables."
+        },
+        {
+          "french": "Nous ne cuisinons qu'avec de l'huile d'olive.",
+          "english": "We only cook with olive oil."
+        }
       ],
       "drills": [
-        "Translate: I only eat salad for lunch.",
-        "Translate: She only drinks water.",
-        "Rewrite using ne...que: 'Il mange des légumes, pas d'autre chose.'",
-        "Correct the error: Je ne mange pas que des légumes.",
-        "Create a sentence using ne...que with a food item from today's vocabulary."
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Je ne mange ___ une salade pour le déjeuner.' (only)",
+          "correctAnswer": "que",
+          "explanation": "Ne...que = only. Structure: ne + verb + que + restricted element. 'Je ne mange que' = I only eat."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Elle ne boit ___ de l'eau.' (only)",
+          "correctAnswer": "que",
+          "explanation": "'Ne...que' expresses restriction. 'Elle ne boit que de l'eau' = She only drinks water. The article stays 'de l'' (unchanged, unlike with ne...pas)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you rewrite 'Il mange des légumes, pas d'autre chose' using ne...que?",
+          "options": [
+            "Il ne mange pas des légumes.",
+            "Il ne mange que des légumes.",
+            "Il mange seulement que des légumes.",
+            "Il ne mange pas que des légumes."
+          ],
+          "correctAnswer": "Il ne mange que des légumes.",
+          "explanation": "'Ne...que' = only/restriction. 'Pas d'autre chose' (nothing else) becomes 'ne...que'. The article 'des' stays as 'des' (not changed to 'de' like with negation)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What does 'Je ne mange pas que des légumes' mean?",
+          "options": [
+            "I only eat vegetables.",
+            "I don't only eat vegetables (I eat other things too).",
+            "I don't eat vegetables.",
+            "I eat a lot of vegetables."
+          ],
+          "correctAnswer": "I don't only eat vegetables (I eat other things too).",
+          "explanation": "'Ne...pas que' means 'not only'. It is different from 'ne...que' (only). 'Je ne mange pas que des légumes' = I don't eat only vegetables."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Il ___ boit ___ de l'eau.' (only drinks)",
+          "correctAnswer": "ne / que",
+          "explanation": "Structure: subject + ne + verb + que + restricted element. 'Il ne boit que de l'eau' = He only drinks water."
+        }
       ]
     },
     "advanced": {
       "title": "Ne...que — Restriction, Position & Contrast with Negation",
       "explanation": "Ne...que expresses restriction ('only') and is NOT a negation. Critical distinctions:\n\n1. Ne...que vs ne...pas:\n   - 'Je ne mange pas de viande.' = I don't eat meat. (negation — de replaces article)\n   - 'Je ne mange que de la viande.' = I only eat meat. (restriction — article stays)\n\n2. Position of que: que is placed directly before the element being restricted:\n   - Restrict object: 'Je ne mange que des légumes.'\n   - Restrict time: 'Elle ne travaille que le matin.'\n   - Restrict place: 'Il ne sort que le week-end.'\n\n3. In passé composé: ne comes before auxiliary, que comes after:\n   - 'Je n'ai mangé que des légumes hier.' (I only ate vegetables yesterday.)\n\n4. With infinitives: 'Je ne veux qu'acheter du pain.'\n\n5. Seulement vs ne...que: mostly interchangeable, but ne...que is more formal/literary.\n   - 'Il mange seulement des légumes.' = 'Il ne mange que des légumes.'",
       "examples": [
-        ["Je n'ai mangé que des légumes et des fruits hier.", "I only ate vegetables and fruit yesterday."],
-        ["Elle ne boit que de l'eau plate — jamais de jus.", "She only drinks still water — never juice."],
-        ["Il ne cuisine qu'avec des produits frais du marché.", "He only cooks with fresh market produce."],
-        ["Nous ne prenons que le nécessaire pour le voyage.", "We only take what is necessary for the trip."],
-        ["Je ne veux acheter que des carottes et des pommes.", "I only want to buy carrots and apples."],
-        ["Elle n'a parlé qu'à son médecin de ce problème.", "She only spoke to her doctor about this problem."]
+        {
+          "french": "Je n'ai mangé que des légumes et des fruits hier.",
+          "english": "I only ate vegetables and fruit yesterday."
+        },
+        {
+          "french": "Elle ne boit que de l'eau plate — jamais de jus.",
+          "english": "She only drinks still water — never juice."
+        },
+        {
+          "french": "Il ne cuisine qu'avec des produits frais du marché.",
+          "english": "He only cooks with fresh market produce."
+        },
+        {
+          "french": "Nous ne prenons que le nécessaire pour le voyage.",
+          "english": "We only take what is necessary for the trip."
+        },
+        {
+          "french": "Je ne veux acheter que des carottes et des pommes.",
+          "english": "I only want to buy carrots and apples."
+        },
+        {
+          "french": "Elle n'a parlé qu'à son médecin de ce problème.",
+          "english": "She only spoke to her doctor about this problem."
+        }
       ],
       "drills": [
-        "Translate: I only ate vegetables and fruit yesterday.",
-        "Rewrite with ne...que: 'Il boit seulement de l'eau plate.'",
-        "Explain the article difference: 'Je ne mange pas de légumes' vs 'Je ne mange que des légumes'.",
-        "Translate: She only works in the morning.",
-        "Form the passé composé with ne...que: 'We only bought the essentials.'",
-        "Translate: I only want to buy carrots and apples.",
-        "Correct: 'Il ne mange que pas de viande.'",
-        "Contrast: Write one ne...pas sentence and one ne...que sentence about food."
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Je n'ai mangé ___ des légumes et des fruits hier.' (only)",
+          "correctAnswer": "que",
+          "explanation": "In passé composé, 'ne' goes before the auxiliary and 'que' goes after the past participle, directly before the restricted noun: 'je n'ai mangé que'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Rewrite: 'Il boit seulement de l'eau plate.' → 'Il ne boit ___ de l'eau plate.'",
+          "correctAnswer": "que",
+          "explanation": "'Seulement' and 'ne...que' are interchangeable. 'Il ne boit que' = Il boit seulement. 'Ne...que' is more formal and literary."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the key article difference between 'Je ne mange pas de légumes' and 'Je ne mange que des légumes'?",
+          "options": [
+            "They mean the same thing — both express not eating vegetables.",
+            "'Ne...pas de' is negation (article changes to 'de'); 'ne...que' is restriction (article stays 'des').",
+            "'Ne...que' changes the article; 'ne...pas' keeps it the same.",
+            "Both change the article to 'de'."
+          ],
+          "correctAnswer": "'Ne...pas de' is negation (article changes to 'de'); 'ne...que' is restriction (article stays 'des').",
+          "explanation": "With negation (ne...pas), the article changes to 'de/d''. With restriction (ne...que), the original article is kept. This is a critical distinction."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Elle ne travaille ___ le matin.' (only works in the morning)",
+          "correctAnswer": "que",
+          "explanation": "Ne...que can restrict any element — not just objects but also time expressions: 'Elle ne travaille que le matin' = She only works in the morning."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete (passé composé): 'Nous ___ acheté ___ le nécessaire.' (we only bought)",
+          "correctAnswer": "n'avons / que",
+          "explanation": "In passé composé: ne/n' + auxiliary + past participle + que + restricted noun. 'Nous n'avons acheté que le nécessaire' = We only bought the essentials."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'I only want to buy carrots and apples' using ne...que?",
+          "options": [
+            "Je ne veux qu'acheter des carottes et des pommes.",
+            "Je ne veux acheter que des carottes et des pommes.",
+            "Je veux seulement ne acheter des carottes.",
+            "Je ne veux pas acheter des carottes et des pommes."
+          ],
+          "correctAnswer": "Je ne veux acheter que des carottes et des pommes.",
+          "explanation": "When ne...que wraps an infinitive phrase, 'que' is placed before the restricted noun (not between the main verb and the infinitive): 'Je ne veux acheter que des carottes.'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is wrong with 'Il ne mange que pas de viande'?",
+          "options": [
+            "Nothing — it is correct.",
+            "'Que' and 'pas' cannot be combined; use 'Il ne mange que de la viande' (only) or 'Il ne mange pas de viande' (not).",
+            "The article should be 'du' instead of 'de'.",
+            "'Il ne mange que' should be 'il que ne mange'."
+          ],
+          "correctAnswer": "'Que' and 'pas' cannot be combined; use 'Il ne mange que de la viande' (only) or 'Il ne mange pas de viande' (not).",
+          "explanation": "'Ne...que pas' is not a valid construction. Choose either ne...pas (negation = doesn't eat) or ne...que (restriction = only eats)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which pair correctly contrasts ne...pas and ne...que with food vocabulary?",
+          "options": [
+            "'Je ne mange pas de soupe.' / 'Je ne mange que de la soupe.'",
+            "'Je ne mange pas de soupe.' / 'Je ne mange que pas de soupe.'",
+            "'Je ne mange pas soupe.' / 'Je ne mange que soupe.'",
+            "'Je ne mange pas la soupe.' / 'Je ne mange que des soupes.'"
+          ],
+          "correctAnswer": "'Je ne mange pas de soupe.' / 'Je ne mange que de la soupe.'",
+          "explanation": "'Je ne mange pas de soupe' = I don't eat soup (negation — article changes to 'de'). 'Je ne mange que de la soupe' = I only eat soup (restriction — article stays 'de la')."
+        }
       ]
     }
   },
@@ -261,7 +635,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la soupe' mean?",
-        "options": ["the salad", "the soup", "the sauce"],
+        "options": [
+          "the salad",
+          "the soup",
+          "the sauce"
+        ],
         "correctAnswer": "the soup",
         "explanation": "'La soupe' means the soup. It is a very common dish in French cuisine, often made with vegetables.",
         "targetWord": "la soupe"
@@ -281,7 +659,11 @@
       {
         "type": "multipleChoice",
         "question": "What is the gender of 'l'eau'?",
-        "options": ["masculine", "feminine", "neutral"],
+        "options": [
+          "masculine",
+          "feminine",
+          "neutral"
+        ],
         "correctAnswer": "feminine",
         "explanation": "'L'eau' (water) is a feminine noun despite starting with a vowel. It becomes 'de l'eau' (some water) with the partitive article.",
         "targetWord": "l'eau"
