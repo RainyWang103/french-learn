@@ -9,6 +9,12 @@
         "word": "le chien",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "chien",
+          "feminine": "chienne",
+          "masculinePlural": "chiens",
+          "femininePlural": "chiennes"
+        },
         "pronunciation": "luh shee-an",
         "meaning": "the dog",
         "notes": "Feminine: 'la chienne'. 'Un chiot' = a puppy. 'Promener le chien' = to walk the dog. 'Attention au chien !' = Beware of the dog! Dogs are very popular pets in France.",
@@ -22,6 +28,12 @@
         "word": "le chat",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "chat",
+          "feminine": "chatte",
+          "masculinePlural": "chats",
+          "femininePlural": "chattes"
+        },
         "pronunciation": "luh sha",
         "meaning": "the cat",
         "notes": "Feminine: 'la chatte'. 'Un chaton' = a kitten. Cats are the most popular pets in France. French expression: 'avoir un chat dans la gorge' = to have a frog in one's throat.",
@@ -35,6 +47,12 @@
         "word": "l'oiseau",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "oiseau",
+          "feminine": "oiseau",
+          "masculinePlural": "oiseaux",
+          "femininePlural": "oiseaux"
+        },
         "pronunciation": "lwa-zo",
         "meaning": "the bird",
         "notes": "Plural: 'les oiseaux' (one of the few -eau → -eaux plurals). 'Un oiseau chante' = a bird sings. 'Une cage à oiseaux' = a birdcage. Common pet birds include parakeets (perruches).",
@@ -48,6 +66,12 @@
         "word": "le poisson",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "poisson",
+          "feminine": "poisson",
+          "masculinePlural": "poissons",
+          "femininePlural": "poissons"
+        },
         "pronunciation": "luh pwa-son",
         "meaning": "the fish",
         "notes": "Can mean the animal or the food. 'Un poisson rouge' = a goldfish (literally 'a red fish'). 'Poisson d'avril !' = April Fools! (literally 'April fish' — a French tradition).",
@@ -61,6 +85,12 @@
         "word": "la ferme",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "ferme",
+          "feminine": "ferme",
+          "masculinePlural": "fermes",
+          "femininePlural": "fermes"
+        },
         "pronunciation": "la fairm",
         "meaning": "the farm",
         "notes": "'Un fermier / une fermière' = a farmer. 'Les animaux de la ferme' = farm animals. 'À la ferme' = at the farm. Many French farms produce cheese, wine, or other regional specialities.",
@@ -76,6 +106,12 @@
         "word": "le chien",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "chien",
+          "feminine": "chienne",
+          "masculinePlural": "chiens",
+          "femininePlural": "chiennes"
+        },
         "pronunciation": "luh shee-an",
         "meaning": "the dog",
         "notes": "Feminine: 'la chienne'. 'Un chiot' = a puppy. 'Promener le chien' = to walk the dog. 'Attention au chien !' = Beware of the dog! Dogs are very popular pets in France.",
@@ -89,6 +125,12 @@
         "word": "le chat",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "chat",
+          "feminine": "chatte",
+          "masculinePlural": "chats",
+          "femininePlural": "chattes"
+        },
         "pronunciation": "luh sha",
         "meaning": "the cat",
         "notes": "Feminine: 'la chatte'. 'Un chaton' = a kitten. Cats are the most popular pets in France. French expression: 'avoir un chat dans la gorge' = to have a frog in one's throat.",
@@ -102,6 +144,12 @@
         "word": "l'oiseau",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "oiseau",
+          "feminine": "oiseau",
+          "masculinePlural": "oiseaux",
+          "femininePlural": "oiseaux"
+        },
         "pronunciation": "lwa-zo",
         "meaning": "the bird",
         "notes": "Plural: 'les oiseaux' (one of the few -eau → -eaux plurals). 'Un oiseau chante' = a bird sings. 'Une cage à oiseaux' = a birdcage. Common pet birds include parakeets (perruches).",
@@ -115,6 +163,12 @@
         "word": "le poisson",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "poisson",
+          "feminine": "poisson",
+          "masculinePlural": "poissons",
+          "femininePlural": "poissons"
+        },
         "pronunciation": "luh pwa-son",
         "meaning": "the fish",
         "notes": "Can mean the animal or the food. 'Un poisson rouge' = a goldfish (literally 'a red fish'). 'Poisson d'avril !' = April Fools! (literally 'April fish' — a French tradition).",
@@ -128,6 +182,12 @@
         "word": "la ferme",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "ferme",
+          "feminine": "ferme",
+          "masculinePlural": "fermes",
+          "femininePlural": "fermes"
+        },
         "pronunciation": "la fairm",
         "meaning": "the farm",
         "notes": "'Un fermier / une fermière' = a farmer. 'Les animaux de la ferme' = farm animals. 'À la ferme' = at the farm. Many French farms produce cheese, wine, or other regional specialities.",
@@ -141,6 +201,12 @@
         "word": "le lapin",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "lapin",
+          "feminine": "lapine",
+          "masculinePlural": "lapins",
+          "femininePlural": "lapines"
+        },
         "pronunciation": "luh la-pan",
         "meaning": "the rabbit",
         "notes": "'Un lapin nain' = a dwarf rabbit (popular pet). 'Poser un lapin à quelqu'un' = to stand someone up (idiom). 'Le lapin de Pâques' = the Easter bunny. Also a common farm animal and traditional dish in France.",
@@ -154,6 +220,12 @@
         "word": "le cheval",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "cheval",
+          "feminine": "jument",
+          "masculinePlural": "chevaux",
+          "femininePlural": "juments"
+        },
         "pronunciation": "luh shuh-val",
         "meaning": "the horse",
         "notes": "Plural: 'les chevaux' (irregular -al → -aux). 'Faire du cheval' = to go horse riding. 'L'équitation' = horse riding (the sport). France has a strong equestrian tradition.",
@@ -179,19 +251,19 @@
       ],
       "questions": [
         {
-          "question": "What pets does speaker B have?",
-          "options": ["A dog and a fish", "A dog and a cat", "A cat and a bird"],
-          "correctAnswer": "A dog and a cat"
+          "question": "Quels animaux est-ce que B a ?",
+          "options": ["Un chien et un poisson", "Un chien et un chat", "Un chat et un oiseau"],
+          "correctAnswer": "Un chien et un chat"
         },
         {
-          "question": "What is the dog's name?",
+          "question": "Comment s'appelle le chien ?",
           "options": ["Max", "Réglisse", "Noir"],
           "correctAnswer": "Réglisse"
         },
         {
-          "question": "What does the cat prefer to do?",
-          "options": ["Go outside", "Play", "Sleep"],
-          "correctAnswer": "Sleep"
+          "question": "Qu'est-ce que le chat préfère faire ?",
+          "options": ["Sortir dehors", "Jouer", "Dormir"],
+          "correctAnswer": "Dormir"
         }
       ],
       "summary": "Two friends discuss their pets. Speaker B has a big black dog named Réglisse and a small white cat that likes to sleep. Speaker A has a goldfish. Speaker B walks the dog but the cat stays home."
@@ -211,24 +283,24 @@
       ],
       "questions": [
         {
-          "question": "What kind of animal is Caramel?",
-          "options": ["A cat", "A dwarf rabbit", "A dog", "A hamster"],
-          "correctAnswer": "A dwarf rabbit"
+          "question": "Quel type d'animal est Caramel ?",
+          "options": ["Un chat", "Un lapin nain", "Un chien", "Un hamster"],
+          "correctAnswer": "Un lapin nain"
         },
         {
-          "question": "What animal would speaker A like to have?",
-          "options": ["A rabbit", "A bird", "A horse", "A dog"],
-          "correctAnswer": "A horse"
+          "question": "Quel animal est-ce que A aimerait avoir ?",
+          "options": ["Un lapin", "Un oiseau", "Un cheval", "Un chien"],
+          "correctAnswer": "Un cheval"
         },
         {
-          "question": "What animals are at the nearby farm?",
-          "options": ["Dogs and cats", "Horses, birds, and fish", "Only horses", "Cows and chickens"],
-          "correctAnswer": "Horses, birds, and fish"
+          "question": "Quels animaux y a-t-il à la ferme près de chez B ?",
+          "options": ["Des chiens et des chats", "Des chevaux, des oiseaux et des poissons", "Seulement des chevaux", "Des vaches et des poules"],
+          "correctAnswer": "Des chevaux, des oiseaux et des poissons"
         },
         {
-          "question": "Whose dog is in the garden?",
-          "options": ["Speaker A's", "Speaker B's", "The neighbour's", "From the farm"],
-          "correctAnswer": "The neighbour's"
+          "question": "À qui appartient le chien dans le jardin ?",
+          "options": ["À A", "À B", "À la voisine", "À la ferme"],
+          "correctAnswer": "À la voisine"
         }
       ],
       "summary": "Speaker B shows off a new dwarf rabbit named Caramel. Speaker A would love a horse but lives in an apartment. Speaker B mentions a nearby farm with horses, birds, and fish in a pond. They also notice the neighbour's large but gentle dog in the garden."

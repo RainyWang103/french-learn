@@ -16,7 +16,8 @@
           ["J'habite dans un quartier calme.", "I live in a quiet neighbourhood."],
           ["Le quartier est très agréable.", "The neighbourhood is very pleasant."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "quartier", "feminine": "quartier", "masculinePlural": "quartiers", "femininePlural": "quartiers" }
       },
       {
         "word": "la boulangerie",
@@ -29,7 +30,8 @@
           ["Il y a une boulangerie au coin de la rue.", "There's a bakery on the corner of the street."],
           ["J'achète du pain à la boulangerie tous les jours.", "I buy bread at the bakery every day."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "boulangerie", "feminine": "boulangerie", "masculinePlural": "boulangeries", "femininePlural": "boulangeries" }
       },
       {
         "word": "le parc",
@@ -42,7 +44,8 @@
           ["Les enfants jouent dans le parc.", "The children play in the park."],
           ["Il y a un grand parc près de chez moi.", "There's a big park near my home."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "parc", "feminine": "parc", "masculinePlural": "parcs", "femininePlural": "parcs" }
       },
       {
         "word": "la poste",
@@ -55,7 +58,8 @@
           ["La poste est ouverte le samedi matin.", "The post office is open on Saturday morning."],
           ["Il y a une poste dans mon quartier.", "There's a post office in my neighbourhood."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "poste", "feminine": "poste", "masculinePlural": "postes", "femininePlural": "postes" }
       },
       {
         "word": "le voisin",
@@ -68,7 +72,8 @@
           ["Mon voisin est très gentil.", "My neighbour is very nice."],
           ["Nous avons de bons voisins.", "We have good neighbours."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "voisin", "feminine": "voisine", "masculinePlural": "voisins", "femininePlural": "voisines" }
       }
     ],
     "advanced": [
@@ -83,7 +88,8 @@
           ["J'habite dans un quartier calme.", "I live in a quiet neighbourhood."],
           ["Le quartier est très agréable.", "The neighbourhood is very pleasant."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "quartier", "feminine": "quartier", "masculinePlural": "quartiers", "femininePlural": "quartiers" }
       },
       {
         "word": "la boulangerie",
@@ -96,7 +102,8 @@
           ["Il y a une boulangerie au coin de la rue.", "There's a bakery on the corner of the street."],
           ["J'achète du pain à la boulangerie tous les jours.", "I buy bread at the bakery every day."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "boulangerie", "feminine": "boulangerie", "masculinePlural": "boulangeries", "femininePlural": "boulangeries" }
       },
       {
         "word": "le parc",
@@ -109,7 +116,8 @@
           ["Les enfants jouent dans le parc.", "The children play in the park."],
           ["Il y a un grand parc près de chez moi.", "There's a big park near my home."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "parc", "feminine": "parc", "masculinePlural": "parcs", "femininePlural": "parcs" }
       },
       {
         "word": "la poste",
@@ -122,7 +130,8 @@
           ["La poste est ouverte le samedi matin.", "The post office is open on Saturday morning."],
           ["Il y a une poste dans mon quartier.", "There's a post office in my neighbourhood."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "poste", "feminine": "poste", "masculinePlural": "postes", "femininePlural": "postes" }
       },
       {
         "word": "le voisin",
@@ -135,7 +144,8 @@
           ["Mon voisin est très gentil.", "My neighbour is very nice."],
           ["Nous avons de bons voisins.", "We have good neighbours."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "voisin", "feminine": "voisine", "masculinePlural": "voisins", "femininePlural": "voisines" }
       },
       {
         "word": "le coin",
@@ -148,7 +158,8 @@
           ["La boulangerie est au coin de la rue.", "The bakery is on the corner of the street."],
           ["C'est un bon coin pour se promener.", "It's a good spot for a walk."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "coin", "feminine": "coin", "masculinePlural": "coins", "femininePlural": "coins" }
       },
       {
         "word": "la mairie",
@@ -161,7 +172,8 @@
           ["La mairie est sur la place principale.", "The town hall is on the main square."],
           ["Il faut aller à la mairie pour le passeport.", "You need to go to the town hall for the passport."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "mairie", "feminine": "mairie", "masculinePlural": "mairies", "femininePlural": "mairies" }
       }
     ]
   },
@@ -179,19 +191,19 @@
       ],
       "questions": [
         {
-          "question": "Where does speaker B live?",
-          "options": ["In a noisy neighbourhood", "In a quiet neighbourhood near the park", "In the city centre"],
-          "correctAnswer": "In a quiet neighbourhood near the park"
+          "question": "Où est-ce que B habite ?",
+          "options": ["Dans un quartier bruyant", "Dans un quartier calme près du parc", "Au centre-ville"],
+          "correctAnswer": "Dans un quartier calme près du parc"
         },
         {
-          "question": "What does speaker B buy at the bakery every morning?",
-          "options": ["Croissants", "Bread", "Cakes"],
-          "correctAnswer": "Bread"
+          "question": "Qu'est-ce que B achète à la boulangerie chaque matin ?",
+          "options": ["Des croissants", "Du pain", "Des gâteaux"],
+          "correctAnswer": "Du pain"
         },
         {
-          "question": "How many neighbours does speaker B have on their floor?",
-          "options": ["Two", "Three", "Four"],
-          "correctAnswer": "Three"
+          "question": "Combien de voisins est-ce que B a sur son étage ?",
+          "options": ["Deux", "Trois", "Quatre"],
+          "correctAnswer": "Trois"
         }
       ],
       "summary": "Speaker B lives in a quiet neighbourhood near a park. The area has a bakery where B buys bread every morning, a post office five minutes away, and a supermarket. Speaker B has three neighbours on the same floor, and they are all very nice."
@@ -211,24 +223,24 @@
       ],
       "questions": [
         {
-          "question": "How long has speaker B lived in the neighbourhood?",
-          "options": ["Two years", "Three years", "Five years", "Ten years"],
-          "correctAnswer": "Five years"
+          "question": "Depuis combien de temps est-ce que B habite dans le quartier ?",
+          "options": ["Deux ans", "Trois ans", "Cinq ans", "Dix ans"],
+          "correctAnswer": "Cinq ans"
         },
         {
-          "question": "How many bakeries are there in the neighbourhood?",
-          "options": ["One", "Two", "Three", "None"],
-          "correctAnswer": "Two"
+          "question": "Combien de boulangeries y a-t-il dans le quartier ?",
+          "options": ["Une", "Deux", "Trois", "Aucune"],
+          "correctAnswer": "Deux"
         },
         {
-          "question": "Where is the park located?",
-          "options": ["Next to the bakery", "Behind the town hall", "Near the post office", "On the main street"],
-          "correctAnswer": "Behind the town hall"
+          "question": "Où se trouve le parc ?",
+          "options": ["À côté de la boulangerie", "Derrière la mairie", "Près de la poste", "Dans la rue principale"],
+          "correctAnswer": "Derrière la mairie"
         },
         {
-          "question": "What event does speaker B mention?",
-          "options": ["A market in June", "Neighbours' Day in May", "A park festival in July", "A bakery opening in April"],
-          "correctAnswer": "Neighbours' Day in May"
+          "question": "Quel événement est-ce que B mentionne ?",
+          "options": ["Un marché en juin", "La Fête des voisins en mai", "Un festival au parc en juillet", "Une inauguration de boulangerie en avril"],
+          "correctAnswer": "La Fête des voisins en mai"
         }
       ],
       "summary": "Speaker A just moved to the neighbourhood and asks speaker B for advice. B has lived there for five years. The neighbourhood has two bakeries (the best one on the corner of rue Victor Hugo), a large park behind the town hall where neighbours gather on Sundays, and a post office on the square next to the town hall. B knows several neighbours and mentions the annual Neighbours' Day celebration in May."

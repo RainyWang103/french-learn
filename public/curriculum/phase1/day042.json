@@ -22,7 +22,8 @@
             "Paris is a beautiful large city."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "ville", "feminine": "ville", "masculinePlural": "villes", "femininePlural": "villes" }
       },
       {
         "word": "le magasin",
@@ -41,7 +42,8 @@
             "The shop closes at 8 PM."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "magasin", "feminine": "magasin", "masculinePlural": "magasins", "femininePlural": "magasins" }
       },
       {
         "word": "l'église",
@@ -60,7 +62,8 @@
             "We are visiting the church this morning."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "église", "feminine": "église", "masculinePlural": "églises", "femininePlural": "églises" }
       },
       {
         "word": "la fontaine",
@@ -79,7 +82,8 @@
             "The children are playing near the fountain."
           ]
         ],
-        "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace."
+        "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace.",
+        "forms": { "masculine": "fontaine", "feminine": "fontaine", "masculinePlural": "fontaines", "femininePlural": "fontaines" }
       },
       {
         "word": "le jardin",
@@ -98,7 +102,8 @@
             "We are walking in the garden."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "jardin", "feminine": "jardin", "masculinePlural": "jardins", "femininePlural": "jardins" }
       }
     ],
     "advanced": [
@@ -119,7 +124,8 @@
             "Paris is a beautiful large city."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "ville", "feminine": "ville", "masculinePlural": "villes", "femininePlural": "villes" }
       },
       {
         "word": "le magasin",
@@ -138,7 +144,8 @@
             "The shop closes at 8 PM."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "magasin", "feminine": "magasin", "masculinePlural": "magasins", "femininePlural": "magasins" }
       },
       {
         "word": "l'église",
@@ -157,7 +164,8 @@
             "We are visiting the church this morning."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "église", "feminine": "église", "masculinePlural": "églises", "femininePlural": "églises" }
       },
       {
         "word": "la fontaine",
@@ -176,7 +184,8 @@
             "The children are playing near the fountain."
           ]
         ],
-        "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace."
+        "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace.",
+        "forms": { "masculine": "fontaine", "feminine": "fontaine", "masculinePlural": "fontaines", "femininePlural": "fontaines" }
       },
       {
         "word": "le jardin",
@@ -195,7 +204,8 @@
             "We are walking in the garden."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "jardin", "feminine": "jardin", "masculinePlural": "jardins", "femininePlural": "jardins" }
       },
       {
         "word": "le musée",
@@ -214,7 +224,8 @@
             "The Orsay Museum is magnificent."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "musée", "feminine": "musée", "masculinePlural": "musées", "femininePlural": "musées" }
       },
       {
         "word": "le centre-ville",
@@ -233,7 +244,8 @@
             "I live five minutes from the town centre."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "centre-ville", "feminine": "centre-ville", "masculinePlural": "centres-villes", "femininePlural": "centres-villes" }
       }
     ]
   },
@@ -275,31 +287,31 @@
       ],
       "questions": [
         {
-          "question": "Where does Speaker A live?",
+          "question": "Où est-ce que A habite ?",
           "options": [
-            "In France",
-            "In England",
-            "In Paris"
+            "En France",
+            "En Angleterre",
+            "À Paris"
           ],
-          "correctAnswer": "In England"
+          "correctAnswer": "En Angleterre"
         },
         {
-          "question": "Which Paris landmark do they both mention?",
+          "question": "Quel monument parisien est-ce qu'ils mentionnent tous les deux ?",
           "options": [
-            "The Eiffel Tower",
-            "The Tuileries Garden",
-            "The Louvre"
+            "La Tour Eiffel",
+            "Le jardin des Tuileries",
+            "Le Louvre"
           ],
-          "correctAnswer": "The Tuileries Garden"
+          "correctAnswer": "Le jardin des Tuileries"
         },
         {
-          "question": "Where are Speakers A going next week?",
+          "question": "Où est-ce que A va la semaine prochaine ?",
           "options": [
-            "Paris",
-            "Bordeaux",
-            "Lyon"
+            "À Paris",
+            "À Bordeaux",
+            "À Lyon"
           ],
-          "correctAnswer": "Lyon"
+          "correctAnswer": "À Lyon"
         }
       ],
       "summary": "Two friends from different countries talk about visiting France. Speaker A lives in England but visits France every summer; Speaker B lives in Paris. They discuss Paris landmarks including Notre-Dame church and the Tuileries Garden. Speaker A is heading to Lyon the following week, and Speaker B recommends the old quarter and the restaurants there."
@@ -341,44 +353,44 @@
       ],
       "questions": [
         {
-          "question": "Where are Speaker B and their companion from?",
+          "question": "D'où viennent B et son compagnon ?",
           "options": [
-            "China",
-            "Japan",
-            "South Korea",
-            "Australia"
+            "De Chine",
+            "Du Japon",
+            "De Corée du Sud",
+            "D'Australie"
           ],
-          "correctAnswer": "Japan"
+          "correctAnswer": "Du Japon"
         },
         {
-          "question": "Which two places have they already visited?",
+          "question": "Quels deux endroits ont-ils déjà visités ?",
           "options": [
-            "The Louvre and Notre-Dame",
-            "The Musée d'Orsay and the Tuileries Garden",
-            "Sainte-Chapelle and the Eiffel Tower",
-            "The centre-ville shops and a fountain"
+            "Le Louvre et Notre-Dame",
+            "Le musée d'Orsay et le jardin des Tuileries",
+            "La Sainte-Chapelle et la Tour Eiffel",
+            "Les magasins du centre-ville et une fontaine"
           ],
-          "correctAnswer": "The Musée d'Orsay and the Tuileries Garden"
+          "correctAnswer": "Le musée d'Orsay et le jardin des Tuileries"
         },
         {
-          "question": "What are they planning to visit in the afternoon?",
+          "question": "Qu'est-ce qu'ils prévoient de visiter l'après-midi ?",
           "options": [
-            "The Louvre",
-            "A restaurant",
-            "An old church",
-            "The market"
+            "Le Louvre",
+            "Un restaurant",
+            "Une vieille église",
+            "Le marché"
           ],
-          "correctAnswer": "An old church"
+          "correctAnswer": "Une vieille église"
         },
         {
-          "question": "Where is Sainte-Chapelle, according to Speaker A?",
+          "question": "Où se trouve la Sainte-Chapelle selon A ?",
           "options": [
-            "Near the Eiffel Tower",
-            "Outside the city centre",
-            "In the town centre, next to the Saint-Michel fountain",
-            "In the Tuileries Garden"
+            "Près de la Tour Eiffel",
+            "En dehors du centre-ville",
+            "Au centre-ville, à côté de la fontaine Saint-Michel",
+            "Dans le jardin des Tuileries"
           ],
-          "correctAnswer": "In the town centre, next to the Saint-Michel fountain"
+          "correctAnswer": "Au centre-ville, à côté de la fontaine Saint-Michel"
         }
       ],
       "summary": "Two Japanese visitors discuss their Paris trip with a local. They have already seen the Musée d'Orsay and the Tuileries Garden. The next day, they plan to visit the Louvre in the morning and an old church in the afternoon. The local recommends Sainte-Chapelle, located in the town centre near the Saint-Michel fountain, and the visitors also ask about souvenir shops in the centre."

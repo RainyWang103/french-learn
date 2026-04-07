@@ -22,7 +22,8 @@
             "I bought a basket at the market."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "panier", "feminine": "panier", "masculinePlural": "paniers", "femininePlural": "paniers" }
       },
       {
         "word": "la caisse",
@@ -41,7 +42,8 @@
             "There is a queue at the checkout."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "caisse", "feminine": "caisse", "masculinePlural": "caisses", "femininePlural": "caisses" }
       },
       {
         "word": "frais",
@@ -60,7 +62,8 @@
             "The fish is fresh this morning."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "frais", "feminine": "fraîche", "masculinePlural": "frais", "femininePlural": "fraîches" }
       },
       {
         "word": "peser",
@@ -69,14 +72,6 @@
         "pronunciation": "puh-zay",
         "meaning": "to weigh",
         "notes": "Regular -er verb with a spelling change (è before silent endings). 'Pouvez-vous peser les pommes ?' = Can you weigh the apples? At French markets, produce is sold by weight (au kilo). 'La balance' = the scales used for weighing.",
-        "conjugation": {
-          "je pèse": "I weigh",
-          "tu pèses": "you weigh",
-          "il/elle pèse": "he/she weighs",
-          "nous pesons": "we weigh",
-          "vous pesez": "you weigh",
-          "ils/elles pèsent": "they weigh"
-        },
         "examples": [
           [
             "Il pèse les pommes sur la balance.",
@@ -87,7 +82,8 @@
             "Can you weigh a kilo of cherries?"
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "je": "je pèse", "tu": "tu pèses", "il": "il/elle/on pèse", "nous": "nous pesons", "vous": "vous pesez", "ils": "ils/elles pèsent" }
       },
       {
         "word": "le rayon",
@@ -106,7 +102,8 @@
             "I am looking for the fruit and vegetable section."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "rayon", "feminine": "rayon", "masculinePlural": "rayons", "femininePlural": "rayons" }
       }
     ],
     "advanced": [
@@ -127,7 +124,8 @@
             "I bought a basket at the market."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "panier", "feminine": "panier", "masculinePlural": "paniers", "femininePlural": "paniers" }
       },
       {
         "word": "la caisse",
@@ -146,7 +144,8 @@
             "There is a queue at the checkout."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "caisse", "feminine": "caisse", "masculinePlural": "caisses", "femininePlural": "caisses" }
       },
       {
         "word": "frais",
@@ -165,7 +164,8 @@
             "The fish is fresh this morning."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "frais", "feminine": "fraîche", "masculinePlural": "frais", "femininePlural": "fraîches" }
       },
       {
         "word": "peser",
@@ -174,14 +174,6 @@
         "pronunciation": "puh-zay",
         "meaning": "to weigh",
         "notes": "Regular -er verb with a spelling change (è before silent endings). 'Pouvez-vous peser les pommes ?' = Can you weigh the apples? At French markets, produce is sold by weight (au kilo). 'La balance' = the scales used for weighing.",
-        "conjugation": {
-          "je pèse": "I weigh",
-          "tu pèses": "you weigh",
-          "il/elle pèse": "he/she weighs",
-          "nous pesons": "we weigh",
-          "vous pesez": "you weigh",
-          "ils/elles pèsent": "they weigh"
-        },
         "examples": [
           [
             "Il pèse les pommes sur la balance.",
@@ -192,7 +184,8 @@
             "Can you weigh a kilo of cherries?"
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "je": "je pèse", "tu": "tu pèses", "il": "il/elle/on pèse", "nous": "nous pesons", "vous": "vous pesez", "ils": "ils/elles pèsent" }
       },
       {
         "word": "le rayon",
@@ -211,7 +204,8 @@
             "I am looking for the fruit and vegetable section."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "rayon", "feminine": "rayon", "masculinePlural": "rayons", "femininePlural": "rayons" }
       },
       {
         "word": "le reçu",
@@ -230,7 +224,8 @@
             "I have lost my receipt."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "reçu", "feminine": "reçu", "masculinePlural": "reçus", "femininePlural": "reçus" }
       },
       {
         "word": "la file",
@@ -249,7 +244,8 @@
             "I have been queuing for ten minutes."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "file", "feminine": "file", "masculinePlural": "files", "femininePlural": "files" }
       }
     ]
   },
@@ -291,31 +287,31 @@
       ],
       "questions": [
         {
-          "question": "Who is in charge of buying the fruit?",
+          "question": "Qui s'occupe des fruits ?",
           "options": [
-            "Speaker B",
-            "Speaker A",
-            "The vendor"
+            "B",
+            "A",
+            "Le vendeur"
           ],
-          "correctAnswer": "Speaker A"
+          "correctAnswer": "A"
         },
         {
-          "question": "What does the vendor confirm about the strawberries?",
+          "question": "Qu'est-ce que le vendeur confirme sur les fraises ?",
           "options": [
-            "They are imported",
-            "They were picked this morning",
-            "They are on special offer"
+            "Elles sont importées",
+            "Elles ont été ramassées ce matin",
+            "Elles sont en promotion"
           ],
-          "correctAnswer": "They were picked this morning"
+          "correctAnswer": "Elles ont été ramassées ce matin"
         },
         {
-          "question": "Who will pay at the till?",
+          "question": "Qui va payer à la caisse ?",
           "options": [
-            "Speaker A",
-            "The vendor",
-            "Speaker B"
+            "A",
+            "Le vendeur",
+            "B"
           ],
-          "correctAnswer": "Speaker B"
+          "correctAnswer": "B"
         }
       ],
       "summary": "Two friends divide tasks at an outdoor market using emphatic pronouns: Speaker A takes the fruit, Speaker B takes the cheese, and a third person handles the vegetables. The vendor confirms the strawberries were picked that morning. Speaker B will pay at the till while Speaker A holds the basket."
@@ -357,44 +353,44 @@
       ],
       "questions": [
         {
-          "question": "Who is buying the cheese?",
+          "question": "Qui achète le fromage ?",
           "options": [
-            "Speaker B",
-            "The vendor",
-            "Speaker A",
-            "A third friend"
+            "B",
+            "Le vendeur",
+            "A",
+            "Un troisième ami"
           ],
-          "correctAnswer": "Speaker A"
+          "correctAnswer": "A"
         },
         {
-          "question": "How many kilos of apples are ordered?",
+          "question": "Combien de kilos de pommes est-ce qu'ils commandent ?",
           "options": [
-            "One kilo",
-            "Two kilos",
-            "Three kilos",
-            "Half a kilo"
+            "Un kilo",
+            "Deux kilos",
+            "Trois kilos",
+            "Un demi-kilo"
           ],
-          "correctAnswer": "Two kilos"
+          "correctAnswer": "Deux kilos"
         },
         {
-          "question": "What does Speaker A note about their carrying situation?",
+          "question": "Qu'est-ce que A dit sur ce qu'ils ont pour porter les courses ?",
           "options": [
-            "They have too many bags",
-            "They only have one basket",
-            "They forgot the receipt",
-            "They lost their place in the queue"
+            "Ils ont trop de sacs",
+            "Ils n'ont qu'un seul panier",
+            "Ils ont oublié le reçu",
+            "Ils ont perdu leur place dans la file"
           ],
-          "correctAnswer": "They only have one basket"
+          "correctAnswer": "Ils n'ont qu'un seul panier"
         },
         {
-          "question": "What will Speaker B do while Speaker A holds their place in the queue?",
+          "question": "Qu'est-ce que B va faire pendant que A garde leur place dans la file ?",
           "options": [
-            "Buy more fruit",
-            "Talk to the vendor",
-            "Pay at the till",
-            "Find the third friend"
+            "Acheter plus de fruits",
+            "Parler au vendeur",
+            "Payer à la caisse",
+            "Chercher le troisième ami"
           ],
-          "correctAnswer": "Pay at the till"
+          "correctAnswer": "Payer à la caisse"
         }
       ],
       "summary": "Two friends split tasks at a busy outdoor market using emphatic pronouns throughout. Speaker A handles the cheese section while Speaker B buys fruit (two kilos of apples). A third friend is bringing bags. Speaker B will pay at the till while Speaker A holds their place in the long queue."

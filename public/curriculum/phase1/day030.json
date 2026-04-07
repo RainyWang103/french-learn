@@ -9,6 +9,12 @@
         "word": "la terrasse",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "terrasse",
+          "feminine": "terrasse",
+          "masculinePlural": "terrasses",
+          "femininePlural": "terrasses"
+        },
         "pronunciation": "la teh-rass",
         "meaning": "the terrace / the outdoor seating area",
         "notes": "In France, café terraces are an iconic part of daily life. 'En terrasse' = outside on the terrace. 'On s'assoit en terrasse ?' = Shall we sit outside?",
@@ -22,6 +28,12 @@
         "word": "la tasse",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "tasse",
+          "feminine": "tasse",
+          "masculinePlural": "tasses",
+          "femininePlural": "tasses"
+        },
         "pronunciation": "la tass",
         "meaning": "the cup",
         "notes": "'Une tasse de café' = a cup of coffee. 'Une tasse de thé' = a cup of tea. Different from 'un verre' (a glass) which is used for cold drinks.",
@@ -35,6 +47,12 @@
         "word": "le thé",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "thé",
+          "feminine": "thé",
+          "masculinePlural": "thés",
+          "femininePlural": "thés"
+        },
         "pronunciation": "luh tay",
         "meaning": "the tea",
         "notes": "'Le thé vert' = green tea. 'Le thé noir' = black tea. 'Un thé à la menthe' = mint tea (very popular in North African French culture). Tea is less common than coffee in France but gaining popularity.",
@@ -48,6 +66,12 @@
         "word": "le sucre",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "sucre",
+          "feminine": "sucre",
+          "masculinePlural": "sucres",
+          "femininePlural": "sucres"
+        },
         "pronunciation": "luh sookr",
         "meaning": "the sugar",
         "notes": "'Un morceau de sucre' = a sugar cube (the traditional French way). 'Avec ou sans sucre ?' = With or without sugar? 'Sucré' = sweet (adjective).",
@@ -61,6 +85,12 @@
         "word": "la carte",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "carte",
+          "feminine": "carte",
+          "masculinePlural": "cartes",
+          "femininePlural": "cartes"
+        },
         "pronunciation": "la kart",
         "meaning": "the menu",
         "notes": "In a café or restaurant, 'la carte' is the menu. It can also mean 'the card' or 'the map' in other contexts. 'La carte des boissons' = the drinks menu. 'À la carte' = choosing individual items (not a set menu).",
@@ -76,6 +106,12 @@
         "word": "la terrasse",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "terrasse",
+          "feminine": "terrasse",
+          "masculinePlural": "terrasses",
+          "femininePlural": "terrasses"
+        },
         "pronunciation": "la teh-rass",
         "meaning": "the terrace / the outdoor seating area",
         "notes": "In France, café terraces are an iconic part of daily life. 'En terrasse' = outside on the terrace. 'On s'assoit en terrasse ?' = Shall we sit outside?",
@@ -89,6 +125,12 @@
         "word": "la tasse",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "tasse",
+          "feminine": "tasse",
+          "masculinePlural": "tasses",
+          "femininePlural": "tasses"
+        },
         "pronunciation": "la tass",
         "meaning": "the cup",
         "notes": "'Une tasse de café' = a cup of coffee. 'Une tasse de thé' = a cup of tea. Different from 'un verre' (a glass) which is used for cold drinks.",
@@ -102,6 +144,12 @@
         "word": "le thé",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "thé",
+          "feminine": "thé",
+          "masculinePlural": "thés",
+          "femininePlural": "thés"
+        },
         "pronunciation": "luh tay",
         "meaning": "the tea",
         "notes": "'Le thé vert' = green tea. 'Le thé noir' = black tea. 'Un thé à la menthe' = mint tea (very popular in North African French culture). Tea is less common than coffee in France but gaining popularity.",
@@ -115,6 +163,12 @@
         "word": "le sucre",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "sucre",
+          "feminine": "sucre",
+          "masculinePlural": "sucres",
+          "femininePlural": "sucres"
+        },
         "pronunciation": "luh sookr",
         "meaning": "the sugar",
         "notes": "'Un morceau de sucre' = a sugar cube (the traditional French way). 'Avec ou sans sucre ?' = With or without sugar? 'Sucré' = sweet (adjective).",
@@ -128,6 +182,12 @@
         "word": "la carte",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "carte",
+          "feminine": "carte",
+          "masculinePlural": "cartes",
+          "femininePlural": "cartes"
+        },
         "pronunciation": "la kart",
         "meaning": "the menu",
         "notes": "In a café or restaurant, 'la carte' is the menu. It can also mean 'the card' or 'the map' in other contexts. 'La carte des boissons' = the drinks menu. 'À la carte' = choosing individual items (not a set menu).",
@@ -141,6 +201,12 @@
         "word": "la boisson",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "boisson",
+          "feminine": "boisson",
+          "masculinePlural": "boissons",
+          "femininePlural": "boissons"
+        },
         "pronunciation": "la bwa-son",
         "meaning": "the drink / the beverage",
         "notes": "'Les boissons chaudes' = hot drinks. 'Les boissons fraîches' = cold drinks. 'La carte des boissons' = the drinks menu. From the verb 'boire' (to drink).",
@@ -154,6 +220,12 @@
         "word": "le sirop",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "sirop",
+          "feminine": "sirop",
+          "masculinePlural": "sirops",
+          "femininePlural": "sirops"
+        },
         "pronunciation": "luh see-ro",
         "meaning": "the syrup / the cordial",
         "notes": "Very popular in French cafés. 'Un sirop de menthe' = mint syrup (served with water, a classic French drink). 'Un sirop de grenadine' = grenadine syrup. 'Un diabolo menthe' = lemonade with mint syrup.",
@@ -179,19 +251,19 @@
       ],
       "questions": [
         {
-          "question": "Where do they decide to sit?",
-          "options": ["Inside the café", "On the terrace", "At the bar"],
-          "correctAnswer": "On the terrace"
+          "question": "Où est-ce qu'ils décident de s'asseoir ?",
+          "options": ["À l'intérieur du café", "En terrasse", "Au bar"],
+          "correctAnswer": "En terrasse"
         },
         {
-          "question": "What does speaker A order?",
-          "options": ["A coffee", "A tea", "A juice"],
-          "correctAnswer": "A tea"
+          "question": "Qu'est-ce que A commande ?",
+          "options": ["Un café", "Un thé", "Un jus"],
+          "correctAnswer": "Un thé"
         },
         {
-          "question": "Does speaker B want sugar?",
-          "options": ["Yes, one sugar", "Yes, two sugars", "No sugar"],
-          "correctAnswer": "No sugar"
+          "question": "Est-ce que B veut du sucre ?",
+          "options": ["Oui, un sucre", "Oui, deux sucres", "Non, sans sucre"],
+          "correctAnswer": "Non, sans sucre"
         }
       ],
       "summary": "Two friends decide to go to a café on a nice day. They sit on the terrace, which speaker A often visits. Speaker A orders a tea, while speaker B orders a coffee without sugar. Speaker B asks to see the menu."
@@ -211,24 +283,24 @@
       ],
       "questions": [
         {
-          "question": "Where is the café located?",
-          "options": ["Near the station", "On Place Victor Hugo", "Next to the park", "On the main street"],
-          "correctAnswer": "On Place Victor Hugo"
+          "question": "Où se trouve le café ?",
+          "options": ["Près de la gare", "Place Victor Hugo", "À côté du parc", "Dans la rue principale"],
+          "correctAnswer": "Place Victor Hugo"
         },
         {
-          "question": "What does speaker B order?",
-          "options": ["A coffee", "A green tea", "A mint syrup with water", "An orange juice"],
-          "correctAnswer": "A mint syrup with water"
+          "question": "Qu'est-ce que B commande ?",
+          "options": ["Un café", "Un thé vert", "Un sirop de menthe à l'eau", "Un jus d'orange"],
+          "correctAnswer": "Un sirop de menthe à l'eau"
         },
         {
-          "question": "How does speaker A take their tea?",
-          "options": ["Without sugar", "With milk", "With one sugar", "With two sugars"],
-          "correctAnswer": "With one sugar"
+          "question": "Comment A prend son thé ?",
+          "options": ["Sans sucre", "Avec du lait", "Avec un morceau de sucre", "Avec deux sucres"],
+          "correctAnswer": "Avec un morceau de sucre"
         },
         {
-          "question": "What does 'j'y viens souvent' mean in context?",
-          "options": ["I'm coming soon", "I come here often", "I go there sometimes", "I came yesterday"],
-          "correctAnswer": "I come here often"
+          "question": "Que veut dire 'j'y viens souvent' dans ce contexte ?",
+          "options": ["J'arrive bientôt", "Je viens ici souvent", "J'y vais parfois", "Je suis venu hier"],
+          "correctAnswer": "Je viens ici souvent"
         }
       ],
       "summary": "Two friends meet at a café on Place Victor Hugo. Speaker B is already sitting on the terrace and looking at the menu. Speaker B orders a mint syrup with water — their favourite drink at this café. Speaker A orders a green tea with one sugar cube. They playfully disagree about whether to put sugar in tea."

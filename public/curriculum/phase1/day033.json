@@ -9,6 +9,12 @@
         "word": "la valise",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "valise",
+          "feminine": "valise",
+          "masculinePlural": "valises",
+          "femininePlural": "valises"
+        },
         "pronunciation": "la va-leez",
         "meaning": "the suitcase",
         "notes": "'Faire sa valise' = to pack one's suitcase. 'Défaire sa valise' = to unpack. 'Une valise à roulettes' = a wheeled suitcase. Essential travel vocabulary!",
@@ -22,6 +28,12 @@
         "word": "l'avion",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "avion",
+          "feminine": "avion",
+          "masculinePlural": "avions",
+          "femininePlural": "avions"
+        },
         "pronunciation": "la-vee-on",
         "meaning": "the plane / the aeroplane",
         "notes": "'Prendre l'avion' = to take the plane / to fly. 'En avion' = by plane. 'L'aéroport' = the airport. 'Un vol' = a flight.",
@@ -35,6 +47,12 @@
         "word": "l'hôtel",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "hôtel",
+          "feminine": "hôtel",
+          "masculinePlural": "hôtels",
+          "femininePlural": "hôtels"
+        },
         "pronunciation": "lo-tel",
         "meaning": "the hotel",
         "notes": "Note the silent 'h' — use 'l'' not 'le'. 'Réserver un hôtel' = to book a hotel. 'Une chambre d'hôtel' = a hotel room. French hotels are rated with stars: 'un hôtel trois étoiles' = a three-star hotel.",
@@ -48,6 +66,12 @@
         "word": "la plage",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "plage",
+          "feminine": "plage",
+          "masculinePlural": "plages",
+          "femininePlural": "plages"
+        },
         "pronunciation": "la plazh",
         "meaning": "the beach",
         "notes": "'Aller à la plage' = to go to the beach. 'Sur la plage' = on the beach. Famous French beaches include the Côte d'Azur (French Riviera) and the Atlantic coast in Biarritz.",
@@ -61,6 +85,12 @@
         "word": "les vacances",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "vacances",
+          "feminine": "vacances",
+          "masculinePlural": "vacances",
+          "femininePlural": "vacances"
+        },
         "pronunciation": "lay va-kons",
         "meaning": "the holiday(s) / the vacation",
         "notes": "Always plural in French! 'Partir en vacances' = to go on holiday. 'Les grandes vacances' = the summer holidays (July-August in France). 'Bonnes vacances !' = Have a good holiday!",
@@ -76,6 +106,12 @@
         "word": "la valise",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "valise",
+          "feminine": "valise",
+          "masculinePlural": "valises",
+          "femininePlural": "valises"
+        },
         "pronunciation": "la va-leez",
         "meaning": "the suitcase",
         "notes": "'Faire sa valise' = to pack one's suitcase. 'Défaire sa valise' = to unpack. 'Une valise à roulettes' = a wheeled suitcase. Essential travel vocabulary!",
@@ -89,6 +125,12 @@
         "word": "l'avion",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "avion",
+          "feminine": "avion",
+          "masculinePlural": "avions",
+          "femininePlural": "avions"
+        },
         "pronunciation": "la-vee-on",
         "meaning": "the plane / the aeroplane",
         "notes": "'Prendre l'avion' = to take the plane / to fly. 'En avion' = by plane. 'L'aéroport' = the airport. 'Un vol' = a flight.",
@@ -102,6 +144,12 @@
         "word": "l'hôtel",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "hôtel",
+          "feminine": "hôtel",
+          "masculinePlural": "hôtels",
+          "femininePlural": "hôtels"
+        },
         "pronunciation": "lo-tel",
         "meaning": "the hotel",
         "notes": "Note the silent 'h' — use 'l'' not 'le'. 'Réserver un hôtel' = to book a hotel. 'Une chambre d'hôtel' = a hotel room. French hotels are rated with stars: 'un hôtel trois étoiles' = a three-star hotel.",
@@ -115,6 +163,12 @@
         "word": "la plage",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "plage",
+          "feminine": "plage",
+          "masculinePlural": "plages",
+          "femininePlural": "plages"
+        },
         "pronunciation": "la plazh",
         "meaning": "the beach",
         "notes": "'Aller à la plage' = to go to the beach. 'Sur la plage' = on the beach. Famous French beaches include the Côte d'Azur (French Riviera) and the Atlantic coast in Biarritz.",
@@ -128,6 +182,12 @@
         "word": "les vacances",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "vacances",
+          "feminine": "vacances",
+          "masculinePlural": "vacances",
+          "femininePlural": "vacances"
+        },
         "pronunciation": "lay va-kons",
         "meaning": "the holiday(s) / the vacation",
         "notes": "Always plural in French! 'Partir en vacances' = to go on holiday. 'Les grandes vacances' = the summer holidays (July-August in France). 'Bonnes vacances !' = Have a good holiday!",
@@ -141,6 +201,12 @@
         "word": "le passeport",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": {
+          "masculine": "passeport",
+          "feminine": "passeport",
+          "masculinePlural": "passeports",
+          "femininePlural": "passeports"
+        },
         "pronunciation": "luh pass-por",
         "meaning": "the passport",
         "notes": "'Un contrôle des passeports' = a passport check. 'Votre passeport, s'il vous plaît' = Your passport, please. Within the EU Schengen zone, passports are not usually checked at borders.",
@@ -154,6 +220,12 @@
         "word": "la réservation",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "réservation",
+          "feminine": "réservation",
+          "masculinePlural": "réservations",
+          "femininePlural": "réservations"
+        },
         "pronunciation": "la ray-zair-va-syon",
         "meaning": "the reservation / the booking",
         "notes": "'Faire une réservation' = to make a reservation. 'Confirmer une réservation' = to confirm a booking. 'Annuler une réservation' = to cancel a reservation. Used for hotels, restaurants, and trains.",
@@ -179,19 +251,19 @@
       ],
       "questions": [
         {
-          "question": "Where is speaker B going on holiday?",
-          "options": ["To the mountains", "To the beach", "To a city"],
-          "correctAnswer": "To the beach"
+          "question": "Où est-ce que B va en vacances ?",
+          "options": ["À la montagne", "À la plage", "Dans une ville"],
+          "correctAnswer": "À la plage"
         },
         {
-          "question": "How are they travelling?",
-          "options": ["By train", "By car", "By plane"],
-          "correctAnswer": "By plane"
+          "question": "Comment est-ce qu'ils voyagent ?",
+          "options": ["En train", "En voiture", "En avion"],
+          "correctAnswer": "En avion"
         },
         {
-          "question": "What is speaker B's problem?",
-          "options": ["No passport", "The suitcase is too small", "The hotel is far away"],
-          "correctAnswer": "The suitcase is too small"
+          "question": "Quel est le problème de B ?",
+          "options": ["Il n'a pas de passeport", "Sa valise est trop petite", "L'hôtel est loin"],
+          "correctAnswer": "Sa valise est trop petite"
         }
       ],
       "summary": "Speaker B is going to the beach with their family for summer holiday. They are flying on Saturday morning. The hotel is described as the most beautiful in the city, near the beach. Speaker B hasn't packed yet because the suitcase is too small."
@@ -211,24 +283,24 @@
       ],
       "questions": [
         {
-          "question": "Which two destinations is speaker B choosing between?",
-          "options": ["Paris and Lyon", "Nice and Barcelone", "Marseille and Rome", "Nice and Cannes"],
-          "correctAnswer": "Nice and Barcelone"
+          "question": "Entre quelles deux destinations est-ce que B hésite ?",
+          "options": ["Paris et Lyon", "Nice et Barcelone", "Marseille et Rome", "Nice et Cannes"],
+          "correctAnswer": "Nice et Barcelone"
         },
         {
-          "question": "Why does speaker A recommend Nice?",
-          "options": ["It's the cheapest", "It's the most beautiful city on the Côte d'Azur", "It has the best food", "It's closest to home"],
-          "correctAnswer": "It's the most beautiful city on the Côte d'Azur"
+          "question": "Pourquoi A recommande Nice ?",
+          "options": ["C'est la moins chère", "C'est la plus belle ville de la Côte d'Azur", "La nourriture y est la meilleure", "C'est la plus proche"],
+          "correctAnswer": "C'est la plus belle ville de la Côte d'Azur"
         },
         {
-          "question": "What does the hotel in Nice have?",
-          "options": ["A swimming pool", "The best view of the beach", "A restaurant", "Free parking"],
-          "correctAnswer": "The best view of the beach"
+          "question": "Qu'est-ce que l'hôtel à Nice a ?",
+          "options": ["Une piscine", "La meilleure vue sur la plage", "Un restaurant", "Le parking gratuit"],
+          "correctAnswer": "La meilleure vue sur la plage"
         },
         {
-          "question": "Has speaker B already packed?",
-          "options": ["No, not yet", "Yes, yesterday", "They haven't decided what to bring", "They will pack tomorrow"],
-          "correctAnswer": "Yes, yesterday"
+          "question": "Est-ce que B a déjà fait sa valise ?",
+          "options": ["Non, pas encore", "Oui, hier", "Il ne sait pas quoi mettre", "Il va la faire demain"],
+          "correctAnswer": "Oui, hier"
         }
       ],
       "summary": "Speaker B is choosing between Nice and Barcelona for a holiday. Nice has a faster flight (90 minutes) and is considered the most beautiful city on the Côte d'Azur, while Barcelona is cheaper. B has booked a three-star hotel in Nice with the best beach view, confirmed their passport is valid, and already packed their suitcase."

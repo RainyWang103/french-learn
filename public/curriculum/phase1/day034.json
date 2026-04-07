@@ -16,7 +16,8 @@
           ["Tu as vu un bon film récemment ?", "Have you seen a good film recently?"],
           ["Ce film est vraiment intéressant.", "This film is really interesting."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "film", "feminine": "film", "masculinePlural": "films", "femininePlural": "films" }
       },
       {
         "word": "le cinéma",
@@ -29,7 +30,8 @@
           ["On va au cinéma ce soir ?", "Shall we go to the cinema tonight?"],
           ["Le cinéma est à cinq minutes d'ici.", "The cinema is five minutes from here."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "cinéma", "feminine": "cinéma", "masculinePlural": "cinémas", "femininePlural": "cinémas" }
       },
       {
         "word": "l'écran",
@@ -42,7 +44,8 @@
           ["L'écran de ce cinéma est énorme !", "The screen in this cinema is huge!"],
           ["Le film passe sur le grand écran.", "The film is showing on the big screen."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "écran", "feminine": "écran", "masculinePlural": "écrans", "femininePlural": "écrans" }
       },
       {
         "word": "la séance",
@@ -55,7 +58,8 @@
           ["La séance commence à quelle heure ?", "What time does the showing start?"],
           ["Il y a une séance à 14h et une à 17h.", "There's a showing at 2pm and one at 5pm."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "séance", "feminine": "séance", "masculinePlural": "séances", "femininePlural": "séances" }
       },
       {
         "word": "l'acteur",
@@ -68,7 +72,8 @@
           ["Cet acteur est très connu.", "This actor is very well known."],
           ["Mon actrice préférée est française.", "My favourite actress is French."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "acteur", "feminine": "actrice", "masculinePlural": "acteurs", "femininePlural": "actrices" }
       }
     ],
     "advanced": [
@@ -83,7 +88,8 @@
           ["Tu as vu un bon film récemment ?", "Have you seen a good film recently?"],
           ["Ce film est vraiment intéressant.", "This film is really interesting."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "film", "feminine": "film", "masculinePlural": "films", "femininePlural": "films" }
       },
       {
         "word": "le cinéma",
@@ -96,7 +102,8 @@
           ["On va au cinéma ce soir ?", "Shall we go to the cinema tonight?"],
           ["Le cinéma est à cinq minutes d'ici.", "The cinema is five minutes from here."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "cinéma", "feminine": "cinéma", "masculinePlural": "cinémas", "femininePlural": "cinémas" }
       },
       {
         "word": "l'écran",
@@ -109,7 +116,8 @@
           ["L'écran de ce cinéma est énorme !", "The screen in this cinema is huge!"],
           ["Le film passe sur le grand écran.", "The film is showing on the big screen."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "écran", "feminine": "écran", "masculinePlural": "écrans", "femininePlural": "écrans" }
       },
       {
         "word": "la séance",
@@ -122,7 +130,8 @@
           ["La séance commence à quelle heure ?", "What time does the showing start?"],
           ["Il y a une séance à 14h et une à 17h.", "There's a showing at 2pm and one at 5pm."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "séance", "feminine": "séance", "masculinePlural": "séances", "femininePlural": "séances" }
       },
       {
         "word": "l'acteur",
@@ -135,7 +144,8 @@
           ["Cet acteur est très connu.", "This actor is very well known."],
           ["Mon actrice préférée est française.", "My favourite actress is French."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "acteur", "feminine": "actrice", "masculinePlural": "acteurs", "femininePlural": "actrices" }
       },
       {
         "word": "le sous-titre",
@@ -148,7 +158,8 @@
           ["Je préfère les films en VO avec des sous-titres.", "I prefer films in the original language with subtitles."],
           ["Les sous-titres sont en français.", "The subtitles are in French."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "sous-titre", "feminine": "sous-titre", "masculinePlural": "sous-titres", "femininePlural": "sous-titres" }
       },
       {
         "word": "la comédie",
@@ -161,7 +172,8 @@
           ["J'adore les comédies françaises.", "I love French comedies."],
           ["On regarde une comédie ce soir ?", "Shall we watch a comedy tonight?"]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "comédie", "feminine": "comédie", "masculinePlural": "comédies", "femininePlural": "comédies" }
       }
     ]
   },
@@ -179,19 +191,19 @@
       ],
       "questions": [
         {
-          "question": "What type of film are they going to see?",
-          "options": ["An action film", "A French comedy", "A horror film"],
-          "correctAnswer": "A French comedy"
+          "question": "Quel type de film vont-ils voir ?",
+          "options": ["Un film d'action", "Une comédie française", "Un film d'horreur"],
+          "correctAnswer": "Une comédie française"
         },
         {
-          "question": "What is special about the actor?",
-          "options": ["He is new", "He is very well known", "He is American"],
-          "correctAnswer": "He is very well known"
+          "question": "Qu'est-ce qui est spécial avec l'acteur ?",
+          "options": ["Il est nouveau", "Il est très connu", "Il est américain"],
+          "correctAnswer": "Il est très connu"
         },
         {
-          "question": "Which showing does speaker B prefer?",
-          "options": ["The 7pm showing", "The 9pm showing", "The afternoon showing"],
-          "correctAnswer": "The 7pm showing"
+          "question": "Quelle séance est-ce que B préfère ?",
+          "options": ["La séance de 19h", "La séance de 21h", "La séance de l'après-midi"],
+          "correctAnswer": "La séance de 19h"
         }
       ],
       "summary": "Two friends plan to go to the cinema tonight. There's a French comedy with a very well-known actor that everyone recommends. Speaker A finds the showings on the programme — 7pm and 9pm. Speaker B prefers the 7pm showing and suggests eating after the film."
@@ -211,24 +223,24 @@
       ],
       "questions": [
         {
-          "question": "When did speaker A see the film?",
-          "options": ["Last Friday", "Last Saturday", "Yesterday", "Two days ago"],
-          "correctAnswer": "Last Saturday"
+          "question": "Quand est-ce que A a vu le film ?",
+          "options": ["Vendredi dernier", "Samedi dernier", "Hier", "Il y a deux jours"],
+          "correctAnswer": "Samedi dernier"
         },
         {
-          "question": "What type of film is it?",
-          "options": ["A drama", "A comedy", "An action film", "A documentary"],
-          "correctAnswer": "A comedy"
+          "question": "Quel type de film est-ce ?",
+          "options": ["Un drame", "Une comédie", "Un film d'action", "Un documentaire"],
+          "correctAnswer": "Une comédie"
         },
         {
-          "question": "What does 'VO' mean in the context of French cinema?",
-          "options": ["Very old", "Version originale (original language)", "Video option", "Voice only"],
-          "correctAnswer": "Version originale (original language)"
+          "question": "Qu'est-ce que 'VO' veut dire au cinéma ?",
+          "options": ["Très vieux", "Version originale", "Vidéo officielle", "Voix seulement"],
+          "correctAnswer": "Version originale"
         },
         {
-          "question": "In which language does speaker B want to see the film?",
-          "options": ["English with subtitles", "French", "English without subtitles", "Both languages"],
-          "correctAnswer": "French"
+          "question": "Dans quelle langue est-ce que B veut voir le film ?",
+          "options": ["En anglais avec des sous-titres", "En français", "En anglais sans sous-titres", "Dans les deux langues"],
+          "correctAnswer": "En français"
         }
       ],
       "summary": "Speaker A recommends a new Jean Dujardin comedy they saw on Saturday at the Pathé cinema. It plays on the big screen with a great 8pm showing. The film is available in French (no subtitles needed) or in English with French subtitles. Speaker B chooses the French version and decides to go tonight."

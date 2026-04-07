@@ -12,6 +12,7 @@
         "pronunciation": "la leh-tr",
         "meaning": "the letter",
         "notes": "Refers to a letter you send by post. 'Écrire une lettre' = to write a letter. 'Poster une lettre' = to mail a letter.",
+        "forms": { "masculine": "lettre", "feminine": "lettre", "masculinePlural": "lettres", "femininePlural": "lettres" },
         "examples": [
           ["J'écris une lettre à ma grand-mère.", "I am writing a letter to my grandmother."],
           ["La lettre arrive demain.", "The letter arrives tomorrow."]
@@ -25,6 +26,7 @@
         "pronunciation": "luh tam-br",
         "meaning": "the stamp",
         "notes": "Short for 'le timbre-poste' (postage stamp). 'Coller un timbre' = to stick on a stamp. Also means 'tone' in music contexts.",
+        "forms": { "masculine": "timbre", "feminine": "timbre", "masculinePlural": "timbres", "femininePlural": "timbres" },
         "examples": [
           ["Il faut un timbre pour envoyer cette lettre.", "You need a stamp to send this letter."],
           ["Un timbre coûte un euro vingt.", "A stamp costs one euro twenty."]
@@ -38,14 +40,7 @@
         "pronunciation": "on-vwa-yay",
         "meaning": "to send",
         "notes": "Stem-changing verb: the 'y' changes to 'i' before silent endings (j'envoie, tu envoies). Used for letters, emails, packages, and messages.",
-        "conjugation": {
-          "je": "envoie",
-          "tu": "envoies",
-          "il/elle": "envoie",
-          "nous": "envoyons",
-          "vous": "envoyez",
-          "ils/elles": "envoient"
-        },
+        "forms": { "je": "j'envoie", "tu": "tu envoies", "il": "il/elle/on envoie", "nous": "nous envoyons", "vous": "vous envoyez", "ils": "ils/elles envoient" },
         "examples": [
           ["J'envoie une lettre à mon ami.", "I send a letter to my friend."],
           ["Envoyez le colis avant vendredi.", "Send the package before Friday."]
@@ -59,6 +54,7 @@
         "pronunciation": "la bank",
         "meaning": "the bank",
         "notes": "Refers to a financial bank. 'Aller à la banque' = to go to the bank. The person working there is 'le/la banquier/banquière'.",
+        "forms": { "masculine": "banque", "feminine": "banque", "masculinePlural": "banques", "femininePlural": "banques" },
         "examples": [
           ["Je vais à la banque cet après-midi.", "I am going to the bank this afternoon."],
           ["La banque ferme à dix-sept heures.", "The bank closes at five o'clock."]
@@ -72,6 +68,7 @@
         "pronunciation": "lar-zhon",
         "meaning": "money / silver",
         "notes": "Means both 'money' and 'silver' (the metal). 'Avoir de l'argent' = to have money. 'L'argent liquide' = cash.",
+        "forms": { "masculine": "argent", "feminine": "argent", "masculinePlural": "argents", "femininePlural": "argents" },
         "examples": [
           ["Je n'ai pas assez d'argent.", "I don't have enough money."],
           ["Il faut de l'argent pour acheter un billet.", "You need money to buy a ticket."]
@@ -87,6 +84,7 @@
         "pronunciation": "la leh-tr",
         "meaning": "the letter",
         "notes": "Refers to a letter you send by post. 'Écrire une lettre' = to write a letter. 'Poster une lettre' = to mail a letter.",
+        "forms": { "masculine": "lettre", "feminine": "lettre", "masculinePlural": "lettres", "femininePlural": "lettres" },
         "examples": [
           ["J'écris une lettre à ma grand-mère.", "I am writing a letter to my grandmother."],
           ["La lettre arrive demain.", "The letter arrives tomorrow."]
@@ -100,6 +98,7 @@
         "pronunciation": "luh tam-br",
         "meaning": "the stamp",
         "notes": "Short for 'le timbre-poste' (postage stamp). 'Coller un timbre' = to stick on a stamp. Also means 'tone' in music contexts.",
+        "forms": { "masculine": "timbre", "feminine": "timbre", "masculinePlural": "timbres", "femininePlural": "timbres" },
         "examples": [
           ["Il faut un timbre pour envoyer cette lettre.", "You need a stamp to send this letter."],
           ["Un timbre coûte un euro vingt.", "A stamp costs one euro twenty."]
@@ -113,14 +112,7 @@
         "pronunciation": "on-vwa-yay",
         "meaning": "to send",
         "notes": "Stem-changing verb: the 'y' changes to 'i' before silent endings (j'envoie, tu envoies). Used for letters, emails, packages, and messages.",
-        "conjugation": {
-          "je": "envoie",
-          "tu": "envoies",
-          "il/elle": "envoie",
-          "nous": "envoyons",
-          "vous": "envoyez",
-          "ils/elles": "envoient"
-        },
+        "forms": { "je": "j'envoie", "tu": "tu envoies", "il": "il/elle/on envoie", "nous": "nous envoyons", "vous": "vous envoyez", "ils": "ils/elles envoient" },
         "examples": [
           ["J'envoie une lettre à mon ami.", "I send a letter to my friend."],
           ["Envoyez le colis avant vendredi.", "Send the package before Friday."]
@@ -134,6 +126,7 @@
         "pronunciation": "la bank",
         "meaning": "the bank",
         "notes": "Refers to a financial bank. 'Aller à la banque' = to go to the bank. The person working there is 'le/la banquier/banquière'.",
+        "forms": { "masculine": "banque", "feminine": "banque", "masculinePlural": "banques", "femininePlural": "banques" },
         "examples": [
           ["Je vais à la banque cet après-midi.", "I am going to the bank this afternoon."],
           ["La banque ferme à dix-sept heures.", "The bank closes at five o'clock."]
@@ -147,6 +140,7 @@
         "pronunciation": "lar-zhon",
         "meaning": "money / silver",
         "notes": "Means both 'money' and 'silver' (the metal). 'Avoir de l'argent' = to have money. 'L'argent liquide' = cash.",
+        "forms": { "masculine": "argent", "feminine": "argent", "masculinePlural": "argents", "femininePlural": "argents" },
         "examples": [
           ["Je n'ai pas assez d'argent.", "I don't have enough money."],
           ["Il faut de l'argent pour acheter un billet.", "You need money to buy a ticket."]
@@ -160,6 +154,7 @@
         "pronunciation": "luh ko-lee",
         "meaning": "the package / parcel",
         "notes": "'Envoyer un colis' = to send a package. 'Recevoir un colis' = to receive a package. The final 's' is silent.",
+        "forms": { "masculine": "colis", "feminine": "colis", "masculinePlural": "colis", "femininePlural": "colis" },
         "examples": [
           ["J'envoie un colis à ma famille.", "I send a package to my family."],
           ["Le colis arrive dans une semaine.", "The package arrives in a week."]
@@ -173,6 +168,7 @@
         "pronunciation": "luh kont",
         "meaning": "the account",
         "notes": "'Un compte bancaire' = a bank account. 'Ouvrir un compte' = to open an account. Do not confuse with 'le conte' (a tale/story) or 'le comte' (a count/earl).",
+        "forms": { "masculine": "compte", "feminine": "compte", "masculinePlural": "comptes", "femininePlural": "comptes" },
         "examples": [
           [
             "Je voudrais ouvrir un compte, s'il vous plaît.",
@@ -198,19 +194,19 @@
       ],
       "questions": [
         {
-          "question": "Where is the customer sending the letter?",
-          "options": ["Abroad", "To France", "To a bank"],
-          "correctAnswer": "To France"
+          "question": "Où est-ce que le client envoie la lettre ?",
+          "options": ["À l'étranger", "En France", "À la banque"],
+          "correctAnswer": "En France"
         },
         {
-          "question": "How much does a stamp cost?",
-          "options": ["One euro", "One euro twenty", "Two euros"],
-          "correctAnswer": "One euro twenty"
+          "question": "Combien coûte un timbre ?",
+          "options": ["Un euro", "Un euro vingt", "Deux euros"],
+          "correctAnswer": "Un euro vingt"
         },
         {
-          "question": "What does the worker say about sending money?",
-          "options": ["Use a special stamp", "Go to the bank instead", "Send it in a package"],
-          "correctAnswer": "Go to the bank instead"
+          "question": "Qu'est-ce que l'employé dit pour envoyer de l'argent ?",
+          "options": ["Utiliser un timbre spécial", "Aller à la banque", "Envoyer dans un colis"],
+          "correctAnswer": "Aller à la banque"
         }
       ],
       "summary": "A customer wants to send a letter within France. The postal worker explains they need a stamp costing one euro twenty, which should be stuck on the envelope and dropped in the letterbox outside. Delivery takes two days. When asked about sending money, the worker advises going to the bank instead."
@@ -239,19 +235,19 @@
       ],
       "questions": [
         {
-          "question": "How much does the package weigh?",
-          "options": ["Two kilos", "Three kilos", "Five kilos", "One kilo"],
-          "correctAnswer": "Three kilos"
+          "question": "Combien pèse le colis ?",
+          "options": ["Deux kilos", "Trois kilos", "Cinq kilos", "Un kilo"],
+          "correctAnswer": "Trois kilos"
         },
         {
-          "question": "How long will delivery to Canada take?",
-          "options": ["Two days", "Three days", "About one week", "Two weeks"],
-          "correctAnswer": "About one week"
+          "question": "Combien de temps prend la livraison au Canada ?",
+          "options": ["Deux jours", "Trois jours", "Environ une semaine", "Deux semaines"],
+          "correctAnswer": "Environ une semaine"
         },
         {
-          "question": "What does the worker tell the customer not to forget?",
-          "options": ["The customs form", "The receipt", "The stamp", "The address"],
-          "correctAnswer": "The receipt"
+          "question": "Qu'est-ce que l'employé dit de ne pas oublier ?",
+          "options": ["Le formulaire de douane", "Le reçu", "Le timbre", "L'adresse"],
+          "correctAnswer": "Le reçu"
         }
       ],
       "summary": "A customer sends a three-kilo package to Canada for fifteen euros. The postal worker weighs it, asks the customer to fill in a customs form with contents and value, and accepts card payment. Delivery takes about a week. The customer also asks about the nearby bank, which opens at nine — and they need to hurry as it is nearly nine already."

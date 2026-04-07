@@ -9,6 +9,7 @@
         "word": "le métro",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "métro", "feminine": "métro", "masculinePlural": "métros", "femininePlural": "métros" },
         "pronunciation": "luh may-tro",
         "meaning": "the metro / subway",
         "notes": "Short for 'le métropolitain'. In Paris, the metro system is called 'le métro parisien'. You take the metro: 'prendre le métro'.",
@@ -22,6 +23,7 @@
         "word": "le train",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "train", "feminine": "train", "masculinePlural": "trains", "femininePlural": "trains" },
         "pronunciation": "luh tran",
         "meaning": "the train",
         "notes": "Used for longer journeys between cities. 'Prendre le train' = to take the train. The French high-speed train is 'le TGV'.",
@@ -35,6 +37,7 @@
         "word": "le billet",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "billet", "feminine": "billet", "masculinePlural": "billets", "femininePlural": "billets" },
         "pronunciation": "luh bee-yeh",
         "meaning": "the ticket",
         "notes": "Used for transport tickets and event tickets. 'Un billet de train' = a train ticket. 'Un billet d'avion' = a plane ticket.",
@@ -51,6 +54,7 @@
         "word": "l'arrêt",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "arrêt", "feminine": "arrêt", "masculinePlural": "arrêts", "femininePlural": "arrêts" },
         "pronunciation": "lah-reh",
         "meaning": "the stop",
         "notes": "'Un arrêt de bus' = a bus stop. Also used for 'l'arrêt de tram'. Comes from the verb 'arrêter' (to stop).",
@@ -64,6 +68,7 @@
         "word": "le vélo",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "vélo", "feminine": "vélo", "masculinePlural": "vélos", "femininePlural": "vélos" },
         "pronunciation": "luh vay-lo",
         "meaning": "the bicycle / bike",
         "notes": "Short for 'le vélocipède'. 'Faire du vélo' = to go cycling. Many French cities have shared bike systems like Vélib' in Paris.",
@@ -79,6 +84,7 @@
         "word": "le métro",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "métro", "feminine": "métro", "masculinePlural": "métros", "femininePlural": "métros" },
         "pronunciation": "luh may-tro",
         "meaning": "the metro / subway",
         "notes": "Short for 'le métropolitain'. In Paris, the metro system is called 'le métro parisien'. You take the metro: 'prendre le métro'.",
@@ -92,6 +98,7 @@
         "word": "le train",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "train", "feminine": "train", "masculinePlural": "trains", "femininePlural": "trains" },
         "pronunciation": "luh tran",
         "meaning": "the train",
         "notes": "Used for longer journeys between cities. 'Prendre le train' = to take the train. The French high-speed train is 'le TGV'.",
@@ -105,6 +112,7 @@
         "word": "le billet",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "billet", "feminine": "billet", "masculinePlural": "billets", "femininePlural": "billets" },
         "pronunciation": "luh bee-yeh",
         "meaning": "the ticket",
         "notes": "Used for transport tickets and event tickets. 'Un billet de train' = a train ticket. 'Un billet d'avion' = a plane ticket.",
@@ -121,6 +129,7 @@
         "word": "l'arrêt",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "arrêt", "feminine": "arrêt", "masculinePlural": "arrêts", "femininePlural": "arrêts" },
         "pronunciation": "lah-reh",
         "meaning": "the stop",
         "notes": "'Un arrêt de bus' = a bus stop. Also used for 'l'arrêt de tram'. Comes from the verb 'arrêter' (to stop).",
@@ -134,6 +143,7 @@
         "word": "le vélo",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "vélo", "feminine": "vélo", "masculinePlural": "vélos", "femininePlural": "vélos" },
         "pronunciation": "luh vay-lo",
         "meaning": "the bicycle / bike",
         "notes": "Short for 'le vélocipède'. 'Faire du vélo' = to go cycling. Many French cities have shared bike systems like Vélib' in Paris.",
@@ -147,6 +157,7 @@
         "word": "la gare",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": { "masculine": "gare", "feminine": "gare", "masculinePlural": "gares", "femininePlural": "gares" },
         "pronunciation": "la gar",
         "meaning": "the train station",
         "notes": "'La gare' is specifically a train station. 'La gare routière' is a bus station. Famous example: la Gare du Nord in Paris.",
@@ -160,6 +171,7 @@
         "word": "le quai",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "quai", "feminine": "quai", "masculinePlural": "quais", "femininePlural": "quais" },
         "pronunciation": "luh keh",
         "meaning": "the platform",
         "notes": "Used for train and metro platforms. 'Le train part du quai numéro trois.' Also means 'quay' or 'wharf' along a river.",
@@ -185,19 +197,19 @@
       ],
       "questions": [
         {
-          "question": "How do they decide to travel to the museum?",
-          "options": ["By bus", "By metro", "By bike"],
-          "correctAnswer": "By metro"
+          "question": "Comment est-ce qu'ils décident d'aller au musée ?",
+          "options": ["En bus", "En métro", "En vélo"],
+          "correctAnswer": "En métro"
         },
         {
-          "question": "How much does a ticket cost?",
-          "options": ["One euro", "Two euros", "Three euros"],
-          "correctAnswer": "Two euros"
+          "question": "Combien coûte un billet ?",
+          "options": ["Un euro", "Deux euros", "Trois euros"],
+          "correctAnswer": "Deux euros"
         },
         {
-          "question": "At which stop do they need to get off?",
-          "options": ["The second stop", "The third stop", "The fifth stop"],
-          "correctAnswer": "The third stop"
+          "question": "À quel arrêt est-ce qu'ils descendent ?",
+          "options": ["Au deuxième arrêt", "Au troisième arrêt", "Au cinquième arrêt"],
+          "correctAnswer": "Au troisième arrêt"
         }
       ],
       "summary": "Two friends plan a trip to a museum. They decide to take the metro because it is faster, buy tickets at the station for two euros each, and get off at the third stop called 'Musée d'Art'."
@@ -229,24 +241,24 @@
       ],
       "questions": [
         {
-          "question": "How long does the metro journey take?",
-          "options": ["Ten minutes", "Fifteen minutes", "Thirty minutes", "Twenty minutes"],
-          "correctAnswer": "Fifteen minutes"
+          "question": "Combien de temps dure le trajet en métro ?",
+          "options": ["Dix minutes", "Quinze minutes", "Trente minutes", "Vingt minutes"],
+          "correctAnswer": "Quinze minutes"
         },
         {
-          "question": "Which platform should the traveller use?",
-          "options": ["Platform 1", "Platform 2", "Platform 3", "Platform 4"],
-          "correctAnswer": "Platform 2"
+          "question": "Quel quai est-ce que le voyageur doit prendre ?",
+          "options": ["Le quai numéro un", "Le quai numéro deux", "Le quai numéro trois", "Le quai numéro quatre"],
+          "correctAnswer": "Le quai numéro deux"
         },
         {
-          "question": "What are the two ways to buy a ticket?",
+          "question": "Quelles sont les deux façons d'acheter un billet ?",
           "options": [
-            "At the counter or online",
-            "At a machine or with a phone",
-            "At the counter or with a phone",
-            "Online or at a machine"
+            "Au guichet ou en ligne",
+            "À une machine ou avec un téléphone",
+            "Au guichet ou avec un téléphone",
+            "En ligne ou à une machine"
           ],
-          "correctAnswer": "At a machine or with a phone"
+          "correctAnswer": "À une machine ou avec un téléphone"
         }
       ],
       "summary": "A traveller asks for directions to the modern art museum. A helpful local explains that the metro (line 4, platform 2) takes fifteen minutes compared to thirty by bus. Tickets cost two euros fifty and can be purchased from a machine or via phone. The traveller should get off at the 'Arts et Métiers' station."

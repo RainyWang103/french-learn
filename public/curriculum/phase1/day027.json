@@ -12,6 +12,7 @@
         "pronunciation": "lay-kol",
         "meaning": "the school",
         "notes": "'Aller à l'école' = to go to school. 'L'école primaire' = primary school, 'l'école maternelle' = nursery school. In France, school is mandatory from age 3.",
+        "forms": { "masculine": "école", "feminine": "école", "masculinePlural": "écoles", "femininePlural": "écoles" },
         "examples": [
           ["Les enfants vont à l'école le matin.", "The children go to school in the morning."],
           [
@@ -28,6 +29,7 @@
         "pronunciation": "luh ka-yay",
         "meaning": "the notebook / exercise book",
         "notes": "A standard school supply in France. 'Un cahier de brouillon' = a rough/draft notebook. 'Un cahier de textes' = a homework diary.",
+        "forms": { "masculine": "cahier", "feminine": "cahier", "masculinePlural": "cahiers", "femininePlural": "cahiers" },
         "examples": [
           ["Ouvrez votre cahier à la page dix.", "Open your notebook to page ten."],
           ["J'ai écrit la leçon dans mon cahier.", "I wrote the lesson in my notebook."]
@@ -41,6 +43,7 @@
         "pronunciation": "luh stee-lo",
         "meaning": "the pen",
         "notes": "Short for 'le stylo à bille' (ballpoint pen). 'Un stylo-plume' = a fountain pen. 'Un crayon' = a pencil (different from a pen).",
+        "forms": { "masculine": "stylo", "feminine": "stylo", "masculinePlural": "stylos", "femininePlural": "stylos" },
         "examples": [
           ["Tu as un stylo, s'il te plaît ?", "Do you have a pen, please?"],
           ["J'écris avec un stylo bleu.", "I write with a blue pen."]
@@ -54,14 +57,7 @@
         "pronunciation": "a-pron-dr",
         "meaning": "to learn / to teach",
         "notes": "Conjugated like 'prendre'. Can mean both 'to learn' (apprendre le français) and 'to teach' (apprendre quelque chose à quelqu'un). Past participle: appris.",
-        "conjugation": {
-          "je": "apprends",
-          "tu": "apprends",
-          "il/elle": "apprend",
-          "nous": "apprenons",
-          "vous": "apprenez",
-          "ils/elles": "apprennent"
-        },
+        "forms": { "je": "j'apprends", "tu": "tu apprends", "il": "il/elle/on apprend", "nous": "nous apprenons", "vous": "vous apprenez", "ils": "ils/elles apprennent" },
         "examples": [
           ["J'apprends le français à l'école.", "I learn French at school."],
           ["On a appris beaucoup de choses aujourd'hui.", "We learned a lot of things today."]
@@ -75,6 +71,7 @@
         "pronunciation": "luh pro-feh-suhr",
         "meaning": "the teacher / professor",
         "notes": "Often shortened to 'le/la prof' in informal speech. Traditionally masculine, but 'la professeure' is increasingly used for women. Used for secondary school and university teachers.",
+        "forms": { "masculine": "professeur", "feminine": "professeure", "masculinePlural": "professeurs", "femininePlural": "professeures" },
         "examples": [
           ["Le professeur explique la leçon.", "The teacher explains the lesson."],
           ["Notre prof de maths est très sympa.", "Our maths teacher is very nice."]
@@ -90,6 +87,7 @@
         "pronunciation": "lay-kol",
         "meaning": "the school",
         "notes": "'Aller à l'école' = to go to school. 'L'école primaire' = primary school, 'l'école maternelle' = nursery school. In France, school is mandatory from age 3.",
+        "forms": { "masculine": "école", "feminine": "école", "masculinePlural": "écoles", "femininePlural": "écoles" },
         "examples": [
           ["Les enfants vont à l'école le matin.", "The children go to school in the morning."],
           [
@@ -106,6 +104,7 @@
         "pronunciation": "luh ka-yay",
         "meaning": "the notebook / exercise book",
         "notes": "A standard school supply in France. 'Un cahier de brouillon' = a rough/draft notebook. 'Un cahier de textes' = a homework diary.",
+        "forms": { "masculine": "cahier", "feminine": "cahier", "masculinePlural": "cahiers", "femininePlural": "cahiers" },
         "examples": [
           ["Ouvrez votre cahier à la page dix.", "Open your notebook to page ten."],
           ["J'ai écrit la leçon dans mon cahier.", "I wrote the lesson in my notebook."]
@@ -119,6 +118,7 @@
         "pronunciation": "luh stee-lo",
         "meaning": "the pen",
         "notes": "Short for 'le stylo à bille' (ballpoint pen). 'Un stylo-plume' = a fountain pen. 'Un crayon' = a pencil (different from a pen).",
+        "forms": { "masculine": "stylo", "feminine": "stylo", "masculinePlural": "stylos", "femininePlural": "stylos" },
         "examples": [
           ["Tu as un stylo, s'il te plaît ?", "Do you have a pen, please?"],
           ["J'écris avec un stylo bleu.", "I write with a blue pen."]
@@ -132,14 +132,7 @@
         "pronunciation": "a-pron-dr",
         "meaning": "to learn / to teach",
         "notes": "Conjugated like 'prendre'. Can mean both 'to learn' (apprendre le français) and 'to teach' (apprendre quelque chose à quelqu'un). Past participle: appris.",
-        "conjugation": {
-          "je": "apprends",
-          "tu": "apprends",
-          "il/elle": "apprend",
-          "nous": "apprenons",
-          "vous": "apprenez",
-          "ils/elles": "apprennent"
-        },
+        "forms": { "je": "j'apprends", "tu": "tu apprends", "il": "il/elle/on apprend", "nous": "nous apprenons", "vous": "vous apprenez", "ils": "ils/elles apprennent" },
         "examples": [
           ["J'apprends le français à l'école.", "I learn French at school."],
           ["On a appris beaucoup de choses aujourd'hui.", "We learned a lot of things today."]
@@ -153,6 +146,7 @@
         "pronunciation": "luh pro-feh-suhr",
         "meaning": "the teacher / professor",
         "notes": "Often shortened to 'le/la prof' in informal speech. Traditionally masculine, but 'la professeure' is increasingly used for women. Used for secondary school and university teachers.",
+        "forms": { "masculine": "professeur", "feminine": "professeure", "masculinePlural": "professeurs", "femininePlural": "professeures" },
         "examples": [
           ["Le professeur explique la leçon.", "The teacher explains the lesson."],
           ["Notre prof de maths est très sympa.", "Our maths teacher is very nice."]
@@ -166,6 +160,7 @@
         "pronunciation": "la bee-blee-o-tek",
         "meaning": "the library",
         "notes": "False friend alert! 'La bibliothèque' = the library, NOT the bookshop. 'La librairie' = the bookshop. 'Aller à la bibliothèque' = to go to the library.",
+        "forms": { "masculine": "bibliothèque", "feminine": "bibliothèque", "masculinePlural": "bibliothèques", "femininePlural": "bibliothèques" },
         "examples": [
           ["Je vais à la bibliothèque pour étudier.", "I go to the library to study."],
           [
@@ -182,6 +177,7 @@
         "pronunciation": "leg-za-man",
         "meaning": "the exam / test",
         "notes": "'Passer un examen' = to TAKE an exam (not to pass it!). 'Réussir un examen' = to pass an exam. 'Rater un examen' = to fail an exam.",
+        "forms": { "masculine": "examen", "feminine": "examen", "masculinePlural": "examens", "femininePlural": "examens" },
         "examples": [
           ["J'ai un examen de maths demain.", "I have a maths exam tomorrow."],
           ["Il a réussi son examen !", "He passed his exam!"]
@@ -204,19 +200,19 @@
       ],
       "questions": [
         {
-          "question": "What did speaker B study this morning?",
-          "options": ["French", "Maths", "Science"],
-          "correctAnswer": "Maths"
+          "question": "Qu'est-ce que le locuteur B a étudié ce matin ?",
+          "options": ["Le français", "Les maths", "Les sciences"],
+          "correctAnswer": "Les maths"
         },
         {
-          "question": "What did speaker A learn at school?",
-          "options": ["New maths formulas", "New French words", "New songs"],
-          "correctAnswer": "New French words"
+          "question": "Qu'est-ce que le locuteur A a appris à l'école ?",
+          "options": ["Des formules de maths", "Des mots nouveaux en français", "Des chansons"],
+          "correctAnswer": "Des mots nouveaux en français"
         },
         {
-          "question": "What did the teacher say about speaker A's work?",
-          "options": ["It was too short", "It was well done", "It had mistakes"],
-          "correctAnswer": "It was well done"
+          "question": "Qu'est-ce que le professeur a dit sur le travail du locuteur A ?",
+          "options": ["C'était trop court", "Il a bien travaillé", "Il y avait des erreurs"],
+          "correctAnswer": "Il a bien travaillé"
         }
       ],
       "summary": "Two students compare their school days. Speaker B studied maths in the morning, while speaker A learned new French vocabulary words and wrote them all in their notebook with a red pen. The teacher praised speaker A for working well, and both agree they had a productive day."
@@ -239,19 +235,19 @@
       ],
       "questions": [
         {
-          "question": "Where did speaker A study the night before?",
-          "options": ["At home", "At the library", "At a café", "At school"],
-          "correctAnswer": "At the library"
+          "question": "Où est-ce que le locuteur A a révisé la veille ?",
+          "options": ["À la maison", "À la bibliothèque", "Dans un café", "À l'école"],
+          "correctAnswer": "À la bibliothèque"
         },
         {
-          "question": "How many pages did speaker B read?",
-          "options": ["Fifty", "Eighty", "One hundred", "The whole book"],
-          "correctAnswer": "One hundred"
+          "question": "Combien de pages le locuteur B a-t-il lues ?",
+          "options": ["Cinquante pages", "Quatre-vingts pages", "Cent pages", "Tout le livre"],
+          "correctAnswer": "Cent pages"
         },
         {
-          "question": "What exam does speaker B have tomorrow?",
-          "options": ["Maths", "Literature", "History", "French"],
-          "correctAnswer": "History"
+          "question": "Quel examen le locuteur B a-t-il demain ?",
+          "options": ["Les maths", "La littérature", "L'histoire", "Le français"],
+          "correctAnswer": "L'histoire"
         }
       ],
       "summary": "Two students discuss their busy school day. Speaker A had a difficult maths exam despite studying at the library the night before. Speaker B spent the afternoon reading a novel for literature class — a hundred pages — and took notes. The teacher asked for a written summary in class. Speaker B has a history exam the next day and needs to revise that evening."

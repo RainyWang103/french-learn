@@ -12,6 +12,7 @@
         "pronunciation": "gran",
         "meaning": "tall / big",
         "notes": "Feminine form: 'grande' (gran-d). 'Grand' can mean tall (for people) or big/great (for things). 'Un grand homme' = a great man; 'un homme grand' = a tall man.",
+        "forms": { "masculine": "grand", "feminine": "grande", "masculinePlural": "grands", "femininePlural": "grandes" },
         "examples": [
           ["Mon père est très grand.", "My father is very tall."],
           ["Elle a une grande maison.", "She has a big house."]
@@ -25,6 +26,7 @@
         "pronunciation": "puh-tee",
         "meaning": "short / small",
         "notes": "Feminine form: 'petite' (puh-teet). Used for height (short) and size (small). Also used affectionately: 'mon petit' = my little one.",
+        "forms": { "masculine": "petit", "feminine": "petite", "masculinePlural": "petits", "femininePlural": "petites" },
         "examples": [
           ["Ma sœur est petite pour son âge.", "My sister is short for her age."],
           ["C'est un petit village.", "It's a small village."]
@@ -38,6 +40,7 @@
         "pronunciation": "lay shuh-vuh",
         "meaning": "the hair",
         "notes": "Always plural in French when talking about hair on someone's head. 'Un cheveu' (singular) means a single strand. Describe with 'avoir': 'Elle a les cheveux longs.' (She has long hair.)",
+        "forms": { "masculine": "cheveu", "feminine": "cheveu", "masculinePlural": "cheveux", "femininePlural": "cheveux" },
         "examples": [
           ["Il a les cheveux noirs.", "He has black hair."],
           ["Ses cheveux sont courts et blonds.", "His/Her hair is short and blond."]
@@ -51,6 +54,7 @@
         "pronunciation": "lay zyuh",
         "meaning": "the eyes",
         "notes": "Irregular plural of 'un œil' (an eye). Describe with 'avoir': 'Elle a les yeux bleus.' Common eye colours: bleus, verts, marron (invariable), noirs.",
+        "forms": { "masculine": "œil", "feminine": "œil", "masculinePlural": "yeux", "femininePlural": "yeux" },
         "examples": [
           ["Elle a les yeux verts.", "She has green eyes."],
           ["Il a de beaux yeux.", "He has beautiful eyes."]
@@ -64,6 +68,7 @@
         "pronunciation": "zhuhn",
         "meaning": "young",
         "notes": "Same form for masculine and feminine: 'un jeune homme' (a young man), 'une jeune femme' (a young woman). Opposite: 'vieux/vieille' (old).",
+        "forms": { "masculine": "jeune", "feminine": "jeune", "masculinePlural": "jeunes", "femininePlural": "jeunes" },
         "examples": [
           ["C'est une jeune femme très sympa.", "She's a very nice young woman."],
           ["Les jeunes aiment la musique.", "Young people like music."]
@@ -79,6 +84,7 @@
         "pronunciation": "gran",
         "meaning": "tall / big",
         "notes": "Feminine form: 'grande' (gran-d). 'Grand' can mean tall (for people) or big/great (for things). 'Un grand homme' = a great man; 'un homme grand' = a tall man.",
+        "forms": { "masculine": "grand", "feminine": "grande", "masculinePlural": "grands", "femininePlural": "grandes" },
         "examples": [
           ["Mon père est très grand.", "My father is very tall."],
           ["Elle a une grande maison.", "She has a big house."]
@@ -92,6 +98,7 @@
         "pronunciation": "puh-tee",
         "meaning": "short / small",
         "notes": "Feminine form: 'petite' (puh-teet). Used for height (short) and size (small). Also used affectionately: 'mon petit' = my little one.",
+        "forms": { "masculine": "petit", "feminine": "petite", "masculinePlural": "petits", "femininePlural": "petites" },
         "examples": [
           ["Ma sœur est petite pour son âge.", "My sister is short for her age."],
           ["C'est un petit village.", "It's a small village."]
@@ -105,6 +112,7 @@
         "pronunciation": "lay shuh-vuh",
         "meaning": "the hair",
         "notes": "Always plural in French when talking about hair on someone's head. 'Un cheveu' (singular) means a single strand. Describe with 'avoir': 'Elle a les cheveux longs.' (She has long hair.)",
+        "forms": { "masculine": "cheveu", "feminine": "cheveu", "masculinePlural": "cheveux", "femininePlural": "cheveux" },
         "examples": [
           ["Il a les cheveux noirs.", "He has black hair."],
           ["Ses cheveux sont courts et blonds.", "His/Her hair is short and blond."]
@@ -118,6 +126,7 @@
         "pronunciation": "lay zyuh",
         "meaning": "the eyes",
         "notes": "Irregular plural of 'un œil' (an eye). Describe with 'avoir': 'Elle a les yeux bleus.' Common eye colours: bleus, verts, marron (invariable), noirs.",
+        "forms": { "masculine": "œil", "feminine": "œil", "masculinePlural": "yeux", "femininePlural": "yeux" },
         "examples": [
           ["Elle a les yeux verts.", "She has green eyes."],
           ["Il a de beaux yeux.", "He has beautiful eyes."]
@@ -131,6 +140,7 @@
         "pronunciation": "zhuhn",
         "meaning": "young",
         "notes": "Same form for masculine and feminine: 'un jeune homme' (a young man), 'une jeune femme' (a young woman). Opposite: 'vieux/vieille' (old).",
+        "forms": { "masculine": "jeune", "feminine": "jeune", "masculinePlural": "jeunes", "femininePlural": "jeunes" },
         "examples": [
           ["C'est une jeune femme très sympa.", "She's a very nice young woman."],
           ["Les jeunes aiment la musique.", "Young people like music."]
@@ -144,6 +154,7 @@
         "pronunciation": "mans",
         "meaning": "slim / thin",
         "notes": "Same form for masculine and feminine. More polite than 'maigre' (skinny/thin, which can sound negative). 'Mince !' is also an exclamation meaning 'Darn!'.",
+        "forms": { "masculine": "mince", "feminine": "mince", "masculinePlural": "minces", "femininePlural": "minces" },
         "examples": [
           ["Elle est grande et mince.", "She is tall and slim."],
           ["Il est resté mince malgré son âge.", "He stayed slim despite his age."]
@@ -157,6 +168,7 @@
         "pronunciation": "la barb",
         "meaning": "the beard",
         "notes": "'Porter la barbe' or 'avoir une barbe' = to have a beard. 'La moustache' = the moustache. 'Rasé' = clean-shaven.",
+        "forms": { "masculine": "barbe", "feminine": "barbe", "masculinePlural": "barbes", "femininePlural": "barbes" },
         "examples": [
           ["Mon oncle a une grande barbe noire.", "My uncle has a big black beard."],
           ["Il porte la barbe depuis deux ans.", "He has had a beard for two years."]
@@ -179,19 +191,19 @@
       ],
       "questions": [
         {
-          "question": "What colour is Lucas's hair?",
-          "options": ["Blond", "Brown", "Black"],
-          "correctAnswer": "Brown"
+          "question": "De quelle couleur sont les cheveux de Lucas ?",
+          "options": ["Blonds", "Bruns", "Noirs"],
+          "correctAnswer": "Bruns"
         },
         {
-          "question": "What colour are Lucas's eyes?",
-          "options": ["Green", "Brown", "Blue"],
-          "correctAnswer": "Blue"
+          "question": "De quelle couleur sont les yeux de Lucas ?",
+          "options": ["Verts", "Marron", "Bleus"],
+          "correctAnswer": "Bleus"
         },
         {
-          "question": "What does Lucas often wear?",
-          "options": ["Glasses", "A black hat", "A red scarf"],
-          "correctAnswer": "A black hat"
+          "question": "Qu'est-ce que Lucas porte souvent ?",
+          "options": ["Des lunettes", "Un chapeau noir", "Une écharpe rouge"],
+          "correctAnswer": "Un chapeau noir"
         }
       ],
       "summary": "Speaker A describes their friend Lucas so speaker B can spot him at a café. Lucas is tall and slim with short brown hair and blue eyes. He is twenty-three years old, does not wear glasses, but often wears a black hat. Speaker B thinks they can see him."
@@ -214,24 +226,24 @@
       ],
       "questions": [
         {
-          "question": "What is the cousin's hair like?",
-          "options": ["Short and brown", "Long and red", "Long and blond", "Short and black"],
-          "correctAnswer": "Long and red"
+          "question": "Comment sont les cheveux de la cousine ?",
+          "options": ["Courts et bruns", "Longs et roux", "Longs et blonds", "Courts et noirs"],
+          "correctAnswer": "Longs et roux"
         },
         {
-          "question": "How old is the cousin?",
-          "options": ["Twenty-three", "Twenty-five", "Twenty-eight", "Thirty"],
-          "correctAnswer": "Twenty-eight"
+          "question": "Quel âge a la cousine ?",
+          "options": ["Vingt-trois ans", "Vingt-cinq ans", "Vingt-huit ans", "Trente ans"],
+          "correctAnswer": "Vingt-huit ans"
         },
         {
-          "question": "What is the cousin doing when they spot her?",
+          "question": "Qu'est-ce que la cousine fait quand ils la trouvent ?",
           "options": [
-            "Drinking coffee",
-            "Reading a book",
-            "Talking on the phone",
-            "Looking out the window"
+            "Elle boit un café",
+            "Elle lit un livre",
+            "Elle parle au téléphone",
+            "Elle regarde par la fenêtre"
           ],
-          "correctAnswer": "Reading a book"
+          "correctAnswer": "Elle lit un livre"
         }
       ],
       "summary": "Speaker A is looking for their cousin at a café. They describe her as slightly shorter than themselves but above average height, with long red hair, green eyes, and a slim build. She is twenty-eight but looks younger. Speaker B spots a red-haired woman reading a book near the window, and it turns out to be the cousin."
