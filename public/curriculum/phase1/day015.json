@@ -355,7 +355,7 @@
       ],
       "questions": [
         {
-          "question": "Que fait B pour aider ?",
+          "question": "Qu'est-ce que B fait pour aider ?",
           "options": [
             "Il nettoie la salle de bain.",
             "Il fait la vaisselle et range la cuisine.",
@@ -431,7 +431,7 @@
           "correctAnswer": "Faire la vaisselle"
         },
         {
-          "question": "Quelle tâche B apprécie-t-il ?",
+          "question": "Quelle tâche est-ce que B apprécie ?",
           "options": [
             "Nettoyer les vitres",
             "Faire le ménage général",

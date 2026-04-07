@@ -334,7 +334,7 @@
       ],
       "questions": [
         {
-          "question": "Que cherche A ?",
+          "question": "Qu'est-ce que A cherche ?",
           "options": [
             "La maison",
             "L'arrêt de bus",
@@ -343,7 +343,7 @@
           "correctAnswer": "L'arrêt de bus"
         },
         {
-          "question": "Dans quelle direction faut-il aller ?",
+          "question": "Dans quelle direction est-ce qu'il faut aller ?",
           "options": [
             "À droite",
             "Tout droit",
@@ -420,7 +420,7 @@
           "correctAnswer": "Cinq minutes"
         },
         {
-          "question": "Le bus passe tous les combien ?",
+          "question": "Combien de minutes est-ce qu'il faut attendre le bus ?",
           "options": [
             "Cinq minutes",
             "Dix minutes",

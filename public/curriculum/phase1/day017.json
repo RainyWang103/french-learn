@@ -413,7 +413,7 @@
       ],
       "questions": [
         {
-          "question": "Pourquoi la cliente pose-t-elle des questions sur les ingrédients ?",
+          "question": "Pourquoi est-ce que la cliente pose des questions sur les ingrédients ?",
           "options": [
             "Elle n'aime pas les légumes.",
             "Elle est végétarienne.",

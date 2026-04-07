@@ -343,7 +343,7 @@
       ],
       "questions": [
         {
-          "question": "À quelle heure A se réveille-t-il ?",
+          "question": "À quelle heure est-ce que A se réveille ?",
           "options": [
             "À cinq heures",
             "À six heures",
@@ -352,7 +352,7 @@
           "correctAnswer": "À six heures"
         },
         {
-          "question": "Pourquoi A est-il fatigué ?",
+          "question": "Pourquoi est-ce que A est fatigué ?",
           "options": [
             "Il ne dort pas bien",
             "Il travaille trop",
@@ -361,7 +361,7 @@
           "correctAnswer": "Il ne dort pas bien"
         },
         {
-          "question": "Comment B dort-il ?",
+          "question": "Comment est-ce que B dort ?",
           "options": [
             "Mal",
             "Très bien",
@@ -401,7 +401,7 @@
       ],
       "questions": [
         {
-          "question": "Que fait B quand le réveil sonne ?",
+          "question": "Qu'est-ce que B fait quand le réveil sonne ?",
           "options": [
             "Il reste dans le lit",
             "Il se lève tout de suite",
@@ -421,7 +421,7 @@
           "correctAnswer": "Cinq ou six heures"
         },
         {
-          "question": "Que pense B du sommeil de A ?",
+          "question": "Qu'est-ce que B pense du sommeil de A ?",
           "options": [
             "C'est bien",
             "C'est assez",
