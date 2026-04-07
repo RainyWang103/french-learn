@@ -422,12 +422,20 @@ verb → VerbForms: full present tense phrases for all 6 persons
     "nous": "nous [form]", "vous": "vous [form]", "ils": "ils/elles [form]" }
   Use full phrases (e.g. "je mange") not bare conjugations ("mange")
 
-noun or adjective → GenderForms: all four gender/number variants
+adjective → GenderForms: all four gender/number variants
   { "masculine": "...", "feminine": "...",
     "masculinePlural": "...", "femininePlural": "..." }
-  If no distinct feminine form exists, repeat the masculine form
-  e.g. livre → all four fields: "livre" / "livre" / "livres" / "livres"
+  If the masculine and feminine forms are identical, still fill in all four fields with the word
   e.g. grand → "grand" / "grande" / "grands" / "grandes"
+  e.g. sympa → "sympa" / "sympa" / "sympas" / "sympas"
+
+noun → GenderForms: all four gender/number variants
+  { "masculine": "...", "feminine": "...",
+    "masculinePlural": "...", "femininePlural": "..." }
+  If the noun only exists in one gender, fill the non-existing gender fields with "N/A"
+  e.g. livre (masculine only) → "livre" / "N/A" / "livres" / "N/A"
+  e.g. maison (feminine only) → "N/A" / "maison" / "N/A" / "maisons"
+  If the noun has both genders (e.g. ami/amie), fill in all four fields normally
 
 adverb or expression → GenderForms with all four fields set to the word itself
 

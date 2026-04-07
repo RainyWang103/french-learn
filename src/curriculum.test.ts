@@ -76,9 +76,40 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
     for (const key of ['je', 'tu', 'il', 'nous', 'vous', 'ils']) {
       assertNonEmptyString(forms[key], `${label}.forms.${key}`)
     }
-  } else if (word.partOfSpeech === 'noun' || word.partOfSpeech === 'adjective') {
+  } else if (word.partOfSpeech === 'adjective') {
+    // Adjectives: all four forms required, never "N/A"
     for (const key of ['masculine', 'feminine', 'masculinePlural', 'femininePlural']) {
       assertNonEmptyString(forms[key], `${label}.forms.${key}`)
+      expect(forms[key], `${label}.forms.${key} should not be "N/A" for adjectives`).not.toBe('N/A')
+    }
+  } else if (word.partOfSpeech === 'noun') {
+    // Nouns: all four fields required; non-existing gender fields must be exactly "N/A"
+    for (const key of ['masculine', 'feminine', 'masculinePlural', 'femininePlural']) {
+      assertNonEmptyString(forms[key], `${label}.forms.${key}`)
+    }
+    // If a noun is single-gender, the opposite gender fields must be "N/A"
+    const hasNAField = ['masculine', 'feminine', 'masculinePlural', 'femininePlural'].some(
+      (key) => forms[key] === 'N/A',
+    )
+    if (hasNAField) {
+      const mascNA = forms['masculine'] === 'N/A'
+      const femNA = forms['feminine'] === 'N/A'
+      expect(
+        mascNA || femNA,
+        `${label}.forms: if any gender field is "N/A", one full gender pair must be "N/A"`,
+      ).toBe(true)
+      if (mascNA) {
+        expect(
+          forms['masculinePlural'],
+          `${label}.forms.masculinePlural should be "N/A" when masculine is "N/A"`,
+        ).toBe('N/A')
+      }
+      if (femNA) {
+        expect(
+          forms['femininePlural'],
+          `${label}.forms.femininePlural should be "N/A" when feminine is "N/A"`,
+        ).toBe('N/A')
+      }
     }
   } else {
     // adverb / expression: all four GenderForms fields required
