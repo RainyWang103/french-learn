@@ -413,10 +413,45 @@ curriculum files are added:
 - Never regenerate from scratch — always append to preserve history
 Structure: { lastDay, grammarTitles: string[], vocabWords: string[] }
 
-## Vocab Word Forms — Phase R.1 update
-VocabWord.conjugation removed. Replaced by VocabWord.forms (required).
-forms shape depends on partOfSpeech:
-  verb        → VerbForms { je, tu, il, nous, vous, ils } — full phrases
-  noun/adj    → GenderForms { masculine, feminine, masculinePlural, femininePlural }
-                If no feminine form exists, repeat masculine in feminine fields
-  adverb/expr → GenderForms with all four fields set to the word itself
+## Vocab Word Forms
+Every VocabWord must have a forms field (required, not optional).
+The shape of forms depends on partOfSpeech:
+
+verb → VerbForms: full present tense phrases for all 6 persons
+  { "je": "je [form]", "tu": "tu [form]", "il": "il/elle/on [form]",
+    "nous": "nous [form]", "vous": "vous [form]", "ils": "ils/elles [form]" }
+  Use full phrases (e.g. "je mange") not bare conjugations ("mange")
+
+noun or adjective → GenderForms: all four gender/number variants
+  { "masculine": "...", "feminine": "...",
+    "masculinePlural": "...", "femininePlural": "..." }
+  If no distinct feminine form exists, repeat the masculine form
+  e.g. livre → all four fields: "livre" / "livre" / "livres" / "livres"
+  e.g. grand → "grand" / "grande" / "grands" / "grandes"
+
+adverb or expression → GenderForms with all four fields set to the word itself
+
+The validate-curriculum script enforces forms on every word.
+
+## Listening Content Rules
+All listening questions and answers must be written in French.
+Never write questions or answers in English.
+The vocabulary, grammar, and sentence structures used in questions
+and answers must match the study phase level:
+
+Phase 1 (A1):
+  Questions use simple forms only — Où... ? / Qu'est-ce que... ? /
+  Qui... ? / Combien... ? / Est-ce que... ? / Comment... ?
+  Answers use short A1 sentences — present tense, basic vocabulary,
+  no complex clauses. A learner who has just started French should
+  be able to understand both the question and the correct answer.
+
+Phase 2 (A2):
+  Questions may use passé composé, imparfait, and A2 structures.
+  Answers may include fuller sentences with connectors and opinions.
+  Vocabulary and grammar must not exceed A2 level.
+
+Phase 3 (B1):
+  Questions may be more nuanced — indirect questions, hypotheticals.
+  Answers may use B1 structures and idiomatic expressions.
+  Vocabulary and grammar must not exceed B1 level.
