@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "robe",
+          "masculine": "",
           "feminine": "robe",
-          "masculinePlural": "robes",
+          "masculinePlural": "",
           "femininePlural": "robes"
         },
         "pronunciation": "la rob",
@@ -35,9 +35,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pantalon",
-          "feminine": "pantalon",
+          "feminine": "",
           "masculinePlural": "pantalons",
-          "femininePlural": "pantalons"
+          "femininePlural": ""
         },
         "pronunciation": "luh pon-ta-lon",
         "meaning": "the trousers / the pants",
@@ -60,9 +60,9 @@
         "gender": "male",
         "forms": {
           "masculine": "chapeau",
-          "feminine": "chapeau",
+          "feminine": "",
           "masculinePlural": "chapeaux",
-          "femininePlural": "chapeaux"
+          "femininePlural": ""
         },
         "pronunciation": "luh sha-po",
         "meaning": "the hat",
@@ -136,9 +136,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "robe",
+          "masculine": "",
           "feminine": "robe",
-          "masculinePlural": "robes",
+          "masculinePlural": "",
           "femininePlural": "robes"
         },
         "pronunciation": "la rob",
@@ -161,9 +161,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pantalon",
-          "feminine": "pantalon",
+          "feminine": "",
           "masculinePlural": "pantalons",
-          "femininePlural": "pantalons"
+          "femininePlural": ""
         },
         "pronunciation": "luh pon-ta-lon",
         "meaning": "the trousers / the pants",
@@ -186,9 +186,9 @@
         "gender": "male",
         "forms": {
           "masculine": "chapeau",
-          "feminine": "chapeau",
+          "feminine": "",
           "masculinePlural": "chapeaux",
-          "femininePlural": "chapeaux"
+          "femininePlural": ""
         },
         "pronunciation": "luh sha-po",
         "meaning": "the hat",
@@ -260,9 +260,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "chaussure",
+          "masculine": "",
           "feminine": "chaussure",
-          "masculinePlural": "chaussures",
+          "masculinePlural": "",
           "femininePlural": "chaussures"
         },
         "pronunciation": "lay show-sur",
@@ -286,9 +286,9 @@
         "gender": "male",
         "forms": {
           "masculine": "manteau",
-          "feminine": "manteau",
+          "feminine": "",
           "masculinePlural": "manteaux",
-          "femininePlural": "manteaux"
+          "femininePlural": ""
         },
         "pronunciation": "luh mon-to",
         "meaning": "the coat",

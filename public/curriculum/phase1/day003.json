@@ -11,9 +11,9 @@
         "gender": "male",
         "forms": {
           "masculine": "café",
-          "feminine": "café",
+          "feminine": "",
           "masculinePlural": "cafés",
-          "femininePlural": "cafés"
+          "femininePlural": ""
         },
         "pronunciation": "luh ka-fay",
         "meaning": "the coffee",
@@ -35,9 +35,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pain",
-          "feminine": "pain",
+          "feminine": "",
           "masculinePlural": "pains",
-          "femininePlural": "pains"
+          "femininePlural": ""
         },
         "pronunciation": "luh pan",
         "meaning": "the bread",
@@ -59,9 +59,9 @@
         "gender": "male",
         "forms": {
           "masculine": "beurre",
-          "feminine": "beurre",
+          "feminine": "",
           "masculinePlural": "beurres",
-          "femininePlural": "beurres"
+          "femininePlural": ""
         },
         "pronunciation": "luh burr",
         "meaning": "the butter",
@@ -83,9 +83,9 @@
         "gender": "male",
         "forms": {
           "masculine": "jus",
-          "feminine": "jus",
+          "feminine": "",
           "masculinePlural": "jus",
-          "femininePlural": "jus"
+          "femininePlural": ""
         },
         "pronunciation": "luh zhoo",
         "meaning": "the juice",
@@ -107,9 +107,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "confiture",
+          "masculine": "",
           "feminine": "confiture",
-          "masculinePlural": "confitures",
+          "masculinePlural": "",
           "femininePlural": "confitures"
         },
         "pronunciation": "la kon-fee-toor",
@@ -134,9 +134,9 @@
         "gender": "male",
         "forms": {
           "masculine": "café",
-          "feminine": "café",
+          "feminine": "",
           "masculinePlural": "cafés",
-          "femininePlural": "cafés"
+          "femininePlural": ""
         },
         "pronunciation": "luh ka-fay",
         "meaning": "the coffee",
@@ -159,9 +159,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pain",
-          "feminine": "pain",
+          "feminine": "",
           "masculinePlural": "pains",
-          "femininePlural": "pains"
+          "femininePlural": ""
         },
         "pronunciation": "luh pan",
         "meaning": "the bread",
@@ -183,9 +183,9 @@
         "gender": "male",
         "forms": {
           "masculine": "beurre",
-          "feminine": "beurre",
+          "feminine": "",
           "masculinePlural": "beurres",
-          "femininePlural": "beurres"
+          "femininePlural": ""
         },
         "pronunciation": "luh burr",
         "meaning": "the butter",
@@ -207,9 +207,9 @@
         "gender": "male",
         "forms": {
           "masculine": "jus",
-          "feminine": "jus",
+          "feminine": "",
           "masculinePlural": "jus",
-          "femininePlural": "jus"
+          "femininePlural": ""
         },
         "pronunciation": "luh zhoo",
         "meaning": "the juice",
@@ -231,9 +231,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "confiture",
+          "masculine": "",
           "feminine": "confiture",
-          "masculinePlural": "confitures",
+          "masculinePlural": "",
           "femininePlural": "confitures"
         },
         "pronunciation": "la kon-fee-toor",
@@ -256,9 +256,9 @@
         "gender": "male",
         "forms": {
           "masculine": "bol",
-          "feminine": "bol",
+          "feminine": "",
           "masculinePlural": "bols",
-          "femininePlural": "bols"
+          "femininePlural": ""
         },
         "pronunciation": "luh bohl",
         "meaning": "the bowl",
@@ -281,9 +281,9 @@
         "gender": "male",
         "forms": {
           "masculine": "croissant",
-          "feminine": "croissant",
+          "feminine": "",
           "masculinePlural": "croissants",
-          "femininePlural": "croissants"
+          "femininePlural": ""
         },
         "pronunciation": "luh kwah-son",
         "meaning": "the croissant",

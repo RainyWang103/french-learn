@@ -23,7 +23,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "tout droit", "feminine": "tout droit", "masculinePlural": "tout droit", "femininePlural": "tout droit" }
+        "forms": {
+          "masculine": "tout droit",
+          "feminine": "tout droit",
+          "masculinePlural": "tout droit",
+          "femininePlural": "tout droit"
+        }
       },
       {
         "word": "à gauche",
@@ -43,7 +48,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "à gauche", "feminine": "à gauche", "masculinePlural": "à gauche", "femininePlural": "à gauche" }
+        "forms": {
+          "masculine": "à gauche",
+          "feminine": "à gauche",
+          "masculinePlural": "à gauche",
+          "femininePlural": "à gauche"
+        }
       },
       {
         "word": "à droite",
@@ -63,7 +73,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "à droite", "feminine": "à droite", "masculinePlural": "à droite", "femininePlural": "à droite" }
+        "forms": {
+          "masculine": "à droite",
+          "feminine": "à droite",
+          "masculinePlural": "à droite",
+          "femininePlural": "à droite"
+        }
       },
       {
         "word": "le plan",
@@ -83,7 +98,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "plan", "feminine": "plan", "masculinePlural": "plans", "femininePlural": "plans" }
+        "forms": {
+          "masculine": "plan",
+          "feminine": "",
+          "masculinePlural": "plans",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la direction",
@@ -103,7 +123,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "direction", "feminine": "direction", "masculinePlural": "directions", "femininePlural": "directions" }
+        "forms": {
+          "masculine": "",
+          "feminine": "direction",
+          "masculinePlural": "",
+          "femininePlural": "directions"
+        }
       }
     ],
     "advanced": [
@@ -125,7 +150,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "tout droit", "feminine": "tout droit", "masculinePlural": "tout droit", "femininePlural": "tout droit" }
+        "forms": {
+          "masculine": "tout droit",
+          "feminine": "tout droit",
+          "masculinePlural": "tout droit",
+          "femininePlural": "tout droit"
+        }
       },
       {
         "word": "à gauche",
@@ -145,7 +175,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "à gauche", "feminine": "à gauche", "masculinePlural": "à gauche", "femininePlural": "à gauche" }
+        "forms": {
+          "masculine": "à gauche",
+          "feminine": "à gauche",
+          "masculinePlural": "à gauche",
+          "femininePlural": "à gauche"
+        }
       },
       {
         "word": "à droite",
@@ -165,7 +200,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "à droite", "feminine": "à droite", "masculinePlural": "à droite", "femininePlural": "à droite" }
+        "forms": {
+          "masculine": "à droite",
+          "feminine": "à droite",
+          "masculinePlural": "à droite",
+          "femininePlural": "à droite"
+        }
       },
       {
         "word": "le plan",
@@ -185,7 +225,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "plan", "feminine": "plan", "masculinePlural": "plans", "femininePlural": "plans" }
+        "forms": {
+          "masculine": "plan",
+          "feminine": "",
+          "masculinePlural": "plans",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la direction",
@@ -205,7 +250,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "direction", "feminine": "direction", "masculinePlural": "directions", "femininePlural": "directions" }
+        "forms": {
+          "masculine": "",
+          "feminine": "direction",
+          "masculinePlural": "",
+          "femininePlural": "directions"
+        }
       },
       {
         "word": "traverser",
@@ -225,7 +275,14 @@
           ]
         ],
         "special": "",
-        "forms": { "je": "je traverse", "tu": "tu traverses", "il": "il/elle/on traverse", "nous": "nous traversons", "vous": "vous traversez", "ils": "ils/elles traversent" }
+        "forms": {
+          "je": "je traverse",
+          "tu": "tu traverses",
+          "il": "il/elle/on traverse",
+          "nous": "nous traversons",
+          "vous": "vous traversez",
+          "ils": "ils/elles traversent"
+        }
       },
       {
         "word": "continuer",
@@ -245,7 +302,14 @@
           ]
         ],
         "special": "",
-        "forms": { "je": "je continue", "tu": "tu continues", "il": "il/elle/on continue", "nous": "nous continuons", "vous": "vous continuez", "ils": "ils/elles continuent" }
+        "forms": {
+          "je": "je continue",
+          "tu": "tu continues",
+          "il": "il/elle/on continue",
+          "nous": "nous continuons",
+          "vous": "vous continuez",
+          "ils": "ils/elles continuent"
+        }
       }
     ]
   },

@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "maison",
+          "masculine": "",
           "feminine": "maison",
-          "masculinePlural": "maisons",
+          "masculinePlural": "",
           "femininePlural": "maisons"
         },
         "pronunciation": "la meh-zon",
@@ -35,9 +35,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "porte",
+          "masculine": "",
           "feminine": "porte",
-          "masculinePlural": "portes",
+          "masculinePlural": "",
           "femininePlural": "portes"
         },
         "pronunciation": "la port",
@@ -59,9 +59,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "clé",
+          "masculine": "",
           "feminine": "clé",
-          "masculinePlural": "clés",
+          "masculinePlural": "",
           "femininePlural": "clés"
         },
         "pronunciation": "la klay",
@@ -84,9 +84,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "rue",
+          "masculine": "",
           "feminine": "rue",
-          "masculinePlural": "rues",
+          "masculinePlural": "",
           "femininePlural": "rues"
         },
         "pronunciation": "la roo",
@@ -109,9 +109,9 @@
         "gender": "male",
         "forms": {
           "masculine": "bus",
-          "feminine": "bus",
+          "feminine": "",
           "masculinePlural": "bus",
-          "femininePlural": "bus"
+          "femininePlural": ""
         },
         "pronunciation": "luh boos",
         "meaning": "the bus",
@@ -135,9 +135,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "maison",
+          "masculine": "",
           "feminine": "maison",
-          "masculinePlural": "maisons",
+          "masculinePlural": "",
           "femininePlural": "maisons"
         },
         "pronunciation": "la meh-zon",
@@ -160,9 +160,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "porte",
+          "masculine": "",
           "feminine": "porte",
-          "masculinePlural": "portes",
+          "masculinePlural": "",
           "femininePlural": "portes"
         },
         "pronunciation": "la port",
@@ -184,9 +184,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "clé",
+          "masculine": "",
           "feminine": "clé",
-          "masculinePlural": "clés",
+          "masculinePlural": "",
           "femininePlural": "clés"
         },
         "pronunciation": "la klay",
@@ -209,9 +209,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "rue",
+          "masculine": "",
           "feminine": "rue",
-          "masculinePlural": "rues",
+          "masculinePlural": "",
           "femininePlural": "rues"
         },
         "pronunciation": "la roo",
@@ -234,9 +234,9 @@
         "gender": "male",
         "forms": {
           "masculine": "bus",
-          "feminine": "bus",
+          "feminine": "",
           "masculinePlural": "bus",
-          "femininePlural": "bus"
+          "femininePlural": ""
         },
         "pronunciation": "luh boos",
         "meaning": "the bus",
@@ -259,9 +259,9 @@
         "gender": "male",
         "forms": {
           "masculine": "trottoir",
-          "feminine": "trottoir",
+          "feminine": "",
           "masculinePlural": "trottoirs",
-          "femininePlural": "trottoirs"
+          "femininePlural": ""
         },
         "pronunciation": "luh tro-twahr",
         "meaning": "the sidewalk / pavement",
@@ -283,9 +283,9 @@
         "gender": "male",
         "forms": {
           "masculine": "trajet",
-          "feminine": "trajet",
+          "feminine": "",
           "masculinePlural": "trajets",
-          "femininePlural": "trajets"
+          "femininePlural": ""
         },
         "pronunciation": "luh tra-zheh",
         "meaning": "the commute / journey",

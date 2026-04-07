@@ -23,7 +23,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "panier", "feminine": "panier", "masculinePlural": "paniers", "femininePlural": "paniers" }
+        "forms": {
+          "masculine": "panier",
+          "feminine": "",
+          "masculinePlural": "paniers",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la caisse",
@@ -43,7 +48,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "caisse", "feminine": "caisse", "masculinePlural": "caisses", "femininePlural": "caisses" }
+        "forms": {
+          "masculine": "",
+          "feminine": "caisse",
+          "masculinePlural": "",
+          "femininePlural": "caisses"
+        }
       },
       {
         "word": "frais",
@@ -63,7 +73,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "frais", "feminine": "fraîche", "masculinePlural": "frais", "femininePlural": "fraîches" }
+        "forms": {
+          "masculine": "frais",
+          "feminine": "fraîche",
+          "masculinePlural": "frais",
+          "femininePlural": "fraîches"
+        }
       },
       {
         "word": "peser",
@@ -83,7 +98,14 @@
           ]
         ],
         "special": "",
-        "forms": { "je": "je pèse", "tu": "tu pèses", "il": "il/elle/on pèse", "nous": "nous pesons", "vous": "vous pesez", "ils": "ils/elles pèsent" }
+        "forms": {
+          "je": "je pèse",
+          "tu": "tu pèses",
+          "il": "il/elle/on pèse",
+          "nous": "nous pesons",
+          "vous": "vous pesez",
+          "ils": "ils/elles pèsent"
+        }
       },
       {
         "word": "le rayon",
@@ -103,7 +125,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "rayon", "feminine": "rayon", "masculinePlural": "rayons", "femininePlural": "rayons" }
+        "forms": {
+          "masculine": "rayon",
+          "feminine": "",
+          "masculinePlural": "rayons",
+          "femininePlural": ""
+        }
       }
     ],
     "advanced": [
@@ -125,7 +152,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "panier", "feminine": "panier", "masculinePlural": "paniers", "femininePlural": "paniers" }
+        "forms": {
+          "masculine": "panier",
+          "feminine": "",
+          "masculinePlural": "paniers",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la caisse",
@@ -145,7 +177,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "caisse", "feminine": "caisse", "masculinePlural": "caisses", "femininePlural": "caisses" }
+        "forms": {
+          "masculine": "",
+          "feminine": "caisse",
+          "masculinePlural": "",
+          "femininePlural": "caisses"
+        }
       },
       {
         "word": "frais",
@@ -165,7 +202,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "frais", "feminine": "fraîche", "masculinePlural": "frais", "femininePlural": "fraîches" }
+        "forms": {
+          "masculine": "frais",
+          "feminine": "fraîche",
+          "masculinePlural": "frais",
+          "femininePlural": "fraîches"
+        }
       },
       {
         "word": "peser",
@@ -185,7 +227,14 @@
           ]
         ],
         "special": "",
-        "forms": { "je": "je pèse", "tu": "tu pèses", "il": "il/elle/on pèse", "nous": "nous pesons", "vous": "vous pesez", "ils": "ils/elles pèsent" }
+        "forms": {
+          "je": "je pèse",
+          "tu": "tu pèses",
+          "il": "il/elle/on pèse",
+          "nous": "nous pesons",
+          "vous": "vous pesez",
+          "ils": "ils/elles pèsent"
+        }
       },
       {
         "word": "le rayon",
@@ -205,7 +254,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "rayon", "feminine": "rayon", "masculinePlural": "rayons", "femininePlural": "rayons" }
+        "forms": {
+          "masculine": "rayon",
+          "feminine": "",
+          "masculinePlural": "rayons",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le reçu",
@@ -225,7 +279,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "reçu", "feminine": "reçu", "masculinePlural": "reçus", "femininePlural": "reçus" }
+        "forms": {
+          "masculine": "reçu",
+          "feminine": "",
+          "masculinePlural": "reçus",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la file",
@@ -245,7 +304,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "file", "feminine": "file", "masculinePlural": "files", "femininePlural": "files" }
+        "forms": {
+          "masculine": "",
+          "feminine": "file",
+          "masculinePlural": "",
+          "femininePlural": "files"
+        }
       }
     ]
   },

@@ -13,11 +13,22 @@
         "meaning": "the neighbourhood / the district",
         "notes": "'Mon quartier' = my neighbourhood. 'Un quartier calme' = a quiet neighbourhood. In Paris, each 'arrondissement' contains several quartiers. 'Le quartier latin' = the Latin Quarter (famous Parisian district).",
         "examples": [
-          ["J'habite dans un quartier calme.", "I live in a quiet neighbourhood."],
-          ["Le quartier est très agréable.", "The neighbourhood is very pleasant."]
+          [
+            "J'habite dans un quartier calme.",
+            "I live in a quiet neighbourhood."
+          ],
+          [
+            "Le quartier est très agréable.",
+            "The neighbourhood is very pleasant."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "quartier", "feminine": "quartier", "masculinePlural": "quartiers", "femininePlural": "quartiers" }
+        "forms": {
+          "masculine": "quartier",
+          "feminine": "",
+          "masculinePlural": "quartiers",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la boulangerie",
@@ -27,11 +38,22 @@
         "meaning": "the bakery",
         "notes": "'Le boulanger / la boulangère' = the baker. A boulangerie must bake bread on-site to use the name legally. France has around 33,000 boulangeries. 'Aller à la boulangerie' = to go to the bakery.",
         "examples": [
-          ["Il y a une boulangerie au coin de la rue.", "There's a bakery on the corner of the street."],
-          ["J'achète du pain à la boulangerie tous les jours.", "I buy bread at the bakery every day."]
+          [
+            "Il y a une boulangerie au coin de la rue.",
+            "There's a bakery on the corner of the street."
+          ],
+          [
+            "J'achète du pain à la boulangerie tous les jours.",
+            "I buy bread at the bakery every day."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "boulangerie", "feminine": "boulangerie", "masculinePlural": "boulangeries", "femininePlural": "boulangeries" }
+        "forms": {
+          "masculine": "",
+          "feminine": "boulangerie",
+          "masculinePlural": "",
+          "femininePlural": "boulangeries"
+        }
       },
       {
         "word": "le parc",
@@ -41,11 +63,22 @@
         "meaning": "the park",
         "notes": "'Aller au parc' = to go to the park. 'Un parc public' = a public park. 'Se promener dans le parc' = to walk in the park. French cities typically have many well-maintained public parks.",
         "examples": [
-          ["Les enfants jouent dans le parc.", "The children play in the park."],
-          ["Il y a un grand parc près de chez moi.", "There's a big park near my home."]
+          [
+            "Les enfants jouent dans le parc.",
+            "The children play in the park."
+          ],
+          [
+            "Il y a un grand parc près de chez moi.",
+            "There's a big park near my home."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "parc", "feminine": "parc", "masculinePlural": "parcs", "femininePlural": "parcs" }
+        "forms": {
+          "masculine": "parc",
+          "feminine": "",
+          "masculinePlural": "parcs",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la poste",
@@ -55,11 +88,22 @@
         "meaning": "the post office",
         "notes": "'La Poste' is the national postal service in France. 'Aller à la poste' = to go to the post office. 'Un bureau de poste' = a post office branch. Also a useful landmark for giving directions.",
         "examples": [
-          ["La poste est ouverte le samedi matin.", "The post office is open on Saturday morning."],
-          ["Il y a une poste dans mon quartier.", "There's a post office in my neighbourhood."]
+          [
+            "La poste est ouverte le samedi matin.",
+            "The post office is open on Saturday morning."
+          ],
+          [
+            "Il y a une poste dans mon quartier.",
+            "There's a post office in my neighbourhood."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "poste", "feminine": "poste", "masculinePlural": "postes", "femininePlural": "postes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "poste",
+          "masculinePlural": "",
+          "femininePlural": "postes"
+        }
       },
       {
         "word": "le voisin",
@@ -69,11 +113,22 @@
         "meaning": "the neighbour",
         "notes": "Feminine: 'la voisine'. 'Les voisins' = the neighbours. 'Chez les voisins' = at the neighbours' place. 'La Fête des voisins' = Neighbours' Day (a French tradition celebrated in May).",
         "examples": [
-          ["Mon voisin est très gentil.", "My neighbour is very nice."],
-          ["Nous avons de bons voisins.", "We have good neighbours."]
+          [
+            "Mon voisin est très gentil.",
+            "My neighbour is very nice."
+          ],
+          [
+            "Nous avons de bons voisins.",
+            "We have good neighbours."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "voisin", "feminine": "voisine", "masculinePlural": "voisins", "femininePlural": "voisines" }
+        "forms": {
+          "masculine": "voisin",
+          "feminine": "",
+          "masculinePlural": "voisins",
+          "femininePlural": ""
+        }
       }
     ],
     "advanced": [
@@ -85,11 +140,22 @@
         "meaning": "the neighbourhood / the district",
         "notes": "'Mon quartier' = my neighbourhood. 'Un quartier calme' = a quiet neighbourhood. In Paris, each 'arrondissement' contains several quartiers. 'Le quartier latin' = the Latin Quarter (famous Parisian district).",
         "examples": [
-          ["J'habite dans un quartier calme.", "I live in a quiet neighbourhood."],
-          ["Le quartier est très agréable.", "The neighbourhood is very pleasant."]
+          [
+            "J'habite dans un quartier calme.",
+            "I live in a quiet neighbourhood."
+          ],
+          [
+            "Le quartier est très agréable.",
+            "The neighbourhood is very pleasant."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "quartier", "feminine": "quartier", "masculinePlural": "quartiers", "femininePlural": "quartiers" }
+        "forms": {
+          "masculine": "quartier",
+          "feminine": "",
+          "masculinePlural": "quartiers",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la boulangerie",
@@ -99,11 +165,22 @@
         "meaning": "the bakery",
         "notes": "'Le boulanger / la boulangère' = the baker. A boulangerie must bake bread on-site to use the name legally. France has around 33,000 boulangeries. 'Aller à la boulangerie' = to go to the bakery.",
         "examples": [
-          ["Il y a une boulangerie au coin de la rue.", "There's a bakery on the corner of the street."],
-          ["J'achète du pain à la boulangerie tous les jours.", "I buy bread at the bakery every day."]
+          [
+            "Il y a une boulangerie au coin de la rue.",
+            "There's a bakery on the corner of the street."
+          ],
+          [
+            "J'achète du pain à la boulangerie tous les jours.",
+            "I buy bread at the bakery every day."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "boulangerie", "feminine": "boulangerie", "masculinePlural": "boulangeries", "femininePlural": "boulangeries" }
+        "forms": {
+          "masculine": "",
+          "feminine": "boulangerie",
+          "masculinePlural": "",
+          "femininePlural": "boulangeries"
+        }
       },
       {
         "word": "le parc",
@@ -113,11 +190,22 @@
         "meaning": "the park",
         "notes": "'Aller au parc' = to go to the park. 'Un parc public' = a public park. 'Se promener dans le parc' = to walk in the park. French cities typically have many well-maintained public parks.",
         "examples": [
-          ["Les enfants jouent dans le parc.", "The children play in the park."],
-          ["Il y a un grand parc près de chez moi.", "There's a big park near my home."]
+          [
+            "Les enfants jouent dans le parc.",
+            "The children play in the park."
+          ],
+          [
+            "Il y a un grand parc près de chez moi.",
+            "There's a big park near my home."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "parc", "feminine": "parc", "masculinePlural": "parcs", "femininePlural": "parcs" }
+        "forms": {
+          "masculine": "parc",
+          "feminine": "",
+          "masculinePlural": "parcs",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la poste",
@@ -127,11 +215,22 @@
         "meaning": "the post office",
         "notes": "'La Poste' is the national postal service in France. 'Aller à la poste' = to go to the post office. 'Un bureau de poste' = a post office branch. Also a useful landmark for giving directions.",
         "examples": [
-          ["La poste est ouverte le samedi matin.", "The post office is open on Saturday morning."],
-          ["Il y a une poste dans mon quartier.", "There's a post office in my neighbourhood."]
+          [
+            "La poste est ouverte le samedi matin.",
+            "The post office is open on Saturday morning."
+          ],
+          [
+            "Il y a une poste dans mon quartier.",
+            "There's a post office in my neighbourhood."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "poste", "feminine": "poste", "masculinePlural": "postes", "femininePlural": "postes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "poste",
+          "masculinePlural": "",
+          "femininePlural": "postes"
+        }
       },
       {
         "word": "le voisin",
@@ -141,11 +240,22 @@
         "meaning": "the neighbour",
         "notes": "Feminine: 'la voisine'. 'Les voisins' = the neighbours. 'Chez les voisins' = at the neighbours' place. 'La Fête des voisins' = Neighbours' Day (a French tradition celebrated in May).",
         "examples": [
-          ["Mon voisin est très gentil.", "My neighbour is very nice."],
-          ["Nous avons de bons voisins.", "We have good neighbours."]
+          [
+            "Mon voisin est très gentil.",
+            "My neighbour is very nice."
+          ],
+          [
+            "Nous avons de bons voisins.",
+            "We have good neighbours."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "voisin", "feminine": "voisine", "masculinePlural": "voisins", "femininePlural": "voisines" }
+        "forms": {
+          "masculine": "voisin",
+          "feminine": "",
+          "masculinePlural": "voisins",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le coin",
@@ -155,11 +265,22 @@
         "meaning": "the corner / the area / the spot",
         "notes": "'Au coin de la rue' = on the corner of the street. 'Un coin tranquille' = a quiet spot. 'Du coin' = local: 'le café du coin' = the local café. 'Les gens du coin' = the locals.",
         "examples": [
-          ["La boulangerie est au coin de la rue.", "The bakery is on the corner of the street."],
-          ["C'est un bon coin pour se promener.", "It's a good spot for a walk."]
+          [
+            "La boulangerie est au coin de la rue.",
+            "The bakery is on the corner of the street."
+          ],
+          [
+            "C'est un bon coin pour se promener.",
+            "It's a good spot for a walk."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "coin", "feminine": "coin", "masculinePlural": "coins", "femininePlural": "coins" }
+        "forms": {
+          "masculine": "coin",
+          "feminine": "",
+          "masculinePlural": "coins",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la mairie",
@@ -169,40 +290,87 @@
         "meaning": "the town hall / the city hall",
         "notes": "'Le maire' = the mayor. 'Se marier à la mairie' = to get married at the town hall (civil marriages in France must take place at the mairie). Used for official documents like birth certificates, ID cards, etc.",
         "examples": [
-          ["La mairie est sur la place principale.", "The town hall is on the main square."],
-          ["Il faut aller à la mairie pour le passeport.", "You need to go to the town hall for the passport."]
+          [
+            "La mairie est sur la place principale.",
+            "The town hall is on the main square."
+          ],
+          [
+            "Il faut aller à la mairie pour le passeport.",
+            "You need to go to the town hall for the passport."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "mairie", "feminine": "mairie", "masculinePlural": "mairies", "femininePlural": "mairies" }
+        "forms": {
+          "masculine": "",
+          "feminine": "mairie",
+          "masculinePlural": "",
+          "femininePlural": "mairies"
+        }
       }
     ]
   },
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu habites dans quel quartier ?"],
-        ["B", "J'habite dans un quartier calme, près du parc."],
-        ["A", "Il y a des commerces ?"],
-        ["B", "Oui ! Il y a une boulangerie — j'en achète du pain tous les matins."],
-        ["A", "Et une poste ?"],
-        ["B", "Oui, il y en a une à cinq minutes. Et un supermarché aussi."],
-        ["A", "Et les voisins, ils sont comment ?"],
-        ["B", "J'en ai trois sur mon étage. Ils sont très gentils !"]
+        [
+          "A",
+          "Tu habites dans quel quartier ?"
+        ],
+        [
+          "B",
+          "J'habite dans un quartier calme, près du parc."
+        ],
+        [
+          "A",
+          "Il y a des commerces ?"
+        ],
+        [
+          "B",
+          "Oui ! Il y a une boulangerie — j'en achète du pain tous les matins."
+        ],
+        [
+          "A",
+          "Et une poste ?"
+        ],
+        [
+          "B",
+          "Oui, il y en a une à cinq minutes. Et un supermarché aussi."
+        ],
+        [
+          "A",
+          "Et les voisins, ils sont comment ?"
+        ],
+        [
+          "B",
+          "J'en ai trois sur mon étage. Ils sont très gentils !"
+        ]
       ],
       "questions": [
         {
           "question": "Où est-ce que B habite ?",
-          "options": ["Dans un quartier bruyant", "Dans un quartier calme près du parc", "Au centre-ville"],
+          "options": [
+            "Dans un quartier bruyant",
+            "Dans un quartier calme près du parc",
+            "Au centre-ville"
+          ],
           "correctAnswer": "Dans un quartier calme près du parc"
         },
         {
           "question": "Qu'est-ce que B achète à la boulangerie chaque matin ?",
-          "options": ["Des croissants", "Du pain", "Des gâteaux"],
+          "options": [
+            "Des croissants",
+            "Du pain",
+            "Des gâteaux"
+          ],
           "correctAnswer": "Du pain"
         },
         {
           "question": "Combien de voisins est-ce que B a sur son étage ?",
-          "options": ["Deux", "Trois", "Quatre"],
+          "options": [
+            "Deux",
+            "Trois",
+            "Quatre"
+          ],
           "correctAnswer": "Trois"
         }
       ],
@@ -210,36 +378,86 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Je viens d'emménager dans le quartier. Tu le connais bien ?"],
-        ["B", "Oui, j'y habite depuis cinq ans ! C'est un quartier très agréable."],
-        ["A", "Il y a une boulangerie ?"],
-        ["B", "Bien sûr ! Il y en a deux. La meilleure est au coin de la rue Victor Hugo."],
-        ["A", "Super ! Et des parcs ?"],
-        ["B", "Il y en a un très grand, juste derrière la mairie. Les voisins s'y retrouvent le dimanche."],
-        ["A", "Il y a une poste dans le coin ?"],
-        ["B", "Oui, il y en a une sur la place, à côté de la mairie. Elle est ouverte le matin."],
-        ["A", "Et les voisins, ils sont sympathiques ?"],
-        ["B", "Oui, j'en connais plusieurs. On fait la Fête des voisins en mai — tu vas adorer !"]
+        [
+          "A",
+          "Je viens d'emménager dans le quartier. Tu le connais bien ?"
+        ],
+        [
+          "B",
+          "Oui, j'y habite depuis cinq ans ! C'est un quartier très agréable."
+        ],
+        [
+          "A",
+          "Il y a une boulangerie ?"
+        ],
+        [
+          "B",
+          "Bien sûr ! Il y en a deux. La meilleure est au coin de la rue Victor Hugo."
+        ],
+        [
+          "A",
+          "Super ! Et des parcs ?"
+        ],
+        [
+          "B",
+          "Il y en a un très grand, juste derrière la mairie. Les voisins s'y retrouvent le dimanche."
+        ],
+        [
+          "A",
+          "Il y a une poste dans le coin ?"
+        ],
+        [
+          "B",
+          "Oui, il y en a une sur la place, à côté de la mairie. Elle est ouverte le matin."
+        ],
+        [
+          "A",
+          "Et les voisins, ils sont sympathiques ?"
+        ],
+        [
+          "B",
+          "Oui, j'en connais plusieurs. On fait la Fête des voisins en mai — tu vas adorer !"
+        ]
       ],
       "questions": [
         {
           "question": "Depuis combien de temps est-ce que B habite dans le quartier ?",
-          "options": ["Deux ans", "Trois ans", "Cinq ans", "Dix ans"],
+          "options": [
+            "Deux ans",
+            "Trois ans",
+            "Cinq ans",
+            "Dix ans"
+          ],
           "correctAnswer": "Cinq ans"
         },
         {
           "question": "Combien de boulangeries y a-t-il dans le quartier ?",
-          "options": ["Une", "Deux", "Trois", "Aucune"],
+          "options": [
+            "Une",
+            "Deux",
+            "Trois",
+            "Aucune"
+          ],
           "correctAnswer": "Deux"
         },
         {
           "question": "Où se trouve le parc ?",
-          "options": ["À côté de la boulangerie", "Derrière la mairie", "Près de la poste", "Dans la rue principale"],
+          "options": [
+            "À côté de la boulangerie",
+            "Derrière la mairie",
+            "Près de la poste",
+            "Dans la rue principale"
+          ],
           "correctAnswer": "Derrière la mairie"
         },
         {
           "question": "Quel événement est-ce que B mentionne ?",
-          "options": ["Un marché en juin", "La Fête des voisins en mai", "Un festival au parc en juillet", "Une inauguration de boulangerie en avril"],
+          "options": [
+            "Un marché en juin",
+            "La Fête des voisins en mai",
+            "Un festival au parc en juillet",
+            "Une inauguration de boulangerie en avril"
+          ],
           "correctAnswer": "La Fête des voisins en mai"
         }
       ],
@@ -278,7 +496,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'There are three' using en?",
-          "options": ["Il en y a trois.", "Il y en a trois.", "Il y a en trois."],
+          "options": [
+            "Il en y a trois.",
+            "Il y en a trois.",
+            "Il y a en trois."
+          ],
           "correctAnswer": "Il y en a trois.",
           "explanation": "'En' goes before 'a' in 'il y a': il y en a trois."
         },
@@ -291,7 +513,11 @@
         {
           "type": "multipleChoice",
           "question": "What does 'Je n'en veux pas' mean?",
-          "options": ["I want some", "I don't want any", "I don't have any"],
+          "options": [
+            "I want some",
+            "I don't want any",
+            "I don't have any"
+          ],
           "correctAnswer": "I don't want any",
           "explanation": "Negation: ne + en + verb + pas. Je n'en veux pas = I don't want any."
         },
@@ -330,7 +556,12 @@
         {
           "type": "multipleChoice",
           "question": "Where does 'en' go in the near future?",
-          "options": ["Before aller", "Between aller and infinitive", "Before the infinitive", "After the infinitive"],
+          "options": [
+            "Before aller",
+            "Between aller and infinitive",
+            "Before the infinitive",
+            "After the infinitive"
+          ],
           "correctAnswer": "Before the infinitive",
           "explanation": "Near future: en goes before the infinitive. Je vais en acheter."
         },
@@ -343,7 +574,12 @@
         {
           "type": "multipleChoice",
           "question": "Does 'en' trigger past participle agreement with avoir?",
-          "options": ["Yes, always", "No, never", "Only with feminine nouns", "Only in formal French"],
+          "options": [
+            "Yes, always",
+            "No, never",
+            "Only with feminine nouns",
+            "Only in formal French"
+          ],
           "correctAnswer": "No, never",
           "explanation": "Unlike le/la/les, 'en' does NOT trigger agreement: J'en ai acheté (not achetés)."
         },
@@ -356,7 +592,12 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'Take some!' (imperative, informal)?",
-          "options": ["En prends !", "Prends-en !", "Prends en !", "En-prends !"],
+          "options": [
+            "En prends !",
+            "Prends-en !",
+            "Prends en !",
+            "En-prends !"
+          ],
           "correctAnswer": "Prends-en !",
           "explanation": "Affirmative imperative: verb + hyphen + en: Prends-en !"
         },
@@ -369,7 +610,12 @@
         {
           "type": "multipleChoice",
           "question": "What does 'J'en ai marre !' mean?",
-          "options": ["I have some!", "I'm leaving!", "I'm fed up!", "I remember!"],
+          "options": [
+            "I have some!",
+            "I'm leaving!",
+            "I'm fed up!",
+            "I remember!"
+          ],
           "correctAnswer": "I'm fed up!",
           "explanation": "'En avoir marre' is a common expression meaning 'to be fed up'."
         }
@@ -381,7 +627,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le quartier' mean?",
-        "options": ["The quarter hour", "The neighbourhood", "The apartment"],
+        "options": [
+          "The quarter hour",
+          "The neighbourhood",
+          "The apartment"
+        ],
         "correctAnswer": "The neighbourhood",
         "explanation": "'Le quartier' is the neighbourhood or district.",
         "targetWord": "le quartier"
@@ -396,7 +646,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'la boulangerie'?",
-        "options": ["The butcher shop", "The bakery", "The grocery store"],
+        "options": [
+          "The butcher shop",
+          "The bakery",
+          "The grocery store"
+        ],
         "correctAnswer": "The bakery",
         "explanation": "'La boulangerie' is the bakery. A key feature of every French neighbourhood!",
         "targetWord": "la boulangerie"
@@ -411,7 +665,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le voisin' mean?",
-        "options": ["The visitor", "The neighbour", "The cousin"],
+        "options": [
+          "The visitor",
+          "The neighbour",
+          "The cousin"
+        ],
         "correctAnswer": "The neighbour",
         "explanation": "'Le voisin' is the neighbour. Feminine: 'la voisine'.",
         "targetWord": "le voisin"
@@ -421,7 +679,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le coin' mean in 'le café du coin'?",
-        "options": ["The corner / local area", "The counter", "The cup", "The menu"],
+        "options": [
+          "The corner / local area",
+          "The counter",
+          "The cup",
+          "The menu"
+        ],
         "correctAnswer": "The corner / local area",
         "explanation": "'Du coin' = local. 'Le café du coin' = the local café.",
         "targetWord": "le coin"
@@ -436,7 +699,12 @@
       {
         "type": "multipleChoice",
         "question": "What is 'la mairie'?",
-        "options": ["The market", "The town hall", "The library", "The church"],
+        "options": [
+          "The market",
+          "The town hall",
+          "The library",
+          "The church"
+        ],
         "correctAnswer": "The town hall",
         "explanation": "'La mairie' is the town hall. Civil marriages in France take place here.",
         "targetWord": "la mairie"
@@ -451,7 +719,12 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'Take some!' (imperative)?",
-        "options": ["En prends !", "Prends-en !", "Prends en !", "En-prends !"],
+        "options": [
+          "En prends !",
+          "Prends-en !",
+          "Prends en !",
+          "En-prends !"
+        ],
         "correctAnswer": "Prends-en !",
         "explanation": "Affirmative imperative: verb-en. Prends-en !",
         "targetWord": "le voisin"

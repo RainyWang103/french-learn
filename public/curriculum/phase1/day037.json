@@ -13,11 +13,22 @@
         "meaning": "the size (clothing) / the waist",
         "notes": "'Quelle est votre taille ?' = What is your size? Clothing sizes in France use European sizing (e.g. 38, 40, 42). Also means 'waist': 'tour de taille' = waist measurement.",
         "examples": [
-          ["Je fais quelle taille ?", "What size am I?"],
-          ["Vous avez cette robe en taille 40 ?", "Do you have this dress in size 40?"]
+          [
+            "Je fais quelle taille ?",
+            "What size am I?"
+          ],
+          [
+            "Vous avez cette robe en taille 40 ?",
+            "Do you have this dress in size 40?"
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "taille", "feminine": "taille", "masculinePlural": "tailles", "femininePlural": "tailles" }
+        "forms": {
+          "masculine": "",
+          "feminine": "taille",
+          "masculinePlural": "",
+          "femininePlural": "tailles"
+        }
       },
       {
         "word": "la jupe",
@@ -27,11 +38,22 @@
         "meaning": "the skirt",
         "notes": "'Une jupe longue' = a long skirt. 'Une jupe courte' = a short skirt. 'Une mini-jupe' = a mini-skirt. Often paired with 'un chemisier' (a blouse) or 'un pull' (a jumper).",
         "examples": [
-          ["Elle porte une belle jupe bleue.", "She is wearing a beautiful blue skirt."],
-          ["Je cherche une jupe noire.", "I am looking for a black skirt."]
+          [
+            "Elle porte une belle jupe bleue.",
+            "She is wearing a beautiful blue skirt."
+          ],
+          [
+            "Je cherche une jupe noire.",
+            "I am looking for a black skirt."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "jupe", "feminine": "jupe", "masculinePlural": "jupes", "femininePlural": "jupes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "jupe",
+          "masculinePlural": "",
+          "femininePlural": "jupes"
+        }
       },
       {
         "word": "essayer",
@@ -41,11 +63,24 @@
         "meaning": "to try on / to try",
         "notes": "Regular -er verb. 'Essayer' can mean to try something on (clothes) or to try/attempt something. 'Est-ce que je peux l'essayer ?' = Can I try it on? 'Essayer de + infinitive' = to try to do something.",
         "examples": [
-          ["Je peux essayer ce manteau ?", "Can I try on this coat?"],
-          ["Elle essaie la robe dans la cabine.", "She is trying on the dress in the fitting room."]
+          [
+            "Je peux essayer ce manteau ?",
+            "Can I try on this coat?"
+          ],
+          [
+            "Elle essaie la robe dans la cabine.",
+            "She is trying on the dress in the fitting room."
+          ]
         ],
         "special": "",
-        "forms": { "je": "j'essaie", "tu": "tu essaies", "il": "il/elle/on essaie", "nous": "nous essayons", "vous": "vous essayez", "ils": "ils/elles essaient" }
+        "forms": {
+          "je": "j'essaie",
+          "tu": "tu essaies",
+          "il": "il/elle/on essaie",
+          "nous": "nous essayons",
+          "vous": "vous essayez",
+          "ils": "ils/elles essaient"
+        }
       },
       {
         "word": "la vitrine",
@@ -55,11 +90,22 @@
         "meaning": "the shop window / the display window",
         "notes": "'Faire du lèche-vitrine' = to go window shopping (literally 'to lick the windows'). 'En vitrine' = in the window display. 'La vitrine est belle' = the window display is beautiful.",
         "examples": [
-          ["J'ai vu cette robe en vitrine.", "I saw this dress in the shop window."],
-          ["Nous faisons du lèche-vitrine.", "We are window shopping."]
+          [
+            "J'ai vu cette robe en vitrine.",
+            "I saw this dress in the shop window."
+          ],
+          [
+            "Nous faisons du lèche-vitrine.",
+            "We are window shopping."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "vitrine", "feminine": "vitrine", "masculinePlural": "vitrines", "femininePlural": "vitrines" }
+        "forms": {
+          "masculine": "",
+          "feminine": "vitrine",
+          "masculinePlural": "",
+          "femininePlural": "vitrines"
+        }
       },
       {
         "word": "la cabine",
@@ -69,11 +115,22 @@
         "meaning": "the fitting room / the cabin / the booth",
         "notes": "'La cabine d'essayage' = the fitting room (full name). 'Les cabines sont à gauche' = the fitting rooms are on the left. Also used for 'cabine de plage' (beach hut) or 'cabine téléphonique' (phone booth).",
         "examples": [
-          ["Où sont les cabines d'essayage ?", "Where are the fitting rooms?"],
-          ["Il y a trois cabines disponibles.", "There are three fitting rooms available."]
+          [
+            "Où sont les cabines d'essayage ?",
+            "Where are the fitting rooms?"
+          ],
+          [
+            "Il y a trois cabines disponibles.",
+            "There are three fitting rooms available."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "cabine", "feminine": "cabine", "masculinePlural": "cabines", "femininePlural": "cabines" }
+        "forms": {
+          "masculine": "",
+          "feminine": "cabine",
+          "masculinePlural": "",
+          "femininePlural": "cabines"
+        }
       }
     ],
     "advanced": [
@@ -85,11 +142,22 @@
         "meaning": "the size (clothing) / the waist",
         "notes": "'Quelle est votre taille ?' = What is your size? Clothing sizes in France use European sizing (e.g. 38, 40, 42). Also means 'waist': 'tour de taille' = waist measurement.",
         "examples": [
-          ["Je fais quelle taille ?", "What size am I?"],
-          ["Vous avez cette robe en taille 40 ?", "Do you have this dress in size 40?"]
+          [
+            "Je fais quelle taille ?",
+            "What size am I?"
+          ],
+          [
+            "Vous avez cette robe en taille 40 ?",
+            "Do you have this dress in size 40?"
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "taille", "feminine": "taille", "masculinePlural": "tailles", "femininePlural": "tailles" }
+        "forms": {
+          "masculine": "",
+          "feminine": "taille",
+          "masculinePlural": "",
+          "femininePlural": "tailles"
+        }
       },
       {
         "word": "la jupe",
@@ -99,11 +167,22 @@
         "meaning": "the skirt",
         "notes": "'Une jupe longue' = a long skirt. 'Une jupe courte' = a short skirt. 'Une mini-jupe' = a mini-skirt. Often paired with 'un chemisier' (a blouse) or 'un pull' (a jumper).",
         "examples": [
-          ["Elle porte une belle jupe bleue.", "She is wearing a beautiful blue skirt."],
-          ["Je cherche une jupe noire.", "I am looking for a black skirt."]
+          [
+            "Elle porte une belle jupe bleue.",
+            "She is wearing a beautiful blue skirt."
+          ],
+          [
+            "Je cherche une jupe noire.",
+            "I am looking for a black skirt."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "jupe", "feminine": "jupe", "masculinePlural": "jupes", "femininePlural": "jupes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "jupe",
+          "masculinePlural": "",
+          "femininePlural": "jupes"
+        }
       },
       {
         "word": "essayer",
@@ -113,11 +192,24 @@
         "meaning": "to try on / to try",
         "notes": "Regular -er verb. 'Essayer' can mean to try something on (clothes) or to try/attempt something. 'Est-ce que je peux l'essayer ?' = Can I try it on? 'Essayer de + infinitive' = to try to do something.",
         "examples": [
-          ["Je peux essayer ce manteau ?", "Can I try on this coat?"],
-          ["Elle essaie la robe dans la cabine.", "She is trying on the dress in the fitting room."]
+          [
+            "Je peux essayer ce manteau ?",
+            "Can I try on this coat?"
+          ],
+          [
+            "Elle essaie la robe dans la cabine.",
+            "She is trying on the dress in the fitting room."
+          ]
         ],
         "special": "",
-        "forms": { "je": "j'essaie", "tu": "tu essaies", "il": "il/elle/on essaie", "nous": "nous essayons", "vous": "vous essayez", "ils": "ils/elles essaient" }
+        "forms": {
+          "je": "j'essaie",
+          "tu": "tu essaies",
+          "il": "il/elle/on essaie",
+          "nous": "nous essayons",
+          "vous": "vous essayez",
+          "ils": "ils/elles essaient"
+        }
       },
       {
         "word": "la vitrine",
@@ -127,11 +219,22 @@
         "meaning": "the shop window / the display window",
         "notes": "'Faire du lèche-vitrine' = to go window shopping (literally 'to lick the windows'). 'En vitrine' = in the window display. 'La vitrine est belle' = the window display is beautiful.",
         "examples": [
-          ["J'ai vu cette robe en vitrine.", "I saw this dress in the shop window."],
-          ["Nous faisons du lèche-vitrine.", "We are window shopping."]
+          [
+            "J'ai vu cette robe en vitrine.",
+            "I saw this dress in the shop window."
+          ],
+          [
+            "Nous faisons du lèche-vitrine.",
+            "We are window shopping."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "vitrine", "feminine": "vitrine", "masculinePlural": "vitrines", "femininePlural": "vitrines" }
+        "forms": {
+          "masculine": "",
+          "feminine": "vitrine",
+          "masculinePlural": "",
+          "femininePlural": "vitrines"
+        }
       },
       {
         "word": "la cabine",
@@ -141,11 +244,22 @@
         "meaning": "the fitting room / the cabin / the booth",
         "notes": "'La cabine d'essayage' = the fitting room (full name). 'Les cabines sont à gauche' = the fitting rooms are on the left. Also used for 'cabine de plage' (beach hut) or 'cabine téléphonique' (phone booth).",
         "examples": [
-          ["Où sont les cabines d'essayage ?", "Where are the fitting rooms?"],
-          ["Il y a trois cabines disponibles.", "There are three fitting rooms available."]
+          [
+            "Où sont les cabines d'essayage ?",
+            "Where are the fitting rooms?"
+          ],
+          [
+            "Il y a trois cabines disponibles.",
+            "There are three fitting rooms available."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "cabine", "feminine": "cabine", "masculinePlural": "cabines", "femininePlural": "cabines" }
+        "forms": {
+          "masculine": "",
+          "feminine": "cabine",
+          "masculinePlural": "",
+          "femininePlural": "cabines"
+        }
       },
       {
         "word": "l'écharpe",
@@ -155,11 +269,22 @@
         "meaning": "the scarf",
         "notes": "'Porter une écharpe' = to wear a scarf. 'Une écharpe en laine' = a woollen scarf. Distinct from 'le foulard' (a lighter, decorative scarf). Common winter accessory in France.",
         "examples": [
-          ["Il fait froid — je mets mon écharpe.", "It's cold — I'm putting on my scarf."],
-          ["Elle a une belle écharpe rouge.", "She has a beautiful red scarf."]
+          [
+            "Il fait froid — je mets mon écharpe.",
+            "It's cold — I'm putting on my scarf."
+          ],
+          [
+            "Elle a une belle écharpe rouge.",
+            "She has a beautiful red scarf."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "écharpe", "feminine": "écharpe", "masculinePlural": "écharpes", "femininePlural": "écharpes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "écharpe",
+          "masculinePlural": "",
+          "femininePlural": "écharpes"
+        }
       },
       {
         "word": "la ceinture",
@@ -169,40 +294,87 @@
         "meaning": "the belt",
         "notes": "'Une ceinture en cuir' = a leather belt. 'Serrer la ceinture' = to tighten one's belt (idiom for living frugally). 'Ceinture de sécurité' = seatbelt. Used as an accessory with trousers or a skirt.",
         "examples": [
-          ["Cette jupe est trop grande — j'ai besoin d'une ceinture.", "This skirt is too big — I need a belt."],
-          ["La ceinture est en cuir marron.", "The belt is in brown leather."]
+          [
+            "Cette jupe est trop grande — j'ai besoin d'une ceinture.",
+            "This skirt is too big — I need a belt."
+          ],
+          [
+            "La ceinture est en cuir marron.",
+            "The belt is in brown leather."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "ceinture", "feminine": "ceinture", "masculinePlural": "ceintures", "femininePlural": "ceintures" }
+        "forms": {
+          "masculine": "",
+          "feminine": "ceinture",
+          "masculinePlural": "",
+          "femininePlural": "ceintures"
+        }
       }
     ]
   },
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonjour ! Je cherche une jupe — j'en ai vu une en vitrine."],
-        ["B", "Bien sûr ! Quelle taille faites-vous ?"],
-        ["A", "Je fais du 38. Est-ce que je peux l'essayer ?"],
-        ["B", "Bien sûr. Les cabines sont à droite. Le magasin ferme à dix-huit heures."],
-        ["A", "À dix-huit heures ? Il est quelle heure maintenant ?"],
-        ["B", "Il est seize heures et demie. Vous avez le temps !"],
-        ["A", "Super. La jupe est aussi en noir ?"],
-        ["B", "Oui, nous l'avons en noir et en gris."]
+        [
+          "A",
+          "Bonjour ! Je cherche une jupe — j'en ai vu une en vitrine."
+        ],
+        [
+          "B",
+          "Bien sûr ! Quelle taille faites-vous ?"
+        ],
+        [
+          "A",
+          "Je fais du 38. Est-ce que je peux l'essayer ?"
+        ],
+        [
+          "B",
+          "Bien sûr. Les cabines sont à droite. Le magasin ferme à dix-huit heures."
+        ],
+        [
+          "A",
+          "À dix-huit heures ? Il est quelle heure maintenant ?"
+        ],
+        [
+          "B",
+          "Il est seize heures et demie. Vous avez le temps !"
+        ],
+        [
+          "A",
+          "Super. La jupe est aussi en noir ?"
+        ],
+        [
+          "B",
+          "Oui, nous l'avons en noir et en gris."
+        ]
       ],
       "questions": [
         {
           "question": "Qu'est-ce que la cliente cherche ?",
-          "options": ["Une robe", "Une jupe", "Un manteau"],
+          "options": [
+            "Une robe",
+            "Une jupe",
+            "Un manteau"
+          ],
           "correctAnswer": "Une jupe"
         },
         {
           "question": "À quelle heure est-ce que le magasin ferme ?",
-          "options": ["À 17h00", "À 18h00", "À 18h30"],
+          "options": [
+            "À 17h00",
+            "À 18h00",
+            "À 18h30"
+          ],
           "correctAnswer": "À 18h00"
         },
         {
           "question": "Quelle heure est-il pendant la conversation ?",
-          "options": ["16h00", "16h30", "17h00"],
+          "options": [
+            "16h00",
+            "16h30",
+            "17h00"
+          ],
           "correctAnswer": "16h30"
         }
       ],
@@ -210,34 +382,78 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Bonjour ! J'ai vu cette écharpe en vitrine. Elle est en laine ?"],
-        ["B", "Oui, c'est une écharpe en laine mélangée. Nous l'avons aussi en cachemire."],
-        ["A", "Et la jupe à côté — elle est en quelle taille ?"],
-        ["B", "Elle va du 36 au 44. Quelle est votre taille ?"],
-        ["A", "Je fais du 40. Je peux essayer la jupe et l'écharpe ?"],
-        ["B", "Bien sûr ! Les cabines sont au fond à gauche. Mais attention — nous fermons à dix-sept heures et quart aujourd'hui."],
-        ["A", "Il est déjà seize heures moins le quart ! Je me dépêche."],
-        ["B", "Prenez votre temps. Nous ouvrons demain à neuf heures et demie si vous voulez revenir."]
+        [
+          "A",
+          "Bonjour ! J'ai vu cette écharpe en vitrine. Elle est en laine ?"
+        ],
+        [
+          "B",
+          "Oui, c'est une écharpe en laine mélangée. Nous l'avons aussi en cachemire."
+        ],
+        [
+          "A",
+          "Et la jupe à côté — elle est en quelle taille ?"
+        ],
+        [
+          "B",
+          "Elle va du 36 au 44. Quelle est votre taille ?"
+        ],
+        [
+          "A",
+          "Je fais du 40. Je peux essayer la jupe et l'écharpe ?"
+        ],
+        [
+          "B",
+          "Bien sûr ! Les cabines sont au fond à gauche. Mais attention — nous fermons à dix-sept heures et quart aujourd'hui."
+        ],
+        [
+          "A",
+          "Il est déjà seize heures moins le quart ! Je me dépêche."
+        ],
+        [
+          "B",
+          "Prenez votre temps. Nous ouvrons demain à neuf heures et demie si vous voulez revenir."
+        ]
       ],
       "questions": [
         {
           "question": "En quelle matière est l'écharpe ?",
-          "options": ["Pur cachemire", "Laine mélangée", "Soie", "Coton"],
+          "options": [
+            "Pur cachemire",
+            "Laine mélangée",
+            "Soie",
+            "Coton"
+          ],
           "correctAnswer": "Laine mélangée"
         },
         {
           "question": "À quelle heure est-ce que le magasin ferme aujourd'hui ?",
-          "options": ["17h00", "17h15", "17h30", "18h00"],
+          "options": [
+            "17h00",
+            "17h15",
+            "17h30",
+            "18h00"
+          ],
           "correctAnswer": "17h15"
         },
         {
           "question": "Quelle heure est-il pendant la conversation ?",
-          "options": ["15h45", "16h00", "15h30", "16h15"],
+          "options": [
+            "15h45",
+            "16h00",
+            "15h30",
+            "16h15"
+          ],
           "correctAnswer": "15h45"
         },
         {
           "question": "À quelle heure est-ce que le magasin ouvre le lendemain ?",
-          "options": ["9h00", "9h15", "9h30", "10h00"],
+          "options": [
+            "9h00",
+            "9h15",
+            "9h30",
+            "10h00"
+          ],
           "correctAnswer": "9h30"
         }
       ],
@@ -270,7 +486,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'It is 3:30'?",
-          "options": ["Il est trois heures et quart.", "Il est trois heures et demie.", "Il est trois heures moins le quart."],
+          "options": [
+            "Il est trois heures et quart.",
+            "Il est trois heures et demie.",
+            "Il est trois heures moins le quart."
+          ],
           "correctAnswer": "Il est trois heures et demie.",
           "explanation": "'Et demie' = half past. Il est trois heures et demie = 3:30."
         },
@@ -283,7 +503,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'It is 6:45'?",
-          "options": ["Il est six heures et demie.", "Il est sept heures moins le quart.", "Il est six heures moins le quart."],
+          "options": [
+            "Il est six heures et demie.",
+            "Il est sept heures moins le quart.",
+            "Il est six heures moins le quart."
+          ],
           "correctAnswer": "Il est sept heures moins le quart.",
           "explanation": "6:45 = 7:00 minus 15 minutes. Il est sept heures moins le quart."
         },
@@ -296,7 +520,11 @@
         {
           "type": "multipleChoice",
           "question": "What does 'Il est midi et demie' mean?",
-          "options": ["It is 11:30", "It is 12:30", "It is 12:15"],
+          "options": [
+            "It is 11:30",
+            "It is 12:30",
+            "It is 12:15"
+          ],
           "correctAnswer": "It is 12:30",
           "explanation": "'Midi' = noon (12:00). 'Midi et demie' = 12:30."
         }
@@ -323,7 +551,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 14:50 in spoken French (12-hour)?",
-          "options": ["Il est deux heures cinquante de l'après-midi.", "Il est trois heures moins dix de l'après-midi.", "Il est quatorze heures cinquante."],
+          "options": [
+            "Il est deux heures cinquante de l'après-midi.",
+            "Il est trois heures moins dix de l'après-midi.",
+            "Il est quatorze heures cinquante."
+          ],
           "correctAnswer": "Il est trois heures moins dix de l'après-midi.",
           "explanation": "14:50 = 3:00 PM minus 10 minutes = trois heures moins dix de l'après-midi."
         },
@@ -336,7 +568,11 @@
         {
           "type": "multipleChoice",
           "question": "What does 'Il est neuf heures du matin' mean?",
-          "options": ["It is 9:00 PM", "It is 9:00 AM", "It is 21:00"],
+          "options": [
+            "It is 9:00 PM",
+            "It is 9:00 AM",
+            "It is 21:00"
+          ],
           "correctAnswer": "It is 9:00 AM",
           "explanation": "'Du matin' = in the morning. Il est neuf heures du matin = 9:00 AM."
         },
@@ -349,7 +585,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'around noon' in French?",
-          "options": ["À midi précis", "Vers midi", "Dès midi"],
+          "options": [
+            "À midi précis",
+            "Vers midi",
+            "Dès midi"
+          ],
           "correctAnswer": "Vers midi",
           "explanation": "'Vers' = around / approximately. Vers midi = around noon."
         },
@@ -362,7 +602,11 @@
         {
           "type": "multipleChoice",
           "question": "Which is the formal way to ask the time?",
-          "options": ["Tu as l'heure ?", "Il est quelle heure ?", "Quelle heure est-il ?"],
+          "options": [
+            "Tu as l'heure ?",
+            "Il est quelle heure ?",
+            "Quelle heure est-il ?"
+          ],
           "correctAnswer": "Quelle heure est-il ?",
           "explanation": "'Quelle heure est-il ?' (inversion) is the formal/written form. 'Il est quelle heure ?' is informal."
         },
@@ -380,7 +624,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la vitrine' mean?",
-        "options": ["The fitting room", "The shop window", "The checkout"],
+        "options": [
+          "The fitting room",
+          "The shop window",
+          "The checkout"
+        ],
         "correctAnswer": "The shop window",
         "explanation": "'La vitrine' is the shop window or display window. 'Faire du lèche-vitrine' = window shopping.",
         "targetWord": "la vitrine"
@@ -388,7 +636,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'It is 8:30'?",
-        "options": ["Il est huit heures et quart.", "Il est huit heures moins le quart.", "Il est huit heures et demie."],
+        "options": [
+          "Il est huit heures et quart.",
+          "Il est huit heures moins le quart.",
+          "Il est huit heures et demie."
+        ],
         "correctAnswer": "Il est huit heures et demie.",
         "explanation": "'Et demie' = half past. Il est huit heures et demie = 8:30.",
         "targetWord": "la taille"
@@ -396,7 +648,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'essayer' mean in a clothes shop?",
-        "options": ["To buy", "To try on", "To return"],
+        "options": [
+          "To buy",
+          "To try on",
+          "To return"
+        ],
         "correctAnswer": "To try on",
         "explanation": "'Essayer' means to try on (clothes). 'Je peux essayer ?' = Can I try it on?",
         "targetWord": "essayer"
@@ -411,7 +667,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la cabine d'essayage' mean?",
-        "options": ["The checkout desk", "The fitting room", "The shop floor"],
+        "options": [
+          "The checkout desk",
+          "The fitting room",
+          "The shop floor"
+        ],
         "correctAnswer": "The fitting room",
         "explanation": "'La cabine d'essayage' = the fitting room. 'La cabine' alone can also refer to it.",
         "targetWord": "la cabine"
@@ -421,7 +681,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la ceinture' mean?",
-        "options": ["The collar", "The belt", "The hem", "The buckle"],
+        "options": [
+          "The collar",
+          "The belt",
+          "The hem",
+          "The buckle"
+        ],
         "correctAnswer": "The belt",
         "explanation": "'La ceinture' = the belt. 'Serrer la ceinture' = to tighten one's belt (idiom).",
         "targetWord": "la ceinture"
@@ -436,7 +701,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 16:50 in spoken French (12-hour)?",
-        "options": ["Il est cinq heures moins dix de l'après-midi.", "Il est quatre heures cinquante de l'après-midi.", "Il est seize heures moins dix."],
+        "options": [
+          "Il est cinq heures moins dix de l'après-midi.",
+          "Il est quatre heures cinquante de l'après-midi.",
+          "Il est seize heures moins dix."
+        ],
         "correctAnswer": "Il est cinq heures moins dix de l'après-midi.",
         "explanation": "16:50 = 17:00 – 10 = cinq heures moins dix de l'après-midi.",
         "targetWord": "essayer"
@@ -444,7 +713,12 @@
       {
         "type": "multipleChoice",
         "question": "What is 'l'écharpe'?",
-        "options": ["The glove", "The hat", "The scarf", "The jacket"],
+        "options": [
+          "The glove",
+          "The hat",
+          "The scarf",
+          "The jacket"
+        ],
         "correctAnswer": "The scarf",
         "explanation": "'L'écharpe' = the scarf (typically woollen). Distinct from 'le foulard' (light decorative scarf).",
         "targetWord": "l'écharpe"
@@ -459,7 +733,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'faire du lèche-vitrine' mean?",
-        "options": ["To clean the windows", "To go window shopping", "To arrange the display", "To pay at the checkout"],
+        "options": [
+          "To clean the windows",
+          "To go window shopping",
+          "To arrange the display",
+          "To pay at the checkout"
+        ],
         "correctAnswer": "To go window shopping",
         "explanation": "'Faire du lèche-vitrine' literally means 'to lick the windows' — it means going window shopping.",
         "targetWord": "la vitrine"

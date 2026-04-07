@@ -12,9 +12,17 @@
         "pronunciation": "lay-kol",
         "meaning": "the school",
         "notes": "'Aller à l'école' = to go to school. 'L'école primaire' = primary school, 'l'école maternelle' = nursery school. In France, school is mandatory from age 3.",
-        "forms": { "masculine": "école", "feminine": "école", "masculinePlural": "écoles", "femininePlural": "écoles" },
+        "forms": {
+          "masculine": "",
+          "feminine": "école",
+          "masculinePlural": "",
+          "femininePlural": "écoles"
+        },
         "examples": [
-          ["Les enfants vont à l'école le matin.", "The children go to school in the morning."],
+          [
+            "Les enfants vont à l'école le matin.",
+            "The children go to school in the morning."
+          ],
           [
             "L'école est fermée le mercredi après-midi.",
             "The school is closed on Wednesday afternoon."
@@ -29,10 +37,21 @@
         "pronunciation": "luh ka-yay",
         "meaning": "the notebook / exercise book",
         "notes": "A standard school supply in France. 'Un cahier de brouillon' = a rough/draft notebook. 'Un cahier de textes' = a homework diary.",
-        "forms": { "masculine": "cahier", "feminine": "cahier", "masculinePlural": "cahiers", "femininePlural": "cahiers" },
+        "forms": {
+          "masculine": "cahier",
+          "feminine": "",
+          "masculinePlural": "cahiers",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Ouvrez votre cahier à la page dix.", "Open your notebook to page ten."],
-          ["J'ai écrit la leçon dans mon cahier.", "I wrote the lesson in my notebook."]
+          [
+            "Ouvrez votre cahier à la page dix.",
+            "Open your notebook to page ten."
+          ],
+          [
+            "J'ai écrit la leçon dans mon cahier.",
+            "I wrote the lesson in my notebook."
+          ]
         ],
         "special": ""
       },
@@ -43,10 +62,21 @@
         "pronunciation": "luh stee-lo",
         "meaning": "the pen",
         "notes": "Short for 'le stylo à bille' (ballpoint pen). 'Un stylo-plume' = a fountain pen. 'Un crayon' = a pencil (different from a pen).",
-        "forms": { "masculine": "stylo", "feminine": "stylo", "masculinePlural": "stylos", "femininePlural": "stylos" },
+        "forms": {
+          "masculine": "stylo",
+          "feminine": "",
+          "masculinePlural": "stylos",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Tu as un stylo, s'il te plaît ?", "Do you have a pen, please?"],
-          ["J'écris avec un stylo bleu.", "I write with a blue pen."]
+          [
+            "Tu as un stylo, s'il te plaît ?",
+            "Do you have a pen, please?"
+          ],
+          [
+            "J'écris avec un stylo bleu.",
+            "I write with a blue pen."
+          ]
         ],
         "special": ""
       },
@@ -57,10 +87,23 @@
         "pronunciation": "a-pron-dr",
         "meaning": "to learn / to teach",
         "notes": "Conjugated like 'prendre'. Can mean both 'to learn' (apprendre le français) and 'to teach' (apprendre quelque chose à quelqu'un). Past participle: appris.",
-        "forms": { "je": "j'apprends", "tu": "tu apprends", "il": "il/elle/on apprend", "nous": "nous apprenons", "vous": "vous apprenez", "ils": "ils/elles apprennent" },
+        "forms": {
+          "je": "j'apprends",
+          "tu": "tu apprends",
+          "il": "il/elle/on apprend",
+          "nous": "nous apprenons",
+          "vous": "vous apprenez",
+          "ils": "ils/elles apprennent"
+        },
         "examples": [
-          ["J'apprends le français à l'école.", "I learn French at school."],
-          ["On a appris beaucoup de choses aujourd'hui.", "We learned a lot of things today."]
+          [
+            "J'apprends le français à l'école.",
+            "I learn French at school."
+          ],
+          [
+            "On a appris beaucoup de choses aujourd'hui.",
+            "We learned a lot of things today."
+          ]
         ],
         "special": ""
       },
@@ -71,10 +114,21 @@
         "pronunciation": "luh pro-feh-suhr",
         "meaning": "the teacher / professor",
         "notes": "Often shortened to 'le/la prof' in informal speech. Traditionally masculine, but 'la professeure' is increasingly used for women. Used for secondary school and university teachers.",
-        "forms": { "masculine": "professeur", "feminine": "professeure", "masculinePlural": "professeurs", "femininePlural": "professeures" },
+        "forms": {
+          "masculine": "professeur",
+          "feminine": "",
+          "masculinePlural": "professeurs",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Le professeur explique la leçon.", "The teacher explains the lesson."],
-          ["Notre prof de maths est très sympa.", "Our maths teacher is very nice."]
+          [
+            "Le professeur explique la leçon.",
+            "The teacher explains the lesson."
+          ],
+          [
+            "Notre prof de maths est très sympa.",
+            "Our maths teacher is very nice."
+          ]
         ],
         "special": ""
       }
@@ -87,9 +141,17 @@
         "pronunciation": "lay-kol",
         "meaning": "the school",
         "notes": "'Aller à l'école' = to go to school. 'L'école primaire' = primary school, 'l'école maternelle' = nursery school. In France, school is mandatory from age 3.",
-        "forms": { "masculine": "école", "feminine": "école", "masculinePlural": "écoles", "femininePlural": "écoles" },
+        "forms": {
+          "masculine": "",
+          "feminine": "école",
+          "masculinePlural": "",
+          "femininePlural": "écoles"
+        },
         "examples": [
-          ["Les enfants vont à l'école le matin.", "The children go to school in the morning."],
+          [
+            "Les enfants vont à l'école le matin.",
+            "The children go to school in the morning."
+          ],
           [
             "L'école est fermée le mercredi après-midi.",
             "The school is closed on Wednesday afternoon."
@@ -104,10 +166,21 @@
         "pronunciation": "luh ka-yay",
         "meaning": "the notebook / exercise book",
         "notes": "A standard school supply in France. 'Un cahier de brouillon' = a rough/draft notebook. 'Un cahier de textes' = a homework diary.",
-        "forms": { "masculine": "cahier", "feminine": "cahier", "masculinePlural": "cahiers", "femininePlural": "cahiers" },
+        "forms": {
+          "masculine": "cahier",
+          "feminine": "",
+          "masculinePlural": "cahiers",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Ouvrez votre cahier à la page dix.", "Open your notebook to page ten."],
-          ["J'ai écrit la leçon dans mon cahier.", "I wrote the lesson in my notebook."]
+          [
+            "Ouvrez votre cahier à la page dix.",
+            "Open your notebook to page ten."
+          ],
+          [
+            "J'ai écrit la leçon dans mon cahier.",
+            "I wrote the lesson in my notebook."
+          ]
         ],
         "special": ""
       },
@@ -118,10 +191,21 @@
         "pronunciation": "luh stee-lo",
         "meaning": "the pen",
         "notes": "Short for 'le stylo à bille' (ballpoint pen). 'Un stylo-plume' = a fountain pen. 'Un crayon' = a pencil (different from a pen).",
-        "forms": { "masculine": "stylo", "feminine": "stylo", "masculinePlural": "stylos", "femininePlural": "stylos" },
+        "forms": {
+          "masculine": "stylo",
+          "feminine": "",
+          "masculinePlural": "stylos",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Tu as un stylo, s'il te plaît ?", "Do you have a pen, please?"],
-          ["J'écris avec un stylo bleu.", "I write with a blue pen."]
+          [
+            "Tu as un stylo, s'il te plaît ?",
+            "Do you have a pen, please?"
+          ],
+          [
+            "J'écris avec un stylo bleu.",
+            "I write with a blue pen."
+          ]
         ],
         "special": ""
       },
@@ -132,10 +216,23 @@
         "pronunciation": "a-pron-dr",
         "meaning": "to learn / to teach",
         "notes": "Conjugated like 'prendre'. Can mean both 'to learn' (apprendre le français) and 'to teach' (apprendre quelque chose à quelqu'un). Past participle: appris.",
-        "forms": { "je": "j'apprends", "tu": "tu apprends", "il": "il/elle/on apprend", "nous": "nous apprenons", "vous": "vous apprenez", "ils": "ils/elles apprennent" },
+        "forms": {
+          "je": "j'apprends",
+          "tu": "tu apprends",
+          "il": "il/elle/on apprend",
+          "nous": "nous apprenons",
+          "vous": "vous apprenez",
+          "ils": "ils/elles apprennent"
+        },
         "examples": [
-          ["J'apprends le français à l'école.", "I learn French at school."],
-          ["On a appris beaucoup de choses aujourd'hui.", "We learned a lot of things today."]
+          [
+            "J'apprends le français à l'école.",
+            "I learn French at school."
+          ],
+          [
+            "On a appris beaucoup de choses aujourd'hui.",
+            "We learned a lot of things today."
+          ]
         ],
         "special": ""
       },
@@ -146,10 +243,21 @@
         "pronunciation": "luh pro-feh-suhr",
         "meaning": "the teacher / professor",
         "notes": "Often shortened to 'le/la prof' in informal speech. Traditionally masculine, but 'la professeure' is increasingly used for women. Used for secondary school and university teachers.",
-        "forms": { "masculine": "professeur", "feminine": "professeure", "masculinePlural": "professeurs", "femininePlural": "professeures" },
+        "forms": {
+          "masculine": "professeur",
+          "feminine": "",
+          "masculinePlural": "professeurs",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Le professeur explique la leçon.", "The teacher explains the lesson."],
-          ["Notre prof de maths est très sympa.", "Our maths teacher is very nice."]
+          [
+            "Le professeur explique la leçon.",
+            "The teacher explains the lesson."
+          ],
+          [
+            "Notre prof de maths est très sympa.",
+            "Our maths teacher is very nice."
+          ]
         ],
         "special": ""
       },
@@ -160,9 +268,17 @@
         "pronunciation": "la bee-blee-o-tek",
         "meaning": "the library",
         "notes": "False friend alert! 'La bibliothèque' = the library, NOT the bookshop. 'La librairie' = the bookshop. 'Aller à la bibliothèque' = to go to the library.",
-        "forms": { "masculine": "bibliothèque", "feminine": "bibliothèque", "masculinePlural": "bibliothèques", "femininePlural": "bibliothèques" },
+        "forms": {
+          "masculine": "",
+          "feminine": "bibliothèque",
+          "masculinePlural": "",
+          "femininePlural": "bibliothèques"
+        },
         "examples": [
-          ["Je vais à la bibliothèque pour étudier.", "I go to the library to study."],
+          [
+            "Je vais à la bibliothèque pour étudier.",
+            "I go to the library to study."
+          ],
           [
             "La bibliothèque a beaucoup de livres en français.",
             "The library has many books in French."
@@ -177,10 +293,21 @@
         "pronunciation": "leg-za-man",
         "meaning": "the exam / test",
         "notes": "'Passer un examen' = to TAKE an exam (not to pass it!). 'Réussir un examen' = to pass an exam. 'Rater un examen' = to fail an exam.",
-        "forms": { "masculine": "examen", "feminine": "examen", "masculinePlural": "examens", "femininePlural": "examens" },
+        "forms": {
+          "masculine": "examen",
+          "feminine": "",
+          "masculinePlural": "examens",
+          "femininePlural": ""
+        },
         "examples": [
-          ["J'ai un examen de maths demain.", "I have a maths exam tomorrow."],
-          ["Il a réussi son examen !", "He passed his exam!"]
+          [
+            "J'ai un examen de maths demain.",
+            "I have a maths exam tomorrow."
+          ],
+          [
+            "Il a réussi son examen !",
+            "He passed his exam!"
+          ]
         ],
         "special": ""
       }
@@ -189,29 +316,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Salut ! Tu as fait quoi à l'école aujourd'hui ?"],
-        ["B", "J'ai étudié les maths ce matin. Et toi ?"],
-        ["A", "Moi, j'ai appris des nouveaux mots en français."],
-        ["B", "Super ! Tu as écrit dans ton cahier ?"],
-        ["A", "Oui, j'ai écrit tous les mots avec un stylo rouge."],
-        ["B", "Le professeur était content ?"],
-        ["A", "Oui, il a dit que j'ai bien travaillé !"],
-        ["B", "Génial ! On a bien travaillé tous les deux aujourd'hui."]
+        [
+          "A",
+          "Salut ! Tu as fait quoi à l'école aujourd'hui ?"
+        ],
+        [
+          "B",
+          "J'ai étudié les maths ce matin. Et toi ?"
+        ],
+        [
+          "A",
+          "Moi, j'ai appris des nouveaux mots en français."
+        ],
+        [
+          "B",
+          "Super ! Tu as écrit dans ton cahier ?"
+        ],
+        [
+          "A",
+          "Oui, j'ai écrit tous les mots avec un stylo rouge."
+        ],
+        [
+          "B",
+          "Le professeur était content ?"
+        ],
+        [
+          "A",
+          "Oui, il a dit que j'ai bien travaillé !"
+        ],
+        [
+          "B",
+          "Génial ! On a bien travaillé tous les deux aujourd'hui."
+        ]
       ],
       "questions": [
         {
           "question": "Qu'est-ce que le locuteur B a étudié ce matin ?",
-          "options": ["Le français", "Les maths", "Les sciences"],
+          "options": [
+            "Le français",
+            "Les maths",
+            "Les sciences"
+          ],
           "correctAnswer": "Les maths"
         },
         {
           "question": "Qu'est-ce que le locuteur A a appris à l'école ?",
-          "options": ["Des formules de maths", "Des mots nouveaux en français", "Des chansons"],
+          "options": [
+            "Des formules de maths",
+            "Des mots nouveaux en français",
+            "Des chansons"
+          ],
           "correctAnswer": "Des mots nouveaux en français"
         },
         {
           "question": "Qu'est-ce que le professeur a dit sur le travail du locuteur A ?",
-          "options": ["C'était trop court", "Il a bien travaillé", "Il y avait des erreurs"],
+          "options": [
+            "C'était trop court",
+            "Il a bien travaillé",
+            "Il y avait des erreurs"
+          ],
           "correctAnswer": "Il a bien travaillé"
         }
       ],
@@ -219,34 +382,76 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Quelle journée ! J'ai eu un examen de maths ce matin."],
-        ["B", "Ah bon ? C'était difficile ?"],
+        [
+          "A",
+          "Quelle journée ! J'ai eu un examen de maths ce matin."
+        ],
+        [
+          "B",
+          "Ah bon ? C'était difficile ?"
+        ],
         [
           "A",
           "Assez difficile, oui. J'ai révisé hier soir à la bibliothèque, mais il y avait des questions surprises."
         ],
-        ["B", "Moi, j'ai passé l'après-midi à lire un roman pour le cours de littérature."],
-        ["A", "Tu as lu tout le livre ?"],
-        ["B", "Non, j'ai lu seulement cent pages. J'ai pris des notes dans mon cahier."],
-        ["A", "Bonne idée ! Le professeur a demandé un résumé aussi ?"],
-        ["B", "Oui, on a écrit un résumé en classe. J'ai appris beaucoup de vocabulaire nouveau."],
-        ["A", "Au moins, on a bien travaillé aujourd'hui !"],
-        ["B", "C'est vrai. Demain, j'ai un examen d'histoire — il faut que je révise ce soir."]
+        [
+          "B",
+          "Moi, j'ai passé l'après-midi à lire un roman pour le cours de littérature."
+        ],
+        [
+          "A",
+          "Tu as lu tout le livre ?"
+        ],
+        [
+          "B",
+          "Non, j'ai lu seulement cent pages. J'ai pris des notes dans mon cahier."
+        ],
+        [
+          "A",
+          "Bonne idée ! Le professeur a demandé un résumé aussi ?"
+        ],
+        [
+          "B",
+          "Oui, on a écrit un résumé en classe. J'ai appris beaucoup de vocabulaire nouveau."
+        ],
+        [
+          "A",
+          "Au moins, on a bien travaillé aujourd'hui !"
+        ],
+        [
+          "B",
+          "C'est vrai. Demain, j'ai un examen d'histoire — il faut que je révise ce soir."
+        ]
       ],
       "questions": [
         {
           "question": "Où est-ce que le locuteur A a révisé la veille ?",
-          "options": ["À la maison", "À la bibliothèque", "Dans un café", "À l'école"],
+          "options": [
+            "À la maison",
+            "À la bibliothèque",
+            "Dans un café",
+            "À l'école"
+          ],
           "correctAnswer": "À la bibliothèque"
         },
         {
           "question": "Combien de pages le locuteur B a-t-il lues ?",
-          "options": ["Cinquante pages", "Quatre-vingts pages", "Cent pages", "Tout le livre"],
+          "options": [
+            "Cinquante pages",
+            "Quatre-vingts pages",
+            "Cent pages",
+            "Tout le livre"
+          ],
           "correctAnswer": "Cent pages"
         },
         {
           "question": "Quel examen le locuteur B a-t-il demain ?",
-          "options": ["Les maths", "La littérature", "L'histoire", "Le français"],
+          "options": [
+            "Les maths",
+            "La littérature",
+            "L'histoire",
+            "Le français"
+          ],
           "correctAnswer": "L'histoire"
         }
       ],
@@ -285,7 +490,11 @@
         {
           "type": "multipleChoice",
           "question": "What is the past participle of 'manger'?",
-          "options": ["mangé", "mangi", "mangu"],
+          "options": [
+            "mangé",
+            "mangi",
+            "mangu"
+          ],
           "correctAnswer": "mangé",
           "explanation": "-ER verbs form their past participle with -é: manger → mangé."
         },
@@ -298,7 +507,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'We studied' in French?",
-          "options": ["Nous avons étudié", "Nous avons étudir", "Nous sommes étudié"],
+          "options": [
+            "Nous avons étudié",
+            "Nous avons étudir",
+            "Nous sommes étudié"
+          ],
           "correctAnswer": "Nous avons étudié",
           "explanation": "Étudier is an -ER verb: past participle = étudié. With avoir: nous avons étudié."
         },
@@ -337,7 +550,12 @@
         {
           "type": "multipleChoice",
           "question": "What is the past participle of 'prendre'?",
-          "options": ["prendu", "pris", "prenu", "prit"],
+          "options": [
+            "prendu",
+            "pris",
+            "prenu",
+            "prit"
+          ],
           "correctAnswer": "pris",
           "explanation": "'Prendre' → 'pris'. All compounds follow: apprendre → appris, comprendre → compris."
         },
@@ -386,7 +604,12 @@
         {
           "type": "multipleChoice",
           "question": "What does 'il y a deux jours' mean?",
-          "options": ["In two days", "Two days ago", "For two days", "Every two days"],
+          "options": [
+            "In two days",
+            "Two days ago",
+            "For two days",
+            "Every two days"
+          ],
           "correctAnswer": "Two days ago",
           "explanation": "'Il y a' + time expression = ago. 'Il y a deux jours' = two days ago."
         }
@@ -398,7 +621,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le cahier' mean?",
-        "options": ["The pen", "The notebook", "The book"],
+        "options": [
+          "The pen",
+          "The notebook",
+          "The book"
+        ],
         "correctAnswer": "The notebook",
         "explanation": "'Le cahier' is a notebook or exercise book. 'Le stylo' is a pen.",
         "targetWord": "le cahier"
@@ -413,7 +640,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'the teacher' in French?",
-        "options": ["le cahier", "le professeur", "le stylo"],
+        "options": [
+          "le cahier",
+          "le professeur",
+          "le stylo"
+        ],
         "correctAnswer": "le professeur",
         "explanation": "'Le professeur' (often shortened to 'le/la prof') is the teacher.",
         "targetWord": "le professeur"
@@ -428,7 +659,11 @@
       {
         "type": "multipleChoice",
         "question": "What is the past participle of 'finir'?",
-        "options": ["finé", "fini", "finu"],
+        "options": [
+          "finé",
+          "fini",
+          "finu"
+        ],
         "correctAnswer": "fini",
         "explanation": "-IR verbs form their past participle with -i: finir → fini.",
         "targetWord": "le stylo"
@@ -438,7 +673,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la bibliothèque' mean?",
-        "options": ["The bookshop", "The library", "The classroom", "The office"],
+        "options": [
+          "The bookshop",
+          "The library",
+          "The classroom",
+          "The office"
+        ],
         "correctAnswer": "The library",
         "explanation": "'La bibliothèque' is a library. A bookshop is 'la librairie' — a common false friend!",
         "targetWord": "la bibliothèque"
@@ -453,7 +693,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'l'examen' mean?",
-        "options": ["The exercise", "The example", "The exam", "The explanation"],
+        "options": [
+          "The exercise",
+          "The example",
+          "The exam",
+          "The explanation"
+        ],
         "correctAnswer": "The exam",
         "explanation": "'L'examen' means the exam or test. 'Passer un examen' = to take an exam (not to pass it!).",
         "targetWord": "l'examen"

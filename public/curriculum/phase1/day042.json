@@ -23,7 +23,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "ville", "feminine": "ville", "masculinePlural": "villes", "femininePlural": "villes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "ville",
+          "masculinePlural": "",
+          "femininePlural": "villes"
+        }
       },
       {
         "word": "le magasin",
@@ -43,7 +48,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "magasin", "feminine": "magasin", "masculinePlural": "magasins", "femininePlural": "magasins" }
+        "forms": {
+          "masculine": "magasin",
+          "feminine": "",
+          "masculinePlural": "magasins",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'église",
@@ -63,7 +73,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "église", "feminine": "église", "masculinePlural": "églises", "femininePlural": "églises" }
+        "forms": {
+          "masculine": "",
+          "feminine": "église",
+          "masculinePlural": "",
+          "femininePlural": "églises"
+        }
       },
       {
         "word": "la fontaine",
@@ -83,7 +98,12 @@
           ]
         ],
         "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace.",
-        "forms": { "masculine": "fontaine", "feminine": "fontaine", "masculinePlural": "fontaines", "femininePlural": "fontaines" }
+        "forms": {
+          "masculine": "",
+          "feminine": "fontaine",
+          "masculinePlural": "",
+          "femininePlural": "fontaines"
+        }
       },
       {
         "word": "le jardin",
@@ -103,7 +123,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "jardin", "feminine": "jardin", "masculinePlural": "jardins", "femininePlural": "jardins" }
+        "forms": {
+          "masculine": "jardin",
+          "feminine": "",
+          "masculinePlural": "jardins",
+          "femininePlural": ""
+        }
       }
     ],
     "advanced": [
@@ -125,7 +150,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "ville", "feminine": "ville", "masculinePlural": "villes", "femininePlural": "villes" }
+        "forms": {
+          "masculine": "",
+          "feminine": "ville",
+          "masculinePlural": "",
+          "femininePlural": "villes"
+        }
       },
       {
         "word": "le magasin",
@@ -145,7 +175,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "magasin", "feminine": "magasin", "masculinePlural": "magasins", "femininePlural": "magasins" }
+        "forms": {
+          "masculine": "magasin",
+          "feminine": "",
+          "masculinePlural": "magasins",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'église",
@@ -165,7 +200,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "église", "feminine": "église", "masculinePlural": "églises", "femininePlural": "églises" }
+        "forms": {
+          "masculine": "",
+          "feminine": "église",
+          "masculinePlural": "",
+          "femininePlural": "églises"
+        }
       },
       {
         "word": "la fontaine",
@@ -185,7 +225,12 @@
           ]
         ],
         "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace.",
-        "forms": { "masculine": "fontaine", "feminine": "fontaine", "masculinePlural": "fontaines", "femininePlural": "fontaines" }
+        "forms": {
+          "masculine": "",
+          "feminine": "fontaine",
+          "masculinePlural": "",
+          "femininePlural": "fontaines"
+        }
       },
       {
         "word": "le jardin",
@@ -205,7 +250,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "jardin", "feminine": "jardin", "masculinePlural": "jardins", "femininePlural": "jardins" }
+        "forms": {
+          "masculine": "jardin",
+          "feminine": "",
+          "masculinePlural": "jardins",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le musée",
@@ -225,7 +275,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "musée", "feminine": "musée", "masculinePlural": "musées", "femininePlural": "musées" }
+        "forms": {
+          "masculine": "musée",
+          "feminine": "",
+          "masculinePlural": "musées",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le centre-ville",
@@ -245,7 +300,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "centre-ville", "feminine": "centre-ville", "masculinePlural": "centres-villes", "femininePlural": "centres-villes" }
+        "forms": {
+          "masculine": "centre-ville",
+          "feminine": "",
+          "masculinePlural": "centres-villes",
+          "femininePlural": ""
+        }
       }
     ]
   },

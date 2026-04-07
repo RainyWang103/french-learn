@@ -11,9 +11,9 @@
         "gender": "male",
         "forms": {
           "masculine": "soleil",
-          "feminine": "soleil",
+          "feminine": "",
           "masculinePlural": "soleils",
-          "femininePlural": "soleils"
+          "femininePlural": ""
         },
         "pronunciation": "luh so-lay",
         "meaning": "the sun",
@@ -34,9 +34,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "pluie",
+          "masculine": "",
           "feminine": "pluie",
-          "masculinePlural": "pluies",
+          "masculinePlural": "",
           "femininePlural": "pluies"
         },
         "pronunciation": "la plwee",
@@ -59,9 +59,9 @@
         "gender": "male",
         "forms": {
           "masculine": "vent",
-          "feminine": "vent",
+          "feminine": "",
           "masculinePlural": "vents",
-          "femininePlural": "vents"
+          "femininePlural": ""
         },
         "pronunciation": "luh von",
         "meaning": "the wind",
@@ -135,9 +135,9 @@
         "gender": "male",
         "forms": {
           "masculine": "soleil",
-          "feminine": "soleil",
+          "feminine": "",
           "masculinePlural": "soleils",
-          "femininePlural": "soleils"
+          "femininePlural": ""
         },
         "pronunciation": "luh so-lay",
         "meaning": "the sun",
@@ -158,9 +158,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "pluie",
+          "masculine": "",
           "feminine": "pluie",
-          "masculinePlural": "pluies",
+          "masculinePlural": "",
           "femininePlural": "pluies"
         },
         "pronunciation": "la plwee",
@@ -183,9 +183,9 @@
         "gender": "male",
         "forms": {
           "masculine": "vent",
-          "feminine": "vent",
+          "feminine": "",
           "masculinePlural": "vents",
-          "femininePlural": "vents"
+          "femininePlural": ""
         },
         "pronunciation": "luh von",
         "meaning": "the wind",
@@ -257,9 +257,9 @@
         "gender": "male",
         "forms": {
           "masculine": "nuage",
-          "feminine": "nuage",
+          "feminine": "",
           "masculinePlural": "nuages",
-          "femininePlural": "nuages"
+          "femininePlural": ""
         },
         "pronunciation": "luh noo-azh",
         "meaning": "the cloud",
@@ -280,9 +280,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "neige",
+          "masculine": "",
           "feminine": "neige",
-          "masculinePlural": "neiges",
+          "masculinePlural": "",
           "femininePlural": "neiges"
         },
         "pronunciation": "la nezh",

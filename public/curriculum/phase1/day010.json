@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "mère",
+          "masculine": "",
           "feminine": "mère",
-          "masculinePlural": "mères",
+          "masculinePlural": "",
           "femininePlural": "mères"
         },
         "pronunciation": "la mair",
@@ -36,9 +36,9 @@
         "gender": "male",
         "forms": {
           "masculine": "père",
-          "feminine": "père",
+          "feminine": "",
           "masculinePlural": "pères",
-          "femininePlural": "pères"
+          "femininePlural": ""
         },
         "pronunciation": "luh pair",
         "meaning": "the father",
@@ -61,9 +61,9 @@
         "gender": "male",
         "forms": {
           "masculine": "frère",
-          "feminine": "sœur",
+          "feminine": "",
           "masculinePlural": "frères",
-          "femininePlural": "sœurs"
+          "femininePlural": ""
         },
         "pronunciation": "luh frair",
         "meaning": "the brother",
@@ -84,9 +84,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "frère",
+          "masculine": "",
           "feminine": "sœur",
-          "masculinePlural": "frères",
+          "masculinePlural": "",
           "femininePlural": "sœurs"
         },
         "pronunciation": "la sir",
@@ -135,9 +135,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "mère",
+          "masculine": "",
           "feminine": "mère",
-          "masculinePlural": "mères",
+          "masculinePlural": "",
           "femininePlural": "mères"
         },
         "pronunciation": "la mair",
@@ -161,9 +161,9 @@
         "gender": "male",
         "forms": {
           "masculine": "père",
-          "feminine": "père",
+          "feminine": "",
           "masculinePlural": "pères",
-          "femininePlural": "pères"
+          "femininePlural": ""
         },
         "pronunciation": "luh pair",
         "meaning": "the father",
@@ -186,9 +186,9 @@
         "gender": "male",
         "forms": {
           "masculine": "frère",
-          "feminine": "sœur",
+          "feminine": "",
           "masculinePlural": "frères",
-          "femininePlural": "sœurs"
+          "femininePlural": ""
         },
         "pronunciation": "luh frair",
         "meaning": "the brother",
@@ -209,9 +209,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "frère",
+          "masculine": "",
           "feminine": "sœur",
-          "masculinePlural": "frères",
+          "masculinePlural": "",
           "femininePlural": "sœurs"
         },
         "pronunciation": "la sir",
@@ -259,9 +259,9 @@
         "gender": "male",
         "forms": {
           "masculine": "grand-père",
-          "feminine": "grand-mère",
+          "feminine": "",
           "masculinePlural": "grands-pères",
-          "femininePlural": "grands-mères"
+          "femininePlural": ""
         },
         "pronunciation": "luh gron-pair",
         "meaning": "the grandfather",
@@ -283,9 +283,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "grand-père",
+          "masculine": "",
           "feminine": "grand-mère",
-          "masculinePlural": "grands-pères",
+          "masculinePlural": "",
           "femininePlural": "grands-mères"
         },
         "pronunciation": "la gron-mair",

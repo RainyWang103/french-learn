@@ -38,9 +38,9 @@
         "gender": "male",
         "forms": {
           "masculine": "matin",
-          "feminine": "matin",
+          "feminine": "",
           "masculinePlural": "matins",
-          "femininePlural": "matins"
+          "femininePlural": ""
         },
         "pronunciation": "luh ma-tan",
         "meaning": "the morning",
@@ -62,9 +62,9 @@
         "gender": "male",
         "forms": {
           "masculine": "lit",
-          "feminine": "lit",
+          "feminine": "",
           "masculinePlural": "lits",
-          "femininePlural": "lits"
+          "femininePlural": ""
         },
         "pronunciation": "luh lee",
         "meaning": "the bed",
@@ -167,9 +167,9 @@
         "gender": "male",
         "forms": {
           "masculine": "matin",
-          "feminine": "matin",
+          "feminine": "",
           "masculinePlural": "matins",
-          "femininePlural": "matins"
+          "femininePlural": ""
         },
         "pronunciation": "luh ma-tan",
         "meaning": "the morning",
@@ -191,9 +191,9 @@
         "gender": "male",
         "forms": {
           "masculine": "lit",
-          "feminine": "lit",
+          "feminine": "",
           "masculinePlural": "lits",
-          "femininePlural": "lits"
+          "femininePlural": ""
         },
         "pronunciation": "luh lee",
         "meaning": "the bed",
@@ -292,9 +292,9 @@
         "gender": "male",
         "forms": {
           "masculine": "réveil",
-          "feminine": "réveil",
+          "feminine": "",
           "masculinePlural": "réveils",
-          "femininePlural": "réveils"
+          "femininePlural": ""
         },
         "pronunciation": "luh ray-vay",
         "meaning": "the alarm clock",

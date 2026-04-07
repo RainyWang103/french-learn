@@ -13,11 +13,22 @@
         "meaning": "the film / the movie",
         "notes": "'Un film d'action' = an action film. 'Un film d'horreur' = a horror film. 'Regarder un film' = to watch a film. 'Tourner un film' = to shoot a film.",
         "examples": [
-          ["Tu as vu un bon film récemment ?", "Have you seen a good film recently?"],
-          ["Ce film est vraiment intéressant.", "This film is really interesting."]
+          [
+            "Tu as vu un bon film récemment ?",
+            "Have you seen a good film recently?"
+          ],
+          [
+            "Ce film est vraiment intéressant.",
+            "This film is really interesting."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "film", "feminine": "film", "masculinePlural": "films", "femininePlural": "films" }
+        "forms": {
+          "masculine": "film",
+          "feminine": "",
+          "masculinePlural": "films",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le cinéma",
@@ -27,11 +38,22 @@
         "meaning": "the cinema / the movie theatre",
         "notes": "Often shortened to 'le ciné' in informal speech. 'Aller au cinéma' = to go to the cinema. France has a strong cinema culture — it's where cinema was invented by the Lumière brothers!",
         "examples": [
-          ["On va au cinéma ce soir ?", "Shall we go to the cinema tonight?"],
-          ["Le cinéma est à cinq minutes d'ici.", "The cinema is five minutes from here."]
+          [
+            "On va au cinéma ce soir ?",
+            "Shall we go to the cinema tonight?"
+          ],
+          [
+            "Le cinéma est à cinq minutes d'ici.",
+            "The cinema is five minutes from here."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "cinéma", "feminine": "cinéma", "masculinePlural": "cinémas", "femininePlural": "cinémas" }
+        "forms": {
+          "masculine": "cinéma",
+          "feminine": "",
+          "masculinePlural": "cinémas",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'écran",
@@ -41,11 +63,22 @@
         "meaning": "the screen",
         "notes": "Used for cinema screens, TV screens, phone screens, and computer screens. 'Le grand écran' = the big screen (cinema). 'Sur l'écran' = on the screen.",
         "examples": [
-          ["L'écran de ce cinéma est énorme !", "The screen in this cinema is huge!"],
-          ["Le film passe sur le grand écran.", "The film is showing on the big screen."]
+          [
+            "L'écran de ce cinéma est énorme !",
+            "The screen in this cinema is huge!"
+          ],
+          [
+            "Le film passe sur le grand écran.",
+            "The film is showing on the big screen."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "écran", "feminine": "écran", "masculinePlural": "écrans", "femininePlural": "écrans" }
+        "forms": {
+          "masculine": "écran",
+          "feminine": "",
+          "masculinePlural": "écrans",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la séance",
@@ -55,11 +88,22 @@
         "meaning": "the showing / the screening session",
         "notes": "'La séance de 20h' = the 8pm showing. 'La prochaine séance' = the next showing. Can also mean 'session' in other contexts (gym session, therapy session).",
         "examples": [
-          ["La séance commence à quelle heure ?", "What time does the showing start?"],
-          ["Il y a une séance à 14h et une à 17h.", "There's a showing at 2pm and one at 5pm."]
+          [
+            "La séance commence à quelle heure ?",
+            "What time does the showing start?"
+          ],
+          [
+            "Il y a une séance à 14h et une à 17h.",
+            "There's a showing at 2pm and one at 5pm."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "séance", "feminine": "séance", "masculinePlural": "séances", "femininePlural": "séances" }
+        "forms": {
+          "masculine": "",
+          "feminine": "séance",
+          "masculinePlural": "",
+          "femininePlural": "séances"
+        }
       },
       {
         "word": "l'acteur",
@@ -69,11 +113,22 @@
         "meaning": "the actor",
         "notes": "Feminine: 'l'actrice'. 'Un acteur célèbre' = a famous actor. French cinema has many internationally known actors. 'Jouer un rôle' = to play a role.",
         "examples": [
-          ["Cet acteur est très connu.", "This actor is very well known."],
-          ["Mon actrice préférée est française.", "My favourite actress is French."]
+          [
+            "Cet acteur est très connu.",
+            "This actor is very well known."
+          ],
+          [
+            "Mon actrice préférée est française.",
+            "My favourite actress is French."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "acteur", "feminine": "actrice", "masculinePlural": "acteurs", "femininePlural": "actrices" }
+        "forms": {
+          "masculine": "acteur",
+          "feminine": "",
+          "masculinePlural": "acteurs",
+          "femininePlural": ""
+        }
       }
     ],
     "advanced": [
@@ -85,11 +140,22 @@
         "meaning": "the film / the movie",
         "notes": "'Un film d'action' = an action film. 'Un film d'horreur' = a horror film. 'Regarder un film' = to watch a film. 'Tourner un film' = to shoot a film.",
         "examples": [
-          ["Tu as vu un bon film récemment ?", "Have you seen a good film recently?"],
-          ["Ce film est vraiment intéressant.", "This film is really interesting."]
+          [
+            "Tu as vu un bon film récemment ?",
+            "Have you seen a good film recently?"
+          ],
+          [
+            "Ce film est vraiment intéressant.",
+            "This film is really interesting."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "film", "feminine": "film", "masculinePlural": "films", "femininePlural": "films" }
+        "forms": {
+          "masculine": "film",
+          "feminine": "",
+          "masculinePlural": "films",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le cinéma",
@@ -99,11 +165,22 @@
         "meaning": "the cinema / the movie theatre",
         "notes": "Often shortened to 'le ciné' in informal speech. 'Aller au cinéma' = to go to the cinema. France has a strong cinema culture — it's where cinema was invented by the Lumière brothers!",
         "examples": [
-          ["On va au cinéma ce soir ?", "Shall we go to the cinema tonight?"],
-          ["Le cinéma est à cinq minutes d'ici.", "The cinema is five minutes from here."]
+          [
+            "On va au cinéma ce soir ?",
+            "Shall we go to the cinema tonight?"
+          ],
+          [
+            "Le cinéma est à cinq minutes d'ici.",
+            "The cinema is five minutes from here."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "cinéma", "feminine": "cinéma", "masculinePlural": "cinémas", "femininePlural": "cinémas" }
+        "forms": {
+          "masculine": "cinéma",
+          "feminine": "",
+          "masculinePlural": "cinémas",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'écran",
@@ -113,11 +190,22 @@
         "meaning": "the screen",
         "notes": "Used for cinema screens, TV screens, phone screens, and computer screens. 'Le grand écran' = the big screen (cinema). 'Sur l'écran' = on the screen.",
         "examples": [
-          ["L'écran de ce cinéma est énorme !", "The screen in this cinema is huge!"],
-          ["Le film passe sur le grand écran.", "The film is showing on the big screen."]
+          [
+            "L'écran de ce cinéma est énorme !",
+            "The screen in this cinema is huge!"
+          ],
+          [
+            "Le film passe sur le grand écran.",
+            "The film is showing on the big screen."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "écran", "feminine": "écran", "masculinePlural": "écrans", "femininePlural": "écrans" }
+        "forms": {
+          "masculine": "écran",
+          "feminine": "",
+          "masculinePlural": "écrans",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la séance",
@@ -127,11 +215,22 @@
         "meaning": "the showing / the screening session",
         "notes": "'La séance de 20h' = the 8pm showing. 'La prochaine séance' = the next showing. Can also mean 'session' in other contexts (gym session, therapy session).",
         "examples": [
-          ["La séance commence à quelle heure ?", "What time does the showing start?"],
-          ["Il y a une séance à 14h et une à 17h.", "There's a showing at 2pm and one at 5pm."]
+          [
+            "La séance commence à quelle heure ?",
+            "What time does the showing start?"
+          ],
+          [
+            "Il y a une séance à 14h et une à 17h.",
+            "There's a showing at 2pm and one at 5pm."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "séance", "feminine": "séance", "masculinePlural": "séances", "femininePlural": "séances" }
+        "forms": {
+          "masculine": "",
+          "feminine": "séance",
+          "masculinePlural": "",
+          "femininePlural": "séances"
+        }
       },
       {
         "word": "l'acteur",
@@ -141,11 +240,22 @@
         "meaning": "the actor",
         "notes": "Feminine: 'l'actrice'. 'Un acteur célèbre' = a famous actor. French cinema has many internationally known actors. 'Jouer un rôle' = to play a role.",
         "examples": [
-          ["Cet acteur est très connu.", "This actor is very well known."],
-          ["Mon actrice préférée est française.", "My favourite actress is French."]
+          [
+            "Cet acteur est très connu.",
+            "This actor is very well known."
+          ],
+          [
+            "Mon actrice préférée est française.",
+            "My favourite actress is French."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "acteur", "feminine": "actrice", "masculinePlural": "acteurs", "femininePlural": "actrices" }
+        "forms": {
+          "masculine": "acteur",
+          "feminine": "",
+          "masculinePlural": "acteurs",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le sous-titre",
@@ -155,11 +265,22 @@
         "meaning": "the subtitle",
         "notes": "'Avec des sous-titres' = with subtitles. 'Un film sous-titré' = a subtitled film. In France, 'VO' (version originale) = original language with subtitles. 'VF' (version française) = dubbed in French.",
         "examples": [
-          ["Je préfère les films en VO avec des sous-titres.", "I prefer films in the original language with subtitles."],
-          ["Les sous-titres sont en français.", "The subtitles are in French."]
+          [
+            "Je préfère les films en VO avec des sous-titres.",
+            "I prefer films in the original language with subtitles."
+          ],
+          [
+            "Les sous-titres sont en français.",
+            "The subtitles are in French."
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "sous-titre", "feminine": "sous-titre", "masculinePlural": "sous-titres", "femininePlural": "sous-titres" }
+        "forms": {
+          "masculine": "sous-titre",
+          "feminine": "",
+          "masculinePlural": "sous-titres",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la comédie",
@@ -169,40 +290,87 @@
         "meaning": "the comedy",
         "notes": "'Une comédie romantique' = a romantic comedy (rom-com). 'Une comédie musicale' = a musical. French comedies are very popular — 'Les Intouchables' and 'Bienvenue chez les Ch'tis' are among the most-watched films in French history.",
         "examples": [
-          ["J'adore les comédies françaises.", "I love French comedies."],
-          ["On regarde une comédie ce soir ?", "Shall we watch a comedy tonight?"]
+          [
+            "J'adore les comédies françaises.",
+            "I love French comedies."
+          ],
+          [
+            "On regarde une comédie ce soir ?",
+            "Shall we watch a comedy tonight?"
+          ]
         ],
         "special": "",
-        "forms": { "masculine": "comédie", "feminine": "comédie", "masculinePlural": "comédies", "femininePlural": "comédies" }
+        "forms": {
+          "masculine": "",
+          "feminine": "comédie",
+          "masculinePlural": "",
+          "femininePlural": "comédies"
+        }
       }
     ]
   },
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu veux aller au cinéma ce soir ?"],
-        ["B", "Bonne idée ! Il y a quoi comme film ?"],
-        ["A", "Il y a une comédie française. Je la trouve sur le programme."],
-        ["B", "Super ! Tu la connais ?"],
-        ["A", "Non, mais l'acteur est très connu. Tout le monde le recommande."],
-        ["B", "D'accord ! La séance est à quelle heure ?"],
-        ["A", "Il y a une séance à 19h et une à 21h. Tu préfères laquelle ?"],
-        ["B", "Je la préfère à 19h. On mange après le film ?"]
+        [
+          "A",
+          "Tu veux aller au cinéma ce soir ?"
+        ],
+        [
+          "B",
+          "Bonne idée ! Il y a quoi comme film ?"
+        ],
+        [
+          "A",
+          "Il y a une comédie française. Je la trouve sur le programme."
+        ],
+        [
+          "B",
+          "Super ! Tu la connais ?"
+        ],
+        [
+          "A",
+          "Non, mais l'acteur est très connu. Tout le monde le recommande."
+        ],
+        [
+          "B",
+          "D'accord ! La séance est à quelle heure ?"
+        ],
+        [
+          "A",
+          "Il y a une séance à 19h et une à 21h. Tu préfères laquelle ?"
+        ],
+        [
+          "B",
+          "Je la préfère à 19h. On mange après le film ?"
+        ]
       ],
       "questions": [
         {
           "question": "Quel type de film vont-ils voir ?",
-          "options": ["Un film d'action", "Une comédie française", "Un film d'horreur"],
+          "options": [
+            "Un film d'action",
+            "Une comédie française",
+            "Un film d'horreur"
+          ],
           "correctAnswer": "Une comédie française"
         },
         {
           "question": "Qu'est-ce qui est spécial avec l'acteur ?",
-          "options": ["Il est nouveau", "Il est très connu", "Il est américain"],
+          "options": [
+            "Il est nouveau",
+            "Il est très connu",
+            "Il est américain"
+          ],
           "correctAnswer": "Il est très connu"
         },
         {
           "question": "Quelle séance est-ce que B préfère ?",
-          "options": ["La séance de 19h", "La séance de 21h", "La séance de l'après-midi"],
+          "options": [
+            "La séance de 19h",
+            "La séance de 21h",
+            "La séance de l'après-midi"
+          ],
           "correctAnswer": "La séance de 19h"
         }
       ],
@@ -210,36 +378,86 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu as vu le nouveau film de Jean Dujardin ?"],
-        ["B", "Non, pas encore. Tu l'as vu ?"],
-        ["A", "Oui, je l'ai vu samedi. C'est une comédie — je l'ai adoré !"],
-        ["B", "Il passe dans quel cinéma ?"],
-        ["A", "Au Pathé, sur le grand écran. La séance de 20h est la meilleure."],
-        ["B", "C'est en VO ou en VF ?"],
-        ["A", "C'est en français, donc pas de sous-titres. Mais si tu veux le voir en VO, il y a aussi une séance en anglais avec des sous-titres français."],
-        ["B", "Non, je le veux en français. Tu me le recommandes vraiment ?"],
-        ["A", "Oui, je te le recommande ! Les acteurs sont excellents. Tu vas l'adorer."],
-        ["B", "D'accord, j'y vais ce soir !"]
+        [
+          "A",
+          "Tu as vu le nouveau film de Jean Dujardin ?"
+        ],
+        [
+          "B",
+          "Non, pas encore. Tu l'as vu ?"
+        ],
+        [
+          "A",
+          "Oui, je l'ai vu samedi. C'est une comédie — je l'ai adoré !"
+        ],
+        [
+          "B",
+          "Il passe dans quel cinéma ?"
+        ],
+        [
+          "A",
+          "Au Pathé, sur le grand écran. La séance de 20h est la meilleure."
+        ],
+        [
+          "B",
+          "C'est en VO ou en VF ?"
+        ],
+        [
+          "A",
+          "C'est en français, donc pas de sous-titres. Mais si tu veux le voir en VO, il y a aussi une séance en anglais avec des sous-titres français."
+        ],
+        [
+          "B",
+          "Non, je le veux en français. Tu me le recommandes vraiment ?"
+        ],
+        [
+          "A",
+          "Oui, je te le recommande ! Les acteurs sont excellents. Tu vas l'adorer."
+        ],
+        [
+          "B",
+          "D'accord, j'y vais ce soir !"
+        ]
       ],
       "questions": [
         {
           "question": "Quand est-ce que A a vu le film ?",
-          "options": ["Vendredi dernier", "Samedi dernier", "Hier", "Il y a deux jours"],
+          "options": [
+            "Vendredi dernier",
+            "Samedi dernier",
+            "Hier",
+            "Il y a deux jours"
+          ],
           "correctAnswer": "Samedi dernier"
         },
         {
           "question": "Quel type de film est-ce ?",
-          "options": ["Un drame", "Une comédie", "Un film d'action", "Un documentaire"],
+          "options": [
+            "Un drame",
+            "Une comédie",
+            "Un film d'action",
+            "Un documentaire"
+          ],
           "correctAnswer": "Une comédie"
         },
         {
           "question": "Qu'est-ce que 'VO' veut dire au cinéma ?",
-          "options": ["Très vieux", "Version originale", "Vidéo officielle", "Voix seulement"],
+          "options": [
+            "Très vieux",
+            "Version originale",
+            "Vidéo officielle",
+            "Voix seulement"
+          ],
           "correctAnswer": "Version originale"
         },
         {
           "question": "Dans quelle langue est-ce que B veut voir le film ?",
-          "options": ["En anglais avec des sous-titres", "En français", "En anglais sans sous-titres", "Dans les deux langues"],
+          "options": [
+            "En anglais avec des sous-titres",
+            "En français",
+            "En anglais sans sous-titres",
+            "Dans les deux langues"
+          ],
           "correctAnswer": "En français"
         }
       ],
@@ -278,7 +496,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'I love it' for 'la comédie'?",
-          "options": ["Je le aime.", "Je l'aime.", "Je la aime."],
+          "options": [
+            "Je le aime.",
+            "Je l'aime.",
+            "Je la aime."
+          ],
           "correctAnswer": "Je l'aime.",
           "explanation": "'La' becomes 'l'' before a vowel: je l'aime."
         },
@@ -291,7 +513,11 @@
         {
           "type": "multipleChoice",
           "question": "Where does the direct object pronoun go?",
-          "options": ["After the verb", "Before the verb", "At the end of the sentence"],
+          "options": [
+            "After the verb",
+            "Before the verb",
+            "At the end of the sentence"
+          ],
           "correctAnswer": "Before the verb",
           "explanation": "Direct object pronouns always go before the verb in French."
         },
@@ -348,7 +574,12 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'Watch it!' (imperative, informal, masculine object)?",
-          "options": ["Le regarde !", "Regarde-le !", "Regarde le !", "Le regardes !"],
+          "options": [
+            "Le regarde !",
+            "Regarde-le !",
+            "Regarde le !",
+            "Le regardes !"
+          ],
           "correctAnswer": "Regarde-le !",
           "explanation": "Affirmative imperative: verb + hyphen + pronoun: Regarde-le !"
         },
@@ -396,7 +627,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le cinéma' mean?",
-        "options": ["The film", "The cinema", "The screen"],
+        "options": [
+          "The film",
+          "The cinema",
+          "The screen"
+        ],
         "correctAnswer": "The cinema",
         "explanation": "'Le cinéma' is the cinema or movie theatre. 'Le film' is the film itself.",
         "targetWord": "le cinéma"
@@ -411,7 +646,11 @@
       {
         "type": "multipleChoice",
         "question": "What is 'la séance' in a cinema context?",
-        "options": ["The seat", "The showing / screening", "The ticket"],
+        "options": [
+          "The seat",
+          "The showing / screening",
+          "The ticket"
+        ],
         "correctAnswer": "The showing / screening",
         "explanation": "'La séance' is a showing or screening. 'La séance de 20h' = the 8pm showing.",
         "targetWord": "la séance"
@@ -426,7 +665,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'l'acteur' mean?",
-        "options": ["The action", "The actor", "The audience"],
+        "options": [
+          "The action",
+          "The actor",
+          "The audience"
+        ],
         "correctAnswer": "The actor",
         "explanation": "'L'acteur' is the actor. The feminine form is 'l'actrice'.",
         "targetWord": "l'acteur"
@@ -436,7 +679,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le sous-titre' mean?",
-        "options": ["The title", "The subtitle", "The headline", "The chapter"],
+        "options": [
+          "The title",
+          "The subtitle",
+          "The headline",
+          "The chapter"
+        ],
         "correctAnswer": "The subtitle",
         "explanation": "'Le sous-titre' is a subtitle. 'Un film sous-titré' = a subtitled film.",
         "targetWord": "le sous-titre"
@@ -451,7 +699,12 @@
       {
         "type": "multipleChoice",
         "question": "In French cinema, what does 'VO' stand for?",
-        "options": ["Voix originale", "Version ordinaire", "Version originale", "Vidéo officielle"],
+        "options": [
+          "Voix originale",
+          "Version ordinaire",
+          "Version originale",
+          "Vidéo officielle"
+        ],
         "correctAnswer": "Version originale",
         "explanation": "'VO' = version originale = the film in its original language (usually with French subtitles).",
         "targetWord": "le sous-titre"
@@ -466,7 +719,12 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'I'm going to watch it' (near future, masculine object)?",
-        "options": ["Je le vais regarder.", "Je vais le regarder.", "Je vais regarder le.", "Le je vais regarder."],
+        "options": [
+          "Je le vais regarder.",
+          "Je vais le regarder.",
+          "Je vais regarder le.",
+          "Le je vais regarder."
+        ],
         "correctAnswer": "Je vais le regarder.",
         "explanation": "In near future, the pronoun goes before the infinitive: vais le regarder.",
         "targetWord": "le film"

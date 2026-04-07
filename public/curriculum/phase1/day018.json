@@ -11,9 +11,9 @@
         "gender": "male",
         "forms": {
           "masculine": "carrefour",
-          "feminine": "carrefour",
+          "feminine": "",
           "masculinePlural": "carrefours",
-          "femininePlural": "carrefours"
+          "femininePlural": ""
         },
         "pronunciation": "luh kar-FOOR",
         "meaning": "the crossroads / the intersection",
@@ -62,9 +62,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "place",
+          "masculine": "",
           "feminine": "place",
-          "masculinePlural": "places",
+          "masculinePlural": "",
           "femininePlural": "places"
         },
         "pronunciation": "lah PLASS",
@@ -88,9 +88,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pont",
-          "feminine": "pont",
+          "feminine": "",
           "masculinePlural": "ponts",
-          "femininePlural": "ponts"
+          "femininePlural": ""
         },
         "pronunciation": "luh PON",
         "meaning": "the bridge",
@@ -111,9 +111,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "pharmacie",
+          "masculine": "",
           "feminine": "pharmacie",
-          "masculinePlural": "pharmacies",
+          "masculinePlural": "",
           "femininePlural": "pharmacies"
         },
         "pronunciation": "lah far-mah-SEE",
@@ -139,9 +139,9 @@
         "gender": "male",
         "forms": {
           "masculine": "carrefour",
-          "feminine": "carrefour",
+          "feminine": "",
           "masculinePlural": "carrefours",
-          "femininePlural": "carrefours"
+          "femininePlural": ""
         },
         "pronunciation": "luh kar-FOOR",
         "meaning": "the crossroads / the intersection",
@@ -190,9 +190,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "place",
+          "masculine": "",
           "feminine": "place",
-          "masculinePlural": "places",
+          "masculinePlural": "",
           "femininePlural": "places"
         },
         "pronunciation": "lah PLASS",
@@ -216,9 +216,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pont",
-          "feminine": "pont",
+          "feminine": "",
           "masculinePlural": "ponts",
-          "femininePlural": "ponts"
+          "femininePlural": ""
         },
         "pronunciation": "luh PON",
         "meaning": "the bridge",
@@ -239,9 +239,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "pharmacie",
+          "masculine": "",
           "feminine": "pharmacie",
-          "masculinePlural": "pharmacies",
+          "masculinePlural": "",
           "femininePlural": "pharmacies"
         },
         "pronunciation": "lah far-mah-SEE",
@@ -265,9 +265,9 @@
         "gender": "male",
         "forms": {
           "masculine": "rond-point",
-          "feminine": "rond-point",
+          "feminine": "",
           "masculinePlural": "ronds-points",
-          "femininePlural": "ronds-points"
+          "femininePlural": ""
         },
         "pronunciation": "luh ron-PWAN",
         "meaning": "the roundabout",
@@ -290,9 +290,9 @@
         "gender": "male",
         "forms": {
           "masculine": "feu",
-          "feminine": "feu",
+          "feminine": "",
           "masculinePlural": "feux",
-          "femininePlural": "feux"
+          "femininePlural": ""
         },
         "pronunciation": "luh FUH",
         "meaning": "the traffic light (also: fire)",

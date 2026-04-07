@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "heure",
+          "masculine": "",
           "feminine": "heure",
-          "masculinePlural": "heures",
+          "masculinePlural": "",
           "femininePlural": "heures"
         },
         "pronunciation": "lur",
@@ -36,9 +36,9 @@
         "gender": "male",
         "forms": {
           "masculine": "midi",
-          "feminine": "midi",
+          "feminine": "",
           "masculinePlural": "midi",
-          "femininePlural": "midi"
+          "femininePlural": ""
         },
         "pronunciation": "mee-dee",
         "meaning": "noon / midday",
@@ -112,9 +112,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "semaine",
+          "masculine": "",
           "feminine": "semaine",
-          "masculinePlural": "semaines",
+          "masculinePlural": "",
           "femininePlural": "semaines"
         },
         "pronunciation": "la suh-men",
@@ -138,9 +138,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "heure",
+          "masculine": "",
           "feminine": "heure",
-          "masculinePlural": "heures",
+          "masculinePlural": "",
           "femininePlural": "heures"
         },
         "pronunciation": "lur",
@@ -164,9 +164,9 @@
         "gender": "male",
         "forms": {
           "masculine": "midi",
-          "feminine": "midi",
+          "feminine": "",
           "masculinePlural": "midi",
-          "femininePlural": "midi"
+          "femininePlural": ""
         },
         "pronunciation": "mee-dee",
         "meaning": "noon / midday",
@@ -240,9 +240,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "semaine",
+          "masculine": "",
           "feminine": "semaine",
-          "masculinePlural": "semaines",
+          "masculinePlural": "",
           "femininePlural": "semaines"
         },
         "pronunciation": "la suh-men",
@@ -265,9 +265,9 @@
         "gender": "male",
         "forms": {
           "masculine": "quart d'heure",
-          "feminine": "quart d'heure",
+          "feminine": "",
           "masculinePlural": "quarts d'heure",
-          "femininePlural": "quarts d'heure"
+          "femininePlural": ""
         },
         "pronunciation": "luh kar dur",
         "meaning": "the quarter of an hour",
@@ -290,9 +290,9 @@
         "gender": "male",
         "forms": {
           "masculine": "rendez-vous",
-          "feminine": "rendez-vous",
+          "feminine": "",
           "masculinePlural": "rendez-vous",
-          "femininePlural": "rendez-vous"
+          "femininePlural": ""
         },
         "pronunciation": "luh ron-day-voo",
         "meaning": "the appointment / the meeting",
