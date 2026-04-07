@@ -23,7 +23,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "bureau", "feminine": "bureau", "masculinePlural": "bureaux", "femininePlural": "bureaux" }
+        "forms": {
+          "masculine": "bureau",
+          "feminine": "",
+          "masculinePlural": "bureaux",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le collègue",
@@ -43,7 +48,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "collègue", "feminine": "collègue", "masculinePlural": "collègues", "femininePlural": "collègues" }
+        "forms": {
+          "masculine": "collègue",
+          "feminine": "",
+          "masculinePlural": "collègues",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'ordinateur",
@@ -63,7 +73,12 @@
           ]
         ],
         "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly.",
-        "forms": { "masculine": "ordinateur", "feminine": "ordinateur", "masculinePlural": "ordinateurs", "femininePlural": "ordinateurs" }
+        "forms": {
+          "masculine": "ordinateur",
+          "feminine": "",
+          "masculinePlural": "ordinateurs",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la réunion",
@@ -83,7 +98,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "réunion", "feminine": "réunion", "masculinePlural": "réunions", "femininePlural": "réunions" }
+        "forms": {
+          "masculine": "",
+          "feminine": "réunion",
+          "masculinePlural": "",
+          "femininePlural": "réunions"
+        }
       },
       {
         "word": "le travail",
@@ -103,7 +123,12 @@
           ]
         ],
         "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation).",
-        "forms": { "masculine": "travail", "feminine": "travail", "masculinePlural": "travaux", "femininePlural": "travaux" }
+        "forms": {
+          "masculine": "travail",
+          "feminine": "",
+          "masculinePlural": "travaux",
+          "femininePlural": ""
+        }
       }
     ],
     "advanced": [
@@ -125,7 +150,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "bureau", "feminine": "bureau", "masculinePlural": "bureaux", "femininePlural": "bureaux" }
+        "forms": {
+          "masculine": "bureau",
+          "feminine": "",
+          "masculinePlural": "bureaux",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le collègue",
@@ -145,7 +175,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "collègue", "feminine": "collègue", "masculinePlural": "collègues", "femininePlural": "collègues" }
+        "forms": {
+          "masculine": "collègue",
+          "feminine": "",
+          "masculinePlural": "collègues",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'ordinateur",
@@ -165,7 +200,12 @@
           ]
         ],
         "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly.",
-        "forms": { "masculine": "ordinateur", "feminine": "ordinateur", "masculinePlural": "ordinateurs", "femininePlural": "ordinateurs" }
+        "forms": {
+          "masculine": "ordinateur",
+          "feminine": "",
+          "masculinePlural": "ordinateurs",
+          "femininePlural": ""
+        }
       },
       {
         "word": "la réunion",
@@ -185,7 +225,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "réunion", "feminine": "réunion", "masculinePlural": "réunions", "femininePlural": "réunions" }
+        "forms": {
+          "masculine": "",
+          "feminine": "réunion",
+          "masculinePlural": "",
+          "femininePlural": "réunions"
+        }
       },
       {
         "word": "le travail",
@@ -205,7 +250,12 @@
           ]
         ],
         "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation).",
-        "forms": { "masculine": "travail", "feminine": "travail", "masculinePlural": "travaux", "femininePlural": "travaux" }
+        "forms": {
+          "masculine": "travail",
+          "feminine": "",
+          "masculinePlural": "travaux",
+          "femininePlural": ""
+        }
       },
       {
         "word": "le patron",
@@ -225,7 +275,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "patron", "feminine": "patronne", "masculinePlural": "patrons", "femininePlural": "patronnes" }
+        "forms": {
+          "masculine": "patron",
+          "feminine": "",
+          "masculinePlural": "patrons",
+          "femininePlural": ""
+        }
       },
       {
         "word": "l'emploi",
@@ -245,7 +300,12 @@
           ]
         ],
         "special": "",
-        "forms": { "masculine": "emploi", "feminine": "emploi", "masculinePlural": "emplois", "femininePlural": "emplois" }
+        "forms": {
+          "masculine": "emploi",
+          "feminine": "",
+          "masculinePlural": "emplois",
+          "femininePlural": ""
+        }
       }
     ]
   },

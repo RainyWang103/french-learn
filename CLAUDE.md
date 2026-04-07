@@ -432,9 +432,9 @@ adjective → GenderForms: all four gender/number variants
 noun → GenderForms: all four gender/number variants
   { "masculine": "...", "feminine": "...",
     "masculinePlural": "...", "femininePlural": "..." }
-  If the noun only exists in one gender, fill the non-existing gender fields with "N/A"
-  e.g. livre (masculine only) → "livre" / "N/A" / "livres" / "N/A"
-  e.g. maison (feminine only) → "N/A" / "maison" / "N/A" / "maisons"
+  If the noun only exists in one gender, set the non-existing gender fields to ""
+  e.g. livre (masculine only) → "livre" / "" / "livres" / ""
+  e.g. maison (feminine only) → "" / "maison" / "" / "maisons"
   If the noun has both genders (e.g. ami/amie), fill in all four fields normally
 
 adverb or expression → GenderForms with all four fields set to the word itself

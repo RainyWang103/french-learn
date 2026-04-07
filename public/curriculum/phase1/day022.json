@@ -9,13 +9,24 @@
         "word": "le métro",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "métro", "feminine": "métro", "masculinePlural": "métros", "femininePlural": "métros" },
+        "forms": {
+          "masculine": "métro",
+          "feminine": "",
+          "masculinePlural": "métros",
+          "femininePlural": ""
+        },
         "pronunciation": "luh may-tro",
         "meaning": "the metro / subway",
         "notes": "Short for 'le métropolitain'. In Paris, the metro system is called 'le métro parisien'. You take the metro: 'prendre le métro'.",
         "examples": [
-          ["Je prends le métro pour aller au travail.", "I take the metro to go to work."],
-          ["Le métro est rapide et pratique.", "The metro is fast and practical."]
+          [
+            "Je prends le métro pour aller au travail.",
+            "I take the metro to go to work."
+          ],
+          [
+            "Le métro est rapide et pratique.",
+            "The metro is fast and practical."
+          ]
         ],
         "special": ""
       },
@@ -23,13 +34,24 @@
         "word": "le train",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "train", "feminine": "train", "masculinePlural": "trains", "femininePlural": "trains" },
+        "forms": {
+          "masculine": "train",
+          "feminine": "",
+          "masculinePlural": "trains",
+          "femininePlural": ""
+        },
         "pronunciation": "luh tran",
         "meaning": "the train",
         "notes": "Used for longer journeys between cities. 'Prendre le train' = to take the train. The French high-speed train is 'le TGV'.",
         "examples": [
-          ["On prend le train pour aller à Lyon.", "We take the train to go to Lyon."],
-          ["Le train arrive à dix heures.", "The train arrives at ten o'clock."]
+          [
+            "On prend le train pour aller à Lyon.",
+            "We take the train to go to Lyon."
+          ],
+          [
+            "Le train arrive à dix heures.",
+            "The train arrives at ten o'clock."
+          ]
         ],
         "special": ""
       },
@@ -37,12 +59,20 @@
         "word": "le billet",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "billet", "feminine": "billet", "masculinePlural": "billets", "femininePlural": "billets" },
+        "forms": {
+          "masculine": "billet",
+          "feminine": "",
+          "masculinePlural": "billets",
+          "femininePlural": ""
+        },
         "pronunciation": "luh bee-yeh",
         "meaning": "the ticket",
         "notes": "Used for transport tickets and event tickets. 'Un billet de train' = a train ticket. 'Un billet d'avion' = a plane ticket.",
         "examples": [
-          ["J'achète un billet de métro.", "I buy a metro ticket."],
+          [
+            "J'achète un billet de métro.",
+            "I buy a metro ticket."
+          ],
           [
             "Ce billet est pour le train de huit heures.",
             "This ticket is for the eight o'clock train."
@@ -54,13 +84,24 @@
         "word": "l'arrêt",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "arrêt", "feminine": "arrêt", "masculinePlural": "arrêts", "femininePlural": "arrêts" },
+        "forms": {
+          "masculine": "arrêt",
+          "feminine": "",
+          "masculinePlural": "arrêts",
+          "femininePlural": ""
+        },
         "pronunciation": "lah-reh",
         "meaning": "the stop",
         "notes": "'Un arrêt de bus' = a bus stop. Also used for 'l'arrêt de tram'. Comes from the verb 'arrêter' (to stop).",
         "examples": [
-          ["L'arrêt de bus est juste là.", "The bus stop is right there."],
-          ["On descend au prochain arrêt.", "We get off at the next stop."]
+          [
+            "L'arrêt de bus est juste là.",
+            "The bus stop is right there."
+          ],
+          [
+            "On descend au prochain arrêt.",
+            "We get off at the next stop."
+          ]
         ],
         "special": ""
       },
@@ -68,13 +109,24 @@
         "word": "le vélo",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "vélo", "feminine": "vélo", "masculinePlural": "vélos", "femininePlural": "vélos" },
+        "forms": {
+          "masculine": "vélo",
+          "feminine": "",
+          "masculinePlural": "vélos",
+          "femininePlural": ""
+        },
         "pronunciation": "luh vay-lo",
         "meaning": "the bicycle / bike",
         "notes": "Short for 'le vélocipède'. 'Faire du vélo' = to go cycling. Many French cities have shared bike systems like Vélib' in Paris.",
         "examples": [
-          ["Il va à l'école en vélo.", "He goes to school by bike."],
-          ["On fait du vélo le dimanche.", "We go cycling on Sundays."]
+          [
+            "Il va à l'école en vélo.",
+            "He goes to school by bike."
+          ],
+          [
+            "On fait du vélo le dimanche.",
+            "We go cycling on Sundays."
+          ]
         ],
         "special": ""
       }
@@ -84,13 +136,24 @@
         "word": "le métro",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "métro", "feminine": "métro", "masculinePlural": "métros", "femininePlural": "métros" },
+        "forms": {
+          "masculine": "métro",
+          "feminine": "",
+          "masculinePlural": "métros",
+          "femininePlural": ""
+        },
         "pronunciation": "luh may-tro",
         "meaning": "the metro / subway",
         "notes": "Short for 'le métropolitain'. In Paris, the metro system is called 'le métro parisien'. You take the metro: 'prendre le métro'.",
         "examples": [
-          ["Je prends le métro pour aller au travail.", "I take the metro to go to work."],
-          ["Le métro est rapide et pratique.", "The metro is fast and practical."]
+          [
+            "Je prends le métro pour aller au travail.",
+            "I take the metro to go to work."
+          ],
+          [
+            "Le métro est rapide et pratique.",
+            "The metro is fast and practical."
+          ]
         ],
         "special": ""
       },
@@ -98,13 +161,24 @@
         "word": "le train",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "train", "feminine": "train", "masculinePlural": "trains", "femininePlural": "trains" },
+        "forms": {
+          "masculine": "train",
+          "feminine": "",
+          "masculinePlural": "trains",
+          "femininePlural": ""
+        },
         "pronunciation": "luh tran",
         "meaning": "the train",
         "notes": "Used for longer journeys between cities. 'Prendre le train' = to take the train. The French high-speed train is 'le TGV'.",
         "examples": [
-          ["On prend le train pour aller à Lyon.", "We take the train to go to Lyon."],
-          ["Le train arrive à dix heures.", "The train arrives at ten o'clock."]
+          [
+            "On prend le train pour aller à Lyon.",
+            "We take the train to go to Lyon."
+          ],
+          [
+            "Le train arrive à dix heures.",
+            "The train arrives at ten o'clock."
+          ]
         ],
         "special": ""
       },
@@ -112,12 +186,20 @@
         "word": "le billet",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "billet", "feminine": "billet", "masculinePlural": "billets", "femininePlural": "billets" },
+        "forms": {
+          "masculine": "billet",
+          "feminine": "",
+          "masculinePlural": "billets",
+          "femininePlural": ""
+        },
         "pronunciation": "luh bee-yeh",
         "meaning": "the ticket",
         "notes": "Used for transport tickets and event tickets. 'Un billet de train' = a train ticket. 'Un billet d'avion' = a plane ticket.",
         "examples": [
-          ["J'achète un billet de métro.", "I buy a metro ticket."],
+          [
+            "J'achète un billet de métro.",
+            "I buy a metro ticket."
+          ],
           [
             "Ce billet est pour le train de huit heures.",
             "This ticket is for the eight o'clock train."
@@ -129,13 +211,24 @@
         "word": "l'arrêt",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "arrêt", "feminine": "arrêt", "masculinePlural": "arrêts", "femininePlural": "arrêts" },
+        "forms": {
+          "masculine": "arrêt",
+          "feminine": "",
+          "masculinePlural": "arrêts",
+          "femininePlural": ""
+        },
         "pronunciation": "lah-reh",
         "meaning": "the stop",
         "notes": "'Un arrêt de bus' = a bus stop. Also used for 'l'arrêt de tram'. Comes from the verb 'arrêter' (to stop).",
         "examples": [
-          ["L'arrêt de bus est juste là.", "The bus stop is right there."],
-          ["On descend au prochain arrêt.", "We get off at the next stop."]
+          [
+            "L'arrêt de bus est juste là.",
+            "The bus stop is right there."
+          ],
+          [
+            "On descend au prochain arrêt.",
+            "We get off at the next stop."
+          ]
         ],
         "special": ""
       },
@@ -143,13 +236,24 @@
         "word": "le vélo",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "vélo", "feminine": "vélo", "masculinePlural": "vélos", "femininePlural": "vélos" },
+        "forms": {
+          "masculine": "vélo",
+          "feminine": "",
+          "masculinePlural": "vélos",
+          "femininePlural": ""
+        },
         "pronunciation": "luh vay-lo",
         "meaning": "the bicycle / bike",
         "notes": "Short for 'le vélocipède'. 'Faire du vélo' = to go cycling. Many French cities have shared bike systems like Vélib' in Paris.",
         "examples": [
-          ["Il va à l'école en vélo.", "He goes to school by bike."],
-          ["On fait du vélo le dimanche.", "We go cycling on Sundays."]
+          [
+            "Il va à l'école en vélo.",
+            "He goes to school by bike."
+          ],
+          [
+            "On fait du vélo le dimanche.",
+            "We go cycling on Sundays."
+          ]
         ],
         "special": ""
       },
@@ -157,13 +261,24 @@
         "word": "la gare",
         "partOfSpeech": "noun",
         "gender": "female",
-        "forms": { "masculine": "gare", "feminine": "gare", "masculinePlural": "gares", "femininePlural": "gares" },
+        "forms": {
+          "masculine": "",
+          "feminine": "gare",
+          "masculinePlural": "",
+          "femininePlural": "gares"
+        },
         "pronunciation": "la gar",
         "meaning": "the train station",
         "notes": "'La gare' is specifically a train station. 'La gare routière' is a bus station. Famous example: la Gare du Nord in Paris.",
         "examples": [
-          ["On se retrouve à la gare à neuf heures.", "We meet at the station at nine o'clock."],
-          ["La gare est à côté du centre-ville.", "The train station is next to the city centre."]
+          [
+            "On se retrouve à la gare à neuf heures.",
+            "We meet at the station at nine o'clock."
+          ],
+          [
+            "La gare est à côté du centre-ville.",
+            "The train station is next to the city centre."
+          ]
         ],
         "special": ""
       },
@@ -171,13 +286,24 @@
         "word": "le quai",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "quai", "feminine": "quai", "masculinePlural": "quais", "femininePlural": "quais" },
+        "forms": {
+          "masculine": "quai",
+          "feminine": "",
+          "masculinePlural": "quais",
+          "femininePlural": ""
+        },
         "pronunciation": "luh keh",
         "meaning": "the platform",
         "notes": "Used for train and metro platforms. 'Le train part du quai numéro trois.' Also means 'quay' or 'wharf' along a river.",
         "examples": [
-          ["Le train est sur le quai numéro deux.", "The train is on platform number two."],
-          ["Attendez sur le quai, s'il vous plaît.", "Wait on the platform, please."]
+          [
+            "Le train est sur le quai numéro deux.",
+            "The train is on platform number two."
+          ],
+          [
+            "Attendez sur le quai, s'il vous plaît.",
+            "Wait on the platform, please."
+          ]
         ],
         "special": ""
       }
@@ -186,29 +312,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Salut ! On va au musée aujourd'hui ?"],
-        ["B", "Oui, bonne idée ! On prend le bus ou le métro ?"],
-        ["A", "Le métro, c'est plus rapide. La station est à cinq minutes."],
-        ["B", "D'accord. Tu as un billet ?"],
-        ["A", "Non, on achète les billets à la station. C'est deux euros."],
-        ["B", "Super. On descend à quel arrêt ?"],
-        ["A", "À l'arrêt « Musée d'Art ». C'est le troisième arrêt."],
-        ["B", "Parfait, allons-y !"]
+        [
+          "A",
+          "Salut ! On va au musée aujourd'hui ?"
+        ],
+        [
+          "B",
+          "Oui, bonne idée ! On prend le bus ou le métro ?"
+        ],
+        [
+          "A",
+          "Le métro, c'est plus rapide. La station est à cinq minutes."
+        ],
+        [
+          "B",
+          "D'accord. Tu as un billet ?"
+        ],
+        [
+          "A",
+          "Non, on achète les billets à la station. C'est deux euros."
+        ],
+        [
+          "B",
+          "Super. On descend à quel arrêt ?"
+        ],
+        [
+          "A",
+          "À l'arrêt « Musée d'Art ». C'est le troisième arrêt."
+        ],
+        [
+          "B",
+          "Parfait, allons-y !"
+        ]
       ],
       "questions": [
         {
           "question": "Comment est-ce qu'ils décident d'aller au musée ?",
-          "options": ["En bus", "En métro", "En vélo"],
+          "options": [
+            "En bus",
+            "En métro",
+            "En vélo"
+          ],
           "correctAnswer": "En métro"
         },
         {
           "question": "Combien coûte un billet ?",
-          "options": ["Un euro", "Deux euros", "Trois euros"],
+          "options": [
+            "Un euro",
+            "Deux euros",
+            "Trois euros"
+          ],
           "correctAnswer": "Deux euros"
         },
         {
           "question": "À quel arrêt est-ce qu'ils descendent ?",
-          "options": ["Au deuxième arrêt", "Au troisième arrêt", "Au cinquième arrêt"],
+          "options": [
+            "Au deuxième arrêt",
+            "Au troisième arrêt",
+            "Au cinquième arrêt"
+          ],
           "correctAnswer": "Au troisième arrêt"
         }
       ],
@@ -220,34 +382,62 @@
           "A",
           "Excuse-moi, je voudrais aller au musée d'art moderne. Quel transport est le mieux ?"
         ],
-        ["B", "Vous pouvez prendre le métro ligne 4 ou le bus numéro 12."],
-        ["A", "Le métro est plus rapide ?"],
+        [
+          "B",
+          "Vous pouvez prendre le métro ligne 4 ou le bus numéro 12."
+        ],
+        [
+          "A",
+          "Le métro est plus rapide ?"
+        ],
         [
           "B",
           "Oui, avec le métro c'est quinze minutes. Le bus, c'est trente minutes avec le trafic."
         ],
-        ["A", "D'accord, je prends le métro. C'est quel quai ?"],
+        [
+          "A",
+          "D'accord, je prends le métro. C'est quel quai ?"
+        ],
         [
           "B",
           "Le quai numéro deux, direction Porte de Versailles. Vous descendez à la station « Arts et Métiers »."
         ],
-        ["A", "Et le billet, je l'achète où ?"],
+        [
+          "A",
+          "Et le billet, je l'achète où ?"
+        ],
         [
           "B",
           "Il y a une machine là-bas. Un billet coûte deux euros cinquante. Vous pouvez aussi utiliser votre téléphone."
         ],
-        ["A", "Merci beaucoup pour votre aide !"],
-        ["B", "De rien, bonne visite !"]
+        [
+          "A",
+          "Merci beaucoup pour votre aide !"
+        ],
+        [
+          "B",
+          "De rien, bonne visite !"
+        ]
       ],
       "questions": [
         {
           "question": "Combien de temps dure le trajet en métro ?",
-          "options": ["Dix minutes", "Quinze minutes", "Trente minutes", "Vingt minutes"],
+          "options": [
+            "Dix minutes",
+            "Quinze minutes",
+            "Trente minutes",
+            "Vingt minutes"
+          ],
           "correctAnswer": "Quinze minutes"
         },
         {
           "question": "Quel quai est-ce que le voyageur doit prendre ?",
-          "options": ["Le quai numéro un", "Le quai numéro deux", "Le quai numéro trois", "Le quai numéro quatre"],
+          "options": [
+            "Le quai numéro un",
+            "Le quai numéro deux",
+            "Le quai numéro trois",
+            "Le quai numéro quatre"
+          ],
           "correctAnswer": "Le quai numéro deux"
         },
         {
@@ -302,14 +492,22 @@
         {
           "type": "multipleChoice",
           "question": "Which is correct: '___ arrêt est le bon.' (This stop is the right one.)",
-          "options": ["Ce arrêt", "Cet arrêt", "Cette arrêt"],
+          "options": [
+            "Ce arrêt",
+            "Cet arrêt",
+            "Cette arrêt"
+          ],
           "correctAnswer": "Cet arrêt",
           "explanation": "'Arrêt' is masculine but starts with a vowel, so we use 'cet' instead of 'ce'."
         },
         {
           "type": "multipleChoice",
           "question": "How do you say 'these trains' in French?",
-          "options": ["ce trains", "cet trains", "ces trains"],
+          "options": [
+            "ce trains",
+            "cet trains",
+            "ces trains"
+          ],
           "correctAnswer": "ces trains",
           "explanation": "For any plural noun, we always use 'ces'."
         },
@@ -413,7 +611,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le quai' mean?",
-        "options": ["The ticket", "The platform", "The station"],
+        "options": [
+          "The ticket",
+          "The platform",
+          "The station"
+        ],
         "correctAnswer": "The platform",
         "explanation": "'Le quai' is the platform where you wait for a train or metro.",
         "targetWord": "le quai"
@@ -428,7 +630,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'I take the metro' in French?",
-        "options": ["Je fais le métro.", "Je prends le métro.", "Je vais le métro."],
+        "options": [
+          "Je fais le métro.",
+          "Je prends le métro.",
+          "Je vais le métro."
+        ],
         "correctAnswer": "Je prends le métro.",
         "explanation": "'Prendre le métro' means to take the metro. 'Prendre' is the verb used with transport.",
         "targetWord": "le métro"
@@ -436,7 +642,11 @@
       {
         "type": "multipleChoice",
         "question": "Which demonstrative adjective goes with 'gare' (feminine)?",
-        "options": ["ce", "cet", "cette"],
+        "options": [
+          "ce",
+          "cet",
+          "cette"
+        ],
         "correctAnswer": "cette",
         "explanation": "'Gare' is feminine singular, so we use 'cette gare'.",
         "targetWord": "la gare"
@@ -453,7 +663,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la gare' mean?",
-        "options": ["The bus stop", "The train station", "The airport", "The platform"],
+        "options": [
+          "The bus stop",
+          "The train station",
+          "The airport",
+          "The platform"
+        ],
         "correctAnswer": "The train station",
         "explanation": "'La gare' is specifically a train station. A bus station is 'la gare routière'.",
         "targetWord": "la gare"
@@ -468,7 +683,12 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'that bike there'?",
-        "options": ["ce vélo-ci", "cette vélo-là", "ce vélo-là", "cet vélo-là"],
+        "options": [
+          "ce vélo-ci",
+          "cette vélo-là",
+          "ce vélo-là",
+          "cet vélo-là"
+        ],
         "correctAnswer": "ce vélo-là",
         "explanation": "'Vélo' is masculine starting with a consonant → 'ce'. Add '-là' for 'that one there'.",
         "targetWord": "le vélo"

@@ -9,13 +9,24 @@
         "word": "le printemps",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "printemps", "feminine": "printemps", "masculinePlural": "printemps", "femininePlural": "printemps" },
+        "forms": {
+          "masculine": "printemps",
+          "feminine": "",
+          "masculinePlural": "printemps",
+          "femininePlural": ""
+        },
         "pronunciation": "luh pran-ton",
         "meaning": "spring",
         "notes": "Use 'au printemps' (in spring) — this is the only season that uses 'au' instead of 'en'. The final 's' is silent.",
         "examples": [
-          ["Au printemps, les fleurs poussent partout.", "In spring, flowers grow everywhere."],
-          ["Le printemps commence en mars.", "Spring begins in March."]
+          [
+            "Au printemps, les fleurs poussent partout.",
+            "In spring, flowers grow everywhere."
+          ],
+          [
+            "Le printemps commence en mars.",
+            "Spring begins in March."
+          ]
         ],
         "special": ""
       },
@@ -23,13 +34,24 @@
         "word": "l'été",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "été", "feminine": "été", "masculinePlural": "étés", "femininePlural": "étés" },
+        "forms": {
+          "masculine": "été",
+          "feminine": "",
+          "masculinePlural": "étés",
+          "femininePlural": ""
+        },
         "pronunciation": "lay-tay",
         "meaning": "summer",
         "notes": "Use 'en été' (in summer). The accent on the first 'é' is important for pronunciation.",
         "examples": [
-          ["En été, il fait très chaud.", "In summer, it is very hot."],
-          ["L'été est ma saison préférée.", "Summer is my favourite season."]
+          [
+            "En été, il fait très chaud.",
+            "In summer, it is very hot."
+          ],
+          [
+            "L'été est ma saison préférée.",
+            "Summer is my favourite season."
+          ]
         ],
         "special": ""
       },
@@ -37,13 +59,24 @@
         "word": "l'automne",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "automne", "feminine": "automne", "masculinePlural": "automnes", "femininePlural": "automnes" },
+        "forms": {
+          "masculine": "automne",
+          "feminine": "",
+          "masculinePlural": "automnes",
+          "femininePlural": ""
+        },
         "pronunciation": "lo-ton",
         "meaning": "autumn / fall",
         "notes": "Use 'en automne' (in autumn). The 'mn' at the end is pronounced as a single nasal 'n' sound. Despite starting with a vowel, it is masculine.",
         "examples": [
-          ["En automne, les feuilles changent de couleur.", "In autumn, the leaves change colour."],
-          ["L'automne est beau à la campagne.", "Autumn is beautiful in the countryside."]
+          [
+            "En automne, les feuilles changent de couleur.",
+            "In autumn, the leaves change colour."
+          ],
+          [
+            "L'automne est beau à la campagne.",
+            "Autumn is beautiful in the countryside."
+          ]
         ],
         "special": ""
       },
@@ -51,13 +84,24 @@
         "word": "l'hiver",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "hiver", "feminine": "hiver", "masculinePlural": "hivers", "femininePlural": "hivers" },
+        "forms": {
+          "masculine": "hiver",
+          "feminine": "",
+          "masculinePlural": "hivers",
+          "femininePlural": ""
+        },
         "pronunciation": "lee-vair",
         "meaning": "winter",
         "notes": "Use 'en hiver' (in winter). The 'h' is silent, so the article elides: l'hiver (not le hiver).",
         "examples": [
-          ["En hiver, on porte un manteau.", "In winter, we wear a coat."],
-          ["L'hiver est long cette année.", "Winter is long this year."]
+          [
+            "En hiver, on porte un manteau.",
+            "In winter, we wear a coat."
+          ],
+          [
+            "L'hiver est long cette année.",
+            "Winter is long this year."
+          ]
         ],
         "special": ""
       },
@@ -65,13 +109,24 @@
         "word": "le mois",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "mois", "feminine": "mois", "masculinePlural": "mois", "femininePlural": "mois" },
+        "forms": {
+          "masculine": "mois",
+          "feminine": "",
+          "masculinePlural": "mois",
+          "femininePlural": ""
+        },
         "pronunciation": "luh mwa",
         "meaning": "the month",
         "notes": "The final 's' is silent. 'Quel mois ?' = Which month? Months in French are not capitalised: janvier, février, mars, etc.",
         "examples": [
-          ["Quel mois est-ce qu'on est ?", "What month are we in?"],
-          ["Il y a douze mois dans une année.", "There are twelve months in a year."]
+          [
+            "Quel mois est-ce qu'on est ?",
+            "What month are we in?"
+          ],
+          [
+            "Il y a douze mois dans une année.",
+            "There are twelve months in a year."
+          ]
         ],
         "special": ""
       }
@@ -81,13 +136,24 @@
         "word": "le printemps",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "printemps", "feminine": "printemps", "masculinePlural": "printemps", "femininePlural": "printemps" },
+        "forms": {
+          "masculine": "printemps",
+          "feminine": "",
+          "masculinePlural": "printemps",
+          "femininePlural": ""
+        },
         "pronunciation": "luh pran-ton",
         "meaning": "spring",
         "notes": "Use 'au printemps' (in spring) — this is the only season that uses 'au' instead of 'en'. The final 's' is silent.",
         "examples": [
-          ["Au printemps, les fleurs poussent partout.", "In spring, flowers grow everywhere."],
-          ["Le printemps commence en mars.", "Spring begins in March."]
+          [
+            "Au printemps, les fleurs poussent partout.",
+            "In spring, flowers grow everywhere."
+          ],
+          [
+            "Le printemps commence en mars.",
+            "Spring begins in March."
+          ]
         ],
         "special": ""
       },
@@ -95,13 +161,24 @@
         "word": "l'été",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "été", "feminine": "été", "masculinePlural": "étés", "femininePlural": "étés" },
+        "forms": {
+          "masculine": "été",
+          "feminine": "",
+          "masculinePlural": "étés",
+          "femininePlural": ""
+        },
         "pronunciation": "lay-tay",
         "meaning": "summer",
         "notes": "Use 'en été' (in summer). The accent on the first 'é' is important for pronunciation.",
         "examples": [
-          ["En été, il fait très chaud.", "In summer, it is very hot."],
-          ["L'été est ma saison préférée.", "Summer is my favourite season."]
+          [
+            "En été, il fait très chaud.",
+            "In summer, it is very hot."
+          ],
+          [
+            "L'été est ma saison préférée.",
+            "Summer is my favourite season."
+          ]
         ],
         "special": ""
       },
@@ -109,13 +186,24 @@
         "word": "l'automne",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "automne", "feminine": "automne", "masculinePlural": "automnes", "femininePlural": "automnes" },
+        "forms": {
+          "masculine": "automne",
+          "feminine": "",
+          "masculinePlural": "automnes",
+          "femininePlural": ""
+        },
         "pronunciation": "lo-ton",
         "meaning": "autumn / fall",
         "notes": "Use 'en automne' (in autumn). The 'mn' at the end is pronounced as a single nasal 'n' sound. Despite starting with a vowel, it is masculine.",
         "examples": [
-          ["En automne, les feuilles changent de couleur.", "In autumn, the leaves change colour."],
-          ["L'automne est beau à la campagne.", "Autumn is beautiful in the countryside."]
+          [
+            "En automne, les feuilles changent de couleur.",
+            "In autumn, the leaves change colour."
+          ],
+          [
+            "L'automne est beau à la campagne.",
+            "Autumn is beautiful in the countryside."
+          ]
         ],
         "special": ""
       },
@@ -123,13 +211,24 @@
         "word": "l'hiver",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "hiver", "feminine": "hiver", "masculinePlural": "hivers", "femininePlural": "hivers" },
+        "forms": {
+          "masculine": "hiver",
+          "feminine": "",
+          "masculinePlural": "hivers",
+          "femininePlural": ""
+        },
         "pronunciation": "lee-vair",
         "meaning": "winter",
         "notes": "Use 'en hiver' (in winter). The 'h' is silent, so the article elides: l'hiver (not le hiver).",
         "examples": [
-          ["En hiver, on porte un manteau.", "In winter, we wear a coat."],
-          ["L'hiver est long cette année.", "Winter is long this year."]
+          [
+            "En hiver, on porte un manteau.",
+            "In winter, we wear a coat."
+          ],
+          [
+            "L'hiver est long cette année.",
+            "Winter is long this year."
+          ]
         ],
         "special": ""
       },
@@ -137,13 +236,24 @@
         "word": "le mois",
         "partOfSpeech": "noun",
         "gender": "male",
-        "forms": { "masculine": "mois", "feminine": "mois", "masculinePlural": "mois", "femininePlural": "mois" },
+        "forms": {
+          "masculine": "mois",
+          "feminine": "",
+          "masculinePlural": "mois",
+          "femininePlural": ""
+        },
         "pronunciation": "luh mwa",
         "meaning": "the month",
         "notes": "The final 's' is silent. 'Quel mois ?' = Which month? Months in French are not capitalised: janvier, février, mars, etc.",
         "examples": [
-          ["Quel mois est-ce qu'on est ?", "What month are we in?"],
-          ["Il y a douze mois dans une année.", "There are twelve months in a year."]
+          [
+            "Quel mois est-ce qu'on est ?",
+            "What month are we in?"
+          ],
+          [
+            "Il y a douze mois dans une année.",
+            "There are twelve months in a year."
+          ]
         ],
         "special": ""
       },
@@ -151,13 +261,24 @@
         "word": "la saison",
         "partOfSpeech": "noun",
         "gender": "female",
-        "forms": { "masculine": "saison", "feminine": "saison", "masculinePlural": "saisons", "femininePlural": "saisons" },
+        "forms": {
+          "masculine": "",
+          "feminine": "saison",
+          "masculinePlural": "",
+          "femininePlural": "saisons"
+        },
         "pronunciation": "la seh-zon",
         "meaning": "the season",
         "notes": "Used for both weather seasons and figurative seasons (e.g. TV season). 'Les quatre saisons' = the four seasons.",
         "examples": [
-          ["Quelle est ta saison préférée ?", "What is your favourite season?"],
-          ["Chaque saison a ses avantages.", "Each season has its advantages."]
+          [
+            "Quelle est ta saison préférée ?",
+            "What is your favourite season?"
+          ],
+          [
+            "Chaque saison a ses avantages.",
+            "Each season has its advantages."
+          ]
         ],
         "special": ""
       },
@@ -165,13 +286,24 @@
         "word": "l'année",
         "partOfSpeech": "noun",
         "gender": "female",
-        "forms": { "masculine": "année", "feminine": "année", "masculinePlural": "années", "femininePlural": "années" },
+        "forms": {
+          "masculine": "",
+          "feminine": "année",
+          "masculinePlural": "",
+          "femininePlural": "années"
+        },
         "pronunciation": "la-nay",
         "meaning": "the year",
         "notes": "'L'année' emphasises duration (the whole year). 'L'an' is used in specific expressions like 'le Nouvel An' (New Year) or 'j'ai vingt ans' (I'm twenty years old).",
         "examples": [
-          ["Cette année, je veux voyager en France.", "This year, I want to travel to France."],
-          ["L'année dernière, on a visité Paris.", "Last year, we visited Paris."]
+          [
+            "Cette année, je veux voyager en France.",
+            "This year, I want to travel to France."
+          ],
+          [
+            "L'année dernière, on a visité Paris.",
+            "Last year, we visited Paris."
+          ]
         ],
         "special": ""
       }
@@ -180,29 +312,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu aimes quelle saison ?"],
-        ["B", "J'adore l'été ! Il fait beau et je vais souvent à la plage."],
-        ["A", "Moi aussi ! Mais j'aime bien le printemps aussi. Il y a des fleurs partout."],
-        ["B", "Et l'automne ? Tu aimes ?"],
-        ["A", "Oui, parfois. Les couleurs sont jolies, mais il pleut souvent."],
-        ["B", "L'hiver, c'est difficile pour moi. Il fait toujours froid !"],
-        ["A", "C'est vrai. Mais en hiver, on boit du chocolat chaud — c'est agréable !"],
-        ["B", "Tu as raison. Chaque saison a quelque chose de bien."]
+        [
+          "A",
+          "Tu aimes quelle saison ?"
+        ],
+        [
+          "B",
+          "J'adore l'été ! Il fait beau et je vais souvent à la plage."
+        ],
+        [
+          "A",
+          "Moi aussi ! Mais j'aime bien le printemps aussi. Il y a des fleurs partout."
+        ],
+        [
+          "B",
+          "Et l'automne ? Tu aimes ?"
+        ],
+        [
+          "A",
+          "Oui, parfois. Les couleurs sont jolies, mais il pleut souvent."
+        ],
+        [
+          "B",
+          "L'hiver, c'est difficile pour moi. Il fait toujours froid !"
+        ],
+        [
+          "A",
+          "C'est vrai. Mais en hiver, on boit du chocolat chaud — c'est agréable !"
+        ],
+        [
+          "B",
+          "Tu as raison. Chaque saison a quelque chose de bien."
+        ]
       ],
       "questions": [
         {
           "question": "Quelle saison est-ce que le locuteur B adore ?",
-          "options": ["Le printemps", "L'été", "L'hiver"],
+          "options": [
+            "Le printemps",
+            "L'été",
+            "L'hiver"
+          ],
           "correctAnswer": "L'été"
         },
         {
           "question": "Qu'est-ce que le locuteur A aime au printemps ?",
-          "options": ["Le temps chaud", "Les fleurs partout", "Les longues journées"],
+          "options": [
+            "Le temps chaud",
+            "Les fleurs partout",
+            "Les longues journées"
+          ],
           "correctAnswer": "Les fleurs partout"
         },
         {
           "question": "Qu'est-ce que le locuteur A aime faire en hiver ?",
-          "options": ["Faire du ski", "Boire du chocolat chaud", "Lire près du feu"],
+          "options": [
+            "Faire du ski",
+            "Boire du chocolat chaud",
+            "Lire près du feu"
+          ],
           "correctAnswer": "Boire du chocolat chaud"
         }
       ],
@@ -210,17 +378,26 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Tu fais quoi en général selon les saisons ?"],
+        [
+          "A",
+          "Tu fais quoi en général selon les saisons ?"
+        ],
         [
           "B",
           "Ça dépend ! Au printemps, je fais souvent du vélo. En été, je voyage toujours quelque part."
         ],
-        ["A", "Tu voyages où d'habitude ?"],
+        [
+          "A",
+          "Tu voyages où d'habitude ?"
+        ],
         [
           "B",
           "L'année dernière, je suis allée dans le sud de la France. Cette année, je veux aller en Italie."
         ],
-        ["A", "Super ! Et en automne ?"],
+        [
+          "A",
+          "Super ! Et en automne ?"
+        ],
         [
           "B",
           "En automne, je reste souvent à la maison. Je lis et je cuisine. Et toi, tu fais quoi ?"
@@ -229,24 +406,48 @@
           "A",
           "Moi, je fais rarement du sport en hiver, mais je cours toujours en été. Au printemps, je jardine parfois."
         ],
-        ["B", "C'est bien d'avoir des activités pour chaque saison !"],
-        ["A", "Oui, ça rend l'année plus intéressante."],
-        ["B", "Tout à fait ! Le mois de juin, c'est le meilleur pour moi — le début de l'été !"]
+        [
+          "B",
+          "C'est bien d'avoir des activités pour chaque saison !"
+        ],
+        [
+          "A",
+          "Oui, ça rend l'année plus intéressante."
+        ],
+        [
+          "B",
+          "Tout à fait ! Le mois de juin, c'est le meilleur pour moi — le début de l'été !"
+        ]
       ],
       "questions": [
         {
           "question": "Qu'est-ce que le locuteur B fait souvent au printemps ?",
-          "options": ["Il voyage à l'étranger", "Il fait du vélo", "Il reste à la maison et lit", "Il court"],
+          "options": [
+            "Il voyage à l'étranger",
+            "Il fait du vélo",
+            "Il reste à la maison et lit",
+            "Il court"
+          ],
           "correctAnswer": "Il fait du vélo"
         },
         {
           "question": "Où est-ce que le locuteur B a voyagé l'année dernière ?",
-          "options": ["En Italie", "Dans le sud de la France", "Dans le nord de l'Espagne", "En Suisse"],
+          "options": [
+            "En Italie",
+            "Dans le sud de la France",
+            "Dans le nord de l'Espagne",
+            "En Suisse"
+          ],
           "correctAnswer": "Dans le sud de la France"
         },
         {
           "question": "Quel mois est le meilleur pour le locuteur B ?",
-          "options": ["Mars", "Mai", "Juin", "Septembre"],
+          "options": [
+            "Mars",
+            "Mai",
+            "Juin",
+            "Septembre"
+          ],
           "correctAnswer": "Juin"
         }
       ],
@@ -363,7 +564,12 @@
         {
           "type": "multipleChoice",
           "question": "In 'Il habite toujours à Paris', what does 'toujours' mean?",
-          "options": ["Always", "Still", "Often", "Sometimes"],
+          "options": [
+            "Always",
+            "Still",
+            "Often",
+            "Sometimes"
+          ],
           "correctAnswer": "Still",
           "explanation": "'Toujours' can mean 'still' as well as 'always'. Context tells you: here it means 'He still lives in Paris.'"
         },
@@ -394,7 +600,12 @@
         {
           "type": "multipleChoice",
           "question": "'Tu as jamais goûté la raclette ?' — What does 'jamais' mean here?",
-          "options": ["Never", "Ever", "Always", "Sometimes"],
+          "options": [
+            "Never",
+            "Ever",
+            "Always",
+            "Sometimes"
+          ],
           "correctAnswer": "Ever",
           "explanation": "Without 'ne', 'jamais' means 'ever' in questions: 'Have you ever tasted raclette?'"
         }
@@ -406,7 +617,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le printemps' mean?",
-        "options": ["Summer", "Spring", "Autumn"],
+        "options": [
+          "Summer",
+          "Spring",
+          "Autumn"
+        ],
         "correctAnswer": "Spring",
         "explanation": "'Le printemps' means spring. It is the only season that uses 'au' (au printemps) instead of 'en'.",
         "targetWord": "le printemps"
@@ -421,7 +636,11 @@
       {
         "type": "multipleChoice",
         "question": "Which preposition do you use with 'hiver'?",
-        "options": ["au hiver", "en hiver", "dans hiver"],
+        "options": [
+          "au hiver",
+          "en hiver",
+          "dans hiver"
+        ],
         "correctAnswer": "en hiver",
         "explanation": "Three of the four seasons use 'en': en été, en automne, en hiver. Only spring uses 'au': au printemps.",
         "targetWord": "l'hiver"
@@ -436,7 +655,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'the month' in French?",
-        "options": ["le mois", "la saison", "l'année"],
+        "options": [
+          "le mois",
+          "la saison",
+          "l'année"
+        ],
         "correctAnswer": "le mois",
         "explanation": "'Le mois' means the month. 'La saison' is the season and 'l'année' is the year.",
         "targetWord": "le mois"
@@ -446,7 +669,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la saison' mean?",
-        "options": ["The month", "The season", "The year", "The week"],
+        "options": [
+          "The month",
+          "The season",
+          "The year",
+          "The week"
+        ],
         "correctAnswer": "The season",
         "explanation": "'La saison' means the season. 'Les quatre saisons' = the four seasons.",
         "targetWord": "la saison"
@@ -461,7 +689,12 @@
       {
         "type": "multipleChoice",
         "question": "In 'Elle habite toujours à Lyon', what does 'toujours' mean?",
-        "options": ["Always", "Still", "Often", "Sometimes"],
+        "options": [
+          "Always",
+          "Still",
+          "Often",
+          "Sometimes"
+        ],
         "correctAnswer": "Still",
         "explanation": "'Toujours' can mean 'still' depending on context. Here: 'She still lives in Lyon.'",
         "targetWord": "l'année"

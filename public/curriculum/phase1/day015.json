@@ -11,9 +11,9 @@
         "gender": "male",
         "forms": {
           "masculine": "ménage",
-          "feminine": "ménage",
+          "feminine": "",
           "masculinePlural": "ménages",
-          "femininePlural": "ménages"
+          "femininePlural": ""
         },
         "pronunciation": "luh may-nazh",
         "meaning": "housework / cleaning",
@@ -62,9 +62,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "vaisselle",
+          "masculine": "",
           "feminine": "vaisselle",
-          "masculinePlural": "vaisselles",
+          "masculinePlural": "",
           "femininePlural": "vaisselles"
         },
         "pronunciation": "la veh-sel",
@@ -88,9 +88,9 @@
         "gender": "male",
         "forms": {
           "masculine": "balai",
-          "feminine": "balai",
+          "feminine": "",
           "masculinePlural": "balais",
-          "femininePlural": "balais"
+          "femininePlural": ""
         },
         "pronunciation": "luh ba-lay",
         "meaning": "the broom",
@@ -142,9 +142,9 @@
         "gender": "male",
         "forms": {
           "masculine": "ménage",
-          "feminine": "ménage",
+          "feminine": "",
           "masculinePlural": "ménages",
-          "femininePlural": "ménages"
+          "femininePlural": ""
         },
         "pronunciation": "luh may-nazh",
         "meaning": "housework / cleaning",
@@ -193,9 +193,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "vaisselle",
+          "masculine": "",
           "feminine": "vaisselle",
-          "masculinePlural": "vaisselles",
+          "masculinePlural": "",
           "femininePlural": "vaisselles"
         },
         "pronunciation": "la veh-sel",
@@ -219,9 +219,9 @@
         "gender": "male",
         "forms": {
           "masculine": "balai",
-          "feminine": "balai",
+          "feminine": "",
           "masculinePlural": "balais",
-          "femininePlural": "balais"
+          "femininePlural": ""
         },
         "pronunciation": "luh ba-lay",
         "meaning": "the broom",
@@ -271,9 +271,9 @@
         "gender": "male",
         "forms": {
           "masculine": "aspirateur",
-          "feminine": "aspirateur",
+          "feminine": "",
           "masculinePlural": "aspirateurs",
-          "femininePlural": "aspirateurs"
+          "femininePlural": ""
         },
         "pronunciation": "las-pee-ra-teur",
         "meaning": "the vacuum cleaner",
@@ -295,9 +295,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "lessive",
+          "masculine": "",
           "feminine": "lessive",
-          "masculinePlural": "lessives",
+          "masculinePlural": "",
           "femininePlural": "lessives"
         },
         "pronunciation": "la leh-seev",

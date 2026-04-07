@@ -12,10 +12,21 @@
         "pronunciation": "la leh-tr",
         "meaning": "the letter",
         "notes": "Refers to a letter you send by post. 'Écrire une lettre' = to write a letter. 'Poster une lettre' = to mail a letter.",
-        "forms": { "masculine": "lettre", "feminine": "lettre", "masculinePlural": "lettres", "femininePlural": "lettres" },
+        "forms": {
+          "masculine": "",
+          "feminine": "lettre",
+          "masculinePlural": "",
+          "femininePlural": "lettres"
+        },
         "examples": [
-          ["J'écris une lettre à ma grand-mère.", "I am writing a letter to my grandmother."],
-          ["La lettre arrive demain.", "The letter arrives tomorrow."]
+          [
+            "J'écris une lettre à ma grand-mère.",
+            "I am writing a letter to my grandmother."
+          ],
+          [
+            "La lettre arrive demain.",
+            "The letter arrives tomorrow."
+          ]
         ],
         "special": ""
       },
@@ -26,10 +37,21 @@
         "pronunciation": "luh tam-br",
         "meaning": "the stamp",
         "notes": "Short for 'le timbre-poste' (postage stamp). 'Coller un timbre' = to stick on a stamp. Also means 'tone' in music contexts.",
-        "forms": { "masculine": "timbre", "feminine": "timbre", "masculinePlural": "timbres", "femininePlural": "timbres" },
+        "forms": {
+          "masculine": "timbre",
+          "feminine": "",
+          "masculinePlural": "timbres",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Il faut un timbre pour envoyer cette lettre.", "You need a stamp to send this letter."],
-          ["Un timbre coûte un euro vingt.", "A stamp costs one euro twenty."]
+          [
+            "Il faut un timbre pour envoyer cette lettre.",
+            "You need a stamp to send this letter."
+          ],
+          [
+            "Un timbre coûte un euro vingt.",
+            "A stamp costs one euro twenty."
+          ]
         ],
         "special": ""
       },
@@ -40,10 +62,23 @@
         "pronunciation": "on-vwa-yay",
         "meaning": "to send",
         "notes": "Stem-changing verb: the 'y' changes to 'i' before silent endings (j'envoie, tu envoies). Used for letters, emails, packages, and messages.",
-        "forms": { "je": "j'envoie", "tu": "tu envoies", "il": "il/elle/on envoie", "nous": "nous envoyons", "vous": "vous envoyez", "ils": "ils/elles envoient" },
+        "forms": {
+          "je": "j'envoie",
+          "tu": "tu envoies",
+          "il": "il/elle/on envoie",
+          "nous": "nous envoyons",
+          "vous": "vous envoyez",
+          "ils": "ils/elles envoient"
+        },
         "examples": [
-          ["J'envoie une lettre à mon ami.", "I send a letter to my friend."],
-          ["Envoyez le colis avant vendredi.", "Send the package before Friday."]
+          [
+            "J'envoie une lettre à mon ami.",
+            "I send a letter to my friend."
+          ],
+          [
+            "Envoyez le colis avant vendredi.",
+            "Send the package before Friday."
+          ]
         ],
         "special": ""
       },
@@ -54,10 +89,21 @@
         "pronunciation": "la bank",
         "meaning": "the bank",
         "notes": "Refers to a financial bank. 'Aller à la banque' = to go to the bank. The person working there is 'le/la banquier/banquière'.",
-        "forms": { "masculine": "banque", "feminine": "banque", "masculinePlural": "banques", "femininePlural": "banques" },
+        "forms": {
+          "masculine": "",
+          "feminine": "banque",
+          "masculinePlural": "",
+          "femininePlural": "banques"
+        },
         "examples": [
-          ["Je vais à la banque cet après-midi.", "I am going to the bank this afternoon."],
-          ["La banque ferme à dix-sept heures.", "The bank closes at five o'clock."]
+          [
+            "Je vais à la banque cet après-midi.",
+            "I am going to the bank this afternoon."
+          ],
+          [
+            "La banque ferme à dix-sept heures.",
+            "The bank closes at five o'clock."
+          ]
         ],
         "special": ""
       },
@@ -68,10 +114,21 @@
         "pronunciation": "lar-zhon",
         "meaning": "money / silver",
         "notes": "Means both 'money' and 'silver' (the metal). 'Avoir de l'argent' = to have money. 'L'argent liquide' = cash.",
-        "forms": { "masculine": "argent", "feminine": "argent", "masculinePlural": "argents", "femininePlural": "argents" },
+        "forms": {
+          "masculine": "argent",
+          "feminine": "",
+          "masculinePlural": "argents",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Je n'ai pas assez d'argent.", "I don't have enough money."],
-          ["Il faut de l'argent pour acheter un billet.", "You need money to buy a ticket."]
+          [
+            "Je n'ai pas assez d'argent.",
+            "I don't have enough money."
+          ],
+          [
+            "Il faut de l'argent pour acheter un billet.",
+            "You need money to buy a ticket."
+          ]
         ],
         "special": ""
       }
@@ -84,10 +141,21 @@
         "pronunciation": "la leh-tr",
         "meaning": "the letter",
         "notes": "Refers to a letter you send by post. 'Écrire une lettre' = to write a letter. 'Poster une lettre' = to mail a letter.",
-        "forms": { "masculine": "lettre", "feminine": "lettre", "masculinePlural": "lettres", "femininePlural": "lettres" },
+        "forms": {
+          "masculine": "",
+          "feminine": "lettre",
+          "masculinePlural": "",
+          "femininePlural": "lettres"
+        },
         "examples": [
-          ["J'écris une lettre à ma grand-mère.", "I am writing a letter to my grandmother."],
-          ["La lettre arrive demain.", "The letter arrives tomorrow."]
+          [
+            "J'écris une lettre à ma grand-mère.",
+            "I am writing a letter to my grandmother."
+          ],
+          [
+            "La lettre arrive demain.",
+            "The letter arrives tomorrow."
+          ]
         ],
         "special": ""
       },
@@ -98,10 +166,21 @@
         "pronunciation": "luh tam-br",
         "meaning": "the stamp",
         "notes": "Short for 'le timbre-poste' (postage stamp). 'Coller un timbre' = to stick on a stamp. Also means 'tone' in music contexts.",
-        "forms": { "masculine": "timbre", "feminine": "timbre", "masculinePlural": "timbres", "femininePlural": "timbres" },
+        "forms": {
+          "masculine": "timbre",
+          "feminine": "",
+          "masculinePlural": "timbres",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Il faut un timbre pour envoyer cette lettre.", "You need a stamp to send this letter."],
-          ["Un timbre coûte un euro vingt.", "A stamp costs one euro twenty."]
+          [
+            "Il faut un timbre pour envoyer cette lettre.",
+            "You need a stamp to send this letter."
+          ],
+          [
+            "Un timbre coûte un euro vingt.",
+            "A stamp costs one euro twenty."
+          ]
         ],
         "special": ""
       },
@@ -112,10 +191,23 @@
         "pronunciation": "on-vwa-yay",
         "meaning": "to send",
         "notes": "Stem-changing verb: the 'y' changes to 'i' before silent endings (j'envoie, tu envoies). Used for letters, emails, packages, and messages.",
-        "forms": { "je": "j'envoie", "tu": "tu envoies", "il": "il/elle/on envoie", "nous": "nous envoyons", "vous": "vous envoyez", "ils": "ils/elles envoient" },
+        "forms": {
+          "je": "j'envoie",
+          "tu": "tu envoies",
+          "il": "il/elle/on envoie",
+          "nous": "nous envoyons",
+          "vous": "vous envoyez",
+          "ils": "ils/elles envoient"
+        },
         "examples": [
-          ["J'envoie une lettre à mon ami.", "I send a letter to my friend."],
-          ["Envoyez le colis avant vendredi.", "Send the package before Friday."]
+          [
+            "J'envoie une lettre à mon ami.",
+            "I send a letter to my friend."
+          ],
+          [
+            "Envoyez le colis avant vendredi.",
+            "Send the package before Friday."
+          ]
         ],
         "special": ""
       },
@@ -126,10 +218,21 @@
         "pronunciation": "la bank",
         "meaning": "the bank",
         "notes": "Refers to a financial bank. 'Aller à la banque' = to go to the bank. The person working there is 'le/la banquier/banquière'.",
-        "forms": { "masculine": "banque", "feminine": "banque", "masculinePlural": "banques", "femininePlural": "banques" },
+        "forms": {
+          "masculine": "",
+          "feminine": "banque",
+          "masculinePlural": "",
+          "femininePlural": "banques"
+        },
         "examples": [
-          ["Je vais à la banque cet après-midi.", "I am going to the bank this afternoon."],
-          ["La banque ferme à dix-sept heures.", "The bank closes at five o'clock."]
+          [
+            "Je vais à la banque cet après-midi.",
+            "I am going to the bank this afternoon."
+          ],
+          [
+            "La banque ferme à dix-sept heures.",
+            "The bank closes at five o'clock."
+          ]
         ],
         "special": ""
       },
@@ -140,10 +243,21 @@
         "pronunciation": "lar-zhon",
         "meaning": "money / silver",
         "notes": "Means both 'money' and 'silver' (the metal). 'Avoir de l'argent' = to have money. 'L'argent liquide' = cash.",
-        "forms": { "masculine": "argent", "feminine": "argent", "masculinePlural": "argents", "femininePlural": "argents" },
+        "forms": {
+          "masculine": "argent",
+          "feminine": "",
+          "masculinePlural": "argents",
+          "femininePlural": ""
+        },
         "examples": [
-          ["Je n'ai pas assez d'argent.", "I don't have enough money."],
-          ["Il faut de l'argent pour acheter un billet.", "You need money to buy a ticket."]
+          [
+            "Je n'ai pas assez d'argent.",
+            "I don't have enough money."
+          ],
+          [
+            "Il faut de l'argent pour acheter un billet.",
+            "You need money to buy a ticket."
+          ]
         ],
         "special": ""
       },
@@ -154,10 +268,21 @@
         "pronunciation": "luh ko-lee",
         "meaning": "the package / parcel",
         "notes": "'Envoyer un colis' = to send a package. 'Recevoir un colis' = to receive a package. The final 's' is silent.",
-        "forms": { "masculine": "colis", "feminine": "colis", "masculinePlural": "colis", "femininePlural": "colis" },
+        "forms": {
+          "masculine": "colis",
+          "feminine": "",
+          "masculinePlural": "colis",
+          "femininePlural": ""
+        },
         "examples": [
-          ["J'envoie un colis à ma famille.", "I send a package to my family."],
-          ["Le colis arrive dans une semaine.", "The package arrives in a week."]
+          [
+            "J'envoie un colis à ma famille.",
+            "I send a package to my family."
+          ],
+          [
+            "Le colis arrive dans une semaine.",
+            "The package arrives in a week."
+          ]
         ],
         "special": ""
       },
@@ -168,13 +293,21 @@
         "pronunciation": "luh kont",
         "meaning": "the account",
         "notes": "'Un compte bancaire' = a bank account. 'Ouvrir un compte' = to open an account. Do not confuse with 'le conte' (a tale/story) or 'le comte' (a count/earl).",
-        "forms": { "masculine": "compte", "feminine": "compte", "masculinePlural": "comptes", "femininePlural": "comptes" },
+        "forms": {
+          "masculine": "compte",
+          "feminine": "",
+          "masculinePlural": "comptes",
+          "femininePlural": ""
+        },
         "examples": [
           [
             "Je voudrais ouvrir un compte, s'il vous plaît.",
             "I would like to open an account, please."
           ],
-          ["Mon compte est à la Banque Populaire.", "My account is at Banque Populaire."]
+          [
+            "Mon compte est à la Banque Populaire.",
+            "My account is at Banque Populaire."
+          ]
         ],
         "special": ""
       }
@@ -183,29 +316,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonjour, je voudrais envoyer cette lettre, s'il vous plaît."],
-        ["B", "Bien sûr ! C'est pour la France ou pour l'étranger ?"],
-        ["A", "Pour la France, s'il vous plaît."],
-        ["B", "D'accord. Achetez un timbre à un euro vingt. Collez-le sur l'enveloppe."],
-        ["A", "Et après, je fais quoi ?"],
-        ["B", "Mettez la lettre dans la boîte aux lettres dehors. Elle arrive en deux jours."],
-        ["A", "Merci beaucoup ! Et je peux aussi envoyer de l'argent par courrier ?"],
-        ["B", "Non, pour l'argent, allez à la banque. C'est plus sûr."]
+        [
+          "A",
+          "Bonjour, je voudrais envoyer cette lettre, s'il vous plaît."
+        ],
+        [
+          "B",
+          "Bien sûr ! C'est pour la France ou pour l'étranger ?"
+        ],
+        [
+          "A",
+          "Pour la France, s'il vous plaît."
+        ],
+        [
+          "B",
+          "D'accord. Achetez un timbre à un euro vingt. Collez-le sur l'enveloppe."
+        ],
+        [
+          "A",
+          "Et après, je fais quoi ?"
+        ],
+        [
+          "B",
+          "Mettez la lettre dans la boîte aux lettres dehors. Elle arrive en deux jours."
+        ],
+        [
+          "A",
+          "Merci beaucoup ! Et je peux aussi envoyer de l'argent par courrier ?"
+        ],
+        [
+          "B",
+          "Non, pour l'argent, allez à la banque. C'est plus sûr."
+        ]
       ],
       "questions": [
         {
           "question": "Où est-ce que le client envoie la lettre ?",
-          "options": ["À l'étranger", "En France", "À la banque"],
+          "options": [
+            "À l'étranger",
+            "En France",
+            "À la banque"
+          ],
           "correctAnswer": "En France"
         },
         {
           "question": "Combien coûte un timbre ?",
-          "options": ["Un euro", "Un euro vingt", "Deux euros"],
+          "options": [
+            "Un euro",
+            "Un euro vingt",
+            "Deux euros"
+          ],
           "correctAnswer": "Un euro vingt"
         },
         {
           "question": "Qu'est-ce que l'employé dit pour envoyer de l'argent ?",
-          "options": ["Utiliser un timbre spécial", "Aller à la banque", "Envoyer dans un colis"],
+          "options": [
+            "Utiliser un timbre spécial",
+            "Aller à la banque",
+            "Envoyer dans un colis"
+          ],
           "correctAnswer": "Aller à la banque"
         }
       ],
@@ -213,15 +382,30 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Bonjour, je voudrais envoyer ce colis au Canada, s'il vous plaît."],
-        ["B", "D'accord. Posez-le sur la balance... Il fait trois kilos. C'est quinze euros."],
-        ["A", "Très bien. Il arrive en combien de temps ?"],
+        [
+          "A",
+          "Bonjour, je voudrais envoyer ce colis au Canada, s'il vous plaît."
+        ],
+        [
+          "B",
+          "D'accord. Posez-le sur la balance... Il fait trois kilos. C'est quinze euros."
+        ],
+        [
+          "A",
+          "Très bien. Il arrive en combien de temps ?"
+        ],
         [
           "B",
           "Comptez une semaine environ. Remplissez ce formulaire de douane — écrivez le contenu et la valeur."
         ],
-        ["A", "Voilà, c'est fait. Je peux payer par carte ?"],
-        ["B", "Oui, bien sûr. Insérez votre carte ici. N'oubliez pas votre reçu."],
+        [
+          "A",
+          "Voilà, c'est fait. Je peux payer par carte ?"
+        ],
+        [
+          "B",
+          "Oui, bien sûr. Insérez votre carte ici. N'oubliez pas votre reçu."
+        ],
         [
           "A",
           "Merci ! J'ai aussi besoin d'aller à la banque. Savez-vous à quelle heure elle ouvre ?"
@@ -230,23 +414,44 @@
           "B",
           "La banque à côté ouvre à neuf heures. Dépêchez-vous, il est déjà huit heures cinquante !"
         ],
-        ["A", "Merci beaucoup pour votre aide !"],
-        ["B", "De rien. Bonne journée !"]
+        [
+          "A",
+          "Merci beaucoup pour votre aide !"
+        ],
+        [
+          "B",
+          "De rien. Bonne journée !"
+        ]
       ],
       "questions": [
         {
           "question": "Combien pèse le colis ?",
-          "options": ["Deux kilos", "Trois kilos", "Cinq kilos", "Un kilo"],
+          "options": [
+            "Deux kilos",
+            "Trois kilos",
+            "Cinq kilos",
+            "Un kilo"
+          ],
           "correctAnswer": "Trois kilos"
         },
         {
           "question": "Combien de temps prend la livraison au Canada ?",
-          "options": ["Deux jours", "Trois jours", "Environ une semaine", "Deux semaines"],
+          "options": [
+            "Deux jours",
+            "Trois jours",
+            "Environ une semaine",
+            "Deux semaines"
+          ],
           "correctAnswer": "Environ une semaine"
         },
         {
           "question": "Qu'est-ce que l'employé dit de ne pas oublier ?",
-          "options": ["Le formulaire de douane", "Le reçu", "Le timbre", "L'adresse"],
+          "options": [
+            "Le formulaire de douane",
+            "Le reçu",
+            "Le timbre",
+            "L'adresse"
+          ],
           "correctAnswer": "Le reçu"
         }
       ],
@@ -285,7 +490,11 @@
         {
           "type": "multipleChoice",
           "question": "What is the vous imperative of 'attendre'?",
-          "options": ["Attende !", "Attendez !", "Attendes !"],
+          "options": [
+            "Attende !",
+            "Attendez !",
+            "Attendes !"
+          ],
           "correctAnswer": "Attendez !",
           "explanation": "-RE verbs keep normal present tense forms. Vous attendez → Attendez !"
         },
@@ -298,7 +507,11 @@
         {
           "type": "multipleChoice",
           "question": "Which is the correct tu imperative of 'regarder'?",
-          "options": ["Regardes !", "Regarde !", "Regarder !"],
+          "options": [
+            "Regardes !",
+            "Regarde !",
+            "Regarder !"
+          ],
           "correctAnswer": "Regarde !",
           "explanation": "-ER verbs drop the -s from the tu form: tu regardes → Regarde !"
         },
@@ -337,7 +550,12 @@
         {
           "type": "multipleChoice",
           "question": "What is the vous imperative of 'avoir'?",
-          "options": ["Avez !", "Ayez !", "Avons !", "Aie !"],
+          "options": [
+            "Avez !",
+            "Ayez !",
+            "Avons !",
+            "Aie !"
+          ],
           "correctAnswer": "Ayez !",
           "explanation": "'Avoir' has an irregular imperative: tu → aie, vous → ayez, nous → ayons."
         },
@@ -350,7 +568,12 @@
         {
           "type": "multipleChoice",
           "question": "Which is correct for 'Look at me!' (tu)?",
-          "options": ["Regarde-moi !", "Me regarde !", "Regarde-me !", "Regardes-moi !"],
+          "options": [
+            "Regarde-moi !",
+            "Me regarde !",
+            "Regarde-me !",
+            "Regardes-moi !"
+          ],
           "correctAnswer": "Regarde-moi !",
           "explanation": "Affirmative imperative: pronoun after verb with hyphen. 'Me' becomes 'moi' after the verb. -ER tu form drops -s."
         },
@@ -381,7 +604,12 @@
         {
           "type": "multipleChoice",
           "question": "Which is the correct nous imperative of 'être'?",
-          "options": ["Sommes !", "Soyons !", "Soyez !", "Soions !"],
+          "options": [
+            "Sommes !",
+            "Soyons !",
+            "Soyez !",
+            "Soions !"
+          ],
           "correctAnswer": "Soyons !",
           "explanation": "Irregular: nous → soyons. 'Soyons courageux !' = Let's be brave!"
         }
@@ -393,7 +621,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le timbre' mean?",
-        "options": ["The letter", "The stamp", "The envelope"],
+        "options": [
+          "The letter",
+          "The stamp",
+          "The envelope"
+        ],
         "correctAnswer": "The stamp",
         "explanation": "'Le timbre' is a postage stamp. 'Coller un timbre' = to stick on a stamp.",
         "targetWord": "le timbre"
@@ -408,7 +640,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'money' in French?",
-        "options": ["la banque", "la lettre", "l'argent"],
+        "options": [
+          "la banque",
+          "la lettre",
+          "l'argent"
+        ],
         "correctAnswer": "l'argent",
         "explanation": "'L'argent' means money (also silver). 'La banque' is the bank.",
         "targetWord": "l'argent"
@@ -416,7 +652,11 @@
       {
         "type": "multipleChoice",
         "question": "Which is the correct vous imperative of 'attendre' (to wait)?",
-        "options": ["Attende !", "Attendez !", "Attendes !"],
+        "options": [
+          "Attende !",
+          "Attendez !",
+          "Attendes !"
+        ],
         "correctAnswer": "Attendez !",
         "explanation": "-RE verbs keep their normal present tense form: vous attendez → Attendez !",
         "targetWord": "la banque"
@@ -433,7 +673,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le colis' mean?",
-        "options": ["The letter", "The stamp", "The package", "The envelope"],
+        "options": [
+          "The letter",
+          "The stamp",
+          "The package",
+          "The envelope"
+        ],
         "correctAnswer": "The package",
         "explanation": "'Le colis' is a package or parcel. 'Envoyer un colis' = to send a package.",
         "targetWord": "le colis"

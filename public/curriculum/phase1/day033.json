@@ -10,17 +10,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "valise",
+          "masculine": "",
           "feminine": "valise",
-          "masculinePlural": "valises",
+          "masculinePlural": "",
           "femininePlural": "valises"
         },
         "pronunciation": "la va-leez",
         "meaning": "the suitcase",
         "notes": "'Faire sa valise' = to pack one's suitcase. 'Défaire sa valise' = to unpack. 'Une valise à roulettes' = a wheeled suitcase. Essential travel vocabulary!",
         "examples": [
-          ["J'ai fait ma valise hier soir.", "I packed my suitcase last night."],
-          ["Ma valise est trop lourde !", "My suitcase is too heavy!"]
+          [
+            "J'ai fait ma valise hier soir.",
+            "I packed my suitcase last night."
+          ],
+          [
+            "Ma valise est trop lourde !",
+            "My suitcase is too heavy!"
+          ]
         ],
         "special": ""
       },
@@ -30,16 +36,22 @@
         "gender": "male",
         "forms": {
           "masculine": "avion",
-          "feminine": "avion",
+          "feminine": "",
           "masculinePlural": "avions",
-          "femininePlural": "avions"
+          "femininePlural": ""
         },
         "pronunciation": "la-vee-on",
         "meaning": "the plane / the aeroplane",
         "notes": "'Prendre l'avion' = to take the plane / to fly. 'En avion' = by plane. 'L'aéroport' = the airport. 'Un vol' = a flight.",
         "examples": [
-          ["Nous prenons l'avion à dix heures.", "We're taking the plane at ten o'clock."],
-          ["C'est mon premier voyage en avion.", "It's my first trip by plane."]
+          [
+            "Nous prenons l'avion à dix heures.",
+            "We're taking the plane at ten o'clock."
+          ],
+          [
+            "C'est mon premier voyage en avion.",
+            "It's my first trip by plane."
+          ]
         ],
         "special": ""
       },
@@ -49,16 +61,22 @@
         "gender": "male",
         "forms": {
           "masculine": "hôtel",
-          "feminine": "hôtel",
+          "feminine": "",
           "masculinePlural": "hôtels",
-          "femininePlural": "hôtels"
+          "femininePlural": ""
         },
         "pronunciation": "lo-tel",
         "meaning": "the hotel",
         "notes": "Note the silent 'h' — use 'l'' not 'le'. 'Réserver un hôtel' = to book a hotel. 'Une chambre d'hôtel' = a hotel room. French hotels are rated with stars: 'un hôtel trois étoiles' = a three-star hotel.",
         "examples": [
-          ["L'hôtel est près de la plage.", "The hotel is near the beach."],
-          ["Nous avons réservé un hôtel deux étoiles.", "We booked a two-star hotel."]
+          [
+            "L'hôtel est près de la plage.",
+            "The hotel is near the beach."
+          ],
+          [
+            "Nous avons réservé un hôtel deux étoiles.",
+            "We booked a two-star hotel."
+          ]
         ],
         "special": ""
       },
@@ -67,17 +85,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "plage",
+          "masculine": "",
           "feminine": "plage",
-          "masculinePlural": "plages",
+          "masculinePlural": "",
           "femininePlural": "plages"
         },
         "pronunciation": "la plazh",
         "meaning": "the beach",
         "notes": "'Aller à la plage' = to go to the beach. 'Sur la plage' = on the beach. Famous French beaches include the Côte d'Azur (French Riviera) and the Atlantic coast in Biarritz.",
         "examples": [
-          ["On va à la plage demain ?", "Shall we go to the beach tomorrow?"],
-          ["La plage est magnifique ici.", "The beach is magnificent here."]
+          [
+            "On va à la plage demain ?",
+            "Shall we go to the beach tomorrow?"
+          ],
+          [
+            "La plage est magnifique ici.",
+            "The beach is magnificent here."
+          ]
         ],
         "special": ""
       },
@@ -86,17 +110,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "vacances",
+          "masculine": "",
           "feminine": "vacances",
-          "masculinePlural": "vacances",
+          "masculinePlural": "",
           "femininePlural": "vacances"
         },
         "pronunciation": "lay va-kons",
         "meaning": "the holiday(s) / the vacation",
         "notes": "Always plural in French! 'Partir en vacances' = to go on holiday. 'Les grandes vacances' = the summer holidays (July-August in France). 'Bonnes vacances !' = Have a good holiday!",
         "examples": [
-          ["Nous partons en vacances la semaine prochaine.", "We're going on holiday next week."],
-          ["Bonnes vacances !", "Have a good holiday!"]
+          [
+            "Nous partons en vacances la semaine prochaine.",
+            "We're going on holiday next week."
+          ],
+          [
+            "Bonnes vacances !",
+            "Have a good holiday!"
+          ]
         ],
         "special": ""
       }
@@ -107,17 +137,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "valise",
+          "masculine": "",
           "feminine": "valise",
-          "masculinePlural": "valises",
+          "masculinePlural": "",
           "femininePlural": "valises"
         },
         "pronunciation": "la va-leez",
         "meaning": "the suitcase",
         "notes": "'Faire sa valise' = to pack one's suitcase. 'Défaire sa valise' = to unpack. 'Une valise à roulettes' = a wheeled suitcase. Essential travel vocabulary!",
         "examples": [
-          ["J'ai fait ma valise hier soir.", "I packed my suitcase last night."],
-          ["Ma valise est trop lourde !", "My suitcase is too heavy!"]
+          [
+            "J'ai fait ma valise hier soir.",
+            "I packed my suitcase last night."
+          ],
+          [
+            "Ma valise est trop lourde !",
+            "My suitcase is too heavy!"
+          ]
         ],
         "special": ""
       },
@@ -127,16 +163,22 @@
         "gender": "male",
         "forms": {
           "masculine": "avion",
-          "feminine": "avion",
+          "feminine": "",
           "masculinePlural": "avions",
-          "femininePlural": "avions"
+          "femininePlural": ""
         },
         "pronunciation": "la-vee-on",
         "meaning": "the plane / the aeroplane",
         "notes": "'Prendre l'avion' = to take the plane / to fly. 'En avion' = by plane. 'L'aéroport' = the airport. 'Un vol' = a flight.",
         "examples": [
-          ["Nous prenons l'avion à dix heures.", "We're taking the plane at ten o'clock."],
-          ["C'est mon premier voyage en avion.", "It's my first trip by plane."]
+          [
+            "Nous prenons l'avion à dix heures.",
+            "We're taking the plane at ten o'clock."
+          ],
+          [
+            "C'est mon premier voyage en avion.",
+            "It's my first trip by plane."
+          ]
         ],
         "special": ""
       },
@@ -146,16 +188,22 @@
         "gender": "male",
         "forms": {
           "masculine": "hôtel",
-          "feminine": "hôtel",
+          "feminine": "",
           "masculinePlural": "hôtels",
-          "femininePlural": "hôtels"
+          "femininePlural": ""
         },
         "pronunciation": "lo-tel",
         "meaning": "the hotel",
         "notes": "Note the silent 'h' — use 'l'' not 'le'. 'Réserver un hôtel' = to book a hotel. 'Une chambre d'hôtel' = a hotel room. French hotels are rated with stars: 'un hôtel trois étoiles' = a three-star hotel.",
         "examples": [
-          ["L'hôtel est près de la plage.", "The hotel is near the beach."],
-          ["Nous avons réservé un hôtel deux étoiles.", "We booked a two-star hotel."]
+          [
+            "L'hôtel est près de la plage.",
+            "The hotel is near the beach."
+          ],
+          [
+            "Nous avons réservé un hôtel deux étoiles.",
+            "We booked a two-star hotel."
+          ]
         ],
         "special": ""
       },
@@ -164,17 +212,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "plage",
+          "masculine": "",
           "feminine": "plage",
-          "masculinePlural": "plages",
+          "masculinePlural": "",
           "femininePlural": "plages"
         },
         "pronunciation": "la plazh",
         "meaning": "the beach",
         "notes": "'Aller à la plage' = to go to the beach. 'Sur la plage' = on the beach. Famous French beaches include the Côte d'Azur (French Riviera) and the Atlantic coast in Biarritz.",
         "examples": [
-          ["On va à la plage demain ?", "Shall we go to the beach tomorrow?"],
-          ["La plage est magnifique ici.", "The beach is magnificent here."]
+          [
+            "On va à la plage demain ?",
+            "Shall we go to the beach tomorrow?"
+          ],
+          [
+            "La plage est magnifique ici.",
+            "The beach is magnificent here."
+          ]
         ],
         "special": ""
       },
@@ -183,17 +237,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "vacances",
+          "masculine": "",
           "feminine": "vacances",
-          "masculinePlural": "vacances",
+          "masculinePlural": "",
           "femininePlural": "vacances"
         },
         "pronunciation": "lay va-kons",
         "meaning": "the holiday(s) / the vacation",
         "notes": "Always plural in French! 'Partir en vacances' = to go on holiday. 'Les grandes vacances' = the summer holidays (July-August in France). 'Bonnes vacances !' = Have a good holiday!",
         "examples": [
-          ["Nous partons en vacances la semaine prochaine.", "We're going on holiday next week."],
-          ["Bonnes vacances !", "Have a good holiday!"]
+          [
+            "Nous partons en vacances la semaine prochaine.",
+            "We're going on holiday next week."
+          ],
+          [
+            "Bonnes vacances !",
+            "Have a good holiday!"
+          ]
         ],
         "special": ""
       },
@@ -203,16 +263,22 @@
         "gender": "male",
         "forms": {
           "masculine": "passeport",
-          "feminine": "passeport",
+          "feminine": "",
           "masculinePlural": "passeports",
-          "femininePlural": "passeports"
+          "femininePlural": ""
         },
         "pronunciation": "luh pass-por",
         "meaning": "the passport",
         "notes": "'Un contrôle des passeports' = a passport check. 'Votre passeport, s'il vous plaît' = Your passport, please. Within the EU Schengen zone, passports are not usually checked at borders.",
         "examples": [
-          ["N'oublie pas ton passeport !", "Don't forget your passport!"],
-          ["Mon passeport est valide jusqu'en 2030.", "My passport is valid until 2030."]
+          [
+            "N'oublie pas ton passeport !",
+            "Don't forget your passport!"
+          ],
+          [
+            "Mon passeport est valide jusqu'en 2030.",
+            "My passport is valid until 2030."
+          ]
         ],
         "special": ""
       },
@@ -221,17 +287,23 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "réservation",
+          "masculine": "",
           "feminine": "réservation",
-          "masculinePlural": "réservations",
+          "masculinePlural": "",
           "femininePlural": "réservations"
         },
         "pronunciation": "la ray-zair-va-syon",
         "meaning": "the reservation / the booking",
         "notes": "'Faire une réservation' = to make a reservation. 'Confirmer une réservation' = to confirm a booking. 'Annuler une réservation' = to cancel a reservation. Used for hotels, restaurants, and trains.",
         "examples": [
-          ["J'ai une réservation au nom de Dupont.", "I have a reservation under the name Dupont."],
-          ["Il faut faire une réservation à l'avance.", "You need to book in advance."]
+          [
+            "J'ai une réservation au nom de Dupont.",
+            "I have a reservation under the name Dupont."
+          ],
+          [
+            "Il faut faire une réservation à l'avance.",
+            "You need to book in advance."
+          ]
         ],
         "special": ""
       }
@@ -240,29 +312,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Tu pars en vacances cet été ?"],
-        ["B", "Oui ! Je vais à la plage avec ma famille."],
-        ["A", "Super ! Vous prenez l'avion ?"],
-        ["B", "Oui, on prend l'avion samedi matin."],
-        ["A", "Et l'hôtel, c'est bien ?"],
-        ["B", "C'est le plus bel hôtel de la ville ! Il est près de la plage."],
-        ["A", "Génial ! Tu as déjà fait ta valise ?"],
-        ["B", "Non, pas encore. Ma valise est trop petite — c'est le plus gros problème !"]
+        [
+          "A",
+          "Tu pars en vacances cet été ?"
+        ],
+        [
+          "B",
+          "Oui ! Je vais à la plage avec ma famille."
+        ],
+        [
+          "A",
+          "Super ! Vous prenez l'avion ?"
+        ],
+        [
+          "B",
+          "Oui, on prend l'avion samedi matin."
+        ],
+        [
+          "A",
+          "Et l'hôtel, c'est bien ?"
+        ],
+        [
+          "B",
+          "C'est le plus bel hôtel de la ville ! Il est près de la plage."
+        ],
+        [
+          "A",
+          "Génial ! Tu as déjà fait ta valise ?"
+        ],
+        [
+          "B",
+          "Non, pas encore. Ma valise est trop petite — c'est le plus gros problème !"
+        ]
       ],
       "questions": [
         {
           "question": "Où est-ce que B va en vacances ?",
-          "options": ["À la montagne", "À la plage", "Dans une ville"],
+          "options": [
+            "À la montagne",
+            "À la plage",
+            "Dans une ville"
+          ],
           "correctAnswer": "À la plage"
         },
         {
           "question": "Comment est-ce qu'ils voyagent ?",
-          "options": ["En train", "En voiture", "En avion"],
+          "options": [
+            "En train",
+            "En voiture",
+            "En avion"
+          ],
           "correctAnswer": "En avion"
         },
         {
           "question": "Quel est le problème de B ?",
-          "options": ["Il n'a pas de passeport", "Sa valise est trop petite", "L'hôtel est loin"],
+          "options": [
+            "Il n'a pas de passeport",
+            "Sa valise est trop petite",
+            "L'hôtel est loin"
+          ],
           "correctAnswer": "Sa valise est trop petite"
         }
       ],
@@ -270,36 +378,86 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Alors, tu as choisi ta destination de vacances ?"],
-        ["B", "Oui ! J'hésite entre Nice et Barcelone."],
-        ["A", "Nice, c'est la plus belle ville de la Côte d'Azur !"],
-        ["B", "C'est vrai, mais Barcelone est la moins chère des deux."],
-        ["A", "Tu as regardé les vols ?"],
-        ["B", "Oui, l'avion pour Nice est le plus rapide — seulement une heure trente."],
-        ["A", "Et l'hôtel ?"],
-        ["B", "J'ai trouvé un hôtel trois étoiles à Nice. La réservation est faite. Il a la meilleure vue sur la plage."],
-        ["A", "Et ton passeport, il est valide ?"],
-        ["B", "Oui, heureusement ! J'ai fait ma valise hier. C'est les meilleures vacances de l'année !"]
+        [
+          "A",
+          "Alors, tu as choisi ta destination de vacances ?"
+        ],
+        [
+          "B",
+          "Oui ! J'hésite entre Nice et Barcelone."
+        ],
+        [
+          "A",
+          "Nice, c'est la plus belle ville de la Côte d'Azur !"
+        ],
+        [
+          "B",
+          "C'est vrai, mais Barcelone est la moins chère des deux."
+        ],
+        [
+          "A",
+          "Tu as regardé les vols ?"
+        ],
+        [
+          "B",
+          "Oui, l'avion pour Nice est le plus rapide — seulement une heure trente."
+        ],
+        [
+          "A",
+          "Et l'hôtel ?"
+        ],
+        [
+          "B",
+          "J'ai trouvé un hôtel trois étoiles à Nice. La réservation est faite. Il a la meilleure vue sur la plage."
+        ],
+        [
+          "A",
+          "Et ton passeport, il est valide ?"
+        ],
+        [
+          "B",
+          "Oui, heureusement ! J'ai fait ma valise hier. C'est les meilleures vacances de l'année !"
+        ]
       ],
       "questions": [
         {
           "question": "Entre quelles deux destinations est-ce que B hésite ?",
-          "options": ["Paris et Lyon", "Nice et Barcelone", "Marseille et Rome", "Nice et Cannes"],
+          "options": [
+            "Paris et Lyon",
+            "Nice et Barcelone",
+            "Marseille et Rome",
+            "Nice et Cannes"
+          ],
           "correctAnswer": "Nice et Barcelone"
         },
         {
           "question": "Pourquoi A recommande Nice ?",
-          "options": ["C'est la moins chère", "C'est la plus belle ville de la Côte d'Azur", "La nourriture y est la meilleure", "C'est la plus proche"],
+          "options": [
+            "C'est la moins chère",
+            "C'est la plus belle ville de la Côte d'Azur",
+            "La nourriture y est la meilleure",
+            "C'est la plus proche"
+          ],
           "correctAnswer": "C'est la plus belle ville de la Côte d'Azur"
         },
         {
           "question": "Qu'est-ce que l'hôtel à Nice a ?",
-          "options": ["Une piscine", "La meilleure vue sur la plage", "Un restaurant", "Le parking gratuit"],
+          "options": [
+            "Une piscine",
+            "La meilleure vue sur la plage",
+            "Un restaurant",
+            "Le parking gratuit"
+          ],
           "correctAnswer": "La meilleure vue sur la plage"
         },
         {
           "question": "Est-ce que B a déjà fait sa valise ?",
-          "options": ["Non, pas encore", "Oui, hier", "Il ne sait pas quoi mettre", "Il va la faire demain"],
+          "options": [
+            "Non, pas encore",
+            "Oui, hier",
+            "Il ne sait pas quoi mettre",
+            "Il va la faire demain"
+          ],
           "correctAnswer": "Oui, hier"
         }
       ],
@@ -338,7 +496,11 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'the most beautiful beach'?",
-          "options": ["la plus belle plage", "le plus belle plage", "la plus beau plage"],
+          "options": [
+            "la plus belle plage",
+            "le plus belle plage",
+            "la plus beau plage"
+          ],
           "correctAnswer": "la plus belle plage",
           "explanation": "'Plage' is feminine → la plus + feminine adjective: la plus belle plage."
         },
@@ -351,7 +513,11 @@
         {
           "type": "multipleChoice",
           "question": "After a superlative, which word means 'in' (as in 'in the city')?",
-          "options": ["dans", "de", "en"],
+          "options": [
+            "dans",
+            "de",
+            "en"
+          ],
           "correctAnswer": "de",
           "explanation": "After superlatives, use 'de' (not 'dans'): le plus grand de la ville."
         },
@@ -390,7 +556,12 @@
         {
           "type": "multipleChoice",
           "question": "What is the superlative of 'bon'?",
-          "options": ["le plus bon", "le meilleur", "le mieux", "le plus bien"],
+          "options": [
+            "le plus bon",
+            "le meilleur",
+            "le mieux",
+            "le plus bien"
+          ],
           "correctAnswer": "le meilleur",
           "explanation": "'Bon' has an irregular superlative: le meilleur (not 'le plus bon')."
         },
@@ -421,7 +592,12 @@
         {
           "type": "multipleChoice",
           "question": "How do you say 'the worst hotel'?",
-          "options": ["le plus mauvais hôtel", "le pire hôtel", "Both are acceptable", "le mauvais plus hôtel"],
+          "options": [
+            "le plus mauvais hôtel",
+            "le pire hôtel",
+            "Both are acceptable",
+            "le mauvais plus hôtel"
+          ],
           "correctAnswer": "Both are acceptable",
           "explanation": "Both 'le pire hôtel' and 'le plus mauvais hôtel' are correct. 'Le pire' is more common in speech."
         },
@@ -434,7 +610,12 @@
         {
           "type": "multipleChoice",
           "question": "What does 'de' mean after a superlative?",
-          "options": ["of / in", "with", "for", "at"],
+          "options": [
+            "of / in",
+            "with",
+            "for",
+            "at"
+          ],
           "correctAnswer": "of / in",
           "explanation": "'De' after a superlative means 'in' or 'of': le plus grand de la ville = the biggest in the city."
         }
@@ -446,7 +627,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la valise' mean?",
-        "options": ["The ticket", "The suitcase", "The bag"],
+        "options": [
+          "The ticket",
+          "The suitcase",
+          "The bag"
+        ],
         "correctAnswer": "The suitcase",
         "explanation": "'La valise' is a suitcase. 'Faire sa valise' = to pack one's suitcase.",
         "targetWord": "la valise"
@@ -461,7 +646,11 @@
       {
         "type": "multipleChoice",
         "question": "How do you say 'to take the plane' in French?",
-        "options": ["aller l'avion", "prendre l'avion", "faire l'avion"],
+        "options": [
+          "aller l'avion",
+          "prendre l'avion",
+          "faire l'avion"
+        ],
         "correctAnswer": "prendre l'avion",
         "explanation": "'Prendre l'avion' = to take the plane / to fly.",
         "targetWord": "l'avion"
@@ -476,7 +665,11 @@
       {
         "type": "multipleChoice",
         "question": "What does 'Bonnes vacances !' mean?",
-        "options": ["Good morning!", "Have a good holiday!", "Good luck!"],
+        "options": [
+          "Good morning!",
+          "Have a good holiday!",
+          "Good luck!"
+        ],
         "correctAnswer": "Have a good holiday!",
         "explanation": "'Les vacances' = the holidays. 'Bonnes vacances' = Have a good holiday!",
         "targetWord": "les vacances"
@@ -486,7 +679,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'la réservation' mean?",
-        "options": ["The reservation", "The reception", "The recommendation", "The reception desk"],
+        "options": [
+          "The reservation",
+          "The reception",
+          "The recommendation",
+          "The reception desk"
+        ],
         "correctAnswer": "The reservation",
         "explanation": "'La réservation' is a reservation or booking. 'Faire une réservation' = to make a booking.",
         "targetWord": "la réservation"
@@ -501,7 +699,12 @@
       {
         "type": "multipleChoice",
         "question": "What does 'le passeport' mean?",
-        "options": ["The ticket", "The passport", "The boarding pass", "The visa"],
+        "options": [
+          "The ticket",
+          "The passport",
+          "The boarding pass",
+          "The visa"
+        ],
         "correctAnswer": "The passport",
         "explanation": "'Le passeport' is the passport. Essential for international travel.",
         "targetWord": "le passeport"
@@ -516,7 +719,12 @@
       {
         "type": "multipleChoice",
         "question": "After a superlative, how do you say 'in the world'?",
-        "options": ["dans le monde", "du monde", "en le monde", "au monde"],
+        "options": [
+          "dans le monde",
+          "du monde",
+          "en le monde",
+          "au monde"
+        ],
         "correctAnswer": "du monde",
         "explanation": "After superlatives, use 'de': de + le = du. 'La plus belle plage du monde.'",
         "targetWord": "la plage"

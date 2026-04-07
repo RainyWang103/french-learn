@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "tête",
+          "masculine": "",
           "feminine": "tête",
-          "masculinePlural": "têtes",
+          "masculinePlural": "",
           "femininePlural": "têtes"
         },
         "pronunciation": "lah tet",
@@ -36,9 +36,9 @@
         "gender": "male",
         "forms": {
           "masculine": "bras",
-          "feminine": "bras",
+          "feminine": "",
           "masculinePlural": "bras",
-          "femininePlural": "bras"
+          "femininePlural": ""
         },
         "pronunciation": "luh brah",
         "meaning": "the arm",
@@ -61,9 +61,9 @@
         "gender": "male",
         "forms": {
           "masculine": "ventre",
-          "feminine": "ventre",
+          "feminine": "",
           "masculinePlural": "ventres",
-          "femininePlural": "ventres"
+          "femininePlural": ""
         },
         "pronunciation": "luh vahn-truh",
         "meaning": "the stomach / belly",
@@ -111,9 +111,9 @@
         "gender": "male",
         "forms": {
           "masculine": "médecin",
-          "feminine": "médecin",
+          "feminine": "",
           "masculinePlural": "médecins",
-          "femininePlural": "médecins"
+          "femininePlural": ""
         },
         "pronunciation": "luh may-duh-san",
         "meaning": "the doctor",
@@ -137,9 +137,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "tête",
+          "masculine": "",
           "feminine": "tête",
-          "masculinePlural": "têtes",
+          "masculinePlural": "",
           "femininePlural": "têtes"
         },
         "pronunciation": "lah tet",
@@ -163,9 +163,9 @@
         "gender": "male",
         "forms": {
           "masculine": "bras",
-          "feminine": "bras",
+          "feminine": "",
           "masculinePlural": "bras",
-          "femininePlural": "bras"
+          "femininePlural": ""
         },
         "pronunciation": "luh brah",
         "meaning": "the arm",
@@ -188,9 +188,9 @@
         "gender": "male",
         "forms": {
           "masculine": "ventre",
-          "feminine": "ventre",
+          "feminine": "",
           "masculinePlural": "ventres",
-          "femininePlural": "ventres"
+          "femininePlural": ""
         },
         "pronunciation": "luh vahn-truh",
         "meaning": "the stomach / belly",
@@ -238,9 +238,9 @@
         "gender": "male",
         "forms": {
           "masculine": "médecin",
-          "feminine": "médecin",
+          "feminine": "",
           "masculinePlural": "médecins",
-          "femininePlural": "médecins"
+          "femininePlural": ""
         },
         "pronunciation": "luh may-duh-san",
         "meaning": "the doctor",
@@ -262,9 +262,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "fièvre",
+          "masculine": "",
           "feminine": "fièvre",
-          "masculinePlural": "fièvres",
+          "masculinePlural": "",
           "femininePlural": "fièvres"
         },
         "pronunciation": "lah fyev-ruh",
@@ -288,9 +288,9 @@
         "gender": "male",
         "forms": {
           "masculine": "médicament",
-          "feminine": "médicament",
+          "feminine": "",
           "masculinePlural": "médicaments",
-          "femininePlural": "médicaments"
+          "femininePlural": ""
         },
         "pronunciation": "luh may-dee-kah-mahn",
         "meaning": "the medicine / medication",

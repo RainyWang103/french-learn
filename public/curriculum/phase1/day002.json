@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "douche",
+          "masculine": "",
           "feminine": "douche",
-          "masculinePlural": "douches",
+          "masculinePlural": "",
           "femininePlural": "douches"
         },
         "pronunciation": "la doosh",
@@ -62,9 +62,9 @@
         "gender": "male",
         "forms": {
           "masculine": "vêtement",
-          "feminine": "vêtement",
+          "feminine": "",
           "masculinePlural": "vêtements",
-          "femininePlural": "vêtements"
+          "femininePlural": ""
         },
         "pronunciation": "lay vet-mon",
         "meaning": "the clothes",
@@ -87,9 +87,9 @@
         "gender": "male",
         "forms": {
           "masculine": "miroir",
-          "feminine": "miroir",
+          "feminine": "",
           "masculinePlural": "miroirs",
-          "femininePlural": "miroirs"
+          "femininePlural": ""
         },
         "pronunciation": "luh meer-wahr",
         "meaning": "the mirror",
@@ -137,9 +137,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "douche",
+          "masculine": "",
           "feminine": "douche",
-          "masculinePlural": "douches",
+          "masculinePlural": "",
           "femininePlural": "douches"
         },
         "pronunciation": "la doosh",
@@ -189,9 +189,9 @@
         "gender": "male",
         "forms": {
           "masculine": "vêtement",
-          "feminine": "vêtement",
+          "feminine": "",
           "masculinePlural": "vêtements",
-          "femininePlural": "vêtements"
+          "femininePlural": ""
         },
         "pronunciation": "lay vet-mon",
         "meaning": "the clothes",
@@ -214,9 +214,9 @@
         "gender": "male",
         "forms": {
           "masculine": "miroir",
-          "feminine": "miroir",
+          "feminine": "",
           "masculinePlural": "miroirs",
-          "femininePlural": "miroirs"
+          "femininePlural": ""
         },
         "pronunciation": "luh meer-wahr",
         "meaning": "the mirror",
@@ -290,9 +290,9 @@
         "gender": "male",
         "forms": {
           "masculine": "peigne",
-          "feminine": "peigne",
+          "feminine": "",
           "masculinePlural": "peignes",
-          "femininePlural": "peignes"
+          "femininePlural": ""
         },
         "pronunciation": "luh pen-yuh",
         "meaning": "the comb",

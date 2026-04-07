@@ -11,9 +11,9 @@
         "gender": "male",
         "forms": {
           "masculine": "restaurant",
-          "feminine": "restaurant",
+          "feminine": "",
           "masculinePlural": "restaurants",
-          "femininePlural": "restaurants"
+          "femininePlural": ""
         },
         "pronunciation": "luh res-toh-RAHN",
         "meaning": "the restaurant",
@@ -36,9 +36,9 @@
         "gender": "male",
         "forms": {
           "masculine": "serveur",
-          "feminine": "serveuse",
+          "feminine": "",
           "masculinePlural": "serveurs",
-          "femininePlural": "serveuses"
+          "femininePlural": ""
         },
         "pronunciation": "luh sehr-VUR",
         "meaning": "the waiter",
@@ -61,9 +61,9 @@
         "gender": "male",
         "forms": {
           "masculine": "plat",
-          "feminine": "plat",
+          "feminine": "",
           "masculinePlural": "plats",
-          "femininePlural": "plats"
+          "femininePlural": ""
         },
         "pronunciation": "luh PLAH",
         "meaning": "the dish / the main course",
@@ -85,9 +85,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "entrée",
+          "masculine": "",
           "feminine": "entrée",
-          "masculinePlural": "entrées",
+          "masculinePlural": "",
           "femininePlural": "entrées"
         },
         "pronunciation": "lahn-TRAY",
@@ -111,9 +111,9 @@
         "gender": "male",
         "forms": {
           "masculine": "dessert",
-          "feminine": "dessert",
+          "feminine": "",
           "masculinePlural": "desserts",
-          "femininePlural": "desserts"
+          "femininePlural": ""
         },
         "pronunciation": "luh deh-ZEHR",
         "meaning": "the dessert",
@@ -138,9 +138,9 @@
         "gender": "male",
         "forms": {
           "masculine": "restaurant",
-          "feminine": "restaurant",
+          "feminine": "",
           "masculinePlural": "restaurants",
-          "femininePlural": "restaurants"
+          "femininePlural": ""
         },
         "pronunciation": "luh res-toh-RAHN",
         "meaning": "the restaurant",
@@ -163,9 +163,9 @@
         "gender": "male",
         "forms": {
           "masculine": "serveur",
-          "feminine": "serveuse",
+          "feminine": "",
           "masculinePlural": "serveurs",
-          "femininePlural": "serveuses"
+          "femininePlural": ""
         },
         "pronunciation": "luh sehr-VUR",
         "meaning": "the waiter",
@@ -188,9 +188,9 @@
         "gender": "male",
         "forms": {
           "masculine": "plat",
-          "feminine": "plat",
+          "feminine": "",
           "masculinePlural": "plats",
-          "femininePlural": "plats"
+          "femininePlural": ""
         },
         "pronunciation": "luh PLAH",
         "meaning": "the dish / the main course",
@@ -212,9 +212,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "entrée",
+          "masculine": "",
           "feminine": "entrée",
-          "masculinePlural": "entrées",
+          "masculinePlural": "",
           "femininePlural": "entrées"
         },
         "pronunciation": "lahn-TRAY",
@@ -238,9 +238,9 @@
         "gender": "male",
         "forms": {
           "masculine": "dessert",
-          "feminine": "dessert",
+          "feminine": "",
           "masculinePlural": "desserts",
-          "femininePlural": "desserts"
+          "femininePlural": ""
         },
         "pronunciation": "luh deh-ZEHR",
         "meaning": "the dessert",
@@ -262,9 +262,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "addition",
+          "masculine": "",
           "feminine": "addition",
-          "masculinePlural": "additions",
+          "masculinePlural": "",
           "femininePlural": "additions"
         },
         "pronunciation": "lah-dee-SYOHN",
@@ -288,9 +288,9 @@
         "gender": "male",
         "forms": {
           "masculine": "pourboire",
-          "feminine": "pourboire",
+          "feminine": "",
           "masculinePlural": "pourboires",
-          "femininePlural": "pourboires"
+          "femininePlural": ""
         },
         "pronunciation": "luh poor-BWAHR",
         "meaning": "the tip (gratuity)",

@@ -11,9 +11,9 @@
         "gender": "male",
         "forms": {
           "masculine": "marché",
-          "feminine": "marché",
+          "feminine": "",
           "masculinePlural": "marchés",
-          "femininePlural": "marchés"
+          "femininePlural": ""
         },
         "pronunciation": "luh mar-shay",
         "meaning": "the market",
@@ -62,9 +62,9 @@
         "gender": "male",
         "forms": {
           "masculine": "prix",
-          "feminine": "prix",
+          "feminine": "",
           "masculinePlural": "prix",
-          "femininePlural": "prix"
+          "femininePlural": ""
         },
         "pronunciation": "luh pree",
         "meaning": "the price",
@@ -87,9 +87,9 @@
         "gender": "male",
         "forms": {
           "masculine": "vendeur",
-          "feminine": "vendeuse",
+          "feminine": "",
           "masculinePlural": "vendeurs",
-          "femininePlural": "vendeuses"
+          "femininePlural": ""
         },
         "pronunciation": "luh von-dur",
         "meaning": "the seller / the shop assistant",
@@ -112,9 +112,9 @@
         "gender": "male",
         "forms": {
           "masculine": "kilo",
-          "feminine": "kilo",
+          "feminine": "",
           "masculinePlural": "kilos",
-          "femininePlural": "kilos"
+          "femininePlural": ""
         },
         "pronunciation": "an kee-lo",
         "meaning": "a kilogram",
@@ -139,9 +139,9 @@
         "gender": "male",
         "forms": {
           "masculine": "marché",
-          "feminine": "marché",
+          "feminine": "",
           "masculinePlural": "marchés",
-          "femininePlural": "marchés"
+          "femininePlural": ""
         },
         "pronunciation": "luh mar-shay",
         "meaning": "the market",
@@ -190,9 +190,9 @@
         "gender": "male",
         "forms": {
           "masculine": "prix",
-          "feminine": "prix",
+          "feminine": "",
           "masculinePlural": "prix",
-          "femininePlural": "prix"
+          "femininePlural": ""
         },
         "pronunciation": "luh pree",
         "meaning": "the price",
@@ -215,9 +215,9 @@
         "gender": "male",
         "forms": {
           "masculine": "vendeur",
-          "feminine": "vendeuse",
+          "feminine": "",
           "masculinePlural": "vendeurs",
-          "femininePlural": "vendeuses"
+          "femininePlural": ""
         },
         "pronunciation": "luh von-dur",
         "meaning": "the seller / the shop assistant",
@@ -240,9 +240,9 @@
         "gender": "male",
         "forms": {
           "masculine": "kilo",
-          "feminine": "kilo",
+          "feminine": "",
           "masculinePlural": "kilos",
-          "femininePlural": "kilos"
+          "femininePlural": ""
         },
         "pronunciation": "an kee-lo",
         "meaning": "a kilogram",
@@ -264,9 +264,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "monnaie",
+          "masculine": "",
           "feminine": "monnaie",
-          "masculinePlural": "monnaies",
+          "masculinePlural": "",
           "femininePlural": "monnaies"
         },
         "pronunciation": "la mo-nay",
@@ -290,9 +290,9 @@
         "gender": "male",
         "forms": {
           "masculine": "sac",
-          "feminine": "sac",
+          "feminine": "",
           "masculinePlural": "sacs",
-          "femininePlural": "sacs"
+          "femininePlural": ""
         },
         "pronunciation": "luh sak",
         "meaning": "the bag",

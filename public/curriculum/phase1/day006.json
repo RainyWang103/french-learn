@@ -10,9 +10,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "cuisine",
+          "masculine": "",
           "feminine": "cuisine",
-          "masculinePlural": "cuisines",
+          "masculinePlural": "",
           "femininePlural": "cuisines"
         },
         "pronunciation": "la kwee-zeen",
@@ -35,9 +35,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "chambre",
+          "masculine": "",
           "feminine": "chambre",
-          "masculinePlural": "chambres",
+          "masculinePlural": "",
           "femininePlural": "chambres"
         },
         "pronunciation": "la shom-bruh",
@@ -60,9 +60,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "table",
+          "masculine": "",
           "feminine": "table",
-          "masculinePlural": "tables",
+          "masculinePlural": "",
           "femininePlural": "tables"
         },
         "pronunciation": "la tah-bluh",
@@ -84,9 +84,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "chaise",
+          "masculine": "",
           "feminine": "chaise",
-          "masculinePlural": "chaises",
+          "masculinePlural": "",
           "femininePlural": "chaises"
         },
         "pronunciation": "la shehz",
@@ -108,9 +108,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "fenêtre",
+          "masculine": "",
           "feminine": "fenêtre",
-          "masculinePlural": "fenêtres",
+          "masculinePlural": "",
           "femininePlural": "fenêtres"
         },
         "pronunciation": "la fuh-neh-truh",
@@ -134,9 +134,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "cuisine",
+          "masculine": "",
           "feminine": "cuisine",
-          "masculinePlural": "cuisines",
+          "masculinePlural": "",
           "femininePlural": "cuisines"
         },
         "pronunciation": "la kwee-zeen",
@@ -159,9 +159,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "chambre",
+          "masculine": "",
           "feminine": "chambre",
-          "masculinePlural": "chambres",
+          "masculinePlural": "",
           "femininePlural": "chambres"
         },
         "pronunciation": "la shom-bruh",
@@ -184,9 +184,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "table",
+          "masculine": "",
           "feminine": "table",
-          "masculinePlural": "tables",
+          "masculinePlural": "",
           "femininePlural": "tables"
         },
         "pronunciation": "la tah-bluh",
@@ -208,9 +208,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "chaise",
+          "masculine": "",
           "feminine": "chaise",
-          "masculinePlural": "chaises",
+          "masculinePlural": "",
           "femininePlural": "chaises"
         },
         "pronunciation": "la shehz",
@@ -232,9 +232,9 @@
         "partOfSpeech": "noun",
         "gender": "female",
         "forms": {
-          "masculine": "fenêtre",
+          "masculine": "",
           "feminine": "fenêtre",
-          "masculinePlural": "fenêtres",
+          "masculinePlural": "",
           "femininePlural": "fenêtres"
         },
         "pronunciation": "la fuh-neh-truh",
@@ -257,9 +257,9 @@
         "gender": "male",
         "forms": {
           "masculine": "salon",
-          "feminine": "salon",
+          "feminine": "",
           "masculinePlural": "salons",
-          "femininePlural": "salons"
+          "femininePlural": ""
         },
         "pronunciation": "luh sa-lon",
         "meaning": "the living room",
@@ -281,9 +281,9 @@
         "gender": "male",
         "forms": {
           "masculine": "canapé",
-          "feminine": "canapé",
+          "feminine": "",
           "masculinePlural": "canapés",
-          "femininePlural": "canapés"
+          "femininePlural": ""
         },
         "pronunciation": "luh ka-na-pay",
         "meaning": "the sofa / couch",

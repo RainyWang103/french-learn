@@ -77,38 +77,51 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
       assertNonEmptyString(forms[key], `${label}.forms.${key}`)
     }
   } else if (word.partOfSpeech === 'adjective') {
-    // Adjectives: all four forms required, never "N/A"
+    // Adjectives: all four forms required, always non-empty real values
     for (const key of ['masculine', 'feminine', 'masculinePlural', 'femininePlural']) {
       assertNonEmptyString(forms[key], `${label}.forms.${key}`)
-      expect(forms[key], `${label}.forms.${key} should not be "N/A" for adjectives`).not.toBe('N/A')
     }
   } else if (word.partOfSpeech === 'noun') {
-    // Nouns: all four fields required; non-existing gender fields must be exactly "N/A"
-    for (const key of ['masculine', 'feminine', 'masculinePlural', 'femininePlural']) {
-      assertNonEmptyString(forms[key], `${label}.forms.${key}`)
+    // Nouns: all four fields must be present; single-gender nouns use "" for the missing gender pair
+    const genderKeys = ['masculine', 'feminine', 'masculinePlural', 'femininePlural']
+    for (const key of genderKeys) {
+      expect(typeof forms[key], `${label}.forms.${key} must be a string`).toBe('string')
     }
-    // If a noun is single-gender, the opposite gender fields must be "N/A"
-    const hasNAField = ['masculine', 'feminine', 'masculinePlural', 'femininePlural'].some(
-      (key) => forms[key] === 'N/A',
-    )
-    if (hasNAField) {
-      const mascNA = forms['masculine'] === 'N/A'
-      const femNA = forms['feminine'] === 'N/A'
+    // If gender is "male", feminine fields must be ""; if "female", masculine fields must be ""
+    if (word.gender === 'male') {
       expect(
-        mascNA || femNA,
-        `${label}.forms: if any gender field is "N/A", one full gender pair must be "N/A"`,
-      ).toBe(true)
-      if (mascNA) {
-        expect(
-          forms['masculinePlural'],
-          `${label}.forms.masculinePlural should be "N/A" when masculine is "N/A"`,
-        ).toBe('N/A')
-      }
-      if (femNA) {
-        expect(
-          forms['femininePlural'],
-          `${label}.forms.femininePlural should be "N/A" when feminine is "N/A"`,
-        ).toBe('N/A')
+        forms['masculine'],
+        `${label}.forms.masculine must be non-empty for male noun`,
+      ).toBeTruthy()
+      expect(
+        forms['masculinePlural'],
+        `${label}.forms.masculinePlural must be non-empty for male noun`,
+      ).toBeTruthy()
+      expect(forms['feminine'], `${label}.forms.feminine must be "" for male-only noun`).toBe('')
+      expect(
+        forms['femininePlural'],
+        `${label}.forms.femininePlural must be "" for male-only noun`,
+      ).toBe('')
+    } else if (word.gender === 'female') {
+      expect(
+        forms['feminine'],
+        `${label}.forms.feminine must be non-empty for female noun`,
+      ).toBeTruthy()
+      expect(
+        forms['femininePlural'],
+        `${label}.forms.femininePlural must be non-empty for female noun`,
+      ).toBeTruthy()
+      expect(forms['masculine'], `${label}.forms.masculine must be "" for female-only noun`).toBe(
+        '',
+      )
+      expect(
+        forms['masculinePlural'],
+        `${label}.forms.masculinePlural must be "" for female-only noun`,
+      ).toBe('')
+    } else {
+      // gender: null means noun has both genders — all four fields must be non-empty
+      for (const key of genderKeys) {
+        assertNonEmptyString(forms[key], `${label}.forms.${key}`)
       }
     }
   } else {
