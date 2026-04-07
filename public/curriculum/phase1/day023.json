@@ -9,6 +9,7 @@
         "word": "le printemps",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "printemps", "feminine": "printemps", "masculinePlural": "printemps", "femininePlural": "printemps" },
         "pronunciation": "luh pran-ton",
         "meaning": "spring",
         "notes": "Use 'au printemps' (in spring) — this is the only season that uses 'au' instead of 'en'. The final 's' is silent.",
@@ -22,6 +23,7 @@
         "word": "l'été",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "été", "feminine": "été", "masculinePlural": "étés", "femininePlural": "étés" },
         "pronunciation": "lay-tay",
         "meaning": "summer",
         "notes": "Use 'en été' (in summer). The accent on the first 'é' is important for pronunciation.",
@@ -35,6 +37,7 @@
         "word": "l'automne",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "automne", "feminine": "automne", "masculinePlural": "automnes", "femininePlural": "automnes" },
         "pronunciation": "lo-ton",
         "meaning": "autumn / fall",
         "notes": "Use 'en automne' (in autumn). The 'mn' at the end is pronounced as a single nasal 'n' sound. Despite starting with a vowel, it is masculine.",
@@ -48,6 +51,7 @@
         "word": "l'hiver",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "hiver", "feminine": "hiver", "masculinePlural": "hivers", "femininePlural": "hivers" },
         "pronunciation": "lee-vair",
         "meaning": "winter",
         "notes": "Use 'en hiver' (in winter). The 'h' is silent, so the article elides: l'hiver (not le hiver).",
@@ -61,6 +65,7 @@
         "word": "le mois",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "mois", "feminine": "mois", "masculinePlural": "mois", "femininePlural": "mois" },
         "pronunciation": "luh mwa",
         "meaning": "the month",
         "notes": "The final 's' is silent. 'Quel mois ?' = Which month? Months in French are not capitalised: janvier, février, mars, etc.",
@@ -76,6 +81,7 @@
         "word": "le printemps",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "printemps", "feminine": "printemps", "masculinePlural": "printemps", "femininePlural": "printemps" },
         "pronunciation": "luh pran-ton",
         "meaning": "spring",
         "notes": "Use 'au printemps' (in spring) — this is the only season that uses 'au' instead of 'en'. The final 's' is silent.",
@@ -89,6 +95,7 @@
         "word": "l'été",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "été", "feminine": "été", "masculinePlural": "étés", "femininePlural": "étés" },
         "pronunciation": "lay-tay",
         "meaning": "summer",
         "notes": "Use 'en été' (in summer). The accent on the first 'é' is important for pronunciation.",
@@ -102,6 +109,7 @@
         "word": "l'automne",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "automne", "feminine": "automne", "masculinePlural": "automnes", "femininePlural": "automnes" },
         "pronunciation": "lo-ton",
         "meaning": "autumn / fall",
         "notes": "Use 'en automne' (in autumn). The 'mn' at the end is pronounced as a single nasal 'n' sound. Despite starting with a vowel, it is masculine.",
@@ -115,6 +123,7 @@
         "word": "l'hiver",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "hiver", "feminine": "hiver", "masculinePlural": "hivers", "femininePlural": "hivers" },
         "pronunciation": "lee-vair",
         "meaning": "winter",
         "notes": "Use 'en hiver' (in winter). The 'h' is silent, so the article elides: l'hiver (not le hiver).",
@@ -128,6 +137,7 @@
         "word": "le mois",
         "partOfSpeech": "noun",
         "gender": "male",
+        "forms": { "masculine": "mois", "feminine": "mois", "masculinePlural": "mois", "femininePlural": "mois" },
         "pronunciation": "luh mwa",
         "meaning": "the month",
         "notes": "The final 's' is silent. 'Quel mois ?' = Which month? Months in French are not capitalised: janvier, février, mars, etc.",
@@ -141,6 +151,7 @@
         "word": "la saison",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": { "masculine": "saison", "feminine": "saison", "masculinePlural": "saisons", "femininePlural": "saisons" },
         "pronunciation": "la seh-zon",
         "meaning": "the season",
         "notes": "Used for both weather seasons and figurative seasons (e.g. TV season). 'Les quatre saisons' = the four seasons.",
@@ -154,6 +165,7 @@
         "word": "l'année",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": { "masculine": "année", "feminine": "année", "masculinePlural": "années", "femininePlural": "années" },
         "pronunciation": "la-nay",
         "meaning": "the year",
         "notes": "'L'année' emphasises duration (the whole year). 'L'an' is used in specific expressions like 'le Nouvel An' (New Year) or 'j'ai vingt ans' (I'm twenty years old).",
@@ -179,19 +191,19 @@
       ],
       "questions": [
         {
-          "question": "Which season does speaker B love?",
-          "options": ["Spring", "Summer", "Winter"],
-          "correctAnswer": "Summer"
+          "question": "Quelle saison est-ce que le locuteur B adore ?",
+          "options": ["Le printemps", "L'été", "L'hiver"],
+          "correctAnswer": "L'été"
         },
         {
-          "question": "What does speaker A like about spring?",
-          "options": ["The warm weather", "The flowers everywhere", "The long days"],
-          "correctAnswer": "The flowers everywhere"
+          "question": "Qu'est-ce que le locuteur A aime au printemps ?",
+          "options": ["Le temps chaud", "Les fleurs partout", "Les longues journées"],
+          "correctAnswer": "Les fleurs partout"
         },
         {
-          "question": "What does speaker A enjoy doing in winter?",
-          "options": ["Going skiing", "Drinking hot chocolate", "Reading by the fire"],
-          "correctAnswer": "Drinking hot chocolate"
+          "question": "Qu'est-ce que le locuteur A aime faire en hiver ?",
+          "options": ["Faire du ski", "Boire du chocolat chaud", "Lire près du feu"],
+          "correctAnswer": "Boire du chocolat chaud"
         }
       ],
       "summary": "Two friends discuss their favourite seasons. Speaker B loves summer for the beach, while speaker A also enjoys spring for the flowers. They agree autumn has beautiful colours but lots of rain, and winter is cold but has the comfort of hot chocolate. They conclude that every season has something good."
@@ -223,19 +235,19 @@
       ],
       "questions": [
         {
-          "question": "What does speaker B often do in spring?",
-          "options": ["Travel abroad", "Go cycling", "Stay home and read", "Go running"],
-          "correctAnswer": "Go cycling"
+          "question": "Qu'est-ce que le locuteur B fait souvent au printemps ?",
+          "options": ["Il voyage à l'étranger", "Il fait du vélo", "Il reste à la maison et lit", "Il court"],
+          "correctAnswer": "Il fait du vélo"
         },
         {
-          "question": "Where did speaker B travel last year?",
-          "options": ["Italy", "Southern France", "Northern Spain", "Switzerland"],
-          "correctAnswer": "Southern France"
+          "question": "Où est-ce que le locuteur B a voyagé l'année dernière ?",
+          "options": ["En Italie", "Dans le sud de la France", "Dans le nord de l'Espagne", "En Suisse"],
+          "correctAnswer": "Dans le sud de la France"
         },
         {
-          "question": "Which month does speaker B consider the best?",
-          "options": ["March", "May", "June", "September"],
-          "correctAnswer": "June"
+          "question": "Quel mois est le meilleur pour le locuteur B ?",
+          "options": ["Mars", "Mai", "Juin", "Septembre"],
+          "correctAnswer": "Juin"
         }
       ],
       "summary": "Two friends discuss their seasonal routines. Speaker B cycles in spring, always travels in summer (last year to southern France, this year Italy), and reads at home in autumn. Speaker A runs in summer, rarely exercises in winter, and sometimes gardens in spring. They agree that having varied activities makes the year more interesting, with speaker B naming June as the best month."

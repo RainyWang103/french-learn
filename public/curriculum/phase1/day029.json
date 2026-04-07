@@ -9,6 +9,12 @@
         "word": "content",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "content",
+          "feminine": "contente",
+          "masculinePlural": "contents",
+          "femininePlural": "contentes"
+        },
         "pronunciation": "kon-ton",
         "meaning": "happy / pleased / glad",
         "notes": "Feminine form: 'contente'. Similar to 'heureux' but less intense — 'content' means satisfied or pleased. 'Je suis content de te voir' = I'm happy to see you.",
@@ -22,6 +28,12 @@
         "word": "triste",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "triste",
+          "feminine": "triste",
+          "masculinePlural": "tristes",
+          "femininePlural": "tristes"
+        },
         "pronunciation": "treest",
         "meaning": "sad",
         "notes": "Same form for masculine and feminine. 'Être triste' = to be sad. 'Une histoire triste' = a sad story. Can also be used with 'de + infinitive': 'Je suis triste de partir' = I am sad to leave.",
@@ -35,6 +47,12 @@
         "word": "en colère",
         "partOfSpeech": "expression",
         "gender": null,
+        "forms": {
+          "masculine": "en colère",
+          "feminine": "en colère",
+          "masculinePlural": "en colère",
+          "femininePlural": "en colère"
+        },
         "pronunciation": "on ko-lair",
         "meaning": "angry",
         "notes": "Always used with 'être': 'être en colère'. Can add 'contre' to say angry at someone: 'Je suis en colère contre toi' = I am angry at you. 'La colère' alone is the noun 'anger'.",
@@ -48,6 +66,12 @@
         "word": "nerveux",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "nerveux",
+          "feminine": "nerveuse",
+          "masculinePlural": "nerveux",
+          "femininePlural": "nerveuses"
+        },
         "pronunciation": "nair-vuh",
         "meaning": "nervous / anxious",
         "notes": "Feminine form: 'nerveuse'. Used for both temporary nervousness and a nervous personality. 'Je suis nerveux avant l'examen' = I am nervous before the exam.",
@@ -61,6 +85,12 @@
         "word": "inquiet",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "inquiet",
+          "feminine": "inquiète",
+          "masculinePlural": "inquiets",
+          "femininePlural": "inquiètes"
+        },
         "pronunciation": "an-kee-ay",
         "meaning": "worried / anxious",
         "notes": "Feminine form: 'inquiète' (note the accent change). Stronger than 'nerveux' — implies genuine worry. 'S'inquiéter' = to worry (reflexive verb). 'Ne t'inquiète pas' = Don't worry.",
@@ -76,6 +106,12 @@
         "word": "content",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "content",
+          "feminine": "contente",
+          "masculinePlural": "contents",
+          "femininePlural": "contentes"
+        },
         "pronunciation": "kon-ton",
         "meaning": "happy / pleased / glad",
         "notes": "Feminine form: 'contente'. Similar to 'heureux' but less intense — 'content' means satisfied or pleased. 'Je suis content de te voir' = I'm happy to see you.",
@@ -89,6 +125,12 @@
         "word": "triste",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "triste",
+          "feminine": "triste",
+          "masculinePlural": "tristes",
+          "femininePlural": "tristes"
+        },
         "pronunciation": "treest",
         "meaning": "sad",
         "notes": "Same form for masculine and feminine. 'Être triste' = to be sad. 'Une histoire triste' = a sad story. Can also be used with 'de + infinitive': 'Je suis triste de partir' = I am sad to leave.",
@@ -102,6 +144,12 @@
         "word": "en colère",
         "partOfSpeech": "expression",
         "gender": null,
+        "forms": {
+          "masculine": "en colère",
+          "feminine": "en colère",
+          "masculinePlural": "en colère",
+          "femininePlural": "en colère"
+        },
         "pronunciation": "on ko-lair",
         "meaning": "angry",
         "notes": "Always used with 'être': 'être en colère'. Can add 'contre' to say angry at someone: 'Je suis en colère contre toi' = I am angry at you. 'La colère' alone is the noun 'anger'.",
@@ -115,6 +163,12 @@
         "word": "nerveux",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "nerveux",
+          "feminine": "nerveuse",
+          "masculinePlural": "nerveux",
+          "femininePlural": "nerveuses"
+        },
         "pronunciation": "nair-vuh",
         "meaning": "nervous / anxious",
         "notes": "Feminine form: 'nerveuse'. Used for both temporary nervousness and a nervous personality. 'Je suis nerveux avant l'examen' = I am nervous before the exam.",
@@ -128,6 +182,12 @@
         "word": "inquiet",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "inquiet",
+          "feminine": "inquiète",
+          "masculinePlural": "inquiets",
+          "femininePlural": "inquiètes"
+        },
         "pronunciation": "an-kee-ay",
         "meaning": "worried / anxious",
         "notes": "Feminine form: 'inquiète' (note the accent change). Stronger than 'nerveux' — implies genuine worry. 'S'inquiéter' = to worry (reflexive verb). 'Ne t'inquiète pas' = Don't worry.",
@@ -141,6 +201,12 @@
         "word": "surpris",
         "partOfSpeech": "adjective",
         "gender": null,
+        "forms": {
+          "masculine": "surpris",
+          "feminine": "surprise",
+          "masculinePlural": "surpris",
+          "femininePlural": "surprises"
+        },
         "pronunciation": "soor-pree",
         "meaning": "surprised",
         "notes": "Feminine form: 'surprise'. Past participle of 'surprendre' (to surprise) used as an adjective. 'Être surpris de' = to be surprised by/at. 'Quelle surprise !' = What a surprise!",
@@ -154,6 +220,12 @@
         "word": "la joie",
         "partOfSpeech": "noun",
         "gender": "female",
+        "forms": {
+          "masculine": "joie",
+          "feminine": "joie",
+          "masculinePlural": "joies",
+          "femininePlural": "joies"
+        },
         "pronunciation": "la zhwa",
         "meaning": "joy / happiness",
         "notes": "'Avec joie' = with joy / gladly. 'La joie de vivre' = the joy of living (a famous French expression). 'Pleurer de joie' = to cry with joy. More intense and deeper than 'le bonheur' (happiness).",
@@ -179,19 +251,19 @@
       ],
       "questions": [
         {
-          "question": "Why is speaker B sad?",
-          "options": ["They lost a pet", "Their friend left", "They failed an exam"],
-          "correctAnswer": "Their friend left"
+          "question": "Pourquoi B est triste ?",
+          "options": ["Il a perdu son animal", "Son ami est parti", "Il a raté un examen"],
+          "correctAnswer": "Son ami est parti"
         },
         {
-          "question": "Why is speaker A nervous?",
-          "options": ["A job interview", "An exam on Friday", "A doctor's appointment"],
-          "correctAnswer": "An exam on Friday"
+          "question": "Pourquoi A est nerveux ?",
+          "options": ["Il a un entretien", "Il a un examen vendredi", "Il a un rendez-vous chez le médecin"],
+          "correctAnswer": "Il a un examen vendredi"
         },
         {
-          "question": "How does speaker B expect to feel tomorrow?",
-          "options": ["Angry", "Happy", "Nervous"],
-          "correctAnswer": "Happy"
+          "question": "Comment B pense être demain ?",
+          "options": ["En colère", "Content", "Nerveux"],
+          "correctAnswer": "Content"
         }
       ],
       "summary": "Two friends discuss their feelings. Speaker B is sad because a friend left yesterday. Speaker A is worried and nervous about an exam on Friday. Speaker B reassures A that they will succeed. B is not angry, just sad, but expects to be happy tomorrow."
@@ -211,24 +283,24 @@
       ],
       "questions": [
         {
-          "question": "Why was the boss angry at speaker B?",
-          "options": ["B forgot a meeting", "B arrived late and made an error", "B lost an important file", "B left work early"],
-          "correctAnswer": "B arrived late and made an error"
+          "question": "Pourquoi le chef était en colère contre B ?",
+          "options": ["B a oublié une réunion", "B est arrivé en retard et a fait une erreur", "B a perdu un fichier important", "B est parti tôt"],
+          "correctAnswer": "B est arrivé en retard et a fait une erreur"
         },
         {
-          "question": "Who came to reassure speaker B?",
-          "options": ["The boss", "A colleague", "A friend from outside work", "The receptionist"],
-          "correctAnswer": "A colleague"
+          "question": "Qui est venu réconforter B ?",
+          "options": ["Le chef", "Une collègue", "Un ami de l'extérieur", "La réceptionniste"],
+          "correctAnswer": "Une collègue"
         },
         {
-          "question": "Why had the boss been nervous?",
-          "options": ["A deadline was approaching", "Because of a meeting", "He had a problem at home", "He was sick"],
-          "correctAnswer": "Because of a meeting"
+          "question": "Pourquoi le chef était nerveux ?",
+          "options": ["Il avait une deadline", "À cause d'une réunion", "Il avait un problème chez lui", "Il était malade"],
+          "correctAnswer": "À cause d'une réunion"
         },
         {
-          "question": "How does speaker B feel at the end of the conversation?",
-          "options": ["Still worried", "Angry at the boss", "Happy and relieved", "Nervous about tomorrow"],
-          "correctAnswer": "Happy and relieved"
+          "question": "Comment B se sent à la fin de la conversation ?",
+          "options": ["Encore inquiet", "En colère contre le chef", "Content et soulagé", "Nerveux pour demain"],
+          "correctAnswer": "Content et soulagé"
         }
       ],
       "summary": "Speaker B had a rough day at work — arriving late and making an error in a document, which made the boss angry. A colleague reassured B. Later, the boss apologised, explaining he had been nervous about a meeting. B ends the day feeling surprised and happy that everything worked out."
@@ -456,7 +528,7 @@
       },
       {
         "type": "fillInTheBlank",
-        "question": "Fill in the blank: Les enfants sont ___ de joie. (The children shouted with joy. — past participle of crier... wait — this uses avoir. Try: Les enfants sont ___ dans le jardin. — past participle of tomber)",
+        "question": "Fill in the blank: Les enfants sont ___ dans le jardin. (The children fell in the garden. — past participle of tomber)",
         "correctAnswer": "tombés",
         "explanation": "'Tomber' uses être. Masculine plural: tombés.",
         "targetWord": "inquiet"

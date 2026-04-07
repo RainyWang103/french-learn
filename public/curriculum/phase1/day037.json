@@ -16,7 +16,8 @@
           ["Je fais quelle taille ?", "What size am I?"],
           ["Vous avez cette robe en taille 40 ?", "Do you have this dress in size 40?"]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "taille", "feminine": "taille", "masculinePlural": "tailles", "femininePlural": "tailles" }
       },
       {
         "word": "la jupe",
@@ -29,7 +30,8 @@
           ["Elle porte une belle jupe bleue.", "She is wearing a beautiful blue skirt."],
           ["Je cherche une jupe noire.", "I am looking for a black skirt."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "jupe", "feminine": "jupe", "masculinePlural": "jupes", "femininePlural": "jupes" }
       },
       {
         "word": "essayer",
@@ -38,19 +40,12 @@
         "pronunciation": "eh-say-yay",
         "meaning": "to try on / to try",
         "notes": "Regular -er verb. 'Essayer' can mean to try something on (clothes) or to try/attempt something. 'Est-ce que je peux l'essayer ?' = Can I try it on? 'Essayer de + infinitive' = to try to do something.",
-        "conjugation": {
-          "j'essaie": "I try on",
-          "tu essaies": "you try on",
-          "il/elle essaie": "he/she tries on",
-          "nous essayons": "we try on",
-          "vous essayez": "you try on",
-          "ils/elles essaient": "they try on"
-        },
         "examples": [
           ["Je peux essayer ce manteau ?", "Can I try on this coat?"],
           ["Elle essaie la robe dans la cabine.", "She is trying on the dress in the fitting room."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "je": "j'essaie", "tu": "tu essaies", "il": "il/elle/on essaie", "nous": "nous essayons", "vous": "vous essayez", "ils": "ils/elles essaient" }
       },
       {
         "word": "la vitrine",
@@ -63,7 +58,8 @@
           ["J'ai vu cette robe en vitrine.", "I saw this dress in the shop window."],
           ["Nous faisons du lèche-vitrine.", "We are window shopping."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "vitrine", "feminine": "vitrine", "masculinePlural": "vitrines", "femininePlural": "vitrines" }
       },
       {
         "word": "la cabine",
@@ -76,7 +72,8 @@
           ["Où sont les cabines d'essayage ?", "Where are the fitting rooms?"],
           ["Il y a trois cabines disponibles.", "There are three fitting rooms available."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "cabine", "feminine": "cabine", "masculinePlural": "cabines", "femininePlural": "cabines" }
       }
     ],
     "advanced": [
@@ -91,7 +88,8 @@
           ["Je fais quelle taille ?", "What size am I?"],
           ["Vous avez cette robe en taille 40 ?", "Do you have this dress in size 40?"]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "taille", "feminine": "taille", "masculinePlural": "tailles", "femininePlural": "tailles" }
       },
       {
         "word": "la jupe",
@@ -104,7 +102,8 @@
           ["Elle porte une belle jupe bleue.", "She is wearing a beautiful blue skirt."],
           ["Je cherche une jupe noire.", "I am looking for a black skirt."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "jupe", "feminine": "jupe", "masculinePlural": "jupes", "femininePlural": "jupes" }
       },
       {
         "word": "essayer",
@@ -113,19 +112,12 @@
         "pronunciation": "eh-say-yay",
         "meaning": "to try on / to try",
         "notes": "Regular -er verb. 'Essayer' can mean to try something on (clothes) or to try/attempt something. 'Est-ce que je peux l'essayer ?' = Can I try it on? 'Essayer de + infinitive' = to try to do something.",
-        "conjugation": {
-          "j'essaie": "I try on",
-          "tu essaies": "you try on",
-          "il/elle essaie": "he/she tries on",
-          "nous essayons": "we try on",
-          "vous essayez": "you try on",
-          "ils/elles essaient": "they try on"
-        },
         "examples": [
           ["Je peux essayer ce manteau ?", "Can I try on this coat?"],
           ["Elle essaie la robe dans la cabine.", "She is trying on the dress in the fitting room."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "je": "j'essaie", "tu": "tu essaies", "il": "il/elle/on essaie", "nous": "nous essayons", "vous": "vous essayez", "ils": "ils/elles essaient" }
       },
       {
         "word": "la vitrine",
@@ -138,7 +130,8 @@
           ["J'ai vu cette robe en vitrine.", "I saw this dress in the shop window."],
           ["Nous faisons du lèche-vitrine.", "We are window shopping."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "vitrine", "feminine": "vitrine", "masculinePlural": "vitrines", "femininePlural": "vitrines" }
       },
       {
         "word": "la cabine",
@@ -151,7 +144,8 @@
           ["Où sont les cabines d'essayage ?", "Where are the fitting rooms?"],
           ["Il y a trois cabines disponibles.", "There are three fitting rooms available."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "cabine", "feminine": "cabine", "masculinePlural": "cabines", "femininePlural": "cabines" }
       },
       {
         "word": "l'écharpe",
@@ -164,7 +158,8 @@
           ["Il fait froid — je mets mon écharpe.", "It's cold — I'm putting on my scarf."],
           ["Elle a une belle écharpe rouge.", "She has a beautiful red scarf."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "écharpe", "feminine": "écharpe", "masculinePlural": "écharpes", "femininePlural": "écharpes" }
       },
       {
         "word": "la ceinture",
@@ -177,7 +172,8 @@
           ["Cette jupe est trop grande — j'ai besoin d'une ceinture.", "This skirt is too big — I need a belt."],
           ["La ceinture est en cuir marron.", "The belt is in brown leather."]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "ceinture", "feminine": "ceinture", "masculinePlural": "ceintures", "femininePlural": "ceintures" }
       }
     ]
   },
@@ -195,19 +191,19 @@
       ],
       "questions": [
         {
-          "question": "What is the customer looking for?",
-          "options": ["A dress", "A skirt", "A coat"],
-          "correctAnswer": "A skirt"
+          "question": "Qu'est-ce que la cliente cherche ?",
+          "options": ["Une robe", "Une jupe", "Un manteau"],
+          "correctAnswer": "Une jupe"
         },
         {
-          "question": "What time does the store close?",
-          "options": ["At 17:00", "At 18:00", "At 18:30"],
-          "correctAnswer": "At 18:00"
+          "question": "À quelle heure est-ce que le magasin ferme ?",
+          "options": ["À 17h00", "À 18h00", "À 18h30"],
+          "correctAnswer": "À 18h00"
         },
         {
-          "question": "What is the current time?",
-          "options": ["16:00", "16:30", "17:00"],
-          "correctAnswer": "16:30"
+          "question": "Quelle heure est-il pendant la conversation ?",
+          "options": ["16h00", "16h30", "17h00"],
+          "correctAnswer": "16h30"
         }
       ],
       "summary": "A customer enters a clothing shop looking for a skirt she saw in the window display. The assistant asks for her size (38) and directs her to the fitting rooms on the right. The store closes at 18:00 and the current time is 16:30, so the customer has plenty of time. The skirt is also available in black and grey."
@@ -225,24 +221,24 @@
       ],
       "questions": [
         {
-          "question": "What material is the scarf made of?",
-          "options": ["Pure cashmere", "Blended wool", "Silk", "Cotton"],
-          "correctAnswer": "Blended wool"
+          "question": "En quelle matière est l'écharpe ?",
+          "options": ["Pur cachemire", "Laine mélangée", "Soie", "Coton"],
+          "correctAnswer": "Laine mélangée"
         },
         {
-          "question": "What time does the shop close today?",
-          "options": ["17:00", "17:15", "17:30", "18:00"],
-          "correctAnswer": "17:15"
+          "question": "À quelle heure est-ce que le magasin ferme aujourd'hui ?",
+          "options": ["17h00", "17h15", "17h30", "18h00"],
+          "correctAnswer": "17h15"
         },
         {
-          "question": "What time is it during the conversation?",
-          "options": ["15:45", "16:00", "15:30", "16:15"],
-          "correctAnswer": "15:45"
+          "question": "Quelle heure est-il pendant la conversation ?",
+          "options": ["15h45", "16h00", "15h30", "16h15"],
+          "correctAnswer": "15h45"
         },
         {
-          "question": "What time does the shop open the next day?",
-          "options": ["9:00", "9:15", "9:30", "10:00"],
-          "correctAnswer": "9:30"
+          "question": "À quelle heure est-ce que le magasin ouvre le lendemain ?",
+          "options": ["9h00", "9h15", "9h30", "10h00"],
+          "correctAnswer": "9h30"
         }
       ],
       "summary": "A customer enquires about a scarf in the window (blended wool, also available in cashmere) and a skirt (sizes 36–44). The assistant offers fitting rooms at the back left but notes the shop closes at 17:15 today. It is currently 15:45, so the customer hurries. The assistant says the shop opens at 9:30 the next day if the customer wants to come back."
