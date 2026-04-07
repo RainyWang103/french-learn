@@ -283,24 +283,24 @@
       ],
       "questions": [
         {
-          "question": "What kind of animal is Caramel?",
-          "options": ["A cat", "A dwarf rabbit", "A dog", "A hamster"],
-          "correctAnswer": "A dwarf rabbit"
+          "question": "Quel type d'animal est Caramel ?",
+          "options": ["Un chat", "Un lapin nain", "Un chien", "Un hamster"],
+          "correctAnswer": "Un lapin nain"
         },
         {
-          "question": "What animal would speaker A like to have?",
-          "options": ["A rabbit", "A bird", "A horse", "A dog"],
-          "correctAnswer": "A horse"
+          "question": "Quel animal est-ce que A aimerait avoir ?",
+          "options": ["Un lapin", "Un oiseau", "Un cheval", "Un chien"],
+          "correctAnswer": "Un cheval"
         },
         {
-          "question": "What animals are at the nearby farm?",
-          "options": ["Dogs and cats", "Horses, birds, and fish", "Only horses", "Cows and chickens"],
-          "correctAnswer": "Horses, birds, and fish"
+          "question": "Quels animaux y a-t-il à la ferme près de chez B ?",
+          "options": ["Des chiens et des chats", "Des chevaux, des oiseaux et des poissons", "Seulement des chevaux", "Des vaches et des poules"],
+          "correctAnswer": "Des chevaux, des oiseaux et des poissons"
         },
         {
-          "question": "Whose dog is in the garden?",
-          "options": ["Speaker A's", "Speaker B's", "The neighbour's", "From the farm"],
-          "correctAnswer": "The neighbour's"
+          "question": "À qui appartient le chien dans le jardin ?",
+          "options": ["À A", "À B", "À la voisine", "À la ferme"],
+          "correctAnswer": "À la voisine"
         }
       ],
       "summary": "Speaker B shows off a new dwarf rabbit named Caramel. Speaker A would love a horse but lives in an apartment. Speaker B mentions a nearby farm with horses, birds, and fish in a pond. They also notice the neighbour's large but gentle dog in the garden."

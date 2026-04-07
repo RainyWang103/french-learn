@@ -22,7 +22,8 @@
             "My office is on the third floor."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "bureau", "feminine": "bureau", "masculinePlural": "bureaux", "femininePlural": "bureaux" }
       },
       {
         "word": "le collègue",
@@ -41,7 +42,8 @@
             "My (female) colleague is called Sophie."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "collègue", "feminine": "collègue", "masculinePlural": "collègues", "femininePlural": "collègues" }
       },
       {
         "word": "l'ordinateur",
@@ -60,7 +62,8 @@
             "She is working on her laptop."
           ]
         ],
-        "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly."
+        "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly.",
+        "forms": { "masculine": "ordinateur", "feminine": "ordinateur", "masculinePlural": "ordinateurs", "femininePlural": "ordinateurs" }
       },
       {
         "word": "la réunion",
@@ -79,7 +82,8 @@
             "The meeting lasts two hours."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "réunion", "feminine": "réunion", "masculinePlural": "réunions", "femininePlural": "réunions" }
       },
       {
         "word": "le travail",
@@ -98,7 +102,8 @@
             "He has been looking for work for a month."
           ]
         ],
-        "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation)."
+        "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation).",
+        "forms": { "masculine": "travail", "feminine": "travail", "masculinePlural": "travaux", "femininePlural": "travaux" }
       }
     ],
     "advanced": [
@@ -119,7 +124,8 @@
             "My office is on the third floor."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "bureau", "feminine": "bureau", "masculinePlural": "bureaux", "femininePlural": "bureaux" }
       },
       {
         "word": "le collègue",
@@ -138,7 +144,8 @@
             "My (female) colleague is called Sophie."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "collègue", "feminine": "collègue", "masculinePlural": "collègues", "femininePlural": "collègues" }
       },
       {
         "word": "l'ordinateur",
@@ -157,7 +164,8 @@
             "She is working on her laptop."
           ]
         ],
-        "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly."
+        "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly.",
+        "forms": { "masculine": "ordinateur", "feminine": "ordinateur", "masculinePlural": "ordinateurs", "femininePlural": "ordinateurs" }
       },
       {
         "word": "la réunion",
@@ -176,7 +184,8 @@
             "The meeting lasts two hours."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "réunion", "feminine": "réunion", "masculinePlural": "réunions", "femininePlural": "réunions" }
       },
       {
         "word": "le travail",
@@ -195,7 +204,8 @@
             "He has been looking for work for a month."
           ]
         ],
-        "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation)."
+        "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation).",
+        "forms": { "masculine": "travail", "feminine": "travail", "masculinePlural": "travaux", "femininePlural": "travaux" }
       },
       {
         "word": "le patron",
@@ -214,7 +224,8 @@
             "She is the owner/boss of this company."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "patron", "feminine": "patronne", "masculinePlural": "patrons", "femininePlural": "patronnes" }
       },
       {
         "word": "l'emploi",
@@ -233,7 +244,8 @@
             "The job adverts are online."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "emploi", "feminine": "emploi", "masculinePlural": "emplois", "femininePlural": "emplois" }
       }
     ]
   },
@@ -275,31 +287,31 @@
       ],
       "questions": [
         {
-          "question": "Who should the new employee contact for computer problems?",
+          "question": "À qui est-ce que le nouvel employé doit parler pour les problèmes d'ordinateur ?",
           "options": [
             "Thomas",
             "Marc",
-            "The manager"
+            "Le directeur"
           ],
           "correctAnswer": "Marc"
         },
         {
-          "question": "What does Thomas say he will give to the new employee for the meeting?",
+          "question": "Qu'est-ce que Thomas va donner au nouvel employé pour la réunion ?",
           "options": [
-            "The email",
-            "The file / dossier",
-            "The computer"
+            "L'email",
+            "Le dossier",
+            "L'ordinateur"
           ],
-          "correctAnswer": "The file / dossier"
+          "correctAnswer": "Le dossier"
         },
         {
-          "question": "What time does work start?",
+          "question": "À quelle heure commence le travail ?",
           "options": [
-            "Eight o'clock",
-            "Nine o'clock",
-            "Ten o'clock"
+            "À huit heures",
+            "À neuf heures",
+            "À dix heures"
           ],
-          "correctAnswer": "Nine o'clock"
+          "correctAnswer": "À neuf heures"
         }
       ],
       "summary": "Thomas welcomes a new employee on their first day and explains the office setup. The new employee should speak to Marc for computer issues, and Thomas will send Marc a message to introduce them. Thomas will give the new employee the file for the morning meeting, and the new employee needs to send the team an email with notes. Work starts at nine, the meeting is at ten, and the office is on the second floor."
@@ -341,44 +353,44 @@
       ],
       "questions": [
         {
-          "question": "Who does the new employee report to directly?",
+          "question": "À qui est-ce que la nouvelle employée rapporte directement ?",
           "options": [
-            "Julien",
-            "The HR team",
-            "The boss",
-            "The IT department"
+            "À Julien",
+            "À l'équipe RH",
+            "Au patron",
+            "Au service informatique"
           ],
-          "correctAnswer": "The boss"
+          "correctAnswer": "Au patron"
         },
         {
-          "question": "What does the new employee need to send after each meeting?",
+          "question": "Qu'est-ce que la nouvelle employée doit envoyer après chaque réunion ?",
           "options": [
-            "An email with the agenda",
-            "Meeting minutes / summary emails",
-            "A file to the boss",
-            "A message to Julien"
+            "Un email avec l'ordre du jour",
+            "Un email avec le compte rendu",
+            "Un dossier au patron",
+            "Un message à Julien"
           ],
-          "correctAnswer": "Meeting minutes / summary emails"
+          "correctAnswer": "Un email avec le compte rendu"
         },
         {
-          "question": "What does Julien say about the boss?",
+          "question": "Qu'est-ce que Julien dit sur le patron ?",
           "options": [
-            "He is very strict",
-            "He listens to ideas",
-            "He is often absent",
-            "He does not reply to emails"
+            "Il est très strict",
+            "Il écoute les idées",
+            "Il est souvent absent",
+            "Il ne répond jamais aux emails"
           ],
-          "correctAnswer": "He listens to ideas"
+          "correctAnswer": "Il écoute les idées"
         },
         {
-          "question": "When is the first meeting?",
+          "question": "À quelle heure est la première réunion ?",
           "options": [
-            "Eight o'clock",
-            "Nine o'clock",
-            "Ten o'clock",
-            "Eleven o'clock"
+            "À huit heures",
+            "À neuf heures",
+            "À dix heures",
+            "À onze heures"
           ],
-          "correctAnswer": "Ten o'clock"
+          "correctAnswer": "À dix heures"
         }
       ],
       "summary": "Julien welcomes Marie on her first day. She reports directly to the boss, and Julien will speak to the boss that morning to inform him of her start. After each meeting, Marie needs to send the team summary emails. Julien offers to help her find the schedule. The boss listens to ideas, which Marie finds reassuring. The first meeting is at ten o'clock."

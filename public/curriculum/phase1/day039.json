@@ -22,7 +22,8 @@
             "The station is straight ahead, five minutes away."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "tout droit", "feminine": "tout droit", "masculinePlural": "tout droit", "femininePlural": "tout droit" }
       },
       {
         "word": "à gauche",
@@ -41,7 +42,8 @@
             "The pharmacy is on the left."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "à gauche", "feminine": "à gauche", "masculinePlural": "à gauche", "femininePlural": "à gauche" }
       },
       {
         "word": "à droite",
@@ -60,7 +62,8 @@
             "The museum is on the right after the bridge."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "à droite", "feminine": "à droite", "masculinePlural": "à droite", "femininePlural": "à droite" }
       },
       {
         "word": "le plan",
@@ -79,7 +82,8 @@
             "Let's look at the map — the station is here."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "plan", "feminine": "plan", "masculinePlural": "plans", "femininePlural": "plans" }
       },
       {
         "word": "la direction",
@@ -98,7 +102,8 @@
             "Follow the direction to the town centre."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "direction", "feminine": "direction", "masculinePlural": "directions", "femininePlural": "directions" }
       }
     ],
     "advanced": [
@@ -119,7 +124,8 @@
             "The station is straight ahead, five minutes away."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "tout droit", "feminine": "tout droit", "masculinePlural": "tout droit", "femininePlural": "tout droit" }
       },
       {
         "word": "à gauche",
@@ -138,7 +144,8 @@
             "The pharmacy is on the left."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "à gauche", "feminine": "à gauche", "masculinePlural": "à gauche", "femininePlural": "à gauche" }
       },
       {
         "word": "à droite",
@@ -157,7 +164,8 @@
             "The museum is on the right after the bridge."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "à droite", "feminine": "à droite", "masculinePlural": "à droite", "femininePlural": "à droite" }
       },
       {
         "word": "le plan",
@@ -176,7 +184,8 @@
             "Let's look at the map — the station is here."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "plan", "feminine": "plan", "masculinePlural": "plans", "femininePlural": "plans" }
       },
       {
         "word": "la direction",
@@ -195,7 +204,8 @@
             "Follow the direction to the town centre."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "masculine": "direction", "feminine": "direction", "masculinePlural": "directions", "femininePlural": "directions" }
       },
       {
         "word": "traverser",
@@ -204,14 +214,6 @@
         "pronunciation": "tra-vehr-say",
         "meaning": "to cross",
         "notes": "Regular -er verb. 'Traverser la rue' = to cross the street. 'Traverser le pont' = to cross the bridge. Essential for giving directions: 'Traversez la place, puis tournez à gauche.' Also used figuratively: 'traverser une période difficile' = to go through a difficult period.",
-        "conjugation": {
-          "je traverse": "I cross",
-          "tu traverses": "you cross",
-          "il/elle traverse": "he/she crosses",
-          "nous traversons": "we cross",
-          "vous traversez": "you cross",
-          "ils/elles traversent": "they cross"
-        },
         "examples": [
           [
             "Traversez le pont et tournez à droite.",
@@ -222,7 +224,8 @@
             "He crosses the street at the pedestrian light."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "je": "je traverse", "tu": "tu traverses", "il": "il/elle/on traverse", "nous": "nous traversons", "vous": "vous traversez", "ils": "ils/elles traversent" }
       },
       {
         "word": "continuer",
@@ -231,14 +234,6 @@
         "pronunciation": "kohn-tee-noo-ay",
         "meaning": "to continue / to carry on",
         "notes": "Regular -er verb. 'Continuez tout droit' = Continue straight ahead. 'Continuer sur cette route' = to continue on this road. Very common in directions. 'Continuez jusqu'à…' = Continue as far as / until… ('jusqu'à' means 'as far as / until').",
-        "conjugation": {
-          "je continue": "I continue",
-          "tu continues": "you continue",
-          "il/elle continue": "he/she continues",
-          "nous continuons": "we continue",
-          "vous continuez": "you continue",
-          "ils/elles continuent": "they continue"
-        },
         "examples": [
           [
             "Continuez tout droit pendant deux cents mètres.",
@@ -249,7 +244,8 @@
             "You continue as far as the roundabout."
           ]
         ],
-        "special": ""
+        "special": "",
+        "forms": { "je": "je continue", "tu": "tu continues", "il": "il/elle/on continue", "nous": "nous continuons", "vous": "vous continuez", "ils": "ils/elles continuent" }
       }
     ]
   },
@@ -291,31 +287,31 @@
       ],
       "questions": [
         {
-          "question": "What does the tourist say about their arrival?",
+          "question": "Qu'est-ce que le touriste dit sur son arrivée ?",
           "options": [
-            "They arrived yesterday",
-            "They have just arrived in town",
-            "They are leaving soon"
+            "Il est arrivé hier",
+            "Il vient d'arriver en ville",
+            "Il part bientôt"
           ],
-          "correctAnswer": "They have just arrived in town"
+          "correctAnswer": "Il vient d'arriver en ville"
         },
         {
-          "question": "Which direction does the tourist turn at the crossroads?",
+          "question": "Dans quelle direction le touriste tourne-t-il au carrefour ?",
           "options": [
-            "Right",
-            "Left",
-            "Straight ahead"
+            "À droite",
+            "À gauche",
+            "Tout droit"
           ],
-          "correctAnswer": "Left"
+          "correctAnswer": "À gauche"
         },
         {
-          "question": "How long does the local say the walk takes?",
+          "question": "Combien de temps dure la marche selon le passant ?",
           "options": [
-            "Five minutes",
-            "Ten minutes",
-            "Twenty minutes"
+            "Cinq minutes",
+            "Dix minutes",
+            "Vingt minutes"
           ],
-          "correctAnswer": "Ten minutes"
+          "correctAnswer": "Dix minutes"
         }
       ],
       "summary": "A tourist who has just arrived in town asks a local how to reach the train station. The local instructs them to go straight ahead to the crossroads, then turn left, and the station will be on the right after 200 metres. The local doesn't have a map but assures the tourist it is a ten-minute walk heading north."
@@ -357,44 +353,44 @@
       ],
       "questions": [
         {
-          "question": "Where has the tourist just come from?",
+          "question": "D'où est-ce que le touriste vient d'arriver ?",
           "options": [
-            "The town hall",
-            "The market",
-            "The train station",
-            "The hotel"
+            "De la mairie",
+            "Du marché",
+            "De la gare",
+            "De l'hôtel"
           ],
-          "correctAnswer": "The train station"
+          "correctAnswer": "De la gare"
         },
         {
-          "question": "What does the tourist need to cross?",
+          "question": "Qu'est-ce que le touriste doit traverser ?",
           "options": [
-            "A bridge",
-            "The main road",
-            "The square",
-            "The crossroads"
+            "Un pont",
+            "La rue principale",
+            "La place",
+            "Le carrefour"
           ],
-          "correctAnswer": "The square"
+          "correctAnswer": "La place"
         },
         {
-          "question": "Which direction does the tourist turn at the town map?",
+          "question": "Dans quelle direction le touriste tourne-t-il au plan de la ville ?",
           "options": [
-            "Left",
-            "Straight ahead",
-            "Right",
-            "Back the way they came"
+            "À gauche",
+            "Tout droit",
+            "À droite",
+            "En arrière"
           ],
-          "correctAnswer": "Right"
+          "correctAnswer": "À droite"
         },
         {
-          "question": "How far away is the pharmacy at the end of the directions?",
+          "question": "À quelle distance se trouve la pharmacie à la fin des indications ?",
           "options": [
-            "One minute",
-            "Two minutes",
-            "Five minutes",
-            "Ten minutes"
+            "Une minute",
+            "Deux minutes",
+            "Cinq minutes",
+            "Dix minutes"
           ],
-          "correctAnswer": "Two minutes"
+          "correctAnswer": "Deux minutes"
         }
       ],
       "summary": "A tourist who has just arrived (from the train station) asks a local for the nearest pharmacy. The local uses 'venir de' to clarify the starting point, then gives step-by-step directions: go straight ahead to the traffic lights, cross the square, take the direction of the market, turn right at the town map, and the pharmacy is on the left — about two minutes away."
