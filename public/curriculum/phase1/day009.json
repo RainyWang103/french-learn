@@ -358,7 +358,7 @@
           "correctAnswer": "Il fait froid."
         },
         {
-          "question": "Quel jour fait-il beau ?",
+          "question": "Quel jour est-ce qu'il fait beau ?",
           "options": [
             "Samedi",
             "Dimanche",
@@ -426,7 +426,7 @@
           "correctAnswer": "L'après-midi"
         },
         {
-          "question": "Que font-ils s'il pleut ?",
+          "question": "Qu'est-ce qu'ils font s'il pleut ?",
           "options": [
             "Ils restent à la maison.",
             "Ils vont au cinéma.",

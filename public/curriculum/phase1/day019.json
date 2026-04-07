@@ -356,7 +356,7 @@
           "correctAnswer": "Mal à la tête et au ventre"
         },
         {
-          "question": "Depuis quand le patient ne se sent-il pas bien ?",
+          "question": "Depuis quand est-ce que le patient ne se sent pas bien ?",
           "options": [
             "Depuis ce matin",
             "Depuis hier soir",
@@ -365,7 +365,7 @@
           "correctAnswer": "Depuis hier soir"
         },
         {
-          "question": "Que recommande le médecin ?",
+          "question": "Qu'est-ce que le médecin recommande ?",
           "options": [
             "Aller à l'hôpital tout de suite",
             "Prendre un médicament et se reposer",
@@ -413,7 +413,7 @@
       ],
       "questions": [
         {
-          "question": "Depuis combien de temps le patient a-t-il des symptômes ?",
+          "question": "Depuis combien de temps est-ce que le patient a des symptômes ?",
           "options": [
             "Un jour",
             "Deux jours",

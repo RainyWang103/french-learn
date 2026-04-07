@@ -354,7 +354,7 @@
           "correctAnswer": "Une robe rouge ou un pantalon noir"
         },
         {
-          "question": "Pourquoi B hésite-t-il ?",
+          "question": "Pourquoi est-ce que B hésite ?",
           "options": [
             "La robe est trop petite.",
             "Il fait froid ce soir.",
@@ -363,7 +363,7 @@
           "correctAnswer": "Il fait froid ce soir."
         },
         {
-          "question": "Que porte A ?",
+          "question": "Qu'est-ce que A porte ?",
           "options": [
             "Une robe bleue",
             "Un pantalon blanc et un chapeau",

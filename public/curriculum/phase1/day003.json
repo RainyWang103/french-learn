@@ -332,7 +332,7 @@
       ],
       "questions": [
         {
-          "question": "Que veut B pour le petit-déjeuner ?",
+          "question": "Qu'est-ce que B veut pour le petit-déjeuner ?",
           "options": [
             "Du café et du pain avec du beurre",
             "Du café et de la confiture",
@@ -394,7 +394,7 @@
       ],
       "questions": [
         {
-          "question": "Que veut B d'abord ?",
+          "question": "Qu'est-ce que B veut d'abord ?",
           "options": [
             "Du pain et du beurre",
             "Un bol de café au lait et un croissant",
@@ -414,7 +414,7 @@
           "correctAnswer": "Il n'y a plus de croissants"
         },
         {
-          "question": "Quelle confiture B choisit-il ?",
+          "question": "Quelle confiture est-ce que B choisit ?",
           "options": [
             "Confiture d'abricot",
             "Confiture de fraises",

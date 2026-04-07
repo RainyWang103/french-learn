@@ -402,7 +402,7 @@
       ],
       "questions": [
         {
-          "question": "Que cherche B ?",
+          "question": "Qu'est-ce que B cherche ?",
           "options": [
             "Ses clés",
             "Son peigne",
@@ -412,7 +412,7 @@
           "correctAnswer": "Son peigne"
         },
         {
-          "question": "Où A dit-il de chercher le peigne ?",
+          "question": "Où est-ce que A dit de chercher le peigne ?",
           "options": [
             "Dans la chambre",
             "Dans la cuisine",

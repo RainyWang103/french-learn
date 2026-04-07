@@ -356,7 +356,7 @@
       ],
       "questions": [
         {
-          "question": "À quelle heure B mange-t-il ?",
+          "question": "À quelle heure est-ce que B mange ?",
           "options": [
             "À six heures",
             "À sept heures",
@@ -365,7 +365,7 @@
           "correctAnswer": "À sept heures"
         },
         {
-          "question": "Que fait B après le dîner ?",
+          "question": "Qu'est-ce que B fait après le dîner ?",
           "options": [
             "Il écoute de la musique",
             "Il regarde la télé",
@@ -374,7 +374,7 @@
           "correctAnswer": "Il regarde la télé"
         },
         {
-          "question": "Que fait A le soir ?",
+          "question": "Qu'est-ce que A fait le soir ?",
           "options": [
             "Il regarde la télé",
             "Il écoute du jazz",
@@ -422,7 +422,7 @@
       ],
       "questions": [
         {
-          "question": "À quelle heure B mange-t-il ?",
+          "question": "À quelle heure est-ce que B mange ?",
           "options": [
             "À sept heures",
             "Vers sept heures et demie",
@@ -432,7 +432,7 @@
           "correctAnswer": "Vers sept heures et demie"
         },
         {
-          "question": "Avec qui B mange-t-il ?",
+          "question": "Avec qui est-ce que B mange ?",
           "options": [
             "Seul",
             "Avec sa copine",
@@ -442,7 +442,7 @@
           "correctAnswer": "Avec sa copine"
         },
         {
-          "question": "À quelle heure B se couche-t-il le week-end ?",
+          "question": "À quelle heure est-ce que B se couche le week-end ?",
           "options": [
             "À dix heures",
             "À onze heures",
