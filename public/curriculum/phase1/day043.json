@@ -1,0 +1,760 @@
+{
+  "day": 43,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "At the Doctor's Office",
+  "vocab": {
+    "standard": [
+      {
+        "word": "l'ordonnance",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lor-do-NAHSS",
+        "meaning": "the prescription",
+        "notes": "What a doctor writes for medication at a pharmacy",
+        "examples": [
+          [
+            "Le médecin m'a donné une ordonnance.",
+            "The doctor gave me a prescription."
+          ],
+          [
+            "Je dois aller à la pharmacie avec mon ordonnance.",
+            "I need to go to the pharmacy with my prescription."
+          ]
+        ],
+        "special": "Essential medical vocabulary — used every time a doctor prescribes medication",
+        "forms": {
+          "masculine": "",
+          "feminine": "ordonnance",
+          "masculinePlural": "",
+          "femininePlural": "ordonnances"
+        }
+      },
+      {
+        "word": "la consultation",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la con-sul-ta-SYON",
+        "meaning": "the (doctor's) appointment / consultation",
+        "notes": "Can also mean a professional consultation in general",
+        "examples": [
+          [
+            "La consultation coûte vingt euros.",
+            "The appointment costs twenty euros."
+          ],
+          [
+            "J'ai une consultation avec mon médecin ce matin.",
+            "I have an appointment with my doctor this morning."
+          ]
+        ],
+        "special": "Used when booking or attending a medical appointment",
+        "forms": {
+          "masculine": "",
+          "feminine": "consultation",
+          "masculinePlural": "",
+          "femininePlural": "consultations"
+        }
+      },
+      {
+        "word": "la salle d'attente",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la sal da-TANT",
+        "meaning": "the waiting room",
+        "notes": "Literally 'the room of waiting' — salle = room, attente = waiting",
+        "examples": [
+          [
+            "Il y a beaucoup de monde dans la salle d'attente.",
+            "There are a lot of people in the waiting room."
+          ],
+          [
+            "Attendez dans la salle d'attente, s'il vous plaît.",
+            "Please wait in the waiting room."
+          ]
+        ],
+        "special": "Common phrase in any medical or administrative context",
+        "forms": {
+          "masculine": "",
+          "feminine": "salle d'attente",
+          "masculinePlural": "",
+          "femininePlural": "salles d'attente"
+        }
+      },
+      {
+        "word": "le symptôme",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh semp-TOME",
+        "meaning": "the symptom",
+        "notes": "Note the accent on the ô — same root as English 'symptom'",
+        "examples": [
+          [
+            "Quels sont vos symptômes ?",
+            "What are your symptoms?"
+          ],
+          [
+            "J'ai des symptômes depuis trois jours.",
+            "I've had symptoms for three days."
+          ]
+        ],
+        "special": "Key word when describing illness to a doctor",
+        "forms": {
+          "masculine": "symptôme",
+          "feminine": "",
+          "masculinePlural": "symptômes",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "guérir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "gay-REER",
+        "meaning": "to recover / to heal / to cure",
+        "notes": "Can be transitive (guérir quelqu'un — to cure someone) or intransitive (guérir — to recover)",
+        "examples": [
+          [
+            "Je vais guérir rapidement avec ce médicament.",
+            "I will recover quickly with this medication."
+          ],
+          [
+            "Le médecin m'a aidé à guérir.",
+            "The doctor helped me recover."
+          ]
+        ],
+        "special": "Regular -IR verb; useful for talking about recovery",
+        "forms": {
+          "je": "je guéris",
+          "tu": "tu guéris",
+          "il": "il/elle/on guérit",
+          "nous": "nous guérissons",
+          "vous": "vous guérissez",
+          "ils": "ils/elles guérissent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "l'ordonnance",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lor-do-NAHSS",
+        "meaning": "the prescription",
+        "notes": "Distinct from 'règlement' (regulation) despite older legal meaning",
+        "examples": [
+          [
+            "Le médecin m'a rédigé une ordonnance pour des antibiotiques.",
+            "The doctor wrote me a prescription for antibiotics."
+          ],
+          [
+            "Sans ordonnance, le pharmacien ne peut pas vous délivrer ce médicament.",
+            "Without a prescription, the pharmacist cannot give you this medication."
+          ]
+        ],
+        "special": "Essential medical vocabulary — used every time a doctor prescribes medication",
+        "forms": {
+          "masculine": "",
+          "feminine": "ordonnance",
+          "masculinePlural": "",
+          "femininePlural": "ordonnances"
+        }
+      },
+      {
+        "word": "la consultation",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la con-sul-ta-SYON",
+        "meaning": "the (doctor's) appointment / consultation",
+        "notes": "Also used in professional/legal contexts: une consultation juridique (legal consultation)",
+        "examples": [
+          [
+            "Ma consultation est à seize heures.",
+            "My appointment is at four o'clock."
+          ],
+          [
+            "Les consultations à domicile sont rares de nos jours.",
+            "Home consultations are rare these days."
+          ]
+        ],
+        "special": "Used when booking or attending a medical appointment",
+        "forms": {
+          "masculine": "",
+          "feminine": "consultation",
+          "masculinePlural": "",
+          "femininePlural": "consultations"
+        }
+      },
+      {
+        "word": "la salle d'attente",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la sal da-TANT",
+        "meaning": "the waiting room",
+        "notes": "Compound noun: salle (room) + d'attente (of waiting, from attendre)",
+        "examples": [
+          [
+            "J'ai attendu une heure dans la salle d'attente.",
+            "I waited an hour in the waiting room."
+          ],
+          [
+            "La salle d'attente était pleine de patients.",
+            "The waiting room was full of patients."
+          ]
+        ],
+        "special": "Common phrase in any medical or administrative context",
+        "forms": {
+          "masculine": "",
+          "feminine": "salle d'attente",
+          "masculinePlural": "",
+          "femininePlural": "salles d'attente"
+        }
+      },
+      {
+        "word": "le symptôme",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh semp-TOME",
+        "meaning": "the symptom",
+        "notes": "Often used in plural: des symptômes; medical register",
+        "examples": [
+          [
+            "Décrivez-moi vos symptômes avec précision.",
+            "Describe your symptoms to me precisely."
+          ],
+          [
+            "Ces symptômes peuvent indiquer une infection.",
+            "These symptoms may indicate an infection."
+          ]
+        ],
+        "special": "Key word when describing illness to a doctor",
+        "forms": {
+          "masculine": "symptôme",
+          "feminine": "",
+          "masculinePlural": "symptômes",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "guérir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "gay-REER",
+        "meaning": "to recover / to heal / to cure",
+        "notes": "Transitive: guérir une maladie (to cure an illness); intransitive: guérir vite (to recover fast)",
+        "examples": [
+          [
+            "Ce traitement devrait vous guérir en quelques jours.",
+            "This treatment should cure you in a few days."
+          ],
+          [
+            "Elle a mis longtemps à guérir de sa blessure.",
+            "She took a long time to recover from her injury."
+          ]
+        ],
+        "special": "Regular -IR verb; useful for talking about recovery",
+        "forms": {
+          "je": "je guéris",
+          "tu": "tu guéris",
+          "il": "il/elle/on guérit",
+          "nous": "nous guérissons",
+          "vous": "vous guérissez",
+          "ils": "ils/elles guérissent"
+        }
+      },
+      {
+        "word": "le cabinet",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh ka-bee-NAY",
+        "meaning": "the doctor's office / surgery",
+        "notes": "le cabinet médical — more formal than just 'chez le médecin'",
+        "examples": [
+          [
+            "Le cabinet du médecin ouvre à neuf heures.",
+            "The doctor's office opens at nine o'clock."
+          ],
+          [
+            "Elle travaille dans un cabinet de groupe avec trois autres médecins.",
+            "She works in a group practice with three other doctors."
+          ]
+        ],
+        "special": "Also used for lawyer's office (cabinet d'avocat) or dentist's office",
+        "forms": {
+          "masculine": "cabinet",
+          "feminine": "",
+          "masculinePlural": "cabinets",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la douleur",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "la doo-LUR",
+        "meaning": "the pain / ache",
+        "notes": "More clinical than 'mal'; used to describe physical or emotional pain",
+        "examples": [
+          [
+            "La douleur est intense depuis hier soir.",
+            "The pain has been intense since yesterday evening."
+          ],
+          [
+            "Il a du mal à supporter la douleur.",
+            "He has difficulty bearing the pain."
+          ]
+        ],
+        "special": "Key word in medical contexts; differs from avoir mal (to feel pain)",
+        "forms": {
+          "masculine": "",
+          "feminine": "douleur",
+          "masculinePlural": "",
+          "femininePlural": "douleurs"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour, docteur. Je ne me sens pas bien depuis deux jours."
+        ],
+        [
+          "B",
+          "Bonjour. Asseyez-vous. Quels sont vos symptômes ?"
+        ],
+        [
+          "A",
+          "J'ai mal à la gorge et j'ai de la fièvre."
+        ],
+        [
+          "B",
+          "Je vois. Il faut faire un test pour vérifier si c'est une infection."
+        ],
+        [
+          "A",
+          "D'accord. Est-ce que je dois prendre des médicaments ?"
+        ],
+        [
+          "B",
+          "Oui, il faut prendre ces comprimés trois fois par jour. Voici votre ordonnance."
+        ],
+        [
+          "A",
+          "Merci, docteur. Est-ce que je vais guérir vite ?"
+        ],
+        [
+          "B",
+          "Oui, dans quelques jours vous allez vous sentir mieux."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Depuis combien de temps est-ce que A ne se sent pas bien ?",
+          "options": [
+            "Depuis hier",
+            "Depuis deux jours",
+            "Depuis une semaine"
+          ],
+          "correctAnswer": "Depuis deux jours"
+        },
+        {
+          "question": "Quels sont les symptômes de A ?",
+          "options": [
+            "La fièvre et les maux de tête",
+            "Le mal de gorge et la fièvre",
+            "La toux et la fatigue"
+          ],
+          "correctAnswer": "Le mal de gorge et la fièvre"
+        },
+        {
+          "question": "Qu'est-ce que le médecin donne à A ?",
+          "options": [
+            "Des vitamines",
+            "Une ordonnance",
+            "Un test seulement"
+          ],
+          "correctAnswer": "Une ordonnance"
+        }
+      ],
+      "summary": "A patient visits the doctor with a sore throat and fever. The doctor runs a test, writes a prescription for tablets, and reassures the patient they will recover in a few days."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour docteur, j'ai rendez-vous pour une consultation. Je souffre depuis plusieurs jours."
+        ],
+        [
+          "B",
+          "Bonjour. Installez-vous. Décrivez-moi vos symptômes avec précision, s'il vous plaît."
+        ],
+        [
+          "A",
+          "J'ai une forte douleur à la poitrine, surtout le matin, et j'ai du mal à respirer."
+        ],
+        [
+          "B",
+          "Depuis combien de temps avez-vous ces symptômes ?"
+        ],
+        [
+          "A",
+          "Depuis environ cinq jours. J'ai aussi de la fièvre le soir."
+        ],
+        [
+          "B",
+          "Il faut absolument faire une radio et des analyses de sang. Je vous donne une ordonnance."
+        ],
+        [
+          "A",
+          "Est-ce que c'est grave, docteur ?"
+        ],
+        [
+          "B",
+          "Il ne faut pas s'inquiéter trop vite. Attendez les résultats dans la salle d'attente du laboratoire."
+        ],
+        [
+          "A",
+          "Et pour guérir, il faut combien de temps ?"
+        ],
+        [
+          "B",
+          "Cela dépend des résultats. Il faut d'abord poser un diagnostic précis."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Quels sont les principaux symptômes de A ?",
+          "options": [
+            "La gorge et la fièvre",
+            "La douleur à la poitrine et du mal à respirer",
+            "Le dos et les jambes",
+            "La toux et la fièvre"
+          ],
+          "correctAnswer": "La douleur à la poitrine et du mal à respirer"
+        },
+        {
+          "question": "Depuis combien de temps est-ce que A a ces symptômes ?",
+          "options": [
+            "Depuis deux jours",
+            "Depuis cinq jours",
+            "Depuis une semaine",
+            "Depuis hier"
+          ],
+          "correctAnswer": "Depuis cinq jours"
+        },
+        {
+          "question": "Qu'est-ce que le médecin demande à A de faire ?",
+          "options": [
+            "Prendre des médicaments directement",
+            "Faire une radio et des analyses de sang",
+            "Aller aux urgences",
+            "Se reposer chez lui"
+          ],
+          "correctAnswer": "Faire une radio et des analyses de sang"
+        },
+        {
+          "question": "Pourquoi est-ce que le médecin ne donne pas de temps de guérison tout de suite ?",
+          "options": [
+            "Il est trop occupé",
+            "Il attend les résultats des analyses",
+            "Il ne connaît pas la maladie",
+            "Il faut attendre une semaine"
+          ],
+          "correctAnswer": "Il attend les résultats des analyses"
+        }
+      ],
+      "summary": "A patient with chest pain and breathing difficulties visits the doctor. The doctor asks detailed questions and orders blood tests and an X-ray before making a diagnosis, using 'il faut' to explain each necessary step."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Il faut + Infinitive (Expressing Necessity)",
+      "explanation": "Use 'il faut + infinitive' to say what is necessary or required. It is impersonal — it applies to everyone in general, like 'one must' or 'you have to'. It is always followed by a verb in the infinitive form.\n\nExamples:\n• Il faut manger. (You have to eat. / One must eat.)\n• Il faut prendre une ordonnance. (You need a prescription.)\n• Il ne faut pas fumer. (You must not smoke.) — negative form",
+      "examples": [
+        {"french": "Il faut prendre ces comprimés.", "english": "You need to take these tablets."},
+        {"french": "Il faut attendre dans la salle d'attente.", "english": "You have to wait in the waiting room."},
+        {"french": "Il ne faut pas oublier votre ordonnance.", "english": "You must not forget your prescription."},
+        {"french": "Il faut consulter un médecin.", "english": "You need to see a doctor."}
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete the sentence: 'Il ___ prendre ce médicament trois fois par jour.'",
+          "correctAnswer": "faut",
+          "explanation": "'Il faut' + infinitive means 'it is necessary to'. Il faut prendre = you need to take."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'You have to rest today'?",
+          "options": ["Il faut se reposer aujourd'hui.", "Il faut vous reposez aujourd'hui.", "Il faut que repose aujourd'hui."],
+          "correctAnswer": "Il faut se reposer aujourd'hui.",
+          "explanation": "'Il faut' is always followed by a verb in the infinitive — 'se reposer' is the infinitive of the reflexive verb."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly uses 'il ne faut pas'?",
+          "options": ["Il ne faut pas fumer.", "Il ne faut fumer pas.", "Il faut ne pas fumer."],
+          "correctAnswer": "Il ne faut pas fumer.",
+          "explanation": "The negative form is 'il ne faut pas' + infinitive. The ne...pas wraps around 'faut', not around the infinitive."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Translate: 'You must not eat before the test.' Start with 'Il...'",
+          "correctAnswer": "Il ne faut pas manger avant le test.",
+          "explanation": "'Il ne faut pas' + infinitive expresses prohibition — you must not do something."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence is correct?",
+          "options": ["Il faut je mange.", "Il faut manger.", "Il faut manges."],
+          "correctAnswer": "Il faut manger.",
+          "explanation": "'Il faut' is always followed by a verb in the infinitive form, never by a conjugated verb."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Il faut + Infinitive — Necessity, Obligation & Nuance",
+      "explanation": "Il faut + infinitive expresses general necessity or obligation. It is impersonal and stronger than 'devoir'. Key forms:\n\n• Affirmative: Il faut + infinitive → 'It is necessary to...'\n• Negative: Il ne faut pas + infinitive → 'One must not...'\n• With que + subjunctive (advanced): Il faut que tu prennes... → 'You need to take...'\n\nNuances:\n• Il faut is stronger and more formal than 'devoir'\n• Il ne faut pas = prohibition (stronger than 'ne pas devoir')\n• Can express moral obligation as well as practical necessity\n\nPast form: Il a fallu + infinitive → 'It was necessary to...'",
+      "examples": [
+        {"french": "Il faut prendre rendez-vous à l'avance.", "english": "You need to make an appointment in advance."},
+        {"french": "Il ne faut pas ignorer ces symptômes.", "english": "You must not ignore these symptoms."},
+        {"french": "Il a fallu attendre deux heures avant d'être reçu.", "english": "We had to wait two hours before being seen."},
+        {"french": "Il faut absolument consulter un spécialiste.", "english": "You absolutely must see a specialist."}
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Il ___ absolument faire les analyses.' (it is necessary)",
+          "correctAnswer": "faut",
+          "explanation": "'Il faut' expresses necessity. 'Il faut absolument' adds strong emphasis — it is absolutely necessary."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you express 'It was necessary to call the doctor' (past form)?",
+          "options": ["Il faut appeler le médecin.", "Il a fallu appeler le médecin.", "Il fallait appeler le médecin."],
+          "correctAnswer": "Il a fallu appeler le médecin.",
+          "explanation": "The passé composé of 'il faut' is 'il a fallu' — it was necessary / we had to. 'Il fallait' is the imperfect (ongoing past necessity)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence expresses a prohibition most strongly?",
+          "options": ["Vous ne devez pas fumer.", "Il ne faut pas fumer.", "Ne fumez pas."],
+          "correctAnswer": "Il ne faut pas fumer.",
+          "explanation": "'Il ne faut pas' expresses a prohibition stronger than 'vous ne devez pas'. It conveys a moral or social obligation not to do something."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Translate: 'You must not eat anything before the blood test.' (Use il ne faut...)",
+          "correctAnswer": "Il ne faut rien manger avant la prise de sang.",
+          "explanation": "'Il ne faut pas' becomes 'il ne faut rien' when combined with 'rien' (nothing). 'La prise de sang' = blood test."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which correctly translates 'It is necessary to rest for a week'?",
+          "options": ["Il faut se reposer pendant une semaine.", "Il faut reposer pour une semaine.", "Il faut vous reposez pendant une semaine."],
+          "correctAnswer": "Il faut se reposer pendant une semaine.",
+          "explanation": "'Se reposer' is the reflexive infinitive meaning 'to rest'. Use 'pendant' for a completed duration of time."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "What is the key grammatical difference between 'il faut' and 'devoir'?",
+          "options": [
+            "'Il faut' is impersonal and applies to everyone; 'devoir' is conjugated for a specific subject.",
+            "'Il faut' is only used in the past; 'devoir' is only present.",
+            "They are interchangeable with no difference.",
+            "'Devoir' is stronger than 'il faut'."
+          ],
+          "correctAnswer": "'Il faut' is impersonal and applies to everyone; 'devoir' is conjugated for a specific subject.",
+          "explanation": "'Il faut manger' applies generally ('one must eat'); 'tu dois manger' is directed at a specific person. 'Il faut' is also considered slightly more formal."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Put the sentence in the past: 'Il faut prendre rendez-vous.' → 'Il ___ ___ prendre rendez-vous.'",
+          "correctAnswer": "a fallu",
+          "explanation": "'Il a fallu' is the passé composé of the impersonal verb 'falloir'. It means 'it was necessary' or 'we/they had to'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which sentence correctly uses 'il faut' with 'absolument'?",
+          "options": [
+            "Il faut absolument consulter un spécialiste.",
+            "Absolument il faut consulter un spécialiste.",
+            "Il faut consulter absolument un spécialiste."
+          ],
+          "correctAnswer": "Il faut absolument consulter un spécialiste.",
+          "explanation": "Adverbs like 'absolument' are placed between 'faut' and the infinitive to add emphasis. This is the natural word order in French."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'l'ordonnance' mean?",
+        "options": [
+          "the waiting room",
+          "the prescription",
+          "the symptom"
+        ],
+        "correctAnswer": "the prescription",
+        "explanation": "L'ordonnance is the document a doctor writes so you can get medication from the pharmacy.",
+        "targetWord": "l'ordonnance"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly uses 'il faut'?",
+        "options": [
+          "Il faut je mange.",
+          "Il faut manger.",
+          "Il faut manges."
+        ],
+        "correctAnswer": "Il faut manger.",
+        "explanation": "Il faut is always followed by a verb in the infinitive form — 'il faut manger' means 'you need to eat'.",
+        "targetWord": "il faut"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'la salle d'attente'?",
+        "options": [
+          "the consultation room",
+          "the operating theatre",
+          "the waiting room"
+        ],
+        "correctAnswer": "the waiting room",
+        "explanation": "La salle d'attente literally means 'the room of waiting' — the place where patients wait before seeing the doctor.",
+        "targetWord": "la salle d'attente"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complete the sentence: 'Il ___ prendre ce médicament trois fois par jour.'",
+        "correctAnswer": "faut",
+        "explanation": "Il faut + infinitive means 'it is necessary to' — il faut prendre = you need to take.",
+        "targetWord": "il faut"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'guérir' mean?",
+        "options": [
+          "to hurt",
+          "to recover / to heal",
+          "to diagnose"
+        ],
+        "correctAnswer": "to recover / to heal",
+        "explanation": "Guérir means to recover from illness or to cure someone — je vais guérir = I am going to recover.",
+        "targetWord": "guérir"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "What does 'la douleur' mean?",
+        "options": [
+          "the fever",
+          "the prescription",
+          "the pain",
+          "the symptom"
+        ],
+        "correctAnswer": "the pain",
+        "explanation": "La douleur is the clinical term for pain. It differs from 'avoir mal' which describes the subjective feeling of pain.",
+        "targetWord": "la douleur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence uses 'il faut' correctly in the negative?",
+        "options": [
+          "Il ne faut pas ignorer ces symptômes.",
+          "Il faut ne pas ignorer ces symptômes.",
+          "Il faut pas ignorer ces symptômes.",
+          "Il ne faut ignorer pas ces symptômes."
+        ],
+        "correctAnswer": "Il ne faut pas ignorer ces symptômes.",
+        "explanation": "The correct negative form is il ne faut pas + infinitive. The ne...pas wraps around 'faut', not the infinitive.",
+        "targetWord": "il ne faut pas"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is 'le cabinet' in a medical context?",
+        "options": [
+          "the waiting room",
+          "the hospital ward",
+          "the doctor's office",
+          "the surgery theatre"
+        ],
+        "correctAnswer": "the doctor's office",
+        "explanation": "Le cabinet (médical) refers to the doctor's private practice or office, as opposed to a hospital.",
+        "targetWord": "le cabinet"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Put in the past: 'Il ___ attendre deux heures avant de voir le médecin.'",
+        "correctAnswer": "a fallu",
+        "explanation": "The past form of 'il faut' is 'il a fallu' — it was necessary / we had to.",
+        "targetWord": "il a fallu"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which of the following best expresses a prohibition using 'il faut'?",
+        "options": [
+          "Il faut boire de l'eau.",
+          "Il ne faut pas manger avant l'opération.",
+          "Il faut faire une analyse de sang.",
+          "Il faut se reposer."
+        ],
+        "correctAnswer": "Il ne faut pas manger avant l'opération.",
+        "explanation": "Il ne faut pas + infinitive expresses a prohibition — you must not do something. This is stronger than 'vous ne devez pas'.",
+        "targetWord": "il ne faut pas"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complete: 'Le médecin m'a rédigé une ___ pour des antibiotiques.'",
+        "options": [
+          "douleur",
+          "consultation",
+          "ordonnance",
+          "symptôme"
+        ],
+        "correctAnswer": "ordonnance",
+        "explanation": "Une ordonnance is what a doctor writes to allow a patient to obtain prescription medication from a pharmacy.",
+        "targetWord": "l'ordonnance"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Translate to French: 'You absolutely must see a specialist.' (Use il faut.)",
+        "correctAnswer": "Il faut absolument consulter un spécialiste.",
+        "explanation": "Il faut + infinitive expresses necessity. 'Absolument' adds emphasis — it is placed between faut and the verb.",
+        "targetWord": "il faut"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at the doctor's office. Explain your symptoms and ask what you need to do to get better.",
+      "keyPhrases": [
+        "Je ne me sens pas bien depuis...",
+        "J'ai mal à...",
+        "J'ai de la fièvre.",
+        "Il faut...",
+        "Est-ce que je vais guérir ?"
+      ],
+      "modelAnswer": "Bonjour docteur. Je ne me sens pas bien depuis deux jours. J'ai mal à la gorge et j'ai de la fièvre. Est-ce qu'il faut prendre des médicaments ? Est-ce que je vais guérir rapidement ?",
+      "modelAnswerExplanation": "This answer uses 'depuis' to express duration, 'avoir mal à' for pain, 'il faut' for necessity, and 'guérir' for recovery — all key vocabulary and grammar from today's lesson.",
+      "tip": "When speaking to a doctor, use 'vous' form. Be specific about where you feel pain and for how long."
+    },
+    "advanced": {
+      "scenario": "You are visiting a doctor for the first time. Describe your symptoms in detail, mention how long you have had them, and ask what steps are necessary to get a diagnosis and recover.",
+      "keyPhrases": [
+        "Je souffre de... depuis...",
+        "La douleur est intense / modérée.",
+        "Il faut faire... / Il faut prendre...",
+        "Qu'est-ce qu'il faut faire pour guérir ?",
+        "Est-ce que c'est grave ?"
+      ],
+      "modelAnswer": "Bonjour docteur. Je souffre d'une douleur intense à la poitrine depuis cinq jours. J'ai aussi de la fièvre le soir. Quels symptômes sont les plus préoccupants ? Il faut faire des analyses ? Je voudrais savoir ce qu'il faut faire pour guérir le plus vite possible.",
+      "modelAnswerExplanation": "This answer uses 'souffrir de' for more precise pain description, 'la douleur' for clinical vocabulary, 'il faut' for necessity, and formulates questions to get diagnostic information — demonstrating a more advanced register.",
+      "tip": "In formal medical French, use 'souffrir de' rather than 'avoir mal à' for a more clinical register. Ask 'Qu'est-ce qu'il faut faire ?' to use today's grammar point naturally."
+    }
+  }
+}

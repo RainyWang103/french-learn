@@ -1,0 +1,786 @@
+{
+  "day": 47,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Wellness & Self-Care",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le savon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sah-vɔ̃",
+        "meaning": "the soap",
+        "notes": "Used in everyday hygiene routines. 'Du savon' = some soap.",
+        "examples": [
+          [
+            "J'ai utilisé le savon pour me laver les mains.",
+            "I used the soap to wash my hands."
+          ],
+          [
+            "Il n'y a plus de savon dans la salle de bain.",
+            "There is no more soap in the bathroom."
+          ]
+        ],
+        "special": "Essential hygiene vocabulary",
+        "forms": {
+          "masculine": "savon",
+          "feminine": "",
+          "masculinePlural": "savons",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la brosse à dents",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah bross ah dɑ̃",
+        "meaning": "the toothbrush",
+        "notes": "Literally 'brush for teeth'. Plural: les brosses à dents.",
+        "examples": [
+          [
+            "Je me suis brossé les dents avec ma brosse à dents.",
+            "I brushed my teeth with my toothbrush."
+          ],
+          [
+            "Ma brosse à dents est rose.",
+            "My toothbrush is pink."
+          ]
+        ],
+        "special": "Daily hygiene item",
+        "forms": {
+          "masculine": "",
+          "feminine": "brosse à dents",
+          "masculinePlural": "",
+          "femininePlural": "brosses à dents"
+        }
+      },
+      {
+        "word": "le shampooing",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shɑ̃-pwɛ̃",
+        "meaning": "the shampoo",
+        "notes": "Also spelled 'shampoing'. Borrowed from English.",
+        "examples": [
+          [
+            "Elle s'est lavé les cheveux avec du shampooing.",
+            "She washed her hair with shampoo."
+          ],
+          [
+            "J'ai acheté un nouveau shampooing.",
+            "I bought a new shampoo."
+          ]
+        ],
+        "special": "Borrowed word from English",
+        "forms": {
+          "masculine": "shampooing",
+          "feminine": "",
+          "masculinePlural": "shampooings",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "se laver",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh lah-vay",
+        "meaning": "to wash (oneself)",
+        "notes": "Reflexive verb. Often used with body parts: 'se laver les mains / les cheveux / le visage'.",
+        "examples": [
+          [
+            "Je me suis lavé les mains avant de manger.",
+            "I washed my hands before eating."
+          ],
+          [
+            "Elle se lave les cheveux tous les deux jours.",
+            "She washes her hair every two days."
+          ]
+        ],
+        "special": "Core reflexive hygiene verb",
+        "forms": {
+          "je": "je me lave",
+          "tu": "tu te laves",
+          "il": "il/elle/on se lave",
+          "nous": "nous nous lavons",
+          "vous": "vous vous lavez",
+          "ils": "ils/elles se lavent"
+        }
+      },
+      {
+        "word": "le dentifrice",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh dɑ̃-tee-frees",
+        "meaning": "the toothpaste",
+        "notes": "Used with 'la brosse à dents'. 'Du dentifrice' = some toothpaste.",
+        "examples": [
+          [
+            "J'ai mis du dentifrice sur ma brosse à dents.",
+            "I put toothpaste on my toothbrush."
+          ],
+          [
+            "Ce dentifrice a un bon goût.",
+            "This toothpaste has a good taste."
+          ]
+        ],
+        "special": "Daily hygiene item",
+        "forms": {
+          "masculine": "dentifrice",
+          "feminine": "",
+          "masculinePlural": "dentifrices",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le savon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh sah-vɔ̃",
+        "meaning": "the soap",
+        "notes": "Used in everyday hygiene. 'Passer un savon à quelqu'un' means to give someone a telling-off (colloquial).",
+        "examples": [
+          [
+            "Je me suis lavé les mains avec du savon antibactérien.",
+            "I washed my hands with antibacterial soap."
+          ],
+          [
+            "Il n'y a plus de savon — il faut en acheter.",
+            "There is no more soap — we need to buy some."
+          ]
+        ],
+        "special": "Essential hygiene vocabulary",
+        "forms": {
+          "masculine": "savon",
+          "feminine": "",
+          "masculinePlural": "savons",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la brosse à dents",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah bross ah dɑ̃",
+        "meaning": "the toothbrush",
+        "notes": "Literally 'brush for teeth'. Related: 'se brosser les dents' (to brush one's teeth).",
+        "examples": [
+          [
+            "Je me suis brossé les dents pendant deux minutes.",
+            "I brushed my teeth for two minutes."
+          ],
+          [
+            "J'ai oublié ma brosse à dents à l'hôtel.",
+            "I forgot my toothbrush at the hotel."
+          ]
+        ],
+        "special": "Daily hygiene item",
+        "forms": {
+          "masculine": "",
+          "feminine": "brosse à dents",
+          "masculinePlural": "",
+          "femininePlural": "brosses à dents"
+        }
+      },
+      {
+        "word": "le shampooing",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shɑ̃-pwɛ̃",
+        "meaning": "the shampoo",
+        "notes": "Also spelled 'shampoing'. Used in phrase: 'se faire un shampooing' (to shampoo one's hair).",
+        "examples": [
+          [
+            "Elle s'est lavé les cheveux avec du shampooing après le sport.",
+            "She washed her hair with shampoo after sports."
+          ],
+          [
+            "Ce shampooing est doux pour les cheveux fragiles.",
+            "This shampoo is gentle on fragile hair."
+          ]
+        ],
+        "special": "Borrowed word from English",
+        "forms": {
+          "masculine": "shampooing",
+          "feminine": "",
+          "masculinePlural": "shampooings",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "se laver",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh lah-vay",
+        "meaning": "to wash (oneself)",
+        "notes": "Reflexive verb. In passé composé: 'je me suis lavé(e)'. Body parts stay in accusative position.",
+        "examples": [
+          [
+            "Je me suis lavé les cheveux ce matin.",
+            "I washed my hair this morning."
+          ],
+          [
+            "Il ne s'est pas lavé le visage avant de sortir.",
+            "He didn't wash his face before going out."
+          ]
+        ],
+        "special": "Core reflexive hygiene verb",
+        "forms": {
+          "je": "je me lave",
+          "tu": "tu te laves",
+          "il": "il/elle/on se lave",
+          "nous": "nous nous lavons",
+          "vous": "vous vous lavez",
+          "ils": "ils/elles se lavent"
+        }
+      },
+      {
+        "word": "le dentifrice",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh dɑ̃-tee-frees",
+        "meaning": "the toothpaste",
+        "notes": "Used with 'la brosse à dents'. Compound hygiene phrase: 'se brosser les dents avec du dentifrice'.",
+        "examples": [
+          [
+            "J'ai mis du dentifrice sur ma brosse à dents et je me suis brossé les dents.",
+            "I put toothpaste on my toothbrush and brushed my teeth."
+          ],
+          [
+            "Ce dentifrice blanchit les dents.",
+            "This toothpaste whitens teeth."
+          ]
+        ],
+        "special": "Daily hygiene item",
+        "forms": {
+          "masculine": "dentifrice",
+          "feminine": "",
+          "masculinePlural": "dentifrices",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la crème",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah krem",
+        "meaning": "the cream",
+        "notes": "Can refer to moisturiser, sun cream, or other skincare products. 'La crème hydratante' = moisturiser.",
+        "examples": [
+          [
+            "Elle s'est mis de la crème sur le visage après la douche.",
+            "She put cream on her face after the shower."
+          ],
+          [
+            "Il faut mettre de la crème solaire avant d'aller à la plage.",
+            "You should put sunscreen on before going to the beach."
+          ]
+        ],
+        "special": "Common in skincare routines",
+        "forms": {
+          "masculine": "",
+          "feminine": "crème",
+          "masculinePlural": "",
+          "femininePlural": "crèmes"
+        }
+      },
+      {
+        "word": "se maquiller",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh mah-kee-yay",
+        "meaning": "to put on make-up",
+        "notes": "Reflexive verb. Passé composé: 'je me suis maquillé(e)'. Related noun: le maquillage (make-up).",
+        "examples": [
+          [
+            "Elle s'est maquillée rapidement avant de partir.",
+            "She put on her make-up quickly before leaving."
+          ],
+          [
+            "Je ne me maquille pas tous les jours.",
+            "I don't put on make-up every day."
+          ]
+        ],
+        "special": "Common in morning routine descriptions",
+        "forms": {
+          "je": "je me maquille",
+          "tu": "tu te maquilles",
+          "il": "il/elle/on se maquille",
+          "nous": "nous nous maquillons",
+          "vous": "vous vous maquillez",
+          "ils": "ils/elles se maquillent"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Tu t'es réveillé à quelle heure ce matin ?"
+        ],
+        [
+          "B",
+          "Je me suis réveillé à sept heures. Et toi ?"
+        ],
+        [
+          "A",
+          "Moi, je me suis levée à six heures et demie. Je me suis lavé les cheveux en premier."
+        ],
+        [
+          "B",
+          "Ah, moi j'ai pris ma douche après. Je me suis lavé le visage et les dents d'abord."
+        ],
+        [
+          "A",
+          "J'ai mis du shampooing et du savon. Ensuite je me suis habillée."
+        ],
+        [
+          "B",
+          "Moi, je me suis habillé avant de prendre le petit déjeuner. On a une routine différente !"
+        ],
+        [
+          "A",
+          "C'est vrai ! Qui s'est prêt le premier ?"
+        ],
+        [
+          "B",
+          "Toi, je pense ! Tu t'es levée plus tôt."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "À quelle heure est-ce que A s'est levée ?",
+          "options": [
+            "À sept heures",
+            "À six heures et demie",
+            "À six heures"
+          ],
+          "correctAnswer": "À six heures et demie"
+        },
+        {
+          "question": "Qu'est-ce que B a fait d'abord le matin ?",
+          "options": [
+            "Il s'est lavé les cheveux",
+            "Il s'est lavé le visage et les dents",
+            "Il s'est habillé"
+          ],
+          "correctAnswer": "Il s'est lavé le visage et les dents"
+        },
+        {
+          "question": "Quelle est la différence entre la routine de A et celle de B ?",
+          "options": [
+            "A se lève plus tôt que B",
+            "B s'habille avant le petit déjeuner",
+            "A ne prend pas de douche le matin"
+          ],
+          "correctAnswer": "B s'habille avant le petit déjeuner"
+        }
+      ],
+      "summary": "Two roommates compare their morning routines, discussing who got up first, what order they did things in, and who got ready faster."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Tu t'es levée à quelle heure ce matin ? Tu es toujours prête avant moi."
+        ],
+        [
+          "B",
+          "Six heures moins le quart ! Je me suis lavé les cheveux, je me suis maquillée, et j'ai mis de la crème avant de m'habiller."
+        ],
+        [
+          "A",
+          "Tu te maquilles tous les matins ? Moi, je ne me suis pas maquillée aujourd'hui — j'avais trop peu de temps."
+        ],
+        [
+          "B",
+          "D'habitude oui, mais ça ne prend pas longtemps. Et toi, tu t'es douchée ?"
+        ],
+        [
+          "A",
+          "Oui, je me suis lavé les cheveux avec du shampooing et je me suis brossé les dents. C'est tout."
+        ],
+        [
+          "B",
+          "Tu n'as pas mis de crème hydratante ? C'est important après la douche."
+        ],
+        [
+          "A",
+          "Je sais, mais je me suis dépêchée. Je me suis habillée et je suis partie directement."
+        ],
+        [
+          "B",
+          "La prochaine fois, lève-toi plus tôt ! La routine du matin, c'est important pour bien commencer la journée."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "À quelle heure est-ce que B s'est levée ?",
+          "options": [
+            "À six heures",
+            "À cinq heures quarante-cinq",
+            "À six heures et demie",
+            "À sept heures"
+          ],
+          "correctAnswer": "À cinq heures quarante-cinq"
+        },
+        {
+          "question": "Qu'est-ce que A n'a pas fait ce matin, et pourquoi ?",
+          "options": [
+            "Elle ne s'est pas douchée parce qu'elle était fatiguée",
+            "Elle ne s'est pas maquillée parce qu'elle n'avait pas assez de temps",
+            "Elle ne s'est pas lavé les cheveux parce qu'elle était pressée",
+            "Elle ne s'est pas habillée parce qu'elle était en retard"
+          ],
+          "correctAnswer": "Elle ne s'est pas maquillée parce qu'elle n'avait pas assez de temps"
+        },
+        {
+          "question": "Quels produits de soin B utilise-t-elle dans sa routine ?",
+          "options": [
+            "Le shampooing et le savon",
+            "Le shampooing, la crème et le maquillage",
+            "Le dentifrice et le savon",
+            "Le savon et le maquillage"
+          ],
+          "correctAnswer": "Le shampooing, la crème et le maquillage"
+        }
+      ],
+      "summary": "Two flatmates discuss their morning routines. Person B has a thorough routine including washing hair, applying make-up, and using moisturiser. Person A was in a hurry and skipped some steps. B advises A to wake up earlier."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Passé Composé of Reflexive Verbs",
+      "explanation": "Reflexive verbs always use ÊTRE as the auxiliary in the passé composé. The reflexive pronoun comes before the auxiliary.\n\nStructure: Subject + reflexive pronoun + être (conjugated) + past participle\n\nExamples:\n- Je me suis levé(e). (I got up.)\n- Tu t'es lavé(e). (You washed yourself.)\n- Il s'est habillé. (He got dressed.)\n- Elle s'est maquillée. (She put on make-up.)\n\nAgreement: The past participle agrees in gender and number with the subject WHEN there is no direct object after the verb.\n- Je me suis lavé les cheveux. → No agreement (les cheveux is the direct object)\n- Je me suis lavée. → Agreement (no direct object)\n\nNegation: ne comes before the reflexive pronoun, pas after être.\n- Je ne me suis pas levé(e) tôt. (I didn't get up early.)",
+      "examples": [
+        {
+          "french": "Je me suis levé à sept heures.",
+          "english": "I got up at seven o'clock."
+        },
+        {
+          "french": "Elle s'est maquillée avant de partir.",
+          "english": "She put on make-up before leaving."
+        },
+        {
+          "french": "Nous nous sommes lavé les cheveux.",
+          "english": "We washed our hair."
+        },
+        {
+          "french": "Il ne s'est pas rasé ce matin.",
+          "english": "He didn't shave this morning."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct passé composé of 'se lever' for a female speaker (je)?",
+          "options": [
+            "Je me suis levé.",
+            "Je me suis levée.",
+            "J'ai me levée.",
+            "Je suis levée."
+          ],
+          "correctAnswer": "Je me suis levée.",
+          "explanation": "Reflexive verbs use être in passé composé. The past participle agrees with the subject when there is no direct object after the verb. For a female speaker: 'je me suis levée'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Elle ___ lavé les cheveux ce matin.' (She washed her hair)",
+          "correctAnswer": "s'est",
+          "explanation": "Reflexive verbs in passé composé: subject + reflexive pronoun + être + past participle. 'Elle s'est lavé' — no agreement because 'les cheveux' is the direct object after the verb."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct version of 'Elle a se levée tôt'?",
+          "options": [
+            "Elle a se levée tôt.",
+            "Elle s'est levée tôt.",
+            "Elle se leva tôt.",
+            "Elle a levée tôt."
+          ],
+          "correctAnswer": "Elle s'est levée tôt.",
+          "explanation": "Reflexive verbs always use être as auxiliary (not avoir). The structure is: subject + reflexive pronoun + être + past participle. 'Elle s'est levée' is correct."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Make it negative: 'Je me suis brossé les dents.' → 'Je ___ me suis ___ brossé les dents.'",
+          "correctAnswer": "ne / pas",
+          "explanation": "In the negative passé composé of reflexive verbs, 'ne' goes before the reflexive pronoun and 'pas' goes after the auxiliary: 'Je ne me suis pas brossé les dents.'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "How do you say 'We washed our hair' in French?",
+          "options": [
+            "Nous avons lavé nos cheveux.",
+            "Nous nous sommes lavé les cheveux.",
+            "Nous nous sommes lavés les cheveux.",
+            "Nous avons nous lavé les cheveux."
+          ],
+          "correctAnswer": "Nous nous sommes lavé les cheveux.",
+          "explanation": "Use 'être' as auxiliary with reflexive verbs. With body parts as direct objects ('les cheveux'), the past participle does not agree with the subject."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Passé Composé of Reflexive Verbs — Formation, Agreement & Negation",
+      "explanation": "Reflexive verbs use ÊTRE as auxiliary in passé composé. Structure: subject + reflexive pronoun + être + past participle.\n\nAgreement rules (critical distinction):\n1. No direct object after verb → past participle agrees with subject:\n   - Elle s'est lavée. (She washed herself.)\n   - Elles se sont levées. (They [f] got up.)\n2. Direct object follows the verb → NO agreement:\n   - Elle s'est lavé les cheveux. (les cheveux is the direct object)\n   - Il s'est brossé les dents. (les dents is the direct object)\n3. The reflexive pronoun is a direct object → agreement:\n   - Ils se sont vus. (They saw each other — 'se' = DO)\n\nNegation:\n- Je ne me suis pas levé(e). (The ne goes before the reflexive pronoun.)\n\nCommon reflexive verbs in past tense: se lever, se laver, se brosser, s'habiller, se maquiller, se dépêcher, se coucher, se réveiller",
+      "examples": [
+        {
+          "french": "Je me suis levée à six heures moins le quart.",
+          "english": "I got up at quarter to six."
+        },
+        {
+          "french": "Elle s'est maquillée et elle s'est habillée rapidement.",
+          "english": "She put on make-up and got dressed quickly."
+        },
+        {
+          "french": "Il s'est lavé les cheveux — pas d'accord car CO après le verbe.",
+          "english": "He washed his hair — no agreement because the direct object follows the verb."
+        },
+        {
+          "french": "Nous nous sommes dépêchés ce matin.",
+          "english": "We hurried this morning."
+        },
+        {
+          "french": "Elles ne se sont pas brossé les dents avant de partir.",
+          "english": "They didn't brush their teeth before leaving."
+        },
+        {
+          "french": "Ils se sont vus hier soir.",
+          "english": "They saw each other last night."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Which set is the correct passé composé of 'se lever' for elle / nous / ils?",
+          "options": [
+            "elle s'est levée / nous nous sommes levés / ils se sont levés",
+            "elle a levée / nous avons levés / ils ont levés",
+            "elle s'est levé / nous nous sommes levés / ils se sont levés",
+            "elle s'est levée / nous se sommes levés / ils s'ont levés"
+          ],
+          "correctAnswer": "elle s'est levée / nous nous sommes levés / ils se sont levés",
+          "explanation": "Reflexive verbs use être. Past participle agrees with subject when no direct object follows: 'elle s'est levée' (f), 'nous nous sommes levés' (m/mixed), 'ils se sont levés' (m)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Why is there no past participle agreement in 'Elle s'est lavé les cheveux'?",
+          "options": [
+            "Because reflexive verbs never agree in passé composé.",
+            "Because 'les cheveux' is a direct object that follows the verb.",
+            "Because 'lavé' is an irregular past participle.",
+            "Because the subject is feminine singular."
+          ],
+          "correctAnswer": "Because 'les cheveux' is a direct object that follows the verb.",
+          "explanation": "Agreement occurs when there is no direct object after the verb. Here 'les cheveux' is the direct object and it follows the verb, so 'lavé' stays invariable."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is correct for 'The girls got up early and got dressed'?",
+          "options": [
+            "Les filles se sont levée tôt et se sont habillée.",
+            "Les filles se sont levées tôt et se sont habillées.",
+            "Les filles ont se levées tôt et se sont habillé.",
+            "Les filles s'est levées tôt et se sont habillées."
+          ],
+          "correctAnswer": "Les filles se sont levées tôt et se sont habillées.",
+          "explanation": "For 'les filles' (feminine plural), the past participle agrees: 'levées' and 'habillées'. Both verbs have no direct object after them, so agreement applies."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct version of 'Elles se sont lavées les cheveux'?",
+          "options": [
+            "Elles se sont lavées les cheveux.",
+            "Elles se sont lavé les cheveux.",
+            "Elles s'ont lavées les cheveux.",
+            "Elles ont lavé les cheveux."
+          ],
+          "correctAnswer": "Elles se sont lavé les cheveux.",
+          "explanation": "'Les cheveux' is a direct object following the verb, so the past participle does NOT agree with the subject. 'Lavé' stays invariable."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete the negative: 'Il ne ___ est pas rasé ce matin.'",
+          "correctAnswer": "s'",
+          "explanation": "In the negative passé composé of reflexive verbs, 'ne' comes before the reflexive pronoun: 'Il ne s'est pas rasé.' The structure: ne + reflexive pronoun + auxiliary être + pas + past participle."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Which is the correct question for 'What time did you get up?' (tu)?",
+          "options": [
+            "À quelle heure tu as levé ?",
+            "À quelle heure tu t'es levé(e) ?",
+            "À quelle heure s'est-il levé ?",
+            "Quand tu t'as levé ?"
+          ],
+          "correctAnswer": "À quelle heure tu t'es levé(e) ?",
+          "explanation": "Reflexive verb in question form: 'tu t'es levé(e)'. The reflexive pronoun 't'' stays before the auxiliary 'es'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete: 'Nous ___ vus au marché hier.' (We saw each other)",
+          "correctAnswer": "nous sommes",
+          "explanation": "'Se voir' (to see each other) is a reciprocal reflexive verb. Passé composé: 'nous nous sommes vus'. 'Se' is a direct object ('se' = each other), so the past participle agrees with the subject."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete the morning routine (female speaker): 'Ce matin, je ___ ___ levée, je ___ ___ douchée et je ___ ___ maquillée.'",
+          "correctAnswer": "me suis / me suis / me suis",
+          "explanation": "All three verbs use 'me suis' as the auxiliary in first person singular. Past participles agree with the subject (female) because no direct object follows any of them."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Which auxiliary verb is used with reflexive verbs in passé composé?",
+        "options": [
+          "avoir",
+          "être",
+          "faire"
+        ],
+        "correctAnswer": "être",
+        "explanation": "All reflexive verbs use 'être' as their auxiliary in the passé composé. Example: 'Je me suis levé(e)' — not 'j'ai levé'.",
+        "targetWord": "être"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence is correct?",
+        "options": [
+          "Elle a se levée tôt.",
+          "Elle s'est levée tôt.",
+          "Elle se leva tôt."
+        ],
+        "correctAnswer": "Elle s'est levée tôt.",
+        "explanation": "The correct passé composé of 'se lever' for a feminine subject is 'elle s'est levée'. The reflexive pronoun comes before être, and the past participle agrees with the feminine subject.",
+        "targetWord": "se lever"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'le dentifrice' mean?",
+        "options": [
+          "toothbrush",
+          "toothpaste",
+          "soap"
+        ],
+        "correctAnswer": "toothpaste",
+        "explanation": "'Le dentifrice' means toothpaste. 'La brosse à dents' is the toothbrush. They are used together: 'Je mets du dentifrice sur ma brosse à dents.'",
+        "targetWord": "le dentifrice"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "How do you say 'I washed my hands' in French?",
+        "options": [
+          "J'ai lavé mes mains.",
+          "Je me suis lavé les mains.",
+          "Je me suis lavé mes mains."
+        ],
+        "correctAnswer": "Je me suis lavé les mains.",
+        "explanation": "With reflexive verbs and body parts, use the definite article (les) not a possessive adjective (mes). The reflexive pronoun already indicates possession.",
+        "targetWord": "se laver"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complétez : Nous ___ ___ brossé les dents. (we brushed — passé composé)",
+        "correctAnswer": "nous sommes",
+        "explanation": "Reflexive verbs use être in passé composé: 'Nous nous sommes brossé les dents.' No agreement because 'les dents' is the direct object.",
+        "targetWord": "se brosser"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Why is there no agreement in 'Elle s'est lavé les cheveux'?",
+        "options": [
+          "Because reflexive verbs never agree in passé composé.",
+          "Because the direct object 'les cheveux' follows the verb, so the past participle does not agree with the subject.",
+          "Because 'cheveux' is masculine.",
+          "Because only être verbs require agreement."
+        ],
+        "correctAnswer": "Because the direct object 'les cheveux' follows the verb, so the past participle does not agree with the subject.",
+        "explanation": "Agreement with reflexive verbs depends on whether there is a direct object after the verb. When the body part (direct object) follows the verb, the past participle stays invariable. When there is no direct object, it agrees with the subject.",
+        "targetWord": "se laver"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence is correct for a group of women?",
+        "options": [
+          "Elles se sont levé tôt.",
+          "Elles se sont levées tôt.",
+          "Elles s'ont levées tôt.",
+          "Elles ont se levées tôt."
+        ],
+        "correctAnswer": "Elles se sont levées tôt.",
+        "explanation": "For reflexive verbs without a following direct object, the past participle agrees with the subject. 'Elles' is feminine plural, so the past participle is 'levées'.",
+        "targetWord": "se lever"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'se maquiller' mean?",
+        "options": [
+          "to get dressed",
+          "to put on make-up",
+          "to shave",
+          "to wash oneself"
+        ],
+        "correctAnswer": "to put on make-up",
+        "explanation": "'Se maquiller' means to put on make-up. The related noun is 'le maquillage'. Example: 'Elle s'est maquillée avant de sortir.'",
+        "targetWord": "se maquiller"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Which sentence correctly negates a reflexive verb in passé composé?",
+        "options": [
+          "Je ne me suis pas levée tôt.",
+          "Je me ne suis pas levée tôt.",
+          "Je me suis ne pas levée tôt.",
+          "Je me suis pas levée tôt."
+        ],
+        "correctAnswer": "Je ne me suis pas levée tôt.",
+        "explanation": "In the negative passé composé of reflexive verbs, 'ne' comes before the reflexive pronoun and 'pas' comes after the auxiliary être: 'Je ne me suis pas levée.'",
+        "targetWord": "se lever"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complétez (femme qui parle) : Ce matin, je ___ ___ levée, je ___ ___ lavé les cheveux et je ___ ___ maquillée.",
+        "correctAnswer": "me suis / me suis / me suis",
+        "explanation": "All three reflexive verbs use 'me suis' as the auxiliary for first person singular. 'Levée' agrees (no DO), 'lavé' does not agree ('les cheveux' is the DO), 'maquillée' agrees (no DO).",
+        "targetWord": "se lever / se laver / se maquiller"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Tell a friend what you did this morning to get ready, using reflexive verbs in the past tense.",
+      "keyPhrases": [
+        "Je me suis levé(e)…",
+        "Je me suis lavé(e) / brossé les dents…",
+        "Ensuite / D'abord / Après…",
+        "Je me suis habillé(e)…"
+      ],
+      "modelAnswer": "Ce matin, je me suis levé à sept heures. D'abord, je me suis lavé les mains et le visage. Ensuite, je me suis brossé les dents avec du dentifrice. Après, je me suis habillé et j'ai pris mon petit déjeuner.",
+      "modelAnswerExplanation": "The model answer uses reflexive verbs in passé composé in sequence, with transition words (d'abord, ensuite, après) to show the order of events.",
+      "tip": "Use time sequencers — d'abord (first), ensuite (then), après (after), finalement (finally) — to make your morning routine easier to follow."
+    },
+    "advanced": {
+      "scenario": "Describe your morning routine in detail to a flatmate, using multiple reflexive verbs in passé composé. Include agreement where appropriate and explain the order of events.",
+      "keyPhrases": [
+        "Je me suis levé(e) à…",
+        "D'abord… ensuite… puis… finalement…",
+        "Je me suis lavé les cheveux / brossé les dents…",
+        "Je me suis maquillée / rasé…",
+        "Je me suis dépêché(e) parce que…"
+      ],
+      "modelAnswer": "Ce matin, je me suis levée à six heures moins le quart. D'abord, je me suis douchée et je me suis lavé les cheveux avec du shampooing. Ensuite, je me suis brossé les dents et je me suis mis de la crème sur le visage. Puis, je me suis maquillée rapidement. Finalement, je me suis habillée et je suis partie à sept heures.",
+      "modelAnswerExplanation": "The model answer demonstrates correct agreement (levée, douchée, maquillée — no following DO; lavé les cheveux, brossé les dents — no agreement because DO follows), uses appropriate sequence markers, and ends with 'je suis partie' (partir uses être).",
+      "tip": "Pay attention to agreement: when a body part follows the reflexive verb (direct object), the past participle does NOT agree with the subject."
+    }
+  }
+}

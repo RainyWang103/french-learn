@@ -1,5 +1,5 @@
 {
-  "lastDay": 42,
+  "lastDay": 49,
   "grammarTitles": [
     {
       "day": 1,
@@ -160,6 +160,26 @@
       "day": 42,
       "standard": "Prepositions with Cities & Countries (à, en, au, aux)",
       "advanced": "Prepositions with Cities & Countries — à, en, au, aux + Exceptions"
+    },
+    {
+      "day": 45,
+      "standard": "Depuis + Present Tense (Expressing Duration)",
+      "advanced": "Depuis + Present Tense — Duration, Negation & Interrogation"
+    },
+    {
+      "day": 46,
+      "standard": "Expressions of Quantity (beaucoup de, peu de, trop de, assez de)",
+      "advanced": "Expressions of Quantity — beaucoup de, peu de, trop de, assez de + Extensions"
+    },
+    {
+      "day": 47,
+      "standard": "Passé Composé of Reflexive Verbs",
+      "advanced": "Passé Composé of Reflexive Verbs — Formation, Agreement & Negation"
+    },
+    {
+      "day": 49,
+      "standard": "Ne...que (Restriction — 'only')",
+      "advanced": "Ne...que — Restriction, Position & Contrast with Negation"
     }
   ],
   "vocabWords": [
@@ -545,6 +565,66 @@
         "le jardin",
         "le magasin",
         "le musée"
+      ]
+    },
+    {
+      "day": 43,
+      "words": [
+        "guérir",
+        "l'ordonnance",
+        "la consultation",
+        "la douleur",
+        "la salle d'attente",
+        "le cabinet",
+        "le symptôme"
+      ]
+    },
+    {
+      "day": 45,
+      "words": [
+        "l'épaule",
+        "la cheville",
+        "la main",
+        "le cœur",
+        "le doigt",
+        "le dos",
+        "le genou"
+      ]
+    },
+    {
+      "day": 46,
+      "words": [
+        "calme",
+        "épuisé",
+        "faible",
+        "heureux",
+        "la peur",
+        "se sentir",
+        "soulagé"
+      ]
+    },
+    {
+      "day": 47,
+      "words": [
+        "la brosse à dents",
+        "la crème",
+        "le dentifrice",
+        "le savon",
+        "le shampooing",
+        "se laver",
+        "se maquiller"
+      ]
+    },
+    {
+      "day": 49,
+      "words": [
+        "l'eau",
+        "la carotte",
+        "la pomme",
+        "la salade",
+        "la soupe",
+        "le fruit",
+        "le légume"
       ]
     }
   ]
