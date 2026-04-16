@@ -13,8 +13,14 @@
         "meaning": "the book",
         "notes": "masculine noun",
         "examples": [
-          ["J'aime lire un livre.", "I like to read a book."],
-          ["Le livre est sur la table.", "The book is on the table."]
+          [
+            "J'aime lire un livre.",
+            "I like to read a book."
+          ],
+          [
+            "Le livre est sur la table.",
+            "The book is on the table."
+          ]
         ],
         "special": "",
         "forms": {
@@ -32,8 +38,14 @@
         "meaning": "the novel",
         "notes": "masculine noun, fiction story",
         "examples": [
-          ["Je lis un roman intéressant.", "I am reading an interesting novel."],
-          ["C'est un roman français.", "It is a French novel."]
+          [
+            "Je lis un roman intéressant.",
+            "I am reading an interesting novel."
+          ],
+          [
+            "C'est un roman français.",
+            "It is a French novel."
+          ]
         ],
         "special": "",
         "forms": {
@@ -51,8 +63,14 @@
         "meaning": "the page",
         "notes": "feminine noun",
         "examples": [
-          ["Lis la page dix.", "Read page ten."],
-          ["Cette page est belle.", "This page is beautiful."]
+          [
+            "Lis la page dix.",
+            "Read page ten."
+          ],
+          [
+            "Cette page est belle.",
+            "This page is beautiful."
+          ]
         ],
         "special": "",
         "forms": {
@@ -70,8 +88,14 @@
         "meaning": "the story / the history",
         "notes": "feminine noun, starts with vowel so uses l'",
         "examples": [
-          ["C'est une belle histoire.", "It is a beautiful story."],
-          ["L'histoire de France est intéressante.", "The history of France is interesting."]
+          [
+            "C'est une belle histoire.",
+            "It is a beautiful story."
+          ],
+          [
+            "L'histoire de France est intéressante.",
+            "The history of France is interesting."
+          ]
         ],
         "special": "",
         "forms": {
@@ -89,15 +113,21 @@
         "meaning": "the author",
         "notes": "masculine noun, feminine form auteure exists in modern French",
         "examples": [
-          ["L'auteur est français.", "The author is French."],
-          ["Qui est l'auteur de ce livre?", "Who is the author of this book?"]
+          [
+            "L'auteur est français.",
+            "The author is French."
+          ],
+          [
+            "Qui est l'auteur de ce livre?",
+            "Who is the author of this book?"
+          ]
         ],
         "special": "",
         "forms": {
           "masculine": "auteur",
-          "feminine": "auteure",
+          "feminine": "",
           "masculinePlural": "auteurs",
-          "femininePlural": "auteures"
+          "femininePlural": ""
         }
       }
     ],
@@ -110,8 +140,14 @@
         "meaning": "the book",
         "notes": "masculine noun",
         "examples": [
-          ["J'aime lire un livre.", "I like to read a book."],
-          ["Le livre est sur la table.", "The book is on the table."]
+          [
+            "J'aime lire un livre.",
+            "I like to read a book."
+          ],
+          [
+            "Le livre est sur la table.",
+            "The book is on the table."
+          ]
         ],
         "special": "",
         "forms": {
@@ -129,8 +165,14 @@
         "meaning": "the novel",
         "notes": "masculine noun, fiction story",
         "examples": [
-          ["Je lis un roman intéressant.", "I am reading an interesting novel."],
-          ["C'est un roman français.", "It is a French novel."]
+          [
+            "Je lis un roman intéressant.",
+            "I am reading an interesting novel."
+          ],
+          [
+            "C'est un roman français.",
+            "It is a French novel."
+          ]
         ],
         "special": "",
         "forms": {
@@ -148,8 +190,14 @@
         "meaning": "the page",
         "notes": "feminine noun",
         "examples": [
-          ["Lis la page dix.", "Read page ten."],
-          ["Cette page est belle.", "This page is beautiful."]
+          [
+            "Lis la page dix.",
+            "Read page ten."
+          ],
+          [
+            "Cette page est belle.",
+            "This page is beautiful."
+          ]
         ],
         "special": "",
         "forms": {
@@ -167,8 +215,14 @@
         "meaning": "the story / the history",
         "notes": "feminine noun, starts with vowel so uses l'",
         "examples": [
-          ["C'est une belle histoire.", "It is a beautiful story."],
-          ["L'histoire de France est intéressante.", "The history of France is interesting."]
+          [
+            "C'est une belle histoire.",
+            "It is a beautiful story."
+          ],
+          [
+            "L'histoire de France est intéressante.",
+            "The history of France is interesting."
+          ]
         ],
         "special": "",
         "forms": {
@@ -186,15 +240,21 @@
         "meaning": "the author",
         "notes": "masculine noun, feminine form auteure exists in modern French",
         "examples": [
-          ["L'auteur est français.", "The author is French."],
-          ["Qui est l'auteur de ce livre?", "Who is the author of this book?"]
+          [
+            "L'auteur est français.",
+            "The author is French."
+          ],
+          [
+            "Qui est l'auteur de ce livre?",
+            "Who is the author of this book?"
+          ]
         ],
         "special": "",
         "forms": {
           "masculine": "auteur",
-          "feminine": "auteure",
+          "feminine": "",
           "masculinePlural": "auteurs",
-          "femininePlural": "auteures"
+          "femininePlural": ""
         }
       },
       {
@@ -205,8 +265,14 @@
         "meaning": "the chapter",
         "notes": "masculine noun",
         "examples": [
-          ["Le chapitre trois est difficile.", "Chapter three is difficult."],
-          ["Je lis le dernier chapitre.", "I am reading the last chapter."]
+          [
+            "Le chapitre trois est difficile.",
+            "Chapter three is difficult."
+          ],
+          [
+            "Je lis le dernier chapitre.",
+            "I am reading the last chapter."
+          ]
         ],
         "special": "",
         "forms": {
@@ -224,8 +290,14 @@
         "meaning": "the character (in a story)",
         "notes": "masculine noun, refers to characters in literature or film",
         "examples": [
-          ["Le personnage principal est intéressant.", "The main character is interesting."],
-          ["Tous les personnages sont amusants.", "All the characters are funny."]
+          [
+            "Le personnage principal est intéressant.",
+            "The main character is interesting."
+          ],
+          [
+            "Tous les personnages sont amusants.",
+            "All the characters are funny."
+          ]
         ],
         "special": "",
         "forms": {
@@ -240,29 +312,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonjour! Tu aimes lire?"],
-        ["B", "Oui, j'aime beaucoup lire. Et toi?"],
-        ["A", "Moi aussi! Quel est ton livre préféré?"],
-        ["B", "J'aime le roman 'Le Petit Prince'. Et toi, tu aimes quel livre?"],
-        ["A", "J'aime lire des histoires d'aventure. C'est intéressant."],
-        ["B", "Les histoires d'aventure sont amusantes. Qui est ton auteur préféré?"],
-        ["A", "J'aime l'auteur Jules Verne. Il écrit des histoires fantastiques."],
-        ["B", "Oui, c'est vrai. Ses livres sont très bons!"]
+        [
+          "A",
+          "Bonjour! Tu aimes lire?"
+        ],
+        [
+          "B",
+          "Oui, j'aime beaucoup lire. Et toi?"
+        ],
+        [
+          "A",
+          "Moi aussi! Quel est ton livre préféré?"
+        ],
+        [
+          "B",
+          "J'aime le roman 'Le Petit Prince'. Et toi, tu aimes quel livre?"
+        ],
+        [
+          "A",
+          "J'aime lire des histoires d'aventure. C'est intéressant."
+        ],
+        [
+          "B",
+          "Les histoires d'aventure sont amusantes. Qui est ton auteur préféré?"
+        ],
+        [
+          "A",
+          "J'aime l'auteur Jules Verne. Il écrit des histoires fantastiques."
+        ],
+        [
+          "B",
+          "Oui, c'est vrai. Ses livres sont très bons!"
+        ]
       ],
       "questions": [
         {
           "question": "Quel est le livre préféré de B?",
-          "options": ["Le Petit Prince", "Une histoire d'aventure", "Un roman de Jules Verne"],
+          "options": [
+            "Le Petit Prince",
+            "Une histoire d'aventure",
+            "Un roman de Jules Verne"
+          ],
           "correctAnswer": "Le Petit Prince"
         },
         {
           "question": "Quel type d'histoire aime A?",
-          "options": ["Les histoires fantastiques", "Les histoires d'aventure", "Les romans policiers"],
+          "options": [
+            "Les histoires fantastiques",
+            "Les histoires d'aventure",
+            "Les romans policiers"
+          ],
           "correctAnswer": "Les histoires d'aventure"
         },
         {
           "question": "Qui est l'auteur préféré de A?",
-          "options": ["Antoine de Saint-Exupéry", "Jules Verne", "Alexandre Dumas"],
+          "options": [
+            "Antoine de Saint-Exupéry",
+            "Jules Verne",
+            "Alexandre Dumas"
+          ],
           "correctAnswer": "Jules Verne"
         }
       ],
@@ -270,35 +378,82 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Bonjour! Je cherche un bon roman pour lire ce weekend. As-tu des recommandations?"],
-        ["B", "Bien sûr! J'ai lu 'Le Seigneur des Anneaux' récemment. C'est magnifique!"],
-        ["A", "Oh, j'aime beaucoup les histoires de fantaisie. Parle-moi de ce livre."],
-        ["B", "C'est l'histoire d'un jeune hobbit qui doit détruire un anneau maléfique. Tous les personnages sont intéressants."],
-        ["A", "Qui est l'auteur? Combien de chapitres le livre a-t-il?"],
-        ["B", "L'auteur est J.R.R. Tolkien. Le livre a environ 60 chapitres. C'est assez long, mais vraiment captivant."],
-        ["A", "C'est parfait! Aimes-tu les auteurs francophones aussi?"],
-        ["B", "Oui, absolument! J'aime beaucoup Victor Hugo et Honoré de Balzac. Leurs histoires sont profondes et émouvantes."],
-        ["A", "Merci pour les recommandations! Je vais essayer de lire tous ces romans."]
+        [
+          "A",
+          "Bonjour! Je cherche un bon roman pour lire ce weekend. As-tu des recommandations?"
+        ],
+        [
+          "B",
+          "Bien sûr! J'ai lu 'Le Seigneur des Anneaux' récemment. C'est magnifique!"
+        ],
+        [
+          "A",
+          "Oh, j'aime beaucoup les histoires de fantaisie. Parle-moi de ce livre."
+        ],
+        [
+          "B",
+          "C'est l'histoire d'un jeune hobbit qui doit détruire un anneau maléfique. Tous les personnages sont intéressants."
+        ],
+        [
+          "A",
+          "Qui est l'auteur? Combien de chapitres le livre a-t-il?"
+        ],
+        [
+          "B",
+          "L'auteur est J.R.R. Tolkien. Le livre a environ 60 chapitres. C'est assez long, mais vraiment captivant."
+        ],
+        [
+          "A",
+          "C'est parfait! Aimes-tu les auteurs francophones aussi?"
+        ],
+        [
+          "B",
+          "Oui, absolument! J'aime beaucoup Victor Hugo et Honoré de Balzac. Leurs histoires sont profondes et émouvantes."
+        ],
+        [
+          "A",
+          "Merci pour les recommandations! Je vais essayer de lire tous ces romans."
+        ]
       ],
       "questions": [
         {
           "question": "Quel est le titre du roman que B recommande à A?",
-          "options": ["Le Seigneur des Anneaux", "Le Hobbit", "Contes de Fées", "L'Île Mystérieuse"],
+          "options": [
+            "Le Seigneur des Anneaux",
+            "Le Hobbit",
+            "Contes de Fées",
+            "L'Île Mystérieuse"
+          ],
           "correctAnswer": "Le Seigneur des Anneaux"
         },
         {
           "question": "Environ combien de chapitres le roman a-t-il selon B?",
-          "options": ["30 chapitres", "45 chapitres", "60 chapitres", "80 chapitres"],
+          "options": [
+            "30 chapitres",
+            "45 chapitres",
+            "60 chapitres",
+            "80 chapitres"
+          ],
           "correctAnswer": "60 chapitres"
         },
         {
           "question": "Qui est l'auteur du roman?",
-          "options": ["Victor Hugo", "J.R.R. Tolkien", "Honoré de Balzac", "Alexandre Dumas"],
+          "options": [
+            "Victor Hugo",
+            "J.R.R. Tolkien",
+            "Honoré de Balzac",
+            "Alexandre Dumas"
+          ],
           "correctAnswer": "J.R.R. Tolkien"
         },
         {
           "question": "Quels auteurs francophones aime B?",
-          "options": ["Molière et Racine", "Victor Hugo et Honoré de Balzac", "Flaubert et Maupassant", "Zola et Proust"],
+          "options": [
+            "Molière et Racine",
+            "Victor Hugo et Honoré de Balzac",
+            "Flaubert et Maupassant",
+            "Zola et Proust"
+          ],
           "correctAnswer": "Victor Hugo et Honoré de Balzac"
         }
       ],
@@ -331,7 +486,11 @@
         {
           "type": "multipleChoice",
           "question": "Complète: '_____ le monde aime lire.'",
-          "options": ["Tout", "Tous", "Toute"],
+          "options": [
+            "Tout",
+            "Tous",
+            "Toute"
+          ],
           "correctAnswer": "Tout",
           "explanation": "'Tout le monde' (everyone) always uses 'tout' in the singular form, even though it refers to multiple people."
         },
@@ -345,7 +504,11 @@
         {
           "type": "multipleChoice",
           "question": "_____ le roman est magnifique.",
-          "options": ["Tous", "Tout", "Toutes"],
+          "options": [
+            "Tous",
+            "Tout",
+            "Toutes"
+          ],
           "correctAnswer": "Tout",
           "explanation": "'le roman' is masculine singular, so we use 'tout'."
         },
@@ -359,7 +522,11 @@
         {
           "type": "multipleChoice",
           "question": "Lis _____ la page dix.",
-          "options": ["tout", "toute", "tous"],
+          "options": [
+            "tout",
+            "toute",
+            "tous"
+          ],
           "correctAnswer": "toute",
           "explanation": "'la page' is feminine singular, so we use 'toute' as an adverb modifying the verb 'lis' with the meaning 'read the entire page'."
         }
@@ -398,7 +565,12 @@
         {
           "type": "multipleChoice",
           "question": "_____ les personnages du roman sont fascinants.",
-          "options": ["Tout", "Tous", "Toutes", "Toute"],
+          "options": [
+            "Tout",
+            "Tous",
+            "Toutes",
+            "Toute"
+          ],
           "correctAnswer": "Tous",
           "explanation": "'les personnages' is masculine plural (personnage = masc. noun), so 'tous' is correct."
         },
@@ -412,7 +584,12 @@
         {
           "type": "multipleChoice",
           "question": "Je suis _____ seul(e) à aimer ce roman.",
-          "options": ["tout", "toute", "tous", "toutes"],
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
           "correctAnswer": "tout",
           "explanation": "When 'tout' is an adverb before the adjective 'seul(e)', it remains invariable: 'tout seul / toute seule'. Here the blank suggests the adverbial form."
         },
@@ -426,7 +603,12 @@
         {
           "type": "multipleChoice",
           "question": "Nous avons lu _____ le roman en une semaine.",
-          "options": ["tout", "toute", "tous", "toutes"],
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
           "correctAnswer": "tout",
           "explanation": "'le roman' is masculine singular, so 'tout' (the whole novel) is correct."
         },
@@ -440,7 +622,12 @@
         {
           "type": "multipleChoice",
           "question": "Les deux meilleurs amis sont _____ venus chercher le livre.",
-          "options": ["tout", "toute", "tous", "toutes"],
+          "options": [
+            "tout",
+            "toute",
+            "tous",
+            "toutes"
+          ],
           "correctAnswer": "tous",
           "explanation": "The plural pronoun 'tous' (all of them, the two of them) is used here without an article."
         },
@@ -459,7 +646,11 @@
       {
         "type": "multipleChoice",
         "question": "Quel est le mot français pour 'book'?",
-        "options": ["la page", "le livre", "l'histoire"],
+        "options": [
+          "la page",
+          "le livre",
+          "l'histoire"
+        ],
         "correctAnswer": "le livre",
         "explanation": "'le livre' means 'the book'. 'la page' is 'the page' and 'l'histoire' is 'the story'.",
         "targetWord": "le livre"
@@ -467,7 +658,11 @@
       {
         "type": "multipleChoice",
         "question": "Complète: 'L'auteur a écrit _____ le roman.'",
-        "options": ["tout", "toute", "tous"],
+        "options": [
+          "tout",
+          "toute",
+          "tous"
+        ],
         "correctAnswer": "tout",
         "explanation": "'le roman' is masculine singular, so 'tout' means 'the whole novel'.",
         "targetWord": "tout"
@@ -483,7 +678,11 @@
       {
         "type": "multipleChoice",
         "question": "Quel mot signifie 'the story'?",
-        "options": ["le personnage", "le chapitre", "l'histoire"],
+        "options": [
+          "le personnage",
+          "le chapitre",
+          "l'histoire"
+        ],
         "correctAnswer": "l'histoire",
         "explanation": "'l'histoire' means 'the story' or 'the history'. It is feminine.",
         "targetWord": "l'histoire"
@@ -501,7 +700,11 @@
       {
         "type": "multipleChoice",
         "question": "Quel est le mot qui signifie 'chapter'?",
-        "options": ["la page", "le chapitre", "le roman"],
+        "options": [
+          "la page",
+          "le chapitre",
+          "le roman"
+        ],
         "correctAnswer": "le chapitre",
         "explanation": "'le chapitre' means 'the chapter'. It is a masculine noun.",
         "targetWord": "le chapitre"
@@ -517,7 +720,11 @@
       {
         "type": "multipleChoice",
         "question": "L'auteur a écrit _____ à fait un chef-d'œuvre littéraire.",
-        "options": ["toute", "tout", "toutes"],
+        "options": [
+          "toute",
+          "tout",
+          "toutes"
+        ],
         "correctAnswer": "tout",
         "explanation": "'Tout à fait' is a fixed expression meaning 'absolutely' or 'quite', always using 'tout'.",
         "targetWord": "tout"
@@ -533,7 +740,11 @@
       {
         "type": "multipleChoice",
         "question": "Traduis: 'The author wrote all the chapters carefully.'",
-        "options": ["L'auteur a écrit tous les chapitres avec attention.", "L'auteur a écrit toutes les pages rapidement.", "L'auteur a lu toute l'histoire hier."],
+        "options": [
+          "L'auteur a écrit tous les chapitres avec attention.",
+          "L'auteur a écrit toutes les pages rapidement.",
+          "L'auteur a lu toute l'histoire hier."
+        ],
         "correctAnswer": "L'auteur a écrit tous les chapitres avec attention.",
         "explanation": "'les chapitres' is masculine plural, so 'tous' is correct. 'avec attention' means 'carefully'.",
         "targetWord": "tous"

@@ -13,8 +13,14 @@
         "meaning": "the TV show / programme",
         "notes": "Always feminine, used for any broadcast programme",
         "examples": [
-          ["J'aime cette émission.", "I like this show."],
-          ["Quelle émission regardes-tu?", "What show do you watch?"]
+          [
+            "J'aime cette émission.",
+            "I like this show."
+          ],
+          [
+            "Quelle émission regardes-tu?",
+            "What show do you watch?"
+          ]
         ],
         "special": "Uses feminine articles (la, l', les)",
         "forms": {
@@ -32,8 +38,14 @@
         "meaning": "the (TV) channel",
         "notes": "Can also mean chain in other contexts, but here means TV channel",
         "examples": [
-          ["Quelle chaîne regardes-tu?", "What channel do you watch?"],
-          ["Les chaînes françaises sont bonnes.", "French channels are good."]
+          [
+            "Quelle chaîne regardes-tu?",
+            "What channel do you watch?"
+          ],
+          [
+            "Les chaînes françaises sont bonnes.",
+            "French channels are good."
+          ]
         ],
         "special": "Feminine noun, plural adds -s",
         "forms": {
@@ -51,8 +63,14 @@
         "meaning": "the newspaper / news bulletin",
         "notes": "Can mean both newspaper and news broadcast; plural is irregular (journaux)",
         "examples": [
-          ["Je lis le journal le matin.", "I read the newspaper in the morning."],
-          ["Le journal télévisé est à 20h.", "The news bulletin is at 8pm."]
+          [
+            "Je lis le journal le matin.",
+            "I read the newspaper in the morning."
+          ],
+          [
+            "Le journal télévisé est à 20h.",
+            "The news bulletin is at 8pm."
+          ]
         ],
         "special": "Irregular plural: journaux (not journals)",
         "forms": {
@@ -70,8 +88,14 @@
         "meaning": "the news",
         "notes": "Always plural form for news; can also mean short stories in literature",
         "examples": [
-          ["Regardes-tu les nouvelles?", "Do you watch the news?"],
-          ["Les nouvelles sont à la télé.", "The news is on TV."]
+          [
+            "Regardes-tu les nouvelles?",
+            "Do you watch the news?"
+          ],
+          [
+            "Les nouvelles sont à la télé.",
+            "The news is on TV."
+          ]
         ],
         "special": "Typically used in plural; feminine",
         "forms": {
@@ -89,8 +113,14 @@
         "meaning": "the schedule / programme / listings",
         "notes": "Refers to TV schedule, program listings, or a specific show",
         "examples": [
-          ["Quel est le programme de ce soir?", "What is the schedule for tonight?"],
-          ["Le programme est intéressant.", "The program is interesting."]
+          [
+            "Quel est le programme de ce soir?",
+            "What is the schedule for tonight?"
+          ],
+          [
+            "Le programme est intéressant.",
+            "The program is interesting."
+          ]
         ],
         "special": "Masculine noun, plural adds -s",
         "forms": {
@@ -110,8 +140,14 @@
         "meaning": "the TV show / programme",
         "notes": "Always feminine, used for any broadcast programme",
         "examples": [
-          ["J'aime cette émission.", "I like this show."],
-          ["Quelle émission regardes-tu?", "What show do you watch?"]
+          [
+            "J'aime cette émission.",
+            "I like this show."
+          ],
+          [
+            "Quelle émission regardes-tu?",
+            "What show do you watch?"
+          ]
         ],
         "special": "Uses feminine articles (la, l', les)",
         "forms": {
@@ -129,8 +165,14 @@
         "meaning": "the (TV) channel",
         "notes": "Can also mean chain in other contexts, but here means TV channel",
         "examples": [
-          ["Quelle chaîne regardes-tu?", "What channel do you watch?"],
-          ["Les chaînes françaises sont bonnes.", "French channels are good."]
+          [
+            "Quelle chaîne regardes-tu?",
+            "What channel do you watch?"
+          ],
+          [
+            "Les chaînes françaises sont bonnes.",
+            "French channels are good."
+          ]
         ],
         "special": "Feminine noun, plural adds -s",
         "forms": {
@@ -148,8 +190,14 @@
         "meaning": "the newspaper / news bulletin",
         "notes": "Can mean both newspaper and news broadcast; plural is irregular (journaux)",
         "examples": [
-          ["Je lis le journal le matin.", "I read the newspaper in the morning."],
-          ["Le journal télévisé est à 20h.", "The news bulletin is at 8pm."]
+          [
+            "Je lis le journal le matin.",
+            "I read the newspaper in the morning."
+          ],
+          [
+            "Le journal télévisé est à 20h.",
+            "The news bulletin is at 8pm."
+          ]
         ],
         "special": "Irregular plural: journaux (not journals)",
         "forms": {
@@ -167,8 +215,14 @@
         "meaning": "the news",
         "notes": "Always plural form for news; can also mean short stories in literature",
         "examples": [
-          ["Regardes-tu les nouvelles?", "Do you watch the news?"],
-          ["Les nouvelles sont à la télé.", "The news is on TV."]
+          [
+            "Regardes-tu les nouvelles?",
+            "Do you watch the news?"
+          ],
+          [
+            "Les nouvelles sont à la télé.",
+            "The news is on TV."
+          ]
         ],
         "special": "Typically used in plural; feminine",
         "forms": {
@@ -186,8 +240,14 @@
         "meaning": "the schedule / programme / listings",
         "notes": "Refers to TV schedule, program listings, or a specific show",
         "examples": [
-          ["Quel est le programme de ce soir?", "What is the schedule for tonight?"],
-          ["Le programme est intéressant.", "The program is interesting."]
+          [
+            "Quel est le programme de ce soir?",
+            "What is the schedule for tonight?"
+          ],
+          [
+            "Le programme est intéressant.",
+            "The program is interesting."
+          ]
         ],
         "special": "Masculine noun, plural adds -s",
         "forms": {
@@ -205,8 +265,14 @@
         "meaning": "the documentary",
         "notes": "Masculine noun referring to documentary films or TV programmes",
         "examples": [
-          ["Regardons un documentaire sur l'Afrique.", "Let's watch a documentary about Africa."],
-          ["Ce documentaire est très intéressant.", "This documentary is very interesting."]
+          [
+            "Regardons un documentaire sur l'Afrique.",
+            "Let's watch a documentary about Africa."
+          ],
+          [
+            "Ce documentaire est très intéressant.",
+            "This documentary is very interesting."
+          ]
         ],
         "special": "Masculine, ends in -aire like dictionnaire",
         "forms": {
@@ -224,15 +290,21 @@
         "meaning": "the presenter / anchor",
         "notes": "Masculine form; feminine is présentatrice. Used for TV anchors and show hosts",
         "examples": [
-          ["Le présentateur est très professionnel.", "The presenter is very professional."],
-          ["La présentatrice du journal est excellent.", "The news anchor is excellent."]
+          [
+            "Le présentateur est très professionnel.",
+            "The presenter is very professional."
+          ],
+          [
+            "La présentatrice du journal est excellent.",
+            "The news anchor is excellent."
+          ]
         ],
         "special": "Gendered noun: présentateur (m) / présentatrice (f)",
         "forms": {
           "masculine": "présentateur",
-          "feminine": "présentatrice",
+          "feminine": "",
           "masculinePlural": "présentateurs",
-          "femininePlural": "présentatrices"
+          "femininePlural": ""
         }
       }
     ]
@@ -240,29 +312,65 @@
   "listen": {
     "standard": {
       "dialogue": [
-        ["A", "Bonsoir! Qu'est-ce que tu fais ce soir?"],
-        ["B", "Je regarde la télé. Il y a une bonne émission."],
-        ["A", "Quelle chaîne regardes-tu?"],
-        ["B", "La chaîne 2. Il y a un bon film à 20h."],
-        ["A", "Un film? C'est quel genre?"],
-        ["B", "C'est une comédie. C'est drôle et amusant."],
-        ["A", "D'accord! Je viens avec toi. C'est intéressant!"],
-        ["B", "Super! Le film commence bientôt. Viens vite!"]
+        [
+          "A",
+          "Bonsoir! Qu'est-ce que tu fais ce soir?"
+        ],
+        [
+          "B",
+          "Je regarde la télé. Il y a une bonne émission."
+        ],
+        [
+          "A",
+          "Quelle chaîne regardes-tu?"
+        ],
+        [
+          "B",
+          "La chaîne 2. Il y a un bon film à 20h."
+        ],
+        [
+          "A",
+          "Un film? C'est quel genre?"
+        ],
+        [
+          "B",
+          "C'est une comédie. C'est drôle et amusant."
+        ],
+        [
+          "A",
+          "D'accord! Je viens avec toi. C'est intéressant!"
+        ],
+        [
+          "B",
+          "Super! Le film commence bientôt. Viens vite!"
+        ]
       ],
       "questions": [
         {
           "question": "Que fait B ce soir?",
-          "options": ["Elle regarde un film.", "Elle regarde la télé.", "Elle lit un livre."],
+          "options": [
+            "Elle regarde un film.",
+            "Elle regarde la télé.",
+            "Elle lit un livre."
+          ],
           "correctAnswer": "Elle regarde la télé."
         },
         {
           "question": "À quelle heure est le film?",
-          "options": ["À 20h.", "À 19h.", "À 21h."],
+          "options": [
+            "À 20h.",
+            "À 19h.",
+            "À 21h."
+          ],
           "correctAnswer": "À 20h."
         },
         {
           "question": "Quel est le genre du film?",
-          "options": ["Un drame.", "Une comédie.", "Un documentaire."],
+          "options": [
+            "Un drame.",
+            "Une comédie.",
+            "Un documentaire."
+          ],
           "correctAnswer": "Une comédie."
         }
       ],
@@ -270,35 +378,82 @@
     },
     "advanced": {
       "dialogue": [
-        ["A", "Salut! Tu as regardé la télé hier soir?"],
-        ["B", "Oui, j'ai vu un excellent documentaire sur les animaux."],
-        ["A", "C'était intéressant? Quelle chaîne?"],
-        ["B", "C'était France 3. Le documentaire qui a gagné le prix était incroyable."],
-        ["A", "Ah oui? Tu aimes les documentaires que tu regardes en général?"],
-        ["B", "Oui, surtout ceux que le présentateur explique bien. Il était très bon."],
-        ["A", "Le présentateur? Comment s'appelle-t-il?"],
-        ["B", "Je ne sais pas son nom, mais c'est quelqu'un que j'aime beaucoup regarder."],
-        ["A", "D'accord! Je vais regarder ce documentaire. Merci pour le conseil!"]
+        [
+          "A",
+          "Salut! Tu as regardé la télé hier soir?"
+        ],
+        [
+          "B",
+          "Oui, j'ai vu un excellent documentaire sur les animaux."
+        ],
+        [
+          "A",
+          "C'était intéressant? Quelle chaîne?"
+        ],
+        [
+          "B",
+          "C'était France 3. Le documentaire qui a gagné le prix était incroyable."
+        ],
+        [
+          "A",
+          "Ah oui? Tu aimes les documentaires que tu regardes en général?"
+        ],
+        [
+          "B",
+          "Oui, surtout ceux que le présentateur explique bien. Il était très bon."
+        ],
+        [
+          "A",
+          "Le présentateur? Comment s'appelle-t-il?"
+        ],
+        [
+          "B",
+          "Je ne sais pas son nom, mais c'est quelqu'un que j'aime beaucoup regarder."
+        ],
+        [
+          "A",
+          "D'accord! Je vais regarder ce documentaire. Merci pour le conseil!"
+        ]
       ],
       "questions": [
         {
           "question": "Qu'est-ce que B a regardé hier soir?",
-          "options": ["Un film dramatique.", "Un documentaire sur les animaux.", "Les nouvelles du soir.", "Une émission de comédie."],
+          "options": [
+            "Un film dramatique.",
+            "Un documentaire sur les animaux.",
+            "Les nouvelles du soir.",
+            "Une émission de comédie."
+          ],
           "correctAnswer": "Un documentaire sur les animaux."
         },
         {
           "question": "Le documentaire que B a vu a gagné quoi?",
-          "options": ["Un prix.", "Une nomination.", "Une récompense spéciale.", "Un Emmy."],
+          "options": [
+            "Un prix.",
+            "Une nomination.",
+            "Une récompense spéciale.",
+            "Un Emmy."
+          ],
           "correctAnswer": "Un prix."
         },
         {
           "question": "Qu'est-ce que B aime chez le présentateur?",
-          "options": ["Sa voix.", "La façon qu'il explique bien.", "Son apparence.", "Son accent."],
+          "options": [
+            "Sa voix.",
+            "La façon qu'il explique bien.",
+            "Son apparence.",
+            "Son accent."
+          ],
           "correctAnswer": "La façon qu'il explique bien."
         },
         {
           "question": "Que va faire A?",
-          "options": ["Regarder le même documentaire.", "Aller au cinéma.", "Regarder les nouvelles.", "Écouter la radio."],
+          "options": [
+            "Regarder le même documentaire.",
+            "Aller au cinéma.",
+            "Regarder les nouvelles.",
+            "Écouter la radio."
+          ],
           "correctAnswer": "Regarder le même documentaire."
         }
       ],
@@ -331,14 +486,22 @@
         {
           "type": "multipleChoice",
           "question": "J'aime le film __ je regarde ce soir.",
-          "options": ["qui", "que", "où"],
+          "options": [
+            "qui",
+            "que",
+            "où"
+          ],
           "correctAnswer": "que",
           "explanation": "Use que because the relative pronoun is the object of 'regarder' (I watch it). The subject 'je' comes after."
         },
         {
           "type": "multipleChoice",
           "question": "La présentatrice __ parle en ce moment est très bonne.",
-          "options": ["qu'", "que", "qui"],
+          "options": [
+            "qu'",
+            "que",
+            "qui"
+          ],
           "correctAnswer": "qui",
           "explanation": "Use qui because the relative pronoun is the subject of 'parle' (she speaks)."
         },
@@ -357,7 +520,11 @@
         {
           "type": "multipleChoice",
           "question": "Voilà la chaîne __ a les meilleures émissions.",
-          "options": ["que", "qui", "qu'"],
+          "options": [
+            "que",
+            "qui",
+            "qu'"
+          ],
           "correctAnswer": "qui",
           "explanation": "Use qui because the relative pronoun is the subject of 'a' (it has)."
         }
@@ -396,14 +563,24 @@
         {
           "type": "multipleChoice",
           "question": "Le film __ il a regardé la semaine dernière était excellent.",
-          "options": ["qu'", "qu", "qui", "que"],
+          "options": [
+            "qu'",
+            "qu",
+            "qui",
+            "que"
+          ],
           "correctAnswer": "qu'",
           "explanation": "Use qu' because the relative pronoun is the object, and the next word 'il' is a vowel, so qu' is required (not qu or que)."
         },
         {
           "type": "multipleChoice",
           "question": "Les émissions __ tu aimes regarder sont toujours intéressantes.",
-          "options": ["qui", "que", "qu'", "dont"],
+          "options": [
+            "qui",
+            "que",
+            "qu'",
+            "dont"
+          ],
           "correctAnswer": "que",
           "explanation": "Use que because the relative pronoun is the object of 'regarder' (you watch them). Tu is the subject."
         },
@@ -416,7 +593,12 @@
         {
           "type": "multipleChoice",
           "question": "Les présentatrices __ j'__ admirées travaillent pour TF1.",
-          "options": ["que / ai", "qui / ai", "qu' / ai", "que / as"],
+          "options": [
+            "que / ai",
+            "qui / ai",
+            "qu' / ai",
+            "que / as"
+          ],
           "correctAnswer": "que / ai",
           "explanation": "Use que (object) + ai (I have). The past participle 'admirées' agrees with the feminine plural object."
         },
@@ -429,7 +611,12 @@
         {
           "type": "multipleChoice",
           "question": "Voilà le documentaire __ a remporté le prix l'année dernière.",
-          "options": ["que", "qui", "qu'", "dont"],
+          "options": [
+            "que",
+            "qui",
+            "qu'",
+            "dont"
+          ],
           "correctAnswer": "qui",
           "explanation": "Use qui because the relative pronoun is the subject of 'a remporté' (it won)."
         },
@@ -442,7 +629,12 @@
         {
           "type": "multipleChoice",
           "question": "C'est le programme __ te plaît le plus, n'est-ce pas?",
-          "options": ["qui", "que", "qu'", "où"],
+          "options": [
+            "qui",
+            "que",
+            "qu'",
+            "où"
+          ],
           "correctAnswer": "qui",
           "explanation": "Use qui because the relative pronoun is the subject of 'plaît' (it pleases you)."
         }
@@ -454,7 +646,11 @@
       {
         "type": "multipleChoice",
         "question": "Quel mot signifie « show » ou « programme »?",
-        "options": ["La chaîne", "L'émission", "Le journal"],
+        "options": [
+          "La chaîne",
+          "L'émission",
+          "Le journal"
+        ],
         "correctAnswer": "L'émission",
         "explanation": "L'émission means a TV show or programme. La chaîne is a channel, and le journal is a newspaper or news bulletin.",
         "targetWord": "l'émission"
@@ -462,7 +658,11 @@
       {
         "type": "multipleChoice",
         "question": "Que regardes-tu pour connaître les nouvelles?",
-        "options": ["Une comédie", "Le journal", "Un documentaire"],
+        "options": [
+          "Une comédie",
+          "Le journal",
+          "Un documentaire"
+        ],
         "correctAnswer": "Le journal",
         "explanation": "Le journal (the news bulletin) is what you watch to find out the news. A comedy is une comédie, and a documentary is un documentaire.",
         "targetWord": "le journal"
@@ -477,7 +677,11 @@
       {
         "type": "multipleChoice",
         "question": "Quel mot peut signifier « short story » en plus de « news »?",
-        "options": ["L'émission", "Les nouvelles", "Le programme"],
+        "options": [
+          "L'émission",
+          "Les nouvelles",
+          "Le programme"
+        ],
         "correctAnswer": "Les nouvelles",
         "explanation": "Les nouvelles can mean both « the news » (plural) and « short stories » in literature. It's always used in the plural form.",
         "targetWord": "les nouvelles"
@@ -494,7 +698,12 @@
       {
         "type": "multipleChoice",
         "question": "Quel mot signifie « an educational film or programme »?",
-        "options": ["Une émission", "Un documentaire", "Une chaîne", "Un journal"],
+        "options": [
+          "Une émission",
+          "Un documentaire",
+          "Une chaîne",
+          "Un journal"
+        ],
         "correctAnswer": "Un documentaire",
         "explanation": "Un documentaire is a documentary film or programme. An émission is a general show, une chaîne is a channel, and un journal is the news.",
         "targetWord": "le documentaire"
@@ -502,7 +711,12 @@
       {
         "type": "multipleChoice",
         "question": "Qui présente les nouvelles à la télévision?",
-        "options": ["L'émission", "La chaîne", "Le présentateur", "Le programme"],
+        "options": [
+          "L'émission",
+          "La chaîne",
+          "Le présentateur",
+          "Le programme"
+        ],
         "correctAnswer": "Le présentateur",
         "explanation": "Le présentateur (the presenter or anchor) is the person who presents the news on television.",
         "targetWord": "le présentateur"
@@ -517,7 +731,12 @@
       {
         "type": "multipleChoice",
         "question": "Comment appelle-t-on une personne qui présente une émission ou un documentaire?",
-        "options": ["Un journal", "Un programme", "Une chaîne", "Une présentatrice"],
+        "options": [
+          "Un journal",
+          "Un programme",
+          "Une chaîne",
+          "Une présentatrice"
+        ],
         "correctAnswer": "Une présentatrice",
         "explanation": "Une présentatrice (female presenter) or un présentateur (male presenter) is the person who presents a show or documentary.",
         "targetWord": "le présentateur"
@@ -558,7 +777,8 @@
         "Le documentaire qui traitait de..."
       ],
       "modelAnswer": "La semaine dernière, j'ai regardé un documentaire fascinant que France 3 a diffusé. C'était un documentaire qui explorait la vie des créatures marines, et c'était présenté par un présentateur que j'aime beaucoup. Les images qu'il a expliquées étaient incroyables, et la manière dont il a raconté l'histoire était captivante. Ce que j'ai vraiment apprécié, c'est la passion que le présentateur a montrée pour le sujet.",
-      "tip": "Use complex sentence structures with multiple relative clauses. Include agreement in passé composé (les images qu'il a expliquées — the feminine plural object agrees with the past participle). Don't be afraid to use longer, more sophisticated constructions that combine qui, que, and ce que."
+      "tip": "Use complex sentence structures with multiple relative clauses. Include agreement in passé composé (les images qu'il a expliquées — the feminine plural object agrees with the past participle). Don't be afraid to use longer, more sophisticated constructions that combine qui, que, and ce que.",
+      "modelAnswerExplanation": "The model answer uses qui (subject) and que (object) in multiple relative clauses, includes passé composé with agreement (les images qu'il a expliquées), uses le documentaire and le présentateur vocabulary, and combines relative clauses to build sophisticated sentences that describe both the show's content and the presenter's delivery."
     }
   }
 }
