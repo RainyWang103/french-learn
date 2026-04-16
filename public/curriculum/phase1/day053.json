@@ -1,0 +1,782 @@
+{
+  "day": 53,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Weekend Leisure & Outings",
+  "vocab": {
+    "standard": [
+      {
+        "word": "se promener",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh prom-nay",
+        "meaning": "to go for a walk",
+        "notes": "stem-changing e→è in conjugation",
+        "examples": [
+          [
+            "Je me promène dans le parc.",
+            "I go for a walk in the park."
+          ],
+          [
+            "Nous nous promenons le weekend.",
+            "We go for walks on the weekend."
+          ]
+        ],
+        "special": "reflexive verb",
+        "forms": {
+          "je": "je me promène",
+          "tu": "tu te promènes",
+          "il": "il/elle/on se promène",
+          "nous": "nous nous promenons",
+          "vous": "vous vous promenez",
+          "ils": "ils/elles se promènent"
+        }
+      },
+      {
+        "word": "le pique-nique",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh peek-neek",
+        "meaning": "the picnic",
+        "notes": "plural: pique-niques",
+        "examples": [
+          [
+            "Nous organisons un pique-nique.",
+            "We are organizing a picnic."
+          ],
+          [
+            "Le pique-nique est dans le parc.",
+            "The picnic is in the park."
+          ]
+        ],
+        "special": "compound noun",
+        "forms": {
+          "masculine": "pique-nique",
+          "feminine": "",
+          "masculinePlural": "pique-niques",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la balade",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah bah-lad",
+        "meaning": "the stroll, the outing",
+        "notes": "informal word for a short walk or trip",
+        "examples": [
+          [
+            "On fait une balade à vélo.",
+            "We take a bike ride."
+          ],
+          [
+            "La balade était très agréable.",
+            "The outing was very pleasant."
+          ]
+        ],
+        "special": "conversational",
+        "forms": {
+          "masculine": "",
+          "feminine": "balade",
+          "masculinePlural": "",
+          "femininePlural": "balades"
+        }
+      },
+      {
+        "word": "le loisir",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh lwah-zeer",
+        "meaning": "leisure, free-time activity",
+        "notes": "usually used in plural: les loisirs",
+        "examples": [
+          [
+            "Quels sont tes loisirs?",
+            "What are your hobbies?"
+          ],
+          [
+            "J'aime les loisirs en plein air.",
+            "I like outdoor activities."
+          ]
+        ],
+        "special": "often plural",
+        "forms": {
+          "masculine": "loisir",
+          "feminine": "",
+          "masculinePlural": "loisirs",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "se reposer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh ruh-poh-zay",
+        "meaning": "to rest",
+        "notes": "regular reflexive verb",
+        "examples": [
+          [
+            "Je me repose le weekend.",
+            "I rest on the weekend."
+          ],
+          [
+            "Tu te reposes après le travail.",
+            "You rest after work."
+          ]
+        ],
+        "special": "reflexive verb",
+        "forms": {
+          "je": "je me repose",
+          "tu": "tu te reposes",
+          "il": "il/elle/on se repose",
+          "nous": "nous nous reposons",
+          "vous": "vous vous reposez",
+          "ils": "ils/elles se reposent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "se promener",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh prom-nay",
+        "meaning": "to go for a walk",
+        "notes": "stem-changing e→è in conjugation",
+        "examples": [
+          [
+            "Je me promène dans le parc.",
+            "I go for a walk in the park."
+          ],
+          [
+            "Nous nous promenons le weekend.",
+            "We go for walks on the weekend."
+          ]
+        ],
+        "special": "reflexive verb",
+        "forms": {
+          "je": "je me promène",
+          "tu": "tu te promènes",
+          "il": "il/elle/on se promène",
+          "nous": "nous nous promenons",
+          "vous": "vous vous promenez",
+          "ils": "ils/elles se promènent"
+        }
+      },
+      {
+        "word": "le pique-nique",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh peek-neek",
+        "meaning": "the picnic",
+        "notes": "plural: pique-niques",
+        "examples": [
+          [
+            "Nous organisons un pique-nique.",
+            "We are organizing a picnic."
+          ],
+          [
+            "Le pique-nique est dans le parc.",
+            "The picnic is in the park."
+          ]
+        ],
+        "special": "compound noun",
+        "forms": {
+          "masculine": "pique-nique",
+          "feminine": "",
+          "masculinePlural": "pique-niques",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la balade",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah bah-lad",
+        "meaning": "the stroll, the outing",
+        "notes": "informal word for a short walk or trip",
+        "examples": [
+          [
+            "On fait une balade à vélo.",
+            "We take a bike ride."
+          ],
+          [
+            "La balade était très agréable.",
+            "The outing was very pleasant."
+          ]
+        ],
+        "special": "conversational",
+        "forms": {
+          "masculine": "",
+          "feminine": "balade",
+          "masculinePlural": "",
+          "femininePlural": "balades"
+        }
+      },
+      {
+        "word": "le loisir",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh lwah-zeer",
+        "meaning": "leisure, free-time activity",
+        "notes": "usually used in plural: les loisirs",
+        "examples": [
+          [
+            "Quels sont tes loisirs?",
+            "What are your hobbies?"
+          ],
+          [
+            "J'aime les loisirs en plein air.",
+            "I like outdoor activities."
+          ]
+        ],
+        "special": "often plural",
+        "forms": {
+          "masculine": "loisir",
+          "feminine": "",
+          "masculinePlural": "loisirs",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "se reposer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh ruh-poh-zay",
+        "meaning": "to rest",
+        "notes": "regular reflexive verb",
+        "examples": [
+          [
+            "Je me repose le weekend.",
+            "I rest on the weekend."
+          ],
+          [
+            "Tu te reposes après le travail.",
+            "You rest after work."
+          ]
+        ],
+        "special": "reflexive verb",
+        "forms": {
+          "je": "je me repose",
+          "tu": "tu te reposes",
+          "il": "il/elle/on se repose",
+          "nous": "nous nous reposons",
+          "vous": "vous vous reposez",
+          "ils": "ils/elles se reposent"
+        }
+      },
+      {
+        "word": "profiter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "proh-fee-tay",
+        "meaning": "to enjoy, to make the most of",
+        "notes": "typically profiter de + noun",
+        "examples": [
+          [
+            "Je profite du beau temps.",
+            "I enjoy the nice weather."
+          ],
+          [
+            "Profitons de nos vacances!",
+            "Let us make the most of our vacation!"
+          ]
+        ],
+        "special": "regular verb",
+        "forms": {
+          "je": "je profite",
+          "tu": "tu profites",
+          "il": "il/elle/on profite",
+          "nous": "nous profitons",
+          "vous": "vous profitez",
+          "ils": "ils/elles profitent"
+        }
+      },
+      {
+        "word": "en plein air",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "ahn plaN air",
+        "meaning": "outdoors, in the open air",
+        "notes": "idiomatic expression",
+        "examples": [
+          [
+            "On joue en plein air.",
+            "We play outdoors."
+          ],
+          [
+            "Aimes-tu les activités en plein air?",
+            "Do you like outdoor activities?"
+          ]
+        ],
+        "special": "common expression",
+        "forms": {
+          "masculine": "en plein air",
+          "feminine": "en plein air",
+          "masculinePlural": "en plein air",
+          "femininePlural": "en plein air"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour! Tu fais quelque chose samedi?"
+        ],
+        [
+          "B",
+          "Non, pas vraiment. Pourquoi?"
+        ],
+        [
+          "A",
+          "Je veux aller au parc. Tu veux venir?"
+        ],
+        [
+          "B",
+          "Oui, bonne idée! On peut se promener."
+        ],
+        [
+          "A",
+          "Et on fait un pique-nique?"
+        ],
+        [
+          "B",
+          "D'accord! Il faut apporter des sandwichs."
+        ],
+        [
+          "A",
+          "Oui, et il faut aussi apporter une boisson."
+        ],
+        [
+          "B",
+          "Parfait! À samedi!"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Où vont-ils samedi?",
+          "options": [
+            "Au parc",
+            "À la maison",
+            "À la plage"
+          ],
+          "correctAnswer": "Au parc"
+        },
+        {
+          "question": "Qu'est-ce qu'ils vont faire?",
+          "options": [
+            "Un pique-nique et une promenade",
+            "Un sport",
+            "Regarder un film"
+          ],
+          "correctAnswer": "Un pique-nique et une promenade"
+        },
+        {
+          "question": "Qu'est-ce qu'il faut apporter?",
+          "options": [
+            "Des sandwichs et une boisson",
+            "Un livre",
+            "Un vélo"
+          ],
+          "correctAnswer": "Des sandwichs et une boisson"
+        }
+      ],
+      "summary": "Two friends plan a Saturday outing to the park where they will take a walk and have a picnic."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Salut! Ça va? Tu as des projets pour le weekend?"
+        ],
+        [
+          "B",
+          "Pas grand chose. J'aimerais bien me reposer après une semaine chargée."
+        ],
+        [
+          "A",
+          "Je comprends. Écoute, on pourrait faire une balade ensemble au parc? Il fait beau."
+        ],
+        [
+          "B",
+          "C'est une bonne idée! Quels loisirs proposes-tu exactement?"
+        ],
+        [
+          "A",
+          "On pourrait se promener, puis faire un pique-nique en plein air. Profitons du beau temps!"
+        ],
+        [
+          "B",
+          "Oui, j'adore! Qu'est-ce qu'il faut préparer?"
+        ],
+        [
+          "A",
+          "Il faut apporter du pain, du fromage et du vin. Il ne faut pas oublier une nappe!"
+        ],
+        [
+          "B",
+          "D'accord. Il faut aussi apporter des assiettes et des verres, non?"
+        ],
+        [
+          "A",
+          "Exactement! À samedi, 10h au parc?"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Pourquoi B hésite-t-il d'abord à sortir?",
+          "options": [
+            "Il veut se reposer après une semaine difficile",
+            "Il est malade",
+            "Il doit étudier",
+            "Il a peu d'argent"
+          ],
+          "correctAnswer": "Il veut se reposer après une semaine difficile"
+        },
+        {
+          "question": "Où se passera le pique-nique?",
+          "options": [
+            "À la montagne",
+            "En plein air au parc",
+            "À la maison",
+            "À la campagne"
+          ],
+          "correctAnswer": "En plein air au parc"
+        },
+        {
+          "question": "Qu'est-ce qu'il ne faut pas oublier selon A?",
+          "options": [
+            "Une nappe",
+            "Des fruits",
+            "Un téléphone",
+            "Un appareil photo"
+          ],
+          "correctAnswer": "Une nappe"
+        },
+        {
+          "question": "À quelle heure vont-ils se rencontrer?",
+          "options": [
+            "À 10h",
+            "À 11h",
+            "À 9h",
+            "À midi"
+          ],
+          "correctAnswer": "À 10h"
+        }
+      ],
+      "summary": "Two friends arrange a weekend outing at the park, planning a walk and picnic, and discuss what items are necessary to bring."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Il faut + Infinitive (Expressing Necessity & Obligation)",
+      "explanation": "Il faut is an impersonal verb that does not change with different subjects. It means 'one must' or 'you need to'. When you use il faut, you add an infinitive verb. For example: il faut manger = one must eat. Negation: il ne faut pas = must not. Il faut expresses what is necessary or required.",
+      "examples": [
+        {
+          "french": "Il faut se reposer.",
+          "english": "One must rest. / You need to rest."
+        },
+        {
+          "french": "Il ne faut pas être tard.",
+          "english": "You must not be late."
+        },
+        {
+          "french": "Il faut manger des fruits.",
+          "english": "You need to eat fruits."
+        },
+        {
+          "french": "Il faut venir demain.",
+          "english": "You must come tomorrow."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce qu'il faut faire samedi?",
+          "options": [
+            "Se promener",
+            "Dormir",
+            "Travailler"
+          ],
+          "correctAnswer": "Se promener",
+          "explanation": "The question asks what one must do on Saturday. 'Se promener' (to take a walk) is the correct logical answer in this context."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il _____ apporter une boisson.",
+          "correctAnswer": "faut",
+          "explanation": "The impersonal verb 'il faut' is needed here. 'Il faut apporter une boisson' = You need to bring a drink."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il ne faut pas _____.",
+          "options": [
+            "être en retard",
+            "profiter",
+            "manger"
+          ],
+          "correctAnswer": "être en retard",
+          "explanation": "'Il ne faut pas être en retard' = You must not be late. This is a common prohibition."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il faut _____ une nappe pour le pique-nique.",
+          "correctAnswer": "apporter",
+          "explanation": "'Il faut apporter' = You need to bring. The infinitive 'apporter' (to bring) is required after il faut."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce qu'il faut pour une balade?",
+          "options": [
+            "De bonnes chaussures",
+            "Un ordinateur",
+            "Des livres"
+          ],
+          "correctAnswer": "De bonnes chaussures",
+          "explanation": "For a stroll (balade), one needs good shoes. This is the most logical answer."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Il faut + Infinitive — Necessity, Prohibition & Alternatives",
+      "explanation": "Il faut is impersonal and expresses necessity. Devoir is personal (je dois, tu dois, etc.) and can mean obligation or probability. Il faudrait (conditional) expresses what would be needed in a hypothetical situation. Il ne faut pas (prohibition) means you must not. Il n'est pas nécessaire de means it is not necessary. Understanding these distinctions allows you to express nuanced obligations and recommendations in French.",
+      "examples": [
+        {
+          "french": "Il faut se promener le weekend.",
+          "english": "One must take a walk on the weekend."
+        },
+        {
+          "french": "Je dois me reposer (I have a personal obligation to rest).",
+          "english": "I must rest (implies personal responsibility)."
+        },
+        {
+          "french": "Il faudrait profiter du beau temps.",
+          "english": "One should (would need to) make the most of the nice weather."
+        },
+        {
+          "french": "Il ne faut pas oublier la nappe.",
+          "english": "You must not forget the tablecloth."
+        },
+        {
+          "french": "Il n'est pas nécessaire de venir de bonne heure.",
+          "english": "It is not necessary to come early."
+        },
+        {
+          "french": "Il faut apporter des loisirs pour les enfants.",
+          "english": "One must bring entertainment/activities for the children."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Il _____ profiter de nos loisirs.",
+          "options": [
+            "faut",
+            "n'est pas nécessaire de",
+            "ne faut pas"
+          ],
+          "correctAnswer": "faut",
+          "explanation": "'Il faut profiter' means 'One must make the most of'. This expresses necessity and is the best choice."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ne faut pas _____ en retard au pique-nique.",
+          "correctAnswer": "être",
+          "explanation": "'Il ne faut pas être en retard' = You must not be late. The infinitive is required after il faut."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ manger sainement si tu veux rester en bonne santé.",
+          "options": [
+            "Il faut",
+            "Il n'est pas nécessaire de",
+            "Il ne faut pas"
+          ],
+          "correctAnswer": "Il faut",
+          "explanation": "'Il faut manger sainement' = One must eat healthily. This expresses a strong necessity."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il faudrait _____ plus de temps pour vraiment profiter.",
+          "correctAnswer": "avoir",
+          "explanation": "'Il faudrait avoir' (conditional) = One would need to have. The conditional 'faudrait' expresses a hypothetical need."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il n'est pas nécessaire de _____ si tu ne veux pas.",
+          "options": [
+            "venir",
+            "rester",
+            "aller au parc"
+          ],
+          "correctAnswer": "venir",
+          "explanation": "All options are valid infinitives, but 'Il n'est pas nécessaire de venir' is the most natural expression of non-obligation."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Pour une balade en plein air, il faut _____ de bonnes chaussures.",
+          "correctAnswer": "avoir",
+          "explanation": "'Il faut avoir' = You need to have. The infinitive 'avoir' is required after il faut."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il _____ oublier la boisson pour le pique-nique.",
+          "options": [
+            "ne faut pas",
+            "faut",
+            "n'est pas nécessaire de"
+          ],
+          "correctAnswer": "ne faut pas",
+          "explanation": "'Il ne faut pas oublier' = You must not forget. This is a prohibition."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je dois me _____ ce weekend pour la balade.",
+          "correctAnswer": "reposer",
+          "explanation": "'Je dois me reposer' = I must rest (personal obligation). 'Reposer' is the infinitive required after the modal verb 'dois'."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'on peut faire au parc?",
+        "options": [
+          "Se promener et faire un pique-nique",
+          "Travailler",
+          "Manger à un restaurant"
+        ],
+        "correctAnswer": "Se promener et faire un pique-nique",
+        "explanation": "At a park, you can take walks and have picnics. The other options are not typical park activities.",
+        "targetWord": "se promener"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Samedi, nous _____ un pique-nique en plein air.",
+        "correctAnswer": "faisons",
+        "explanation": "'Nous faisons' (we make/have) is the correct form. 'Faisons un pique-nique' = We have a picnic.",
+        "targetWord": "le pique-nique"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Après le travail, j'aime me _____.",
+        "options": [
+          "reposer",
+          "promener",
+          "loisir"
+        ],
+        "correctAnswer": "reposer",
+        "explanation": "'Me reposer' means to rest. After work, resting is a natural activity. 'Promener' and 'loisir' do not fit the sentence structure.",
+        "targetWord": "se reposer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Une _____ est une courte promenade.",
+        "correctAnswer": "balade",
+        "explanation": "'Une balade' = a stroll or short outing. This is the correct noun.",
+        "targetWord": "la balade"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quels sont tes _____ préférés?",
+        "options": [
+          "loisirs",
+          "promènes",
+          "pique-niques"
+        ],
+        "correctAnswer": "loisirs",
+        "explanation": "'Loisirs' (hobbies/leisure activities) is the correct noun. The question asks about preferred activities.",
+        "targetWord": "le loisir"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Si on _____ de notre temps libre, on peut profiter du beau temps.",
+        "options": [
+          "profitons",
+          "promenons",
+          "reposons",
+          "faisons"
+        ],
+        "correctAnswer": "profitons",
+        "explanation": "'Si on profite' = If we make the most of. This is the correct form of 'profiter' with the conditional logic.",
+        "targetWord": "profiter"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Les activités _____ sont très populaires en été.",
+        "correctAnswer": "en plein air",
+        "explanation": "'En plein air' means outdoors. 'Les activités en plein air' = outdoor activities.",
+        "targetWord": "en plein air"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "On veut se _____ au parc ce weekend.",
+        "options": [
+          "promener",
+          "reposer",
+          "loisir",
+          "profiter"
+        ],
+        "correctAnswer": "promener",
+        "explanation": "'Se promener' means to take a walk. 'On veut se promener' = We want to take a walk.",
+        "targetWord": "se promener"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il faut _____ une nappe et des sandwichs pour le pique-nique.",
+        "correctAnswer": "apporter",
+        "explanation": "'Apporter' (to bring) is the correct infinitive. 'Il faut apporter' = You need to bring.",
+        "targetWord": "le pique-nique"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Après une semaine de travail difficile, j'ai besoin de me _____.",
+        "options": [
+          "reposer",
+          "promener",
+          "loisir",
+          "profiter de"
+        ],
+        "correctAnswer": "reposer",
+        "explanation": "'Me reposer' means to rest. After a difficult week, needing rest is the most natural choice.",
+        "targetWord": "se reposer"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Suggest a weekend activity to a friend. Explain what you want to do, where you want to go, and what is necessary to bring. Use 'il faut' to express what is needed.",
+      "keyPhrases": [
+        "Tu veux faire... ?",
+        "On peut aller au parc.",
+        "Il faut apporter...",
+        "On se promène.",
+        "On fait un pique-nique."
+      ],
+      "modelAnswer": "Bonjour! Tu veux faire une balade avec moi samedi? On peut aller au parc. Il faut apporter une boisson et des sandwichs. On se promène, puis on fait un pique-nique. Ça te dit?",
+      "modelAnswerExplanation": "This response uses 'il faut' correctly to state what is necessary, suggests a clear activity (walk and picnic), and invites your friend to participate. The answer is polite and conversational.",
+      "tip": "Remember to use il faut + infinitive when explaining what is necessary. Start with a clear invitation, add the location and activity, then explain what needs to be brought. Use vous if speaking to an adult stranger, tu if speaking to a friend."
+    },
+    "advanced": {
+      "scenario": "Invite a friend to enjoy a weekend outing. Discuss multiple leisure activities available, emphasize making the most of good weather using 'profiter de', explain what items must be brought, and what absolutely cannot be forgotten using 'il ne faut pas'. Use both 'en plein air' and considerations for rest.",
+      "keyPhrases": [
+        "On pourrait profiter du beau temps.",
+        "Les loisirs en plein air sont sympas.",
+        "Il faut apporter...",
+        "Il ne faut pas oublier...",
+        "Une balade te dit?",
+        "On peut se reposer après."
+      ],
+      "modelAnswer": "Salut! J'aimerais bien te proposer une balade samedi. On pourrait profiter du beau temps et faire des loisirs en plein air. On se promène dans la nature, puis on fait un pique-nique. Il faut apporter du pain, du fromage, et une boisson. Il ne faut pas oublier une nappe! Après, on peut se reposer à l'ombre. Ça t'intéresse?",
+      "modelAnswerExplanation": "This response demonstrates control of multiple necessity structures (il faut apporter, il ne faut pas oublier), uses 'profiter de' correctly with the infinitive, includes 'en plein air', and balances activity with rest. The invitation is warm and detailed.",
+      "tip": "For advanced speakers: vary your sentence structures. Use both 'il faut' and 'il ne faut pas' for contrast. Incorporate 'profiter de' naturally when discussing making the most of circumstances. Remember that 'balade' and 'se promener' are more casual/conversational than 'excursion'. Use 'en plein air' to specify outdoor settings, not indoor activities."
+    }
+  }
+}
