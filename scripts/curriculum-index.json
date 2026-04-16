@@ -1,5 +1,5 @@
 {
-  "lastDay": 55,
+  "lastDay": 63,
   "grammarTitles": [
     {
       "day": 1,
@@ -205,6 +205,36 @@
       "day": 55,
       "standard": "Relative Pronouns Qui & Que (Introduction)",
       "advanced": "Relative Pronouns Qui & Que — Subject, Object & Common Traps"
+    },
+    {
+      "day": 57,
+      "standard": "Quel / Quelle / Quels / Quelles (Interrogative Adjective)",
+      "advanced": "Quel / Quelle / Quels / Quelles — Agreement, Exclamations & Common Traps"
+    },
+    {
+      "day": 58,
+      "standard": "Dire / Lire / Écrire (Irregular -RE Verbs of Communication)",
+      "advanced": "Dire / Lire / Écrire — Conjugation, Compounds & Common Expressions"
+    },
+    {
+      "day": 59,
+      "standard": "Ordinal Numbers (premier, deuxième, troisième...)",
+      "advanced": "Ordinal Numbers — Formation, Agreement & Date Use"
+    },
+    {
+      "day": 61,
+      "standard": "Voir (Present Tense)",
+      "advanced": "Voir — Present Tense, Compounds & Common Expressions"
+    },
+    {
+      "day": 62,
+      "standard": "Prendre / Apprendre / Comprendre (Irregular Verbs — Prendre Family)",
+      "advanced": "Prendre / Apprendre / Comprendre — Full Conjugation, Compounds & Expressions"
+    },
+    {
+      "day": 63,
+      "standard": "Connaître vs Savoir (Two Verbs for 'to know')",
+      "advanced": "Connaître vs Savoir — Full Distinction, Nuances & Common Traps"
     }
   ],
   "vocabWords": [
@@ -710,6 +740,78 @@
         "le programme",
         "le documentaire",
         "le présentateur"
+      ]
+    },
+    {
+      "day": 57,
+      "words": [
+        "le boulanger",
+        "l'infirmière",
+        "l'ingénieur",
+        "la profession",
+        "l'avocat",
+        "le chauffeur",
+        "l'architecte"
+      ]
+    },
+    {
+      "day": 58,
+      "words": [
+        "français",
+        "anglais",
+        "américain",
+        "la langue",
+        "le pays",
+        "chinois",
+        "étranger"
+      ]
+    },
+    {
+      "day": 59,
+      "words": [
+        "l'anniversaire",
+        "la fête",
+        "le cadeau",
+        "le gâteau",
+        "la bougie",
+        "fêter",
+        "le ballon"
+      ]
+    },
+    {
+      "day": 61,
+      "words": [
+        "le téléphone",
+        "le portable",
+        "le message",
+        "l'internet",
+        "le site",
+        "le clavier",
+        "la souris"
+      ]
+    },
+    {
+      "day": 62,
+      "words": [
+        "l'urgence",
+        "le pompier",
+        "l'accident",
+        "la police",
+        "appeler",
+        "l'aide",
+        "au secours"
+      ]
+    },
+    {
+      "day": 63,
+      "words": [
+        "se voir",
+        "rencontrer",
+        "inviter",
+        "l'ami",
+        "ensemble",
+        "bientôt",
+        "la fois"
       ]
     }
   ]

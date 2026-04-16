@@ -1,0 +1,804 @@
+{
+  "day": 63,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Making Plans & Staying in Touch",
+  "vocab": {
+    "standard": [
+      {
+        "word": "se voir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh vwahr",
+        "meaning": "to see each other / to meet up",
+        "notes": "reflexive of voir",
+        "examples": [
+          [
+            "On se voit demain?",
+            "Shall we see each other tomorrow?"
+          ],
+          [
+            "Je me vois avec toi ce week-end.",
+            "I'm seeing you this weekend."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je me vois",
+          "tu": "tu te vois",
+          "il": "il/elle/on se voit",
+          "nous": "nous nous voyons",
+          "vous": "vous vous voyez",
+          "ils": "ils/elles se voient"
+        }
+      },
+      {
+        "word": "rencontrer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "rahn-kon-tray",
+        "meaning": "to meet / to encounter",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je rencontre mon ami au café.",
+            "I meet my friend at the café."
+          ],
+          [
+            "Où tu rencontres tes amis?",
+            "Where do you meet your friends?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je rencontre",
+          "tu": "tu rencontres",
+          "il": "il/elle/on rencontre",
+          "nous": "nous rencontrons",
+          "vous": "vous rencontrez",
+          "ils": "ils/elles rencontrent"
+        }
+      },
+      {
+        "word": "inviter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "aN-vee-tay",
+        "meaning": "to invite",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je t'invite à dîner.",
+            "I invite you to dinner."
+          ],
+          [
+            "Tu invites ton ami?",
+            "Are you inviting your friend?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "j'invite",
+          "tu": "tu invites",
+          "il": "il/elle/on invite",
+          "nous": "nous invitons",
+          "vous": "vous invitez",
+          "ils": "ils/elles invitent"
+        }
+      },
+      {
+        "word": "l'ami",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "lah-mee",
+        "meaning": "the friend",
+        "notes": "both masculine ami and feminine amie",
+        "examples": [
+          [
+            "Mon ami s'appelle Pierre.",
+            "My friend's name is Pierre."
+          ],
+          [
+            "Ma meilleure amie est à Paris.",
+            "My best friend is in Paris."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ami",
+          "feminine": "amie",
+          "masculinePlural": "amis",
+          "femininePlural": "amies"
+        }
+      },
+      {
+        "word": "ensemble",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "ahn-sahm-bluh",
+        "meaning": "together",
+        "notes": "Adverb — always invariable. 'On y va ensemble ?' = Shall we go together? Very common in everyday speech.",
+        "examples": [
+          [
+            "On va ensemble?",
+            "Shall we go together?"
+          ],
+          [
+            "Nous travaillons ensemble.",
+            "We work together."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ensemble",
+          "feminine": "ensemble",
+          "masculinePlural": "ensemble",
+          "femininePlural": "ensemble"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "se voir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "suh vwahr",
+        "meaning": "to see each other / to meet up",
+        "notes": "reflexive of voir",
+        "examples": [
+          [
+            "On se voit demain?",
+            "Shall we see each other tomorrow?"
+          ],
+          [
+            "Je me vois avec toi ce week-end.",
+            "I'm seeing you this weekend."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je me vois",
+          "tu": "tu te vois",
+          "il": "il/elle/on se voit",
+          "nous": "nous nous voyons",
+          "vous": "vous vous voyez",
+          "ils": "ils/elles se voient"
+        }
+      },
+      {
+        "word": "rencontrer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "rahn-kon-tray",
+        "meaning": "to meet / to encounter",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je rencontre mon ami au café.",
+            "I meet my friend at the café."
+          ],
+          [
+            "Où tu rencontres tes amis?",
+            "Where do you meet your friends?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je rencontre",
+          "tu": "tu rencontres",
+          "il": "il/elle/on rencontre",
+          "nous": "nous rencontrons",
+          "vous": "vous rencontrez",
+          "ils": "ils/elles rencontrent"
+        }
+      },
+      {
+        "word": "inviter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "aN-vee-tay",
+        "meaning": "to invite",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je t'invite à dîner.",
+            "I invite you to dinner."
+          ],
+          [
+            "Tu invites ton ami?",
+            "Are you inviting your friend?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "j'invite",
+          "tu": "tu invites",
+          "il": "il/elle/on invite",
+          "nous": "nous invitons",
+          "vous": "vous invitez",
+          "ils": "ils/elles invitent"
+        }
+      },
+      {
+        "word": "l'ami",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "lah-mee",
+        "meaning": "the friend",
+        "notes": "both masculine ami and feminine amie",
+        "examples": [
+          [
+            "Mon ami s'appelle Pierre.",
+            "My friend's name is Pierre."
+          ],
+          [
+            "Ma meilleure amie est à Paris.",
+            "My best friend is in Paris."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ami",
+          "feminine": "amie",
+          "masculinePlural": "amis",
+          "femininePlural": "amies"
+        }
+      },
+      {
+        "word": "ensemble",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "ahn-sahm-bluh",
+        "meaning": "together",
+        "notes": "Adverb — always invariable. 'On y va ensemble ?' = Shall we go together? Very common in everyday speech.",
+        "examples": [
+          [
+            "On va ensemble?",
+            "Shall we go together?"
+          ],
+          [
+            "Nous travaillons ensemble.",
+            "We work together."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ensemble",
+          "feminine": "ensemble",
+          "masculinePlural": "ensemble",
+          "femininePlural": "ensemble"
+        }
+      },
+      {
+        "word": "bientôt",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "byaN-toh",
+        "meaning": "soon",
+        "notes": "common in à bientôt (see you soon)",
+        "examples": [
+          [
+            "À bientôt!",
+            "See you soon!"
+          ],
+          [
+            "Je reviens bientôt.",
+            "I'll be back soon."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bientôt",
+          "feminine": "bientôt",
+          "masculinePlural": "bientôt",
+          "femininePlural": "bientôt"
+        }
+      },
+      {
+        "word": "la fois",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah fwah",
+        "meaning": "the time / occasion",
+        "notes": "une fois (once), deux fois (twice)",
+        "examples": [
+          [
+            "Je vais au cinéma une fois par mois.",
+            "I go to the cinema once a month."
+          ],
+          [
+            "Deux fois par semaine, je fais du sport.",
+            "Twice a week, I do sports."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "fois",
+          "masculinePlural": "",
+          "femininePlural": "fois"
+        }
+      }
+    ]
+  },
+  "grammar": {
+    "standard": {
+      "title": "Connaître vs Savoir (Two Verbs for 'to know')",
+      "explanation": "French has two verbs meaning 'to know' but they are used differently. Connaître (to know a person, place, or thing — familiarity): je connais, tu connais, il/elle/on connaît, nous connaissons, vous connaissez, ils/elles connaissent. Savoir (to know a fact, how to do something): je sais, tu sais, il/elle/on sait, nous savons, vous savez, ils/elles savent. Key rule: use connaître + noun (person/place/thing), use savoir + que/comment/quand/si or + infinitive.",
+      "examples": [
+        {
+          "french": "Je connais Marie.",
+          "english": "I know Marie (I am familiar with her)."
+        },
+        {
+          "french": "Je sais que Marie est française.",
+          "english": "I know that Marie is French (I know the fact)."
+        },
+        {
+          "french": "Tu connais Paris?",
+          "english": "Do you know Paris (have you been there)?"
+        },
+        {
+          "french": "Je sais nager.",
+          "english": "I know how to swim."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Tu _____ ma mère?",
+          "options": [
+            "connais",
+            "sais",
+            "savais"
+          ],
+          "correctAnswer": "connais",
+          "explanation": "Use connaître for knowing a person.",
+          "targetWord": "connaître"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Je _____ parler français.",
+          "options": [
+            "connais",
+            "sais",
+            "j'ai"
+          ],
+          "correctAnswer": "sais",
+          "explanation": "Use savoir for 'know how to' + infinitive.",
+          "targetWord": "savoir"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous _____ où il habite?",
+          "correctAnswer": "savez",
+          "explanation": "Savoir is used for knowing a location/fact.",
+          "targetWord": "savoir"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Nous _____ un restaurant très bon.",
+          "options": [
+            "savons",
+            "connaissons",
+            "voyons"
+          ],
+          "correctAnswer": "connaissons",
+          "explanation": "Use connaître for knowing a place (restaurant).",
+          "targetWord": "connaître"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ne _____ pas la réponse.",
+          "correctAnswer": "sait",
+          "explanation": "Use savoir for knowing the answer (a fact).",
+          "targetWord": "savoir"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Connaître vs Savoir — Full Distinction, Nuances & Common Traps",
+      "explanation": "Connaître = to be acquainted with (person/place/thing). Full conjugation: je connais, tu connais, il/elle/on connaît, nous connaissons, vous connaissez, ils/elles connaissent. Related phrases: se connaître (to know each other), faire connaissance (to get to know), la connaissance (knowledge/acquaintance). Savoir = to know a fact or how to do something. Full conjugation: je sais, tu sais, il/elle/on sait, nous savons, vous savez, ils/elles savent. Savoir + infinitive = to know how to do something (je sais nager = I know how to swim). Savoir + que/si/comment/quand + clause = to know that/if/how/when. Très utile: je ne sais pas (I don't know — extremely common). Common trap: 'Je sais Paris' is grammatically wrong → must say 'Je connais Paris'. Another trap: savant (scholar) vs connaisseur (connoisseur/expert) — different nuances of expertise.",
+      "examples": [
+        {
+          "french": "Je connais cet ami depuis dix ans.",
+          "english": "I have known this friend for ten years (ongoing familiarity)."
+        },
+        {
+          "french": "Je sais qu'il est français.",
+          "english": "I know that he is French (knowledge of a fact)."
+        },
+        {
+          "french": "Nous nous connaissons bien maintenant.",
+          "english": "We know each other well now (reflexive — mutual familiarity)."
+        },
+        {
+          "french": "Tu sais cuisiner?",
+          "english": "Do you know how to cook? (ability/skill)."
+        },
+        {
+          "french": "Je ne sais pas où il habite.",
+          "english": "I don't know where he lives (fact/information unknown)."
+        },
+        {
+          "french": "Vous connaissez un bon restaurant à Lyon?",
+          "english": "Do you know (are you acquainted with) a good restaurant in Lyon?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Ils _____ cette région très bien.",
+          "options": [
+            "savent",
+            "connaissent",
+            "voient",
+            "apprennent"
+          ],
+          "correctAnswer": "connaissent",
+          "explanation": "Use connaître for being acquainted with a region.",
+          "targetWord": "connaître"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Tu _____ comment faire la tarte?",
+          "options": [
+            "connais",
+            "sais",
+            "fais",
+            "vois"
+          ],
+          "correctAnswer": "sais",
+          "explanation": "Use savoir + infinitive for knowing how to do something.",
+          "targetWord": "savoir"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je _____ que vous allez à Paris.",
+          "correctAnswer": "sais",
+          "explanation": "Savoir + que = to know that (a fact/information).",
+          "targetWord": "savoir"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "On se _____ au lycée.",
+          "options": [
+            "savons",
+            "connaissons",
+            "vois",
+            "rencontrons"
+          ],
+          "correctAnswer": "connaissons",
+          "explanation": "Se connaître = to know each other (reflexive form of connaître).",
+          "targetWord": "connaître"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elles ne _____ pas parler allemand.",
+          "correctAnswer": "savent",
+          "explanation": "Savoir + infinitive = to know how to do something.",
+          "targetWord": "savoir"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Vous _____ le directeur?",
+          "options": [
+            "savez",
+            "connaissez",
+            "rencontrez",
+            "invitez"
+          ],
+          "correctAnswer": "connaissez",
+          "explanation": "Connaître is used for knowing a person.",
+          "targetWord": "connaître"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ne _____ pas la réponse à cette question.",
+          "correctAnswer": "sais",
+          "explanation": "Je ne sais pas = I don't know (one of the most common phrases).",
+          "targetWord": "savoir"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Elle _____ faire la connaissance de ton ami demain.",
+          "options": [
+            "sait",
+            "connaît",
+            "va faire",
+            "voudrait"
+          ],
+          "correctAnswer": "va faire",
+          "explanation": "Faire connaissance = to get to know someone (future action — will get to know).",
+          "targetWord": "connaître"
+        }
+      ]
+    }
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Salut! Ça va? On ne s'est pas vus depuis longtemps!"
+        ],
+        [
+          "B",
+          "Ça va super! Oui, c'est vrai! Comment tu vas?"
+        ],
+        [
+          "A",
+          "Très bien, merci. Tu fais quoi ce week-end?"
+        ],
+        [
+          "B",
+          "Je ne sais pas encore. Pourquoi?"
+        ],
+        [
+          "A",
+          "Tu veux me voir? On peut rencontrer au café?"
+        ],
+        [
+          "B",
+          "Oui, avec plaisir! Samedi ou dimanche?"
+        ],
+        [
+          "A",
+          "Samedi, c'est bon pour moi. À quelle heure?"
+        ],
+        [
+          "B",
+          "À trois heures? Ça te va?"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Depuis combien de temps A et B ne se sont pas vus?",
+          "options": [
+            "Depuis un mois",
+            "Depuis longtemps",
+            "Depuis hier"
+          ],
+          "correctAnswer": "Depuis longtemps"
+        },
+        {
+          "question": "Où A invite B à rencontrer?",
+          "options": [
+            "À la maison",
+            "Au café",
+            "À l'école"
+          ],
+          "correctAnswer": "Au café"
+        },
+        {
+          "question": "À quelle heure ils se rencontrent?",
+          "options": [
+            "À deux heures",
+            "À trois heures",
+            "À quatre heures"
+          ],
+          "correctAnswer": "À trois heures"
+        }
+      ],
+      "summary": "Two old friends catch up and make plans to meet at a café on Saturday at 3 PM."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Marie! Quel plaisir de te revoir! On ne s'est pas vus depuis combien de temps?"
+        ],
+        [
+          "B",
+          "Lucas! Je sais! Au moins trois mois! Tu vas bien?"
+        ],
+        [
+          "A",
+          "Très bien, merci. Et toi? Tu fais toujours du sport?"
+        ],
+        [
+          "B",
+          "Oui, je vais au gymnase deux fois par semaine. Et toi, tu connais cet endroit près de chez moi?"
+        ],
+        [
+          "A",
+          "Non, lequel? Je ne connais pas bien le quartier."
+        ],
+        [
+          "B",
+          "C'est un petit café très sympa. Je t'invite à prendre un café ensemble?"
+        ],
+        [
+          "A",
+          "Avec plaisir! Quand? Cette semaine?"
+        ],
+        [
+          "B",
+          "Pourquoi pas vendredi? Je suis libre à dix-sept heures."
+        ],
+        [
+          "A",
+          "Vendredi à dix-sept heures, ça me va parfaitement! À bientôt!"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Depuis combien de temps A et B ne se sont pas vus?",
+          "options": [
+            "Depuis un mois",
+            "Depuis deux mois",
+            "Depuis trois mois",
+            "Depuis six mois"
+          ],
+          "correctAnswer": "Depuis trois mois"
+        },
+        {
+          "question": "Combien de fois par semaine B va au gymnase?",
+          "options": [
+            "Une fois",
+            "Deux fois",
+            "Trois fois",
+            "Quatre fois"
+          ],
+          "correctAnswer": "Deux fois"
+        },
+        {
+          "question": "Quel endroit B veut montrer à A?",
+          "options": [
+            "Un restaurant",
+            "Un gymnase",
+            "Un petit café",
+            "Une école"
+          ],
+          "correctAnswer": "Un petit café"
+        },
+        {
+          "question": "À quelle heure ils vont se rencontrer?",
+          "options": [
+            "À seize heures",
+            "À dix-sept heures",
+            "À dix-huit heures",
+            "À dix-neuf heures"
+          ],
+          "correctAnswer": "À dix-sept heures"
+        }
+      ],
+      "summary": "Lucas and Marie reconnect after three months and arrange to meet at a cosy café on Friday evening at 5 PM."
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Comment dit-on 'to see each other' en français?",
+        "options": [
+          "voir",
+          "se voir",
+          "regarder"
+        ],
+        "correctAnswer": "se voir",
+        "explanation": "Se voir is the reflexive form meaning 'to see each other' or 'to meet up'.",
+        "targetWord": "se voir"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je t'_____ à venir au café avec moi.",
+        "correctAnswer": "invite",
+        "explanation": "Inviter means 'to invite'. Je t'invite = I invite you.",
+        "targetWord": "inviter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot signifie 'together'?",
+        "options": [
+          "ensemble",
+          "toujours",
+          "encore"
+        ],
+        "correctAnswer": "ensemble",
+        "explanation": "Ensemble means 'together'.",
+        "targetWord": "ensemble"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Tu _____ mon ami Laurent? (Do you know my friend Laurent?)",
+        "correctAnswer": "connais",
+        "explanation": "Use connaître to ask if you know a person.",
+        "targetWord": "connaître"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'bientôt' mean?",
+        "options": [
+          "tomorrow",
+          "soon",
+          "always"
+        ],
+        "correctAnswer": "soon",
+        "explanation": "Bientôt means 'soon'. À bientôt = see you soon!",
+        "targetWord": "bientôt"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens correct de 'se voir' dans cette phrase: On se voit samedi?",
+        "options": [
+          "We see ourselves",
+          "We meet up / shall we see each other",
+          "We look at each other",
+          "We know each other"
+        ],
+        "correctAnswer": "We meet up / shall we see each other",
+        "explanation": "Se voir means 'to meet up' or 'to see each other' in a social context.",
+        "targetWord": "se voir"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je vais _____ deux fois par semaine au gymnase.",
+        "correctAnswer": "rencontrer",
+        "explanation": "Rencontrer means 'to meet'. Je vais rencontrer quelqu'un = I'm meeting someone.",
+        "targetWord": "rencontrer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: Elle nous _____ à dîner samedi soir.",
+        "options": [
+          "invite",
+          "rencontre",
+          "voit",
+          "connait"
+        ],
+        "correctAnswer": "invite",
+        "explanation": "Inviter = to invite. Elle nous invite = She invites us.",
+        "targetWord": "inviter"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "On travaille très bien _____. (We work very well together.)",
+        "correctAnswer": "ensemble",
+        "explanation": "Ensemble = together.",
+        "targetWord": "ensemble"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la différence entre 'connaître' et 'savoir' ici: Tu _____ mon frère?",
+        "options": [
+          "sais",
+          "connais",
+          "rencontres",
+          "invites"
+        ],
+        "correctAnswer": "connais",
+        "explanation": "Use connaître to ask if someone knows another person (familiarity).",
+        "targetWord": "connaître"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You meet a friend and want to invite them to do something together. Agree on a day and time.",
+      "keyPhrases": [
+        "Tu veux...",
+        "On se voit...",
+        "À quelle heure?",
+        "Ça te va?"
+      ],
+      "modelAnswer": "Salut! Tu veux me voir ce week-end? On peut rencontrer au café. Samedi à trois heures, ça te va?",
+      "modelAnswerExplanation": "This answer uses key verbs (veux, rencontrer), proposes a specific day and time, and invites the other person to agree.",
+      "tip": "Use 'On se voit' or 'On peut rencontrer' to suggest meeting. Always propose a specific time so your friend knows when to expect you."
+    },
+    "advanced": {
+      "scenario": "You bump into an old friend you haven't seen in months. You want to get to know them again and suggest meeting soon. Use both connaître and savoir, and discuss what you've each been doing.",
+      "keyPhrases": [
+        "On se connaît depuis...",
+        "Je ne sais pas si tu...",
+        "À bientôt",
+        "Une fois par..."
+      ],
+      "modelAnswer": "Quel plaisir! On ne se connaît pas depuis combien de temps? Moi, je vais au gymnase une fois par semaine maintenant. Et toi, qu'est-ce que tu fais? Tu sais, je viens de découvrir un super café près de chez moi. Tu veux qu'on se voie bientôt?",
+      "modelAnswerExplanation": "This response reconnects with the friend using reflexive se connaître, mentions personal activities with time expressions (une fois par...), uses savoir appropriately, and invites future plans using bientôt.",
+      "tip": "Advanced speakers should use se connaître for 'to know each other', savoir for facts/abilities, and frequency expressions like 'une fois par semaine'. Use bientôt naturally in conversation about future plans."
+    }
+  }
+}

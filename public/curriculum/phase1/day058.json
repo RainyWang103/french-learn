@@ -1,0 +1,561 @@
+{
+  "day": 58,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Nationalities & Languages",
+  "vocab": {
+    "standard": [
+      {
+        "word": "français",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "frahn-say",
+        "meaning": "French",
+        "notes": "Commonly used to describe nationality and language",
+        "examples": [
+          ["Je suis français.", "I am French."],
+          ["La langue française est belle.", "The French language is beautiful."]
+        ],
+        "special": "nationality & language",
+        "forms": {
+          "masculine": "français",
+          "feminine": "française",
+          "masculinePlural": "français",
+          "femininePlural": "françaises"
+        }
+      },
+      {
+        "word": "anglais",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "ahn-glay",
+        "meaning": "English",
+        "notes": "Refers to England and the English language",
+        "examples": [
+          ["Elle parle anglais couramment.", "She speaks English fluently."],
+          ["Cet homme est anglais.", "This man is English."]
+        ],
+        "special": "nationality & language",
+        "forms": {
+          "masculine": "anglais",
+          "feminine": "anglaise",
+          "masculinePlural": "anglais",
+          "femininePlural": "anglaises"
+        }
+      },
+      {
+        "word": "américain",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "ah-may-ree-kaN",
+        "meaning": "American",
+        "notes": "Describes someone or something from the United States",
+        "examples": [
+          ["Mon ami est américain.", "My friend is American."],
+          ["Les films américains sont populaires.", "American films are popular."]
+        ],
+        "special": "nationality",
+        "forms": {
+          "masculine": "américain",
+          "feminine": "américaine",
+          "masculinePlural": "américains",
+          "femininePlural": "américaines"
+        }
+      },
+      {
+        "word": "la langue",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah lahng",
+        "meaning": "the language / the tongue",
+        "notes": "Feminine noun, plural: les langues",
+        "examples": [
+          ["Quelle langue parlez-vous?", "What language do you speak?"],
+          ["La langue française est riche.", "The French language is rich."]
+        ],
+        "special": "feminine noun",
+        "forms": {
+          "masculine": "",
+          "feminine": "langue",
+          "masculinePlural": "",
+          "femininePlural": "langues"
+        }
+      },
+      {
+        "word": "le pays",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pay-ee",
+        "meaning": "the country",
+        "notes": "Masculine noun, s is silent, plural form is identical (les pays)",
+        "examples": [
+          ["De quel pays venez-vous?", "What country are you from?"],
+          ["La France est un beau pays.", "France is a beautiful country."]
+        ],
+        "special": "masculine noun; plural identical to singular",
+        "forms": {
+          "masculine": "pays",
+          "feminine": "",
+          "masculinePlural": "pays",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "français",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "frahn-say",
+        "meaning": "French",
+        "notes": "Commonly used to describe nationality and language",
+        "examples": [
+          ["Je suis français.", "I am French."],
+          ["La langue française est belle.", "The French language is beautiful."]
+        ],
+        "special": "nationality & language",
+        "forms": {
+          "masculine": "français",
+          "feminine": "française",
+          "masculinePlural": "français",
+          "femininePlural": "françaises"
+        }
+      },
+      {
+        "word": "anglais",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "ahn-glay",
+        "meaning": "English",
+        "notes": "Refers to England and the English language",
+        "examples": [
+          ["Elle parle anglais couramment.", "She speaks English fluently."],
+          ["Cet homme est anglais.", "This man is English."]
+        ],
+        "special": "nationality & language",
+        "forms": {
+          "masculine": "anglais",
+          "feminine": "anglaise",
+          "masculinePlural": "anglais",
+          "femininePlural": "anglaises"
+        }
+      },
+      {
+        "word": "américain",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "ah-may-ree-kaN",
+        "meaning": "American",
+        "notes": "Describes someone or something from the United States",
+        "examples": [
+          ["Mon ami est américain.", "My friend is American."],
+          ["Les films américains sont populaires.", "American films are popular."]
+        ],
+        "special": "nationality",
+        "forms": {
+          "masculine": "américain",
+          "feminine": "américaine",
+          "masculinePlural": "américains",
+          "femininePlural": "américaines"
+        }
+      },
+      {
+        "word": "la langue",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah lahng",
+        "meaning": "the language / the tongue",
+        "notes": "Feminine noun, plural: les langues",
+        "examples": [
+          ["Quelle langue parlez-vous?", "What language do you speak?"],
+          ["La langue française est riche.", "The French language is rich."]
+        ],
+        "special": "feminine noun",
+        "forms": {
+          "masculine": "",
+          "feminine": "langue",
+          "masculinePlural": "",
+          "femininePlural": "langues"
+        }
+      },
+      {
+        "word": "le pays",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pay-ee",
+        "meaning": "the country",
+        "notes": "Masculine noun, s is silent, plural form is identical (les pays)",
+        "examples": [
+          ["De quel pays venez-vous?", "What country are you from?"],
+          ["La France est un beau pays.", "France is a beautiful country."]
+        ],
+        "special": "masculine noun; plural identical to singular",
+        "forms": {
+          "masculine": "pays",
+          "feminine": "",
+          "masculinePlural": "pays",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "chinois",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "shee-nwah",
+        "meaning": "Chinese",
+        "notes": "Describes something from China or the Chinese language",
+        "examples": [
+          ["Elle parle chinois.", "She speaks Chinese."],
+          ["La culture chinoise est ancienne.", "Chinese culture is ancient."]
+        ],
+        "special": "nationality & language",
+        "forms": {
+          "masculine": "chinois",
+          "feminine": "chinoise",
+          "masculinePlural": "chinois",
+          "femininePlural": "chinoises"
+        }
+      },
+      {
+        "word": "étranger",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "ay-trahn-zhay",
+        "meaning": "foreign / foreigner",
+        "notes": "Can be adjective (foreign) or noun (a foreigner)",
+        "examples": [
+          ["Je suis un visiteur étranger.", "I am a foreign visitor."],
+          ["Les étrangers aiment ce restaurant.", "Foreigners love this restaurant."]
+        ],
+        "special": "adjective; can also function as noun",
+        "forms": {
+          "masculine": "étranger",
+          "feminine": "étrangère",
+          "masculinePlural": "étrangers",
+          "femininePlural": "étrangères"
+        }
+      }
+    ]
+  },
+  "grammar": {
+    "standard": {
+      "title": "Dire / Lire / Écrire (Irregular -RE Verbs of Communication)",
+      "explanation": "Three irregular verbs are essential for communication. Dire (to say/tell) conjugates: je dis, tu dis, il/elle/on dit, nous disons, vous dites, ils/elles disent. Lire (to read) conjugates: je lis, tu lis, il/elle/on lit, nous lisons, vous lisez, ils/elles lisent. Écrire (to write) conjugates: j'écris, tu écris, il/elle/on écrit, nous écrivons, vous écrivez, ils/elles écrivent. Note that vous dites is irregular — it does not follow the pattern of disez.",
+      "examples": [
+        {
+          "french": "Je dis la vérité.",
+          "english": "I tell the truth."
+        },
+        {
+          "french": "Tu lis un livre intéressant.",
+          "english": "You are reading an interesting book."
+        },
+        {
+          "french": "Elle écrit une lettre.",
+          "english": "She is writing a letter."
+        },
+        {
+          "french": "Nous disons bonjour.",
+          "english": "We say hello."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: Elle _______ un bon livre.",
+          "options": ["lis", "lit", "lisons"],
+          "correctAnswer": "lit",
+          "explanation": "Avec 'elle' (3rd person singular), on utilise 'lit'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel verbe est correct? Vous _______ français?",
+          "options": ["dites", "disez", "dis"],
+          "correctAnswer": "dites",
+          "explanation": "'Vous dites' is the correct irregular form, not 'disez'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je _______ une email à mon ami.",
+          "correctAnswer": "écris",
+          "explanation": "With 'je', the form of 'écrire' is 'écris'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qui _______ la réponse?",
+          "options": ["disons", "dit", "dites"],
+          "correctAnswer": "dit",
+          "explanation": "'Dit' is the 3rd person singular form of dire."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous _______ beaucoup de livres.",
+          "correctAnswer": "lisons",
+          "explanation": "With 'nous', the form of 'lire' is 'lisons'."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Dire / Lire / Écrire — Conjugation, Compounds & Common Expressions",
+      "explanation": "Master the three irregular verbs dire, lire, and écrire with their full conjugations and common uses. Dire (to say/tell): je dis, tu dis, il/elle/on dit, nous disons, vous dites, ils/elles disent. Lire (to read): je lis, tu lis, il/elle/on lit, nous lisons, vous lisez, ils/elles lisent. Écrire (to write): j'écris, tu écris, il/elle/on écrit, nous écrivons, vous écrivez, ils/elles écrivent. Related verbs include redire (to say again), relire (to reread), décrire (to describe), and s'inscrire (to register). Essential fixed expressions: dire bonjour (to say hello), vouloir dire (to mean), c'est-à-dire (that is to say), and lire entre les lignes (to read between the lines).",
+      "examples": [
+        {
+          "french": "Elle dit que le film est excellent.",
+          "english": "She says that the film is excellent."
+        },
+        {
+          "french": "Tu relis toujours le même livre.",
+          "english": "You always reread the same book."
+        },
+        {
+          "french": "Nous nous inscrivons au cours de français.",
+          "english": "We are registering for the French course."
+        },
+        {
+          "french": "Qu'est-ce que cela veut dire?",
+          "english": "What does that mean?"
+        },
+        {
+          "french": "C'est-à-dire, tu es d'accord?",
+          "english": "That is to say, do you agree?"
+        },
+        {
+          "french": "Il faut lire entre les lignes pour comprendre.",
+          "english": "You must read between the lines to understand."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: Vous _______ votre nom sur le formulaire.",
+          "options": ["écrivez", "écrivons", "écrit", "écrivent"],
+          "correctAnswer": "écrivez",
+          "explanation": "With 'vous' (2nd person plural), the form is 'écrivez'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel verbe complète la phrase? Les étudiants _______ à l'université.",
+          "options": ["s'inscrivez", "s'inscrivent", "s'inscris", "s'inscrivons"],
+          "correctAnswer": "s'inscrivent",
+          "explanation": "'S'inscrivent' is the 3rd person plural form of s'inscrire."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je _______ ce passage trois fois.",
+          "correctAnswer": "relis",
+          "explanation": "With 'je', the form of 'relire' is 'relis'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que ce mot _______ en français?",
+          "options": ["veut parler", "veut dire", "dit dire", "parle dire"],
+          "correctAnswer": "veut dire",
+          "explanation": "'Veut dire' is the idiom meaning 'to mean'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle _______ un roman policier très intéressant.",
+          "correctAnswer": "décrit",
+          "explanation": "With 'elle' (3rd person singular), the form of 'décrire' is 'décrit'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Vous _______ bonjour à vos voisins?",
+          "options": ["dites", "disez", "dit", "disons"],
+          "correctAnswer": "dites",
+          "explanation": "'Vous dites' is the correct form, as vous dites bonjour is a common expression."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous _______ cette histoire depuis longtemps.",
+          "correctAnswer": "relisons",
+          "explanation": "With 'nous', the form of 'relire' is 'relisons'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "C'est-à-dire, tu _______ que tu es occupé?",
+          "options": ["dis", "dites", "disons", "disent"],
+          "correctAnswer": "dis",
+          "explanation": "With 'tu' (2nd person singular), the form of dire is 'dis'."
+        }
+      ]
+    }
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! De quel pays êtes-vous?"],
+        ["B", "Je suis du Canada. Et vous, d'où venez-vous?"],
+        ["A", "Je suis de la France. Je viens de Paris."],
+        ["B", "C'est magnifique! Parlez-vous d'autres langues?"],
+        ["A", "Oui, je parle anglais aussi. Et vous?"],
+        ["B", "Je parle français et anglais. Et un peu d'espagnol!"],
+        ["A", "Excellent! Vous êtes multilingue!"],
+        ["B", "Merci! C'est important pour mon travail."]
+      ],
+      "questions": [
+        {
+          "question": "De quel pays vient la personne B?",
+          "options": ["De la France", "Du Canada", "D'Espagne"],
+          "correctAnswer": "Du Canada"
+        },
+        {
+          "question": "Combien de langues parle la personne B?",
+          "options": ["Deux", "Trois", "Une"],
+          "correctAnswer": "Trois"
+        },
+        {
+          "question": "Quelle ville française mentionne la personne A?",
+          "options": ["Lyon", "Paris", "Nice"],
+          "correctAnswer": "Paris"
+        }
+      ],
+      "summary": "Two travelers meet and discuss their countries of origin and the languages they speak."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonjour! Je suis curieux — de quel pays venez-vous exactement?"],
+        ["B", "Je viens du Canada, mais je suis d'origine française. Mes parents sont immigrés."],
+        ["A", "Fascinant! Quelles langues parlez-vous donc?"],
+        ["B", "Naturellement, je parle le français et l'anglais couramment. J'étudie aussi l'espagnol."],
+        ["A", "Impressionnant! Vous lisez dans ces langues aussi?"],
+        ["B", "Oui, absolument. Je lis des livres en français et en anglais régulièrement."],
+        ["A", "Et l'espagnol?"],
+        ["B", "L'espagnol est plus difficile pour moi. Je commence à peine à lire des textes simples."],
+        ["A", "C'est remarquable quand même. Vous écrivez aussi dans ces langues?"]
+      ],
+      "questions": [
+        {
+          "question": "Quelle est l'origine des parents de la personne B?",
+          "options": ["Italienne", "Française", "Canadienne", "Allemande"],
+          "correctAnswer": "Française"
+        },
+        {
+          "question": "La personne B lit-elle en trois langues avec la même facilité?",
+          "options": ["Oui, elle lit également bien en espagnol", "Non, l'espagnol est plus difficile", "Non, elle ne lit qu'en français", "Oui, mais elle préfère l'anglais"],
+          "correctAnswer": "Non, l'espagnol est plus difficile"
+        },
+        {
+          "question": "Quel niveau a la personne B en espagnol?",
+          "options": ["Elle le parle couramment", "Elle commence à peine", "Elle le lit très bien", "Elle l'enseigne"],
+          "correctAnswer": "Elle commence à peine"
+        },
+        {
+          "question": "Pourquoi la personne B parle-t-elle plusieurs langues?",
+          "options": ["Parce qu'elle est touriste", "Parce que ses parents sont immigrés", "Parce qu'elle travaille à l'étranger", "Parce qu'elle est professeur"],
+          "correctAnswer": "Parce que ses parents sont immigrés"
+        }
+      ],
+      "summary": "A traveler from Canada shares their multilingual background, explaining how their French-origin parents influenced their fluency in French and English, and their ongoing study of Spanish."
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel adjectif signifie 'French' en anglais?",
+        "options": ["anglais", "français", "américain"],
+        "correctAnswer": "français",
+        "explanation": "Le mot 'français' signifie 'French'.",
+        "targetWord": "français"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Le substantif 'pays' est-il masculin ou féminin?",
+        "options": ["féminin", "masculin", "neutre"],
+        "correctAnswer": "masculin",
+        "explanation": "Le nom 'pays' (country) est masculin. On dit 'le pays'.",
+        "targetWord": "pays"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle parle trois _______ différentes.",
+        "correctAnswer": "langues",
+        "explanation": "Le pluriel de 'langue' est 'langues'. C'est un nom féminin.",
+        "targetWord": "langue"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Un homme de l'Angleterre est _______ .",
+        "options": ["américain", "anglais", "français"],
+        "correctAnswer": "anglais",
+        "explanation": "Quelqu'un de l'Angleterre est 'anglais' (English).",
+        "targetWord": "anglais"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ma copine est _______ . Elle vient de New York.",
+        "correctAnswer": "américaine",
+        "explanation": "Une femme venue des États-Unis est 'américaine' (American, feminine form).",
+        "targetWord": "américain"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Comment dit-on 'Chinese' comme adjectif pour une femme?",
+        "options": ["chinois", "chinoise", "chinoises", "chinoise pluriel"],
+        "correctAnswer": "chinoise",
+        "explanation": "La forme féminin de 'chinois' est 'chinoise'.",
+        "targetWord": "chinois"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ces architectes _______ viennent d'un pays _______.",
+        "correctAnswer": "étrangers",
+        "explanation": "L'adjectif 'étranger' au pluriel masculin s'écrit 'étrangers'.",
+        "targetWord": "étranger"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le pluriel féminin de l'adjectif 'américain'?",
+        "options": ["américains", "américaines", "américaine", "américana"],
+        "correctAnswer": "américaines",
+        "explanation": "Le pluriel féminin de 'américain' est 'américaines'.",
+        "targetWord": "américain"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Les _______ de l'UE parlent souvent plusieurs langues.",
+        "correctAnswer": "citoyens",
+        "explanation": "In context of nationalities and languages, residents of different countries can speak multiple languages. This tests vocabulary comprehension in the nationalism context.",
+        "targetWord": "langue"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel substantif féminin signifie 'language' ou 'tongue'?",
+        "options": ["le pays", "la langue", "l'anglais", "l'étranger"],
+        "correctAnswer": "la langue",
+        "explanation": "'Langue' est un substantif féminin qui signifie 'language' ou 'tongue'.",
+        "targetWord": "langue"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You meet a new acquaintance at a café. Tell them where you are from and which languages you speak.",
+      "keyPhrases": [
+        "Je suis de...",
+        "Je viens de...",
+        "Je parle...",
+        "Ma langue maternelle est..."
+      ],
+      "modelAnswer": "Bonjour! Je suis américain, je viens des États-Unis. Je parle anglais et un peu français. C'est ma première fois en France!",
+      "modelAnswerExplanation": "This answer clearly states the speaker's nationality (américain), origin (États-Unis), languages spoken (anglais, français), and adds context about the experience.",
+      "tip": "Remember to use je suis for nationality and je viens de for origin. Use et to connect languages and be sure to use the correct gender form for your nationality if feminine."
+    },
+    "advanced": {
+      "scenario": "Discuss with a colleague your linguistic background — where you are from, what languages you speak and write, and why these languages are important to your work or studies. Use verbs like dire, lire, and écrire.",
+      "keyPhrases": [
+        "Je suis...et je viens de...",
+        "Je parle couramment..., et je lis...",
+        "J'écris en...",
+        "Cela veut dire que je peux...",
+        "C'est important pour..."
+      ],
+      "modelAnswer": "Je suis canadienne et je viens de Montréal. Je parle français et anglais couramment. Je lis et j'écris dans les deux langues quotidiennement pour mon travail. C'est-à-dire que je suis bilingue complètement. Je suis aussi étrangère en France, et j'apprends petit à petit comment fonctionnent les différentes cultures.",
+      "modelAnswerExplanation": "This response demonstrates nationality with correct gender agreement (canadienne), clear language proficiency (couramment), usage of both parler and read/write verbs, and includes the idiomatic expression 'c'est-à-dire' to elaborate on multilingual capability.",
+      "tip": "Use full conjugations of dire, lire, and écrire to show nuance in your language abilities. Incorporate 'c'est-à-dire' or 'vouloir dire' to clarify your points. Don't be afraid to describe your cultural background as 'étranger' when discussing cross-cultural experiences."
+    }
+  }
+}

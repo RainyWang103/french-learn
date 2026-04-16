@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx}\""
+    "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
+    "validate-curriculum": "npx tsx scripts/validate-curriculum.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
