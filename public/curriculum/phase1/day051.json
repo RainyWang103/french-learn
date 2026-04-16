@@ -1,0 +1,598 @@
+{
+  "day": 51,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Music & the Arts",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le concert",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kon-sair",
+        "meaning": "the concert",
+        "notes": "Used for live music performances of any genre.",
+        "examples": [
+          ["Je vais au concert ce soir.", "I am going to the concert tonight."],
+          ["Le concert commence à vingt heures.", "The concert starts at eight o'clock."]
+        ],
+        "special": "Often preceded by aller au concert (to go to a concert).",
+        "forms": {
+          "masculine": "concert",
+          "feminine": "",
+          "masculinePlural": "concerts",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le chanteur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shan-teur",
+        "meaning": "the singer (male) / the singer (female: la chanteuse)",
+        "notes": "Feminine form is chanteuse. Refers to a professional or performing singer.",
+        "examples": [
+          ["Le chanteur est très populaire.", "The singer is very popular."],
+          ["Ma chanteuse préférée chante ce soir.", "My favourite singer performs tonight."]
+        ],
+        "special": "La chanteuse is the feminine form — both are common.",
+        "forms": {
+          "masculine": "chanteur",
+          "feminine": "chanteuse",
+          "masculinePlural": "chanteurs",
+          "femininePlural": "chanteuses"
+        }
+      },
+      {
+        "word": "la guitare",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah gee-tar",
+        "meaning": "the guitar",
+        "notes": "Jouer de la guitare means 'to play the guitar'. Always use de la, not du.",
+        "examples": [
+          ["Il joue de la guitare tous les jours.", "He plays the guitar every day."],
+          ["Elle a une belle guitare rouge.", "She has a beautiful red guitar."]
+        ],
+        "special": "Instrument nouns use jouer de + article, not jouer le/la.",
+        "forms": {
+          "masculine": "",
+          "feminine": "guitare",
+          "masculinePlural": "",
+          "femininePlural": "guitares"
+        }
+      },
+      {
+        "word": "le piano",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pyah-noh",
+        "meaning": "the piano",
+        "notes": "Jouer du piano — use du for masculine instruments.",
+        "examples": [
+          ["Elle apprend à jouer du piano.", "She is learning to play the piano."],
+          ["Le piano est dans le salon.", "The piano is in the living room."]
+        ],
+        "special": "Le piano à queue = grand piano; le piano droit = upright piano.",
+        "forms": {
+          "masculine": "piano",
+          "feminine": "",
+          "masculinePlural": "pianos",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la danse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah dahns",
+        "meaning": "the dance / dancing",
+        "notes": "Can refer to a single dance or to the art of dancing. Related verb: danser.",
+        "examples": [
+          ["J'aime beaucoup la danse.", "I really like dancing."],
+          ["Elle fait de la danse classique.", "She does classical dance."]
+        ],
+        "special": "Faire de la danse = to do dancing (as an activity).",
+        "forms": {
+          "masculine": "",
+          "feminine": "danse",
+          "masculinePlural": "",
+          "femininePlural": "danses"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le concert",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kon-sair",
+        "meaning": "the concert",
+        "notes": "Used for live music performances of any genre.",
+        "examples": [
+          ["Je vais au concert ce soir.", "I am going to the concert tonight."],
+          ["Le concert commence à vingt heures.", "The concert starts at eight o'clock."]
+        ],
+        "special": "Often preceded by aller au concert (to go to a concert).",
+        "forms": {
+          "masculine": "concert",
+          "feminine": "",
+          "masculinePlural": "concerts",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le chanteur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh shan-teur",
+        "meaning": "the singer (male) / the singer (female: la chanteuse)",
+        "notes": "Feminine form is chanteuse. Refers to a professional or performing singer.",
+        "examples": [
+          ["Le chanteur est très populaire.", "The singer is very popular."],
+          ["Ma chanteuse préférée chante ce soir.", "My favourite singer performs tonight."]
+        ],
+        "special": "La chanteuse is the feminine form — both are common.",
+        "forms": {
+          "masculine": "chanteur",
+          "feminine": "chanteuse",
+          "masculinePlural": "chanteurs",
+          "femininePlural": "chanteuses"
+        }
+      },
+      {
+        "word": "la guitare",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah gee-tar",
+        "meaning": "the guitar",
+        "notes": "Jouer de la guitare means 'to play the guitar'. Always use de la, not du.",
+        "examples": [
+          ["Il joue de la guitare tous les jours.", "He plays the guitar every day."],
+          ["Elle a une belle guitare rouge.", "She has a beautiful red guitar."]
+        ],
+        "special": "Instrument nouns use jouer de + article, not jouer le/la.",
+        "forms": {
+          "masculine": "",
+          "feminine": "guitare",
+          "masculinePlural": "",
+          "femininePlural": "guitares"
+        }
+      },
+      {
+        "word": "le piano",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pyah-noh",
+        "meaning": "the piano",
+        "notes": "Jouer du piano — use du for masculine instruments.",
+        "examples": [
+          ["Elle apprend à jouer du piano.", "She is learning to play the piano."],
+          ["Le piano est dans le salon.", "The piano is in the living room."]
+        ],
+        "special": "Le piano à queue = grand piano; le piano droit = upright piano.",
+        "forms": {
+          "masculine": "piano",
+          "feminine": "",
+          "masculinePlural": "pianos",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la danse",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah dahns",
+        "meaning": "the dance / dancing",
+        "notes": "Can refer to a single dance or to the art of dancing. Related verb: danser.",
+        "examples": [
+          ["J'aime beaucoup la danse.", "I really like dancing."],
+          ["Elle fait de la danse classique.", "She does classical dance."]
+        ],
+        "special": "Faire de la danse = to do dancing (as an activity).",
+        "forms": {
+          "masculine": "",
+          "feminine": "danse",
+          "masculinePlural": "",
+          "femininePlural": "danses"
+        }
+      },
+      {
+        "word": "le spectacle",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh spek-takl",
+        "meaning": "the show / the performance",
+        "notes": "Broader than concert — covers theatre, dance, circus, and any live performance.",
+        "examples": [
+          ["Le spectacle dure deux heures.", "The show lasts two hours."],
+          ["C'est un spectacle magnifique.", "It is a magnificent show."]
+        ],
+        "special": "Un spectacle vivant = a live performance (official cultural term in France).",
+        "forms": {
+          "masculine": "spectacle",
+          "feminine": "",
+          "masculinePlural": "spectacles",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la scène",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah sen",
+        "meaning": "the stage / the scene",
+        "notes": "Sur scène = on stage. Also used for a scene in a film or play.",
+        "examples": [
+          ["Le chanteur monte sur scène.", "The singer goes up on stage."],
+          ["La scène est très grande dans ce théâtre.", "The stage is very large in this theatre."]
+        ],
+        "special": "Monter sur scène (to go on stage) is a fixed expression — no article after sur.",
+        "forms": {
+          "masculine": "",
+          "feminine": "scène",
+          "masculinePlural": "",
+          "femininePlural": "scènes"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu fais quelque chose ce week-end ?"],
+        ["B", "Oui, je vais à un concert samedi soir."],
+        ["A", "Ah bon ? C'est quel genre de musique ?"],
+        ["B", "C'est de la musique pop. Le chanteur est très célèbre."],
+        ["A", "Pourquoi tu aimes la musique pop ?"],
+        ["B", "Parce que les chansons sont joyeuses et faciles à chanter."],
+        ["A", "Et tu vas avec qui ?"],
+        ["B", "Je vais avec ma sœur. Elle adore la guitare et elle joue du piano aussi."],
+        ["A", "C'est super ! Le concert commence à quelle heure ?"],
+        ["B", "À vingt heures. On est très contents !"]
+      ],
+      "questions": [
+        {
+          "question": "Où est-ce que B va samedi soir ?",
+          "options": ["À un concert", "Au cinéma", "Au restaurant"],
+          "correctAnswer": "À un concert",
+          "explanation": "B dit « je vais à un concert samedi soir »."
+        },
+        {
+          "question": "Pourquoi est-ce que B aime la musique pop ?",
+          "options": [
+            "Parce que les chansons sont joyeuses et faciles à chanter",
+            "Parce que le chanteur joue de la guitare",
+            "Parce que le concert est gratuit"
+          ],
+          "correctAnswer": "Parce que les chansons sont joyeuses et faciles à chanter",
+          "explanation": "B répond avec parce que pour donner la raison."
+        },
+        {
+          "question": "Avec qui est-ce que B va au concert ?",
+          "options": ["Avec sa sœur", "Avec un ami", "Avec ses parents"],
+          "correctAnswer": "Avec sa sœur",
+          "explanation": "B dit « je vais avec ma sœur »."
+        }
+      ],
+      "summary": "B va à un concert de musique pop samedi soir avec sa sœur. Il aime la musique pop parce que les chansons sont joyeuses. Le concert commence à vingt heures."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu as des projets pour le week-end ?"],
+        ["B", "Oui, je vais à un spectacle samedi — un concert de musique classique."],
+        ["A", "Ah, pourquoi tu préfères la musique classique ?"],
+        ["B", "Parce que c'est très beau et ça me détend. Et toi, tu aimes la musique classique ?"],
+        ["A", "Pas vraiment. Je préfère la danse et les concerts de pop."],
+        ["B", "Pourquoi est-ce que tu aimes la danse ?"],
+        ["A", "Parce que c'est dynamique et je peux participer. La scène est toujours magnifique."],
+        ["B", "Le chanteur de ce soir joue aussi du piano et de la guitare sur scène."],
+        ["A", "Vraiment ? C'est rare ! Le concert commence à quelle heure ?"],
+        ["B", "À dix-neuf heures trente. Le spectacle dure environ deux heures."]
+      ],
+      "questions": [
+        {
+          "question": "Quel type de spectacle est-ce que B va voir samedi ?",
+          "options": [
+            "Un concert de musique classique",
+            "Un spectacle de danse",
+            "Un concert de musique pop",
+            "Une pièce de théâtre"
+          ],
+          "correctAnswer": "Un concert de musique classique",
+          "explanation": "B dit « un concert de musique classique »."
+        },
+        {
+          "question": "Pourquoi est-ce que B aime la musique classique ?",
+          "options": [
+            "Parce que c'est beau et ça détend",
+            "Parce que le chanteur joue de la guitare",
+            "Parce que les chansons sont faciles à chanter",
+            "Parce que le concert est gratuit"
+          ],
+          "correctAnswer": "Parce que c'est beau et ça détend",
+          "explanation": "B répond « parce que c'est très beau et ça me détend »."
+        },
+        {
+          "question": "Pourquoi est-ce que A aime la danse ?",
+          "options": [
+            "Parce que c'est dynamique et on peut participer",
+            "Parce que la musique est douce",
+            "Parce que les spectacles sont courts",
+            "Parce que c'est gratuit"
+          ],
+          "correctAnswer": "Parce que c'est dynamique et on peut participer",
+          "explanation": "A dit « parce que c'est dynamique et je peux participer »."
+        },
+        {
+          "question": "À quelle heure commence le concert de B ?",
+          "options": [
+            "À dix-neuf heures trente",
+            "À vingt heures",
+            "À dix-huit heures",
+            "À vingt et une heures"
+          ],
+          "correctAnswer": "À dix-neuf heures trente",
+          "explanation": "B dit « à dix-neuf heures trente »."
+        }
+      ],
+      "summary": "B va à un concert de musique classique samedi soir. Il aime la musique classique parce que c'est beau et relaxant. A préfère la danse parce que c'est dynamique. Le chanteur joue aussi du piano et de la guitare sur scène."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Pourquoi / Parce que (Asking & Giving Reasons)",
+      "explanation": "Use pourquoi...? to ask 'why?' in French. Use parce que... to answer with 'because...'. \n\nQuestion structure:\n  Pourquoi + subject + verb ?\n  Example: Pourquoi tu aimes la musique ?\n\nYou can also use est-ce que to make a question:\n  Pourquoi est-ce qu'il va au concert ?\n\nAnswer structure:\n  Parce que + subject + verb.\n  Example: Parce que c'est beau.\n\nImportant spelling rule: parce que becomes parce qu' before a vowel or silent h:\n  Parce qu'il chante bien. (NOT parce que il)\n  Parce qu'elle aime la danse.\n\nExamples:\n  — Pourquoi tu joues du piano ? → Parce que j'aime la musique classique.\n  — Pourquoi est-ce qu'il va au concert ? → Parce que le chanteur est excellent.",
+      "examples": [
+        ["Pourquoi tu aimes la guitare ?", "Why do you like the guitar?"],
+        ["Parce que c'est un bel instrument.", "Because it is a beautiful instrument."],
+        ["Pourquoi est-ce qu'elle danse ?", "Why does she dance?"],
+        ["Parce qu'elle adore la danse.", "Because she loves dancing."],
+        ["Pourquoi vous allez au concert ?", "Why are you going to the concert?"],
+        ["Parce que le chanteur est fantastique.", "Because the singer is fantastic."]
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Comment dit-on 'why' en français ?",
+          "options": ["Pourquoi", "Parce que", "Comment"],
+          "correctAnswer": "Pourquoi",
+          "explanation": "Pourquoi = why. Parce que = because.",
+          "targetWord": "pourquoi"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "— Pourquoi tu aimes le concert ? — ___ c'est amusant.",
+          "correctAnswer": "Parce que",
+          "explanation": "Parce que introduces the reason (because). No elision needed before c'.",
+          "targetWord": "parce que"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Choisissez la bonne forme : Parce ___ il joue bien.",
+          "options": ["que", "qu'", "qui"],
+          "correctAnswer": "qu'",
+          "explanation": "Parce que becomes parce qu' before a vowel (il starts with a vowel).",
+          "targetWord": "parce qu'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complete la question : ___ tu joues du piano ?",
+          "correctAnswer": "Pourquoi",
+          "explanation": "Pourquoi starts a why-question. The subject and verb follow directly.",
+          "targetWord": "pourquoi"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "Parce que elle aime la danse.",
+            "Parce qu'elle aime la danse.",
+            "Pourquoi elle aime la danse."
+          ],
+          "correctAnswer": "Parce qu'elle aime la danse.",
+          "explanation": "Before elle (vowel), parce que contracts to parce qu'.",
+          "targetWord": "parce qu'"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Pourquoi / Parce que — Asking & Giving Reasons, Nuance & Extensions",
+      "explanation": "Pourquoi...? asks 'why?'. Parce que... gives the reason 'because...'. At a more advanced level, French has several ways to express cause and reason.\n\n1. Parce que + subject + verb (most common spoken reason)\n   Pourquoi tu vas au concert ? → Parce que j'aime la musique.\n   Elision: parce qu' before a vowel or silent h.\n\n2. Car + subject + verb (more formal, written French; similar to because)\n   Je vais au concert, car le chanteur est excellent.\n   Car cannot start a sentence on its own — it follows a comma.\n\n3. Puisque + subject + verb (since / given that — the reason is already known)\n   Puisque tu aimes la guitare, viens au concert !\n   (Since you like the guitar, come to the concert!)\n   Elision: puisqu' before a vowel.\n\n4. À cause de + noun/pronoun (because of — often negative or neutral cause)\n   Je reste à la maison à cause de la pluie.\n   (I stay home because of the rain.)\n\n5. Grâce à + noun/pronoun (thanks to — positive cause)\n   Grâce à mon professeur, je parle bien français.\n   (Thanks to my teacher, I speak French well.)\n\nContrast: à cause de vs grâce à\n  à cause de → used for a negative or neutral cause\n  grâce à → used when the cause brings a good result",
+      "examples": [
+        ["Pourquoi tu aimes la danse ?", "Why do you like dancing?"],
+        ["Parce que c'est une belle expression artistique.", "Because it is a beautiful artistic expression."],
+        ["Je vais voir le spectacle, car la scène est magnifique.", "I am going to see the show, because the stage is magnificent."],
+        ["Puisqu'il joue du piano, il comprend la musique classique.", "Since he plays the piano, he understands classical music."],
+        ["Elle ne chante pas à cause du bruit.", "She does not sing because of the noise."],
+        ["Grâce à la guitare, il est devenu chanteur.", "Thanks to the guitar, he became a singer."]
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quelle conjonction est plus formelle que parce que ?",
+          "options": ["Car", "Puisque", "Grâce à", "À cause de"],
+          "correctAnswer": "Car",
+          "explanation": "Car is a more formal written equivalent of parce que. It always follows a comma.",
+          "targetWord": "car"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je vais au concert, ___ le chanteur est incroyable.",
+          "correctAnswer": "car",
+          "explanation": "Car introduces a reason in formal/written French, after a comma.",
+          "targetWord": "car"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Choisissez la bonne phrase : grâce à ou à cause de ?  Il joue bien du piano ___ ses années de pratique.",
+          "options": ["grâce à", "à cause de", "parce que", "puisque"],
+          "correctAnswer": "grâce à",
+          "explanation": "Grâce à = thanks to, used for a positive cause. Years of practice is a positive reason.",
+          "targetWord": "grâce à"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ tu aimes la scène, tu devrais faire de la danse !",
+          "correctAnswer": "Puisque",
+          "explanation": "Puisque = since / given that — introduces a reason the speaker treats as already known.",
+          "targetWord": "puisque"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Elle n'est pas allée au spectacle ___ la pluie.",
+          "options": ["à cause de", "grâce à", "puisque", "car"],
+          "correctAnswer": "à cause de",
+          "explanation": "À cause de + noun = because of. Used for a negative or neutral cause.",
+          "targetWord": "à cause de"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Pourquoi est-ce qu'il apprend le piano ? Parce ___ il aime la musique classique.",
+          "correctAnswer": "qu'",
+          "explanation": "Parce que becomes parce qu' before il (vowel).",
+          "targetWord": "parce qu'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est incorrecte ?",
+          "options": [
+            "Car j'aime la musique, je vais au concert.",
+            "Je vais au concert, car j'aime la musique.",
+            "Puisque j'aime la musique, je vais au concert."
+          ],
+          "correctAnswer": "Car j'aime la musique, je vais au concert.",
+          "explanation": "Car cannot start a sentence. It must follow a comma after the main clause.",
+          "targetWord": "car"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ à son talent, elle est devenue une grande chanteuse.",
+          "correctAnswer": "Grâce",
+          "explanation": "Grâce à + noun = thanks to. Used when the cause is positive.",
+          "targetWord": "grâce à"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Comment dit-on 'the concert' en français ?",
+        "options": ["Le concert", "La guitare", "La danse"],
+        "correctAnswer": "Le concert",
+        "explanation": "Le concert is masculine. Le chanteur is the singer and la guitare is the guitar.",
+        "targetWord": "le concert"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la forme féminine de 'le chanteur' ?",
+        "options": ["La chanteuse", "La chanteure", "La chanteresse"],
+        "correctAnswer": "La chanteuse",
+        "explanation": "Le chanteur (male singer) → la chanteuse (female singer).",
+        "targetWord": "le chanteur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "— Pourquoi tu aimes la danse ? — ___ c'est magnifique.",
+        "correctAnswer": "Parce que",
+        "explanation": "Parce que introduces a reason (because). No elision is needed before c'.",
+        "targetWord": "parce que"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment dit-on 'to play the guitar' en français ?",
+        "options": ["Jouer de la guitare", "Jouer la guitare", "Jouer à la guitare"],
+        "correctAnswer": "Jouer de la guitare",
+        "explanation": "Instruments use jouer de + article: jouer de la guitare, jouer du piano.",
+        "targetWord": "la guitare"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Parce ___ elle joue du piano, elle est très musicale.",
+        "correctAnswer": "qu'",
+        "explanation": "Parce que becomes parce qu' before a vowel (elle starts with a vowel).",
+        "targetWord": "parce qu'"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot signifie 'the stage' en français ?",
+        "options": ["La scène", "Le spectacle", "La danse", "Le concert"],
+        "correctAnswer": "La scène",
+        "explanation": "La scène = the stage. Le spectacle = the show. Both are related to performances.",
+        "targetWord": "la scène"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase utilise correctement 'grâce à' ?",
+        "options": [
+          "Grâce à son travail, il est devenu chanteur.",
+          "Grâce à la pluie, le concert est annulé.",
+          "Grâce à son erreur, il a tout perdu.",
+          "Grâce à la maladie, elle ne danse plus."
+        ],
+        "correctAnswer": "Grâce à son travail, il est devenu chanteur.",
+        "explanation": "Grâce à is used for a positive cause. Hard work leading to success is a positive result.",
+        "targetWord": "grâce à"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je n'aime pas ce spectacle ___ cause du bruit.",
+        "correctAnswer": "à",
+        "explanation": "À cause de = because of. Used for a negative or neutral cause. The full phrase is à cause de.",
+        "targetWord": "à cause de"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la différence entre 'car' et 'parce que' ?",
+        "options": [
+          "Car est plus formel et s'utilise après une virgule.",
+          "Car peut commencer une phrase.",
+          "Car est utilisé à l'oral seulement.",
+          "Car signifie 'since' (puisque)."
+        ],
+        "correctAnswer": "Car est plus formel et s'utilise après une virgule.",
+        "explanation": "Car is more formal than parce que and always follows a comma in the middle of a sentence.",
+        "targetWord": "car"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "___ tu aimes le piano, joue pour nous !",
+        "correctAnswer": "Puisque",
+        "explanation": "Puisque = since / given that. It presents a reason already known to both speakers.",
+        "targetWord": "puisque"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Tell a friend why you like or dislike a type of music. Use pourquoi and parce que in your answer.",
+      "keyPhrases": [
+        "J'aime... parce que...",
+        "Je n'aime pas... parce que...",
+        "Pourquoi tu aimes... ?",
+        "C'est beau / amusant / calme / dynamique.",
+        "Ça me détend. (It relaxes me.)"
+      ],
+      "modelAnswer": "J'aime beaucoup la musique pop parce que les chansons sont joyeuses. Je n'aime pas la musique classique parce que c'est trop calme pour moi. Pourquoi tu aimes la danse ?",
+      "modelAnswerExplanation": "The model answer uses j'aime + parce que to give a reason, je n'aime pas + parce que to give a negative reason, and ends with a pourquoi question to keep the conversation going.",
+      "tip": "You only need one pourquoi and one parce que. Keep it simple — use present tense and words you already know."
+    },
+    "advanced": {
+      "scenario": "Tell a friend why you prefer one type of music or art over another. Use parce que, car, grâce à, or puisque, and compare two genres or art forms.",
+      "keyPhrases": [
+        "Je préfère... parce que / car...",
+        "Grâce à la musique, je...",
+        "Puisque tu aimes..., tu devrais essayer...",
+        "À cause de..., je ne peux pas...",
+        "La scène / le spectacle / le chanteur me plaît parce que..."
+      ],
+      "modelAnswer": "Je préfère les concerts de musique classique aux spectacles de danse, car la scène est magnifique et la musique me détend. Grâce à mon professeur de piano, j'ai appris à apprécier Bach et Mozart. Puisque tu aimes la guitare, tu devrais essayer un concert de jazz — c'est dynamique et très beau à la fois !",
+      "modelAnswerExplanation": "The model answer uses car (formal written reason), grâce à (thanks to — positive cause), and puisque (since — known reason) to give a rich, varied response. It also compares two art forms and makes a recommendation.",
+      "tip": "Try to use at least two different causal connectors (parce que / car / grâce à / puisque). Avoid repeating the same one twice — variety shows confident language use."
+    }
+  }
+}
