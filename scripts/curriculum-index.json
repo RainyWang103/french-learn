@@ -1,5 +1,5 @@
 {
-  "lastDay": 49,
+  "lastDay": 55,
   "grammarTitles": [
     {
       "day": 1,
@@ -180,6 +180,31 @@
       "day": 49,
       "standard": "Ne...que (Restriction — 'only')",
       "advanced": "Ne...que — Restriction, Position & Contrast with Negation"
+    },
+    {
+      "day": 50,
+      "standard": "Aimer / Préférer / Détester + Infinitive (Expressing Preferences)",
+      "advanced": "Aimer / Préférer / Détester + Infinitive — Full Range & Nuance"
+    },
+    {
+      "day": 51,
+      "standard": "Pourquoi / Parce que (Asking & Giving Reasons)",
+      "advanced": "Pourquoi / Parce que — Asking & Giving Reasons, Nuance & Extensions"
+    },
+    {
+      "day": 53,
+      "standard": "Il faut + Infinitive (Expressing Necessity & Obligation)",
+      "advanced": "Il faut + Infinitive — Necessity, Prohibition & Alternatives"
+    },
+    {
+      "day": 54,
+      "standard": "Tout / Toute / Tous / Toutes (All / Every)",
+      "advanced": "Tout / Toute / Tous / Toutes — Agreement, Adverb Use & Fixed Expressions"
+    },
+    {
+      "day": 55,
+      "standard": "Relative Pronouns Qui & Que (Introduction)",
+      "advanced": "Relative Pronouns Qui & Que — Subject, Object & Common Traps"
     }
   ],
   "vocabWords": [
@@ -625,6 +650,66 @@
         "la soupe",
         "le fruit",
         "le légume"
+      ]
+    },
+    {
+      "day": 50,
+      "words": [
+        "aimer",
+        "préférer",
+        "détester",
+        "l'avis",
+        "d'accord",
+        "adorer",
+        "selon"
+      ]
+    },
+    {
+      "day": 51,
+      "words": [
+        "le concert",
+        "le chanteur",
+        "la guitare",
+        "le piano",
+        "la danse",
+        "le spectacle",
+        "la scène"
+      ]
+    },
+    {
+      "day": 53,
+      "words": [
+        "se promener",
+        "le pique-nique",
+        "la balade",
+        "le loisir",
+        "se reposer",
+        "profiter",
+        "en plein air"
+      ]
+    },
+    {
+      "day": 54,
+      "words": [
+        "le livre",
+        "le roman",
+        "la page",
+        "l'histoire",
+        "l'auteur",
+        "le chapitre",
+        "le personnage"
+      ]
+    },
+    {
+      "day": 55,
+      "words": [
+        "l'émission",
+        "la chaîne",
+        "le journal",
+        "les nouvelles",
+        "le programme",
+        "le documentaire",
+        "le présentateur"
       ]
     }
   ]

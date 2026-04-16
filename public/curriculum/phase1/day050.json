@@ -1,0 +1,574 @@
+{
+  "day": 50,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Expressing Opinions & Preferences",
+  "vocab": {
+    "standard": [
+      {
+        "word": "aimer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ay-may",
+        "meaning": "to like / to love",
+        "notes": "followed by noun or infinitive",
+        "examples": [
+          ["J'aime les films.", "I like films."],
+          ["Elle aime danser.", "She likes to dance."]
+        ],
+        "special": "very common, central to expressing preferences",
+        "forms": {
+          "je": "j'aime",
+          "tu": "tu aimes",
+          "il": "il/elle/on aime",
+          "nous": "nous aimons",
+          "vous": "vous aimez",
+          "ils": "ils/elles aiment"
+        }
+      },
+      {
+        "word": "préférer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "pray-fay-ray",
+        "meaning": "to prefer",
+        "notes": "stem-changing é→è in je/tu/il/ils",
+        "examples": [
+          ["Je préfère le thé.", "I prefer tea."],
+          ["Il préfère rester à la maison.", "He prefers to stay at home."]
+        ],
+        "special": "stem-changing verb, watch the accent shift",
+        "forms": {
+          "je": "je préfère",
+          "tu": "tu préfères",
+          "il": "il/elle/on préfère",
+          "nous": "nous préférons",
+          "vous": "vous préférez",
+          "ils": "ils/elles préfèrent"
+        }
+      },
+      {
+        "word": "détester",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "day-tes-tay",
+        "meaning": "to hate / to detest",
+        "notes": "stronger than ne pas aimer",
+        "examples": [
+          ["Je déteste les épinards.", "I hate spinach."],
+          ["Elle déteste attendre.", "She hates waiting."]
+        ],
+        "special": "expresses strong dislike",
+        "forms": {
+          "je": "je déteste",
+          "tu": "tu détestes",
+          "il": "il/elle/on déteste",
+          "nous": "nous détestons",
+          "vous": "vous détestez",
+          "ils": "ils/elles détestent"
+        }
+      },
+      {
+        "word": "l'avis",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lah-vee",
+        "meaning": "the opinion",
+        "notes": "invariable plural, à mon avis = in my opinion",
+        "examples": [
+          ["À mon avis, c'est bon.", "In my opinion, it's good."],
+          ["Quel est votre avis?", "What is your opinion?"]
+        ],
+        "special": "always singular form in use",
+        "forms": {
+          "masculine": "avis",
+          "feminine": "",
+          "masculinePlural": "avis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "d'accord",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "dah-kor",
+        "meaning": "agreed / OK",
+        "notes": "être d'accord = to agree",
+        "examples": [
+          ["Je suis d'accord.", "I agree."],
+          ["Tu es d'accord?", "Do you agree?"]
+        ],
+        "special": "commonly used agreement phrase",
+        "forms": {
+          "je": "d'accord",
+          "tu": "d'accord",
+          "il": "d'accord",
+          "nous": "d'accord"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "aimer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ay-may",
+        "meaning": "to like / to love",
+        "notes": "followed by noun or infinitive",
+        "examples": [
+          ["J'aime les films.", "I like films."],
+          ["Elle aime danser.", "She likes to dance."]
+        ],
+        "special": "very common, central to expressing preferences",
+        "forms": {
+          "je": "j'aime",
+          "tu": "tu aimes",
+          "il": "il/elle/on aime",
+          "nous": "nous aimons",
+          "vous": "vous aimez",
+          "ils": "ils/elles aiment"
+        }
+      },
+      {
+        "word": "préférer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "pray-fay-ray",
+        "meaning": "to prefer",
+        "notes": "stem-changing é→è in je/tu/il/ils",
+        "examples": [
+          ["Je préfère le thé.", "I prefer tea."],
+          ["Il préfère rester à la maison.", "He prefers to stay at home."]
+        ],
+        "special": "stem-changing verb, watch the accent shift",
+        "forms": {
+          "je": "je préfère",
+          "tu": "tu préfères",
+          "il": "il/elle/on préfère",
+          "nous": "nous préférons",
+          "vous": "vous préférez",
+          "ils": "ils/elles préfèrent"
+        }
+      },
+      {
+        "word": "détester",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "day-tes-tay",
+        "meaning": "to hate / to detest",
+        "notes": "stronger than ne pas aimer",
+        "examples": [
+          ["Je déteste les épinards.", "I hate spinach."],
+          ["Elle déteste attendre.", "She hates waiting."]
+        ],
+        "special": "expresses strong dislike",
+        "forms": {
+          "je": "je déteste",
+          "tu": "tu détestes",
+          "il": "il/elle/on déteste",
+          "nous": "nous détestons",
+          "vous": "vous détestez",
+          "ils": "ils/elles détestent"
+        }
+      },
+      {
+        "word": "l'avis",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lah-vee",
+        "meaning": "the opinion",
+        "notes": "invariable plural, à mon avis = in my opinion",
+        "examples": [
+          ["À mon avis, c'est bon.", "In my opinion, it's good."],
+          ["Quel est votre avis?", "What is your opinion?"]
+        ],
+        "special": "always singular form in use",
+        "forms": {
+          "masculine": "avis",
+          "feminine": "",
+          "masculinePlural": "avis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "d'accord",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "dah-kor",
+        "meaning": "agreed / OK",
+        "notes": "être d'accord = to agree",
+        "examples": [
+          ["Je suis d'accord.", "I agree."],
+          ["Tu es d'accord?", "Do you agree?"]
+        ],
+        "special": "commonly used agreement phrase",
+        "forms": {
+          "je": "d'accord",
+          "tu": "d'accord",
+          "il": "d'accord",
+          "nous": "d'accord"
+        }
+      },
+      {
+        "word": "adorer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ah-doh-ray",
+        "meaning": "to adore / to love",
+        "notes": "stronger than aimer",
+        "examples": [
+          ["J'adore les chocolats.", "I adore chocolates."],
+          ["Elle adore voyager.", "She loves to travel."]
+        ],
+        "special": "expresses passionate liking",
+        "forms": {
+          "je": "j'adore",
+          "tu": "tu adores",
+          "il": "il/elle/on adore",
+          "nous": "nous adorons",
+          "vous": "vous adorez",
+          "ils": "ils/elles adorent"
+        }
+      },
+      {
+        "word": "selon",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "suh-lohn",
+        "meaning": "according to / depending on",
+        "notes": "selon moi = in my opinion (formal)",
+        "examples": [
+          ["Selon moi, c'est difficile.", "According to me, it's difficult."],
+          ["Selon lui, c'est possible.", "In his opinion, it's possible."]
+        ],
+        "special": "more formal than à mon avis",
+        "forms": {
+          "je": "selon",
+          "tu": "selon",
+          "il": "selon",
+          "nous": "selon"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["Alice", "Bonjour Marc! Comment ça va?"],
+        ["Marc", "Ça va bien! Et toi?"],
+        ["Alice", "Très bien! Le weekend, j'aime danser. Tu aimes danser?"],
+        ["Marc", "Non, je préfère jouer au football. J'aime beaucoup le sport."],
+        ["Alice", "Ah oui? Je déteste le sport! Je préfère lire ou regarder des films."],
+        ["Marc", "Quels films tu aimes?"],
+        ["Alice", "J'aime les comédies. Et toi?"],
+        ["Marc", "Moi, je préfère les films d'action. À mon avis, c'est plus intéressant."]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'Alice aime faire le weekend?",
+          "options": ["danser", "jouer au football", "lire des livres"],
+          "correctAnswer": "danser"
+        },
+        {
+          "question": "Marc préfère quel sport?",
+          "options": ["le tennis", "le football", "la natation"],
+          "correctAnswer": "le football"
+        },
+        {
+          "question": "Quel type de films Alice aime-t-elle?",
+          "options": ["les films d'action", "les comédies", "les films d'horreur"],
+          "correctAnswer": "les comédies"
+        }
+      ],
+      "summary": "Alice and Marc discuss their weekend preferences: Alice enjoys dancing and films, while Marc prefers football and action movies."
+    },
+    "advanced": {
+      "dialogue": [
+        ["Sophie", "Salut Théo! Ça te dit, un café?"],
+        ["Théo", "Oui, avec plaisir! J'adore les cafés de ce quartier."],
+        ["Sophie", "Moi aussi! Bon, pour les activités du weekend... je préfère les loisirs créatifs."],
+        ["Théo", "Ah? Comme quoi?"],
+        ["Sophie", "La peinture, la photographie... Et toi, qu'est-ce que tu préfères?"],
+        ["Théo", "Selon moi, la musique est plus intéressante. Je déteste rester à la maison sans rien faire."],
+        ["Sophie", "Je comprends. Mais personnellement, je préfère la calme à la musique bruyante."],
+        ["Théo", "Tu as raison! À mon avis, chacun ses goûts. D'accord?"],
+        ["Sophie", "D'accord! C'est bien de partager nos opinions."]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que Sophie aime comme activités?",
+          "options": ["la musique et la danse", "les loisirs créatifs comme la peinture et la photographie", "le sport et la natation", "les jeux vidéo"],
+          "correctAnswer": "les loisirs créatifs comme la peinture et la photographie"
+        },
+        {
+          "question": "Théo déteste quoi?",
+          "options": ["rester à la maison sans rien faire", "la musique", "le café", "les loisirs créatifs"],
+          "correctAnswer": "rester à la maison sans rien faire"
+        },
+        {
+          "question": "Quelle est l'opinion de Sophie sur la musique?",
+          "options": ["Elle adore la musique bruyante", "Elle préfère la calme à la musique bruyante", "Elle déteste la musique", "Elle aime beaucoup la musique"],
+          "correctAnswer": "Elle préfère la calme à la musique bruyante"
+        },
+        {
+          "question": "Selon Théo, quel est le message final?",
+          "options": ["Tout le monde doit avoir les mêmes goûts", "Les goûts de Sophie sont mauvais", "Chacun ses goûts — c'est respecter les différences", "La musique est meilleure que la peinture"],
+          "correctAnswer": "Chacun ses goûts — c'est respecter les différences"
+        }
+      ],
+      "summary": "Sophie and Théo discover different preferences: Sophie enjoys creative activities while Théo loves music. They conclude that respecting different tastes is important."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Aimer / Préférer / Détester + Infinitive (Expressing Preferences)",
+      "explanation": "To express what you like, prefer, or hate, use the structure: subject + verb (aimer/préférer/détester) + infinitive. To negate, place ne...pas around the conjugated verb. Note: préférer is a stem-changing verb where the é becomes è in je, tu, il/elle/on, and ils/elles forms. Example: je préfère but nous préférons.",
+      "examples": [
+        {
+          "french": "J'aime danser.",
+          "english": "I like to dance."
+        },
+        {
+          "french": "Elle préfère lire.",
+          "english": "She prefers to read."
+        },
+        {
+          "french": "Ils détestent attendre.",
+          "english": "They hate to wait."
+        },
+        {
+          "french": "Nous n'aimons pas nager.",
+          "english": "We don't like to swim."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: Je _____ les films français.",
+          "options": ["aimes", "aime", "aimons"],
+          "correctAnswer": "aime",
+          "explanation": "With 'je', use the first-person singular form 'aime'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complétez: Tu _____ le café ou le thé?",
+          "correctAnswer": "préfères",
+          "explanation": "With 'tu', stem-changing 'préférer' becomes 'tu préfères' (note the accent)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": ["Elle détestes rester seule.", "Elle déteste rester seule.", "Elle déteste restes seule."],
+          "correctAnswer": "Elle déteste rester seule.",
+          "explanation": "Use third-person singular 'déteste' with the infinitive 'rester'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complétez: Nous n'_____ pas les épinards.",
+          "correctAnswer": "aimons",
+          "explanation": "With 'nous', use 'aimons'. The negation ne...pas wraps around it: n'aimons pas."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle réponse complète bien: Vous _____ voyager?",
+          "options": ["préférez", "préfère", "préférons"],
+          "correctAnswer": "préférez",
+          "explanation": "With 'vous', stem-changing 'préférer' becomes 'préférez' (second-person plural)."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Aimer / Préférer / Détester + Infinitive — Full Range & Nuance",
+      "explanation": "Master the preference scale: adorer (to adore) > aimer beaucoup (to like a lot) > aimer (to like) > aimer bien (to like well—softens the tone with friendliness) > ne pas aimer (to not like) > détester (to hate). Use préférer A plutôt que de B (to prefer A rather than B) or préférer A à B (to prefer A to B) for direct comparisons. Note: aimer bien is polite and often used instead of blunt dislike. Stem-changing verbs (préférer, adorer) change the stem in je, tu, il/elle/on, ils/elles: é→è, o→o (adorer stays steady in this context).",
+      "examples": [
+        {
+          "french": "J'adore voyager!",
+          "english": "I adore traveling!"
+        },
+        {
+          "french": "Elle aime beaucoup les musées.",
+          "english": "She likes museums a lot."
+        },
+        {
+          "french": "Je préfère le café plutôt que de thé.",
+          "english": "I prefer coffee rather than tea."
+        },
+        {
+          "french": "Nous préférons la musique classique à la musique pop.",
+          "english": "We prefer classical music to pop music."
+        },
+        {
+          "french": "Tu aimes bien danser, même si tu préfères la lecture.",
+          "english": "You like dancing well, even if you prefer reading."
+        },
+        {
+          "french": "Selon moi, il déteste les changements.",
+          "english": "In my opinion, he hates changes."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Choisissez la meilleure réponse: J'_____ les voyages — c'est ma passion!",
+          "options": ["aime", "aime bien", "adore", "ne déteste pas"],
+          "correctAnswer": "adore",
+          "explanation": "'Adore' expresses the strongest positive emotion and matches the exclamation about passion."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complétez: Nous _____ la montagne plutôt que de la plage.",
+          "correctAnswer": "préférons",
+          "explanation": "Use first-person plural 'préférons' with the construction 'plutôt que de'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est la plus polie pour dire 'je n'aime pas'?",
+          "options": ["Je déteste ce restaurant.", "Je n'aime pas ce restaurant.", "J'aime bien ce restaurant mais..."],
+          "correctAnswer": "J'aime bien ce restaurant mais...",
+          "explanation": "'Aimer bien' with a 'but' is a softer, more polite way to introduce a mild preference shift."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complétez: Selon toi, tu _____ la méditation à l'exercice?",
+          "correctAnswer": "préfères",
+          "explanation": "Use second-person singular 'préfères' (stem-changing é→è); this expresses a personal opinion."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle construction correcte exprime une préférence claire?",
+          "options": ["Je préfère A que B", "Je préfère A plutôt que de B", "Je préfère A sur B"],
+          "correctAnswer": "Je préfère A plutôt que de B",
+          "explanation": "'Plutôt que de' is the correct structure for clear preference comparison."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complétez: Ils _____ les films d'action aux films romantiques.",
+          "correctAnswer": "préfèrent",
+          "explanation": "Third-person plural stem-changing 'préférer' becomes 'préfèrent' (é→è)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la meilleure réponse pour 'Aimes-tu les pâtes?'",
+          "options": ["Je déteste les pâtes.", "J'adore les pâtes!", "Je n'aime pas beaucoup les pâtes."],
+          "correctAnswer": "J'adore les pâtes!",
+          "explanation": "This response shows appropriate enthusiasm and variety in preference vocabulary."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Complétez: À mon avis, elle _____ danser plutôt que de chanter.",
+          "correctAnswer": "préfère",
+          "explanation": "Third-person singular stem-changing 'préférer' becomes 'préfère' (é→è)."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: Mon ami _____ les sports d'hiver.",
+        "options": ["aime", "aimes", "aimez"],
+        "correctAnswer": "aime",
+        "explanation": "With third-person singular 'mon ami', use 'aime'.",
+        "targetWord": "aimer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complétez: Je _____ rester à la maison.",
+        "correctAnswer": "préfère",
+        "explanation": "Use first-person singular 'je préfère' (with the accent shift é→è).",
+        "targetWord": "préférer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot exprime une forte antipathie?",
+        "options": ["aimer", "préférer", "détester"],
+        "correctAnswer": "détester",
+        "explanation": "'Détester' means to hate or detest — the strongest dislike.",
+        "targetWord": "détester"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "À mon _____, les vacances sont merveilleuses.",
+        "correctAnswer": "avis",
+        "explanation": "'À mon avis' means 'in my opinion'.",
+        "targetWord": "l'avis"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Tu es _____ avec ma suggestion?",
+        "options": ["accord", "d'accord", "en accord"],
+        "correctAnswer": "d'accord",
+        "explanation": "'D'accord' means 'agreed' or 'OK'. The correct phrasing is 'Tu es d'accord?'",
+        "targetWord": "d'accord"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Choisissez l'expression la plus forte: Je _____ les concerts de jazz.",
+        "options": ["aime bien", "aime", "adore", "ne déteste pas"],
+        "correctAnswer": "adore",
+        "explanation": "'Adore' is the strongest positive emotion on the preference scale.",
+        "targetWord": "adorer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Complétez: Nous _____ la musique classique plutôt que de la musique pop.",
+        "correctAnswer": "préférons",
+        "explanation": "First-person plural 'nous préférons' + 'plutôt que de' structure.",
+        "targetWord": "préférer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle réponse correctement combine négation et infinitif?",
+        "options": ["Je n'aime pas danser", "Je ne aime pas danser", "Je n'aimes pas danser"],
+        "correctAnswer": "Je n'aime pas danser",
+        "explanation": "Correct form: subject + ne (n' before vowel) + conjugated verb + pas + infinitive.",
+        "targetWord": "aimer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Selon toi, tu _____ lire ou regarder des films?",
+        "correctAnswer": "préfères",
+        "explanation": "Second-person singular stem-changing 'tu préfères' (é→è).",
+        "targetWord": "préférer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot introduit une opinion de façon formelle?",
+        "options": ["à mon avis", "selon moi", "selon", "je pense"],
+        "correctAnswer": "selon",
+        "explanation": "'Selon' (according to / in the opinion of) is more formal than 'à mon avis'.",
+        "targetWord": "selon"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are meeting a new acquaintance at French class. Talk about your favourite activities and why you enjoy them. Use aimer, préférer, or détester to express your preferences clearly.",
+      "keyPhrases": [
+        "J'aime...",
+        "Je préfère...",
+        "Je déteste...",
+        "À mon avis..."
+      ],
+      "modelAnswer": "Bonjour! Moi, j'aime beaucoup danser et regarder des films. Je préfère les comédies. Je déteste rester à la maison sans rien faire. À mon avis, les activités en groupe sont plus amusantes. Et toi, qu'est-ce que tu aimes?",
+      "modelAnswerExplanation": "This response uses all key preference expressions (aimer, préférer, détester, à mon avis) and includes an invitation for the other person to share their preferences, which keeps the conversation flowing naturally.",
+      "tip": "Start with 'J'aime' or 'Je préfère' and follow with a noun or infinitive. Use clear intonation when asking 'Et toi?' to show genuine interest in the other person's answer."
+    },
+    "advanced": {
+      "scenario": "You are meeting a new acquaintance at French class. Discuss your favourite activities in detail, using varied preference expressions and contrasting your likes and dislikes. Use adorer, selon moi, and plutôt que de structures to show nuance in your opinion.",
+      "keyPhrases": [
+        "J'adore...",
+        "Je préfère... plutôt que de...",
+        "Selon moi...",
+        "Je déteste...",
+        "À mon avis..."
+      ],
+      "modelAnswer": "Enchanté! Personnellement, j'adore les loisirs créatifs, surtout la photographie. Je préfère explorer des endroits nouveaux plutôt que de rester à la maison. Selon moi, les voyages enrichissent l'âme. Cependant, je ne suis pas très sportif — je déteste les sports d'équipe, mais j'aime bien la natation. Et toi, quelles sont tes passions?",
+      "modelAnswerExplanation": "This response demonstrates a sophisticated range of preference vocabulary (adorer, préférer...plutôt que de, selon moi, détester, aimer bien) and includes a thoughtful explanation. It shows nuance by acknowledging both likes and mild preferences, making the speaker sound more natural and engaging.",
+      "tip": "Use 'plutôt que de' to create smooth comparisons, and vary your preference verbs to sound more fluent. Include a sentence-starter like 'Selon moi' or 'À mon avis' to show reflective thinking. Remember: 'aimer bien' softens a statement, making you sound more diplomatic than a blunt 'je n'aime pas'."
+    }
+  }
+}
