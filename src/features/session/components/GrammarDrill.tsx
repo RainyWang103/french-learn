@@ -3,8 +3,9 @@ import type { GrammarContent } from '$types/curriculum'
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spk } from '$lib/speech'
-import { countAnswered, countCorrect, grammarDrillItemToDrill } from '../utils/quiz'
+import { grammarDrillItemToDrill } from '../utils/quiz'
 import type { DrillQuestion } from '../utils/quiz'
+import { useQuizAnswers } from '../hooks/useQuizAnswers'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './GrammarDrill.module.css'
@@ -35,14 +36,12 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
   const { showExplanation, drillCount, showWorkedExamples } = scaffolding
 
   const [phase, setPhase] = useState<'learn' | 'drill'>('learn')
-  const [answers, setAnswers] = useState<Record<number, boolean>>({})
 
   const activeDrills: DrillQuestion[] = grammar.drills
     .slice(0, drillCount)
     .map(grammarDrillItemToDrill)
 
-  const answeredCount = countAnswered(answers)
-  const allAnswered = answeredCount === activeDrills.length
+  const { answeredCount, allAnswered, score, recordAnswer } = useQuizAnswers(activeDrills.length)
 
   if (phase === 'learn') {
     return (
@@ -74,17 +73,11 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
     )
   }
 
-  const score = countCorrect(answers)
   return (
     <div className={styles.section}>
       <ProgressBar current={answeredCount} total={activeDrills.length} label="Grammar Drills" />
       {activeDrills.map((q, i) => (
-        <QuizItem
-          key={i}
-          question={q}
-          index={i}
-          onAnswer={(correct) => setAnswers((prev) => ({ ...prev, [i]: correct }))}
-        />
+        <QuizItem key={i} question={q} index={i} onAnswer={(correct) => recordAnswer(i, correct)} />
       ))}
       {allAnswered && (
         <div className={styles.scoreBox}>

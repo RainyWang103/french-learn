@@ -1,11 +1,12 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import type { ListenContent } from '$types/curriculum'
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spkV } from '$lib/speech'
-import { countAnswered, countCorrect, listeningQuestionToDrill } from '../utils/quiz'
-import { computeLineDuration } from '../utils/dialogue'
+import { listeningQuestionToDrill } from '../utils/quiz'
 import type { DrillQuestion } from '../utils/quiz'
+import { useQuizAnswers } from '../hooks/useQuizAnswers'
+import { useDialoguePlayer } from '../hooks/useDialoguePlayer'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './ListeningWidget.module.css'
@@ -28,47 +29,22 @@ export default function ListeningWidget({
   const scaffolding = getScaffolding('listening', difficulty, track)
   const { speed, questionCount, maxReplays, showTranscriptUpfront } = scaffolding
 
-  const [phase, setPhase] = useState<Phase>(showTranscriptUpfront ? 'transcript' : 'listen')
-  const [replaysUsed, setReplaysUsed] = useState(0)
-  const [isPlaying, setIsPlaying] = useState(false)
-  const [answers, setAnswers] = useState<Record<number, boolean>>({})
-  const timeoutsRef = useRef<number[]>([])
-
   const activeQuestions: DrillQuestion[] = listen.questions
     .slice(0, questionCount)
     .map(listeningQuestionToDrill)
 
-  const answeredCount = countAnswered(answers)
-  const allAnswered = answeredCount === activeQuestions.length
+  const [phase, setPhase] = useState<Phase>(showTranscriptUpfront ? 'transcript' : 'listen')
+  const [replaysUsed, setReplaysUsed] = useState(0)
+  const { isPlaying, play } = useDialoguePlayer(listen.dialogue, speed)
+  const { answeredCount, allAnswered, score, recordAnswer } = useQuizAnswers(activeQuestions.length)
+
   const replaysRemaining = maxReplays === -1 ? Infinity : maxReplays - replaysUsed
   const canReplay = replaysRemaining > 0
-
-  function playDialogue(playbackSpeed = speed) {
-    timeoutsRef.current.forEach(clearTimeout)
-    timeoutsRef.current = []
-    setIsPlaying(true)
-
-    let delay = 0
-    listen.dialogue.forEach(([speaker, text]) => {
-      const id = window.setTimeout(() => {
-        spkV(text, speaker === 'A' ? 'f' : 'm', playbackSpeed)
-      }, delay)
-      timeoutsRef.current.push(id)
-      delay += computeLineDuration(text)
-    })
-
-    const doneId = window.setTimeout(() => setIsPlaying(false), delay + 200)
-    timeoutsRef.current.push(doneId)
-  }
-
-  function handlePlay() {
-    playDialogue()
-  }
 
   function handleReplay() {
     if (!canReplay) return
     setReplaysUsed((n) => n + 1)
-    playDialogue()
+    play()
   }
 
   if (phase === 'listen') {
@@ -81,13 +57,13 @@ export default function ListeningWidget({
             Press play and listen carefully. You can adjust the speed below.
           </p>
           <div className={styles.playControls}>
-            <button className={styles.btnPrimary} onClick={handlePlay} disabled={isPlaying}>
+            <button className={styles.btnPrimary} onClick={() => play()} disabled={isPlaying}>
               {isPlaying ? '▶ Playing…' : '▶ Play'}
             </button>
             {speed > 0.65 && (
               <button
                 className={styles.btnGhost}
-                onClick={() => playDialogue(speed * 0.75)}
+                onClick={() => play(speed * 0.75)}
                 disabled={isPlaying}
               >
                 🐢 Slower
@@ -103,7 +79,6 @@ export default function ListeningWidget({
   }
 
   if (phase === 'questions') {
-    const score = countCorrect(answers)
     return (
       <div className={styles.section}>
         <ProgressBar current={answeredCount} total={activeQuestions.length} label="Comprehension" />
@@ -129,7 +104,7 @@ export default function ListeningWidget({
             key={i}
             question={q}
             index={i}
-            onAnswer={(correct) => setAnswers((prev) => ({ ...prev, [i]: correct }))}
+            onAnswer={(correct) => recordAnswer(i, correct)}
           />
         ))}
         {allAnswered && (
@@ -152,7 +127,6 @@ export default function ListeningWidget({
   }
 
   // Transcript phase
-  const score = countCorrect(answers)
   return (
     <div className={styles.section}>
       <div className={styles.transcriptCard}>

@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import { countAnswered, countCorrect } from '../utils/quiz'
 import type { DrillQuestion } from '../utils/quiz'
+import { useQuizAnswers } from '../hooks/useQuizAnswers'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './RevisionSection.module.css'
@@ -13,7 +12,16 @@ interface RevisionSectionProps {
 const MAX_REVISION_WORDS = 5
 
 export default function RevisionSection({ flaggedWords, onDone }: RevisionSectionProps) {
-  const [answers, setAnswers] = useState<Record<number, boolean>>({})
+  const activeWords = flaggedWords.slice(0, MAX_REVISION_WORDS)
+  const quizItems: DrillQuestion[] = activeWords.map((word) => ({
+    type: 'fillInTheBlank',
+    question: `Spell the French word: "${word}"`,
+    correctAnswer: word,
+  }))
+
+  const { answers, answeredCount, allAnswered, score, recordAnswer } = useQuizAnswers(
+    quizItems.length,
+  )
 
   if (flaggedWords.length === 0) {
     return (
@@ -30,17 +38,6 @@ export default function RevisionSection({ flaggedWords, onDone }: RevisionSectio
     )
   }
 
-  const activeWords = flaggedWords.slice(0, MAX_REVISION_WORDS)
-  const quizItems: DrillQuestion[] = activeWords.map((word) => ({
-    type: 'fillInTheBlank',
-    question: `Spell the French word: "${word}"`,
-    correctAnswer: word,
-  }))
-
-  const answeredCount = countAnswered(answers)
-  const allAnswered = answeredCount === quizItems.length
-  const score = countCorrect(answers)
-
   return (
     <div className={styles.section}>
       <div className={styles.card}>
@@ -55,12 +52,7 @@ export default function RevisionSection({ flaggedWords, onDone }: RevisionSectio
       <ProgressBar current={answeredCount} total={quizItems.length} label="Revision" />
 
       {quizItems.map((q, i) => (
-        <QuizItem
-          key={i}
-          question={q}
-          index={i}
-          onAnswer={(correct) => setAnswers((prev) => ({ ...prev, [i]: correct }))}
-        />
+        <QuizItem key={i} question={q} index={i} onAnswer={(correct) => recordAnswer(i, correct)} />
       ))}
 
       {allAnswered && (
@@ -75,10 +67,7 @@ export default function RevisionSection({ flaggedWords, onDone }: RevisionSectio
           </div>
           <button
             className={styles.btnPrimary}
-            onClick={() => {
-              const mastered = activeWords.filter((_, i) => answers[i] === true)
-              onDone(mastered)
-            }}
+            onClick={() => onDone(activeWords.filter((_, i) => answers[i] === true))}
           >
             Done →
           </button>

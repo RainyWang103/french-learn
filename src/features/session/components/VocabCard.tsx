@@ -3,14 +3,10 @@ import type { VocabWord, VerbForms, GenderForms, QuizQuestion } from '$types/cur
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spkV } from '$lib/speech'
-import {
-  countAnswered,
-  countCorrect,
-  extractFlaggedWords,
-  quizQuestionToDrill,
-} from '../utils/quiz'
+import { extractFlaggedWords, quizQuestionToDrill } from '../utils/quiz'
 import type { DrillQuestion } from '../utils/quiz'
 import { genderLabel } from '../utils/vocab'
+import { useQuizAnswers } from '../hooks/useQuizAnswers'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './VocabCard.module.css'
@@ -223,15 +219,13 @@ export default function VocabCard({
 
   const [phase, setPhase] = useState<'cards' | 'quiz'>('cards')
   const [cardIndex, setCardIndex] = useState(0)
-  const [answers, setAnswers] = useState<Record<number, boolean>>({})
 
   const quizItems: DrillQuestion[] = quizQuestions.map(quizQuestionToDrill)
-
-  const answeredCount = countAnswered(answers)
-  const allAnswered = answeredCount === quizItems.length
+  const { answers, answeredCount, allAnswered, score, recordAnswer } = useQuizAnswers(
+    quizItems.length,
+  )
 
   if (phase === 'quiz') {
-    const score = countCorrect(answers)
     return (
       <div className={styles.section}>
         <ProgressBar current={answeredCount} total={quizItems.length} label="Vocab Quiz" />
@@ -240,7 +234,7 @@ export default function VocabCard({
             key={i}
             question={q}
             index={i}
-            onAnswer={(correct) => setAnswers((prev) => ({ ...prev, [i]: correct }))}
+            onAnswer={(correct) => recordAnswer(i, correct)}
           />
         ))}
         {allAnswered && (
