@@ -26,6 +26,10 @@
           [
             "La lettre arrive demain.",
             "The letter arrives tomorrow."
+          ],
+          [
+            "Tu reçois une lettre importante ?",
+            "Are you receiving an important letter?"
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Un timbre coûte un euro vingt.",
             "A stamp costs one euro twenty."
+          ],
+          [
+            "J'achète des timbres au bureau de poste.",
+            "I buy stamps at the post office."
           ]
         ],
         "special": ""
@@ -78,6 +86,10 @@
           [
             "Envoyez le colis avant vendredi.",
             "Send the package before Friday."
+          ],
+          [
+            "Nous envoyons des messages tous les jours.",
+            "We send messages every day."
           ]
         ],
         "special": ""
@@ -103,6 +115,10 @@
           [
             "La banque ferme à dix-sept heures.",
             "The bank closes at five o'clock."
+          ],
+          [
+            "Ma banque est près de chez moi.",
+            "My bank is near my house."
           ]
         ],
         "special": ""
@@ -128,6 +144,10 @@
           [
             "Il faut de l'argent pour acheter un billet.",
             "You need money to buy a ticket."
+          ],
+          [
+            "Combien d'argent as-tu ?",
+            "How much money do you have?"
           ]
         ],
         "special": ""
@@ -155,6 +175,10 @@
           [
             "La lettre arrive demain.",
             "The letter arrives tomorrow."
+          ],
+          [
+            "Tu reçois une lettre importante ?",
+            "Are you receiving an important letter?"
           ]
         ],
         "special": ""
@@ -180,6 +204,10 @@
           [
             "Un timbre coûte un euro vingt.",
             "A stamp costs one euro twenty."
+          ],
+          [
+            "J'achète des timbres au bureau de poste.",
+            "I buy stamps at the post office."
           ]
         ],
         "special": ""
@@ -207,6 +235,10 @@
           [
             "Envoyez le colis avant vendredi.",
             "Send the package before Friday."
+          ],
+          [
+            "Nous envoyons des messages tous les jours.",
+            "We send messages every day."
           ]
         ],
         "special": ""
@@ -232,6 +264,10 @@
           [
             "La banque ferme à dix-sept heures.",
             "The bank closes at five o'clock."
+          ],
+          [
+            "Ma banque est près de chez moi.",
+            "My bank is near my house."
           ]
         ],
         "special": ""
@@ -257,6 +293,10 @@
           [
             "Il faut de l'argent pour acheter un billet.",
             "You need money to buy a ticket."
+          ],
+          [
+            "Combien d'argent as-tu ?",
+            "How much money do you have?"
           ]
         ],
         "special": ""
@@ -282,6 +322,10 @@
           [
             "Le colis arrive dans une semaine.",
             "The package arrives in a week."
+          ],
+          [
+            "Reçois-tu un colis aujourd'hui ?",
+            "Are you receiving a package today?"
           ]
         ],
         "special": ""
@@ -307,6 +351,10 @@
           [
             "Mon compte est à la Banque Populaire.",
             "My account is at Banque Populaire."
+          ],
+          [
+            "Je gère mon compte en ligne.",
+            "I manage my account online."
           ]
         ],
         "special": ""

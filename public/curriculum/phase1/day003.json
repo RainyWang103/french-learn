@@ -25,6 +25,10 @@
           [
             "Le café est chaud.",
             "The coffee is hot."
+          ],
+          [
+            "Tu aimes le café ?",
+            "Do you like coffee?"
           ]
         ],
         "special": ""
@@ -49,6 +53,10 @@
           [
             "Le pain est frais.",
             "The bread is fresh."
+          ],
+          [
+            "Il y a du pain sur la table.",
+            "There is bread on the table."
           ]
         ],
         "special": ""
@@ -73,6 +81,10 @@
           [
             "Le beurre est dans le frigo.",
             "The butter is in the fridge."
+          ],
+          [
+            "Aimes-tu le beurre ?",
+            "Do you like butter?"
           ]
         ],
         "special": ""
@@ -98,6 +110,10 @@
           [
             "Le jus est froid.",
             "The juice is cold."
+          ],
+          [
+            "Je bois du jus.",
+            "I drink juice."
           ]
         ],
         "special": ""
@@ -122,6 +138,10 @@
           [
             "La confiture de fraises est bonne.",
             "The strawberry jam is good."
+          ],
+          [
+            "Je veux de la confiture.",
+            "I want jam."
           ]
         ],
         "special": ""
@@ -149,6 +169,10 @@
           [
             "Le café est chaud.",
             "The coffee is hot."
+          ],
+          [
+            "Préfères-tu le café ou le thé ?",
+            "Do you prefer coffee or tea?"
           ]
         ],
         "special": ""
@@ -173,6 +197,10 @@
           [
             "Le pain est frais.",
             "The bread is fresh."
+          ],
+          [
+            "Voulez-vous du pain ?",
+            "Do you want bread?"
           ]
         ],
         "special": ""
@@ -197,6 +225,10 @@
           [
             "Le beurre est dans le frigo.",
             "The butter is in the fridge."
+          ],
+          [
+            "Mets du beurre sur le pain.",
+            "Put butter on the bread."
           ]
         ],
         "special": ""
@@ -222,6 +254,10 @@
           [
             "Le jus est froid.",
             "The juice is cold."
+          ],
+          [
+            "Tu veux du jus de pomme ?",
+            "Do you want apple juice?"
           ]
         ],
         "special": ""
@@ -246,6 +282,10 @@
           [
             "La confiture de fraises est bonne.",
             "The strawberry jam is good."
+          ],
+          [
+            "Quelle confiture préfères-tu ?",
+            "Which jam do you prefer?"
           ]
         ],
         "special": ""
@@ -271,6 +311,10 @@
           [
             "Le bol est sur la table.",
             "The bowl is on the table."
+          ],
+          [
+            "Je bois mon café dans un bol.",
+            "I drink my coffee in a bowl."
           ]
         ],
         "special": ""
@@ -296,6 +340,10 @@
           [
             "Les croissants sont chauds.",
             "The croissants are warm."
+          ],
+          [
+            "Aimes-tu les croissants ?",
+            "Do you like croissants?"
           ]
         ],
         "special": ""

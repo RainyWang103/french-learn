@@ -131,8 +131,12 @@ function validateVocabWord(word: Record<string, unknown>, label: string) {
     }
   }
 
-  // Examples: non-empty array of [french, english] pairs
+  // Examples: non-empty array of [french, english] pairs — minimum 3
   assertNonEmptyArray(word.examples, `${label}.examples`)
+  expect(
+    (word.examples as unknown[]).length,
+    `${label}.examples should have at least 3 entries`,
+  ).toBeGreaterThanOrEqual(3)
   for (const [index, example] of (word.examples as unknown[]).entries()) {
     expect(Array.isArray(example), `${label}.examples[${index}] should be an array`).toBe(true)
     const pair = example as unknown[]
@@ -457,6 +461,69 @@ describe('curriculum JSON validation', () => {
           data.isRevision,
           `${phase}/${file} day ${dayNumber} is a content day and should have isRevision: false`,
         ).toBe(false)
+      }
+    }
+  })
+
+  it('phase1 should have exactly 15 revision stubs and 48 content files', () => {
+    const phase1 = curriculumFiles.filter((f) => f.phase === 'phase1')
+    let revisionCount = 0
+    let contentCount = 0
+    for (const { path: filePath } of phase1) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>
+      if (isRevisionStub(data)) revisionCount++
+      else contentCount++
+    }
+    expect(revisionCount, 'phase1 should have exactly 15 revision stubs').toBe(15)
+    expect(contentCount, 'phase1 should have exactly 48 content files').toBe(48)
+  })
+
+  it('should have no duplicate grammar titles within a phase', () => {
+    const titlesByPhase = new Map<string, Map<string, string>>()
+    for (const { phase, file, path: filePath } of curriculumFiles) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>
+      if (isRevisionStub(data)) continue
+      if (!titlesByPhase.has(phase)) titlesByPhase.set(phase, new Map())
+      const titles = titlesByPhase.get(phase)!
+      for (const track of ['standard', 'advanced'] as const) {
+        const grammar = (data.grammar as Record<string, Record<string, unknown>>)?.[track]
+        const title = grammar?.title as string | undefined
+        if (title) {
+          expect(
+            titles.has(title),
+            `${phase}/${file}: duplicate grammar title "${title}" (first seen in ${titles.get(title)})`,
+          ).toBe(false)
+          titles.set(title, file)
+        }
+      }
+    }
+  })
+
+  it('should have no duplicate vocab words within a phase', () => {
+    const wordsByPhase = new Map<string, Map<string, string>>()
+    for (const { phase, file, path: filePath } of curriculumFiles) {
+      const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>
+      if (isRevisionStub(data)) continue
+      if (!wordsByPhase.has(phase)) wordsByPhase.set(phase, new Map())
+      const words = wordsByPhase.get(phase)!
+      const vocab = data.vocab as Record<string, Record<string, unknown>[]>
+      for (const track of ['standard', 'advanced'] as const) {
+        for (const wordObj of vocab[track] ?? []) {
+          const key = (wordObj.word as string)?.toLowerCase().trim()
+          if (!key) continue
+          const firstSeen = words.get(key)
+          if (firstSeen) {
+            const firstFile = firstSeen.split(':')[0]
+            if (firstFile !== file) {
+              expect(
+                false,
+                `${phase}/${file}: duplicate vocab word "${wordObj.word}" (first seen in ${firstSeen})`,
+              ).toBe(true)
+            }
+          } else {
+            words.set(key, `${file}:${track}`)
+          }
+        }
       }
     }
   })

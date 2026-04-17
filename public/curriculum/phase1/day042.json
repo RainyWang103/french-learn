@@ -20,6 +20,10 @@
           [
             "Paris est une grande ville magnifique.",
             "Paris is a beautiful large city."
+          ],
+          [
+            "La ville est très vivante le soir.",
+            "The city is very lively in the evening."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "Le magasin ferme à vingt heures.",
             "The shop closes at 8 PM."
+          ],
+          [
+            "Je fais les magasins le samedi.",
+            "I go shopping on Saturday."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Nous visitons l'église ce matin.",
             "We are visiting the church this morning."
+          ],
+          [
+            "L'église est très ancienne.",
+            "The church is very old."
           ]
         ],
         "special": "",
@@ -95,6 +107,10 @@
           [
             "Les enfants jouent près de la fontaine.",
             "The children are playing near the fountain."
+          ],
+          [
+            "La fontaine est très jolie avec l'eau.",
+            "The fountain is very pretty with the water."
           ]
         ],
         "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace.",
@@ -120,6 +136,10 @@
           [
             "Nous nous promenons dans le jardin.",
             "We are walking in the garden."
+          ],
+          [
+            "Les fleurs du jardin sont magnifiques.",
+            "The flowers in the garden are magnificent."
           ]
         ],
         "special": "",
@@ -147,6 +167,10 @@
           [
             "Paris est une grande ville magnifique.",
             "Paris is a beautiful large city."
+          ],
+          [
+            "La vie en ville est différente de la campagne.",
+            "Life in the city is different from the countryside."
           ]
         ],
         "special": "",
@@ -172,6 +196,10 @@
           [
             "Le magasin ferme à vingt heures.",
             "The shop closes at 8 PM."
+          ],
+          [
+            "Elle aime faire les magasins le week-end.",
+            "She likes to go shopping on the weekend."
           ]
         ],
         "special": "",
@@ -197,6 +225,10 @@
           [
             "Nous visitons l'église ce matin.",
             "We are visiting the church this morning."
+          ],
+          [
+            "L'architecture de l'église est remarquable.",
+            "The architecture of the church is remarkable."
           ]
         ],
         "special": "",
@@ -222,6 +254,10 @@
           [
             "Les enfants jouent près de la fontaine.",
             "The children are playing near the fountain."
+          ],
+          [
+            "La fontaine Wallace est un symbole de Paris.",
+            "The Wallace fountain is a symbol of Paris."
           ]
         ],
         "special": "The iconic Wallace fountains in Paris are named after British philanthropist Richard Wallace.",
@@ -247,6 +283,10 @@
           [
             "Nous nous promenons dans le jardin.",
             "We are walking in the garden."
+          ],
+          [
+            "On peut se détendre dans le jardin.",
+            "You can relax in the garden."
           ]
         ],
         "special": "",
@@ -272,6 +312,10 @@
           [
             "Le musée d'Orsay est magnifique.",
             "The Orsay Museum is magnificent."
+          ],
+          [
+            "Le musée ferme à dix-huit heures.",
+            "The museum closes at 6 PM."
           ]
         ],
         "special": "",
@@ -297,6 +341,10 @@
           [
             "J'habite à cinq minutes du centre-ville.",
             "I live five minutes from the town centre."
+          ],
+          [
+            "On trouve des marchés au centre-ville.",
+            "You can find markets in the town centre."
           ]
         ],
         "special": "",

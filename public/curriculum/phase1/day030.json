@@ -26,6 +26,10 @@
           [
             "La terrasse est pleine aujourd'hui.",
             "The terrace is full today."
+          ],
+          [
+            "Il y a beaucoup de monde sur la terrasse.",
+            "There are many people on the terrace."
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "La tasse est chaude, fais attention !",
             "The cup is hot, be careful!"
+          ],
+          [
+            "Cette tasse est très jolie.",
+            "This cup is very pretty."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Un thé à la menthe, s'il vous plaît.",
             "A mint tea, please."
+          ],
+          [
+            "Je bois du thé tous les matins.",
+            "I drink tea every morning."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "Je prends mon café sans sucre.",
             "I take my coffee without sugar."
+          ],
+          [
+            "Le sucre est sur la table.",
+            "The sugar is on the table."
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Il y a beaucoup de choix sur la carte.",
             "There are many choices on the menu."
+          ],
+          [
+            "Quelle est votre recommandation sur la carte ?",
+            "What is your recommendation on the menu?"
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "La terrasse est pleine aujourd'hui.",
             "The terrace is full today."
+          ],
+          [
+            "Les terrasses parisienne sont célèbres.",
+            "Parisian terraces are famous."
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "La tasse est chaude, fais attention !",
             "The cup is hot, be careful!"
+          ],
+          [
+            "Elle remplit deux tasses de café.",
+            "She fills two cups of coffee."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Un thé à la menthe, s'il vous plaît.",
             "A mint tea, please."
+          ],
+          [
+            "Le thé vert est moins sucré que le thé noir.",
+            "Green tea is less sweet than black tea."
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "Je prends mon café sans sucre.",
             "I take my coffee without sugar."
+          ],
+          [
+            "Combien de morceaux de sucre veux-tu ?",
+            "How many sugar cubes do you want?"
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Il y a beaucoup de choix sur la carte.",
             "There are many choices on the menu."
+          ],
+          [
+            "La carte change chaque saison.",
+            "The menu changes each season."
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "Les boissons chaudes sont à deux euros.",
             "Hot drinks are two euros."
+          ],
+          [
+            "C'est ma boisson préférée.",
+            "It's my favorite drink."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Les enfants aiment le sirop de grenadine.",
             "Children like grenadine syrup."
+          ],
+          [
+            "Quel sirop tu préfères, la menthe ou la grenadine ?",
+            "Which syrup do you prefer, mint or grenadine?"
           ]
         ],
         "special": ""

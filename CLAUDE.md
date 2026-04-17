@@ -394,8 +394,12 @@ Scripts: "test" (vitest run), "test:watch" (vitest)
 ### CI pipeline
 .github/workflows/ci.yml — four parallel jobs on every PR:
 typecheck (tsc --noEmit), test (vitest run), build (vite build), format (prettier --check)
-Phase 3 adds: validate-curriculum job on curriculum file changes
 All jobs must pass before merging.
+
+### Testing rule
+Always use the existing Vitest framework (src/**/*.test.ts) for all validation and tests.
+Do NOT create standalone scripts (e.g. scripts/validate-*.ts) and add them to package.json.
+Curriculum validation belongs in src/curriculum.test.ts, which runs as part of the CI test job.
 
 ### Files with tests this phase
 src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
@@ -439,7 +443,12 @@ noun → GenderForms: all four gender/number variants
 
 adverb or expression → GenderForms with all four fields set to the word itself
 
-The validate-curriculum script enforces forms on every word.
+The curriculum test suite (src/curriculum.test.ts) enforces forms on every word.
+
+## Vocab Examples Rule
+Every VocabWord must have at least 3 examples (minimum).
+Each example is a 2-element array: ["French sentence", "English translation"].
+The French sentence must be A1 level (or the appropriate phase level), using the word naturally in context.
 
 ## Listening Content Rules
 All listening questions and answers must be written in French.

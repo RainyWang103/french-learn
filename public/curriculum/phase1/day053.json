@@ -20,6 +20,10 @@
           [
             "Nous nous promenons le weekend.",
             "We go for walks on the weekend."
+          ],
+          [
+            "Elle se promène avec son ami.",
+            "She goes for a walk with her friend."
           ]
         ],
         "special": "reflexive verb",
@@ -47,6 +51,10 @@
           [
             "Le pique-nique est dans le parc.",
             "The picnic is in the park."
+          ],
+          [
+            "Aimes-tu les pique-niques?",
+            "Do you like picnics?"
           ]
         ],
         "special": "compound noun",
@@ -72,6 +80,10 @@
           [
             "La balade était très agréable.",
             "The outing was very pleasant."
+          ],
+          [
+            "Veux-tu faire une balade le dimanche?",
+            "Do you want to take a stroll on Sunday?"
           ]
         ],
         "special": "conversational",
@@ -97,6 +109,10 @@
           [
             "J'aime les loisirs en plein air.",
             "I like outdoor activities."
+          ],
+          [
+            "Les loisirs rendent la vie plus agréable.",
+            "Hobbies make life more pleasant."
           ]
         ],
         "special": "often plural",
@@ -122,6 +138,10 @@
           [
             "Tu te reposes après le travail.",
             "You rest after work."
+          ],
+          [
+            "On se repose à l'ombre.",
+            "We rest in the shade."
           ]
         ],
         "special": "reflexive verb",
@@ -151,6 +171,10 @@
           [
             "Nous nous promenons le weekend.",
             "We go for walks on the weekend."
+          ],
+          [
+            "Vous vous promenez le long de la rivière.",
+            "You all take walks along the river."
           ]
         ],
         "special": "reflexive verb",
@@ -178,6 +202,10 @@
           [
             "Le pique-nique est dans le parc.",
             "The picnic is in the park."
+          ],
+          [
+            "On apporte du fromage au pique-nique.",
+            "We bring cheese to the picnic."
           ]
         ],
         "special": "compound noun",
@@ -203,6 +231,10 @@
           [
             "La balade était très agréable.",
             "The outing was very pleasant."
+          ],
+          [
+            "Pendant la balade, on parle de tout.",
+            "During the outing, we talk about everything."
           ]
         ],
         "special": "conversational",
@@ -228,6 +260,10 @@
           [
             "J'aime les loisirs en plein air.",
             "I like outdoor activities."
+          ],
+          [
+            "Les loisirs sont importants pour la santé.",
+            "Hobbies are important for health."
           ]
         ],
         "special": "often plural",
@@ -253,6 +289,10 @@
           [
             "Tu te reposes après le travail.",
             "You rest after work."
+          ],
+          [
+            "Ils se reposent pendant les vacances.",
+            "They rest during vacation."
           ]
         ],
         "special": "reflexive verb",
@@ -280,6 +320,10 @@
           [
             "Profitons de nos vacances!",
             "Let us make the most of our vacation!"
+          ],
+          [
+            "Elle profite de son jour de congé.",
+            "She makes the most of her day off."
           ]
         ],
         "special": "regular verb",
@@ -307,6 +351,10 @@
           [
             "Aimes-tu les activités en plein air?",
             "Do you like outdoor activities?"
+          ],
+          [
+            "Les enfants mangent en plein air.",
+            "The children eat outdoors."
           ]
         ],
         "special": "common expression",

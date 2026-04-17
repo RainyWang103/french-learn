@@ -26,6 +26,10 @@
           [
             "La mère de Pierre travaille.",
             "Pierre's mother works."
+          ],
+          [
+            "Ma mère aime lire.",
+            "My mother likes to read."
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Le père de Marie est français.",
             "Marie's father is French."
+          ],
+          [
+            "Mon père joue au football.",
+            "My father plays football."
           ]
         ],
         "special": ""
@@ -75,6 +83,10 @@
           [
             "J'ai un frère.",
             "I have a brother."
+          ],
+          [
+            "Mon frère est étudiant.",
+            "My brother is a student."
           ]
         ],
         "special": ""
@@ -99,6 +111,10 @@
           [
             "J'ai une sœur.",
             "I have a sister."
+          ],
+          [
+            "Ma sœur est intelligente.",
+            "My sister is smart."
           ]
         ],
         "special": ""
@@ -124,6 +140,10 @@
           [
             "Ils ont deux enfants.",
             "They have two children."
+          ],
+          [
+            "L'enfant a cinq ans.",
+            "The child is five years old."
           ]
         ],
         "special": ""
@@ -151,6 +171,10 @@
           [
             "La mère de Pierre travaille.",
             "Pierre's mother works."
+          ],
+          [
+            "Sa mère habite en France.",
+            "His/her mother lives in France."
           ]
         ],
         "special": ""
@@ -176,6 +200,10 @@
           [
             "Le père de Marie est français.",
             "Marie's father is French."
+          ],
+          [
+            "Son père est ingénieur.",
+            "His/her father is an engineer."
           ]
         ],
         "special": ""
@@ -200,6 +228,10 @@
           [
             "J'ai un frère.",
             "I have a brother."
+          ],
+          [
+            "Le frère de Thomas habite à Lyon.",
+            "Thomas's brother lives in Lyon."
           ]
         ],
         "special": ""
@@ -224,6 +256,10 @@
           [
             "J'ai une sœur.",
             "I have a sister."
+          ],
+          [
+            "Sa sœur est médecin.",
+            "His/her sister is a doctor."
           ]
         ],
         "special": ""
@@ -249,6 +285,10 @@
           [
             "Ils ont deux enfants.",
             "They have two children."
+          ],
+          [
+            "Chaque enfant aime l'école.",
+            "Every child loves school."
           ]
         ],
         "special": ""
@@ -274,6 +314,10 @@
           [
             "Le grand-père raconte des histoires.",
             "The grandfather tells stories."
+          ],
+          [
+            "Son grand-père aime jouer aux cartes.",
+            "His/her grandfather likes to play cards."
           ]
         ],
         "special": ""
@@ -299,6 +343,10 @@
           [
             "La grand-mère habite à la campagne.",
             "The grandmother lives in the countryside."
+          ],
+          [
+            "Ma grand-mère est très gentille.",
+            "My grandmother is very kind."
           ]
         ],
         "special": ""

@@ -20,6 +20,10 @@
           [
             "Elle a levé la main.",
             "She raised her hand."
+          ],
+          [
+            "Il me donne la main.",
+            "He gives me his hand."
           ]
         ],
         "special": "Essential body part vocabulary",
@@ -45,6 +49,10 @@
           [
             "Il porte un sac sur le dos.",
             "He carries a bag on his back."
+          ],
+          [
+            "Elle tourne le dos.",
+            "She turns her back."
           ]
         ],
         "special": "Very common in health contexts",
@@ -70,6 +78,10 @@
           [
             "Elle s'est blessé le genou en courant.",
             "She injured her knee while running."
+          ],
+          [
+            "Tu as mal au genou ?",
+            "Does your knee hurt?"
           ]
         ],
         "special": "Irregular plural: genoux",
@@ -95,6 +107,10 @@
           [
             "Il s'est blessé l'épaule au foot.",
             "He injured his shoulder playing football."
+          ],
+          [
+            "Elle porte le sac sur l'épaule.",
+            "She carries the bag on her shoulder."
           ]
         ],
         "special": "Frequently used in medical and sports contexts",
@@ -120,6 +136,10 @@
           [
             "Son cœur bat vite après le sport.",
             "Her heart beats fast after exercise."
+          ],
+          [
+            "Le docteur écoute le cœur.",
+            "The doctor listens to the heart."
           ]
         ],
         "special": "Both literal and figurative uses",
@@ -147,6 +167,10 @@
           [
             "Elle a levé la main pour poser une question.",
             "She raised her hand to ask a question."
+          ],
+          [
+            "On se serre la main.",
+            "We shake hands."
           ]
         ],
         "special": "Essential body part vocabulary",
@@ -172,6 +196,10 @@
           [
             "Il porte un sac lourd sur le dos tous les jours.",
             "He carries a heavy bag on his back every day."
+          ],
+          [
+            "Elle nage sur le dos.",
+            "She swims on her back."
           ]
         ],
         "special": "Very common in health contexts",
@@ -197,6 +225,10 @@
           [
             "Elle s'est blessé les genoux en tombant.",
             "She injured her knees when she fell."
+          ],
+          [
+            "Il s'agenouille.",
+            "He kneels down."
           ]
         ],
         "special": "Irregular plural: genoux",
@@ -222,6 +254,10 @@
           [
             "Il hausse les épaules sans répondre.",
             "He shrugs his shoulders without answering."
+          ],
+          [
+            "Je porte mon ami sur mes épaules.",
+            "I carry my friend on my shoulders."
           ]
         ],
         "special": "Frequently used in medical and sports contexts",
@@ -247,6 +283,10 @@
           [
             "Son cœur bat vite après le sport.",
             "Her heart beats fast after exercise."
+          ],
+          [
+            "Je parle de tout mon cœur.",
+            "I speak from all my heart."
           ]
         ],
         "special": "Both literal and figurative uses",
@@ -272,6 +312,10 @@
           [
             "Elle montre quelque chose du doigt.",
             "She points at something with her finger."
+          ],
+          [
+            "Le doigt est bleu.",
+            "The finger is blue."
           ]
         ],
         "special": "Common in everyday descriptions",
@@ -297,6 +341,10 @@
           [
             "Ma cheville gonfle depuis ce matin.",
             "My ankle has been swelling since this morning."
+          ],
+          [
+            "La cheville fait très mal.",
+            "The ankle hurts a lot."
           ]
         ],
         "special": "Common sports injury term",

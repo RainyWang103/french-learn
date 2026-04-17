@@ -1,0 +1,594 @@
+{
+  "day": 59,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Birthdays & Celebrations",
+  "vocab": {
+    "standard": [
+      {
+        "word": "l'anniversaire",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lah-nee-vehr-sair",
+        "meaning": "the birthday / anniversary",
+        "notes": "Masculine noun, commonly used for birthdays",
+        "examples": [
+          ["Joyeux anniversaire!", "Happy birthday!"],
+          ["L'anniversaire de Marie est en janvier.", "Marie's birthday is in January."],
+          ["Quand est ton anniversaire?", "When is your birthday?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "anniversaire",
+          "feminine": "",
+          "masculinePlural": "anniversaires",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la fête",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah fait",
+        "meaning": "the party / celebration / feast day",
+        "notes": "Feminine noun, used for all types of celebrations",
+        "examples": [
+          ["Il y a une fête ce soir.", "There is a party tonight."],
+          ["Allons à la fête!", "Let's go to the celebration!"],
+          ["La fête est amusante.", "The party is fun."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "fête",
+          "masculinePlural": "",
+          "femininePlural": "fêtes"
+        }
+      },
+      {
+        "word": "le cadeau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kah-doh",
+        "meaning": "the gift / present",
+        "notes": "Masculine noun, irregular plural cadeaux",
+        "examples": [
+          ["J'ai un cadeau pour toi.", "I have a gift for you."],
+          ["Les cadeaux sont sur la table.", "The gifts are on the table."],
+          ["C'est un joli cadeau.", "It is a pretty gift."]
+        ],
+        "special": "Irregular plural: cadeaux",
+        "forms": {
+          "masculine": "cadeau",
+          "feminine": "",
+          "masculinePlural": "cadeaux",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le gâteau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh gah-toh",
+        "meaning": "the cake",
+        "notes": "Masculine noun, irregular plural gâteaux",
+        "examples": [
+          ["Le gâteau est délicieux.", "The cake is delicious."],
+          ["Coupe le gâteau!", "Cut the cake!"],
+          ["Je veux du gâteau.", "I want some cake."]
+        ],
+        "special": "Irregular plural: gâteaux",
+        "forms": {
+          "masculine": "gâteau",
+          "feminine": "",
+          "masculinePlural": "gâteaux",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la bougie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah boo-zhee",
+        "meaning": "the candle",
+        "notes": "Feminine noun",
+        "examples": [
+          ["Les bougies sont allumées.", "The candles are lit."],
+          ["Souffle les bougies!", "Blow out the candles!"],
+          ["Il y a une bougie sur la table.", "There is a candle on the table."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "bougie",
+          "masculinePlural": "",
+          "femininePlural": "bougies"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "l'anniversaire",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lah-nee-vehr-sair",
+        "meaning": "the birthday / anniversary",
+        "notes": "Masculine noun, commonly used for birthdays",
+        "examples": [
+          ["Joyeux anniversaire!", "Happy birthday!"],
+          ["L'anniversaire de Marie est en janvier.", "Marie's birthday is in January."],
+          ["Nous célébrons son anniversaire dimanche.", "We are celebrating her birthday on Sunday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "anniversaire",
+          "feminine": "",
+          "masculinePlural": "anniversaires",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la fête",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah fait",
+        "meaning": "the party / celebration / feast day",
+        "notes": "Feminine noun, used for all types of celebrations",
+        "examples": [
+          ["Il y a une fête ce soir.", "There is a party tonight."],
+          ["Allons à la fête!", "Let's go to the celebration!"],
+          ["Nous organisons une grande fête pour l'anniversaire.", "We are organizing a big celebration for the birthday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "fête",
+          "masculinePlural": "",
+          "femininePlural": "fêtes"
+        }
+      },
+      {
+        "word": "le cadeau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh kah-doh",
+        "meaning": "the gift / present",
+        "notes": "Masculine noun, irregular plural cadeaux",
+        "examples": [
+          ["J'ai un cadeau pour toi.", "I have a gift for you."],
+          ["Les cadeaux sont sur la table.", "The gifts are on the table."],
+          ["Quel cadeau aimes-tu?", "What gift do you like?"]
+        ],
+        "special": "Irregular plural: cadeaux",
+        "forms": {
+          "masculine": "cadeau",
+          "feminine": "",
+          "masculinePlural": "cadeaux",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le gâteau",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh gah-toh",
+        "meaning": "the cake",
+        "notes": "Masculine noun, irregular plural gâteaux",
+        "examples": [
+          ["Le gâteau est délicieux.", "The cake is delicious."],
+          ["Coupe le gâteau!", "Cut the cake!"],
+          ["Elle prépare un gâteau au chocolat.", "She is preparing a chocolate cake."]
+        ],
+        "special": "Irregular plural: gâteaux",
+        "forms": {
+          "masculine": "gâteau",
+          "feminine": "",
+          "masculinePlural": "gâteaux",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la bougie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah boo-zhee",
+        "meaning": "the candle",
+        "notes": "Feminine noun",
+        "examples": [
+          ["Les bougies sont allumées.", "The candles are lit."],
+          ["Souffle les bougies!", "Blow out the candles!"],
+          ["Nous mettons des bougies sur le gâteau.", "We put candles on the cake."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "bougie",
+          "masculinePlural": "",
+          "femininePlural": "bougies"
+        }
+      },
+      {
+        "word": "fêter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "fay-tay",
+        "meaning": "to celebrate",
+        "notes": "Regular -ER verb",
+        "examples": [
+          ["Nous fêtons l'anniversaire de Paul.", "We are celebrating Paul's birthday."],
+          ["Elle fête ses vingt ans.", "She is celebrating her twentieth birthday."],
+          ["Tu veux fêter avec nous?", "Do you want to celebrate with us?"]
+        ],
+        "special": "Regular conjugation",
+        "forms": {
+          "je": "je fête",
+          "tu": "tu fêtes",
+          "il": "il/elle/on fête",
+          "nous": "nous fêtons",
+          "vous": "vous fêtez",
+          "ils": "ils/elles fêtent"
+        }
+      },
+      {
+        "word": "le ballon",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh bah-lohn",
+        "meaning": "the balloon / ball",
+        "notes": "Masculine noun",
+        "examples": [
+          ["Les ballons sont colorés.", "The balloons are colorful."],
+          ["Joue avec le ballon!", "Play with the ball!"],
+          ["Il y a des ballons rouges et bleus.", "There are red and blue balloons."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ballon",
+          "feminine": "",
+          "masculinePlural": "ballons",
+          "femininePlural": ""
+        }
+      }
+    ]
+  },
+  "grammar": {
+    "standard": {
+      "title": "Ordinal Numbers (premier, deuxième, troisième...)",
+      "explanation": "Ordinal numbers tell order or rank. Premier (1st) and première (1st feminine) are irregular and agree with gender. For other ordinals, add -ième to the cardinal number: deuxième (2nd), troisième (3rd), quatrième (4th), cinquième (5th), sixième (6th), septième (7th), huitième (8th), neuvième (9th — note: the f drops), dixième (10th). Most ordinals are invariable except premier/première. When talking about dates in French, use cardinal numbers after the first: le premier janvier (January 1st), but le deux février (February 2nd), le trois mars (March 3rd).",
+      "examples": [
+        {
+          "french": "C'est mon premier anniversaire en France.",
+          "english": "It's my first birthday in France."
+        },
+        {
+          "french": "Elle arrive en deuxième position.",
+          "english": "She arrives in second place."
+        },
+        {
+          "french": "C'est la troisième fête cette semaine.",
+          "english": "It's the third party this week."
+        },
+        {
+          "french": "Il a dix-neuf ans — c'est son anniversaire le dix-neuf mai.",
+          "english": "He is nineteen years old — his birthday is on May nineteenth."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Comment dit-on '1st' en français?",
+          "options": ["deuxième", "premier", "troisième"],
+          "correctAnswer": "premier",
+          "explanation": "Premier means 'first' and is irregular.",
+          "targetWord": "premier"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "C'est la ___ fois que je fête mon anniversaire ici.",
+          "options": null,
+          "correctAnswer": "première",
+          "explanation": "Première agrees with 'fois' (feminine). It is the first time.",
+          "targetWord": "première"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel est l'ordinal pour '2nd'?",
+          "options": ["deuxième", "dixième", "premier"],
+          "correctAnswer": "deuxième",
+          "explanation": "Deuxième is the ordinal for 2nd.",
+          "targetWord": "deuxième"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il arrive en ___ place à la course.",
+          "options": null,
+          "correctAnswer": "troisième",
+          "explanation": "Troisième = third. He arrives in third place.",
+          "targetWord": "troisième"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Mon anniversaire est le ___ janvier.",
+          "options": ["deux", "premier", "deuxième"],
+          "correctAnswer": "premier",
+          "explanation": "For dates, use cardinal except for the 1st: le premier janvier.",
+          "targetWord": "premier"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Ordinal Numbers — Formation, Agreement & Date Use",
+      "explanation": "Ordinal numbers express order and rank. Premier/première (1st) is irregular and agrees with gender and number. For ordinals from 2nd onward, add -ième to the cardinal: deuxième (2nd), troisième (3rd), quatrième (4th), cinquième (5th), sixième (6th), septième (7th), huitième (8th), neuvième (9th — the final e drops before adding -ième), dixième (10th). Ordinals beyond tenth: onzième (11th), douzième (12th), vingtième (20th), centième (100th). Ordinals are invariable except for premier/première. Last is expressed with dernier/dernière (last one) or le dernier (the last). Common expressions: en premier (first of all), pour la première fois (for the first time), au premier abord (at first sight), être le premier à [infinitive] (to be the first to [do something]). In dates: always use le premier for the 1st, cardinal numbers for all other days: le premier avril, le deux avril.",
+      "examples": [
+        {
+          "french": "C'est ma première fête d'anniversaire en France.",
+          "english": "It is my first birthday celebration in France."
+        },
+        {
+          "french": "Elle est arrivée en troisième position à la compétition.",
+          "english": "She arrived in third place in the competition."
+        },
+        {
+          "french": "Pour la première fois, je fête mon anniversaire avec des amis.",
+          "english": "For the first time, I am celebrating my birthday with friends."
+        },
+        {
+          "french": "C'est le vingtième anniversaire de leur mariage.",
+          "english": "It is the twentieth anniversary of their marriage."
+        },
+        {
+          "french": "Au premier abord, la fête semblait simple.",
+          "english": "At first glance, the party seemed simple."
+        },
+        {
+          "french": "Il a été le premier à arriver et le dernier à partir.",
+          "english": "He was the first to arrive and the last to leave."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quel est l'ordinal pour '5th'?",
+          "options": ["quatrième", "cinquième", "sixième", "septième"],
+          "correctAnswer": "cinquième",
+          "explanation": "Cinquième is the ordinal for 5th, formed from cinq.",
+          "targetWord": "cinquième"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "C'est la ___ fois que je viens à cette fête.",
+          "options": null,
+          "correctAnswer": "deuxième",
+          "explanation": "Deuxième agrees with 'fois' (feminine). It is the second time.",
+          "targetWord": "deuxième"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Comment exprime-t-on 'last' en français?",
+          "options": ["dernier", "premier", "dixième", "vingtième"],
+          "correctAnswer": "dernier",
+          "explanation": "Dernier/dernière means 'last'. Can be masculine or feminine.",
+          "targetWord": "dernier"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il est le ___ à arriver à la fête.",
+          "options": null,
+          "correctAnswer": "premier",
+          "explanation": "Premier means 'first'. He is the first to arrive at the party.",
+          "targetWord": "premier"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel ordinal correspond à '9th'? (Attention: neuf perd son e final)",
+          "options": ["huitième", "neuvième", "dixième", "onzième"],
+          "correctAnswer": "neuvième",
+          "explanation": "Neuvième is formed from neuf, with the e dropping before -ième.",
+          "targetWord": "neuvième"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Mon anniversaire est le ___ mai, pas le premier.",
+          "options": null,
+          "correctAnswer": "trois",
+          "explanation": "For dates after the 1st, use cardinal numbers: le trois mai = May 3rd.",
+          "targetWord": "trois"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Lequel ordinal se rapporte à '100th'?",
+          "options": ["vingtième", "centième", "dixième", "onzième"],
+          "correctAnswer": "centième",
+          "explanation": "Centième is the ordinal for 100th.",
+          "targetWord": "centième"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "C'est son ___ anniversaire — vingt ans!",
+          "options": null,
+          "correctAnswer": "vingtième",
+          "explanation": "Vingtième is the 20th ordinal. He is celebrating his 20th birthday.",
+          "targetWord": "vingtième"
+        }
+      ]
+    }
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! Dimanche, c'est l'anniversaire de Sophie. Nous organisons une surprise!"],
+        ["B", "C'est une bonne idée! Qu'est-ce que je peux faire?"],
+        ["A", "Tu peux acheter le gâteau à la boulangerie?"],
+        ["B", "Bien sûr! Quel gâteau aimes-tu?"],
+        ["A", "Elle aime le chocolat. Et tu mets des bougies?"],
+        ["B", "Oui, bien sûr. Et pour les cadeaux?"],
+        ["A", "Marie a le disque, et Luc a le ballon bleu."],
+        ["B", "Parfait! À dimanche pour la surprise!"]
+      ],
+      "questions": [
+        {
+          "question": "C'est l'anniversaire de qui?",
+          "options": ["Sophie", "Marie", "Luc"],
+          "correctAnswer": "Sophie"
+        },
+        {
+          "question": "Que fait B?",
+          "options": ["achète le gâteau", "achète les bougies", "achète le ballon"],
+          "correctAnswer": "achète le gâteau"
+        },
+        {
+          "question": "Quel gâteau aime Sophie?",
+          "options": ["vanille", "chocolat", "fraise"],
+          "correctAnswer": "chocolat"
+        }
+      ],
+      "summary": "Two friends plan a surprise birthday party for Sophie. One buys a chocolate cake with candles, while friends Marie and Luc contribute gifts."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Écoute, dimanche prochain, c'est l'anniversaire de Sophie. Elle aura vingt ans — un anniversaire important!"],
+        ["B", "Ah, c'est super! Vous organisez quelque chose?"],
+        ["A", "Oui, une petite fête. Nous avons besoin de beaucoup de choses. Tu peux nous aider?"],
+        ["B", "Bien sûr! Qu'est-ce que je dois faire?"],
+        ["A", "Peux-tu commander le gâteau à la boulangerie? Elle adore le chocolat avec des framboises."],
+        ["B", "D'accord. Et je dois apporter quelque chose pour la décoration?"],
+        ["A", "Oui, des ballons colorés et des bougies seraient parfaits. Et tu as une idée de cadeau?"],
+        ["B", "Elle parle souvent de musique. Un disque vinyle, peut-être?"],
+        ["A", "Excellente idée! C'est son premier anniversaire avec nous, donc c'est vraiment spécial. Merci beaucoup!"]
+      ],
+      "questions": [
+        {
+          "question": "Quel âge aura Sophie dimanche?",
+          "options": ["dix-huit ans", "dix-neuf ans", "vingt ans", "vingt-et-un ans"],
+          "correctAnswer": "vingt ans"
+        },
+        {
+          "question": "Que doit commander B?",
+          "options": ["un gâteau à la vanille", "un gâteau au chocolat avec des framboises", "des ballons et des bougies", "un disque vinyle"],
+          "correctAnswer": "un gâteau au chocolat avec des framboises"
+        },
+        {
+          "question": "Qu'est-ce que A apprécierait pour la décoration?",
+          "options": ["des fleurs", "des photos", "des ballons colorés et des bougies", "des drapeaux"],
+          "correctAnswer": "des ballons colorés et des bougies"
+        },
+        {
+          "question": "Pourquoi est-ce que cet anniversaire est spécial?",
+          "options": ["C'est le vingtième anniversaire de Sophie", "C'est son premier anniversaire avec eux", "C'est un anniversaire de mariage", "C'est l'anniversaire de A"],
+          "correctAnswer": "C'est son premier anniversaire avec eux"
+        }
+      ],
+      "summary": "Friends plan a special twentieth birthday celebration for Sophie, with one friend tasked to buy a chocolate cake with raspberries, decorations with colorful balloons and candles, while another suggests a vinyl record as a gift."
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'on met sur le gâteau à l'anniversaire?",
+        "options": ["des ballons", "des bougies", "des cadeaux"],
+        "correctAnswer": "des bougies",
+        "explanation": "On met des bougies sur le gâteau pour l'anniversaire. You put candles on the birthday cake.",
+        "targetWord": "bougie"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "C'est l'___ de Marie. Elle a vingt ans.",
+        "options": null,
+        "correctAnswer": "anniversaire",
+        "explanation": "L'anniversaire = the birthday. It is Marie's birthday.",
+        "targetWord": "anniversaire"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le plural de 'cadeau'?",
+        "options": ["cadeaus", "cadeaux", "cadeaux"],
+        "correctAnswer": "cadeaux",
+        "explanation": "Cadeau is masculine and has irregular plural: cadeaux (like gâteau/gâteaux).",
+        "targetWord": "cadeau"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ l'anniversaire de mon ami. (fêter)",
+        "options": null,
+        "correctAnswer": "fêtons",
+        "explanation": "Nous fêtons = we celebrate. Regular -ER verb conjugation for nous.",
+        "targetWord": "fêter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'une fête?",
+        "options": ["un gâteau", "une célébration", "un anniversaire"],
+        "correctAnswer": "une célébration",
+        "explanation": "Une fête = a celebration/party. It is a feminine noun.",
+        "targetWord": "fête"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Combien d'années Sophie fête-t-elle si c'est son anniversaire de vingtième?",
+        "options": ["vingt ans", "dix-neuf ans", "vingt-et-un ans", "dix-huit ans"],
+        "correctAnswer": "vingt ans",
+        "explanation": "Anniversaire de vingtième = 20th birthday. She is turning twenty years old.",
+        "targetWord": "anniversaire"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Les ___ sont colorés à la fête.",
+        "options": null,
+        "correctAnswer": "ballons",
+        "explanation": "Les ballons = the balloons. Plural of ballon (masculine noun).",
+        "targetWord": "ballon"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel verbe signifie 'to celebrate'?",
+        "options": ["manger", "fêter", "danser", "chanter"],
+        "correctAnswer": "fêter",
+        "explanation": "Fêter = to celebrate. C'est un verbe régulier -ER.",
+        "targetWord": "fêter"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle aime les ___ au chocolat pour son anniversaire.",
+        "options": null,
+        "correctAnswer": "gâteaux",
+        "explanation": "Les gâteaux = the cakes (plural). Irregular plural of gâteau.",
+        "targetWord": "gâteau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel pluriel pour 'cadeau'?",
+        "options": ["cadeaus", "cadeaux", "cadeauxs", "cadeauxi"],
+        "correctAnswer": "cadeaux",
+        "explanation": "Cadeau → cadeaux (irregular masculine plural, like gâteau/gâteaux).",
+        "targetWord": "cadeau"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Your friend is celebrating their birthday soon. Wish them happy birthday and ask about their celebration plans.",
+      "keyPhrases": [
+        "Joyeux anniversaire!",
+        "Comment tu vas fêter?",
+        "Qu'est-ce que tu fais?"
+      ],
+      "modelAnswer": "Joyeux anniversaire! Comment vas-tu fêter ton anniversaire? Est-ce que tu fais une fête avec des amis?",
+      "modelAnswerExplanation": "This response wishes them happy birthday (joyeux anniversaire), asks how they will celebrate (comment vas-tu fêter), and asks if they are having a party with friends. It uses tu form (informal, with friends) and simple present questions.",
+      "tip": "Use 'Joyeux anniversaire!' to greet someone on their birthday. Ask with 'Comment vas-tu fêter?' or 'Qu'est-ce que tu fais pour ton anniversaire?' to show interest in their plans."
+    },
+    "advanced": {
+      "scenario": "A friend is turning 25 this weekend. Wish them a happy 25th birthday and ask what they plan to do, mentioning specific celebration elements (cake, gifts, music, etc.).",
+      "keyPhrases": [
+        "Joyeux vingt-cinquième anniversaire!",
+        "Comment vas-tu célébrer cet anniversaire important?",
+        "Tu vas avoir un gâteau, de la musique, des cadeaux?"
+      ],
+      "modelAnswer": "Joyeux vingt-cinquième anniversaire! C'est un anniversaire important pour toi. Comment vas-tu le fêter? Tu organises une fête avec tes amis? Il y aura du gâteau au chocolat et des ballons colorés?",
+      "modelAnswerExplanation": "This advanced response uses the ordinal number 'vingt-cinquième' to acknowledge the milestone birthday. It references specific celebration elements (chocolate cake, colorful balloons) and uses multiple question forms to show genuine interest. The conditional 'il y aura' (there will be) demonstrates higher grammar structures.",
+      "tip": "For milestone birthdays, use ordinals: vingtième (20th), vingt-cinquième (25th), trentième (30th). Specific details like 'gâteau au chocolat' and 'ballons' make your conversation more engaging and show cultural understanding of French celebrations."
+    }
+  }
+}

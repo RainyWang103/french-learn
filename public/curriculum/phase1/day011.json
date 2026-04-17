@@ -26,6 +26,10 @@
           [
             "Il est deux heures.",
             "It is two o'clock."
+          ],
+          [
+            "À quelle heure arrivent-ils ?",
+            "What time are they arriving?"
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "On mange à midi.",
             "We eat at noon."
+          ],
+          [
+            "Je reviens à midi.",
+            "I come back at noon."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Tu es toujours en retard.",
             "You are always late."
+          ],
+          [
+            "Il est en retard pour le rendez-vous.",
+            "He is late for the appointment."
           ]
         ],
         "special": ""
@@ -103,6 +115,10 @@
           [
             "Je commence le travail à huit heures.",
             "I start work at eight o'clock."
+          ],
+          [
+            "Les vacances commencent demain.",
+            "The holidays start tomorrow."
           ]
         ],
         "special": ""
@@ -127,6 +143,10 @@
           [
             "Il y a sept jours dans une semaine.",
             "There are seven days in a week."
+          ],
+          [
+            "La semaine dernière était difficile.",
+            "Last week was difficult."
           ]
         ],
         "special": ""
@@ -154,6 +174,10 @@
           [
             "Il est deux heures.",
             "It is two o'clock."
+          ],
+          [
+            "Ils travaillent jusqu'à quelle heure ?",
+            "Until what time do they work?"
           ]
         ],
         "special": ""
@@ -179,6 +203,10 @@
           [
             "On mange à midi.",
             "We eat at noon."
+          ],
+          [
+            "Vers midi, le soleil est haut.",
+            "Around noon, the sun is high."
           ]
         ],
         "special": ""
@@ -204,6 +232,10 @@
           [
             "Tu es toujours en retard.",
             "You are always late."
+          ],
+          [
+            "Le bus est en retard de dix minutes.",
+            "The bus is ten minutes late."
           ]
         ],
         "special": ""
@@ -231,6 +263,10 @@
           [
             "Je commence le travail à huit heures.",
             "I start work at eight o'clock."
+          ],
+          [
+            "Nous commençons une nouvelle leçon.",
+            "We start a new lesson."
           ]
         ],
         "special": ""
@@ -255,6 +291,10 @@
           [
             "Il y a sept jours dans une semaine.",
             "There are seven days in a week."
+          ],
+          [
+            "Je suis occupé toute la semaine.",
+            "I am busy all week."
           ]
         ],
         "special": ""
@@ -280,6 +320,10 @@
           [
             "J'arrive dans un quart d'heure.",
             "I'll arrive in a quarter of an hour."
+          ],
+          [
+            "Attendez un quart d'heure, s'il vous plaît.",
+            "Wait a quarter of an hour, please."
           ]
         ],
         "special": ""
@@ -305,6 +349,10 @@
           [
             "Mon rendez-vous est à midi.",
             "My appointment is at noon."
+          ],
+          [
+            "Le rendez-vous chez le médecin est vendredi.",
+            "The doctor's appointment is on Friday."
           ]
         ],
         "special": ""

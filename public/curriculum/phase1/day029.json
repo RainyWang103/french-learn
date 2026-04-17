@@ -26,6 +26,10 @@
           [
             "Elle est contente aujourd'hui.",
             "She is happy today."
+          ],
+          [
+            "Tu es content de tes vacances ?",
+            "Are you happy with your vacation?"
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Ne sois pas triste !",
             "Don't be sad!"
+          ],
+          [
+            "Ce film est très triste.",
+            "This film is very sad."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Elle est en colère parce qu'il est en retard.",
             "She is angry because he is late."
+          ],
+          [
+            "Tu es en colère maintenant ?",
+            "Are you angry now?"
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "Elle est nerveuse parce qu'elle a un entretien.",
             "She is nervous because she has an interview."
+          ],
+          [
+            "Ils sont nerveux et stressés.",
+            "They are nervous and stressed."
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Ne sois pas inquiet, tout va bien.",
             "Don't be worried, everything is fine."
+          ],
+          [
+            "Je suis un peu inquiet pour mon ami.",
+            "I am a bit worried about my friend."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Elle est contente aujourd'hui.",
             "She is happy today."
+          ],
+          [
+            "Nous sommes contents de notre décision.",
+            "We are happy with our decision."
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "Ne sois pas triste !",
             "Don't be sad!"
+          ],
+          [
+            "Elle a regardé les nouvelles et elle était très triste.",
+            "She watched the news and she was very sad."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Elle est en colère parce qu'il est en retard.",
             "She is angry because he is late."
+          ],
+          [
+            "Pourquoi es-tu en colère ?",
+            "Why are you angry?"
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "Elle est nerveuse parce qu'elle a un entretien.",
             "She is nervous because she has an interview."
+          ],
+          [
+            "Il semble très nerveux ce matin.",
+            "He seems very nervous this morning."
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Ne sois pas inquiet, tout va bien.",
             "Don't be worried, everything is fine."
+          ],
+          [
+            "Les parents sont inquiets pour leurs enfants.",
+            "Parents are worried about their children."
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "Elle était très surprise par la nouvelle.",
             "She was very surprised by the news."
+          ],
+          [
+            "Ils sont surpris de cette décision.",
+            "They are surprised by this decision."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Quelle joie de te revoir !",
             "What a joy to see you again!"
+          ],
+          [
+            "Elle a accueilli la nouvelle avec joie.",
+            "She received the news with joy."
           ]
         ],
         "special": ""

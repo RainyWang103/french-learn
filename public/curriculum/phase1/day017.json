@@ -26,6 +26,10 @@
           [
             "Le restaurant est complet.",
             "The restaurant is full."
+          ],
+          [
+            "Aimes-tu ce restaurant ?",
+            "Do you like this restaurant?"
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Excusez-moi, monsieur le serveur !",
             "Excuse me, waiter!"
+          ],
+          [
+            "Le serveur est très gentil.",
+            "The waiter is very kind."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Je prends le plat principal.",
             "I'll have the main course."
+          ],
+          [
+            "Le plat est très bon.",
+            "The dish is very good."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "L'entrée est incluse dans le menu.",
             "The starter is included in the set menu."
+          ],
+          [
+            "Quelle entrée recommandez-vous ?",
+            "Which starter do you recommend?"
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Le dessert est délicieux.",
             "The dessert is delicious."
+          ],
+          [
+            "Je prends le dessert au chocolat.",
+            "I'll take the chocolate dessert."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Le restaurant est complet.",
             "The restaurant is full."
+          ],
+          [
+            "Ce restaurant a une excellente réputation.",
+            "This restaurant has an excellent reputation."
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "Excusez-moi, monsieur le serveur !",
             "Excuse me, waiter!"
+          ],
+          [
+            "Le serveur connaît bien les spécialités du restaurant.",
+            "The waiter knows the restaurant's specialties well."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Je prends le plat principal.",
             "I'll have the main course."
+          ],
+          [
+            "Ce plat contient du poisson.",
+            "This dish contains fish."
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "L'entrée est incluse dans le menu.",
             "The starter is included in the set menu."
+          ],
+          [
+            "L'entrée de ce restaurant est toujours délicieuse.",
+            "The starter at this restaurant is always delicious."
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Le dessert est délicieux.",
             "The dessert is delicious."
+          ],
+          [
+            "Ils partagent le dessert.",
+            "They share the dessert."
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "Nous partageons l'addition.",
             "We are splitting the bill."
+          ],
+          [
+            "L'addition est correcte.",
+            "The bill is correct."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Le service est compris — pas de pourboire nécessaire.",
             "Service is included — no tip necessary."
+          ],
+          [
+            "Le pourboire est cinq euros.",
+            "The tip is five euros."
           ]
         ],
         "special": ""

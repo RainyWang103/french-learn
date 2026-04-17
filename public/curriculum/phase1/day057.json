@@ -1,0 +1,721 @@
+{
+  "day": 57,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Professions & Jobs",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le boulanger",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "boulanger",
+          "feminine": "",
+          "masculinePlural": "boulangers",
+          "femininePlural": ""
+        },
+        "pronunciation": "luh boo-lahn-zhay",
+        "meaning": "the baker",
+        "notes": "masculine form; feminine is 'la boulangère'",
+        "examples": [
+          ["Le boulanger vend du pain.", "The baker sells bread."],
+          ["Mon père est boulanger.", "My father is a baker."],
+          ["J'aime acheter le pain chez le boulanger.", "I like to buy bread at the baker's shop."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'infirmière",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "forms": {
+          "masculine": "infirmier",
+          "feminine": "infirmière",
+          "masculinePlural": "infirmiers",
+          "femininePlural": "infirmières"
+        },
+        "pronunciation": "laN-feer-myair",
+        "meaning": "the nurse",
+        "notes": "infirmier (m), infirmière (f) — both genders exist",
+        "examples": [
+          ["L'infirmière travaille à l'hôpital.", "The nurse works at the hospital."],
+          ["Ma sœur est infirmière.", "My sister is a nurse."],
+          ["L'infirmière aide les patients.", "The nurse helps the patients."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'ingénieur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "ingénieur",
+          "feminine": "",
+          "masculinePlural": "ingénieurs",
+          "femininePlural": ""
+        },
+        "pronunciation": "laN-zhay-nyuhr",
+        "meaning": "the engineer",
+        "notes": "traditionally masculine; ingénieure becoming more common for females",
+        "examples": [
+          ["L'ingénieur conçoit des bâtiments.", "The engineer designs buildings."],
+          ["Elle est ingénieur informatique.", "She is a software engineer."],
+          ["L'ingénieur travaille dans une grande entreprise.", "The engineer works in a large company."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la profession",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "forms": {
+          "masculine": "",
+          "feminine": "profession",
+          "masculinePlural": "",
+          "femininePlural": "professions"
+        },
+        "pronunciation": "lah proh-fes-yohn",
+        "meaning": "the profession / job",
+        "notes": "always feminine",
+        "examples": [
+          ["Quelle est ta profession ?", "What is your profession?"],
+          ["Je change de profession.", "I am changing professions."],
+          ["Sa profession est très importante pour lui.", "His profession is very important to him."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'avocat",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "avocat",
+          "feminine": "",
+          "masculinePlural": "avocats",
+          "femininePlural": ""
+        },
+        "pronunciation": "lah-voh-kah",
+        "meaning": "the lawyer",
+        "notes": "Also means avocado in French (context determines meaning)",
+        "examples": [
+          ["L'avocat défend son client.", "The lawyer defends his client."],
+          ["Mon oncle est avocat.", "My uncle is a lawyer."],
+          ["L'avocat pose une question au tribunal.", "The lawyer asks a question in court."]
+        ],
+        "special": ""
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le boulanger",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "boulanger",
+          "feminine": "",
+          "masculinePlural": "boulangers",
+          "femininePlural": ""
+        },
+        "pronunciation": "luh boo-lahn-zhay",
+        "meaning": "the baker",
+        "notes": "masculine form; feminine is 'la boulangère'",
+        "examples": [
+          ["Le boulanger vend du pain frais chaque matin.", "The baker sells fresh bread every morning."],
+          ["Mon père est boulanger depuis vingt ans.", "My father has been a baker for twenty years."],
+          ["Le boulanger ouvre sa boutique à six heures du matin.", "The baker opens his shop at six in the morning."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'infirmière",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "forms": {
+          "masculine": "infirmier",
+          "feminine": "infirmière",
+          "masculinePlural": "infirmiers",
+          "femininePlural": "infirmières"
+        },
+        "pronunciation": "laN-feer-myair",
+        "meaning": "the nurse",
+        "notes": "infirmier (m), infirmière (f) — both genders exist",
+        "examples": [
+          ["L'infirmière travaille à l'hôpital depuis cinq ans.", "The nurse has worked at the hospital for five years."],
+          ["Ma sœur est infirmière et elle aime son travail.", "My sister is a nurse and she loves her work."],
+          ["L'infirmière soigne les patients avec dévouement.", "The nurse cares for patients with dedication."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'ingénieur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "ingénieur",
+          "feminine": "",
+          "masculinePlural": "ingénieurs",
+          "femininePlural": ""
+        },
+        "pronunciation": "laN-zhay-nyuhr",
+        "meaning": "the engineer",
+        "notes": "traditionally masculine; ingénieure becoming more common for females",
+        "examples": [
+          ["L'ingénieur conçoit des ponts et des routes.", "The engineer designs bridges and roads."],
+          ["Elle est ingénieur en informatique dans une grande entreprise.", "She is a software engineer at a large company."],
+          ["L'ingénieur résolve des problèmes techniques complexes.", "The engineer solves complex technical problems."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "la profession",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "forms": {
+          "masculine": "",
+          "feminine": "profession",
+          "masculinePlural": "",
+          "femininePlural": "professions"
+        },
+        "pronunciation": "lah proh-fes-yohn",
+        "meaning": "the profession / job",
+        "notes": "always feminine",
+        "examples": [
+          ["Quelle est votre profession exactement ?", "What is your profession exactly?"],
+          ["J'ai changé de profession pour poursuivre mon rêve.", "I changed professions to pursue my dream."],
+          ["La profession d'architecte demande beaucoup de créativité.", "The profession of architect requires a lot of creativity."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'avocat",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "avocat",
+          "feminine": "",
+          "masculinePlural": "avocats",
+          "femininePlural": ""
+        },
+        "pronunciation": "lah-voh-kah",
+        "meaning": "the lawyer",
+        "notes": "Also means avocado in French (context determines meaning)",
+        "examples": [
+          ["L'avocat défend son client avec passion.", "The lawyer defends his client with passion."],
+          ["Mon oncle est avocat spécialisé en droit commercial.", "My uncle is a lawyer specializing in commercial law."],
+          ["L'avocat étudie tous les documents du dossier.", "The lawyer studies all the case documents."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "le chauffeur",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "chauffeur",
+          "feminine": "",
+          "masculinePlural": "chauffeurs",
+          "femininePlural": ""
+        },
+        "pronunciation": "luh shoh-fuhr",
+        "meaning": "the driver / chauffeur",
+        "notes": "masculine form only in traditional usage",
+        "examples": [
+          ["Le chauffeur de taxi est très sympa.", "The taxi driver is very nice."],
+          ["Mon cousin est chauffeur professionnel.", "My cousin is a professional driver."],
+          ["Le chauffeur conduit prudemment sur l'autoroute.", "The driver drives carefully on the highway."]
+        ],
+        "special": ""
+      },
+      {
+        "word": "l'architecte",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "forms": {
+          "masculine": "architecte",
+          "feminine": "",
+          "masculinePlural": "architectes",
+          "femininePlural": ""
+        },
+        "pronunciation": "lar-shee-tekt",
+        "meaning": "the architect",
+        "notes": "traditionally masculine, but architecte can be used for any gender",
+        "examples": [
+          ["L'architecte a dessiné ce bâtiment moderne.", "The architect designed this modern building."],
+          ["Elle est architecte et travaille pour un cabinet renommé.", "She is an architect and works for a renowned firm."],
+          ["L'architecte présente son nouveau projet.", "The architect presents his new project."]
+        ],
+        "special": ""
+      }
+    ]
+  },
+  "grammar": {
+    "standard": {
+      "title": "Quel / Quelle / Quels / Quelles (Interrogative Adjective)",
+      "explanation": "Quel agrees with the noun it modifies. Use quel (masculine singular) / quelle (feminine singular) / quels (masculine plural) / quelles (feminine plural) to ask 'what' or 'which' before a noun. Examples: Quel est ton métier ? (What is your job?) / Quelle est ta profession ? (What is your profession?) / Quels sont tes loisirs ? (What are your hobbies?) / Quelles sont tes langues ? (What languages do you speak?). Quel can also be used as an exclamation: Quelle chance ! (What luck!) / Quel dommage ! (What a shame!)",
+      "examples": [
+        {
+          "french": "Quel est ton métier ?",
+          "english": "What is your job?"
+        },
+        {
+          "french": "Quelle est la profession de ta mère ?",
+          "english": "What is your mother's profession?"
+        },
+        {
+          "french": "Quels métiers t'intéressent ?",
+          "english": "Which jobs interest you?"
+        },
+        {
+          "french": "Quelle chance d'avoir ce travail !",
+          "english": "What luck to have this job!"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "_____ est ton métier ?",
+          "options": ["Quel", "Quelle", "Quels"],
+          "correctAnswer": "Quel",
+          "explanation": "métier is masculine singular, so use 'Quel'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ est la profession de ton père ?",
+          "options": ["Quel", "Quelle", "Quelles"],
+          "correctAnswer": "Quelle",
+          "explanation": "profession is feminine singular, so use 'Quelle'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ métiers t'intéressent le plus ?",
+          "correctAnswer": "Quels",
+          "explanation": "métiers is masculine plural, so use 'Quels'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ langues parles-tu ?",
+          "options": ["Quel", "Quelle", "Quelles"],
+          "correctAnswer": "Quelles",
+          "explanation": "langues is feminine plural, so use 'Quelles'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ dommage ! Je ne peux pas venir à la réunion.",
+          "correctAnswer": "Quel",
+          "explanation": "This is an exclamation. dommage is masculine singular, so use 'Quel'"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Quel / Quelle / Quels / Quelles — Agreement, Exclamations & Common Traps",
+      "explanation": "Quel has four forms that agree with the noun they modify: quel (masc sing), quelle (fem sing), quels (masc pl), quelles (fem pl). Use quel/quelle/etc. to ask 'what' or 'which' directly before a noun: Quel métier fais-tu ? (What job do you do?) / Quels projets avez-vous ? (What projects do you have?). Quel can also function as an exclamative adjective: Quel dommage ! (What a shame!) / Quelle surprise ! (What a surprise!) / Quels progrès ! (What progress!). Be careful: quel modifies a noun directly, while qu'est-ce que replaces the noun entirely. Compare: Quel métier fait-il ? (Which job does he do?) vs. Qu'est-ce qu'il fait ? (What does he do?). Quel also appears in indirect questions: Je ne sais pas quel métier il choisira. (I don't know which job he will choose.) / Dis-moi quels langues tu parles. (Tell me which languages you speak.)",
+      "examples": [
+        {
+          "french": "Quel est le métier de Marie ?",
+          "english": "What is Marie's job?"
+        },
+        {
+          "french": "Quelles sont tes ambitions professionnelles ?",
+          "english": "What are your professional ambitions?"
+        },
+        {
+          "french": "Je ne sais pas quels métiers m'intéressent vraiment.",
+          "english": "I don't know which jobs really interest me."
+        },
+        {
+          "french": "Quelle chance d'être avocat !",
+          "english": "What luck to be a lawyer!"
+        },
+        {
+          "french": "Quels emplois cherchez-vous exactement ?",
+          "english": "Which jobs are you looking for exactly?"
+        },
+        {
+          "french": "Elle m'a demandé quelle profession j'aimerais avoir.",
+          "english": "She asked me which profession I would like to have."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "_____ est ton emploi actuel ?",
+          "options": ["Quel", "Quelle", "Quels", "Qu'est-ce que"],
+          "correctAnswer": "Quel",
+          "explanation": "emploi is masculine singular. 'Quel' modifies the noun directly."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ métiers intéressent mes enfants ? Je n'en suis pas sûr.",
+          "options": ["Quel", "Quels", "Quelles", "Qu'est-ce que"],
+          "correctAnswer": "Quels",
+          "explanation": "métiers is masculine plural in an indirect question."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ professions considérez-vous comme les plus difficiles ?",
+          "correctAnswer": "Quelles",
+          "explanation": "professions is feminine plural, requiring 'Quelles'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Je ne comprends pas _____ tu veux faire comme métier.",
+          "options": ["quel", "quelle", "quels", "qu'est-ce que"],
+          "correctAnswer": "quel",
+          "explanation": "In an indirect question after 'comme', use 'quel' (masc sing) to match métier."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ succès ! Tu es devenue médecin !",
+          "correctAnswer": "Quel",
+          "explanation": "This is an exclamation. succès is masculine singular, requiring 'Quel'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Dis-moi _____ profession ton frère a choisie.",
+          "options": ["quel", "quelle", "quels", "quelles"],
+          "correctAnswer": "quelle",
+          "explanation": "profession is feminine singular in this indirect question."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ défis relèverez-vous dans votre carrière ?",
+          "correctAnswer": "Quels",
+          "explanation": "défis is masculine plural, requiring 'Quels'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ sont les qualités d'un bon ingénieur ?",
+          "options": ["Quel", "Quels", "Quelles", "Qu'est-ce que"],
+          "correctAnswer": "Quelles",
+          "explanation": "qualités is feminine plural, requiring 'Quelles'"
+        }
+      ]
+    }
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour ! Je suis Sophie. Quel est ton métier ?"],
+        ["B", "Bonjour Sophie ! Je m'appelle Marc. Je suis infirmier à l'hôpital."],
+        ["A", "C'est intéressant ! Tu aimes ton travail ?"],
+        ["B", "Oui, beaucoup ! Je travaille avec les patients tous les jours."],
+        ["A", "Et moi, je suis boulangère. Je fais du pain frais chaque matin."],
+        ["B", "Que c'est sympa ! Tes clients aiment ton pain ?"],
+        ["A", "Oui, très beaucoup. C'est un bon métier pour moi."],
+        ["B", "Je suis d'accord. Les deux métiers sont importants !"]
+      ],
+      "questions": [
+        {
+          "question": "Quel est le métier de Marc ?",
+          "options": ["Boulanger", "Infirmier", "Avocat"],
+          "correctAnswer": "Infirmier"
+        },
+        {
+          "question": "Quelle est la profession de Sophie ?",
+          "options": ["Infirmière", "Boulangère", "Ingénieure"],
+          "correctAnswer": "Boulangère"
+        },
+        {
+          "question": "Marc travaille où ?",
+          "options": ["À la boulangerie", "À l'école", "À l'hôpital"],
+          "correctAnswer": "À l'hôpital"
+        }
+      ],
+      "summary": "Sophie and Marc discuss their jobs: Marc is a nurse at a hospital and Sophie is a baker who makes fresh bread every morning."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Bonsoir ! Je suis Luc, architecte. Et vous, quel est votre métier exactement ?"],
+        ["B", "Enchanté Luc ! Je m'appelle Dominique. Je suis avocat spécialisé en droit commercial."],
+        ["A", "Fascinant ! Depuis combien de temps pratiquez-vous le droit ?"],
+        ["B", "Depuis quinze ans maintenant. J'aime vraiment ce domaine, même si c'est exigeant."],
+        ["A", "Et moi, je conçois des bâtiments pour des sociétés depuis dix ans."],
+        ["B", "Quels projets vous intéressent le plus dans votre profession ?"],
+        ["A", "Les projets modernes et écologiques me passionnent énormément."],
+        ["B", "C'est admirable ! Nous devrions collaborer sur un projet un jour."],
+        ["A", "Excellente idée ! Voici ma carte de visite."]
+      ],
+      "questions": [
+        {
+          "question": "Quelle est la spécialisation de Dominique en tant qu'avocat ?",
+          "options": ["Le droit commercial", "Le droit immobilier", "Le droit pénal", "Le droit social"],
+          "correctAnswer": "Le droit commercial"
+        },
+        {
+          "question": "Depuis combien de temps Luc est-il architecte ?",
+          "options": ["Cinq ans", "Dix ans", "Quinze ans", "Vingt ans"],
+          "correctAnswer": "Dix ans"
+        },
+        {
+          "question": "Quels types de projets passionnent Luc ?",
+          "options": ["Les bâtiments anciens", "Les projets modernes et écologiques", "Les petites maisons", "Les projets commerciaux"],
+          "correctAnswer": "Les projets modernes et écologiques"
+        },
+        {
+          "question": "Qu'est-ce que Dominique propose à Luc à la fin ?",
+          "options": ["De changer de profession", "De collaborer sur un projet", "De prendre du café", "De visiter un chantier"],
+          "correctAnswer": "De collaborer sur un projet"
+        }
+      ],
+      "summary": "Luc, an architect, and Dominique, a commercial lawyer, meet and discuss their careers. Luc has been designing modern and ecological buildings for ten years, while Dominique has been practicing commercial law for fifteen years. They express interest in collaborating."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Quel / Quelle / Quels / Quelles (Interrogative Adjective)",
+      "explanation": "Quel agrees with the noun it modifies. Use quel (masculine singular) / quelle (feminine singular) / quels (masculine plural) / quelles (feminine plural) to ask 'what' or 'which' before a noun. Examples: Quel est ton métier ? (What is your job?) / Quelle est ta profession ? (What is your profession?) / Quels sont tes loisirs ? (What are your hobbies?) / Quelles sont tes langues ? (What languages do you speak?). Quel can also be used as an exclamation: Quelle chance ! (What luck!) / Quel dommage ! (What a shame!)",
+      "examples": [
+        {
+          "french": "Quel est ton métier ?",
+          "english": "What is your job?"
+        },
+        {
+          "french": "Quelle est la profession de ta mère ?",
+          "english": "What is your mother's profession?"
+        },
+        {
+          "french": "Quels métiers t'intéressent ?",
+          "english": "Which jobs interest you?"
+        },
+        {
+          "french": "Quelle chance d'avoir ce travail !",
+          "english": "What luck to have this job!"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "_____ est ton métier ?",
+          "options": ["Quel", "Quelle", "Quels"],
+          "correctAnswer": "Quel",
+          "explanation": "métier is masculine singular, so use 'Quel'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ est la profession de ton père ?",
+          "options": ["Quel", "Quelle", "Quelles"],
+          "correctAnswer": "Quelle",
+          "explanation": "profession is feminine singular, so use 'Quelle'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ métiers t'intéressent le plus ?",
+          "correctAnswer": "Quels",
+          "explanation": "métiers is masculine plural, so use 'Quels'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ langues parles-tu ?",
+          "options": ["Quel", "Quelle", "Quelles"],
+          "correctAnswer": "Quelles",
+          "explanation": "langues is feminine plural, so use 'Quelles'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ dommage ! Je ne peux pas venir à la réunion.",
+          "correctAnswer": "Quel",
+          "explanation": "This is an exclamation. dommage is masculine singular, so use 'Quel'"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Quel / Quelle / Quels / Quelles — Agreement, Exclamations & Common Traps",
+      "explanation": "Quel has four forms that agree with the noun they modify: quel (masc sing), quelle (fem sing), quels (masc pl), quelles (fem pl). Use quel/quelle/etc. to ask 'what' or 'which' directly before a noun: Quel métier fais-tu ? (What job do you do?) / Quels projets avez-vous ? (What projects do you have?). Quel can also function as an exclamative adjective: Quel dommage ! (What a shame!) / Quelle surprise ! (What a surprise!) / Quels progrès ! (What progress!). Be careful: quel modifies a noun directly, while qu'est-ce que replaces the noun entirely. Compare: Quel métier fait-il ? (Which job does he do?) vs. Qu'est-ce qu'il fait ? (What does he do?). Quel also appears in indirect questions: Je ne sais pas quel métier il choisira. (I don't know which job he will choose.) / Dis-moi quels langues tu parles. (Tell me which languages you speak.)",
+      "examples": [
+        {
+          "french": "Quel est le métier de Marie ?",
+          "english": "What is Marie's job?"
+        },
+        {
+          "french": "Quelles sont tes ambitions professionnelles ?",
+          "english": "What are your professional ambitions?"
+        },
+        {
+          "french": "Je ne sais pas quels métiers m'intéressent vraiment.",
+          "english": "I don't know which jobs really interest me."
+        },
+        {
+          "french": "Quelle chance d'être avocat !",
+          "english": "What luck to be a lawyer!"
+        },
+        {
+          "french": "Quels emplois cherchez-vous exactement ?",
+          "english": "Which jobs are you looking for exactly?"
+        },
+        {
+          "french": "Elle m'a demandé quelle profession j'aimerais avoir.",
+          "english": "She asked me which profession I would like to have."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "_____ est ton emploi actuel ?",
+          "options": ["Quel", "Quelle", "Quels", "Qu'est-ce que"],
+          "correctAnswer": "Quel",
+          "explanation": "emploi is masculine singular. 'Quel' modifies the noun directly."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ métiers intéressent mes enfants ? Je n'en suis pas sûr.",
+          "options": ["Quel", "Quels", "Quelles", "Qu'est-ce que"],
+          "correctAnswer": "Quels",
+          "explanation": "métiers is masculine plural in an indirect question."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ professions considérez-vous comme les plus difficiles ?",
+          "correctAnswer": "Quelles",
+          "explanation": "professions is feminine plural, requiring 'Quelles'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Je ne comprends pas _____ tu veux faire comme métier.",
+          "options": ["quel", "quelle", "quels", "qu'est-ce que"],
+          "correctAnswer": "quel",
+          "explanation": "In an indirect question after 'comme', use 'quel' (masc sing) to match métier."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ succès ! Tu es devenue médecin !",
+          "correctAnswer": "Quel",
+          "explanation": "This is an exclamation. succès is masculine singular, requiring 'Quel'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Dis-moi _____ profession ton frère a choisie.",
+          "options": ["quel", "quelle", "quels", "quelles"],
+          "correctAnswer": "quelle",
+          "explanation": "profession is feminine singular in this indirect question."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "_____ défis relèverez-vous dans votre carrière ?",
+          "correctAnswer": "Quels",
+          "explanation": "défis is masculine plural, requiring 'Quels'"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "_____ sont les qualités d'un bon ingénieur ?",
+          "options": ["Quel", "Quels", "Quelles", "Qu'est-ce que"],
+          "correctAnswer": "Quelles",
+          "explanation": "qualités is feminine plural, requiring 'Quelles'"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le métier d'une personne qui vend du pain ?",
+        "options": ["L'avocat", "Le boulanger", "L'ingénieur"],
+        "correctAnswer": "Le boulanger",
+        "explanation": "Un boulanger is a baker who sells bread.",
+        "targetWord": "boulanger"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ma tante est _____ à l'hôpital.",
+        "options": ["infirmière", "boulangère", "avocate"],
+        "correctAnswer": "infirmière",
+        "explanation": "Une infirmière is a nurse who works at a hospital.",
+        "targetWord": "infirmière"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le métier d'une personne qui conçoit des bâtiments ?",
+        "options": ["L'avocat", "Le chauffeur", "L'ingénieur"],
+        "correctAnswer": "L'ingénieur",
+        "explanation": "Un ingénieur is an engineer who designs buildings.",
+        "targetWord": "ingénieur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Quelle est ta _____ ? Médecin ou infirmière ?",
+        "options": ["profession", "métier", "travail"],
+        "correctAnswer": "profession",
+        "explanation": "Profession is a noun meaning 'profession' or 'job'.",
+        "targetWord": "profession"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Mon oncle défend les clients au tribunal. Il est _____ .",
+        "options": ["boulanger", "avocat", "infirmier"],
+        "correctAnswer": "avocat",
+        "explanation": "Un avocat is a lawyer who defends clients in court.",
+        "targetWord": "avocat"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le métier d'une personne qui vend du pain frais chaque matin ?",
+        "options": ["L'avocat", "Le boulanger", "L'ingénieur", "Le chauffeur"],
+        "correctAnswer": "Le boulanger",
+        "explanation": "Un boulanger is a baker who sells fresh bread every morning.",
+        "targetWord": "boulanger"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ma sœur travaille à l'hôpital. Elle est _____ depuis cinq ans.",
+        "options": ["avocate", "infirmière", "boulangère", "architecte"],
+        "correctAnswer": "infirmière",
+        "explanation": "Une infirmière is a nurse. This matches 'travaille à l'hôpital'.",
+        "targetWord": "infirmière"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel métier consiste à concevoir des bâtiments modernes et écologiques ?",
+        "options": ["L'avocat", "Le chauffeur", "L'architecte", "L'infirmier"],
+        "correctAnswer": "L'architecte",
+        "explanation": "Un architecte designs buildings, including modern and ecological ones.",
+        "targetWord": "architecte"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Mon ami est _____ spécialisé en droit commercial.",
+        "options": ["architecte", "avocat", "chauffeur", "ingénieur"],
+        "correctAnswer": "avocat",
+        "explanation": "Un avocat (lawyer) can specialize in commercial law.",
+        "targetWord": "avocat"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel métier consiste à conduire un taxi ou un autobus ?",
+        "options": ["Le boulanger", "L'ingénieur", "Le chauffeur", "L'architecte"],
+        "correctAnswer": "Le chauffeur",
+        "explanation": "Un chauffeur is a driver who drives taxis, buses, or other vehicles.",
+        "targetWord": "chauffeur"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at a networking event. Introduce yourself with your name and job, then ask a new person about their profession using 'Quel est ton métier ?'",
+      "keyPhrases": [
+        "Je m'appelle... Je suis boulanger/infirmière/avocat",
+        "Quel est ton métier ?",
+        "C'est un métier intéressant !",
+        "Depuis combien de temps fais-tu ce travail ?"
+      ],
+      "modelAnswer": "Bonjour ! Je m'appelle Sophie. Je suis boulangère. Et toi, quel est ton métier ?",
+      "modelAnswerExplanation": "This response introduces yourself, states your profession, and asks about the other person's job using the correct form of 'quel' (Quel est ton métier).",
+      "tip": "Remember to use the correct gender form of your profession (boulanger vs. boulangère). Use 'Quel est ton métier ?' to ask someone's job."
+    },
+    "advanced": {
+      "scenario": "You are at a professional conference. Introduce yourself with your name and profession. Ask which jobs interest the other person using 'Quels métiers t'intéressent ?' Then discuss indirect questions about professions and ask about their specialization if applicable.",
+      "keyPhrases": [
+        "Je suis [profession] spécialisé(e) en [specialization]",
+        "Quels métiers t'intéressent le plus ?",
+        "Depuis combien de temps exercez-vous cette profession ?",
+        "Je ne sais pas quel métier choisir",
+        "Quelles sont vos ambitions professionnelles ?"
+      ],
+      "modelAnswer": "Enchanté ! Je m'appelle Luc, je suis architecte spécialisé en bâtiments écologiques. Quels métiers vous intéressent particulièrement ?",
+      "modelAnswerExplanation": "This response introduces yourself with a specialization, uses 'Quels métiers' (which jobs) to ask about the other person's interests, and employs formal vous to show professionalism. It also demonstrates using quel in a direct question.",
+      "tip": "Use different forms of 'quel' depending on context: 'Quel métier' (singular), 'Quels métiers' (plural). In indirect questions, say 'Je ne sais pas quel métier...' Include your specialization to make the conversation richer."
+    }
+  }
+}

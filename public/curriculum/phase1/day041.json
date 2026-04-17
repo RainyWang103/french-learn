@@ -20,6 +20,10 @@
           [
             "Mon bureau est au troisième étage.",
             "My office is on the third floor."
+          ],
+          [
+            "Le bureau de poste est près d'ici.",
+            "The post office is near here."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "Ma collègue s'appelle Sophie.",
             "My (female) colleague is called Sophie."
+          ],
+          [
+            "Mes collègues sont très sympathiques.",
+            "My colleagues are very nice."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Elle travaille sur son ordinateur portable.",
             "She is working on her laptop."
+          ],
+          [
+            "J'aime mon ordinateur.",
+            "I like my computer."
           ]
         ],
         "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly.",
@@ -95,6 +107,10 @@
           [
             "La réunion dure deux heures.",
             "The meeting lasts two hours."
+          ],
+          [
+            "La réunion commence maintenant.",
+            "The meeting starts now."
           ]
         ],
         "special": "",
@@ -120,6 +136,10 @@
           [
             "Il cherche du travail depuis un mois.",
             "He has been looking for work for a month."
+          ],
+          [
+            "Le travail est intéressant.",
+            "The work is interesting."
           ]
         ],
         "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation).",
@@ -147,6 +167,10 @@
           [
             "Mon bureau est au troisième étage.",
             "My office is on the third floor."
+          ],
+          [
+            "Elle a deux bureaux — un à Paris et un à Marseille.",
+            "She has two offices — one in Paris and one in Marseille."
           ]
         ],
         "special": "",
@@ -172,6 +196,10 @@
           [
             "Ma collègue s'appelle Sophie.",
             "My (female) colleague is called Sophie."
+          ],
+          [
+            "Nous travaillons avec nos collègues depuis trois ans.",
+            "We have been working with our colleagues for three years."
           ]
         ],
         "special": "",
@@ -197,6 +225,10 @@
           [
             "Elle travaille sur son ordinateur portable.",
             "She is working on her laptop."
+          ],
+          [
+            "Allume l'ordinateur, s'il te plaît.",
+            "Turn on the computer, please."
           ]
         ],
         "special": "The word 'ordinateur' was invented specifically for French — most other languages borrowed 'computer' directly.",
@@ -222,6 +254,10 @@
           [
             "La réunion dure deux heures.",
             "The meeting lasts two hours."
+          ],
+          [
+            "Annulons la réunion de demain.",
+            "Let's cancel tomorrow's meeting."
           ]
         ],
         "special": "",
@@ -247,6 +283,10 @@
           [
             "Il cherche du travail depuis un mois.",
             "He has been looking for work for a month."
+          ],
+          [
+            "Aller au travail en voiture.",
+            "To go to work by car."
           ]
         ],
         "special": "Irregular plural: 'les travaux' (public works, roadworks, renovation).",
@@ -272,6 +312,10 @@
           [
             "Elle est la patronne de cette entreprise.",
             "She is the owner/boss of this company."
+          ],
+          [
+            "Je dois parler à mon patron demain.",
+            "I must speak to my boss tomorrow."
           ]
         ],
         "special": "",
@@ -297,6 +341,10 @@
           [
             "Les offres d'emploi sont en ligne.",
             "The job adverts are online."
+          ],
+          [
+            "Cet emploi est parfait pour toi.",
+            "This job is perfect for you."
           ]
         ],
         "special": "",

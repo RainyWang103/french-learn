@@ -1,0 +1,840 @@
+{
+  "day": 61,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Technology & Communication",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le téléphone",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tay-lay-fon",
+        "meaning": "the telephone",
+        "notes": "Formal term for telephone; portable is more commonly used for mobile phones",
+        "examples": [
+          [
+            "Je cherche le téléphone.",
+            "I'm looking for the telephone."
+          ],
+          [
+            "Le téléphone est sur la table.",
+            "The telephone is on the table."
+          ],
+          [
+            "Elle utilise le téléphone pour appeler.",
+            "She uses the telephone to call."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "téléphone",
+          "feminine": "",
+          "masculinePlural": "téléphones",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le portable",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh por-tabl",
+        "meaning": "the mobile phone / laptop",
+        "notes": "Can mean mobile phone or portable computer; context determines meaning",
+        "examples": [
+          [
+            "Mon portable est en charge.",
+            "My mobile phone is charging."
+          ],
+          [
+            "Je vais utiliser mon portable pour travailler.",
+            "I'm going to use my laptop to work."
+          ],
+          [
+            "Tu as ton portable avec toi?",
+            "Do you have your mobile phone with you?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "portable",
+          "feminine": "",
+          "masculinePlural": "portables",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le message",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh mes-ahzh",
+        "meaning": "the message",
+        "notes": "Used for text messages, emails, or any written communication",
+        "examples": [
+          [
+            "Tu as reçu un message.",
+            "You received a message."
+          ],
+          [
+            "Je vais envoyer un message à mon ami.",
+            "I'm going to send a message to my friend."
+          ],
+          [
+            "Lis ce message avec attention.",
+            "Read this message carefully."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "message",
+          "feminine": "",
+          "masculinePlural": "messages",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'internet",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "laN-tehr-net",
+        "meaning": "the internet",
+        "notes": "Always used with definite article; m is silent",
+        "examples": [
+          [
+            "L'internet est très rapide chez moi.",
+            "The internet is very fast at my place."
+          ],
+          [
+            "Je vais utiliser l'internet pour faire les devoirs.",
+            "I'm going to use the internet to do my homework."
+          ],
+          [
+            "L'internet ne fonctionne pas aujourd'hui.",
+            "The internet is not working today."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "internet",
+          "feminine": "",
+          "masculinePlural": "internet",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le site",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh seet",
+        "meaning": "the website / site",
+        "notes": "Short for 'site web' or 'site internet'",
+        "examples": [
+          [
+            "Ce site est très utile.",
+            "This website is very useful."
+          ],
+          [
+            "Quel site préfères-tu?",
+            "Which website do you prefer?"
+          ],
+          [
+            "Je visite ce site tous les jours.",
+            "I visit this website every day."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "site",
+          "feminine": "",
+          "masculinePlural": "sites",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le téléphone",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tay-lay-fon",
+        "meaning": "the telephone",
+        "notes": "Formal term for telephone; portable is more commonly used for mobile phones",
+        "examples": [
+          [
+            "Je cherche le téléphone.",
+            "I'm looking for the telephone."
+          ],
+          [
+            "Le téléphone est sur la table.",
+            "The telephone is on the table."
+          ],
+          [
+            "Décrochez le téléphone s'il vous plaît.",
+            "Please pick up the telephone."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "téléphone",
+          "feminine": "",
+          "masculinePlural": "téléphones",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le portable",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh por-tabl",
+        "meaning": "the mobile phone / laptop",
+        "notes": "Can mean mobile phone or portable computer; context determines meaning",
+        "examples": [
+          [
+            "Mon portable est en charge.",
+            "My mobile phone is charging."
+          ],
+          [
+            "Je vais utiliser mon portable pour travailler.",
+            "I'm going to use my laptop to work."
+          ],
+          [
+            "Où est ton portable? Je ne le vois pas.",
+            "Where is your mobile phone? I don't see it."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "portable",
+          "feminine": "",
+          "masculinePlural": "portables",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le message",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh mes-ahzh",
+        "meaning": "the message",
+        "notes": "Used for text messages, emails, or any written communication",
+        "examples": [
+          [
+            "Tu as reçu un message.",
+            "You received a message."
+          ],
+          [
+            "Je vais envoyer un message à mon ami.",
+            "I'm going to send a message to my friend."
+          ],
+          [
+            "Réponds à ce message immédiatement.",
+            "Reply to this message immediately."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "message",
+          "feminine": "",
+          "masculinePlural": "messages",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'internet",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "laN-tehr-net",
+        "meaning": "the internet",
+        "notes": "Always used with definite article; m is silent",
+        "examples": [
+          [
+            "L'internet est très rapide chez moi.",
+            "The internet is very fast at my place."
+          ],
+          [
+            "Je vais utiliser l'internet pour faire les devoirs.",
+            "I'm going to use the internet to do my homework."
+          ],
+          [
+            "Sans l'internet, nous ne pouvons pas communiquer.",
+            "Without the internet, we cannot communicate."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "internet",
+          "feminine": "",
+          "masculinePlural": "internet",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le site",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh seet",
+        "meaning": "the website / site",
+        "notes": "Short for 'site web' or 'site internet'",
+        "examples": [
+          [
+            "Ce site est très utile.",
+            "This website is very useful."
+          ],
+          [
+            "Quel site préfères-tu?",
+            "Which website do you prefer?"
+          ],
+          [
+            "Le site a beaucoup d'informations.",
+            "The website has lots of information."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "site",
+          "feminine": "",
+          "masculinePlural": "sites",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le clavier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh klah-vyay",
+        "meaning": "the keyboard",
+        "notes": "Computer keyboard; literally 'the key-er'",
+        "examples": [
+          [
+            "Le clavier est noir.",
+            "The keyboard is black."
+          ],
+          [
+            "Je tape sur le clavier.",
+            "I'm typing on the keyboard."
+          ],
+          [
+            "Où est le clavier de l'ordinateur?",
+            "Where is the computer keyboard?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "clavier",
+          "feminine": "",
+          "masculinePlural": "claviers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la souris",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah soo-ree",
+        "meaning": "the mouse (computer) / mouse (animal)",
+        "notes": "Same word for computer mouse and the animal; context clarifies",
+        "examples": [
+          [
+            "La souris est grise.",
+            "The mouse is grey."
+          ],
+          [
+            "Je clique avec la souris.",
+            "I'm clicking with the mouse."
+          ],
+          [
+            "La souris fonctionne bien.",
+            "The mouse works well."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "souris",
+          "masculinePlural": "",
+          "femininePlural": "souris"
+        }
+      }
+    ]
+  },
+  "grammar": {
+    "standard": {
+      "title": "Voir (Present Tense)",
+      "explanation": "Voir (to see) is an irregular verb. Full present tense: je vois, tu vois, il/elle/on voit, nous voyons, vous voyez, ils/elles voient. Common expressions include: voir + infinitive to describe what you can see happening (Je vois arriver le bus — I can see the bus coming), on verra (we'll see), tu vois? (you see? / do you get it?), and voir venir (to wait and see). This verb is essential for describing what you perceive.",
+      "examples": [
+        {
+          "french": "Je vois un message sur mon téléphone.",
+          "english": "I see a message on my phone."
+        },
+        {
+          "french": "Tu vois l'internet sur le site?",
+          "english": "Do you see the internet on the website?"
+        },
+        {
+          "french": "Nous voyons le portable sur la table.",
+          "english": "We see the mobile phone on the table."
+        },
+        {
+          "french": "Ils voient le clavier noir.",
+          "english": "They see the black keyboard."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la conjugaison correcte pour 'je' avec le verbe voir?",
+          "options": [
+            "je voie",
+            "je vois",
+            "je voir"
+          ],
+          "correctAnswer": "je vois",
+          "explanation": "Voir is irregular. 'Je vois' is the correct first-person singular form."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ le message sur le téléphone?",
+          "correctAnswer": "vois",
+          "explanation": "The tu form of voir in present tense is 'vois'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: Nous ___ l'internet est rapide.",
+          "options": [
+            "voyez",
+            "voyons",
+            "voir"
+          ],
+          "correctAnswer": "voyons",
+          "explanation": "The nous form of voir is 'voyons'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ les sites intéressants.",
+          "correctAnswer": "voient",
+          "explanation": "The ils form of voir is 'voient'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Vous ___ la souris?",
+          "options": [
+            "voyez",
+            "voyons",
+            "vois"
+          ],
+          "correctAnswer": "voyez",
+          "explanation": "The vous form of voir is 'voyez'."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Voir — Present Tense, Compounds & Common Expressions",
+      "explanation": "Voir (to see) is a core irregular verb with multiple related compounds. Present tense: je vois, tu vois, il/elle/on voit, nous voyons, vous voyez, ils/elles voient. Related verbs include: revoir (to see again), prévoir (to foresee or plan), entrevoir (to catch a glimpse of), and pourvoir (to provide — though different root). Key reflexive and idiomatic expressions: se voir (to meet each other, to see oneself — reflexive), avoir l'air de voir (to seem to see), vouloir voir (to want to see), laisser voir (to let show). Understanding these compounds enriches comprehension of texts and spoken French about planning, communication, and perception.",
+      "examples": [
+        {
+          "french": "Je vois un message sur mon téléphone.",
+          "english": "I see a message on my phone."
+        },
+        {
+          "french": "Tu veux revoir mon site?",
+          "english": "Do you want to see my website again?"
+        },
+        {
+          "french": "Nous prévoyons utiliser l'internet demain.",
+          "english": "We plan to use the internet tomorrow."
+        },
+        {
+          "french": "Ils entrevojent une solution avec le clavier.",
+          "english": "They catch a glimpse of a solution with the keyboard."
+        },
+        {
+          "french": "Vous voulez voir la souris?",
+          "english": "Do you want to see the mouse?"
+        },
+        {
+          "french": "Nous nous voyons sur le site demain.",
+          "english": "We're seeing each other on the website tomorrow."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quel est le sens de 'revoir'?",
+          "options": [
+            "to see before",
+            "to see again",
+            "to see after",
+            "to refuse to see"
+          ],
+          "correctAnswer": "to see again",
+          "explanation": "'Revoir' means 'to see again' — re- is a prefix meaning 'again'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ utiliser l'internet cette semaine.",
+          "correctAnswer": "prévois",
+          "explanation": "Prévoir means to plan or foresee. 'Je prévois' is the first-person singular."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: Nous ___ sur le site demain matin.",
+          "options": [
+            "nous voient",
+            "nous voyons",
+            "nous voyez"
+          ],
+          "correctAnswer": "nous voyons",
+          "explanation": "The nous form of voir is 'voyons'. This describes what they do (see)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elles ___ une nouvelle approche avec le clavier.",
+          "correctAnswer": "entrevoient",
+          "explanation": "Entrevoir (to catch a glimpse) in third person plural is 'entrevoient'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que 'se voir' signifie?",
+          "options": [
+            "to see oneself",
+            "to meet each other",
+            "to see each other / to meet",
+            "to refuse to see"
+          ],
+          "correctAnswer": "to see each other / to meet",
+          "explanation": "Se voir (reflexive) means 'to see each other' or 'to meet' in a mutual sense."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu veux ___ mon portable?",
+          "correctAnswer": "voir",
+          "explanation": "After 'veux' (want), we use the infinitive 'voir' (to see)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Laisser voir signifie...",
+          "options": [
+            "to let go of seeing",
+            "to let show / to reveal",
+            "to see later",
+            "to see first"
+          ],
+          "correctAnswer": "to let show / to reveal",
+          "explanation": "'Laisser voir' means 'to let show' or 'to reveal' something."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ le message sur le site?",
+          "correctAnswer": "voyez",
+          "explanation": "The vous form of voir in present tense is 'voyez'."
+        }
+      ]
+    }
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour! Tu vois mon nouveau portable?"
+        ],
+        [
+          "B",
+          "Oui, il est très beau! Tu as un message?"
+        ],
+        [
+          "A",
+          "Oui, j'ai un message sur une application. Regarde!"
+        ],
+        [
+          "B",
+          "C'est quoi cette application? Je vois l'écran, mais je ne comprends pas."
+        ],
+        [
+          "A",
+          "C'est une application de messages. Tu peux envoyer des messages à tes amis."
+        ],
+        [
+          "B",
+          "Ah, je comprends! C'est comme l'internet sur le téléphone?"
+        ],
+        [
+          "A",
+          "Oui, exactement! Tu veux essayer?"
+        ],
+        [
+          "B",
+          "D'accord! Comment ça marche?"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que A montre à B?",
+          "options": [
+            "un message",
+            "un clavier",
+            "un site"
+          ],
+          "correctAnswer": "un message"
+        },
+        {
+          "question": "Quelle application A utilise?",
+          "options": [
+            "un site internet",
+            "une application de messages",
+            "une souris"
+          ],
+          "correctAnswer": "une application de messages"
+        },
+        {
+          "question": "Est-ce que B veut essayer?",
+          "options": [
+            "Non, il refuse",
+            "Oui, il dit d'accord",
+            "Non, il va partir"
+          ],
+          "correctAnswer": "Oui, il dit d'accord"
+        }
+      ],
+      "summary": "A shows B a new messaging application on a mobile phone and explains how to send messages to friends."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Grand-mère! Viens voir mon nouveau portable. C'est un smartphone!"
+        ],
+        [
+          "B",
+          "Oh, c'est moderne! Qu'est-ce que tu fais avec ça?"
+        ],
+        [
+          "A",
+          "J'utilise une application de messages. Tu vois l'écran ici?"
+        ],
+        [
+          "B",
+          "Oui, je vois. C'est difficile. Comment on envoie un message?"
+        ],
+        [
+          "A",
+          "Tu appuies ici avec ton doigt. Tu veux essayer?"
+        ],
+        [
+          "B",
+          "D'accord, je veux essayer. Mais c'est compliqué!"
+        ],
+        [
+          "A",
+          "Non, non! C'est facile. Regarde, tu utilises le clavier pour taper le message."
+        ],
+        [
+          "B",
+          "Ah, je comprends! C'est comme une souris sur l'ordinateur?"
+        ],
+        [
+          "A",
+          "Presque! Mais tu touches l'écran avec ton doigt. Tu peux aussi appeler tes amis."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que A montre à B?",
+          "options": [
+            "un téléphone",
+            "un site internet",
+            "un portable intelligent",
+            "un clavier"
+          ],
+          "correctAnswer": "un portable intelligent"
+        },
+        {
+          "question": "Comment on envoie un message sur le portable?",
+          "options": [
+            "avec une souris",
+            "en appuyant sur l'écran",
+            "avec un clavier classique",
+            "en parlant au téléphone"
+          ],
+          "correctAnswer": "en appuyant sur l'écran"
+        },
+        {
+          "question": "Qu'est-ce que A compare au clavier de l'ordinateur?",
+          "options": [
+            "le message",
+            "la souris",
+            "le doigt sur l'écran",
+            "l'application"
+          ],
+          "correctAnswer": "le doigt sur l'écran"
+        },
+        {
+          "question": "Est-ce que B pense que c'est facile ou difficile?",
+          "options": [
+            "C'est facile",
+            "C'est difficile au début, mais facile",
+            "C'est très difficile",
+            "C'est impossible"
+          ],
+          "correctAnswer": "C'est difficile au début, mais facile"
+        }
+      ],
+      "summary": "A teaches B (grandmother) how to use a smartphone messaging app, explaining the touchscreen and typing on a virtual keyboard."
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot signifie 'the internet'?",
+        "options": [
+          "le site",
+          "l'internet",
+          "le message"
+        ],
+        "correctAnswer": "l'internet",
+        "explanation": "'L'internet' is the French word for 'the internet'.",
+        "targetWord": "l'internet"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je vois ___ sur mon portable.",
+        "options": [
+          "un message",
+          "une souris",
+          "un clavier"
+        ],
+        "correctAnswer": "un message",
+        "explanation": "You see a message (un message) on your mobile phone (portable).",
+        "targetWord": "le message"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: La ___ est noire.",
+        "options": [
+          "la souris",
+          "le site",
+          "le portable"
+        ],
+        "correctAnswer": "la souris",
+        "explanation": "'La souris' (the mouse) is a feminine noun. 'La souris est noire' means 'The mouse is black'.",
+        "targetWord": "la souris"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Tu ___ le clavier sur la table?",
+        "options": [
+          "vois",
+          "voyons",
+          "voient"
+        ],
+        "correctAnswer": "vois",
+        "explanation": "With 'tu', the form of voir is 'vois'. 'Tu vois le clavier?'",
+        "targetWord": "voir"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot signifie 'the mobile phone'?",
+        "options": [
+          "le téléphone",
+          "le portable",
+          "le site"
+        ],
+        "correctAnswer": "le portable",
+        "explanation": "'Le portable' is the modern French word for a mobile phone.",
+        "targetWord": "le portable"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot signifie 'the keyboard'?",
+        "options": [
+          "la souris",
+          "le clavier",
+          "le site"
+        ],
+        "correctAnswer": "le clavier",
+        "explanation": "'Le clavier' (the keyboard) is used for typing on computers.",
+        "targetWord": "le clavier"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ utiliser l'internet demain.",
+        "options": [
+          "prévois",
+          "vois",
+          "voyons"
+        ],
+        "correctAnswer": "prévois",
+        "explanation": "'Prévoir' means to plan. 'Je prévois' is the first person singular.",
+        "targetWord": "prévoir"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que 'revoir' signifie?",
+        "options": [
+          "to see",
+          "to see again",
+          "to refuse to see",
+          "to look at"
+        ],
+        "correctAnswer": "to see again",
+        "explanation": "'Revoir' is a compound of 're-' (again) and 'voir' (to see), meaning 'to see again'.",
+        "targetWord": "revoir"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ sur le site demain matin.",
+        "options": [
+          "voyons",
+          "voient",
+          "voies"
+        ],
+        "correctAnswer": "voyons",
+        "explanation": "The nous form of voir is 'voyons'. In context: 'Nous nous voyons' means 'we're meeting/seeing each other'.",
+        "targetWord": "voir"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens de 'se voir'?",
+        "options": [
+          "to look",
+          "to watch",
+          "to see each other / to meet",
+          "to refuse"
+        ],
+        "correctAnswer": "to see each other / to meet",
+        "explanation": "'Se voir' is the reflexive form, meaning 'to see each other' or 'to meet' in a mutual sense.",
+        "targetWord": "se voir"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Exchange phone numbers with a new friend and explain how to reach you on your portable or via messages.",
+      "keyPhrases": [
+        "Mon numéro de téléphone est...",
+        "Tu peux m'appeler ou envoyer un message",
+        "Je vois tes messages sur mon portable",
+        "C'est facile! Tu utilises une application de messages"
+      ],
+      "modelAnswer": "Bonjour! Mon numéro de téléphone est 06 45 32 18 71. Tu peux m'appeler ou envoyer un message sur mon portable. Je vois tous les messages. C'est très facile!",
+      "modelAnswerExplanation": "This response covers exchanging a phone number, explaining how to contact you (call or message), and noting that you see all messages on your mobile phone.",
+      "tip": "Use 'tu peux' (you can) to explain the options. Mention your portable and messages to show you're comfortable with technology."
+    },
+    "advanced": {
+      "scenario": "Exchange contact information with a new French friend. Discuss whether you prefer phone calls, messages, or meeting in person. Mention how you might revoir them soon.",
+      "keyPhrases": [
+        "Mon numéro de téléphone est...",
+        "Je préfère les messages ou l'internet",
+        "On peut se voir et on peut revoir le site...",
+        "Donne-moi ton numéro et envoie-moi un message",
+        "Je vais prévoir un moment pour se voir"
+      ],
+      "modelAnswer": "Salut! Mon numéro est 06 45 32 18 71. Personnellement, je préfère les messages sur mon portable parce que c'est plus facile. On peut aussi se voir bientôt et revoir ce site intéressant que je veux te montrer. Donne-moi ton numéro et envoie-moi un message. Je vais prévoir un moment pour nous rencontrer!",
+      "modelAnswerExplanation": "This response includes phone exchange, expresses a preference for communication method, uses se voir and revoir naturally, and demonstrates planning (prévoir) for a future meeting.",
+      "tip": "Use compound forms of voir (revoir, se voir) and prévoir to show mastery of the verb family. Express personal preferences about communication to make the exchange feel natural."
+    }
+  }
+}

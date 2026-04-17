@@ -25,6 +25,10 @@
           [
             "Il y a du soleil.",
             "It's sunny."
+          ],
+          [
+            "Le soleil se lève le matin.",
+            "The sun rises in the morning."
           ]
         ],
         "special": ""
@@ -49,6 +53,10 @@
           [
             "Je n'aime pas la pluie.",
             "I don't like rain."
+          ],
+          [
+            "La pluie mouille les rues.",
+            "The rain wets the streets."
           ]
         ],
         "special": ""
@@ -73,6 +81,10 @@
           [
             "Il y a du vent.",
             "It's windy."
+          ],
+          [
+            "Le vent souffle sur les arbres.",
+            "The wind blows on the trees."
           ]
         ],
         "special": ""
@@ -98,6 +110,10 @@
           [
             "L'eau est chaude.",
             "The water is hot."
+          ],
+          [
+            "Le thé est trop chaud.",
+            "The tea is too hot."
           ]
         ],
         "special": ""
@@ -123,6 +139,10 @@
           [
             "Le café est froid.",
             "The coffee is cold."
+          ],
+          [
+            "J'ai froid.",
+            "I'm cold."
           ]
         ],
         "special": ""
@@ -149,6 +169,10 @@
           [
             "Il y a du soleil.",
             "It's sunny."
+          ],
+          [
+            "Le soleil se lève le matin.",
+            "The sun rises in the morning."
           ]
         ],
         "special": ""
@@ -173,6 +197,10 @@
           [
             "Je n'aime pas la pluie.",
             "I don't like rain."
+          ],
+          [
+            "La pluie mouille les rues.",
+            "The rain wets the streets."
           ]
         ],
         "special": ""
@@ -197,6 +225,10 @@
           [
             "Il y a du vent.",
             "It's windy."
+          ],
+          [
+            "Le vent souffle sur les arbres.",
+            "The wind blows on the trees."
           ]
         ],
         "special": ""
@@ -222,6 +254,10 @@
           [
             "L'eau est chaude.",
             "The water is hot."
+          ],
+          [
+            "Le thé est trop chaud.",
+            "The tea is too hot."
           ]
         ],
         "special": ""
@@ -247,6 +283,10 @@
           [
             "Le café est froid.",
             "The coffee is cold."
+          ],
+          [
+            "J'ai froid.",
+            "I'm cold."
           ]
         ],
         "special": ""
@@ -271,6 +311,10 @@
           [
             "Le nuage est gris.",
             "The cloud is grey."
+          ],
+          [
+            "Les nuages couvrent le soleil.",
+            "The clouds cover the sun."
           ]
         ],
         "special": ""
@@ -296,6 +340,10 @@
           [
             "La neige est blanche.",
             "The snow is white."
+          ],
+          [
+            "Les enfants jouent dans la neige.",
+            "The children play in the snow."
           ]
         ],
         "special": ""

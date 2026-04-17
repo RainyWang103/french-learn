@@ -20,6 +20,10 @@
           [
             "La gare est tout droit, à cinq minutes.",
             "The station is straight ahead, five minutes away."
+          ],
+          [
+            "Allez tout droit, puis tournez à gauche.",
+            "Go straight ahead, then turn left."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "La pharmacie est à gauche.",
             "The pharmacy is on the left."
+          ],
+          [
+            "Mon école est à gauche, après le parc.",
+            "My school is on the left, after the park."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Le musée est à droite après le pont.",
             "The museum is on the right after the bridge."
+          ],
+          [
+            "La boulangerie est à droite du carrefour.",
+            "The bakery is on the right of the crossroads."
           ]
         ],
         "special": "",
@@ -95,6 +107,10 @@
           [
             "Regardons le plan — la gare est ici.",
             "Let's look at the map — the station is here."
+          ],
+          [
+            "Le plan est sur la table à l'office de tourisme.",
+            "The map is on the table at the tourist office."
           ]
         ],
         "special": "",
@@ -120,6 +136,10 @@
           [
             "Suivez la direction centre-ville.",
             "Follow the direction to the town centre."
+          ],
+          [
+            "La direction du nord est par là.",
+            "The direction of the north is that way."
           ]
         ],
         "special": "",
@@ -147,6 +167,10 @@
           [
             "La gare est tout droit, à cinq minutes.",
             "The station is straight ahead, five minutes away."
+          ],
+          [
+            "Allez tout droit, puis tournez à gauche.",
+            "Go straight ahead, then turn left."
           ]
         ],
         "special": "",
@@ -172,6 +196,10 @@
           [
             "La pharmacie est à gauche.",
             "The pharmacy is on the left."
+          ],
+          [
+            "Mon école est à gauche, après le parc.",
+            "My school is on the left, after the park."
           ]
         ],
         "special": "",
@@ -197,6 +225,10 @@
           [
             "Le musée est à droite après le pont.",
             "The museum is on the right after the bridge."
+          ],
+          [
+            "La boulangerie est à droite du carrefour.",
+            "The bakery is on the right of the crossroads."
           ]
         ],
         "special": "",
@@ -222,6 +254,10 @@
           [
             "Regardons le plan — la gare est ici.",
             "Let's look at the map — the station is here."
+          ],
+          [
+            "Le plan est sur la table à l'office de tourisme.",
+            "The map is on the table at the tourist office."
           ]
         ],
         "special": "",
@@ -247,6 +283,10 @@
           [
             "Suivez la direction centre-ville.",
             "Follow the direction to the town centre."
+          ],
+          [
+            "La direction du nord est par là.",
+            "The direction of the north is that way."
           ]
         ],
         "special": "",
@@ -272,6 +312,10 @@
           [
             "Il traverse la rue au feu piéton.",
             "He crosses the street at the pedestrian light."
+          ],
+          [
+            "Nous traversons la place ensemble.",
+            "We cross the square together."
           ]
         ],
         "special": "",
@@ -299,6 +343,10 @@
           [
             "Vous continuez jusqu'au rond-point.",
             "You continue as far as the roundabout."
+          ],
+          [
+            "Elle continue sur cette rue sans tourner.",
+            "She continues on this street without turning."
           ]
         ],
         "special": "",

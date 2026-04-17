@@ -1,0 +1,855 @@
+{
+  "day": 62,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Emergencies & Help",
+  "vocab": {
+    "standard": [
+      {
+        "word": "l'urgence",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "loor-zhahns",
+        "meaning": "the emergency / urgency",
+        "notes": "Common word used in emergency contexts. Urgence also means 'urgency' in general.",
+        "examples": [
+          [
+            "C'est une urgence!",
+            "It's an emergency!"
+          ],
+          [
+            "L'urgence est grave.",
+            "The emergency is serious."
+          ],
+          [
+            "Il y a une urgence maintenant.",
+            "There is an emergency now."
+          ]
+        ],
+        "special": "Always feminine",
+        "forms": {
+          "masculine": "",
+          "feminine": "urgence",
+          "masculinePlural": "",
+          "femininePlural": "urgences"
+        }
+      },
+      {
+        "word": "le pompier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pohm-pyay",
+        "meaning": "the firefighter",
+        "notes": "From 'pompe' (pump). French firefighters are called 'pompiers' because they originally operated fire pumps.",
+        "examples": [
+          [
+            "Le pompier arrive.",
+            "The firefighter arrives."
+          ],
+          [
+            "Les pompiers aident.",
+            "The firefighters help."
+          ],
+          [
+            "Un pompier travaille dur.",
+            "A firefighter works hard."
+          ]
+        ],
+        "special": "Always masculine, even when referring to a female firefighter",
+        "forms": {
+          "masculine": "pompier",
+          "feminine": "",
+          "masculinePlural": "pompiers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'accident",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lak-see-dahn",
+        "meaning": "the accident",
+        "notes": "A serious or minor incident. Can refer to any unexpected event.",
+        "examples": [
+          [
+            "Il y a un accident.",
+            "There is an accident."
+          ],
+          [
+            "L'accident est terrible.",
+            "The accident is terrible."
+          ],
+          [
+            "L'accident est sur la route.",
+            "The accident is on the road."
+          ]
+        ],
+        "special": "Always masculine",
+        "forms": {
+          "masculine": "accident",
+          "feminine": "",
+          "masculinePlural": "accidents",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la police",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah poh-lees",
+        "meaning": "the police",
+        "notes": "Collective noun, usually singular. Police officers are 'les policiers' (policemen/women).",
+        "examples": [
+          [
+            "La police arrive.",
+            "The police arrives / The police arrive."
+          ],
+          [
+            "J'appelle la police.",
+            "I'm calling the police."
+          ],
+          [
+            "La police est importante.",
+            "The police is important."
+          ]
+        ],
+        "special": "Always feminine, uncountable/collective",
+        "forms": {
+          "masculine": "",
+          "feminine": "police",
+          "masculinePlural": "",
+          "femininePlural": "police"
+        }
+      },
+      {
+        "word": "appeler",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ah-play",
+        "meaning": "to call / to phone",
+        "notes": "Stem-changing verb: doubles the 'l' in je, tu, il/elle/on, and ils/elles forms. Regular in nous and vous.",
+        "examples": [
+          [
+            "J'appelle le docteur.",
+            "I'm calling the doctor."
+          ],
+          [
+            "Nous appelons la police.",
+            "We call the police."
+          ],
+          [
+            "Tu appelles ton ami.",
+            "You are calling your friend."
+          ]
+        ],
+        "special": "Stem-changing: l → ll in certain persons",
+        "forms": {
+          "je": "j'appelle",
+          "tu": "tu appelles",
+          "il": "il/elle/on appelle",
+          "nous": "nous appelons",
+          "vous": "vous appelez",
+          "ils": "ils/elles appellent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "l'urgence",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "loor-zhahns",
+        "meaning": "the emergency / urgency",
+        "notes": "Common word used in emergency contexts. Urgence also means 'urgency' in general.",
+        "examples": [
+          [
+            "C'est une urgence!",
+            "It's an emergency!"
+          ],
+          [
+            "L'urgence est grave.",
+            "The emergency is serious."
+          ],
+          [
+            "Il faut appeler en cas d'urgence.",
+            "You must call in case of emergency."
+          ]
+        ],
+        "special": "Always feminine",
+        "forms": {
+          "masculine": "",
+          "feminine": "urgence",
+          "masculinePlural": "",
+          "femininePlural": "urgences"
+        }
+      },
+      {
+        "word": "le pompier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh pohm-pyay",
+        "meaning": "the firefighter",
+        "notes": "From 'pompe' (pump). French firefighters are called 'pompiers' because they originally operated fire pumps.",
+        "examples": [
+          [
+            "Le pompier arrive.",
+            "The firefighter arrives."
+          ],
+          [
+            "Les pompiers aident.",
+            "The firefighters help."
+          ],
+          [
+            "Le pompier prend la situatio en charge.",
+            "The firefighter takes the situation in charge."
+          ]
+        ],
+        "special": "Always masculine, even when referring to a female firefighter",
+        "forms": {
+          "masculine": "pompier",
+          "feminine": "",
+          "masculinePlural": "pompiers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'accident",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lak-see-dahn",
+        "meaning": "the accident",
+        "notes": "A serious or minor incident. Can refer to any unexpected event.",
+        "examples": [
+          [
+            "Il y a un accident.",
+            "There is an accident."
+          ],
+          [
+            "L'accident est terrible.",
+            "The accident is terrible."
+          ],
+          [
+            "Les pompiers comprennent l'accident.",
+            "The firefighters understand the accident."
+          ]
+        ],
+        "special": "Always masculine",
+        "forms": {
+          "masculine": "accident",
+          "feminine": "",
+          "masculinePlural": "accidents",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la police",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah poh-lees",
+        "meaning": "the police",
+        "notes": "Collective noun, usually singular. Police officers are 'les policiers' (policemen/women).",
+        "examples": [
+          [
+            "La police arrive.",
+            "The police arrives / The police arrive."
+          ],
+          [
+            "J'appelle la police.",
+            "I'm calling the police."
+          ],
+          [
+            "La police prend en charge le cas.",
+            "The police takes charge of the case."
+          ]
+        ],
+        "special": "Always feminine, uncountable/collective",
+        "forms": {
+          "masculine": "",
+          "feminine": "police",
+          "masculinePlural": "",
+          "femininePlural": "police"
+        }
+      },
+      {
+        "word": "appeler",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ah-play",
+        "meaning": "to call / to phone",
+        "notes": "Stem-changing verb: doubles the 'l' in je, tu, il/elle/on, and ils/elles forms. Regular in nous and vous.",
+        "examples": [
+          [
+            "J'appelle le docteur.",
+            "I'm calling the doctor."
+          ],
+          [
+            "Nous appelons la police.",
+            "We call the police."
+          ],
+          [
+            "Ils appellent les pompiers.",
+            "They are calling the firefighters."
+          ]
+        ],
+        "special": "Stem-changing: l → ll in certain persons",
+        "forms": {
+          "je": "j'appelle",
+          "tu": "tu appelles",
+          "il": "il/elle/on appelle",
+          "nous": "nous appelons",
+          "vous": "vous appelez",
+          "ils": "ils/elles appellent"
+        }
+      },
+      {
+        "word": "l'aide",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "laid",
+        "meaning": "the help / aid / assistance",
+        "notes": "Feminine noun. Can also mean 'helper' or 'assistant' as a person.",
+        "examples": [
+          [
+            "J'ai besoin d'aide.",
+            "I need help."
+          ],
+          [
+            "Merci pour votre aide.",
+            "Thank you for your help."
+          ],
+          [
+            "L'aide arrive bientôt.",
+            "Help is coming soon."
+          ]
+        ],
+        "special": "Always feminine",
+        "forms": {
+          "masculine": "",
+          "feminine": "aide",
+          "masculinePlural": "",
+          "femininePlural": "aides"
+        }
+      },
+      {
+        "word": "au secours",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "oh suh-koor",
+        "meaning": "help! (cry for help)",
+        "notes": "An exclamation used to call for help in an emergency. Literally 'to help' or 'to rescue'.",
+        "examples": [
+          [
+            "Au secours! Il y a un accident!",
+            "Help! There's an accident!"
+          ],
+          [
+            "Au secours, je suis perdu!",
+            "Help, I'm lost!"
+          ],
+          [
+            "Au secours! Appelez les pompiers!",
+            "Help! Call the firefighters!"
+          ]
+        ],
+        "special": "Exclamation, never changes",
+        "forms": {
+          "masculine": "au secours",
+          "feminine": "au secours",
+          "masculinePlural": "au secours",
+          "femininePlural": "au secours"
+        }
+      }
+    ]
+  },
+  "grammar": {
+    "standard": {
+      "title": "Prendre / Apprendre / Comprendre (Irregular Verbs — Prendre Family)",
+      "explanation": "Prendre (to take) is an irregular verb. Conjugation: je prends, tu prends, il/elle/on prend, nous prenons, vous prenez, ils/elles prennent. Notice the double 'n' in the ils/elles form. Two important compounds follow the same pattern: apprendre (to learn) — j'apprends, tu apprends, il apprend, nous apprenons, vous apprenez, ils apprennent; and comprendre (to understand) — je comprends, tu comprends, il comprend, nous comprenons, vous comprenez, ils comprennent. All three verbs use the same irregular stem changes.",
+      "examples": [
+        {
+          "french": "Je prends un café.",
+          "english": "I'm taking a coffee. / I'm having a coffee."
+        },
+        {
+          "french": "Tu comprends la situation?",
+          "english": "Do you understand the situation?"
+        },
+        {
+          "french": "Nous apprenons le français.",
+          "english": "We are learning French."
+        },
+        {
+          "french": "Ils prennent l'aide du pompier.",
+          "english": "They are taking the firefighter's help."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quel est le verbe conjugué au présent: 'Je ___ la situation'?",
+          "options": [
+            "prendre",
+            "prends",
+            "prenez"
+          ],
+          "correctAnswer": "prends",
+          "explanation": "Avec 'je', le verbe prendre se conjugue en 'je prends' (avec un 'd' à la fin).",
+          "targetWord": "prendre"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ le français? (apprendre)",
+          "options": null,
+          "correctAnswer": "apprends",
+          "explanation": "Avec 'tu', apprendre devient 'tu apprends' (double n dans cette forme).",
+          "targetWord": "apprendre"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Nous ___ l'aide. (comprendre)",
+          "options": [
+            "comprend",
+            "comprenons",
+            "comprennent"
+          ],
+          "correctAnswer": "comprenons",
+          "explanation": "Avec 'nous', comprendre devient 'nous comprenons' (pas de changement au radical).",
+          "targetWord": "comprendre"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ leur situation. (prendre)",
+          "options": null,
+          "correctAnswer": "prennent",
+          "explanation": "Avec 'ils', prendre devient 'ils prennent' (double 'n' avant le 'e').",
+          "targetWord": "prendre"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Vous ___ le français? (apprendre)",
+          "options": [
+            "apprenez",
+            "apprennent",
+            "apprends"
+          ],
+          "correctAnswer": "apprenez",
+          "explanation": "Avec 'vous', apprendre devient 'vous apprenez' (ez à la fin).",
+          "targetWord": "apprendre"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Prendre / Apprendre / Comprendre — Full Conjugation, Compounds & Expressions",
+      "explanation": "The prendre family includes several important verbs with the same irregular pattern. Prendre (to take), apprendre (to learn), and comprendre (to understand) all follow: je prends, tu prends, il/elle/on prend, nous prenons, vous prenez, ils/elles prennent. Additional compounds: reprendre (to take back, resume), surprendre (to surprise), and entreprendre (to undertake) use identical conjugations. Common expressions with prendre include: prendre du temps (to take time), prendre un café (to have a coffee), prendre en charge (to take care of/responsibility for), prendre feu (to catch fire — used metaphorically and literally), prendre conscience (to become aware). These expressions are idiomatic and must be learned as phrases.",
+      "examples": [
+        {
+          "french": "Je prends une décision importante.",
+          "english": "I'm making an important decision."
+        },
+        {
+          "french": "Tu apprends vite les urgences?",
+          "english": "Are you learning emergency procedures quickly?"
+        },
+        {
+          "french": "Il comprend le problème mais ne prend pas d'action.",
+          "english": "He understands the problem but is not taking action."
+        },
+        {
+          "french": "Nous prenons en charge l'accident.",
+          "english": "We are taking care of the accident."
+        },
+        {
+          "french": "Vous apprenez à comprendre les pompiers.",
+          "english": "You are learning to understand the firefighters."
+        },
+        {
+          "french": "Ils prennent conscience de l'urgence.",
+          "english": "They are becoming aware of the emergency."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quel verbe convient: 'Je ___ le français depuis trois ans'? (apprendre)",
+          "options": [
+            "apprendre",
+            "apprends",
+            "apprenez",
+            "apprendrez"
+          ],
+          "correctAnswer": "apprends",
+          "explanation": "Avec 'je' au présent, apprendre devient 'j'apprends'.",
+          "targetWord": "apprendre"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Tu ___ ce qui se passe? (comprendre)",
+          "options": [
+            "comprenez",
+            "comprends",
+            "comprendront",
+            "comprennent"
+          ],
+          "correctAnswer": "comprends",
+          "explanation": "Avec 'tu' au présent, comprendre devient 'tu comprends'.",
+          "targetWord": "comprendre"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il ___ son travail sérieusement. (prendre)",
+          "options": null,
+          "correctAnswer": "prend",
+          "explanation": "Avec 'il' au présent, prendre devient 'il prend'.",
+          "targetWord": "prendre"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Nous ___ en charge la situation d'urgence. (prendre)",
+          "options": [
+            "prenons",
+            "prennent",
+            "prenez",
+            "prends"
+          ],
+          "correctAnswer": "prenons",
+          "explanation": "Avec 'nous' au présent, prendre devient 'nous prenons'. L'expression 'prendre en charge' signifie 'être responsable de'.",
+          "targetWord": "prendre"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ l'aide des pompiers. (comprendre)",
+          "options": null,
+          "correctAnswer": "comprenez",
+          "explanation": "Avec 'vous' au présent, comprendre devient 'vous comprenez'.",
+          "targetWord": "comprendre"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Elles ___ la gravité de l'accident. (surprendre)",
+          "options": [
+            "surprend",
+            "surprennent",
+            "surprendez",
+            "surprenis"
+          ],
+          "correctAnswer": "surprennent",
+          "explanation": "Surprendre suit le même pattern que prendre. Avec 'elles', c'est 'elles surprennent'.",
+          "targetWord": "surprendre"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ conscience de l'urgence. (prendre)",
+          "options": null,
+          "correctAnswer": "prends",
+          "explanation": "L'expression idiomatique 'prendre conscience de' signifie 'devenir conscient de' ou 'réaliser'.",
+          "targetWord": "prendre"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Ils ___ un projet ensemble. (entreprendre)",
+          "options": [
+            "entreprennent",
+            "entreprends",
+            "entreprendez",
+            "entreprendre"
+          ],
+          "correctAnswer": "entreprennent",
+          "explanation": "Entreprendre suit aussi le même pattern. Avec 'ils', c'est 'ils entreprennent'.",
+          "targetWord": "entreprendre"
+        }
+      ]
+    }
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Allô, les pompiers? Il y a un accident sur la route."
+        ],
+        [
+          "B",
+          "Oui, bonjour. Où est l'accident?"
+        ],
+        [
+          "A",
+          "C'est près de l'hôpital. Deux voitures."
+        ],
+        [
+          "B",
+          "Est-ce que quelqu'un est blessé?"
+        ],
+        [
+          "A",
+          "Oui, une personne. Elle ne peut pas se lever."
+        ],
+        [
+          "B",
+          "D'accord. Les pompiers arrivent maintenant. Restez calme."
+        ],
+        [
+          "A",
+          "Merci. Ils arrivent?"
+        ],
+        [
+          "B",
+          "Oui, dans cinq minutes."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Où est l'accident?",
+          "options": [
+            "Près de l'hôpital.",
+            "Près de la gare.",
+            "Près de l'école."
+          ],
+          "correctAnswer": "Près de l'hôpital."
+        },
+        {
+          "question": "Combien de voitures y a-t-il?",
+          "options": [
+            "Trois voitures.",
+            "Deux voitures.",
+            "Une voiture."
+          ],
+          "correctAnswer": "Deux voitures."
+        },
+        {
+          "question": "Est-ce qu'il y a des blessés?",
+          "options": [
+            "Oui, une personne.",
+            "Non, pas de blessés.",
+            "Oui, trois personnes."
+          ],
+          "correctAnswer": "Oui, une personne."
+        }
+      ],
+      "summary": "A caller reports a traffic accident with two cars near a hospital to emergency services, and emergency responders confirm that firefighters will arrive within five minutes."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Allô, c'est une urgence! Il y a eu un accident grave sur la route nationale."
+        ],
+        [
+          "B",
+          "Bonjour. Où exactement? Parlez lentement, s'il vous plaît."
+        ],
+        [
+          "A",
+          "C'est à trois kilomètres de la gare. Deux voitures se sont heurtées. La route est fermée."
+        ],
+        [
+          "B",
+          "D'accord. Est-ce qu'il y a des blessés?"
+        ],
+        [
+          "A",
+          "Oui, deux personnes. L'une d'elles saigne beaucoup."
+        ],
+        [
+          "B",
+          "Les pompiers et la police arrivent. Ne bougez pas. Restez près de l'accident."
+        ],
+        [
+          "A",
+          "D'accord. J'appelle l'ambulance aussi?"
+        ],
+        [
+          "B",
+          "Non, les pompiers appellent l'ambulance. Vous avez pris le numéro des véhicules?"
+        ],
+        [
+          "A",
+          "Oui, j'ai noté les plaques d'immatriculation. Les pompiers arrivent bientôt?"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "À quelle distance de la gare se trouve l'accident?",
+          "options": [
+            "À un kilomètre.",
+            "À deux kilomètres.",
+            "À trois kilomètres.",
+            "À cinq kilomètres."
+          ],
+          "correctAnswer": "À trois kilomètres."
+        },
+        {
+          "question": "Combien de voitures sont impliquées dans l'accident?",
+          "options": [
+            "Une voiture.",
+            "Deux voitures.",
+            "Trois voitures.",
+            "Quatre voitures."
+          ],
+          "correctAnswer": "Deux voitures."
+        },
+        {
+          "question": "Combien de personnes sont blessées?",
+          "options": [
+            "Une personne.",
+            "Deux personnes.",
+            "Trois personnes.",
+            "Quatre personnes."
+          ],
+          "correctAnswer": "Deux personnes."
+        },
+        {
+          "question": "Qui appelle l'ambulance?",
+          "options": [
+            "L'appelant.",
+            "La police.",
+            "Les pompiers.",
+            "L'hôpital."
+          ],
+          "correctAnswer": "Les pompiers."
+        }
+      ],
+      "summary": "A caller reports a serious traffic accident involving two vehicles 3 km from the station with two injured victims to emergency services; police and firefighters are dispatched, and the caller provides vehicle registration numbers while being advised not to move."
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel mot signifie 'the emergency'?",
+        "options": [
+          "l'urgence",
+          "le pompier",
+          "l'accident"
+        ],
+        "correctAnswer": "l'urgence",
+        "explanation": "L'urgence (feminine) signifie 'the emergency' ou 'urgency'.",
+        "targetWord": "urgence"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qui aide les gens en cas d'accident?",
+        "options": [
+          "le pompier",
+          "la voiture",
+          "la maison"
+        ],
+        "correctAnswer": "le pompier",
+        "explanation": "Un pompier (firefighter) aide les gens en cas d'urgence ou d'accident.",
+        "targetWord": "pompier"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il y a un ___ sur la route.",
+        "options": null,
+        "correctAnswer": "accident",
+        "explanation": "Un accident est un événement inattendu (comme une collision de voitures).",
+        "targetWord": "accident"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fais-tu pour appeler l'aide?",
+        "options": [
+          "Tu appelles.",
+          "Tu parles.",
+          "Tu danses."
+        ],
+        "correctAnswer": "Tu appelles.",
+        "explanation": "Appeler signifie 'to call' ou 'to phone'. Pour demander de l'aide, tu appelles le numéro d'urgence.",
+        "targetWord": "appeler"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "J'___ la police.",
+        "options": null,
+        "correctAnswer": "appelle",
+        "explanation": "Avec 'je', le verbe appeler se conjugue en 'j'appelle' (double l).",
+        "targetWord": "appeler"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Lequel de ces verbes signifie 'to take/seize'?",
+        "options": [
+          "prendre",
+          "attendre",
+          "perdre",
+          "vendre"
+        ],
+        "correctAnswer": "prendre",
+        "explanation": "Prendre (irregular) signifie 'to take'. Attendre = to wait, perdre = to lose, vendre = to sell.",
+        "targetWord": "prendre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est l'équivalent de 'to take care of' en français idiomatique?",
+        "options": [
+          "prendre en charge",
+          "faire attention",
+          "aider",
+          "sauver"
+        ],
+        "correctAnswer": "prendre en charge",
+        "explanation": "L'expression 'prendre en charge' signifie littéralement 'to take responsibility for' ou 'to take care of'.",
+        "targetWord": "prendre"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ l'aide. (comprendre)",
+        "options": null,
+        "correctAnswer": "comprenons",
+        "explanation": "Avec 'nous', comprendre se conjugue en 'nous comprenons'.",
+        "targetWord": "comprendre"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "C'est une expression pour demander de l'aide à voix haute:",
+        "options": [
+          "Au secours!",
+          "À bientôt!",
+          "Bon courage!",
+          "À plus tard!"
+        ],
+        "correctAnswer": "Au secours!",
+        "explanation": "'Au secours!' est une exclamation pour appeler à l'aide lors d'une urgence.",
+        "targetWord": "aide"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ conscience de la gravité. (prendre)",
+        "options": null,
+        "correctAnswer": "prends",
+        "explanation": "L'expression 'prendre conscience de' signifie 'to become aware of' ou 'to realize'.",
+        "targetWord": "prendre"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are calling emergency services. Report an accident you have witnessed and describe what happened. Be clear, stay calm, and provide key details like location and the number of vehicles involved.",
+      "keyPhrases": [
+        "C'est une urgence.",
+        "Il y a un accident.",
+        "Où est l'ambulance?",
+        "Je vois deux voitures.",
+        "Une personne est blessée."
+      ],
+      "modelAnswer": "Allô, c'est une urgence! Il y a un accident près de la gare. Deux voitures se sont heurtées. Une personne est blessée. Les pompiers peuvent arriver?",
+      "modelAnswerExplanation": "The answer includes: 1) Recognition of the emergency, 2) Location of the accident, 3) Number of vehicles involved, 4) Number of injured, 5) Request for help. All phrases use simple present or passé composé appropriate for A1 level.",
+      "tip": "Speak clearly and calmly. Provide specific location details (near the station, on the main road, etc.). Always mention if there are injured people so dispatchers know to send an ambulance."
+    },
+    "advanced": {
+      "scenario": "You are calling the emergency dispatch line to report a serious accident. Explain the situation in detail: what happened, how many people are injured, the severity of injuries, the exact location, and any additional hazards or complications. Use the prendre family verbs and full sentences.",
+      "keyPhrases": [
+        "Il y a eu un accident grave.",
+        "Je prends en charge la situation.",
+        "Plusieurs personnes sont blessées.",
+        "Comprendre les instructions.",
+        "Appeler l'ambulance immédiatement."
+      ],
+      "modelAnswer": "Allô, c'est une urgence grave! Un accident s'est produit sur la route nationale à trois kilomètres de la gare. Je comprends qu'il y a deux voitures impliquées. Trois personnes sont blessées, et l'une d'elles saigne abondamment. Je prends en charge la scène et je garde les témoins en sécurité. Pouvez-vous appeler l'ambulance immédiatement?",
+      "modelAnswerExplanation": "The answer demonstrates: 1) Clear emergency declaration, 2) Precise location with distance reference, 3) Number of vehicles involved, 4) Detailed injury information with severity assessment, 5) Responsible action (taking charge of the scene), 6) Polite request for ambulance. Uses prendre en charge (to take responsibility), comprendre (to understand), and appeler (to call).",
+      "tip": "Use 'prendre en charge' to show you are managing the situation responsibly. Provide specific medical details (saignement = bleeding, inconscient = unconscious, etc.). Use full sentences with connectors like 'et' and 'mais' for clarity. Stay composed and speak at a measured pace."
+    }
+  }
+}

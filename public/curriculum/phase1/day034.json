@@ -20,6 +20,10 @@
           [
             "Ce film est vraiment intéressant.",
             "This film is really interesting."
+          ],
+          [
+            "Le film passe au cinéma ce soir.",
+            "The film is showing at the cinema tonight."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "Le cinéma est à cinq minutes d'ici.",
             "The cinema is five minutes from here."
+          ],
+          [
+            "J'aime regarder les films au cinéma.",
+            "I like watching films at the cinema."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Le film passe sur le grand écran.",
             "The film is showing on the big screen."
+          ],
+          [
+            "On regarde les sous-titres sur l'écran.",
+            "We watch the subtitles on the screen."
           ]
         ],
         "special": "",
@@ -95,6 +107,10 @@
           [
             "Il y a une séance à 14h et une à 17h.",
             "There's a showing at 2pm and one at 5pm."
+          ],
+          [
+            "Je préfère la séance du soir.",
+            "I prefer the evening showing."
           ]
         ],
         "special": "",
@@ -120,6 +136,10 @@
           [
             "Mon actrice préférée est française.",
             "My favourite actress is French."
+          ],
+          [
+            "L'acteur joue très bien dans ce film.",
+            "The actor plays very well in this film."
           ]
         ],
         "special": "",
@@ -147,6 +167,10 @@
           [
             "Ce film est vraiment intéressant.",
             "This film is really interesting."
+          ],
+          [
+            "Le réalisateur a tourné ce film en France.",
+            "The director shot this film in France."
           ]
         ],
         "special": "",
@@ -172,6 +196,10 @@
           [
             "Le cinéma est à cinq minutes d'ici.",
             "The cinema is five minutes from here."
+          ],
+          [
+            "Le cinéma français est célèbre dans le monde.",
+            "French cinema is famous in the world."
           ]
         ],
         "special": "",
@@ -197,6 +225,10 @@
           [
             "Le film passe sur le grand écran.",
             "The film is showing on the big screen."
+          ],
+          [
+            "Les images sur l'écran sont magnifiques.",
+            "The images on the screen are magnificent."
           ]
         ],
         "special": "",
@@ -222,6 +254,10 @@
           [
             "Il y a une séance à 14h et une à 17h.",
             "There's a showing at 2pm and one at 5pm."
+          ],
+          [
+            "La séance de midi est toujours moins chère.",
+            "The midday showing is always cheaper."
           ]
         ],
         "special": "",
@@ -247,6 +283,10 @@
           [
             "Mon actrice préférée est française.",
             "My favourite actress is French."
+          ],
+          [
+            "Les acteurs de ce film sont excellents.",
+            "The actors in this film are excellent."
           ]
         ],
         "special": "",
@@ -272,6 +312,10 @@
           [
             "Les sous-titres sont en français.",
             "The subtitles are in French."
+          ],
+          [
+            "Je lis les sous-titres pendant le film.",
+            "I read the subtitles during the film."
           ]
         ],
         "special": "",
@@ -297,6 +341,10 @@
           [
             "On regarde une comédie ce soir ?",
             "Shall we watch a comedy tonight?"
+          ],
+          [
+            "Cette comédie est très amusante.",
+            "This comedy is very funny."
           ]
         ],
         "special": "",

@@ -28,6 +28,10 @@
           [
             "Nous mangeons ensemble.",
             "We eat together."
+          ],
+          [
+            "Tu manges une pomme ?",
+            "Do you eat an apple?"
           ]
         ],
         "special": ""
@@ -55,6 +59,10 @@
           [
             "Elle regarde un film.",
             "She watches a movie."
+          ],
+          [
+            "Vous regardez le coucher de soleil ?",
+            "Are you watching the sunset?"
           ]
         ],
         "special": ""
@@ -82,6 +90,10 @@
           [
             "Tu écoutes la radio ?",
             "Do you listen to the radio?"
+          ],
+          [
+            "Ils écoutent le professeur.",
+            "They listen to the teacher."
           ]
         ],
         "special": ""
@@ -107,6 +119,10 @@
           [
             "La télé est dans le salon.",
             "The TV is in the living room."
+          ],
+          [
+            "La télévision est moderne.",
+            "The television is modern."
           ]
         ],
         "special": ""
@@ -132,6 +148,10 @@
           [
             "Nous dînons ensemble.",
             "We have dinner together."
+          ],
+          [
+            "Le dîner est délicieux.",
+            "The dinner is delicious."
           ]
         ],
         "special": ""
@@ -161,6 +181,10 @@
           [
             "Nous mangeons ensemble.",
             "We eat together."
+          ],
+          [
+            "Elle mange lentement.",
+            "She eats slowly."
           ]
         ],
         "special": ""
@@ -188,6 +212,10 @@
           [
             "Elle regarde un film.",
             "She watches a movie."
+          ],
+          [
+            "Nous regardons les étoiles.",
+            "We look at the stars."
           ]
         ],
         "special": ""
@@ -215,6 +243,10 @@
           [
             "Tu écoutes la radio ?",
             "Do you listen to the radio?"
+          ],
+          [
+            "Vous écoutez attentivement.",
+            "You listen carefully."
           ]
         ],
         "special": ""
@@ -240,6 +272,10 @@
           [
             "La télé est dans le salon.",
             "The TV is in the living room."
+          ],
+          [
+            "Nous regardons la télévision ensemble.",
+            "We watch television together."
           ]
         ],
         "special": ""
@@ -265,6 +301,10 @@
           [
             "Nous dînons ensemble.",
             "We have dinner together."
+          ],
+          [
+            "Le dîner avec ma copine est sympa.",
+            "Dinner with my girlfriend is nice."
           ]
         ],
         "special": ""
@@ -292,6 +332,10 @@
           [
             "Les enfants se couchent tôt.",
             "The children go to bed early."
+          ],
+          [
+            "Vous vous couchez tard ?",
+            "Do you go to bed late?"
           ]
         ],
         "special": "reflexive"
@@ -316,6 +360,10 @@
           [
             "La musique est relaxante.",
             "The music is relaxing."
+          ],
+          [
+            "La musique est belle.",
+            "The music is beautiful."
           ]
         ],
         "special": ""

@@ -26,6 +26,10 @@
           [
             "Je promène le chien tous les matins.",
             "I walk the dog every morning."
+          ],
+          [
+            "Le chien est dans la maison.",
+            "The dog is in the house."
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Elle a deux chats noirs.",
             "She has two black cats."
+          ],
+          [
+            "Le chat aime jouer avec une balle.",
+            "The cat likes to play with a ball."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Il y a beaucoup d'oiseaux dans le parc.",
             "There are many birds in the park."
+          ],
+          [
+            "L'oiseau vole dans le ciel.",
+            "The bird flies in the sky."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "Les poissons nagent dans l'eau.",
             "The fish swim in the water."
+          ],
+          [
+            "Le poisson est dans l'aquarium.",
+            "The fish is in the aquarium."
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Nous allons visiter une ferme dimanche.",
             "We are going to visit a farm on Sunday."
+          ],
+          [
+            "La ferme est grande et verte.",
+            "The farm is large and green."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Je promène le chien tous les matins.",
             "I walk the dog every morning."
+          ],
+          [
+            "Le chien court vite dans le parc.",
+            "The dog runs fast in the park."
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "Elle a deux chats noirs.",
             "She has two black cats."
+          ],
+          [
+            "Le chat regarde par la fenêtre.",
+            "The cat looks through the window."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Il y a beaucoup d'oiseaux dans le parc.",
             "There are many birds in the park."
+          ],
+          [
+            "L'oiseau a des ailes bleues.",
+            "The bird has blue wings."
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "Les poissons nagent dans l'eau.",
             "The fish swim in the water."
+          ],
+          [
+            "Le poisson mange des miettes de pain.",
+            "The fish eats bread crumbs."
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Nous allons visiter une ferme dimanche.",
             "We are going to visit a farm on Sunday."
+          ],
+          [
+            "La ferme produit du fromage délicieux.",
+            "The farm produces delicious cheese."
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "Les lapins mangent des carottes.",
             "Rabbits eat carrots."
+          ],
+          [
+            "Le lapin saute dans le jardin.",
+            "The rabbit hops in the garden."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Elle fait du cheval le week-end.",
             "She goes horse riding at the weekend."
+          ],
+          [
+            "Le cheval est noir et très fort.",
+            "The horse is black and very strong."
           ]
         ],
         "special": ""
@@ -608,8 +656,8 @@
         },
         {
           "type": "fillInTheBlank",
-          "question": "Complete: Le lapin ? ___ adorable ! (The rabbit? It's adorable!)",
-          "correctAnswer": "Il est",
+          "question": "Complete: Le lapin, ___ adorable ! (The rabbit, it is adorable!)",
+          "correctAnswer": "il est",
           "explanation": "Describing a specific subject with an adjective: il est adorable."
         },
         {

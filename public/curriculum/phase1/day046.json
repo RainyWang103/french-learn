@@ -20,6 +20,10 @@
           [
             "Elle est heureuse de sa nouvelle vie.",
             "She is happy with her new life."
+          ],
+          [
+            "Mon ami est heureux aujourd'hui.",
+            "My friend is happy today."
           ]
         ],
         "special": "Core emotion adjective",
@@ -45,6 +49,10 @@
           [
             "Reste calme — tout va bien.",
             "Stay calm — everything is fine."
+          ],
+          [
+            "La mer est très calme ce matin.",
+            "The sea is very calm this morning."
           ]
         ],
         "special": "Invariable for gender",
@@ -70,6 +78,10 @@
           [
             "Elle est trop faible pour travailler.",
             "She is too weak to work."
+          ],
+          [
+            "Le signal wifi est faible ici.",
+            "The wifi signal is weak here."
           ]
         ],
         "special": "Used for both physical and emotional weakness",
@@ -95,6 +107,10 @@
           [
             "Elle a peur de parler en public.",
             "She is afraid of speaking in public."
+          ],
+          [
+            "Les enfants ont peur du noir.",
+            "The children are afraid of the dark."
           ]
         ],
         "special": "Key expression: avoir peur",
@@ -120,6 +136,10 @@
           [
             "Comment tu te sens ?",
             "How are you feeling?"
+          ],
+          [
+            "Il se sent bien après les vacances.",
+            "He feels good after the vacation."
           ]
         ],
         "special": "Essential for expressing how you feel",
@@ -149,6 +169,10 @@
           [
             "Elle est heureuse, même dans les moments difficiles.",
             "She is happy, even in difficult moments."
+          ],
+          [
+            "Ils sont heureux de leur succès ensemble.",
+            "They are happy about their success together."
           ]
         ],
         "special": "Core emotion adjective",
@@ -174,6 +198,10 @@
           [
             "Un quartier calme est important pour se détendre.",
             "A quiet neighbourhood is important for relaxing."
+          ],
+          [
+            "Son ton calme me rassure.",
+            "His calm tone reassures me."
           ]
         ],
         "special": "Invariable for gender",
@@ -199,6 +227,10 @@
           [
             "Son point faible, c'est la grammaire.",
             "His weak point is grammar."
+          ],
+          [
+            "La batterie du téléphone est faible.",
+            "The phone battery is weak."
           ]
         ],
         "special": "Used for both physical and emotional weakness",
@@ -224,6 +256,10 @@
           [
             "Ses histoires me font peur.",
             "His stories scare me."
+          ],
+          [
+            "La peur est une émotion normale.",
+            "Fear is a normal emotion."
           ]
         ],
         "special": "Key expression: avoir peur",
@@ -249,6 +285,10 @@
           [
             "Elle se sent soulagée après l'examen.",
             "She feels relieved after the exam."
+          ],
+          [
+            "Nous nous sentons confiants pour le projet.",
+            "We feel confident about the project."
           ]
         ],
         "special": "Essential for expressing how you feel",
@@ -276,6 +316,10 @@
           [
             "Elle est épuisée à cause de trop de stress.",
             "She is exhausted because of too much stress."
+          ],
+          [
+            "Après la randonnée, nous sommes épuisés.",
+            "After the hike, we are exhausted."
           ]
         ],
         "special": "Stronger than fatigué",
@@ -301,6 +345,10 @@
           [
             "Elle se sent soulagée après la bonne nouvelle.",
             "She feels relieved after the good news."
+          ],
+          [
+            "Les parents sont soulagés de voir les enfants en sécurité.",
+            "The parents are relieved to see the children safe."
           ]
         ],
         "special": "Common emotional response after stress",
