@@ -1,0 +1,847 @@
+{
+  "day": 82,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Sports & Exercise",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le foot",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh foot",
+        "meaning": "the football",
+        "notes": "football/soccer (abbreviation of football)",
+        "examples": [
+          [
+            "Je joue au foot.",
+            "I play football."
+          ],
+          [
+            "Le foot est un sport populaire.",
+            "Football is a popular sport."
+          ],
+          [
+            "Tu aimes le foot?",
+            "Do you like football?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "foot",
+          "feminine": "",
+          "masculinePlural": "foots",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le tennis",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tuh-NEE",
+        "meaning": "the tennis",
+        "notes": "the sport of tennis",
+        "examples": [
+          [
+            "Je joue au tennis.",
+            "I play tennis."
+          ],
+          [
+            "Le tennis est un bon sport.",
+            "Tennis is a good sport."
+          ],
+          [
+            "Elle aime le tennis.",
+            "She likes tennis."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "tennis",
+          "feminine": "",
+          "masculinePlural": "tennis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la natation",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "nah-tah-SYOHN",
+        "meaning": "the swimming",
+        "notes": "swimming (the sport)",
+        "examples": [
+          [
+            "Je fais de la natation.",
+            "I swim (do swimming)."
+          ],
+          [
+            "La natation est bonne pour la santé.",
+            "Swimming is good for health."
+          ],
+          [
+            "Tu fais de la natation?",
+            "Do you swim?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "natation",
+          "masculinePlural": "",
+          "femininePlural": "natations"
+        }
+      },
+      {
+        "word": "nager",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "nah-ZHAY",
+        "meaning": "to swim",
+        "notes": "regular -ER verb with spelling change (nous nageons)",
+        "examples": [
+          [
+            "Je nage à la piscine.",
+            "I swim at the pool."
+          ],
+          [
+            "Elle nage bien.",
+            "She swims well."
+          ],
+          [
+            "Nous nageons le dimanche.",
+            "We swim on Sundays."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je nage",
+          "tu": "tu nages",
+          "il": "il/elle/on nage",
+          "nous": "nous nageons",
+          "vous": "vous nagez",
+          "ils": "ils/elles nagent"
+        }
+      },
+      {
+        "word": "courir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "koo-REER",
+        "meaning": "to run",
+        "notes": "irregular verb",
+        "examples": [
+          [
+            "Je cours au parc.",
+            "I run in the park."
+          ],
+          [
+            "Il court chaque jour.",
+            "He runs every day."
+          ],
+          [
+            "Nous courons rapidement.",
+            "We run quickly."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je cours",
+          "tu": "tu cours",
+          "il": "il/elle/on court",
+          "nous": "nous courons",
+          "vous": "vous courez",
+          "ils": "ils/elles courent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le foot",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh foot",
+        "meaning": "the football",
+        "notes": "football/soccer (abbreviation of football)",
+        "examples": [
+          [
+            "Je joue au foot.",
+            "I play football."
+          ],
+          [
+            "Le foot est un sport populaire.",
+            "Football is a popular sport."
+          ],
+          [
+            "Tu aimes le foot?",
+            "Do you like football?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "foot",
+          "feminine": "",
+          "masculinePlural": "foots",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le tennis",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh tuh-NEE",
+        "meaning": "the tennis",
+        "notes": "the sport of tennis",
+        "examples": [
+          [
+            "Je joue au tennis.",
+            "I play tennis."
+          ],
+          [
+            "Le tennis est un bon sport.",
+            "Tennis is a good sport."
+          ],
+          [
+            "Elle aime le tennis.",
+            "She likes tennis."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "tennis",
+          "feminine": "",
+          "masculinePlural": "tennis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la natation",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "nah-tah-SYOHN",
+        "meaning": "the swimming",
+        "notes": "swimming (the sport)",
+        "examples": [
+          [
+            "Je fais de la natation.",
+            "I swim (do swimming)."
+          ],
+          [
+            "La natation est bonne pour la santé.",
+            "Swimming is good for health."
+          ],
+          [
+            "Tu fais de la natation?",
+            "Do you swim?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "natation",
+          "masculinePlural": "",
+          "femininePlural": "natations"
+        }
+      },
+      {
+        "word": "le basket",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh bas-KAY",
+        "meaning": "the basketball",
+        "notes": "basketball (abbreviation of basketball)",
+        "examples": [
+          [
+            "Je joue au basket.",
+            "I play basketball."
+          ],
+          [
+            "Le basket est un sport d'équipe.",
+            "Basketball is a team sport."
+          ],
+          [
+            "Il aime le basket.",
+            "He likes basketball."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "basket",
+          "feminine": "",
+          "masculinePlural": "baskets",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le ski",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh skee",
+        "meaning": "the skiing",
+        "notes": "skiing (the sport or the skis themselves)",
+        "examples": [
+          [
+            "Je fais du ski.",
+            "I ski."
+          ],
+          [
+            "Le ski est amusant.",
+            "Skiing is fun."
+          ],
+          [
+            "Elle fait du ski en hiver.",
+            "She skis in winter."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ski",
+          "feminine": "",
+          "masculinePlural": "skis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "nager",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "nah-ZHAY",
+        "meaning": "to swim",
+        "notes": "regular -ER verb with spelling change (nous nageons)",
+        "examples": [
+          [
+            "Je nage à la piscine.",
+            "I swim at the pool."
+          ],
+          [
+            "Elle nage bien.",
+            "She swims well."
+          ],
+          [
+            "Nous nageons le dimanche.",
+            "We swim on Sundays."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je nage",
+          "tu": "tu nages",
+          "il": "il/elle/on nage",
+          "nous": "nous nageons",
+          "vous": "vous nagez",
+          "ils": "ils/elles nagent"
+        }
+      },
+      {
+        "word": "courir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "koo-REER",
+        "meaning": "to run",
+        "notes": "irregular verb",
+        "examples": [
+          [
+            "Je cours au parc.",
+            "I run in the park."
+          ],
+          [
+            "Il court chaque jour.",
+            "He runs every day."
+          ],
+          [
+            "Nous courons rapidement.",
+            "We run quickly."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je cours",
+          "tu": "tu cours",
+          "il": "il/elle/on court",
+          "nous": "nous courons",
+          "vous": "vous courez",
+          "ils": "ils/elles courent"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Tu aimes le sport?"
+        ],
+        [
+          "B",
+          "Oui, j'aime beaucoup le sport!"
+        ],
+        [
+          "A",
+          "Quel sport tu fais?"
+        ],
+        [
+          "B",
+          "Je joue au foot et je nage à la piscine."
+        ],
+        [
+          "A",
+          "C'est très bien! À quelle fréquence?"
+        ],
+        [
+          "B",
+          "Je joue au foot le mercredi et je nage le dimanche."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Est-ce que B aime le sport?",
+          "options": [
+            "Oui",
+            "Non",
+            "Un peu"
+          ],
+          "correctAnswer": "Oui"
+        },
+        {
+          "question": "Quel sport joue B?",
+          "options": [
+            "Le tennis",
+            "Le foot",
+            "Le ski"
+          ],
+          "correctAnswer": "Le foot"
+        },
+        {
+          "question": "Quand est-ce que B nage?",
+          "options": [
+            "Le mercredi",
+            "Le vendredi",
+            "Le dimanche"
+          ],
+          "correctAnswer": "Le dimanche"
+        }
+      ],
+      "summary": "Two friends talk about their sports activities. B enjoys playing football on Wednesdays and swimming at the pool on Sundays. Both are regular activities for B."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour! Tu fais du sport régulièrement?"
+        ],
+        [
+          "B",
+          "Oui, je suis très actif. Je fais du jogging trois fois par semaine."
+        ],
+        [
+          "A",
+          "Impressionnant! Quel est ton objectif?"
+        ],
+        [
+          "B",
+          "Je veux être en bonne santé et rester en forme. Je cours aussi pour le plaisir."
+        ],
+        [
+          "A",
+          "C'est une bonne raison. Tu fais d'autres sports?"
+        ],
+        [
+          "B",
+          "Oui, je joue au tennis le weekend et je nage pendant l'été."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Combien de fois par semaine B fait du jogging?",
+          "options": [
+            "Une fois",
+            "Deux fois",
+            "Trois fois"
+          ],
+          "correctAnswer": "Trois fois"
+        },
+        {
+          "question": "Quel est l'objectif principal de B?",
+          "options": [
+            "Gagner une compétition",
+            "Être en bonne santé et rester en forme",
+            "Devenir professionnel"
+          ],
+          "correctAnswer": "Être en bonne santé et rester en forme"
+        },
+        {
+          "question": "Quand est-ce que B joue au tennis?",
+          "options": [
+            "Le lundi",
+            "Le weekend",
+            "L'été"
+          ],
+          "correctAnswer": "Le weekend"
+        },
+        {
+          "question": "Quand est-ce que B nage?",
+          "options": [
+            "L'hiver",
+            "L'été",
+            "Chaque semaine"
+          ],
+          "correctAnswer": "L'été"
+        }
+      ],
+      "summary": "A person describes their active lifestyle. They jog three times a week to stay healthy, play tennis on weekends, and swim during summer. They prioritize health and fitness."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Quand as Temporal Conjunction",
+      "explanation": "The word 'quand' (when) as a conjunction connects two clauses, both in present tense for habitual actions. Example: 'Quand je fais du sport, je me sens bien.' (When I do sport, I feel good.) Do not confuse 'quand' as a conjunction (when, linking clauses) with 'quand' as a question word ('Quand est-ce que tu viens?' = When are you coming?). As a conjunction, 'quand' introduces a time clause showing when an action happens, and the main clause expresses the result or consequence. Both verbs are in the present tense when describing what regularly happens.",
+      "examples": [
+        {
+          "french": "Quand je fais du sport, je me sens bien.",
+          "english": "When I do sport, I feel good."
+        },
+        {
+          "french": "Quand tu nages, tu es heureux.",
+          "english": "When you swim, you are happy."
+        },
+        {
+          "french": "Quand nous courons, nous sommes fatigués.",
+          "english": "When we run, we are tired."
+        },
+        {
+          "french": "Quand il joue au foot, il est occupé.",
+          "english": "When he plays football, he is busy."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand je ___ du sport, je suis heureux. (When I do sport, I am happy.)",
+          "options": [
+            "fais",
+            "fasse",
+            "faire"
+          ],
+          "correctAnswer": "fais",
+          "explanation": "After 'quand', use present tense: 'je fais' (I do)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que 'quand' signifie comme conjonction?",
+          "options": [
+            "Pourquoi",
+            "Quand (when)",
+            "Comment"
+          ],
+          "correctAnswer": "Quand (when)",
+          "explanation": "'Quand' as a conjunction means 'when' and connects two time clauses."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand tu ___ , tu te sens bien. (When you run, you feel good.)",
+          "options": [
+            "cours",
+            "court",
+            "courir"
+          ],
+          "correctAnswer": "cours",
+          "explanation": "After 'quand', use present tense: 'tu cours' (you run)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la différence entre 'quand' (question) et 'quand' (conjonction)?",
+          "options": [
+            "Aucune différence",
+            "Question: 'Quand viens-tu?' / Conjonction: 'Quand tu viens, je suis heureux'",
+            "C'est un verbe différent"
+          ],
+          "correctAnswer": "Question: 'Quand viens-tu?' / Conjonction: 'Quand tu viens, je suis heureux'",
+          "explanation": "'Quand' as a question word asks 'When?', while 'quand' as a conjunction links clauses showing the timing of actions."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand nous ___ au tennis, nous ___ fatigués. (When we play tennis, we are tired.)",
+          "options": [
+            "jouons, sommes",
+            "joue, suis",
+            "jouerez, serez"
+          ],
+          "correctAnswer": "jouons, sommes",
+          "explanation": "Both verbs are present tense: 'nous jouons' (we play) and 'nous sommes' (we are)."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Quand as Temporal Conjunction — When + Present & Common Patterns",
+      "explanation": "The conjunction 'quand' (when) links two clauses to show the timing or relationship between actions. In present tense: 'Quand je fais du sport, je me sens bien' (When I do sport, I feel good) expresses habitual or general truths. Both clauses use present tense. 'Quand' differs from the question word 'quand' (Quand est-ce que tu arrives?). As a temporal conjunction, 'quand' can also appear with past or future tenses: 'Quand j'ai joué au tennis, j'étais heureux' (When I played tennis, I was happy) or 'Quand j'aurai terminé mon entraînement, je te rappellerai' (When I finish my training, I will call you back). The verb tense after 'quand' depends on the time frame being discussed.",
+      "examples": [
+        {
+          "french": "Quand je fais du sport, je me sens bien.",
+          "english": "When I do sport, I feel good (habitual)."
+        },
+        {
+          "french": "Quand tu nages, tu es heureux.",
+          "english": "When you swim, you are happy (general truth)."
+        },
+        {
+          "french": "Quand nous courons, nous sommes fatigués.",
+          "english": "When we run, we are tired."
+        },
+        {
+          "french": "Quand il joue au foot, il oublie ses problèmes.",
+          "english": "When he plays football, he forgets his problems."
+        },
+        {
+          "french": "Quand elle nage, elle pense à la mer.",
+          "english": "When she swims, she thinks about the sea."
+        },
+        {
+          "french": "Quand on fait du sport, on est en bonne santé.",
+          "english": "When one does sport, one is in good health."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand je ___ du sport, je suis heureux. (When I do sport, I am happy.)",
+          "options": [
+            "fais",
+            "fasse",
+            "faire"
+          ],
+          "correctAnswer": "fais",
+          "explanation": "After 'quand', use present tense: 'je fais'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Quand tu ___, tu te sens bien.'",
+          "options": [
+            "nages",
+            "nageras",
+            "nagais"
+          ],
+          "correctAnswer": "nages",
+          "explanation": "For habitual actions, use present tense after 'quand'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand nous ___ au tennis, nous ___ occupés. (When we play tennis, we are busy.)",
+          "options": [
+            "jouons, sommes",
+            "joue, suis",
+            "jouerez, serez"
+          ],
+          "correctAnswer": "jouons, sommes",
+          "explanation": "Both verbs are present tense: 'jouons' and 'sommes'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la fonction de 'quand' comme conjonction?",
+          "options": [
+            "Poser une question",
+            "Lier deux clauses pour montrer la relation temporelle",
+            "Exprimer une hypothèse"
+          ],
+          "correctAnswer": "Lier deux clauses pour montrer la relation temporelle",
+          "explanation": "'Quand' as a conjunction connects clauses to show when one action happens relative to another."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand il ___ au foot, il ___ ses soucis. (When he plays football, he forgets his worries.)",
+          "options": [
+            "joue, oublie",
+            "jouerait, oublierait",
+            "jouait, oubliait"
+          ],
+          "correctAnswer": "joue, oublie",
+          "explanation": "For habitual actions, use present tense after 'quand': 'joue' and 'oublie'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Quand elle ___ , elle pense à la mer.'",
+          "options": [
+            "nagera",
+            "nage",
+            "nageait"
+          ],
+          "correctAnswer": "nage",
+          "explanation": "Use present tense after 'quand' for general truths: 'nage'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quand on ___ du sport, on ___ en bonne santé. (When one does sport, one is in good health.)",
+          "options": [
+            "fait, est",
+            "ferait, serait",
+            "faisait, était"
+          ],
+          "correctAnswer": "fait, est",
+          "explanation": "For habitual actions, use present tense: 'fait' and 'est'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Peut-on utiliser d'autres temps après 'quand'?",
+          "options": [
+            "Non, toujours le présent",
+            "Oui, le temps dépend du contexte",
+            "Seulement le passé"
+          ],
+          "correctAnswer": "Oui, le temps dépend du contexte",
+          "explanation": "'Quand' can be followed by different tenses depending on whether you describe habitual actions (present), past events (passé composé), or future actions (future simple)."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est un sport populaire?",
+        "options": [
+          "Lire",
+          "Le foot",
+          "Manger"
+        ],
+        "correctAnswer": "Le foot",
+        "explanation": "Le foot (football/soccer) est un sport populaire."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ à la piscine. (I swim at the pool.)",
+        "options": [
+          "nage",
+          "nages",
+          "nagent"
+        ],
+        "correctAnswer": "nage",
+        "explanation": "'Je nage' is first-person singular present tense of 'nager'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que la natation?",
+        "options": [
+          "Un sport d'équipe",
+          "La course",
+          "Le sport de nager"
+        ],
+        "correctAnswer": "Le sport de nager",
+        "explanation": "La natation est l'action de nager; c'est un sport."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Quand je ___ du sport, je suis heureux. (When I do sport, I am happy.)",
+        "options": [
+          "fais",
+          "fasse",
+          "faire"
+        ],
+        "correctAnswer": "fais",
+        "explanation": "After 'quand', use present tense: 'je fais'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que 'courir' signifie?",
+        "options": [
+          "To walk",
+          "To swim",
+          "To run"
+        ],
+        "correctAnswer": "To run",
+        "explanation": "'Courir' means 'to run'."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "'Quand' comme conjonction temporelle introduit quoi?",
+        "options": [
+          "Un moment ou une action dans le temps",
+          "Une question directe",
+          "Une condition hypothétique",
+          "Une comparaison"
+        ],
+        "correctAnswer": "Un moment ou une action dans le temps",
+        "explanation": "Quand, comme conjonction, relie deux actions dans le temps: quand je cours, j'écoute de la musique.",
+        "targetWord": "courir"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel sport se pratique dans une piscine?",
+        "options": [
+          "La natation",
+          "Le foot",
+          "Le tennis",
+          "Le basket"
+        ],
+        "correctAnswer": "La natation",
+        "explanation": "La natation (swimming) est le sport qui se pratique dans l'eau, dans une piscine ou en mer.",
+        "targetWord": "la natation"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase avec 'quand' est correcte?",
+        "options": [
+          "Quand je cours, je suis content",
+          "Quand je courir, je suis content",
+          "Quand je coure, je suis content",
+          "Quand je courais, je suis content (en même temps)"
+        ],
+        "correctAnswer": "Quand je cours, je suis content",
+        "explanation": "Quand + présent décrit une action habituelle: quand je cours (chaque fois que je cours), je suis content.",
+        "targetWord": "courir"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle aime ___ dans la mer en été.",
+        "options": [
+          "nager",
+          "courir",
+          "skier"
+        ],
+        "correctAnswer": "nager",
+        "explanation": "Nager signifie se déplacer dans l'eau avec les mouvements du corps.",
+        "targetWord": "nager"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que 'courir' signifie?",
+        "options": [
+          "Se déplacer rapidement à pied",
+          "Nager dans une piscine",
+          "Jouer au football",
+          "Faire du ski alpin"
+        ],
+        "correctAnswer": "Se déplacer rapidement à pied",
+        "explanation": "Courir signifie aller vite à pied, plus vite que marcher.",
+        "targetWord": "courir"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe the sports you practise and how often you do them.",
+      "keyPhrases": [
+        "Je joue au...",
+        "Je fais de la...",
+        "Je fais du...",
+        "Une fois par semaine"
+      ],
+      "modelAnswer": "Je joue au foot deux fois par semaine. Je fais de la natation une fois par semaine. Je fais aussi du jogging le dimanche. J'aime le sport!",
+      "modelAnswerExplanation": "You mention the sports you play with their frequency. This is a natural way to talk about your sports activities and exercise routine.",
+      "tip": "Remember: 'jouer au/aux' for ball sports, 'faire de la/du' for other activities. Always include how often you do them: once a week, twice a week, etc."
+    },
+    "advanced": {
+      "scenario": "Explain to a friend why you enjoy sports, how sports make you feel, and discuss your training routine and fitness goals.",
+      "keyPhrases": [
+        "Quand je fais du sport...",
+        "J'aime le sport parce que...",
+        "Habituellement, je m'entraîne...",
+        "Mon objectif est de..."
+      ],
+      "modelAnswer": "Quand je fais du sport, je me sens énergique et heureux. J'aime le sport parce qu'il me maintient en bonne santé. Habituellement, je m'entraîne trois fois par semaine. Mon objectif est de rester en forme et d'améliorer ma performance.",
+      "modelAnswerExplanation": "You use 'quand + present' to explain what sports do for you emotionally and physically. You also mention your training frequency and fitness goals, showing commitment to your health.",
+      "tip": "Use 'quand + présent' (When I do sport, I feel...) to describe the relationship between exercise and your feelings. Be specific about your goals and training schedule."
+    }
+  }
+}

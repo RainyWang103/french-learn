@@ -37,7 +37,7 @@ independently. Deployed on Vercel, data stored in Supabase, installed via Safari
 french-learn/
 ├── public/
 │   ├── curriculum/
-│   │   ├── phase1/          # day001.json → day063.json
+│   │   ├── phase1/          # day001.json → day084.json
 │   │   ├── phase2/          # day001.json → day042.json (later)
 │   │   └── phase3/          # day001.json → day063.json (later)
 │   ├── icons/               # 192x192 and 512x512 PNG

@@ -1,0 +1,552 @@
+{
+  "day": 77,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Time Past & Future",
+  "vocab": {
+    "standard": [
+      {
+        "word": "hier",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "yehr",
+        "meaning": "yesterday",
+        "examples": [
+          ["Hier j'ai mangé une pomme.", "Yesterday I ate an apple."],
+          ["Tu es venu hier?", "Did you come yesterday?"],
+          ["Hier c'était lundi.", "Yesterday was Monday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "hier",
+          "feminine": "hier",
+          "masculinePlural": "hier",
+          "femininePlural": "hier"
+        }
+      },
+      {
+        "word": "demain",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "duh-man",
+        "meaning": "tomorrow",
+        "examples": [
+          ["Demain je vais à l'école.", "Tomorrow I will go to school."],
+          ["Tu fais quelque chose demain?", "Are you doing something tomorrow?"],
+          ["Demain c'est samedi.", "Tomorrow is Saturday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "demain",
+          "feminine": "demain",
+          "masculinePlural": "demain",
+          "femininePlural": "demain"
+        }
+      },
+      {
+        "word": "aujourd'hui",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "oh-jour-dwee",
+        "meaning": "today",
+        "examples": [
+          ["Aujourd'hui je suis heureux.", "Today I am happy."],
+          ["Tu travailles aujourd'hui?", "Are you working today?"],
+          ["Aujourd'hui c'est vendredi.", "Today is Friday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "aujourd'hui",
+          "feminine": "aujourd'hui",
+          "masculinePlural": "aujourd'hui",
+          "femininePlural": "aujourd'hui"
+        }
+      },
+      {
+        "word": "la veille",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "vay",
+        "meaning": "the day before / the eve",
+        "notes": "the day before / the eve",
+        "examples": [
+          ["La veille de Noël est spéciale.", "Christmas Eve is special."],
+          ["La veille du départ était excitante.", "The day before leaving was exciting."],
+          ["On prépare la veille.", "We prepare the day before."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "veille",
+          "masculinePlural": "",
+          "femininePlural": "veilles"
+        }
+      },
+      {
+        "word": "le lendemain",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lahn-duh-man",
+        "meaning": "the day after / the next day",
+        "notes": "the day after / the next day",
+        "examples": [
+          ["Le lendemain il était triste.", "The day after, he was sad."],
+          ["Le lendemain du voyage était difficile.", "The day after the trip was difficult."],
+          ["Chaque lendemain est nouveau.", "Each next day is new."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "lendemain",
+          "feminine": "",
+          "masculinePlural": "lendemains",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "hier",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "yehr",
+        "meaning": "yesterday",
+        "examples": [
+          ["Hier j'ai mangé une pomme.", "Yesterday I ate an apple."],
+          ["Tu es venu hier?", "Did you come yesterday?"],
+          ["Hier c'était lundi.", "Yesterday was Monday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "hier",
+          "feminine": "hier",
+          "masculinePlural": "hier",
+          "femininePlural": "hier"
+        }
+      },
+      {
+        "word": "demain",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "duh-man",
+        "meaning": "tomorrow",
+        "examples": [
+          ["Demain je vais à l'école.", "Tomorrow I will go to school."],
+          ["Tu fais quelque chose demain?", "Are you doing something tomorrow?"],
+          ["Demain c'est samedi.", "Tomorrow is Saturday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "demain",
+          "feminine": "demain",
+          "masculinePlural": "demain",
+          "femininePlural": "demain"
+        }
+      },
+      {
+        "word": "aujourd'hui",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "oh-jour-dwee",
+        "meaning": "today",
+        "examples": [
+          ["Aujourd'hui je suis heureux.", "Today I am happy."],
+          ["Tu travailles aujourd'hui?", "Are you working today?"],
+          ["Aujourd'hui c'est vendredi.", "Today is Friday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "aujourd'hui",
+          "feminine": "aujourd'hui",
+          "masculinePlural": "aujourd'hui",
+          "femininePlural": "aujourd'hui"
+        }
+      },
+      {
+        "word": "la veille",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "vay",
+        "meaning": "the day before / the eve",
+        "notes": "the day before / the eve",
+        "examples": [
+          ["La veille de Noël est spéciale.", "Christmas Eve is special."],
+          ["La veille du départ était excitante.", "The day before leaving was exciting."],
+          ["On prépare la veille.", "We prepare the day before."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "veille",
+          "masculinePlural": "",
+          "femininePlural": "veilles"
+        }
+      },
+      {
+        "word": "le lendemain",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lahn-duh-man",
+        "meaning": "the day after / the next day",
+        "notes": "the day after / the next day",
+        "examples": [
+          ["Le lendemain il était triste.", "The day after, he was sad."],
+          ["Le lendemain du voyage était difficile.", "The day after the trip was difficult."],
+          ["Chaque lendemain est nouveau.", "Each next day is new."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "lendemain",
+          "feminine": "",
+          "masculinePlural": "lendemains",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "auparavant",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "pronunciation": "oh-par-ah-vahn",
+        "meaning": "before / previously",
+        "notes": "before / previously",
+        "examples": [
+          ["Auparavant, je vivais à Paris.", "Previously, I lived in Paris."],
+          ["Tu as travaillé auparavant?", "Did you work before?"],
+          ["Auparavant c'était difficile.", "Before, it was difficult."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "auparavant",
+          "feminine": "auparavant",
+          "masculinePlural": "auparavant",
+          "femininePlural": "auparavant"
+        }
+      },
+      {
+        "word": "tout à l'heure",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "too tah lur",
+        "meaning": "soon / a little while ago (context-dependent)",
+        "notes": "soon / a little while ago (context-dependent)",
+        "examples": [
+          ["Je reviens tout à l'heure.", "I'll be back in a little while."],
+          ["Vous êtes venus tout à l'heure.", "You came a little while ago."],
+          ["À tout à l'heure!", "See you soon!"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "tout à l'heure",
+          "feminine": "tout à l'heure",
+          "masculinePlural": "tout à l'heure",
+          "femininePlural": "tout à l'heure"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Qu'est-ce que tu as fait hier?"],
+        ["B", "Hier j'ai joué au football avec mes amis."],
+        ["A", "C'était amusant?"],
+        ["B", "Oui, très amusant! Et demain?"],
+        ["A", "Demain je vais étudier à la bibliothèque."],
+        ["B", "D'accord! Aujourd'hui on se repose."]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que B a fait hier?",
+          "options": ["Il a joué au football", "Il a étudié", "Il a mangé"],
+          "correctAnswer": "Il a joué au football"
+        },
+        {
+          "question": "Qu'est-ce que A va faire demain?",
+          "options": ["Jouer au football", "Étudier à la bibliothèque", "Regarder un film"],
+          "correctAnswer": "Étudier à la bibliothèque"
+        },
+        {
+          "question": "Que vont-ils faire aujourd'hui?",
+          "options": ["Jouer", "Étudier", "Se reposer"],
+          "correctAnswer": "Se reposer"
+        }
+      ],
+      "summary": "Two friends talk about their activities: yesterday B played football with friends, tomorrow A will study at the library, and today they will rest."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Dis-moi ce que tu as fait hier."],
+        ["B", "Hier j'ai eu une journée chargée. J'ai travaillé le matin, et l'après-midi j'ai rencontré mes amis."],
+        ["A", "Intéressant! Et demain, tu fais quoi?"],
+        ["B", "Demain je vais voyager. La veille du voyage était stressante."],
+        ["A", "Oui, les préparatifs! Et le lendemain du voyage?"],
+        ["B", "Le lendemain je serai fatigué, mais heureux."],
+        ["A", "Auparavant tu n'aimais pas voyager?"],
+        ["B", "Auparavant j'avais peur, mais maintenant j'aime!"]
+      ],
+      "questions": [
+        {
+          "question": "Qu'a fait B hier?",
+          "options": ["Il a dormi", "Il a travaillé et rencontré des amis", "Il a voyagé", "Il a étudié"],
+          "correctAnswer": "Il a travaillé et rencontré des amis"
+        },
+        {
+          "question": "Que va faire B demain?",
+          "options": ["Travailler", "Voyager", "Étudier", "Se reposer"],
+          "correctAnswer": "Voyager"
+        },
+        {
+          "question": "Comment était la veille du voyage pour B?",
+          "options": ["Amusante", "Facile", "Stressante", "Ennuyeuse"],
+          "correctAnswer": "Stressante"
+        },
+        {
+          "question": "Auparavant, quelle était l'attitude de B envers les voyages?",
+          "options": ["Il aimait voyager", "Il avait peur", "Il était heureux", "Il était stressé"],
+          "correctAnswer": "Il avait peur"
+        }
+      ],
+      "summary": "B recounts a busy day yesterday (work and meeting friends), plans to travel tomorrow (the preparation day was stressful), and expects to feel tired but happy the day after travel. B admits to previously being afraid of traveling but now enjoys it."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Il y a + duration vs Dans + duration",
+      "explanation": "'Il y a' + duration expresses how long ago something happened (past): 'Il y a deux jours' = Two days ago. 'Dans' + duration expresses when something will happen in the future: 'Dans deux jours' = In two days. Both use the same time words: une heure (one hour), un jour (one day), une semaine (one week), un mois (one month), un an (one year). The key difference: 'il y a' looks backward (past), 'dans' looks forward (future). Example contrast: 'Il y a une semaine, il était là.' (He was here a week ago.) vs 'Dans une semaine, il sera là.' (He will be here in a week.)",
+      "examples": [
+        {
+          "french": "Il y a deux jours, je suis allé au cinéma.",
+          "english": "Two days ago, I went to the cinema."
+        },
+        {
+          "french": "Dans une semaine, ce sera mon anniversaire.",
+          "english": "In a week, it will be my birthday."
+        },
+        {
+          "french": "Il y a un mois, j'ai commencé le français.",
+          "english": "A month ago, I started French."
+        },
+        {
+          "french": "Dans trois jours, les vacances commencent.",
+          "english": "In three days, the holidays start."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Il y a une semaine, j'___. (chose qui s'est passée)",
+          "options": ["vais au cinéma", "suis allé au cinéma", "serai au cinéma"],
+          "correctAnswer": "suis allé au cinéma",
+          "explanation": "'Il y a' + duration is used with past tense (passé composé)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Dans deux jours, je ___. (future)",
+          "options": ["suis allé", "vais", "allais"],
+          "correctAnswer": "vais",
+          "explanation": "'Dans' + duration is used with future tense (futur proche or simple)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il y a trois ___, tu es venu.",
+          "options": ["heures", "jours", "ans"],
+          "correctAnswer": "jours",
+          "explanation": "Any time unit works with 'il y a': heures, jours, semaines, mois, ans."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Dans ___ mois, on va partir.",
+          "options": ["un", "une", "deux"],
+          "correctAnswer": "un",
+          "explanation": "'Dans un mois' = In one month. Correct article and number."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Contraste: Il y a vs Dans?",
+          "options": ["Il y a = futur, Dans = passé", "Il y a = passé, Dans = futur", "Même chose"],
+          "correctAnswer": "Il y a = passé, Dans = futur",
+          "explanation": "'Il y a' (ago) refers to the past; 'dans' (in) refers to the future."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Il y a + duration vs Dans + duration — Past vs Future Time Expressions",
+      "explanation": "Time expressions using 'il y a' and 'dans' express temporal relationships. 'Il y a' + duration = X time ago (past tense required): 'Il y a deux jours' = Two days ago. This construction requires a past tense verb (passé composé, imparfait, or plus-que-parfait). 'Dans' + duration = in X time (future): 'Dans deux semaines' = In two weeks. This construction requires future tense (futur simple, futur proche, or conditional). Both accept the same time units (une heure, un jour, une semaine, un mois, un an, deux ans). Related expressions: 'il y a longtemps' (long ago), 'dans longtemps' (in a long time), 'à partir de maintenant' (starting now), 'jusqu'à' (until). Contrast example: 'Il y a trois mois, nous avons eu une réunion.' (Three months ago, we had a meeting.) vs 'Dans trois mois, nous aurons une réunion.' (In three months, we will have a meeting.)",
+      "examples": [
+        {
+          "french": "Il y a deux jours, je suis allé au cinéma.",
+          "english": "Two days ago, I went to the cinema."
+        },
+        {
+          "french": "Dans une semaine, ce sera mon anniversaire.",
+          "english": "In a week, it will be my birthday."
+        },
+        {
+          "french": "Il y a un mois, j'ai commencé le français.",
+          "english": "A month ago, I started French."
+        },
+        {
+          "french": "Dans trois jours, les vacances commencent.",
+          "english": "In three days, the holidays start."
+        },
+        {
+          "french": "Il y a longtemps, je vivais à Paris.",
+          "english": "A long time ago, I lived in Paris."
+        },
+        {
+          "french": "Dans longtemps, on sera ensemble.",
+          "english": "In a long time, we will be together."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Il y a une semaine, je ___. (passé)",
+          "options": ["vais au cinéma", "suis allé au cinéma", "serai au cinéma"],
+          "correctAnswer": "suis allé au cinéma",
+          "explanation": "'Il y a' requires past tense (passé composé)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Dans deux jours, je ___. (futur)",
+          "options": ["suis allé", "vais", "allais"],
+          "correctAnswer": "vais",
+          "explanation": "'Dans' requires future tense (futur proche or simple)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complète: Il y a trois ___, on s'est rencontrés.",
+          "options": ["ans", "année", "annees"],
+          "correctAnswer": "ans",
+          "explanation": "Plural form: 'il y a trois ans' (three years ago)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Contraste: Il y a trois mois vs Dans trois mois?",
+          "options": ["Même sens", "Il y a = passé, Dans = futur", "Il y a = futur, Dans = passé"],
+          "correctAnswer": "Il y a = passé, Dans = futur",
+          "explanation": "Il y a trois mois = trois mois passés (three months in the past); Dans trois mois = trois mois dans le futur (three months in the future)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il y a longtemps, je ___.",
+          "options": ["vais voyager", "voyageais", "vais"],
+          "correctAnswer": "voyageais",
+          "explanation": "'Il y a longtemps' often uses imparfait: 'Il y a longtemps, je voyageais beaucoup.'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Dans ___ mois, la réunion aura lieu.",
+          "options": ["deux", "deux mois", "deux ans"],
+          "correctAnswer": "deux",
+          "explanation": "'Dans deux mois' (In two months). Correct: dans + number + time unit."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel temps pour 'il y a' + passé?",
+          "options": ["Futur simple", "Passé composé", "Futur proche"],
+          "correctAnswer": "Passé composé",
+          "explanation": "'Il y a' sentences use past tense like passé composé: 'Il y a deux jours, j'ai vu un film.'"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il y a ___ heures, on a mangé ensemble.",
+          "options": ["deux", "deux heures", "dans deux"],
+          "correctAnswer": "deux",
+          "explanation": "Correct: 'Il y a deux heures' (Two hours ago). No 'dans' here."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Hier signifie?",
+        "options": ["Demain", "Aujourd'hui", "Le jour avant aujourd'hui"],
+        "correctAnswer": "Le jour avant aujourd'hui",
+        "explanation": "Hier = yesterday (the day before today)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il y a deux jours, j'ai ___.",
+        "options": ["vais", "suis allé", "irai"],
+        "correctAnswer": "suis allé",
+        "explanation": "'Il y a' is used with past tense (passé composé)."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Dans une semaine, je ___.",
+        "options": ["suis allé", "vais", "allais"],
+        "correctAnswer": "vais",
+        "explanation": "'Dans' is used with future tense (futur proche or simple)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le lendemain est ___.",
+        "options": ["le jour avant", "le jour après", "aujourd'hui"],
+        "correctAnswer": "le jour après",
+        "explanation": "Lendemain = the day after / the next day."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quand est la veille de Noël?",
+        "options": ["Le 25 décembre", "Le 24 décembre", "Le 26 décembre"],
+        "correctAnswer": "Le 24 décembre",
+        "explanation": "Christmas Eve (la veille de Noël) is December 24th."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Il y a trois mois, j'ai ___. Quel temps?",
+        "options": ["vais", "irai", "suis allé", "serais allé"],
+        "correctAnswer": "suis allé",
+        "explanation": "'Il y a' requires past tense (passé composé, imparfait, etc.)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Contraste: Il y a deux jours vs Dans deux jours.",
+        "options": ["Même sens", "Il y a = passé, Dans = futur", "Il y a = futur, Dans = passé"],
+        "correctAnswer": "Il y a = passé, Dans = futur",
+        "explanation": "Il y a deux jours = two days ago (past); Dans deux jours = in two days (future)."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Auparavant signifie?",
+        "options": ["Aujourd'hui", "Demain", "Avant / Previously", "Tout à l'heure"],
+        "correctAnswer": "Avant / Previously",
+        "explanation": "Auparavant = before / previously (refers to an indefinite time in the past)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "À ___ l'heure! (See you soon!)",
+        "options": ["tout", "dans", "il y a"],
+        "correctAnswer": "tout",
+        "explanation": "'À tout à l'heure!' is a common expression meaning 'See you in a little while!'"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "La veille du départ était comment?",
+        "options": ["Le jour après", "Le jour avant", "Aujourd'hui", "Demain"],
+        "correctAnswer": "Le jour avant",
+        "explanation": "Veille = the day before (eve of an event)."
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe what you did yesterday and what you'll do tomorrow.",
+      "keyPhrases": ["Hier j'ai...", "Demain je vais...", "C'était...", "Ce sera..."],
+      "modelAnswer": "Hier j'ai joué au football avec des amis. C'était amusant! Demain je vais étudier à la bibliothèque. Ce sera difficile mais important. Et toi, qu'est-ce que tu as fait hier?",
+      "modelAnswerExplanation": "This response describes yesterday's activity and tomorrow's plan in appropriate tenses, includes feelings, and invites the other person to share.",
+      "tip": "Use past tense for 'hier' (yesterday): 'j'ai joué', 'c'était'. Use future tense for 'demain' (tomorrow): 'je vais étudier', 'ce sera'. Always invite the other person to respond with 'Et toi?'"
+    },
+    "advanced": {
+      "scenario": "Describe a detailed account of yesterday's events and your plans for the upcoming days.",
+      "keyPhrases": ["Hier j'ai...", "Le lendemain...", "Auparavant...", "Dans...", "Il y a..."],
+      "modelAnswer": "Hier j'ai eu une journée chargée. Le matin j'ai travaillé, et l'après-midi j'ai rencontré mes amis. Auparavant j'étais fatigué, mais maintenant je me sens mieux. Il y a une semaine, j'ai commencé un nouveau projet. Dans une semaine, je vais le finir. Et toi, comment a été ta semaine?",
+      "modelAnswerExplanation": "This response uses multiple time expressions (hier, lendemain, auparavant, il y a, dans) with appropriate tenses, provides sequential details, and ends with an engaging question.",
+      "tip": "Use 'il y a' + past tense for past events ('Il y a une semaine, j'ai...'). Use 'dans' + future tense for future plans ('Dans une semaine, je vais...'). Vary descriptive adjectives ('chargée', 'nouveau', 'mieux') to make narration richer."
+    }
+  }
+}

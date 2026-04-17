@@ -1,0 +1,558 @@
+{
+  "day": 75,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Big Numbers",
+  "vocab": {
+    "standard": [
+      {
+        "word": "cent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "sahn",
+        "meaning": "hundred",
+        "notes": "100 — plural: deux cents but deux cent trente",
+        "examples": [
+          ["Cent euros est beaucoup.", "One hundred euros is a lot."],
+          ["Il y a cent livres.", "There are one hundred books."],
+          ["Combien coûte? Deux cents euros.", "How much does it cost? Two hundred euros."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "cent",
+          "feminine": "",
+          "masculinePlural": "cents",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mille",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "meel",
+        "meaning": "thousand",
+        "notes": "1000 — invariable, never takes -s",
+        "examples": [
+          ["Mille personnes sont venues.", "One thousand people came."],
+          ["Deux mille euros.", "Two thousand euros."],
+          ["Il y a dix mille maisons.", "There are ten thousand houses."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mille",
+          "feminine": "",
+          "masculinePlural": "mille",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "million",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mee-lyohn",
+        "meaning": "million",
+        "examples": [
+          ["Un million de personnes.", "One million people."],
+          ["Deux millions d'euros.", "Two million euros."],
+          ["Il gagne un million par an.", "He earns a million a year."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "million",
+          "feminine": "",
+          "masculinePlural": "millions",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "compter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "kohn-tay",
+        "meaning": "to count",
+        "examples": [
+          ["Je compte jusqu'à cent.", "I count up to one hundred."],
+          ["Tu comptes tes euros?", "Are you counting your euros?"],
+          ["Ils comptent les jours.", "They count the days."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je compte",
+          "tu": "tu comptes",
+          "il": "il/elle/on compte",
+          "nous": "nous comptons",
+          "vous": "vous comptez",
+          "ils": "ils/elles comptent"
+        }
+      },
+      {
+        "word": "le nombre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "nohm",
+        "meaning": "number",
+        "examples": [
+          ["Quel est le nombre?", "What is the number?"],
+          ["Le nombre de gens augmente.", "The number of people increases."],
+          ["Je compte les nombres.", "I count the numbers."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "nombre",
+          "feminine": "",
+          "masculinePlural": "nombres",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "cent",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "sahn",
+        "meaning": "hundred",
+        "notes": "100 — plural: deux cents but deux cent trente",
+        "examples": [
+          ["Cent euros est beaucoup.", "One hundred euros is a lot."],
+          ["Il y a cent livres.", "There are one hundred books."],
+          ["Combien coûte? Deux cents euros.", "How much does it cost? Two hundred euros."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "cent",
+          "feminine": "",
+          "masculinePlural": "cents",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mille",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "meel",
+        "meaning": "thousand",
+        "notes": "1000 — invariable, never takes -s",
+        "examples": [
+          ["Mille personnes sont venues.", "One thousand people came."],
+          ["Deux mille euros.", "Two thousand euros."],
+          ["Il y a dix mille maisons.", "There are ten thousand houses."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mille",
+          "feminine": "",
+          "masculinePlural": "mille",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "million",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mee-lyohn",
+        "meaning": "million",
+        "examples": [
+          ["Un million de personnes.", "One million people."],
+          ["Deux millions d'euros.", "Two million euros."],
+          ["Il gagne un million par an.", "He earns a million a year."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "million",
+          "feminine": "",
+          "masculinePlural": "millions",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "milliard",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mee-lyar",
+        "meaning": "billion",
+        "examples": [
+          ["Un milliard de personnes.", "One billion people."],
+          ["Deux milliards d'euros.", "Two billion euros."],
+          ["Il y a un milliard d'habitants.", "There are one billion inhabitants."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "milliard",
+          "feminine": "",
+          "masculinePlural": "milliards",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le nombre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "nohm",
+        "meaning": "number",
+        "examples": [
+          ["Quel est le nombre?", "What is the number?"],
+          ["Le nombre de gens augmente.", "The number of people increases."],
+          ["Je compte les nombres.", "I count the numbers."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "nombre",
+          "feminine": "",
+          "masculinePlural": "nombres",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le chiffre",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "shee-fr",
+        "meaning": "digit / figure",
+        "examples": [
+          ["Le chiffre 5 est simple.", "The digit 5 is simple."],
+          ["Quel est le premier chiffre?", "What is the first digit?"],
+          ["Je compte les chiffres.", "I count the digits."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "chiffre",
+          "feminine": "",
+          "masculinePlural": "chiffres",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "compter",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "kohn-tay",
+        "meaning": "to count",
+        "examples": [
+          ["Je compte jusqu'à cent.", "I count up to one hundred."],
+          ["Tu comptes tes euros?", "Are you counting your euros?"],
+          ["Ils comptent les jours.", "They count the days."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je compte",
+          "tu": "tu comptes",
+          "il": "il/elle/on compte",
+          "nous": "nous comptons",
+          "vous": "vous comptez",
+          "ils": "ils/elles comptent"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Quel est le prix du canapé?"],
+        ["B", "Le canapé coûte deux cent cinquante euros."],
+        ["A", "Et la table?"],
+        ["B", "La table coûte mille euros!"],
+        ["A", "C'est très cher! Et la chaise?"],
+        ["B", "La chaise coûte cent euros seulement."]
+      ],
+      "questions": [
+        {
+          "question": "Combien coûte le canapé?",
+          "options": ["Cent euros", "Deux cent cinquante euros", "Mille euros"],
+          "correctAnswer": "Deux cent cinquante euros"
+        },
+        {
+          "question": "Quel meuble coûte mille euros?",
+          "options": ["Le canapé", "La table", "La chaise"],
+          "correctAnswer": "La table"
+        },
+        {
+          "question": "Combien coûte la chaise?",
+          "options": ["Cent euros", "Deux cents euros", "Mille euros"],
+          "correctAnswer": "Cent euros"
+        }
+      ],
+      "summary": "A shopper asks about furniture prices at a store: a sofa costs 250 euros, a table costs 1,000 euros, and a chair costs 100 euros."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Quel est le prix total de cette maison?"],
+        ["B", "C'est un million deux cent mille euros."],
+        ["A", "C'est très cher! Combien de pièces?"],
+        ["B", "Il y a dix pièces et un grand jardin."],
+        ["A", "Et le garage? Combien de voitures?"],
+        ["B", "Le garage peut contenir deux voitures."],
+        ["A", "Excellent! Et combien de mètres carrés?"],
+        ["B", "La maison fait deux cent cinquante mètres carrés."]
+      ],
+      "questions": [
+        {
+          "question": "Quel est le prix de la maison?",
+          "options": ["Un million euros", "Un million deux cent mille euros", "Deux millions euros", "Cent mille euros"],
+          "correctAnswer": "Un million deux cent mille euros"
+        },
+        {
+          "question": "Combien de pièces y a-t-il?",
+          "options": ["Cinq pièces", "Dix pièces", "Vingt pièces", "Mille pièces"],
+          "correctAnswer": "Dix pièces"
+        },
+        {
+          "question": "Combien de voitures le garage peut-il contenir?",
+          "options": ["Une voiture", "Deux voitures", "Trois voitures", "Dix voitures"],
+          "correctAnswer": "Deux voitures"
+        },
+        {
+          "question": "Combien de mètres carrés la maison fait-elle?",
+          "options": ["Cent mètres carrés", "Deux cents mètres carrés", "Deux cent cinquante mètres carrés", "Mille mètres carrés"],
+          "correctAnswer": "Deux cent cinquante mètres carrés"
+        }
+      ],
+      "summary": "A real estate agent describes a house priced at 1.2 million euros with 10 rooms, a large garden, a 2-car garage, and 250 square meters of space."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Numbers 100–1,000,000",
+      "explanation": "Large numbers in French follow specific rules. 'Cent' (100) takes an 's' in the plural only when not followed by another number: 'deux cents' (200) but 'deux cent trente' (230). 'Mille' (1000) never takes an 's' in any form: 'mille', 'deux mille', 'dix mille'. 'Million' and 'milliard' take an 's' in the plural and are followed by 'de' before a noun: 'un million d'euros', 'deux millions de personnes'. Always count: 100=cent, 200=deux cents, 300=trois cents, 1000=mille, 2000=deux mille.",
+      "examples": [
+        {
+          "french": "Cent livres",
+          "english": "One hundred books"
+        },
+        {
+          "french": "Deux cents euros",
+          "english": "Two hundred euros"
+        },
+        {
+          "french": "Deux cent trente personnes",
+          "english": "Two hundred thirty people"
+        },
+        {
+          "french": "Mille ans",
+          "english": "One thousand years"
+        },
+        {
+          "french": "Un million d'euros",
+          "english": "One million euros"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "200 euros: Deux ___ euros.",
+          "options": ["cent", "cents", "centain"],
+          "correctAnswer": "cents",
+          "explanation": "Deux cents — 'cent' takes -s when plural and not followed by another number."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "230 euros: Deux cent ___ euros.",
+          "options": ["trente", "trent", "trents"],
+          "correctAnswer": "trente",
+          "explanation": "Deux cent trente — no -s on 'cent' when followed by another number."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "1000 personnes: ___ personnes.",
+          "options": ["Mille", "Milles", "Un mille"],
+          "correctAnswer": "Mille",
+          "explanation": "'Mille' never takes -s, even in plural (mille, deux mille, dix mille)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "2,000,000 euros: Un million d'___ (euros).",
+          "options": ["euro", "euros", "euroses"],
+          "correctAnswer": "euros",
+          "explanation": "Million + de + plural noun. Un million d'euros."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel nombre? 5,000",
+          "options": ["Cinq cents", "Cinq mille", "Cinq millions"],
+          "correctAnswer": "Cinq mille",
+          "explanation": "5,000 = cinq mille. Mille is always invariable."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Numbers 100–1,000,000 — cent/mille Agreement, Pronunciation & Usage",
+      "explanation": "Large numbers require careful attention to agreement rules. 'Cent' (100) takes an 's' only when it stands alone as a plural (deux cents = 200) but loses the 's' when followed by another number (deux cent trente = 230). 'Mille' (1000) is invariable and never takes an 's' in any position: mille, deux mille, dix mille, etc. 'Million' and 'milliard' (billion) are count nouns that pluralize (deux millions, trois milliards) and require 'de' before a following noun: un million de gens, deux milliards d'habitants. When speaking prices or large quantities, numbers are pronounced fully: trois cent quarante-cinq euros (345 euros), deux mille vingt-six (2026).",
+      "examples": [
+        {
+          "french": "Cent livres, mais deux cents euros",
+          "english": "One hundred books, but two hundred euros"
+        },
+        {
+          "french": "Deux cent trente-quatre personnes",
+          "english": "Two hundred thirty-four people"
+        },
+        {
+          "french": "Deux mille personnes, dix mille euros",
+          "english": "Two thousand people, ten thousand euros"
+        },
+        {
+          "french": "Un million de gens, deux millions d'euros",
+          "english": "One million people, two million euros"
+        },
+        {
+          "french": "Trois milliards d'habitants",
+          "english": "Three billion inhabitants"
+        },
+        {
+          "french": "La maison coûte un million deux cent mille euros.",
+          "english": "The house costs 1,200,000 euros."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Écris 200 euros.",
+          "options": ["Deux cent euros", "Deux cents euros", "Cent deux euros"],
+          "correctAnswer": "Deux cents euros",
+          "explanation": "200 = deux cents. 'Cent' takes -s when plural and not followed by another number."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Écris 234 personnes: Deux cent ___ ___.",
+          "options": ["trente-quatre personnes", "trente quatre personnes", "trent-quatr personnes"],
+          "correctAnswer": "trente-quatre personnes",
+          "explanation": "Deux cent trente-quatre — no -s on 'cent' when followed by numbers."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel nombre? 2,000",
+          "options": ["Deux cents", "Deux mille", "Deux millions"],
+          "correctAnswer": "Deux mille",
+          "explanation": "2,000 = deux mille. Mille is invariable."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Écris 1,000,000 de gens: Un million ___ ___.",
+          "options": ["de gens", "des gens", "gens"],
+          "correctAnswer": "de gens",
+          "explanation": "Million + 'de' + plural noun. Un million de gens."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Écris 3,000,000,000.",
+          "options": ["Trois millions", "Trois milliards", "Trois cents millions"],
+          "correctAnswer": "Trois milliards",
+          "explanation": "3,000,000,000 = trois milliards (billion). Milliard pluralizes."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il y a deux ___ habitants en France.",
+          "options": ["millions", "milles", "cents"],
+          "correctAnswer": "millions",
+          "explanation": "France has about 67 million inhabitants: environ soixante-sept millions."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Énonce le prix: 1,250,000 euros",
+          "options": ["Un million cent cinquante mille", "Un million deux cent cinquante mille", "Douze millions cinq cents mille"],
+          "correctAnswer": "Un million deux cent cinquante mille",
+          "explanation": "1,250,000 = un million deux cent cinquante mille euros."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Quel est le code postal (postal code)? 75000 (sept mille cinquante) → Sept mille ___.",
+          "options": ["cinquante", "cent cinquante", "mille cinquante"],
+          "correctAnswer": "cinquante",
+          "explanation": "75,000 = soixante-quinze mille. Only add what remains after mille."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Écris 200 euros.",
+        "options": ["Deux cent euros", "Deux cents euros", "Cent deux euros"],
+        "correctAnswer": "Deux cents euros",
+        "explanation": "200 = deux cents (with -s because it's plural and not followed by another number)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Mille prend-il un 's' au pluriel?",
+        "options": ["Oui, deux milles", "Non, deux mille", "Parfois"],
+        "correctAnswer": "Non, deux mille",
+        "explanation": "Mille is invariable and never takes an 's'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Un million de gens. Combien?",
+        "options": ["100,000", "1,000,000", "1,000"],
+        "correctAnswer": "1,000,000",
+        "explanation": "Un million = 1,000,000."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "230 euros: Deux cent ___ euros.",
+        "options": ["trente", "trent", "trents"],
+        "correctAnswer": "trente",
+        "explanation": "Deux cent trente — no -s on cent when followed by another number."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel nombre? 5,000",
+        "options": ["Cinq cents", "Cinq mille", "Cinq millions"],
+        "correctAnswer": "Cinq mille",
+        "explanation": "5,000 = cinq mille."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Écris 345 livres.",
+        "options": ["Trois cent quarante-cinq", "Trois cents quarante-cinq", "Cent trois quarante-cinq", "Trois cents quarante-cinqs"],
+        "correctAnswer": "Trois cent quarante-cinq",
+        "explanation": "345 = trois cent quarante-cinq. No -s on 'cent' because it's followed by another number."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "2,500,000: Deux million ___ cent mille.",
+        "options": ["cinq", "centes", "cents"],
+        "correctAnswer": "cinq",
+        "explanation": "2,500,000 = deux millions cinq cent mille (million pluralizes, cent takes -s)."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Un million d'___ (euros).",
+        "options": ["euro", "euros", "euroses", "eurose"],
+        "correctAnswer": "euros",
+        "explanation": "Million + de + plural noun. Un million d'euros."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "France a environ 67 ___ habitants.",
+        "options": ["millions", "milles", "cents"],
+        "correctAnswer": "millions",
+        "explanation": "Sixty-seven million: soixante-sept millions d'habitants."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "1,200,000 euros?",
+        "options": ["Un million deux cent mille", "Douze millions", "Un million deux cents mille", "Mille deux cents mille"],
+        "correctAnswer": "Un million deux cent mille",
+        "explanation": "1,200,000 = un million deux cent mille euros (no -s on cent before mille)."
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Tell someone how much things typically cost where you live.",
+      "keyPhrases": ["Une maison coûte...", "Un car coûte...", "Un repas coûte...", "C'est cher!"],
+      "modelAnswer": "Une maison coûte environ deux cent mille euros où je vis. Une voiture coûte mille euros ou plus. Un repas au restaurant coûte vingt-cinq euros. C'est assez cher!",
+      "modelAnswerExplanation": "This response gives realistic prices for common items using large numbers correctly (with proper agreement for cent and mille).",
+      "tip": "Use 'environ' (approximately) for estimates. Remember cent takes -s only when plural without another number (deux cents), while mille never does (deux mille, not 'deux milles')."
+    },
+    "advanced": {
+      "scenario": "Discuss housing prices and other major expenses in your area.",
+      "keyPhrases": ["Un appartement coûte...", "Une maison coûte...", "Il y a des millions de...", "C'est très cher!"],
+      "modelAnswer": "Un appartement coûte environ quatre cent mille euros. Une maison coûte un million ou deux millions. Il y a des millions de gens dans ma région. Les prix augmentent chaque année. C'est devenu très cher pour les jeunes!",
+      "modelAnswerExplanation": "This response uses multiple large numbers correctly, provides context about price trends, and reflects on the social impact of housing costs.",
+      "tip": "Use agreements: 'deux cents' (200) but 'deux cent mille' (200,000); 'deux mille' never changes (2,000, 20,000); 'deux millions' pluralizes with 'de'. Include comparative language like 'plus cher', 'moins cher', 'augmente' to enrich discussion."
+    }
+  }
+}

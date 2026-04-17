@@ -1,0 +1,548 @@
+{
+  "day": 73,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Accessories & Small Items",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le sac à main",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "sak a mahn",
+        "meaning": "handbag / purse",
+        "examples": [
+          ["Mon sac à main est rouge.", "My handbag is red."],
+          ["Elle met ses clés dans le sac à main.", "She puts her keys in the handbag."],
+          ["Où est mon sac à main?", "Where is my handbag?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "sac à main",
+          "feminine": "",
+          "masculinePlural": "sacs à main",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la cravate",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "krah-vah",
+        "meaning": "tie / necktie",
+        "examples": [
+          ["Il porte une cravate bleu.", "He wears a blue tie."],
+          ["Ma cravate est belle.", "My tie is beautiful."],
+          ["Quelle cravate préfères-tu?", "Which tie do you prefer?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "cravate",
+          "masculinePlural": "",
+          "femininePlural": "cravates"
+        }
+      },
+      {
+        "word": "les lunettes",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "loo-net",
+        "meaning": "glasses / eyeglasses",
+        "notes": "always plural — eyeglasses",
+        "examples": [
+          ["Je porte des lunettes.", "I wear glasses."],
+          ["Ses lunettes sont sur la table.", "His glasses are on the table."],
+          ["As-tu tes lunettes?", "Do you have your glasses?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "lunette",
+          "masculinePlural": "",
+          "femininePlural": "lunettes"
+        }
+      },
+      {
+        "word": "le parapluie",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "pah-rah-pluh-ee",
+        "meaning": "umbrella",
+        "examples": [
+          ["Mon parapluie est noir.", "My umbrella is black."],
+          ["Je dois prendre un parapluie.", "I must take an umbrella."],
+          ["Où est le parapluie?", "Where is the umbrella?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "parapluie",
+          "feminine": "",
+          "masculinePlural": "parapluies",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le portefeuille",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "port-fuh-yuh",
+        "meaning": "wallet",
+        "examples": [
+          ["Mon portefeuille est dans ma poche.", "My wallet is in my pocket."],
+          ["Il met sa carte dans le portefeuille.", "He puts his card in the wallet."],
+          ["Où est mon portefeuille?", "Where is my wallet?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "portefeuille",
+          "feminine": "",
+          "masculinePlural": "portefeuilles",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le sac à main",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "sak a mahn",
+        "meaning": "handbag / purse",
+        "examples": [
+          ["Mon sac à main est rouge.", "My handbag is red."],
+          ["Elle met ses clés dans le sac à main.", "She puts her keys in the handbag."],
+          ["Où est mon sac à main?", "Where is my handbag?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "sac à main",
+          "feminine": "",
+          "masculinePlural": "sacs à main",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la cravate",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "krah-vah",
+        "meaning": "tie / necktie",
+        "examples": [
+          ["Il porte une cravate bleu.", "He wears a blue tie."],
+          ["Ma cravate est belle.", "My tie is beautiful."],
+          ["Quelle cravate préfères-tu?", "Which tie do you prefer?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "cravate",
+          "masculinePlural": "",
+          "femininePlural": "cravates"
+        }
+      },
+      {
+        "word": "la bague",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "bahg",
+        "meaning": "ring",
+        "examples": [
+          ["Ma bague est en or.", "My ring is made of gold."],
+          ["Elle porte une belle bague.", "She wears a beautiful ring."],
+          ["Où est ma bague?", "Where is my ring?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "bague",
+          "masculinePlural": "",
+          "femininePlural": "bagues"
+        }
+      },
+      {
+        "word": "les lunettes",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "loo-net",
+        "meaning": "glasses / eyeglasses",
+        "notes": "always plural — eyeglasses",
+        "examples": [
+          ["Je porte des lunettes.", "I wear glasses."],
+          ["Ses lunettes sont sur la table.", "His glasses are on the table."],
+          ["As-tu tes lunettes?", "Do you have your glasses?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "lunette",
+          "masculinePlural": "",
+          "femininePlural": "lunettes"
+        }
+      },
+      {
+        "word": "le parapluie",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "pah-rah-pluh-ee",
+        "meaning": "umbrella",
+        "examples": [
+          ["Mon parapluie est noir.", "My umbrella is black."],
+          ["Je dois prendre un parapluie.", "I must take an umbrella."],
+          ["Où est le parapluie?", "Where is the umbrella?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "parapluie",
+          "feminine": "",
+          "masculinePlural": "parapluies",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le portefeuille",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "port-fuh-yuh",
+        "meaning": "wallet",
+        "examples": [
+          ["Mon portefeuille est dans ma poche.", "My wallet is in my pocket."],
+          ["Il met sa carte dans le portefeuille.", "He puts his card in the wallet."],
+          ["Où est mon portefeuille?", "Where is my wallet?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "portefeuille",
+          "feminine": "",
+          "masculinePlural": "portefeuilles",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le collier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "kol-yay",
+        "meaning": "necklace",
+        "examples": [
+          ["Son collier est magnifique.", "Her necklace is magnificent."],
+          ["Elle porte un collier en argent.", "She wears a silver necklace."],
+          ["Où est mon collier?", "Where is my necklace?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "collier",
+          "feminine": "",
+          "masculinePlural": "colliers",
+          "femininePlural": ""
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu vas à l'école demain?"],
+        ["B", "Oui! Mais je dois mettre mes lunettes."],
+        ["A", "Et tu dois mettre une cravate?"],
+        ["B", "Non, je mets un sac à main et un parapluie."],
+        ["A", "C'est bon! N'oublie pas ton portefeuille!"],
+        ["B", "D'accord, merci!"]
+      ],
+      "questions": [
+        {
+          "question": "Où est-ce que B va?",
+          "options": ["À l'école", "Au bar", "Au cinéma"],
+          "correctAnswer": "À l'école"
+        },
+        {
+          "question": "Qu'est-ce que B doit mettre?",
+          "options": ["Une cravate", "Des lunettes", "Un collier"],
+          "correctAnswer": "Des lunettes"
+        },
+        {
+          "question": "Qu'est-ce que B ne doit pas oublier?",
+          "options": ["La cravate", "Le parapluie", "Le portefeuille"],
+          "correctAnswer": "Le portefeuille"
+        }
+      ],
+      "summary": "A mother reminds her child to put on glasses, take a handbag and umbrella before leaving for school, and not forget the wallet."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu vas à l'école? Tu as tout?"],
+        ["B", "Oui, je mets mes lunettes et ma cravate."],
+        ["A", "Et n'oublie pas tes autres accessoires!"],
+        ["B", "Je prends mon sac à main, mon portefeuille, et un parapluie."],
+        ["A", "Tu portes aussi un collier?"],
+        ["B", "Oui, c'est un beau collier. Je suis prêt!"],
+        ["A", "Parfait! Bonne journée à l'école!"],
+        ["B", "Merci, à bientôt!"]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que B met avant d'aller à l'école?",
+          "options": ["Ses lunettes", "Sa cravate", "Ses deux", "Son collier"],
+          "correctAnswer": "Ses deux"
+        },
+        {
+          "question": "Quels accessoires B prend-il?",
+          "options": ["Sac à main et portefeuille", "Portefeuille et parapluie", "Tous les trois", "Seulement le collier"],
+          "correctAnswer": "Tous les trois"
+        },
+        {
+          "question": "Porte-t-il un collier?",
+          "options": ["Non", "Oui, un collier en or", "Oui, c'est un beau collier", "Je ne sais pas"],
+          "correctAnswer": "Oui, c'est un beau collier"
+        },
+        {
+          "question": "Pourquoi B prend-il un parapluie?",
+          "options": ["Pour le décor", "Pour protéger ses cheveux", "Probablement pour la pluie", "On ne sait pas"],
+          "correctAnswer": "Probablement pour la pluie"
+        }
+      ],
+      "summary": "A parent checks that the child is ready for school with glasses, tie, and carries a handbag, wallet, umbrella, and wears a necklace."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Mettre (Present Tense — Irregular Verb)",
+      "explanation": "Mettre means 'to put' or 'to put on'. It is an irregular verb. In the present tense: je mets, tu mets, il/elle/on met, nous mettons, vous mettez, ils/elles mettent. The singular forms (je, tu, il/elle/on) drop the double 't', but the plural forms keep it. Common uses include mettre un manteau (to put on a coat), mettre la table (to set the table), and mettre du temps (to take time).",
+      "examples": [
+        {
+          "french": "Je mets une cravate.",
+          "english": "I put on a tie."
+        },
+        {
+          "french": "Tu mets tes lunettes?",
+          "english": "Are you putting on your glasses?"
+        },
+        {
+          "french": "Il met son sac à main.",
+          "english": "He puts on his handbag."
+        },
+        {
+          "french": "Nous mettons la table.",
+          "english": "We set the table."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Je ___ une cravate.",
+          "options": ["mets", "met", "mettons"],
+          "correctAnswer": "mets",
+          "explanation": "Je mets — for 'I', use 'met-' + -s."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ tes lunettes?",
+          "options": ["mets", "met", "mettez"],
+          "correctAnswer": "mets",
+          "explanation": "Tu mets — for 'you (informal)', use 'met-' + -s."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il ___ son parapluie.",
+          "options": ["mets", "met", "mettons"],
+          "correctAnswer": "met",
+          "explanation": "Il met — for 'he', use 'met' (with no additional ending)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ la table.",
+          "options": ["mets", "met", "mettons"],
+          "correctAnswer": "mettons",
+          "explanation": "Nous mettons — for 'we', use the plural form 'mettons' (mett- + -ons)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Vous ___ vos colliers?",
+          "options": ["mets", "met", "mettez"],
+          "correctAnswer": "mettez",
+          "explanation": "Vous mettez — for 'you (formal/plural)', use 'mettez' (mett- + -ez)."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Mettre — Full Conjugation, Compounds & Common Expressions",
+      "explanation": "Mettre (to put/to put on) is an irregular verb with doubling in plural forms. Full conjugation: je mets, tu mets, il/elle/on met, nous mettons, vous mettez, ils/elles mettent. The pattern shows singular forms dropping the double 't' and plural forms retaining it. Related verbs following the same pattern include permettre (to allow), promettre (to promise), remettre (to hand in/put back), soumettre (to submit), and transmettre (to transmit). Common expressions: mettre un manteau (to put on a coat), mettre la table (to set the table), mettre du temps (to take time), mettre en place (to set up), mettre fin (to end).",
+      "examples": [
+        {
+          "french": "Je mets une cravate pour le travail.",
+          "english": "I put on a tie for work."
+        },
+        {
+          "french": "Tu mets tes lunettes pour lire?",
+          "english": "Do you put on your glasses to read?"
+        },
+        {
+          "french": "Elle met son collier avant de partir.",
+          "english": "She puts on her necklace before leaving."
+        },
+        {
+          "french": "Nous mettons la table chaque soir.",
+          "english": "We set the table every evening."
+        },
+        {
+          "french": "Vous mettez combien de temps?",
+          "english": "How much time do you take?"
+        },
+        {
+          "french": "Ils mettent leurs accessoires.",
+          "english": "They put on their accessories."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Je ___ une cravate.",
+          "options": ["mets", "met", "mettons"],
+          "correctAnswer": "mets",
+          "explanation": "Je mets — for 'I', use 'met-' + -s."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ tes lunettes pour lire?",
+          "options": ["mets", "met", "mettez"],
+          "correctAnswer": "mets",
+          "explanation": "Tu mets — for 'you', use 'met-' + -s."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il ___ son portefeuille dans sa poche.",
+          "options": ["mets", "met", "mettons"],
+          "correctAnswer": "met",
+          "explanation": "Il met — for 'he', use 'met' with no ending."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ___ son collier.",
+          "options": ["met", "mets", "mettez"],
+          "correctAnswer": "met",
+          "explanation": "Elle met — for 'she', use 'met' with no ending."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Nous ___ la table tous les soirs.",
+          "options": ["mets", "met", "mettons"],
+          "correctAnswer": "mettons",
+          "explanation": "Nous mettons — for 'we', use 'mettons' (mett- + -ons)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ combien de temps pour partir?",
+          "options": ["mets", "met", "mettez"],
+          "correctAnswer": "mettez",
+          "explanation": "Vous mettez — for 'you (formal)', use 'mettez' (mett- + -ez)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Ils ___ leurs sacs à main.",
+          "options": ["mets", "met", "mettent"],
+          "correctAnswer": "mettent",
+          "explanation": "Ils mettent — for 'they', use 'mettent' (mett- + -ent)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elles ___ leurs parapluies.",
+          "options": ["mets", "met", "mettent"],
+          "correctAnswer": "mettent",
+          "explanation": "Elles mettent — for 'they (f)', use 'mettent' (mett- + -ent)."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'une lunette?",
+        "options": ["Un verre pour boire", "Des verres pour voir", "Un article de mode"],
+        "correctAnswer": "Des verres pour voir",
+        "explanation": "Lunettes (always plural) are eyeglasses used to see better."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ mon parapluie pour la pluie.",
+        "options": ["mets", "met", "mettent"],
+        "correctAnswer": "mets",
+        "explanation": "Je mets — put on umbrella in first person singular."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel accessoire porte-t-on autour du cou?",
+        "options": ["Une cravate", "Un collier", "Un portefeuille"],
+        "correctAnswer": "Une cravate",
+        "explanation": "A tie (cravate) is worn around the neck, as is a necklace (collier)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ la table pour le dîner.",
+        "options": ["mets", "mettons", "mettez"],
+        "correctAnswer": "mettons",
+        "explanation": "Nous mettons — set the table in first person plural."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où met-on ses clés?",
+        "options": ["Dans un collier", "Dans un sac à main", "Dans une cravate"],
+        "correctAnswer": "Dans un sac à main",
+        "explanation": "Keys are typically kept in a handbag (sac à main)."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel verbe signifie 'to set the table'?",
+        "options": ["Mettre la table", "Permettre la table", "Promettre la table", "Remettre la table"],
+        "correctAnswer": "Mettre la table",
+        "explanation": "Mettre la table = to set the table; other verbs have different meanings."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Tu ___ tes accessoires avant de sortir?",
+        "options": ["mets", "met", "mettent"],
+        "correctAnswer": "mets",
+        "explanation": "Tu mets — put on accessories in second person singular."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel accessoire est toujours au pluriel en français?",
+        "options": ["Sac à main", "Lunettes", "Collier", "Portefeuille"],
+        "correctAnswer": "Lunettes",
+        "explanation": "Lunettes is always plural in French (even when referring to one pair)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle ___ son collier et sa bague.",
+        "options": ["mets", "met", "mettent"],
+        "correctAnswer": "met",
+        "explanation": "Elle met — put on necklace and ring in third person singular."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Vous ___ combien de temps pour vous préparer?",
+        "options": ["mets", "mettons", "mettez", "mettaient"],
+        "correctAnswer": "mettez",
+        "explanation": "Vous mettez — take time in second person formal/plural."
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe what you usually put on before leaving the house.",
+      "keyPhrases": ["Je mets...", "Et puis...", "Finalement...", "Et toi?"],
+      "modelAnswer": "Je mets mon sac à main et mes lunettes. Et puis je mets un parapluie si c'est la pluie. Finalement je prends mon portefeuille et je suis prêt! Et toi, qu'est-ce que tu mets?",
+      "modelAnswerExplanation": "This response describes a logical sequence of putting on accessories, checks weather conditions, and ends by asking the other person.",
+      "tip": "Use 'Je mets...' and 'Et puis...' to describe a sequence. Always include 'Et toi?' to engage the other person in conversation."
+    },
+    "advanced": {
+      "scenario": "Describe what you usually put on before leaving the house and ask someone about their routine.",
+      "keyPhrases": ["Je mets...", "J'aime mettre...", "Avant de partir...", "Et toi, qu'est-ce que tu mets?"],
+      "modelAnswer": "Je mets toujours mes lunettes et une cravate pour le travail. J'aime mettre mon collier en argent aussi. Avant de partir, je mets mon sac à main et je n'oublie pas mon portefeuille. Et je prends un parapluie si c'est nécessaire. Et toi, qu'est-ce que tu mets avant de sortir?",
+      "modelAnswerExplanation": "This response includes personal preferences, describes a logical routine, and provides context with expressions like 'before leaving' and 'if necessary'.",
+      "tip": "Use 'Je mets toujours...' and 'J'aime mettre...' to express preferences. Include time expressions like 'Avant de partir' for context. Ask 'Et toi...' to continue the conversation."
+    }
+  }
+}

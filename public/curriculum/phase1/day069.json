@@ -1,0 +1,590 @@
+{
+  "day": 69,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Describing Things by Appearance",
+  "vocab": {
+    "standard": [
+      {
+        "word": "noir",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "nwahr",
+        "meaning": "black",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["J'ai un chat noir.", "I have a black cat."],
+          ["Elle porte une robe noire.", "She wears a black dress."],
+          ["Les voitures noires sont stationnées ici.", "The black cars are parked here."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "noir",
+          "feminine": "noire",
+          "masculinePlural": "noirs",
+          "femininePlural": "noires"
+        }
+      },
+      {
+        "word": "jaune",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "jon",
+        "meaning": "yellow",
+        "notes": "Adjective. Does not change form (invariable).",
+        "examples": [
+          ["Le soleil est jaune.", "The sun is yellow."],
+          ["Elle a une voiture jaune.", "She has a yellow car."],
+          ["Les fleurs jaunes sont belles.", "The yellow flowers are beautiful."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "jaune",
+          "feminine": "jaune",
+          "masculinePlural": "jaunes",
+          "femininePlural": "jaunes"
+        }
+      },
+      {
+        "word": "vert",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "vehr",
+        "meaning": "green",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["L'herbe est verte.", "The grass is green."],
+          ["Il a des yeux verts.", "He has green eyes."],
+          ["Le parc est très vert en été.", "The park is very green in summer."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "vert",
+          "feminine": "verte",
+          "masculinePlural": "verts",
+          "femininePlural": "vertes"
+        }
+      },
+      {
+        "word": "bleu",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "bluh",
+        "meaning": "blue",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Le ciel est bleu.", "The sky is blue."],
+          ["Elle porte une robe bleue.", "She wears a blue dress."],
+          ["Les océans sont bleus.", "The oceans are blue."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bleu",
+          "feminine": "bleue",
+          "masculinePlural": "bleus",
+          "femininePlural": "bleues"
+        }
+      },
+      {
+        "word": "gris",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "gree",
+        "meaning": "gray",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Le ciel est gris aujourd'hui.", "The sky is gray today."],
+          ["Il porte un costume gris.", "He wears a gray suit."],
+          ["Les souris grises sont petites.", "Gray mice are small."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "gris",
+          "feminine": "grise",
+          "masculinePlural": "gris",
+          "femininePlural": "grises"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "noir",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "nwahr",
+        "meaning": "black",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["J'ai un chat noir.", "I have a black cat."],
+          ["Elle porte une robe noire.", "She wears a black dress."],
+          ["Les voitures noires sont stationnées ici.", "The black cars are parked here."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "noir",
+          "feminine": "noire",
+          "masculinePlural": "noirs",
+          "femininePlural": "noires"
+        }
+      },
+      {
+        "word": "jaune",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "jon",
+        "meaning": "yellow",
+        "notes": "Adjective. Does not change form (invariable).",
+        "examples": [
+          ["Le soleil est jaune.", "The sun is yellow."],
+          ["Elle a une voiture jaune.", "She has a yellow car."],
+          ["Les fleurs jaunes sont belles.", "The yellow flowers are beautiful."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "jaune",
+          "feminine": "jaune",
+          "masculinePlural": "jaunes",
+          "femininePlural": "jaunes"
+        }
+      },
+      {
+        "word": "vert",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "vehr",
+        "meaning": "green",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["L'herbe est verte.", "The grass is green."],
+          ["Il a des yeux verts.", "He has green eyes."],
+          ["Le parc est très vert en été.", "The park is very green in summer."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "vert",
+          "feminine": "verte",
+          "masculinePlural": "verts",
+          "femininePlural": "vertes"
+        }
+      },
+      {
+        "word": "bleu",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "bluh",
+        "meaning": "blue",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Le ciel est bleu.", "The sky is blue."],
+          ["Elle porte une robe bleue.", "She wears a blue dress."],
+          ["Les océans sont bleus.", "The oceans are blue."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bleu",
+          "feminine": "bleue",
+          "masculinePlural": "bleus",
+          "femininePlural": "bleues"
+        }
+      },
+      {
+        "word": "gris",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "gree",
+        "meaning": "gray",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Le ciel est gris aujourd'hui.", "The sky is gray today."],
+          ["Il porte un costume gris.", "He wears a gray suit."],
+          ["Les souris grises sont petites.", "Gray mice are small."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "gris",
+          "feminine": "grise",
+          "masculinePlural": "gris",
+          "femininePlural": "grises"
+        }
+      },
+      {
+        "word": "violet",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "vee-oh-LAY",
+        "meaning": "purple",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Elle a une fleur violette.", "She has a purple flower."],
+          ["Le ciel violette au coucher du soleil.", "The sky is purple at sunset."],
+          ["Les raisins violets sont délicieux.", "Purple grapes are delicious."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "violet",
+          "feminine": "violette",
+          "masculinePlural": "violets",
+          "femininePlural": "violettes"
+        }
+      },
+      {
+        "word": "marron",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "mah-RON",
+        "meaning": "brown",
+        "notes": "Adjective. Invariable (does not change form based on gender or number).",
+        "examples": [
+          ["J'aime les cheveux marron.", "I like brown hair."],
+          ["Elle porte des chaussures marron.", "She wears brown shoes."],
+          ["Le chocolat marron est délicieux.", "Brown chocolate is delicious."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "marron",
+          "feminine": "marron",
+          "masculinePlural": "marron",
+          "femininePlural": "marron"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! J'aime ton pantalon. C'est bleu?"],
+        ["B", "Oui, c'est bleu. Et j'aime ta robe. Elle est noire, non?"],
+        ["A", "Oui, elle est noire. J'aime aussi tes chaussures jaunes."],
+        ["B", "Merci! Elles sont magnifiques. Où est-ce que tu as acheté ta robe noire?"],
+        ["A", "Au magasin en ville."]
+      ],
+      "questions": [
+        {
+          "question": "Quelle couleur est le pantalon de B?",
+          "options": ["Noir", "Bleu", "Jaune"],
+          "correctAnswer": "Bleu"
+        },
+        {
+          "question": "Quelle est la couleur de la robe de A?",
+          "options": ["Noire", "Bleue", "Verte"],
+          "correctAnswer": "Noire"
+        },
+        {
+          "question": "De quelle couleur sont les chaussures de B?",
+          "options": ["Noires", "Grises", "Jaunes"],
+          "correctAnswer": "Jaunes"
+        }
+      ],
+      "summary": "A and B compliment each other's clothing colors. B's pants are blue, A's dress is black, and B's shoes are yellow."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Je cherche un cadeau pour mon ami. Il aime les objets d'art."],
+        ["B", "Qu'est-ce que tu as regardé jusqu'à présent?"],
+        ["A", "J'ai vu une belle peinture avec des couleurs. Il y a du bleu, du violet, du vert, et du jaune."],
+        ["B", "Ça semble intéressant! Est-ce qu'il y a du noir aussi?"],
+        ["A", "Oui, il y a aussi du noir. C'est un très bel objet d'art."],
+        ["B", "Je pense que ce serait un excellent cadeau pour lui!"]
+      ],
+      "questions": [
+        {
+          "question": "Pour qui A cherche-t-elle un cadeau?",
+          "options": ["Pour un collègue", "Pour un ami", "Pour sa mère"],
+          "correctAnswer": "Pour un ami"
+        },
+        {
+          "question": "Quelles couleurs sont dans la peinture?",
+          "options": ["Bleu, noir, rouge", "Bleu, violet, vert, jaune, noir", "Bleu, gris, marron"],
+          "correctAnswer": "Bleu, violet, vert, jaune, noir"
+        },
+        {
+          "question": "L'ami de A aime les objets d'art?",
+          "options": ["Oui", "Non", "On ne sait pas"],
+          "correctAnswer": "Oui"
+        },
+        {
+          "question": "Que pense B du cadeau?",
+          "options": ["Ce n'est pas un bon cadeau.", "C'est un excellent cadeau.", "C'est trop cher."],
+          "correctAnswer": "C'est un excellent cadeau."
+        }
+      ],
+      "summary": "A is looking for a gift for a friend who likes art. She has found a painting with multiple colors: blue, purple, green, yellow, and black. B thinks it's an excellent gift."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Irregular Adjectives (beau, nouveau, vieux)",
+      "explanation": "Three common French adjectives are irregular and have special forms before masculine singular nouns that begin with a vowel or silent 'h'. These are: 'beau' (beautiful), 'nouveau' (new), and 'vieux' (old). Before a masculine noun starting with a consonant, use 'beau,' 'nouveau,' 'vieux.' Before a masculine noun starting with a vowel or silent 'h,' use 'bel,' 'nouvel,' 'vieil.' Feminine forms are: 'belle,' 'nouvelle,' 'vieille.' Plural forms are: 'beaux/belles,' 'nouveaux/nouvelles,' 'vieux/vieilles.' Examples: 'un bel homme' (a handsome man), 'un nouvel ami' (a new friend), 'un vieil arbre' (an old tree).",
+      "examples": [
+        {
+          "french": "Un beau garçon.",
+          "english": "A handsome boy."
+        },
+        {
+          "french": "Un bel ami.",
+          "english": "A handsome friend."
+        },
+        {
+          "french": "Un nouveau livre.",
+          "english": "A new book."
+        },
+        {
+          "french": "Un nouvel appartement.",
+          "english": "A new apartment."
+        },
+        {
+          "french": "Un vieux château.",
+          "english": "An old castle."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: '___ homme.'",
+          "options": ["Un beau", "Un bel", "Une belle"],
+          "correctAnswer": "Un bel",
+          "explanation": "Before a masculine noun starting with a vowel, use 'bel.' 'Un bel homme' = 'A handsome man.'",
+          "targetWord": "beau"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Un ___ ami.",
+          "options": [],
+          "correctAnswer": "nouvel",
+          "explanation": "Before a masculine noun starting with a vowel, use 'nouvel.' 'Un nouvel ami' = 'A new friend.'",
+          "targetWord": "nouveau"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": ["Un vieu arbre.", "Un viel arbre.", "Un vieil arbre."],
+          "correctAnswer": "Un vieil arbre.",
+          "explanation": "'Un vieil arbre' is correct. Before a masculine noun starting with a vowel, use 'vieil.'",
+          "targetWord": "vieux"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Une ___ maison.",
+          "options": [],
+          "correctAnswer": "belle",
+          "explanation": "Before a feminine noun, use the feminine form 'belle.' 'Une belle maison' = 'A beautiful house.'",
+          "targetWord": "beau"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: '___ voiture.'",
+          "options": ["Un nouveau", "Un nouvel", "Une nouvelle"],
+          "correctAnswer": "Un nouveau",
+          "explanation": "Before a masculine noun starting with a consonant, use 'nouveau.' 'Un nouveau' = 'A new car.'",
+          "targetWord": "nouveau"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Irregular Adjectives — beau/bel/belle, nouveau/nouvel/nouvelle, vieux/vieil/vieux + Agreement",
+      "explanation": "The adjectives 'beau,' 'nouveau,' and 'vieux' are classified as shoe verbs because their multiple forms fit into a pattern based on consonant/vowel beginnings of the following noun. Masculine singular forms: 'beau' + consonant (un beau garçon), 'bel' + vowel/silent h (un bel enfant, un bel homme). Feminine singular: 'belle' (une belle femme). Masculine plural: 'beaux' (les beaux garçons). Feminine plural: 'belles' (les belles femmes). The same pattern applies to 'nouveau' and 'vieux.' Note: 'vieux' is invariant in the masculine plural (les vieux livres = les vieux amis). These adjectives typically precede the noun (unlike most French adjectives, which follow). Gender and number agreement must always match the noun: 'une bel femme' is incorrect; it must be 'une belle femme.'",
+      "examples": [
+        {
+          "french": "Un beau garçon.",
+          "english": "A handsome boy."
+        },
+        {
+          "french": "Un bel enfant.",
+          "english": "A beautiful child."
+        },
+        {
+          "french": "Une belle femme.",
+          "english": "A beautiful woman."
+        },
+        {
+          "french": "Les beaux jours.",
+          "english": "The beautiful days."
+        },
+        {
+          "french": "Un nouveau film.",
+          "english": "A new film."
+        },
+        {
+          "french": "Un nouvel ordinateur.",
+          "english": "A new computer."
+        },
+        {
+          "french": "Une nouvelle maison.",
+          "english": "A new house."
+        },
+        {
+          "french": "Un vieil homme.",
+          "english": "An old man."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Choisissez la forme correcte avant un nom masculin commençant par une voyelle.",
+          "options": ["Un beau ami", "Un bel ami", "Un bella ami"],
+          "correctAnswer": "Un bel ami",
+          "explanation": "Use 'bel' before a masculine noun starting with a vowel.",
+          "targetWord": "beau"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ peintures sont magnifiques.",
+          "options": [],
+          "correctAnswer": "Les belles",
+          "explanation": "Feminine plural form 'belles' agrees with the plural noun 'peintures'.",
+          "targetWord": "beau"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": ["Un nouvel maison.", "Une nouvel maison.", "Une nouvelle maison."],
+          "correctAnswer": "Une nouvelle maison.",
+          "explanation": "Use the feminine singular form 'nouvelle' with the feminine noun 'maison.'",
+          "targetWord": "nouveau"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Un ___ appartement.",
+          "options": [],
+          "correctAnswer": "nouvel",
+          "explanation": "Use 'nouvel' before a masculine noun starting with a vowel.",
+          "targetWord": "nouveau"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel adjectif convient: '___ enfants'?",
+          "options": ["Beau", "Beaux", "Belles"],
+          "correctAnswer": "Beaux",
+          "explanation": "Use the masculine plural form 'beaux' with the plural noun 'enfants.'",
+          "targetWord": "beau"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Les ___ arbres sont dans le parc.",
+          "options": [],
+          "correctAnswer": "vieux",
+          "explanation": "'Vieux' is invariant in the masculine plural. 'Les vieux arbres' = 'The old trees.'",
+          "targetWord": "vieux"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Une ___ hôtel n'existe pas; c'est 'Un ___ hôtel.'",
+          "options": ["nouvelle, nouvel", "nouvel, nouvelle", "nouvelle, nouvelle"],
+          "correctAnswer": "nouvelle, nouvel",
+          "explanation": "Masculine nouns use 'nouvel' (before vowel), feminine use 'nouvelle.' Gender agreement is critical.",
+          "targetWord": "nouveau"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Un ___ histoire (singular, feminine noun).",
+          "options": [],
+          "correctAnswer": "belle",
+          "explanation": "Even though 'histoire' begins with 'h', it is feminine, so use 'belle'. 'Un belle histoire' is incorrect; it should be 'Une belle histoire.'",
+          "targetWord": "beau"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "De quelle couleur est le ciel?",
+        "options": ["Noir", "Bleu", "Jaune"],
+        "correctAnswer": "Bleu",
+        "explanation": "The sky is typically blue (bleu).",
+        "targetWord": "bleu"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "L'herbe est ___.",
+        "options": [],
+        "correctAnswer": "verte",
+        "explanation": "Grass is green (verte). The adjective agrees with the feminine noun 'l'herbe'.",
+        "targetWord": "vert"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: '___ ami.'",
+        "options": ["Un beau", "Un bel", "Une belle"],
+        "correctAnswer": "Un bel",
+        "explanation": "Before a masculine noun starting with a vowel, use 'bel.' 'Un bel ami' = 'A handsome friend.'",
+        "targetWord": "beau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle couleur aime A dans le dialogue?",
+        "options": ["Le noir, le bleu, le jaune", "Le noir, le vert, le bleu", "Le noir, le rouge, le jaune"],
+        "correctAnswer": "Le noir, le bleu, le jaune",
+        "explanation": "In the dialogue, A compliments B's blue pants, black dress, and yellow shoes.",
+        "targetWord": "couleur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Mes chaussures sont ___.",
+        "options": [],
+        "correctAnswer": "marron",
+        "explanation": "'Marron' (brown) is an invariable color adjective.",
+        "targetWord": "marron"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase est grammaticalement correcte?",
+        "options": ["Un nouveau ami", "Un nouvel ami", "Un nouvel amie"],
+        "correctAnswer": "Un nouvel ami",
+        "explanation": "Use 'nouvel' before a masculine noun starting with a vowel.",
+        "targetWord": "nouveau"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Une ___ peinture.",
+        "options": [],
+        "correctAnswer": "belle",
+        "explanation": "'Belle' is the feminine singular form of 'beau'.",
+        "targetWord": "beau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelles couleurs sont dans la peinture que A a trouvée?",
+        "options": ["Bleu, noir, rouge", "Bleu, violet, vert, jaune, noir", "Bleu, jaune, marron"],
+        "correctAnswer": "Bleu, violet, vert, jaune, noir",
+        "explanation": "A mentions blue, purple, green, yellow, and black in the painting.",
+        "targetWord": "couleur"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Les ___ enfants courent dans le parc.",
+        "options": [],
+        "correctAnswer": "beaux",
+        "explanation": "'Beaux' is the masculine plural form of 'beau'.",
+        "targetWord": "beau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la forme correcte de 'vieux' au pluriel masculin?",
+        "options": ["Vieux", "Vieus", "Vieuxs"],
+        "correctAnswer": "Vieux",
+        "explanation": "'Vieux' is invariant in the masculine plural (les vieux livres).",
+        "targetWord": "vieux"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe three objects or people you see around you. For each, mention the object/person and at least one color or appearance description.",
+      "keyPhrases": ["C'est", "Il/Elle est", "noir", "bleu", "vert", "jaune", "gris", "nouveau", "vieux", "beau"],
+      "modelAnswer": "Je vois une voiture bleue. C'est une belle voiture. Je vois aussi un livre noir sur la table. Et il y a une fleur jaune près de la fenêtre. C'est une nouvelle fleur.",
+      "modelAnswerExplanation": "This answer uses color adjectives with proper agreement and includes descriptive words like 'nouveau' and 'beau'.",
+      "tip": "Remember to match adjectives to the gender and number of the noun. Use 'C'est + adjective' for descriptions, or place the adjective before or after the noun depending on the adjective type."
+    },
+    "advanced": {
+      "scenario": "Describe a painting, room, or scene in detail. Include at least five different colors and use irregular adjectives like 'beau,' 'nouveau,' or 'vieux' to provide nuanced descriptions.",
+      "keyPhrases": ["Le bel/nouvel/vieil", "une belle/nouvelle/vieille", "les beaux/nouveaux/vieux", "Il y a", "avec", "et"],
+      "modelAnswer": "Ce beau tableau représente un paysage ancien. Il y a un vieil arbre au centre avec des feuilles vertes. Le ciel est bleu avec des nuages gris. Il y a aussi de l'herbe verte et des fleurs jaunes et violettes. La composition est magnifique et les couleurs sont très vivantes.",
+      "modelAnswerExplanation": "This response uses varied irregular adjectives with proper gender/number agreement, multiple color descriptions, and sophisticated vocabulary.",
+      "tip": "Use 'un bel,' 'un nouvel,' 'un vieil' before masculine nouns starting with vowels. Place irregular adjectives before the noun. Use color vocabulary creatively and describe spatial relationships with prepositions like 'au centre,' 'avec,' and 'et'."
+    }
+  }
+}

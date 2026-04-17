@@ -1,0 +1,839 @@
+{
+  "day": 81,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Studying & School Life",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le lycée",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lee-SAY",
+        "meaning": "the high school",
+        "notes": "ages 15-18 in France",
+        "examples": [
+          [
+            "Je vais au lycée.",
+            "I go to high school."
+          ],
+          [
+            "Le lycée est grand.",
+            "The high school is large."
+          ],
+          [
+            "Tu étudies au lycée?",
+            "Do you study at high school?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "lycée",
+          "feminine": "",
+          "masculinePlural": "lycées",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'université",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "oo-nee-vehr-see-TAY",
+        "meaning": "the university",
+        "notes": "higher education after lycée",
+        "examples": [
+          [
+            "Je vais à l'université.",
+            "I go to university."
+          ],
+          [
+            "L'université est grande.",
+            "The university is large."
+          ],
+          [
+            "Elle étudie à l'université.",
+            "She studies at university."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "université",
+          "masculinePlural": "",
+          "femininePlural": "universités"
+        }
+      },
+      {
+        "word": "la rentrée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "rahn-TRAY",
+        "meaning": "back to school",
+        "notes": "start of academic year",
+        "examples": [
+          [
+            "La rentrée est en septembre.",
+            "Back to school is in September."
+          ],
+          [
+            "Quelle est la date de la rentrée?",
+            "When does school start?"
+          ],
+          [
+            "Je prépare ma rentrée.",
+            "I prepare for the start of school."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "rentrée",
+          "masculinePlural": "",
+          "femininePlural": "rentrées"
+        }
+      },
+      {
+        "word": "la note",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah noh-tuh",
+        "meaning": "the grade",
+        "notes": "mark or score on a test",
+        "examples": [
+          [
+            "Ma note est bonne.",
+            "My grade is good."
+          ],
+          [
+            "Quelle est ta note?",
+            "What is your grade?"
+          ],
+          [
+            "J'ai une bonne note en français.",
+            "I have a good grade in French."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "note",
+          "masculinePlural": "",
+          "femininePlural": "notes"
+        }
+      },
+      {
+        "word": "l'élève",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "ay-LEHV",
+        "meaning": "the pupil",
+        "notes": "student — both genders (l'élève masc/fem)",
+        "examples": [
+          [
+            "L'élève étudie.",
+            "The student studies."
+          ],
+          [
+            "Les élèves sont occupés.",
+            "The students are busy."
+          ],
+          [
+            "C'est une élève sérieuse.",
+            "She is a serious student."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "élève",
+          "feminine": "élève",
+          "masculinePlural": "élèves",
+          "femininePlural": "élèves"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le collège",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "kohl-EHJ",
+        "meaning": "the middle school",
+        "notes": "ages 11-15 in France",
+        "examples": [
+          [
+            "Il va au collège.",
+            "He goes to middle school."
+          ],
+          [
+            "Le collège est près d'ici.",
+            "The middle school is near here."
+          ],
+          [
+            "Tu travailles au collège?",
+            "Do you work at the middle school?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "collège",
+          "feminine": "",
+          "masculinePlural": "collèges",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le lycée",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "lee-SAY",
+        "meaning": "the high school",
+        "notes": "ages 15-18 in France",
+        "examples": [
+          [
+            "Je vais au lycée.",
+            "I go to high school."
+          ],
+          [
+            "Le lycée est grand.",
+            "The high school is large."
+          ],
+          [
+            "Tu étudies au lycée?",
+            "Do you study at high school?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "lycée",
+          "feminine": "",
+          "masculinePlural": "lycées",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'université",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "oo-nee-vehr-see-TAY",
+        "meaning": "the university",
+        "notes": "higher education after lycée",
+        "examples": [
+          [
+            "Je vais à l'université.",
+            "I go to university."
+          ],
+          [
+            "L'université est grande.",
+            "The university is large."
+          ],
+          [
+            "Elle étudie à l'université.",
+            "She studies at university."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "université",
+          "masculinePlural": "",
+          "femininePlural": "universités"
+        }
+      },
+      {
+        "word": "la rentrée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "rahn-TRAY",
+        "meaning": "back to school",
+        "notes": "start of academic year",
+        "examples": [
+          [
+            "La rentrée est en septembre.",
+            "Back to school is in September."
+          ],
+          [
+            "Quelle est la date de la rentrée?",
+            "When does school start?"
+          ],
+          [
+            "Je prépare ma rentrée.",
+            "I prepare for the start of school."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "rentrée",
+          "masculinePlural": "",
+          "femininePlural": "rentrées"
+        }
+      },
+      {
+        "word": "la note",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "lah noh-tuh",
+        "meaning": "the grade",
+        "notes": "mark or score on a test",
+        "examples": [
+          [
+            "Ma note est bonne.",
+            "My grade is good."
+          ],
+          [
+            "Quelle est ta note?",
+            "What is your grade?"
+          ],
+          [
+            "J'ai une bonne note en français.",
+            "I have a good grade in French."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "note",
+          "masculinePlural": "",
+          "femininePlural": "notes"
+        }
+      },
+      {
+        "word": "l'élève",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "ay-LEHV",
+        "meaning": "the pupil",
+        "notes": "student — both genders (l'élève masc/fem)",
+        "examples": [
+          [
+            "L'élève étudie.",
+            "The student studies."
+          ],
+          [
+            "Les élèves sont occupés.",
+            "The students are busy."
+          ],
+          [
+            "C'est une élève sérieuse.",
+            "She is a serious student."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "élève",
+          "feminine": "élève",
+          "masculinePlural": "élèves",
+          "femininePlural": "élèves"
+        }
+      },
+      {
+        "word": "la matière",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "mah-tee-AIR",
+        "meaning": "the subject",
+        "notes": "school subject (e.g., français, maths, sciences)",
+        "examples": [
+          [
+            "Ma matière préférée est le français.",
+            "My favorite subject is French."
+          ],
+          [
+            "Quelle est ta matière?",
+            "What is your subject?"
+          ],
+          [
+            "J'étudie la matière de maths.",
+            "I study math as a subject."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "matière",
+          "masculinePlural": "",
+          "femininePlural": "matières"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "À quelle heure tu finis l'école?"
+        ],
+        [
+          "B",
+          "Je finis à seize heures."
+        ],
+        [
+          "A",
+          "Tu as beaucoup de devoirs?"
+        ],
+        [
+          "B",
+          "Oui, j'ai deux heures de devoirs aujourd'hui."
+        ],
+        [
+          "A",
+          "Quelle est ta matière préférée?"
+        ],
+        [
+          "B",
+          "C'est l'anglais!"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "À quelle heure B finit l'école?",
+          "options": [
+            "15 heures",
+            "16 heures",
+            "17 heures"
+          ],
+          "correctAnswer": "16 heures"
+        },
+        {
+          "question": "Combien de devoirs B a-t-il?",
+          "options": [
+            "Une heure",
+            "Deux heures",
+            "Trois heures"
+          ],
+          "correctAnswer": "Deux heures"
+        },
+        {
+          "question": "Quelle est la matière préférée de B?",
+          "options": [
+            "Le français",
+            "L'anglais",
+            "Les maths"
+          ],
+          "correctAnswer": "L'anglais"
+        }
+      ],
+      "summary": "Two students discuss school schedules, homework, and favorite subjects. B finishes school at 4 PM and has two hours of homework. English is B's favorite subject."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Comment s'est passée ta rentrée au lycée?"
+        ],
+        [
+          "B",
+          "Très bien! C'est mon premier jour et j'aime déjà ma classe."
+        ],
+        [
+          "A",
+          "Quels sont tes cours cette année?"
+        ],
+        [
+          "B",
+          "J'ai français, maths, anglais, histoire et sciences."
+        ],
+        [
+          "A",
+          "Comment sont tes notes?"
+        ],
+        [
+          "B",
+          "Pas mal! J'ai une bonne note en français et une note correcte en maths."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Quel jour est-ce pour B?",
+          "options": [
+            "Son premier jour au lycée",
+            "Son dernier jour au collège",
+            "Un jour normal"
+          ],
+          "correctAnswer": "Son premier jour au lycée"
+        },
+        {
+          "question": "Combien de cours a B?",
+          "options": [
+            "Trois cours",
+            "Quatre cours",
+            "Cinq cours"
+          ],
+          "correctAnswer": "Cinq cours"
+        },
+        {
+          "question": "Comment est la note de B en français?",
+          "options": [
+            "Bonne",
+            "Mauvaise",
+            "Correcte"
+          ],
+          "correctAnswer": "Bonne"
+        },
+        {
+          "question": "Que pense B de sa classe?",
+          "options": [
+            "Elle n'aime pas",
+            "Elle aime déjà",
+            "Elle trouve difficile"
+          ],
+          "correctAnswer": "Elle aime déjà"
+        }
+      ],
+      "summary": "A student describes their first day at high school to a friend. They are enjoying their new class and taking five subjects. Their grades are good in French and decent in math."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Si + Present (General Truths)",
+      "explanation": "The word 'si' (if) followed by the present tense expresses general truths and habitual conditions. Example: 'Si tu travailles, tu réussis.' (If you work, you succeed.) The structure is: si + present tense, present tense (or imperative). Another example: 'Si tu as faim, mange quelque chose!' (If you are hungry, eat something!). Important: 'si' becomes 's'' only before the pronouns 'il' and 'ils' — never before 'je', 'tu', 'elle', 'nous', 'vous', 'elles'. Example: Si tu étudies... (not 's'tu étudies').",
+      "examples": [
+        {
+          "french": "Si tu travailles, tu réussis.",
+          "english": "If you work, you succeed."
+        },
+        {
+          "french": "Si on étudie, on réussit.",
+          "english": "If we study, we succeed."
+        },
+        {
+          "french": "Si tu as faim, mange quelque chose.",
+          "english": "If you are hungry, eat something."
+        },
+        {
+          "french": "Si l'école est fermée, on reste à la maison.",
+          "english": "If school is closed, we stay home."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que 'si' signifie?",
+          "options": [
+            "Oui",
+            "Non",
+            "Si (if)"
+          ],
+          "correctAnswer": "Si (if)",
+          "explanation": "'Si' means 'if' and expresses a condition."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Si tu ___ , tu réussis. (If you study, you succeed.)",
+          "options": [
+            "étudies",
+            "étudie",
+            "étudier"
+          ],
+          "correctAnswer": "étudies",
+          "explanation": "After 'si', use present tense. 'Tu étudies' is second-person singular present."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quand on utilise 'si + présent'?",
+          "options": [
+            "Pour le futur",
+            "Pour les vérités générales",
+            "Pour le passé"
+          ],
+          "correctAnswer": "Pour les vérités générales",
+          "explanation": "'Si + present' expresses general truths and habitual conditions."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Si on ___ , on réussit. (If one studies, one succeeds.)",
+          "options": [
+            "étudie",
+            "étudiez",
+            "étudies"
+          ],
+          "correctAnswer": "étudie",
+          "explanation": "After 'si + on', use the 3rd-person singular form 'étudie'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ tu étudies, tu as une bonne note. (If you study, you get a good grade.)",
+          "options": [
+            "S'",
+            "Si",
+            "Oui"
+          ],
+          "correctAnswer": "Si",
+          "explanation": "'Si' becomes 's'' only before 'il' or 'ils', not before 'tu'."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Si + Present — General Truths, First Conditional & Common Patterns",
+      "explanation": "The conjunction 'si' (if) + present tense serves two main functions: (1) expressing general truths and habitual conditions: 'Si tu travailles, tu réussis' (If you work, you always succeed). (2) Beginning the first conditional: 'Si + présent, futur simple' (If you study, you will succeed / Si tu étudies, tu réussiras). At A1 level, both patterns use present + present or present + imperative. Important: 'si' becomes 's'' only before 'il' and 'ils' (s'il vient, s'ils arrivent) — never before other pronouns (si tu, si je, si elle, si nous, si vous, si elles). When 'si' starts a sentence, it is never followed by inversion ('Si tu as faim...' not 'Si as-tu faim...?').",
+      "examples": [
+        {
+          "french": "Si tu travailles, tu réussis.",
+          "english": "If you work, you succeed (general truth)."
+        },
+        {
+          "french": "Si on étudie bien, on a de bonnes notes.",
+          "english": "If one studies well, one gets good grades."
+        },
+        {
+          "french": "Si l'école est fermée, on reste à la maison.",
+          "english": "If school is closed, we stay home."
+        },
+        {
+          "french": "Si tu as faim, mange quelque chose!",
+          "english": "If you are hungry, eat something (imperative)."
+        },
+        {
+          "french": "S'il étudie, il réussira.",
+          "english": "If he studies, he will succeed (future)."
+        },
+        {
+          "french": "Si elle travaille maintenant, elle sera libre plus tard.",
+          "english": "If she works now, she will be free later."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quand 'si' devient 's''?",
+          "options": [
+            "Avant 'il' et 'ils'",
+            "Avant 'je'",
+            "Avant 'tu'"
+          ],
+          "correctAnswer": "Avant 'il' et 'ils'",
+          "explanation": "'Si' becomes 's'' only before 'il' and 'ils' to avoid the vowel sound clash: s'il, s'ils."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ il étudie, il aura une bonne note. (If he studies, he will get a good grade.)",
+          "options": [
+            "Si",
+            "S'",
+            "Oui"
+          ],
+          "correctAnswer": "S'",
+          "explanation": "Before 'il', 'si' becomes 's'': s'il étudie."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Si tu ___ tes devoirs, tu réussiras. (If you do your homework, you will succeed.)",
+          "options": [
+            "fais",
+            "fasses",
+            "faire"
+          ],
+          "correctAnswer": "fais",
+          "explanation": "After 'si', use present tense: 'tu fais' (you do)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la structure du 1er conditionnel?",
+          "options": [
+            "Si + présent, futur",
+            "Si + imparfait, conditionnel",
+            "Si + passé, présent"
+          ],
+          "correctAnswer": "Si + présent, futur",
+          "explanation": "The first conditional: Si + present tense, future simple tense."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Si on ___ bien, on ___ au lycée. (If one studies well, one will go to high school.)",
+          "options": [
+            "étudie, ira",
+            "étudiera, irais",
+            "étudies, alleras"
+          ],
+          "correctAnswer": "étudie, ira",
+          "explanation": "Si + present (étudie) + future (ira): the first conditional structure."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Est-ce qu'on utilise l'inversion après 'si'?",
+          "options": [
+            "Oui, toujours",
+            "Non, jamais",
+            "Seulement avec 'il'"
+          ],
+          "correctAnswer": "Non, jamais",
+          "explanation": "When 'si' starts a clause, there is no inversion: 'Si tu es fatigué...' (not 'Si es-tu fatigué...')."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Si elle ___ ses notes, elle ___ contente. (If she improves her grades, she will be happy.)",
+          "options": [
+            "améliore, sera",
+            "améliorera, est",
+            "améliorer, sera"
+          ],
+          "correctAnswer": "améliore, sera",
+          "explanation": "Si + present (améliore) + future (sera) expresses the first conditional."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ elles travaillent, elles auront du succès. (If they work, they will be successful.)",
+          "options": [
+            "S'",
+            "Si",
+            "Oui"
+          ],
+          "correctAnswer": "Si",
+          "explanation": "'Si' does not become 's'' before 'elles': si elles travaillent."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'une université?",
+        "options": [
+          "Une école primaire",
+          "Une école pour les enfants",
+          "Une école pour les études supérieures"
+        ],
+        "correctAnswer": "Une école pour les études supérieures",
+        "explanation": "L'université est pour les études supérieures après le lycée."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Si tu ___, tu réussis. (If you study, you succeed.)",
+        "options": [
+          "étudie",
+          "étudies",
+          "étudier"
+        ],
+        "correctAnswer": "étudies",
+        "explanation": "'Tu étudies' is the present tense form for 'tu'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quand est la rentrée?",
+        "options": [
+          "En juin",
+          "En septembre",
+          "En décembre"
+        ],
+        "correctAnswer": "En septembre",
+        "explanation": "La rentrée (back to school) est généralement en septembre."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ma matière préférée ___ le français. (My favorite subject is French.)",
+        "options": [
+          "est",
+          "suis",
+          "es"
+        ],
+        "correctAnswer": "est",
+        "explanation": "'Est' is the correct form of 'être' for 'matière' (3rd-person singular)."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'une note'?",
+        "options": [
+          "Un papier",
+          "Une marque scolaire",
+          "Un cahier"
+        ],
+        "correctAnswer": "Une marque scolaire",
+        "explanation": "'Une note' is a grade or score in school."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "'Si + présent' exprime généralement quoi?",
+        "options": [
+          "Une vérité générale ou une condition réelle",
+          "Le passé composé",
+          "Une hypothèse impossible",
+          "Un ordre"
+        ],
+        "correctAnswer": "Une vérité générale ou une condition réelle",
+        "explanation": "Si + présent sert à exprimer des vérités générales (si on travaille, on réussit) ou des conditions réelles.",
+        "targetWord": "si"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'une 'matière' à l'école?",
+        "options": [
+          "Un sujet d'étude comme les maths ou le français",
+          "Une note scolaire",
+          "Un établissement scolaire",
+          "Un carnet de notes"
+        ],
+        "correctAnswer": "Un sujet d'étude comme les maths ou le français",
+        "explanation": "Une matière est une discipline enseignée à l'école, comme les mathématiques, l'histoire ou les sciences.",
+        "targetWord": "la matière"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel établissement vient après le lycée en France?",
+        "options": [
+          "L'université",
+          "Le collège",
+          "L'école primaire",
+          "La crèche"
+        ],
+        "correctAnswer": "L'université",
+        "explanation": "En France, l'ordre est: école primaire → collège → lycée → université.",
+        "targetWord": "l'université"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Si tu étudies chaque jour, tu ___ de bonnes notes.",
+        "options": [
+          "as",
+          "est",
+          "ont"
+        ],
+        "correctAnswer": "as",
+        "explanation": "Avec 'si + présent', la proposition principale est aussi au présent: tu as.",
+        "targetWord": "la note"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que désigne 'la rentrée' en France?",
+        "options": [
+          "Le début de l'année scolaire en septembre",
+          "La fin des cours en juin",
+          "Les vacances de Noël",
+          "Les examens de baccalauréat"
+        ],
+        "correctAnswer": "Le début de l'année scolaire en septembre",
+        "explanation": "La rentrée, c'est le retour à l'école après les grandes vacances d'été, en septembre.",
+        "targetWord": "la rentrée"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Tell a friend about your school subjects and which ones you like best.",
+      "keyPhrases": [
+        "Ma matière préférée est...",
+        "J'étudie...",
+        "J'aime...",
+        "Comme matière, j'ai..."
+      ],
+      "modelAnswer": "Bonjour! Je vais au lycée. Ma matière préférée est le français. J'aime aussi les maths. Comme matières, j'ai français, maths, anglais et histoire.",
+      "modelAnswerExplanation": "You greet your friend, mention your school, state your favorite subject, and list your subjects. This is a natural way to describe your school schedule.",
+      "tip": "Use 'ma matière préférée est' to say your favorite subject. Always use 'le', 'la', or 'les' before subject names."
+    },
+    "advanced": {
+      "scenario": "Discuss your academic interests with a classmate. Talk about which subjects you enjoy studying, how you prepare for exams, and what grades you usually get.",
+      "keyPhrases": [
+        "Je préfère...",
+        "J'étudie surtout...",
+        "Pour les examens, je...",
+        "Habituellement, j'ai une note de..."
+      ],
+      "modelAnswer": "Mon domaine préféré est l'histoire. J'étudie surtout les sciences et les mathématiques. Pour les examens, je travaille deux heures par jour. Habituellement, j'ai une bonne note en français et une note correcte en maths.",
+      "modelAnswerExplanation": "You discuss your preferences, study habits, and typical grades. This shows your engagement with your studies and helps build conversation with peers.",
+      "tip": "Use varied vocabulary: 'préférer', 'étudier surtout', 'travailler pour les examens'. Mention your study habits and grades to make the conversation more natural."
+    }
+  }
+}

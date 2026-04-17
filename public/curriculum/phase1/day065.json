@@ -1,0 +1,591 @@
+{
+  "day": 65,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Days of the Week & Time of Day",
+  "vocab": {
+    "standard": [
+      {
+        "word": "lundi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "LUN-dee",
+        "meaning": "Monday",
+        "notes": "Masculine noun, not capitalized in French when not starting a sentence",
+        "examples": [
+          ["Le lundi, je vais à l'école.", "On Mondays, I go to school."],
+          ["Nous nous rencontrons lundi.", "We meet on Monday."],
+          ["C'est lundi aujourd'hui.", "Today is Monday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "lundi",
+          "feminine": "",
+          "masculinePlural": "lundis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mardi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "MAR-dee",
+        "meaning": "Tuesday",
+        "notes": "Masculine noun, not capitalized in French",
+        "examples": [
+          ["Mardi, je travaille tard.", "On Tuesday, I work late."],
+          ["Elle a un rendez-vous mardi.", "She has an appointment on Tuesday."],
+          ["Le mardi soir, nous dînons ensemble.", "On Tuesday evenings, we dine together."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mardi",
+          "feminine": "",
+          "masculinePlural": "mardis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mercredi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mer-kruh-DEE",
+        "meaning": "Wednesday",
+        "notes": "Masculine noun, not capitalized in French",
+        "examples": [
+          ["Mercredi, c'est mon jour préféré.", "Wednesday is my favorite day."],
+          ["Nous avons un cours mercredi matin.", "We have a class on Wednesday morning."],
+          ["Elle est chez le médecin mercredi.", "She is at the doctor's on Wednesday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mercredi",
+          "feminine": "",
+          "masculinePlural": "mercredis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "samedi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "sam-DEE",
+        "meaning": "Saturday",
+        "notes": "Masculine noun, weekend day, not capitalized in French",
+        "examples": [
+          ["Samedi, nous allons au cinéma.", "On Saturday, we go to the movies."],
+          ["Elle fait du shopping samedi.", "She goes shopping on Saturday."],
+          ["Le samedi, ma famille se réunit.", "On Saturdays, my family gathers."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "samedi",
+          "feminine": "",
+          "masculinePlural": "samedis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "dimanche",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "dee-MANSH",
+        "meaning": "Sunday",
+        "notes": "Masculine noun, weekend day, not capitalized in French",
+        "examples": [
+          ["Dimanche, je reste à la maison.", "On Sunday, I stay at home."],
+          ["Nous mangeons en famille dimanche.", "We eat as a family on Sunday."],
+          ["Le dimanche, tout est fermé.", "On Sundays, everything is closed."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "dimanche",
+          "feminine": "",
+          "masculinePlural": "dimanches",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "lundi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "LUN-dee",
+        "meaning": "Monday",
+        "notes": "Masculine noun, not capitalized in French when not starting a sentence",
+        "examples": [
+          ["Le lundi, je vais à l'école.", "On Mondays, I go to school."],
+          ["Nous nous rencontrons lundi.", "We meet on Monday."],
+          ["C'est lundi aujourd'hui.", "Today is Monday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "lundi",
+          "feminine": "",
+          "masculinePlural": "lundis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mardi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "MAR-dee",
+        "meaning": "Tuesday",
+        "notes": "Masculine noun, not capitalized in French",
+        "examples": [
+          ["Mardi, je travaille tard.", "On Tuesday, I work late."],
+          ["Elle a un rendez-vous mardi.", "She has an appointment on Tuesday."],
+          ["Le mardi soir, nous dînons ensemble.", "On Tuesday evenings, we dine together."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mardi",
+          "feminine": "",
+          "masculinePlural": "mardis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mercredi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mer-kruh-DEE",
+        "meaning": "Wednesday",
+        "notes": "Masculine noun, not capitalized in French",
+        "examples": [
+          ["Mercredi, c'est mon jour préféré.", "Wednesday is my favorite day."],
+          ["Nous avons un cours mercredi matin.", "We have a class on Wednesday morning."],
+          ["Elle est chez le médecin mercredi.", "She is at the doctor's on Wednesday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mercredi",
+          "feminine": "",
+          "masculinePlural": "mercredis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "jeudi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "zhuh-DEE",
+        "meaning": "Thursday",
+        "notes": "Masculine noun, not capitalized in French",
+        "examples": [
+          ["Jeudi, je vais chez ma tante.", "On Thursday, I go to my aunt's house."],
+          ["Nous avons une réunion jeudi.", "We have a meeting on Thursday."],
+          ["Le jeudi soir, elle sort avec ses amis.", "On Thursday evening, she goes out with her friends."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "jeudi",
+          "feminine": "",
+          "masculinePlural": "jeudis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "vendredi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "von-druh-DEE",
+        "meaning": "Friday",
+        "notes": "Masculine noun, not capitalized in French",
+        "examples": [
+          ["Vendredi, c'est presque le weekend.", "Friday is almost the weekend."],
+          ["Je suis libre vendredi soir.", "I am free on Friday evening."],
+          ["Le vendredi, nous allons danser.", "On Fridays, we go dancing."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "vendredi",
+          "feminine": "",
+          "masculinePlural": "vendredis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "samedi",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "sam-DEE",
+        "meaning": "Saturday",
+        "notes": "Masculine noun, weekend day, not capitalized in French",
+        "examples": [
+          ["Samedi, nous allons au cinéma.", "On Saturday, we go to the movies."],
+          ["Elle fait du shopping samedi.", "She goes shopping on Saturday."],
+          ["Le samedi, ma famille se réunit.", "On Saturdays, my family gathers."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "samedi",
+          "feminine": "",
+          "masculinePlural": "samedis",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "dimanche",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "dee-MANSH",
+        "meaning": "Sunday",
+        "notes": "Masculine noun, weekend day, not capitalized in French",
+        "examples": [
+          ["Dimanche, je reste à la maison.", "On Sunday, I stay at home."],
+          ["Nous mangeons en famille dimanche.", "We eat as a family on Sunday."],
+          ["Le dimanche, tout est fermé.", "On Sundays, everything is closed."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "dimanche",
+          "feminine": "",
+          "masculinePlural": "dimanches",
+          "femininePlural": ""
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! Tu es libre lundi?"],
+        ["B", "Non, lundi je travaille. Et toi?"],
+        ["A", "Moi aussi. Et mercredi?"],
+        ["B", "Mercredi, c'est possible. À quelle heure?"],
+        ["A", "À deux heures de l'après-midi."],
+        ["B", "D'accord! À mercredi."]
+      ],
+      "questions": [
+        {
+          "question": "Quel jour est-ce que A propose d'abord?",
+          "options": ["Lundi", "Mercredi", "Dimanche"],
+          "correctAnswer": "Lundi"
+        },
+        {
+          "question": "Est-ce que B est libre le lundi?",
+          "options": ["Oui, il est libre", "Non, il travaille", "Peut-être"],
+          "correctAnswer": "Non, il travaille"
+        },
+        {
+          "question": "À quelle heure est la rencontre mercredi?",
+          "options": ["À dix heures", "À deux heures", "À six heures"],
+          "correctAnswer": "À deux heures"
+        }
+      ],
+      "summary": "Two friends discuss available days to meet and agree to meet on Wednesday at 2 PM."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Salut! Je cherche un jour pour te voir cette semaine."],
+        ["B", "Je suis occupé lundi et mardi. Mercredi je peux."],
+        ["A", "Mercredi c'est bon pour moi aussi, mais pas le matin."],
+        ["B", "Pas de problème. Et vendredi soir?"],
+        ["A", "Vendredi soir c'est encore mieux! À dix-neuf heures?"],
+        ["B", "Oui, parfait. À vendredi!"]
+      ],
+      "questions": [
+        {
+          "question": "Quels jours est-ce que B est occupé?",
+          "options": ["Lundi et mardi", "Mercredi et jeudi", "Vendredi et samedi"],
+          "correctAnswer": "Lundi et mardi"
+        },
+        {
+          "question": "Pourquoi est-ce que A préfère vendredi?",
+          "options": ["Parce que c'est plus tôt", "Parce que c'est la soirée", "Parce que B n'est pas occupé"],
+          "correctAnswer": "Parce que c'est la soirée"
+        },
+        {
+          "question": "À quelle heure se rencontrent-ils vendredi?",
+          "options": ["À dix-sept heures", "À dix-neuf heures", "À vingt heures"],
+          "correctAnswer": "À dix-neuf heures"
+        },
+        {
+          "question": "Quel jour vient après jeudi?",
+          "options": ["Mercredi", "Vendredi", "Samedi"],
+          "correctAnswer": "Vendredi"
+        }
+      ],
+      "summary": "Two friends arrange to meet Friday evening at 7 PM after determining other days don't work."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Articles with Days & Time of Day",
+      "explanation": "In French, days of the week are used with the definite article 'le' when describing a habit or something that repeats. Use 'le lundi' to mean 'on Mondays' (every Monday). Without the article, 'lundi' refers to a specific upcoming Monday. Time of day expressions like 'le matin' (in the morning), 'l'après-midi' (in the afternoon), 'le soir' (in the evening), and 'la nuit' (at night) also use articles when referring to general times. Example: 'Le lundi matin, j'ai cours.' means 'On Monday mornings, I have class.'",
+      "examples": [
+        {
+          "french": "Le lundi, je vais à l'école.",
+          "english": "On Mondays, I go to school."
+        },
+        {
+          "french": "Lundi, nous nous rencontrons.",
+          "english": "This Monday, we meet."
+        },
+        {
+          "french": "Le matin, je prends du café.",
+          "english": "In the morning, I have coffee."
+        },
+        {
+          "french": "L'après-midi, je travaille.",
+          "english": "In the afternoon, I work."
+        },
+        {
+          "french": "Le soir, ma famille regarde la télévision.",
+          "english": "In the evening, my family watches television."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: '___ mercredi, j'ai un rendez-vous.'",
+          "options": ["Le", "Un", "La"],
+          "correctAnswer": "Le",
+          "explanation": "Use 'le mercredi' when referring to a specific or habitual time. Here, without 'le', it sounds like a general statement about a repeated action.",
+          "targetWord": "mercredi"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Samedi, ___ matin, nous allons au marché.",
+          "options": [],
+          "correctAnswer": "le",
+          "explanation": "Use 'le matin' (the morning) with the article to refer to the time of day.",
+          "targetWord": "matin"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": ["Le lundi je travaille.", "Lundi matin je travaille.", "Le travaille lundi."],
+          "correctAnswer": "Le lundi je travaille.",
+          "explanation": "'Le lundi' correctly introduces the habitual day. The other options lack proper structure or article placement.",
+          "targetWord": "lundi"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ soir, ma mère rentre du travail.",
+          "options": [],
+          "correctAnswer": "Le",
+          "explanation": "Use 'le soir' (the evening) with the article when referring to the time of day generally.",
+          "targetWord": "soir"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel jour vient après samedi?",
+          "options": ["Lundi", "Dimanche", "Vendredi"],
+          "correctAnswer": "Dimanche",
+          "explanation": "Sunday (dimanche) comes after Saturday (samedi). This is the correct order of days.",
+          "targetWord": "dimanche"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Articles with Days & Time of Day — le lundi vs lundi, Time Expressions & Nuances",
+      "explanation": "French distinguishes between habitual and specific uses of days of the week. 'Le lundi' means 'on Mondays' (every Monday, a habit), while 'lundi' or 'ce lundi' refers to a specific Monday. Similarly, time expressions like 'le matin,' 'l'après-midi,' 'le soir,' and 'la nuit' take articles when used generically. However, in fixed expressions like 'c'est lundi' (it is Monday) or 'c'est le matin' (it is morning), the article may be optional. Adverbial time phrases like 'ce matin' (this morning) and 'cet après-midi' (this afternoon) use 'ce' (demonstrative) instead of the article. Temporal contexts matter: 'Le jeudi, je suis libre' (on Thursdays I am free) vs. 'Jeudi, je ne peux pas' (this Thursday I cannot).",
+      "examples": [
+        {
+          "french": "Le lundi, je vais à l'école.",
+          "english": "On Mondays, I go to school."
+        },
+        {
+          "french": "Lundi, nous nous rencontrons à dix heures.",
+          "english": "This Monday, we meet at ten."
+        },
+        {
+          "french": "Le matin, j'aime prendre un café.",
+          "english": "In the morning, I like to have coffee."
+        },
+        {
+          "french": "Ce matin, j'ai pris un café.",
+          "english": "This morning, I had a coffee."
+        },
+        {
+          "french": "L'après-midi, elle travaille; le soir, elle étudie.",
+          "english": "In the afternoon she works; in the evening she studies."
+        },
+        {
+          "french": "Cet après-midi, je vais au cinéma.",
+          "english": "This afternoon, I'm going to the movies."
+        },
+        {
+          "french": "La nuit, tout est calme.",
+          "english": "At night, everything is calm."
+        },
+        {
+          "french": "Samedi prochain, nous partons en vacances.",
+          "english": "Next Saturday, we're going on vacation."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Choisissez la phrase correcte pour dire que vous allez au gym tous les vendredis.",
+          "options": ["Je vais au gym vendredi.", "Le vendredi, je vais au gym.", "Je vais le gym vendredi."],
+          "correctAnswer": "Le vendredi, je vais au gym.",
+          "explanation": "'Le vendredi' indicates a habitual action. Without 'le', it sounds like a single event.",
+          "targetWord": "vendredi"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ce lundi, j'ai rendez-vous ___ matin avec mon ami.",
+          "options": [],
+          "correctAnswer": "le",
+          "explanation": "Even though 'ce lundi' is specific, 'le matin' (the morning) requires the article when specifying a time period.",
+          "targetWord": "matin"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle expression signifie 'cet après-midi précis'?",
+          "options": ["L'après-midi", "Cet après-midi", "Le l'après-midi"],
+          "correctAnswer": "Cet après-midi",
+          "explanation": "Use 'cet après-midi' (this afternoon) with the demonstrative 'cet' to refer to the specific afternoon of today.",
+          "targetWord": "après-midi"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Normalement, ___ jeudi, je suis chez ma grand-mère.",
+          "options": [],
+          "correctAnswer": "le",
+          "explanation": "'Le jeudi' indicates a regular, habitual Thursday activity.",
+          "targetWord": "jeudi"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'La nuit, ___ est très sombre.'",
+          "options": ["tout", "quelque chose", "rien"],
+          "correctAnswer": "tout",
+          "explanation": "'La nuit, tout est très sombre' (at night, everything is very dark) is a natural sentence using 'tout' (everything).",
+          "targetWord": "nuit"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Samedi prochain, je vais à la plage ___ après-midi.",
+          "options": [],
+          "correctAnswer": "l'",
+          "explanation": "Use 'l'après-midi' (the afternoon) with the article to indicate the time period on that Saturday.",
+          "targetWord": "après-midi"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est incorrecte?",
+          "options": ["Le dimanche, j'aime rester à la maison.", "Dimanche, je reste à la maison.", "La dimanche, je reste à la maison."],
+          "correctAnswer": "La dimanche, je reste à la maison.",
+          "explanation": "Days of the week take the article 'le' (or 'l' before a vowel), never 'la'. 'La dimanche' is incorrect.",
+          "targetWord": "dimanche"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Cet été, ___ soir, nous mangeons dehors.",
+          "options": [],
+          "correctAnswer": "le",
+          "explanation": "Even in a specific timeframe like 'this summer,' 'le soir' (the evening) uses the article when referring to the evening period.",
+          "targetWord": "soir"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel jour vient après mercredi?",
+        "options": ["Mardi", "Jeudi", "Samedi"],
+        "correctAnswer": "Jeudi",
+        "explanation": "Thursday comes after Wednesday in the weekly calendar.",
+        "targetWord": "jeudi"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: '___ matin, je prends un café.'",
+        "options": ["Lundi", "Le", "Un"],
+        "correctAnswer": "Le",
+        "explanation": "Use 'le matin' (the morning) with the article.",
+        "targetWord": "matin"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Samedi et dimanche, c'est ___.",
+        "options": [],
+        "correctAnswer": "le weekend",
+        "explanation": "Saturday and Sunday together make up the weekend.",
+        "targetWord": "weekend"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "À quelle heure se rencontrent les personnes dans le dialogue?",
+        "options": ["À dix heures", "À deux heures", "À cinq heures"],
+        "correctAnswer": "À deux heures",
+        "explanation": "The dialogue states they meet at 'deux heures de l'après-midi' (2 PM).",
+        "targetWord": "heure"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "___ soir, ma famille regarde un film.",
+        "options": [],
+        "correctAnswer": "Le",
+        "explanation": "Use 'le soir' (the evening) with the article to describe the time of day.",
+        "targetWord": "soir"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase signifie une action habituelle le mercredi?",
+        "options": ["Mercredi, j'ai cours.", "Le mercredi, j'ai cours.", "Cet mercredi, j'ai cours."],
+        "correctAnswer": "Le mercredi, j'ai cours.",
+        "explanation": "'Le mercredi' indicates a habitual, recurring action. 'Mercredi' without 'le' refers to a specific Wednesday.",
+        "targetWord": "mercredi"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Cet ___, je ne suis pas libre.",
+        "options": [],
+        "correctAnswer": "après-midi",
+        "explanation": "'Cet après-midi' (this afternoon) uses the demonstrative 'cet' and refers to a specific afternoon.",
+        "targetWord": "après-midi"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: '___ nuit, les étoiles brillent.'",
+        "options": ["Le", "La", "Une"],
+        "correctAnswer": "La",
+        "explanation": "'La nuit' (the night) is feminine and uses 'la' as the article.",
+        "targetWord": "nuit"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le vendredi prochain, nous nous rencontrons ___ matin.",
+        "options": [],
+        "correctAnswer": "le",
+        "explanation": "Use 'le matin' (the morning) with the article to specify the time period.",
+        "targetWord": "matin"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase est correcte pour dire que vous allez toujours au marché samedi matin?",
+        "options": ["Samedi matin, je vais au marché.", "Le samedi matin, je vais au marché.", "Cet samedi matin, je vais au marché."],
+        "correctAnswer": "Le samedi matin, je vais au marché.",
+        "explanation": "'Le samedi matin' correctly conveys a habitual Saturday morning action. 'Cet samedi matin' would mean 'this specific Saturday morning.'",
+        "targetWord": "samedi"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Your friend asks you what you do each day of the week. Describe your typical week, mentioning at least three different days and the activities you do.",
+      "keyPhrases": ["Le lundi", "Le mardi", "Le mercredi", "Le samedi", "je vais", "j'aime", "je reste"],
+      "modelAnswer": "Le lundi, je vais à l'école. Mardi, j'aime jouer au foot. Le mercredi, je travaille l'après-midi. Samedi, je reste à la maison et je regarde la télévision. Dimanche, ma famille se réunit pour le dîner.",
+      "modelAnswerExplanation": "This answer uses 'le' + day name to describe habitual activities and uses present-tense verbs with first-person singular forms.",
+      "tip": "Remember: use 'le' + day name when talking about what you typically do on that day. 'Le lundi, je...' = 'On Mondays, I...'"
+    },
+    "advanced": {
+      "scenario": "Your French colleague asks you to describe your weekly schedule in detail. Include specific times, different activities at different times of day, and explain why you prefer certain days.",
+      "keyPhrases": ["Le lundi", "le matin", "l'après-midi", "le soir", "à quelle heure", "je préfère", "parce que"],
+      "modelAnswer": "Le lundi matin, j'ai un rendez-vous important. L'après-midi, je travaille au bureau. Le mercredi, c'est mon jour préféré parce que je finis tôt. Le vendredi soir, je sors avec mes amis. Le samedi et le dimanche, j'aime rester à la maison et me reposer.",
+      "modelAnswerExplanation": "This response uses detailed time markers ('le matin,' 'l'après-midi,' 'le soir'), distinguishes between habitual and specific times, and provides reasons for preferences using 'parce que.'",
+      "tip": "Structure your response with time markers and use connectors like 'parce que' and 'mais' to explain preferences. Combine days with time periods for more natural speech."
+    }
+  }
+}

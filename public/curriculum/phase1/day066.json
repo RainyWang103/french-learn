@@ -1,0 +1,589 @@
+{
+  "day": 66,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "People in General",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le cousin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "koo-ZAN",
+        "meaning": "cousin (male)",
+        "notes": "Masculine noun. Use 'la cousine' for female cousin.",
+        "examples": [
+          ["Mon cousin habite à Paris.", "My cousin lives in Paris."],
+          ["Elle a un cousin en France.", "She has a cousin in France."],
+          ["Les cousins se rencontrent souvent.", "The cousins meet often."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "cousin",
+          "feminine": "",
+          "masculinePlural": "cousins",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la cousine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "koo-ZEE-nuh",
+        "meaning": "cousin (female)",
+        "notes": "Feminine noun. Use 'le cousin' for male cousin.",
+        "examples": [
+          ["Ma cousine est très sympa.", "My cousin is very nice."],
+          ["Je vois ma cousine le weekend.", "I see my cousin on the weekend."],
+          ["Les cousines sont à la plage.", "The cousins are at the beach."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "cousine",
+          "masculinePlural": "",
+          "femininePlural": "cousines"
+        }
+      },
+      {
+        "word": "l'oncle",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ON-kluh",
+        "meaning": "uncle",
+        "notes": "Masculine noun. Begins with a vowel, so uses 'l' instead of 'le'.",
+        "examples": [
+          ["Mon oncle est médecin.", "My uncle is a doctor."],
+          ["L'oncle arrive demain.", "The uncle arrives tomorrow."],
+          ["Je vais chez mon oncle.", "I go to my uncle's house."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "oncle",
+          "feminine": "",
+          "masculinePlural": "oncles",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la tante",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "tahnt",
+        "meaning": "aunt",
+        "notes": "Feminine noun. Pair with 'l'oncle' (uncle).",
+        "examples": [
+          ["Ma tante cuisine très bien.", "My aunt cooks very well."],
+          ["La tante de Pierre habite à Lyon.", "Pierre's aunt lives in Lyon."],
+          ["Je dîne chez ma tante.", "I dine at my aunt's house."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "tante",
+          "masculinePlural": "",
+          "femininePlural": "tantes"
+        }
+      },
+      {
+        "word": "le mari",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mah-REE",
+        "meaning": "husband",
+        "notes": "Masculine noun. Pair with 'la femme' (wife).",
+        "examples": [
+          ["Le mari de Sophie est ingénieur.", "Sophie's husband is an engineer."],
+          ["Mon mari aime le foot.", "My husband loves soccer."],
+          ["Les maris et les femmes.", "The husbands and wives."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mari",
+          "feminine": "",
+          "masculinePlural": "maris",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le cousin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "koo-ZAN",
+        "meaning": "cousin (male)",
+        "notes": "Masculine noun. Use 'la cousine' for female cousin.",
+        "examples": [
+          ["Mon cousin habite à Paris.", "My cousin lives in Paris."],
+          ["Elle a un cousin en France.", "She has a cousin in France."],
+          ["Les cousins se rencontrent souvent.", "The cousins meet often."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "cousin",
+          "feminine": "",
+          "masculinePlural": "cousins",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la cousine",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "koo-ZEE-nuh",
+        "meaning": "cousin (female)",
+        "notes": "Feminine noun. Use 'le cousin' for male cousin.",
+        "examples": [
+          ["Ma cousine est très sympa.", "My cousin is very nice."],
+          ["Je vois ma cousine le weekend.", "I see my cousin on the weekend."],
+          ["Les cousines sont à la plage.", "The cousins are at the beach."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "cousine",
+          "masculinePlural": "",
+          "femininePlural": "cousines"
+        }
+      },
+      {
+        "word": "l'oncle",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ON-kluh",
+        "meaning": "uncle",
+        "notes": "Masculine noun. Begins with a vowel, so uses 'l' instead of 'le'.",
+        "examples": [
+          ["Mon oncle est médecin.", "My uncle is a doctor."],
+          ["L'oncle arrive demain.", "The uncle arrives tomorrow."],
+          ["Je vais chez mon oncle.", "I go to my uncle's house."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "oncle",
+          "feminine": "",
+          "masculinePlural": "oncles",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la tante",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "tahnt",
+        "meaning": "aunt",
+        "notes": "Feminine noun. Pair with 'l'oncle' (uncle).",
+        "examples": [
+          ["Ma tante cuisine très bien.", "My aunt cooks very well."],
+          ["La tante de Pierre habite à Lyon.", "Pierre's aunt lives in Lyon."],
+          ["Je dîne chez ma tante.", "I dine at my aunt's house."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "tante",
+          "masculinePlural": "",
+          "femininePlural": "tantes"
+        }
+      },
+      {
+        "word": "le mari",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mah-REE",
+        "meaning": "husband",
+        "notes": "Masculine noun. Pair with 'la femme' (wife).",
+        "examples": [
+          ["Le mari de Sophie est ingénieur.", "Sophie's husband is an engineer."],
+          ["Mon mari aime le foot.", "My husband loves soccer."],
+          ["Les maris et les femmes.", "The husbands and wives."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mari",
+          "feminine": "",
+          "masculinePlural": "maris",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le neveu",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "nuh-VUH",
+        "meaning": "nephew",
+        "notes": "Masculine noun. Use 'la nièce' for niece.",
+        "examples": [
+          ["Mon neveu est à l'école.", "My nephew is at school."],
+          ["Le neveu de mon cousin est intelligent.", "My cousin's nephew is intelligent."],
+          ["Les neveux viennent demain.", "The nephews come tomorrow."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "neveu",
+          "feminine": "",
+          "masculinePlural": "neveux",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la nièce",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "nee-ESS",
+        "meaning": "niece",
+        "notes": "Feminine noun. Use 'le neveu' for nephew.",
+        "examples": [
+          ["Ma nièce adore lire.", "My niece loves to read."],
+          ["La nièce de Luc est musicienne.", "Luc's niece is a musician."],
+          ["Les nièces jouent ensemble.", "The nieces play together."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "nièce",
+          "masculinePlural": "",
+          "femininePlural": "nièces"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! Je te présente ma cousine, Anne."],
+        ["B", "Enchanté! Tu es la cousine de David?"],
+        ["A", "Oui, c'est ça. Anne habite avec nous."],
+        ["B", "Ah, c'est sympa! Et ta tante, elle est à la maison?"],
+        ["A", "Non, ma tante travaille aujourd'hui. Et mon oncle aussi."]
+      ],
+      "questions": [
+        {
+          "question": "Qui est Anne?",
+          "options": ["La cousine de A", "La tante de A", "La sœur de A"],
+          "correctAnswer": "La cousine de A"
+        },
+        {
+          "question": "Où habite Anne?",
+          "options": ["Avec sa mère", "Avec A", "À l'école"],
+          "correctAnswer": "Avec A"
+        },
+        {
+          "question": "Où sont la tante et l'oncle?",
+          "options": ["À la maison", "Au travail", "À l'école"],
+          "correctAnswer": "Au travail"
+        }
+      ],
+      "summary": "A introduces cousin Anne to B. Anne lives with A. A's aunt and uncle are at work."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Salut! Je voudrais te présenter ma cousine Anne et mon cousin Marc. Ils viennent de Lyon."],
+        ["B", "Enchanté! Vous êtes cousins par la tante ou par l'oncle?"],
+        ["A", "Par ma tante. Elle est la sœur de mon père. Et Marc, c'est le fils de mon oncle."],
+        ["B", "Ah, d'accord! Et votre mère, elle est ici?"],
+        ["A", "Oui, ma mère prépare le dîner. Mon mari aussi est à la maison."]
+      ],
+      "questions": [
+        {
+          "question": "D'où viennent Anne et Marc?",
+          "options": ["De Paris", "De Lyon", "De Marseille"],
+          "correctAnswer": "De Lyon"
+        },
+        {
+          "question": "Qui est le père de la cousine Anne?",
+          "options": ["L'oncle de A", "La tante de A", "Le mari de A"],
+          "correctAnswer": "L'oncle de A"
+        },
+        {
+          "question": "Qui prépare le dîner?",
+          "options": ["La mère de A", "La tante de A", "La cousine Anne"],
+          "correctAnswer": "La mère de A"
+        },
+        {
+          "question": "Qui est aussi à la maison?",
+          "options": ["L'oncle", "La tante", "Le mari de A"],
+          "correctAnswer": "Le mari de A"
+        }
+      ],
+      "summary": "A introduces cousins Anne and Marc from Lyon. Anne is the daughter of A's aunt. Marc is A's uncle's son. A's mother and husband are also at home preparing dinner."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Quelqu'un / Personne / Quelque chose / Rien (Indefinite Pronouns)",
+      "explanation": "French has four main indefinite pronouns: 'quelqu'un' (someone), 'personne' (no one), 'quelque chose' (something), and 'rien' (nothing). When 'personne' or 'rien' are used as the object of a verb, they require the negation word 'ne' before the verb. For example: 'Je ne vois personne' (I see no one), 'Il n'y a rien' (There is nothing). 'Quelqu'un' and 'quelque chose' are affirmative and do not require 'ne'. Example: 'Il y a quelqu'un à la porte' (Someone is at the door).",
+      "examples": [
+        {
+          "french": "Je vois quelqu'un à la fenêtre.",
+          "english": "I see someone at the window."
+        },
+        {
+          "french": "Je ne vois personne.",
+          "english": "I see no one."
+        },
+        {
+          "french": "Il y a quelque chose sur la table.",
+          "english": "There is something on the table."
+        },
+        {
+          "french": "Il n'y a rien à manger.",
+          "english": "There is nothing to eat."
+        },
+        {
+          "french": "Quelqu'un a un livre?",
+          "english": "Does someone have a book?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Il y a ___ à la porte.'",
+          "options": ["quelqu'un", "personne", "rien"],
+          "correctAnswer": "quelqu'un",
+          "explanation": "'Quelqu'un' (someone) is the affirmative form. This sentence means 'Someone is at the door.'",
+          "targetWord": "quelqu'un"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ne ___ ___.",
+          "options": [],
+          "correctAnswer": "vois personne",
+          "explanation": "'Je ne vois personne' means 'I see no one.' The 'ne' is required with 'personne'.",
+          "targetWord": "personne"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": ["Je ne vois quelque chose.", "Je vois quelque chose.", "Je ne vois quelqu'un."],
+          "correctAnswer": "Je vois quelque chose.",
+          "explanation": "'Quelque chose' (something) is affirmative and doesn't require 'ne'. The other options are grammatically incorrect.",
+          "targetWord": "quelque chose"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il n'y a ___ à boire.",
+          "options": [],
+          "correctAnswer": "rien",
+          "explanation": "'Rien' (nothing) requires 'ne' before the verb. 'Il n'y a rien à boire' means 'There is nothing to drink.'",
+          "targetWord": "rien"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Y a-t-il ___ ici?'",
+          "options": ["quelqu'un", "personne", "rien"],
+          "correctAnswer": "quelqu'un",
+          "explanation": "'Quelqu'un' (someone) is used in a yes/no question. This means 'Is someone here?'",
+          "targetWord": "quelqu'un"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Indefinite Pronouns — Quelqu'un, Personne, Quelque chose, Rien + Extended Uses",
+      "explanation": "French indefinite pronouns distinguish affirmative and negative contexts. 'Quelqu'un' and 'quelque chose' are affirmative (someone, something) and never require 'ne'. 'Personne' and 'rien' are negative (no one, nothing) and always require 'ne' before the verb. Important distinction: 'personne' and 'rien' can also appear before the verb, in which case 'ne' is still required after them. Example: 'Rien ne change' (Nothing changes). Adjectives following 'quelque chose' or 'rien' use the preposition 'de' + masculine form: 'quelque chose de bon' (something good), 'rien de nouveau' (nothing new). Negative questions with 'personne' use the same structure: 'Y a-t-il quelqu'un?' (Is someone here?) vs. 'Il n'y a personne.' (There is no one).",
+      "examples": [
+        {
+          "french": "Quelqu'un arrive demain.",
+          "english": "Someone is arriving tomorrow."
+        },
+        {
+          "french": "Je ne vois personne dans la rue.",
+          "english": "I see no one in the street."
+        },
+        {
+          "french": "Rien ne m'intéresse.",
+          "english": "Nothing interests me."
+        },
+        {
+          "french": "Il y a quelque chose de bizarre.",
+          "english": "There is something strange."
+        },
+        {
+          "french": "Tu as rien de nouveau?",
+          "english": "Do you have anything new?"
+        },
+        {
+          "french": "Personne ne sait la réponse.",
+          "english": "No one knows the answer."
+        },
+        {
+          "french": "Y a-t-il quelque chose à manger?",
+          "english": "Is there something to eat?"
+        },
+        {
+          "french": "Il n'y a rien de bon ici.",
+          "english": "There is nothing good here."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Choisissez la phrase correcte.",
+          "options": ["Quelqu'un n'arrive pas.", "Personne n'arrive.", "Quelque chose n'arrive pas."],
+          "correctAnswer": "Personne n'arrive.",
+          "explanation": "'Personne' means 'no one' and requires 'ne'. The phrase means 'No one is arriving.'",
+          "targetWord": "personne"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ ne change dans cette ville.",
+          "options": [],
+          "correctAnswer": "Rien",
+          "explanation": "When 'rien' appears before the verb, 'ne' follows. 'Rien ne change' means 'Nothing changes.'",
+          "targetWord": "rien"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Tu as quelque chose de ___?'",
+          "options": ["intéressant", "intéresse", "intéressé"],
+          "correctAnswer": "intéressant",
+          "explanation": "After 'quelque chose de,' use the masculine singular adjective form: 'de + intéressant.'",
+          "targetWord": "quelque chose"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il n'y a rien de ___ à faire.",
+          "options": [],
+          "correctAnswer": "bon",
+          "explanation": "'De bon' is the masculine singular adjective form after 'rien de.' The phrase means 'There is nothing good to do.'",
+          "targetWord": "rien"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase signifie 'Something interesting happens'?",
+          "options": ["Rien de intéressant se passe.", "Quelque chose d'intéressant se passe.", "Personne d'intéressant se passe."],
+          "correctAnswer": "Quelque chose d'intéressant se passe.",
+          "explanation": "'Quelque chose d'intéressant' correctly means 'something interesting.' Note the contraction 'de + intéressant' → 'd'intéressant.'",
+          "targetWord": "quelque chose"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "___ ne sait ce qui se passe.",
+          "options": [],
+          "correctAnswer": "Personne",
+          "explanation": "When 'personne' is the subject, 'ne' follows the verb. 'Personne ne sait' means 'No one knows.'",
+          "targetWord": "personne"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Y a-t-il ___ ici qui parle anglais?'",
+          "options": ["quelqu'un", "personne", "rien"],
+          "correctAnswer": "quelqu'un",
+          "explanation": "'Quelqu'un' (someone) is used in a yes/no question. This means 'Is there someone here who speaks English?'",
+          "targetWord": "quelqu'un"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu veux quelque chose de ___?",
+          "options": [],
+          "correctAnswer": "chaud",
+          "explanation": "After 'quelque chose de,' use the masculine singular adjective: 'de chaud' (something hot).",
+          "targetWord": "quelque chose"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: 'Il y a ___ à la porte.'",
+        "options": ["quelqu'un", "personne", "rien"],
+        "correctAnswer": "quelqu'un",
+        "explanation": "'Quelqu'un' is the affirmative indefinite pronoun meaning 'someone.'",
+        "targetWord": "quelqu'un"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ne vois ___.",
+        "options": [],
+        "correctAnswer": "personne",
+        "explanation": "'Personne' means 'no one' and requires 'ne' before the verb.",
+        "targetWord": "personne"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qui est l'oncle de A dans le dialogue?",
+        "options": ["Il n'est pas mentionné", "Il est au travail", "Il habite à Lyon"],
+        "correctAnswer": "Il est au travail",
+        "explanation": "The dialogue states that A's uncle is working.",
+        "targetWord": "oncle"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: 'Il n'y a ___.'",
+        "options": ["quelque chose", "quelqu'un", "rien"],
+        "correctAnswer": "rien",
+        "explanation": "'Rien' means 'nothing' and requires 'ne' before the verb.",
+        "targetWord": "rien"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Ma ___ habite avec nous.",
+        "options": [],
+        "correctAnswer": "cousine",
+        "explanation": "'Cousine' is the feminine form of cousin (cousin, female).",
+        "targetWord": "cousine"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase est correcte?",
+        "options": ["Je vois quelque chose de interesting.", "Je vois quelque chose d'intéressant.", "Je vois quelque chose intéressant de."],
+        "correctAnswer": "Je vois quelque chose d'intéressant.",
+        "explanation": "Adjectives after 'quelque chose' use 'de' (or 'd' before vowels) + masculine singular form.",
+        "targetWord": "quelque chose"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "___ ne m'intéresse dans ce film.",
+        "options": [],
+        "correctAnswer": "Rien",
+        "explanation": "When 'rien' is the subject, it comes before the verb with 'ne' following. This means 'Nothing interests me in this film.'",
+        "targetWord": "rien"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: 'Le mari de ma tante est mon ___.'",
+        "options": ["oncle", "cousin", "neveu"],
+        "correctAnswer": "oncle",
+        "explanation": "Your aunt's husband is your uncle (oncle).",
+        "targetWord": "oncle"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il n'y a ___ de nouveau aujourd'hui.",
+        "options": [],
+        "correctAnswer": "rien",
+        "explanation": "'Rien de nouveau' means 'nothing new.' The structure is 'rien + de + adjective.'",
+        "targetWord": "rien"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase signifie 'No one knows the answer'?",
+        "options": ["Quelqu'un sait la réponse.", "Personne ne sait la réponse.", "Rien ne sait la réponse."],
+        "correctAnswer": "Personne ne sait la réponse.",
+        "explanation": "'Personne ne sait' is the correct way to express 'No one knows.' 'Personne' requires 'ne'.",
+        "targetWord": "personne"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Introduce your extended family members to a friend. Mention at least three family members and describe what they do or where they live.",
+      "keyPhrases": ["Je te présente", "mon oncle", "ma tante", "mon cousin", "ma cousine", "le mari de", "habite", "travaille"],
+      "modelAnswer": "Je te présente mon oncle Marc et ma tante Sophie. Ils habitent à Lyon. Mon oncle travaille comme ingénieur. Ma cousine Anne habite avec nous. Elle va à l'école.",
+      "modelAnswerExplanation": "This answer correctly introduces family members using proper articles and prepositions, and provides additional information about where they live and what they do.",
+      "tip": "Use 'Je te présente' to introduce people. Remember to use the correct gender form: 'mon oncle' (my uncle), 'ma tante' (my aunt), 'mon cousin' (my male cousin), 'ma cousine' (my female cousin)."
+    },
+    "advanced": {
+      "scenario": "Describe your family structure in detail. Include both parents, siblings, and at least two extended family members. Explain relationships and where they live or work.",
+      "keyPhrases": ["Je t'explique ma famille", "mon père", "ma mère", "mon frère", "ma sœur", "l'oncle de", "la tante de", "le neveu de", "la nièce de"],
+      "modelAnswer": "Je t'explique ma famille. J'ai deux frères et une sœur. Mon père travaille en banque et ma mère est professeur. L'oncle de mon père habite à Marseille; c'est un médecin. La tante de ma mère vit avec nous. Elle a une fille, donc ma cousine Anne est née ici. Mon neveu, c'est le fils de ma sœur.",
+      "modelAnswerExplanation": "This response uses detailed family relationships, includes locative information, and employs possessive structures like 'l'oncle de mon père' (my father's uncle). It distinguishes between family members living in different locations.",
+      "tip": "Structure your response by first mentioning immediate family, then extended family. Use 'l'oncle de' (the uncle of) and 'la tante de' (the aunt of) for possessive relationships. Include professions and locations when relevant."
+    }
+  }
+}
