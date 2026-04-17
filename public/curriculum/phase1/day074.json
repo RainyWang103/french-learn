@@ -1,0 +1,833 @@
+{
+  "day": 74,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Months & Dates",
+  "vocab": {
+    "standard": [
+      {
+        "word": "janvier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "zhahn-vee-ay",
+        "meaning": "January",
+        "examples": [
+          [
+            "janvier est le premier mois.",
+            "January is the first month."
+          ],
+          [
+            "Mon anniversaire est en janvier.",
+            "My birthday is in January."
+          ],
+          [
+            "Il fait froid en janvier.",
+            "It is cold in January."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "janvier",
+          "feminine": "",
+          "masculinePlural": "janviers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "février",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "fev-ree-ay",
+        "meaning": "February",
+        "examples": [
+          [
+            "février a 28 jours.",
+            "February has 28 days."
+          ],
+          [
+            "Saint-Valentin est en février.",
+            "Valentine's Day is in February."
+          ],
+          [
+            "Il neige souvent en février.",
+            "It snows often in February."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "février",
+          "feminine": "",
+          "masculinePlural": "févriers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mars",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mars",
+        "meaning": "March",
+        "examples": [
+          [
+            "mars est le troisième mois.",
+            "March is the third month."
+          ],
+          [
+            "Le printemps commence en mars.",
+            "Spring starts in March."
+          ],
+          [
+            "Les fleurs poussent en mars.",
+            "Flowers grow in March."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mars",
+          "feminine": "",
+          "masculinePlural": "mars",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "avril",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ah-vreel",
+        "meaning": "April",
+        "examples": [
+          [
+            "avril est le quatrième mois.",
+            "April is the fourth month."
+          ],
+          [
+            "Pâques est en avril.",
+            "Easter is in April."
+          ],
+          [
+            "Il pleut souvent en avril.",
+            "It rains often in April."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "avril",
+          "feminine": "",
+          "masculinePlural": "avrils",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "juillet",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "zhoo-ee-ay",
+        "meaning": "July",
+        "examples": [
+          [
+            "juillet est très chaud.",
+            "July is very hot."
+          ],
+          [
+            "Les vacances d'été sont en juillet.",
+            "Summer holidays are in July."
+          ],
+          [
+            "Beaucoup de gens voyagent en juillet.",
+            "Many people travel in July."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "juillet",
+          "feminine": "",
+          "masculinePlural": "juillets",
+          "femininePlural": ""
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "janvier",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "zhahn-vee-ay",
+        "meaning": "January",
+        "examples": [
+          [
+            "janvier est le premier mois.",
+            "January is the first month."
+          ],
+          [
+            "Mon anniversaire est en janvier.",
+            "My birthday is in January."
+          ],
+          [
+            "Il fait froid en janvier.",
+            "It is cold in January."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "janvier",
+          "feminine": "",
+          "masculinePlural": "janviers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "février",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "fev-ree-ay",
+        "meaning": "February",
+        "examples": [
+          [
+            "février a 28 jours.",
+            "February has 28 days."
+          ],
+          [
+            "Saint-Valentin est en février.",
+            "Valentine's Day is in February."
+          ],
+          [
+            "Il neige souvent en février.",
+            "It snows often in February."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "février",
+          "feminine": "",
+          "masculinePlural": "févriers",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mars",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "mars",
+        "meaning": "March",
+        "examples": [
+          [
+            "mars est le troisième mois.",
+            "March is the third month."
+          ],
+          [
+            "Le printemps commence en mars.",
+            "Spring starts in March."
+          ],
+          [
+            "Les fleurs poussent en mars.",
+            "Flowers grow in March."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mars",
+          "feminine": "",
+          "masculinePlural": "mars",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "avril",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ah-vreel",
+        "meaning": "April",
+        "examples": [
+          [
+            "avril est le quatrième mois.",
+            "April is the fourth month."
+          ],
+          [
+            "Pâques est en avril.",
+            "Easter is in April."
+          ],
+          [
+            "Il pleut souvent en avril.",
+            "It rains often in April."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "avril",
+          "feminine": "",
+          "masculinePlural": "avrils",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "mai",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "may",
+        "meaning": "May",
+        "examples": [
+          [
+            "mai est le cinquième mois.",
+            "May is the fifth month."
+          ],
+          [
+            "Le mois de mai est agréable.",
+            "The month of May is pleasant."
+          ],
+          [
+            "Les fleurs fleurissent en mai.",
+            "Flowers bloom in May."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "mai",
+          "feminine": "",
+          "masculinePlural": "mais",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "juin",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "zhoo-ahn",
+        "meaning": "June",
+        "examples": [
+          [
+            "juin est le sixième mois.",
+            "June is the sixth month."
+          ],
+          [
+            "L'été commence en juin.",
+            "Summer starts in June."
+          ],
+          [
+            "Juin est un mois chaud.",
+            "June is a warm month."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "juin",
+          "feminine": "",
+          "masculinePlural": "juins",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "juillet",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "zhoo-ee-ay",
+        "meaning": "July",
+        "examples": [
+          [
+            "juillet est très chaud.",
+            "July is very hot."
+          ],
+          [
+            "Les vacances d'été sont en juillet.",
+            "Summer holidays are in July."
+          ],
+          [
+            "Beaucoup de gens voyagent en juillet.",
+            "Many people travel in July."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "juillet",
+          "feminine": "",
+          "masculinePlural": "juillets",
+          "femininePlural": ""
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Quand est ton anniversaire?"
+        ],
+        [
+          "B",
+          "Mon anniversaire est le 15 avril."
+        ],
+        [
+          "A",
+          "C'est bientôt! Et ta mère?"
+        ],
+        [
+          "B",
+          "Ma mère a un anniversaire en juillet."
+        ],
+        [
+          "A",
+          "Quel jour en juillet?"
+        ],
+        [
+          "B",
+          "Le 20 juillet. Et toi?"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Quel est la date de l'anniversaire de B?",
+          "options": [
+            "Le 15 avril",
+            "Le 20 juillet",
+            "Le 15 janvier"
+          ],
+          "correctAnswer": "Le 15 avril"
+        },
+        {
+          "question": "Quand est l'anniversaire de la mère de B?",
+          "options": [
+            "En mars",
+            "En juillet",
+            "En avril"
+          ],
+          "correctAnswer": "En juillet"
+        },
+        {
+          "question": "Quel jour en juillet?",
+          "options": [
+            "Le 15",
+            "Le 20",
+            "Le 25"
+          ],
+          "correctAnswer": "Le 20"
+        }
+      ],
+      "summary": "Two people discuss their birthdays. One person's birthday is April 15th, and their mother's birthday is July 20th."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Dis-moi ta date de naissance, s'il te plaît."
+        ],
+        [
+          "B",
+          "Je suis né le 5 février 2005."
+        ],
+        [
+          "A",
+          "Février! C'est un mois spécial. Et tes parents?"
+        ],
+        [
+          "B",
+          "Ma mère est née le premier mars, et mon père le 18 janvier."
+        ],
+        [
+          "A",
+          "Janvier et mars! Et tes frères et sœurs?"
+        ],
+        [
+          "B",
+          "Mon frère est né en avril, et ma sœur en juin."
+        ],
+        [
+          "A",
+          "Vous avez tous des dates différentes!"
+        ],
+        [
+          "B",
+          "Oui, c'est vrai! Les anniversaires sont répartis toute l'année."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Quand B est-il né?",
+          "options": [
+            "Le 5 janvier 2005",
+            "Le 5 février 2005",
+            "Le 15 février 2005",
+            "Le 5 mars 2005"
+          ],
+          "correctAnswer": "Le 5 février 2005"
+        },
+        {
+          "question": "Quand la mère de B est-elle née?",
+          "options": [
+            "Le 1er janvier",
+            "Le 1er mars",
+            "Le 1er février",
+            "Le 1er avril"
+          ],
+          "correctAnswer": "Le 1er mars"
+        },
+        {
+          "question": "En quel mois le frère de B est-il né?",
+          "options": [
+            "En mars",
+            "En avril",
+            "En janvier",
+            "En février"
+          ],
+          "correctAnswer": "En avril"
+        },
+        {
+          "question": "Quand le père de B est-il né?",
+          "options": [
+            "Le 18 janvier",
+            "Le 18 février",
+            "Le 18 mars",
+            "Le 18 avril"
+          ],
+          "correctAnswer": "Le 18 janvier"
+        }
+      ],
+      "summary": "B discusses his birth date (February 5, 2005) and those of his family members: mother (March 1st), father (January 18th), brother (April), and sister (June)."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Dates (le + number + month + year)",
+      "explanation": "In French, dates are expressed using the structure: le + cardinal number + month + year. For example, le 5 janvier (January 5th), le 15 juillet (July 15th). The only exception is the first day of the month: use 'le premier' instead of 'le un'. For example, le premier mars (March 1st). Note that months are never capitalized in French and do not change form.",
+      "examples": [
+        {
+          "french": "Le 5 janvier 2024",
+          "english": "January 5, 2024"
+        },
+        {
+          "french": "Le premier mars",
+          "english": "March 1st"
+        },
+        {
+          "french": "Le 15 juillet",
+          "english": "July 15th"
+        },
+        {
+          "french": "Mon anniversaire est le 20 février.",
+          "english": "My birthday is February 20th."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la date? (5 avril)",
+          "options": [
+            "Le 5 avril",
+            "Le cinquième avril",
+            "Le 5e avril"
+          ],
+          "correctAnswer": "Le 5 avril",
+          "explanation": "Dates use the cardinal number (5) with 'le' and the month name."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Mon anniversaire est ___ 1er mars.",
+          "options": [
+            "le",
+            "du",
+            "au"
+          ],
+          "correctAnswer": "le",
+          "explanation": "Use 'le' before the date. For the first, use 'le premier'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complète: ___ 15 janvier 2024",
+          "options": [
+            "Le",
+            "La",
+            "L'"
+          ],
+          "correctAnswer": "Le",
+          "explanation": "Days and dates use 'le'. Months are masculine."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Son anniversaire est le 1er ___ (June)",
+          "options": [
+            "juin",
+            "Juin",
+            "juing"
+          ],
+          "correctAnswer": "juin",
+          "explanation": "Months are never capitalized in French and are lowercase."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Comment dit-on March 1st?",
+          "options": [
+            "Le 1 mars",
+            "Le un mars",
+            "Le premier mars"
+          ],
+          "correctAnswer": "Le premier mars",
+          "explanation": "For the 1st of any month, use 'le premier' instead of 'le un'."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Dates — le + number + month, le premier, Year Pronunciation & Formal Dates",
+      "explanation": "Dates in French follow the structure le + cardinal number + month. For the 1st day: use 'le premier' (not 'le un'). Years are typically pronounced as: 'deux mille vingt-quatre' (2024) or 'deux mille dix-sept' (2017). When writing formal dates, the structure is: jour + date + month + year (e.g., 'vendredi, le 15 juillet 2024'). Months never capitalize and never pluralize. In formal French, the preposition 'en' precedes the month when discussing events happening in that month (e.g., 'en mars', 'en juillet').",
+      "examples": [
+        {
+          "french": "Le 5 janvier 2024",
+          "english": "January 5, 2024"
+        },
+        {
+          "french": "Le premier mars",
+          "english": "March 1st"
+        },
+        {
+          "french": "Lundi, le 20 avril 2026",
+          "english": "Monday, April 20, 2026"
+        },
+        {
+          "french": "Je suis né le 18 juillet 2005.",
+          "english": "I was born on July 18, 2005."
+        },
+        {
+          "french": "L'événement est en mai.",
+          "english": "The event is in May."
+        },
+        {
+          "french": "Son anniversaire tombe le premier février.",
+          "english": "Her birthday falls on February 1st."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la date? (5 avril 2026)",
+          "options": [
+            "Le 5 avril 2026",
+            "Le 05/04/2026",
+            "Le cinquième avril"
+          ],
+          "correctAnswer": "Le 5 avril 2026",
+          "explanation": "Use cardinal numbers, not ordinals, and spell out the year."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Mon anniversaire est le ___ (1st) janvier.",
+          "options": [
+            "1",
+            "un",
+            "premier"
+          ],
+          "correctAnswer": "premier",
+          "explanation": "For the 1st day of the month, always use 'premier'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Comment prononce-t-on 2024?",
+          "options": [
+            "Vingt-vingt-quatre",
+            "Deux mille vingt-quatre",
+            "Deux-zéro-deux-quatre"
+          ],
+          "correctAnswer": "Deux mille vingt-quatre",
+          "explanation": "Years after 2000 are pronounced 'deux mille' + the remaining number."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Écris la date formelle: Friday, July 15, 2026 ___",
+          "options": [
+            "Vendredi, le 15 juillet 2026",
+            "Le vendredi 15 juillet 2026",
+            "Vendredi 15/07/2026"
+          ],
+          "correctAnswer": "Vendredi, le 15 juillet 2026",
+          "explanation": "Formal dates: day + comma + 'le' + date + month + year."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quand est Pâques? (Easter is in April)",
+          "options": [
+            "Pâques est avril",
+            "Pâques est en avril",
+            "Pâques est le avril"
+          ],
+          "correctAnswer": "Pâques est en avril",
+          "explanation": "When stating events happen in a month, use 'en' + month."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Les vacances d'été commencent ___ juin.",
+          "options": [
+            "le",
+            "en",
+            "du"
+          ],
+          "correctAnswer": "en",
+          "explanation": "Use 'en' when saying events happen in a specific month."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complète: Elle est née le ___ février 2000.",
+          "options": [
+            "1er",
+            "un",
+            "première"
+          ],
+          "correctAnswer": "1er",
+          "explanation": "For the 1st, use '1er' or write out 'premier'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Son anniversaire est ___ 30 décembre.",
+          "options": [
+            "le",
+            "en",
+            "du"
+          ],
+          "correctAnswer": "le",
+          "explanation": "Use 'le' before a specific date."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel mois vient après avril?",
+        "options": [
+          "Mars",
+          "Mai",
+          "Juin"
+        ],
+        "correctAnswer": "Mai",
+        "explanation": "The months of the year are sequential: March, April, May, June, July."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Mon anniversaire est le 1er ___. (Fill with January)",
+        "options": [
+          "janvier",
+          "Janvier",
+          "janvier!"
+        ],
+        "correctAnswer": "janvier",
+        "explanation": "Months are lowercase in French."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "En quel mois commence l'été?",
+        "options": [
+          "En mai",
+          "En juin",
+          "En juillet"
+        ],
+        "correctAnswer": "En juin",
+        "explanation": "Summer (l'été) begins in June (juin) in the Northern Hemisphere."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Février a ___ jours.",
+        "options": [
+          "28",
+          "29",
+          "30"
+        ],
+        "correctAnswer": "28",
+        "explanation": "February typically has 28 days (29 in leap years)."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel mois a 31 jours?",
+        "options": [
+          "Février",
+          "Avril",
+          "Juillet"
+        ],
+        "correctAnswer": "Juillet",
+        "explanation": "July (juillet) has 31 days. February has 28, and April has 30."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Comment écris-tu le 1er avril 2026?",
+        "options": [
+          "Le 1 avril 2026",
+          "Le premier avril 2026",
+          "Le 1er avril 2026",
+          "April 1st 2026"
+        ],
+        "correctAnswer": "Le premier avril 2026",
+        "explanation": "For the 1st, write either '1er' or spell out 'premier'."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il est né le 20 février ___. (year 2005)",
+        "options": [
+          "2005",
+          "deux mille cinq",
+          "deux-mille-cinq"
+        ],
+        "correctAnswer": "2005",
+        "explanation": "Years can be written as numerals (2005) or pronounced 'deux mille cinq'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pâques tombe généralement en ___.",
+        "options": [
+          "mars",
+          "avril",
+          "mai",
+          "février"
+        ],
+        "correctAnswer": "avril",
+        "explanation": "Easter (Pâques) typically falls in April."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "La fête du travail est le 1er ___ (May)",
+        "options": [
+          "mai",
+          "Mai",
+          "may"
+        ],
+        "correctAnswer": "mai",
+        "explanation": "Labor Day in France is May 1st. Months are lowercase."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment dit-on 'May 15, 2026' formellement?",
+        "options": [
+          "Le 15 mai 2026",
+          "15 mai 2026",
+          "Mai 15, 2026",
+          "Quinze mai deux mille vingt-six"
+        ],
+        "correctAnswer": "Le 15 mai 2026",
+        "explanation": "Formal dates use 'le' + number + month + year."
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Give your birthday and ask about someone else's.",
+      "keyPhrases": [
+        "Mon anniversaire est...",
+        "Et toi?",
+        "Quand est ton anniversaire?",
+        "C'est en..."
+      ],
+      "modelAnswer": "Mon anniversaire est le 15 avril. Et toi, quand est ton anniversaire? Est-ce que c'est en janvier ou en juillet?",
+      "modelAnswerExplanation": "This response gives a specific date, asks the other person about their birthday, and offers two month options to guide the conversation.",
+      "tip": "Always use 'le' + date format when giving your birthday. Use 'en' + month when mentioning a month without a specific date."
+    },
+    "advanced": {
+      "scenario": "Give your birth date (with year) and ask someone about their family members' birthdays.",
+      "keyPhrases": [
+        "Je suis né(e) le...",
+        "Ma mère/père est né(e)...",
+        "Et toi, quand es-tu né(e)?",
+        "Tes parents?"
+      ],
+      "modelAnswer": "Je suis né(e) le 15 avril 2005. Ma mère est née le premier mars, et mon père le 18 janvier 1970. Et toi, quand es-tu né(e)? Tes parents, quand sont-ils nés?",
+      "modelAnswerExplanation": "This response includes a birth year, mentions family members' birthdays with years, and asks follow-up questions about the other person and their family.",
+      "tip": "Use 'le premier' for the 1st day. Include years in the format 'le [date] [month] [year]'. Use past tense forms like 'est né(e)' (was born) for birthdays."
+    }
+  }
+}

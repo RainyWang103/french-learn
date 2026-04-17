@@ -1,0 +1,550 @@
+{
+  "day": 71,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Going Out at Night",
+  "vocab": {
+    "standard": [
+      {
+        "word": "la sortie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "sor-tee",
+        "meaning": "exit / outing",
+        "examples": [
+          ["La sortie du cinéma est à droite.", "The cinema exit is on the right."],
+          ["C'est une belle sortie avec des amis.", "It is a nice outing with friends."],
+          ["Où est la sortie de secours?", "Where is the emergency exit?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "sortie",
+          "masculinePlural": "",
+          "femininePlural": "sorties"
+        }
+      },
+      {
+        "word": "le bar",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "bar",
+        "meaning": "bar",
+        "examples": [
+          ["Le bar est ouvert le soir.", "The bar is open in the evening."],
+          ["Je vais au bar avec mon ami.", "I go to the bar with my friend."],
+          ["Quel bar préfères-tu?", "Which bar do you prefer?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bar",
+          "feminine": "",
+          "masculinePlural": "bars",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la boîte",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "bwat",
+        "meaning": "nightclub (la boîte de nuit)",
+        "notes": "la boîte de nuit = nightclub",
+        "examples": [
+          ["On va à la boîte samedi soir.", "We go to the nightclub Saturday night."],
+          ["La boîte ferme à trois heures du matin.", "The nightclub closes at 3 a.m."],
+          ["Tu aimes danser à la boîte?", "Do you like dancing at the nightclub?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "boîte",
+          "masculinePlural": "",
+          "femininePlural": "boîtes"
+        }
+      },
+      {
+        "word": "le ticket",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "tee-kay",
+        "meaning": "ticket",
+        "examples": [
+          ["Le ticket d'entrée coûte 10 euros.", "The entry ticket costs 10 euros."],
+          ["As-tu un ticket pour la sortie?", "Do you have a ticket for the outing?"],
+          ["Je dois acheter un ticket.", "I have to buy a ticket."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ticket",
+          "feminine": "",
+          "masculinePlural": "tickets",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la soirée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "swah-ray",
+        "meaning": "evening / party",
+        "examples": [
+          ["Bonne soirée!", "Have a good evening!"],
+          ["C'est une belle soirée.", "It is a nice evening."],
+          ["On organise une soirée vendredi.", "We are organizing a party Friday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "soirée",
+          "masculinePlural": "",
+          "femininePlural": "soirées"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "la sortie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "sor-tee",
+        "meaning": "exit / outing",
+        "examples": [
+          ["La sortie du cinéma est à droite.", "The cinema exit is on the right."],
+          ["C'est une belle sortie avec des amis.", "It is a nice outing with friends."],
+          ["Où est la sortie de secours?", "Where is the emergency exit?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "sortie",
+          "masculinePlural": "",
+          "femininePlural": "sorties"
+        }
+      },
+      {
+        "word": "le bar",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "bar",
+        "meaning": "bar",
+        "examples": [
+          ["Le bar est ouvert le soir.", "The bar is open in the evening."],
+          ["Je vais au bar avec mon ami.", "I go to the bar with my friend."],
+          ["Quel bar préfères-tu?", "Which bar do you prefer?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bar",
+          "feminine": "",
+          "masculinePlural": "bars",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la boîte",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "bwat",
+        "meaning": "nightclub (la boîte de nuit)",
+        "notes": "la boîte de nuit = nightclub",
+        "examples": [
+          ["On va à la boîte samedi soir.", "We go to the nightclub Saturday night."],
+          ["La boîte ferme à trois heures du matin.", "The nightclub closes at 3 a.m."],
+          ["Tu aimes danser à la boîte?", "Do you like dancing at the nightclub?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "boîte",
+          "masculinePlural": "",
+          "femininePlural": "boîtes"
+        }
+      },
+      {
+        "word": "le pub",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "pub",
+        "meaning": "pub",
+        "examples": [
+          ["Le pub est près d'ici.", "The pub is near here."],
+          ["On boit une bière au pub.", "We drink a beer at the pub."],
+          ["Quel pub aimes-tu?", "Which pub do you like?"]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "pub",
+          "feminine": "",
+          "masculinePlural": "pubs",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le ticket",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "tee-kay",
+        "meaning": "ticket",
+        "examples": [
+          ["Le ticket d'entrée coûte 10 euros.", "The entry ticket costs 10 euros."],
+          ["As-tu un ticket pour la sortie?", "Do you have a ticket for the outing?"],
+          ["Je dois acheter un ticket.", "I have to buy a ticket."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "ticket",
+          "feminine": "",
+          "masculinePlural": "tickets",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la soirée",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "swah-ray",
+        "meaning": "evening / party",
+        "examples": [
+          ["Bonne soirée!", "Have a good evening!"],
+          ["C'est une belle soirée.", "It is a nice evening."],
+          ["On organise une soirée vendredi.", "We are organizing a party Friday."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "soirée",
+          "masculinePlural": "",
+          "femininePlural": "soirées"
+        }
+      },
+      {
+        "word": "danser",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "dahn-say",
+        "meaning": "to dance",
+        "examples": [
+          ["Je danse à la boîte.", "I dance at the nightclub."],
+          ["Tu danses bien.", "You dance well."],
+          ["Ils dansent toute la nuit.", "They dance all night."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je danse",
+          "tu": "tu danses",
+          "il": "il/elle/on danse",
+          "nous": "nous dansons",
+          "vous": "vous dansez",
+          "ils": "ils/elles dansent"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Tu veux sortir vendredi soir?"],
+        ["B", "Oui! Où tu veux aller?"],
+        ["A", "On peut aller au bar ou à la boîte."],
+        ["B", "Je préfère la boîte pour danser."],
+        ["A", "D'accord! On y va à quelle heure?"],
+        ["B", "À neuf heures, ça va?"]
+      ],
+      "questions": [
+        {
+          "question": "Où est-ce qu'ils veulent aller?",
+          "options": ["Au bar", "À la boîte", "Au cinéma"],
+          "correctAnswer": "À la boîte"
+        },
+        {
+          "question": "Qu'est-ce qu'on peut faire à la boîte?",
+          "options": ["Danser", "Manger", "Lire"],
+          "correctAnswer": "Danser"
+        },
+        {
+          "question": "À quelle heure vont-ils à la boîte?",
+          "options": ["À huit heures", "À neuf heures", "À dix heures"],
+          "correctAnswer": "À neuf heures"
+        }
+      ],
+      "summary": "Two friends plan a night out on Friday, choosing between a bar and a nightclub, finally deciding to go to the nightclub to dance at 9 p.m."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Tu veux sortir vendredi soir avec moi?"],
+        ["B", "Avec plaisir! Qu'est-ce que tu proposes?"],
+        ["A", "On peut aller au bar, au pub, ou à la boîte."],
+        ["B", "Le bar, c'est trop calme pour moi. J'aime danser!"],
+        ["A", "Alors la boîte? Ou tu préfères le pub?"],
+        ["B", "La boîte, c'est parfait! On y va à quelle heure?"],
+        ["A", "Vers neuf heures, d'accord?"],
+        ["B", "Oui, super! Je vais apprendre à danser!"]
+      ],
+      "questions": [
+        {
+          "question": "Pourquoi est-ce que B n'aime pas le bar?",
+          "options": ["C'est trop cher", "C'est trop calme", "C'est fermé", "C'est loin"],
+          "correctAnswer": "C'est trop calme"
+        },
+        {
+          "question": "Qu'est-ce que B aime faire à la boîte?",
+          "options": ["Manger", "Boire du café", "Danser", "Parler avec des amis"],
+          "correctAnswer": "Danser"
+        },
+        {
+          "question": "À quelle heure vont-ils à la boîte?",
+          "options": ["À sept heures", "À huit heures", "À neuf heures", "À dix heures"],
+          "correctAnswer": "À neuf heures"
+        },
+        {
+          "question": "Qu'est-ce que B va faire à la boîte?",
+          "options": ["Danser", "Apprendre à danser", "Boire du vin", "Manger une pizza"],
+          "correctAnswer": "Apprendre à danser"
+        }
+      ],
+      "summary": "Two friends discuss going out Friday night; they compare a bar, pub, and nightclub before deciding on the nightclub at 9 p.m. because one friend wants to dance."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Irregular -IR Verbs (sortir, partir, dormir, sentir)",
+      "explanation": "Some -IR verbs are irregular. They drop the last three letters of the infinitive stem for singular forms (je, tu, il/elle/on) but keep them for plural forms (nous, vous, ils/elles). The verbs sortir (to go out), partir (to leave), dormir (to sleep), and sentir (to feel) all follow this pattern.",
+      "examples": [
+        {
+          "french": "Je sors à neuf heures.",
+          "english": "I go out at 9 p.m."
+        },
+        {
+          "french": "Tu pars demain?",
+          "english": "Are you leaving tomorrow?"
+        },
+        {
+          "french": "Il dort à 22h.",
+          "english": "He sleeps at 10 p.m."
+        },
+        {
+          "french": "Nous sentons bon.",
+          "english": "We smell good."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Je ___ à la boîte vendredi.",
+          "options": ["sors", "sorten", "sora"],
+          "correctAnswer": "sors",
+          "explanation": "Je sors — for 'I', use the singular stem 'sor-' without the final -t."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ demain matin?",
+          "options": ["pars", "part", "partez"],
+          "correctAnswer": "pars",
+          "explanation": "Tu pars — for 'you (informal)', use 'par-' + -s."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il ___ bien.",
+          "options": ["dorm", "dort", "dorms"],
+          "correctAnswer": "dort",
+          "explanation": "Il dort — for 'he', use 'dor-' + -t."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ à neuf heures.",
+          "options": ["sortons", "sortent", "sorten"],
+          "correctAnswer": "sortons",
+          "explanation": "Nous sortons — for 'we', keep the full stem 'sort-' + -ons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Vous ___ la rose?",
+          "options": ["senten", "sentez", "sentent"],
+          "correctAnswer": "sentez",
+          "explanation": "Vous sentez — for 'you (formal/plural)', keep 'sent-' + -ez."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Irregular -IR Verbs — sortir, partir, dormir, sentir + Full Patterns",
+      "explanation": "Irregular -IR verbs (sortir, partir, dormir, sentir) drop the final three letters of the infinitive stem in singular forms (je, tu, il/elle/on) but retain them in plural forms (nous, vous, ils/elles). This creates a contrast: je sors vs nous sortons. Understanding this pattern helps conjugate all four verbs correctly and recognizes that other -IR verbs may have different irregular patterns. Compounds like ressentir (to feel/experience) and repartir (to leave again) follow the same pattern.",
+      "examples": [
+        {
+          "french": "Je sors à neuf heures avec mon ami.",
+          "english": "I go out at 9 p.m. with my friend."
+        },
+        {
+          "french": "Tu pars demain matin ou ce soir?",
+          "english": "Are you leaving tomorrow morning or tonight?"
+        },
+        {
+          "french": "Il dort bien quand il sort le soir.",
+          "english": "He sleeps well when he goes out in the evening."
+        },
+        {
+          "french": "Nous sentons la rose dans le jardin.",
+          "english": "We smell the rose in the garden."
+        },
+        {
+          "french": "Vous partez à quelle heure?",
+          "english": "At what time are you leaving?"
+        },
+        {
+          "french": "Ils sortent tous les vendredis.",
+          "english": "They go out every Friday."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Je ___ à la boîte vendredi.",
+          "options": ["sors", "sorten", "sortens"],
+          "correctAnswer": "sors",
+          "explanation": "Je sors — singular form uses 'sor-' without -s at the end."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ ce weekend?",
+          "options": ["pars", "part", "partez"],
+          "correctAnswer": "pars",
+          "explanation": "Tu pars — informal 'you' singular uses 'par-' + -s."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Il ___ à dix heures.",
+          "options": ["dort", "dorm", "dormons"],
+          "correctAnswer": "dort",
+          "explanation": "Il dort — singular 'he' uses 'dor-' + -t."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "On ___ une fleur?",
+          "options": ["sentent", "sent", "sentons"],
+          "correctAnswer": "sent",
+          "explanation": "On sent — 'on' (one/we) is singular, so use 'sent' (sen- + -t)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Nous ___ à neuf heures.",
+          "options": ["sorten", "sortons", "sortez"],
+          "correctAnswer": "sortons",
+          "explanation": "Nous sortons — plural 'we' keeps the full stem 'sort-' + -ons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ demain?",
+          "options": ["partez", "pars", "partent"],
+          "correctAnswer": "partez",
+          "explanation": "Vous partez — formal/plural 'you' keeps 'part-' + -ez."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Ils ___ tous les soirs.",
+          "options": ["dorment", "dorm", "dort"],
+          "correctAnswer": "dorment",
+          "explanation": "Ils dorment — plural 'they' keeps the full stem 'dorm-' + -ent."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elles ___ la rose dans le jardin.",
+          "options": ["sentent", "sent", "senten"],
+          "correctAnswer": "sentent",
+          "explanation": "Elles sentent — plural 'they (f)' keeps 'sent-' + -ent."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Où est-ce qu'on va pour danser?",
+        "options": ["Au bar", "À la boîte", "À la bibliothèque"],
+        "correctAnswer": "À la boîte",
+        "explanation": "A nightclub (la boîte de nuit) is the place to dance."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ à neuf heures vendredi.",
+        "options": ["sors", "sortez", "sortent"],
+        "correctAnswer": "sors",
+        "explanation": "Je sors — the verb sortir (to go out) in the 'I' form."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est un synonyme de 'boîte'?",
+        "options": ["Bar", "Boîte de nuit", "Restaurant"],
+        "correctAnswer": "Boîte de nuit",
+        "explanation": "La boîte is short for la boîte de nuit (nightclub)."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Tu ___ demain matin?",
+        "options": ["pars", "partez", "partent"],
+        "correctAnswer": "pars",
+        "explanation": "Tu pars — the verb partir (to leave) in the 'you' form."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "À quelle heure ferme la boîte?",
+        "options": ["À minuit", "À deux heures du matin", "À trois heures du matin"],
+        "correctAnswer": "À trois heures du matin",
+        "explanation": "Most nightclubs close around 3 a.m."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi préfères-tu la boîte au bar?",
+        "options": ["Pour boire du café", "Pour danser", "Pour lire", "Pour manger une pizza"],
+        "correctAnswer": "Pour danser",
+        "explanation": "A nightclub is the best place to dance; a bar is typically quieter."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ à la boîte tous les vendredis.",
+        "options": ["sortons", "sorten", "sors"],
+        "correctAnswer": "sortons",
+        "explanation": "Nous sortons — the verb sortir (to go out) in the 'we' form."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel verbe signifie 'to leave'?",
+        "options": ["Sortir", "Partir", "Danser", "Sentir"],
+        "correctAnswer": "Partir",
+        "explanation": "Partir means to leave; sortir means to go out."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Il ___ bien quand il danse.",
+        "options": ["sentent", "sent", "senten"],
+        "correctAnswer": "sent",
+        "explanation": "Il sent — the verb sentir (to feel/smell) in the singular 'he' form."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Vous ___ à quelle heure la boîte?",
+        "options": ["partez pour", "partent pour", "pars pour", "partiez pour"],
+        "correctAnswer": "partez pour",
+        "explanation": "Vous partez pour — 'you (formal)' go to the nightclub at what time."
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Invite a friend out and agree on a plan for Saturday night.",
+      "keyPhrases": ["Tu veux sortir?", "On peut aller...", "À quelle heure?", "D'accord!"],
+      "modelAnswer": "Tu veux sortir samedi soir? On peut aller à la boîte ou au bar. Je préfère la boîte pour danser. À neuf heures, ça va?",
+      "modelAnswerExplanation": "This response invites the friend, gives two options, expresses a preference, and suggests a time.",
+      "tip": "Use 'Tu veux...' for invitations and 'On peut...' to suggest alternatives. Always include a time."
+    },
+    "advanced": {
+      "scenario": "Invite a friend out and agree on a plan for Saturday night, including details about what you'll do.",
+      "keyPhrases": ["Tu veux sortir?", "On pourrait aller...", "Pourquoi?", "À quelle heure?", "D'accord!"],
+      "modelAnswer": "Tu veux sortir samedi soir avec moi? On pourrait aller à la boîte ou au pub. Je préfère la boîte parce que j'aime danser. On y va vers neuf heures? Ça te convient?",
+      "modelAnswerExplanation": "This response includes an invitation with context, gives alternatives with reasoning, and confirms the time with the other person.",
+      "tip": "Use 'Tu veux...' and 'On pourrait...' for more flexible invitations. Provide reasons for your preferences and confirm plans with 'Ça te convient?'"
+    }
+  }
+}
