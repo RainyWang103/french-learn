@@ -14,7 +14,8 @@
         "notes": "Commonly used to describe nationality and language",
         "examples": [
           ["Je suis français.", "I am French."],
-          ["La langue française est belle.", "The French language is beautiful."]
+          ["La langue française est belle.", "The French language is beautiful."],
+          ["Mon professeur est français.", "My teacher is French."]
         ],
         "special": "nationality & language",
         "forms": {
@@ -33,7 +34,8 @@
         "notes": "Refers to England and the English language",
         "examples": [
           ["Elle parle anglais couramment.", "She speaks English fluently."],
-          ["Cet homme est anglais.", "This man is English."]
+          ["Cet homme est anglais.", "This man is English."],
+          ["Mon ami habite en Angleterre. Il est anglais.", "My friend lives in England. He is English."]
         ],
         "special": "nationality & language",
         "forms": {
@@ -52,7 +54,8 @@
         "notes": "Describes someone or something from the United States",
         "examples": [
           ["Mon ami est américain.", "My friend is American."],
-          ["Les films américains sont populaires.", "American films are popular."]
+          ["Les films américains sont populaires.", "American films are popular."],
+          ["Elle vient des États-Unis. Elle est américaine.", "She comes from the United States. She is American."]
         ],
         "special": "nationality",
         "forms": {
@@ -71,7 +74,8 @@
         "notes": "Feminine noun, plural: les langues",
         "examples": [
           ["Quelle langue parlez-vous?", "What language do you speak?"],
-          ["La langue française est riche.", "The French language is rich."]
+          ["La langue française est riche.", "The French language is rich."],
+          ["Je parle deux langues.", "I speak two languages."]
         ],
         "special": "feminine noun",
         "forms": {
@@ -90,7 +94,8 @@
         "notes": "Masculine noun, s is silent, plural form is identical (les pays)",
         "examples": [
           ["De quel pays venez-vous?", "What country are you from?"],
-          ["La France est un beau pays.", "France is a beautiful country."]
+          ["La France est un beau pays.", "France is a beautiful country."],
+          ["Mon pays est magnifique.", "My country is magnificent."]
         ],
         "special": "masculine noun; plural identical to singular",
         "forms": {
@@ -111,7 +116,8 @@
         "notes": "Commonly used to describe nationality and language",
         "examples": [
           ["Je suis français.", "I am French."],
-          ["La langue française est belle.", "The French language is beautiful."]
+          ["La langue française est belle.", "The French language is beautiful."],
+          ["Le vin français est réputé dans le monde entier.", "French wine is renowned throughout the world."]
         ],
         "special": "nationality & language",
         "forms": {
@@ -130,7 +136,8 @@
         "notes": "Refers to England and the English language",
         "examples": [
           ["Elle parle anglais couramment.", "She speaks English fluently."],
-          ["Cet homme est anglais.", "This man is English."]
+          ["Cet homme est anglais.", "This man is English."],
+          ["Les traditions anglaises sont fascinantes.", "English traditions are fascinating."]
         ],
         "special": "nationality & language",
         "forms": {
@@ -149,7 +156,8 @@
         "notes": "Describes someone or something from the United States",
         "examples": [
           ["Mon ami est américain.", "My friend is American."],
-          ["Les films américains sont populaires.", "American films are popular."]
+          ["Les films américains sont populaires.", "American films are popular."],
+          ["La cuisine américaine existe sous diverses formes.", "American cuisine exists in various forms."]
         ],
         "special": "nationality",
         "forms": {
@@ -168,7 +176,8 @@
         "notes": "Feminine noun, plural: les langues",
         "examples": [
           ["Quelle langue parlez-vous?", "What language do you speak?"],
-          ["La langue française est riche.", "The French language is rich."]
+          ["La langue française est riche.", "The French language is rich."],
+          ["Apprendre une nouvelle langue exige de la patience.", "Learning a new language requires patience."]
         ],
         "special": "feminine noun",
         "forms": {
@@ -187,7 +196,8 @@
         "notes": "Masculine noun, s is silent, plural form is identical (les pays)",
         "examples": [
           ["De quel pays venez-vous?", "What country are you from?"],
-          ["La France est un beau pays.", "France is a beautiful country."]
+          ["La France est un beau pays.", "France is a beautiful country."],
+          ["Chaque pays a sa propre culture.", "Each country has its own culture."]
         ],
         "special": "masculine noun; plural identical to singular",
         "forms": {
@@ -206,7 +216,8 @@
         "notes": "Describes something from China or the Chinese language",
         "examples": [
           ["Elle parle chinois.", "She speaks Chinese."],
-          ["La culture chinoise est ancienne.", "Chinese culture is ancient."]
+          ["La culture chinoise est ancienne.", "Chinese culture is ancient."],
+          ["Je me intéresse à la philosophie chinoise.", "I am interested in Chinese philosophy."]
         ],
         "special": "nationality & language",
         "forms": {
@@ -225,7 +236,8 @@
         "notes": "Can be adjective (foreign) or noun (a foreigner)",
         "examples": [
           ["Je suis un visiteur étranger.", "I am a foreign visitor."],
-          ["Les étrangers aiment ce restaurant.", "Foreigners love this restaurant."]
+          ["Les étrangers aiment ce restaurant.", "Foreigners love this restaurant."],
+          ["Il vient d'un pays étranger.", "He comes from a foreign country."]
         ],
         "special": "adjective; can also function as noun",
         "forms": {

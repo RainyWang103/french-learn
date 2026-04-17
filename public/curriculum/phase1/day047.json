@@ -20,6 +20,10 @@
           [
             "Il n'y a plus de savon dans la salle de bain.",
             "There is no more soap in the bathroom."
+          ],
+          [
+            "Le savon est dans le placard.",
+            "The soap is in the cupboard."
           ]
         ],
         "special": "Essential hygiene vocabulary",
@@ -45,6 +49,10 @@
           [
             "Ma brosse à dents est rose.",
             "My toothbrush is pink."
+          ],
+          [
+            "Où est ta brosse à dents ?",
+            "Where is your toothbrush?"
           ]
         ],
         "special": "Daily hygiene item",
@@ -70,6 +78,10 @@
           [
             "J'ai acheté un nouveau shampooing.",
             "I bought a new shampoo."
+          ],
+          [
+            "Le shampooing sent bon.",
+            "The shampoo smells good."
           ]
         ],
         "special": "Borrowed word from English",
@@ -95,6 +107,10 @@
           [
             "Elle se lave les cheveux tous les deux jours.",
             "She washes her hair every two days."
+          ],
+          [
+            "Il faut se laver le visage le matin.",
+            "You must wash your face in the morning."
           ]
         ],
         "special": "Core reflexive hygiene verb",
@@ -122,6 +138,10 @@
           [
             "Ce dentifrice a un bon goût.",
             "This toothpaste has a good taste."
+          ],
+          [
+            "Nous avons besoin d'un nouveau dentifrice.",
+            "We need a new toothpaste."
           ]
         ],
         "special": "Daily hygiene item",
@@ -149,6 +169,10 @@
           [
             "Il n'y a plus de savon — il faut en acheter.",
             "There is no more soap — we need to buy some."
+          ],
+          [
+            "Le savon naturel est bon pour la peau.",
+            "Natural soap is good for the skin."
           ]
         ],
         "special": "Essential hygiene vocabulary",
@@ -174,6 +198,10 @@
           [
             "J'ai oublié ma brosse à dents à l'hôtel.",
             "I forgot my toothbrush at the hotel."
+          ],
+          [
+            "As-tu une nouvelle brosse à dents ?",
+            "Do you have a new toothbrush?"
           ]
         ],
         "special": "Daily hygiene item",
@@ -199,6 +227,10 @@
           [
             "Ce shampooing est doux pour les cheveux fragiles.",
             "This shampoo is gentle on fragile hair."
+          ],
+          [
+            "Quel shampooing recommandes-tu ?",
+            "Which shampoo do you recommend?"
           ]
         ],
         "special": "Borrowed word from English",
@@ -224,6 +256,10 @@
           [
             "Il ne s'est pas lavé le visage avant de sortir.",
             "He didn't wash his face before going out."
+          ],
+          [
+            "Ils se lavent toujours avant le dîner.",
+            "They always wash themselves before dinner."
           ]
         ],
         "special": "Core reflexive hygiene verb",
@@ -251,6 +287,10 @@
           [
             "Ce dentifrice blanchit les dents.",
             "This toothpaste whitens teeth."
+          ],
+          [
+            "Tu as oublié ton dentifrice à la maison.",
+            "You forgot your toothpaste at home."
           ]
         ],
         "special": "Daily hygiene item",
@@ -276,6 +316,10 @@
           [
             "Il faut mettre de la crème solaire avant d'aller à la plage.",
             "You should put sunscreen on before going to the beach."
+          ],
+          [
+            "Cette crème pour les mains est très hydratante.",
+            "This hand cream is very moisturizing."
           ]
         ],
         "special": "Common in skincare routines",
@@ -301,6 +345,10 @@
           [
             "Je ne me maquille pas tous les jours.",
             "I don't put on make-up every day."
+          ],
+          [
+            "Tu t'es maquillée pour la fête ?",
+            "Did you put on make-up for the party?"
           ]
         ],
         "special": "Common in morning routine descriptions",

@@ -26,6 +26,10 @@
           [
             "La cuisine est petite.",
             "The kitchen is small."
+          ],
+          [
+            "Nous aimons la cuisine.",
+            "We love the kitchen."
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Le lit est dans la chambre.",
             "The bed is in the bedroom."
+          ],
+          [
+            "Je dors dans ma chambre.",
+            "I sleep in my bedroom."
           ]
         ],
         "special": ""
@@ -75,6 +83,10 @@
           [
             "La table est dans la cuisine.",
             "The table is in the kitchen."
+          ],
+          [
+            "Tu es à la table.",
+            "You are at the table."
           ]
         ],
         "special": ""
@@ -99,6 +111,10 @@
           [
             "La chaise est devant la table.",
             "The chair is in front of the table."
+          ],
+          [
+            "Je m'assieds sur la chaise.",
+            "I sit on the chair."
           ]
         ],
         "special": ""
@@ -123,6 +139,10 @@
           [
             "Je regarde par la fenêtre.",
             "I look through the window."
+          ],
+          [
+            "La fenêtre est grande.",
+            "The window is big."
           ]
         ],
         "special": ""
@@ -150,6 +170,10 @@
           [
             "La cuisine est petite.",
             "The kitchen is small."
+          ],
+          [
+            "J'aime faire la cuisine.",
+            "I like to cook."
           ]
         ],
         "special": ""
@@ -175,6 +199,10 @@
           [
             "Le lit est dans la chambre.",
             "The bed is in the bedroom."
+          ],
+          [
+            "La chambre est confortable.",
+            "The bedroom is comfortable."
           ]
         ],
         "special": ""
@@ -199,6 +227,10 @@
           [
             "La table est dans la cuisine.",
             "The table is in the kitchen."
+          ],
+          [
+            "La table est belle.",
+            "The table is beautiful."
           ]
         ],
         "special": ""
@@ -223,6 +255,10 @@
           [
             "La chaise est devant la table.",
             "The chair is in front of the table."
+          ],
+          [
+            "La chaise est vieille.",
+            "The chair is old."
           ]
         ],
         "special": ""
@@ -247,6 +283,10 @@
           [
             "Je regarde par la fenêtre.",
             "I look through the window."
+          ],
+          [
+            "Il y a une fenêtre dans la chambre.",
+            "There is a window in the bedroom."
           ]
         ],
         "special": ""
@@ -271,6 +311,10 @@
           [
             "Nous sommes dans le salon.",
             "We are in the living room."
+          ],
+          [
+            "Le salon est grand.",
+            "The living room is big."
           ]
         ],
         "special": ""
@@ -295,6 +339,10 @@
           [
             "Je suis sur le canapé.",
             "I'm on the sofa."
+          ],
+          [
+            "Le canapé est confortable.",
+            "The sofa is comfortable."
           ]
         ],
         "special": ""

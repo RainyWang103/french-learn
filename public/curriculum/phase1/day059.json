@@ -14,7 +14,8 @@
         "notes": "Masculine noun, commonly used for birthdays",
         "examples": [
           ["Joyeux anniversaire!", "Happy birthday!"],
-          ["L'anniversaire de Marie est en janvier.", "Marie's birthday is in January."]
+          ["L'anniversaire de Marie est en janvier.", "Marie's birthday is in January."],
+          ["Quand est ton anniversaire?", "When is your birthday?"]
         ],
         "special": "",
         "forms": {
@@ -33,7 +34,8 @@
         "notes": "Feminine noun, used for all types of celebrations",
         "examples": [
           ["Il y a une fête ce soir.", "There is a party tonight."],
-          ["Allons à la fête!", "Let's go to the celebration!"]
+          ["Allons à la fête!", "Let's go to the celebration!"],
+          ["La fête est amusante.", "The party is fun."]
         ],
         "special": "",
         "forms": {
@@ -52,7 +54,8 @@
         "notes": "Masculine noun, irregular plural cadeaux",
         "examples": [
           ["J'ai un cadeau pour toi.", "I have a gift for you."],
-          ["Les cadeaux sont sur la table.", "The gifts are on the table."]
+          ["Les cadeaux sont sur la table.", "The gifts are on the table."],
+          ["C'est un joli cadeau.", "It is a pretty gift."]
         ],
         "special": "Irregular plural: cadeaux",
         "forms": {
@@ -71,7 +74,8 @@
         "notes": "Masculine noun, irregular plural gâteaux",
         "examples": [
           ["Le gâteau est délicieux.", "The cake is delicious."],
-          ["Coupe le gâteau!", "Cut the cake!"]
+          ["Coupe le gâteau!", "Cut the cake!"],
+          ["Je veux du gâteau.", "I want some cake."]
         ],
         "special": "Irregular plural: gâteaux",
         "forms": {
@@ -90,7 +94,8 @@
         "notes": "Feminine noun",
         "examples": [
           ["Les bougies sont allumées.", "The candles are lit."],
-          ["Souffle les bougies!", "Blow out the candles!"]
+          ["Souffle les bougies!", "Blow out the candles!"],
+          ["Il y a une bougie sur la table.", "There is a candle on the table."]
         ],
         "special": "",
         "forms": {
@@ -111,7 +116,8 @@
         "notes": "Masculine noun, commonly used for birthdays",
         "examples": [
           ["Joyeux anniversaire!", "Happy birthday!"],
-          ["L'anniversaire de Marie est en janvier.", "Marie's birthday is in January."]
+          ["L'anniversaire de Marie est en janvier.", "Marie's birthday is in January."],
+          ["Nous célébrons son anniversaire dimanche.", "We are celebrating her birthday on Sunday."]
         ],
         "special": "",
         "forms": {
@@ -130,7 +136,8 @@
         "notes": "Feminine noun, used for all types of celebrations",
         "examples": [
           ["Il y a une fête ce soir.", "There is a party tonight."],
-          ["Allons à la fête!", "Let's go to the celebration!"]
+          ["Allons à la fête!", "Let's go to the celebration!"],
+          ["Nous organisons une grande fête pour l'anniversaire.", "We are organizing a big celebration for the birthday."]
         ],
         "special": "",
         "forms": {
@@ -149,7 +156,8 @@
         "notes": "Masculine noun, irregular plural cadeaux",
         "examples": [
           ["J'ai un cadeau pour toi.", "I have a gift for you."],
-          ["Les cadeaux sont sur la table.", "The gifts are on the table."]
+          ["Les cadeaux sont sur la table.", "The gifts are on the table."],
+          ["Quel cadeau aimes-tu?", "What gift do you like?"]
         ],
         "special": "Irregular plural: cadeaux",
         "forms": {
@@ -168,7 +176,8 @@
         "notes": "Masculine noun, irregular plural gâteaux",
         "examples": [
           ["Le gâteau est délicieux.", "The cake is delicious."],
-          ["Coupe le gâteau!", "Cut the cake!"]
+          ["Coupe le gâteau!", "Cut the cake!"],
+          ["Elle prépare un gâteau au chocolat.", "She is preparing a chocolate cake."]
         ],
         "special": "Irregular plural: gâteaux",
         "forms": {
@@ -187,7 +196,8 @@
         "notes": "Feminine noun",
         "examples": [
           ["Les bougies sont allumées.", "The candles are lit."],
-          ["Souffle les bougies!", "Blow out the candles!"]
+          ["Souffle les bougies!", "Blow out the candles!"],
+          ["Nous mettons des bougies sur le gâteau.", "We put candles on the cake."]
         ],
         "special": "",
         "forms": {
@@ -206,7 +216,8 @@
         "notes": "Regular -ER verb",
         "examples": [
           ["Nous fêtons l'anniversaire de Paul.", "We are celebrating Paul's birthday."],
-          ["Elle fête ses vingt ans.", "She is celebrating her twentieth birthday."]
+          ["Elle fête ses vingt ans.", "She is celebrating her twentieth birthday."],
+          ["Tu veux fêter avec nous?", "Do you want to celebrate with us?"]
         ],
         "special": "Regular conjugation",
         "forms": {
@@ -227,7 +238,8 @@
         "notes": "Masculine noun",
         "examples": [
           ["Les ballons sont colorés.", "The balloons are colorful."],
-          ["Joue avec le ballon!", "Play with the ball!"]
+          ["Joue avec le ballon!", "Play with the ball!"],
+          ["Il y a des ballons rouges et bleus.", "There are red and blue balloons."]
         ],
         "special": "",
         "forms": {

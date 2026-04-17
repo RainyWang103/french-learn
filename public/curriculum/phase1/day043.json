@@ -20,6 +20,10 @@
           [
             "Je dois aller à la pharmacie avec mon ordonnance.",
             "I need to go to the pharmacy with my prescription."
+          ],
+          [
+            "L'ordonnance coûte dix euros.",
+            "The prescription costs ten euros."
           ]
         ],
         "special": "Essential medical vocabulary — used every time a doctor prescribes medication",
@@ -45,6 +49,10 @@
           [
             "J'ai une consultation avec mon médecin ce matin.",
             "I have an appointment with my doctor this morning."
+          ],
+          [
+            "La consultation est à trois heures.",
+            "The appointment is at three o'clock."
           ]
         ],
         "special": "Used when booking or attending a medical appointment",
@@ -70,6 +78,10 @@
           [
             "Attendez dans la salle d'attente, s'il vous plaît.",
             "Please wait in the waiting room."
+          ],
+          [
+            "Je dois aller à la salle d'attente.",
+            "I need to go to the waiting room."
           ]
         ],
         "special": "Common phrase in any medical or administrative context",
@@ -95,6 +107,10 @@
           [
             "J'ai des symptômes depuis trois jours.",
             "I've had symptoms for three days."
+          ],
+          [
+            "Les symptômes sont importants.",
+            "The symptoms are important."
           ]
         ],
         "special": "Key word when describing illness to a doctor",
@@ -120,6 +136,10 @@
           [
             "Le médecin m'a aidé à guérir.",
             "The doctor helped me recover."
+          ],
+          [
+            "Tu vas guérir très bientôt.",
+            "You will recover very soon."
           ]
         ],
         "special": "Regular -IR verb; useful for talking about recovery",
@@ -149,6 +169,10 @@
           [
             "Sans ordonnance, le pharmacien ne peut pas vous délivrer ce médicament.",
             "Without a prescription, the pharmacist cannot give you this medication."
+          ],
+          [
+            "L'ordonnance doit être présentée à la pharmacie.",
+            "The prescription must be presented to the pharmacy."
           ]
         ],
         "special": "Essential medical vocabulary — used every time a doctor prescribes medication",
@@ -174,6 +198,10 @@
           [
             "Les consultations à domicile sont rares de nos jours.",
             "Home consultations are rare these days."
+          ],
+          [
+            "Chaque consultation dure environ trente minutes.",
+            "Each appointment lasts about thirty minutes."
           ]
         ],
         "special": "Used when booking or attending a medical appointment",
@@ -199,6 +227,10 @@
           [
             "La salle d'attente était pleine de patients.",
             "The waiting room was full of patients."
+          ],
+          [
+            "Il y a des magazines dans la salle d'attente.",
+            "There are magazines in the waiting room."
           ]
         ],
         "special": "Common phrase in any medical or administrative context",
@@ -224,6 +256,10 @@
           [
             "Ces symptômes peuvent indiquer une infection.",
             "These symptoms may indicate an infection."
+          ],
+          [
+            "Les symptômes du patient sont clairs.",
+            "The patient's symptoms are clear."
           ]
         ],
         "special": "Key word when describing illness to a doctor",
@@ -249,6 +285,10 @@
           [
             "Elle a mis longtemps à guérir de sa blessure.",
             "She took a long time to recover from her injury."
+          ],
+          [
+            "Il faut du temps pour guérir complètement.",
+            "It takes time to recover completely."
           ]
         ],
         "special": "Regular -IR verb; useful for talking about recovery",
@@ -276,6 +316,10 @@
           [
             "Elle travaille dans un cabinet de groupe avec trois autres médecins.",
             "She works in a group practice with three other doctors."
+          ],
+          [
+            "Le cabinet est fermé le dimanche.",
+            "The doctor's office is closed on Sunday."
           ]
         ],
         "special": "Also used for lawyer's office (cabinet d'avocat) or dentist's office",
@@ -301,6 +345,10 @@
           [
             "Il a du mal à supporter la douleur.",
             "He has difficulty bearing the pain."
+          ],
+          [
+            "La douleur diminue avec le médicament.",
+            "The pain decreases with the medication."
           ]
         ],
         "special": "Key word in medical contexts; differs from avoir mal (to feel pain)",

@@ -25,6 +25,10 @@
           [
             "La douche est chaude.",
             "The shower is hot."
+          ],
+          [
+            "Après la douche, je suis propre.",
+            "After the shower, I am clean."
           ]
         ],
         "special": ""
@@ -52,6 +56,10 @@
           [
             "Elle s'habille dans la chambre.",
             "She gets dressed in the bedroom."
+          ],
+          [
+            "Tu t'habilles en bleu ?",
+            "Are you getting dressed in blue?"
           ]
         ],
         "special": "reflexive"
@@ -77,6 +85,10 @@
           [
             "Je cherche mes vêtements.",
             "I'm looking for my clothes."
+          ],
+          [
+            "Les vêtements sont sales.",
+            "The clothes are dirty."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "Le miroir est dans la salle de bains.",
             "The mirror is in the bathroom."
+          ],
+          [
+            "Tu vois le miroir sur le mur ?",
+            "Do you see the mirror on the wall?"
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Je suis prête !",
             "I'm ready! (feminine)"
+          ],
+          [
+            "Nous sommes prêts.",
+            "We are ready."
           ]
         ],
         "special": ""
@@ -152,6 +172,10 @@
           [
             "La douche est chaude.",
             "The shower is hot."
+          ],
+          [
+            "Après la douche, je suis propre.",
+            "After the shower, I am clean."
           ]
         ],
         "special": ""
@@ -179,6 +203,10 @@
           [
             "Elle s'habille dans la chambre.",
             "She gets dressed in the bedroom."
+          ],
+          [
+            "Tu t'habilles en bleu ?",
+            "Are you getting dressed in blue?"
           ]
         ],
         "special": "reflexive"
@@ -204,6 +232,10 @@
           [
             "Je cherche mes vêtements.",
             "I'm looking for my clothes."
+          ],
+          [
+            "Les vêtements sont sales.",
+            "The clothes are dirty."
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "Le miroir est dans la salle de bains.",
             "The mirror is in the bathroom."
+          ],
+          [
+            "Tu vois le miroir sur le mur ?",
+            "Do you see the mirror on the wall?"
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Je suis prête !",
             "I'm ready! (feminine)"
+          ],
+          [
+            "Nous sommes prêts.",
+            "We are ready."
           ]
         ],
         "special": ""
@@ -280,6 +320,10 @@
           [
             "Je me dépêche le matin.",
             "I hurry in the morning."
+          ],
+          [
+            "Ils se dépêchent pour l'école.",
+            "They hurry for school."
           ]
         ],
         "special": "reflexive"
@@ -304,6 +348,10 @@
           [
             "Le peigne est dans la salle de bains.",
             "The comb is in the bathroom."
+          ],
+          [
+            "J'utilise le peigne chaque jour.",
+            "I use the comb every day."
           ]
         ],
         "special": ""

@@ -20,7 +20,8 @@
         "notes": "masculine form; feminine is 'la boulangère'",
         "examples": [
           ["Le boulanger vend du pain.", "The baker sells bread."],
-          ["Mon père est boulanger.", "My father is a baker."]
+          ["Mon père est boulanger.", "My father is a baker."],
+          ["J'aime acheter le pain chez le boulanger.", "I like to buy bread at the baker's shop."]
         ],
         "special": ""
       },
@@ -39,7 +40,8 @@
         "notes": "infirmier (m), infirmière (f) — both genders exist",
         "examples": [
           ["L'infirmière travaille à l'hôpital.", "The nurse works at the hospital."],
-          ["Ma sœur est infirmière.", "My sister is a nurse."]
+          ["Ma sœur est infirmière.", "My sister is a nurse."],
+          ["L'infirmière aide les patients.", "The nurse helps the patients."]
         ],
         "special": ""
       },
@@ -58,7 +60,8 @@
         "notes": "traditionally masculine; ingénieure becoming more common for females",
         "examples": [
           ["L'ingénieur conçoit des bâtiments.", "The engineer designs buildings."],
-          ["Elle est ingénieur informatique.", "She is a software engineer."]
+          ["Elle est ingénieur informatique.", "She is a software engineer."],
+          ["L'ingénieur travaille dans une grande entreprise.", "The engineer works in a large company."]
         ],
         "special": ""
       },
@@ -77,7 +80,8 @@
         "notes": "always feminine",
         "examples": [
           ["Quelle est ta profession ?", "What is your profession?"],
-          ["Je change de profession.", "I am changing professions."]
+          ["Je change de profession.", "I am changing professions."],
+          ["Sa profession est très importante pour lui.", "His profession is very important to him."]
         ],
         "special": ""
       },
@@ -96,7 +100,8 @@
         "notes": "Also means avocado in French (context determines meaning)",
         "examples": [
           ["L'avocat défend son client.", "The lawyer defends his client."],
-          ["Mon oncle est avocat.", "My uncle is a lawyer."]
+          ["Mon oncle est avocat.", "My uncle is a lawyer."],
+          ["L'avocat pose une question au tribunal.", "The lawyer asks a question in court."]
         ],
         "special": ""
       }
@@ -117,7 +122,8 @@
         "notes": "masculine form; feminine is 'la boulangère'",
         "examples": [
           ["Le boulanger vend du pain frais chaque matin.", "The baker sells fresh bread every morning."],
-          ["Mon père est boulanger depuis vingt ans.", "My father has been a baker for twenty years."]
+          ["Mon père est boulanger depuis vingt ans.", "My father has been a baker for twenty years."],
+          ["Le boulanger ouvre sa boutique à six heures du matin.", "The baker opens his shop at six in the morning."]
         ],
         "special": ""
       },
@@ -136,7 +142,8 @@
         "notes": "infirmier (m), infirmière (f) — both genders exist",
         "examples": [
           ["L'infirmière travaille à l'hôpital depuis cinq ans.", "The nurse has worked at the hospital for five years."],
-          ["Ma sœur est infirmière et elle aime son travail.", "My sister is a nurse and she loves her work."]
+          ["Ma sœur est infirmière et elle aime son travail.", "My sister is a nurse and she loves her work."],
+          ["L'infirmière soigne les patients avec dévouement.", "The nurse cares for patients with dedication."]
         ],
         "special": ""
       },
@@ -155,7 +162,8 @@
         "notes": "traditionally masculine; ingénieure becoming more common for females",
         "examples": [
           ["L'ingénieur conçoit des ponts et des routes.", "The engineer designs bridges and roads."],
-          ["Elle est ingénieur en informatique dans une grande entreprise.", "She is a software engineer at a large company."]
+          ["Elle est ingénieur en informatique dans une grande entreprise.", "She is a software engineer at a large company."],
+          ["L'ingénieur résolve des problèmes techniques complexes.", "The engineer solves complex technical problems."]
         ],
         "special": ""
       },
@@ -174,7 +182,8 @@
         "notes": "always feminine",
         "examples": [
           ["Quelle est votre profession exactement ?", "What is your profession exactly?"],
-          ["J'ai changé de profession pour poursuivre mon rêve.", "I changed professions to pursue my dream."]
+          ["J'ai changé de profession pour poursuivre mon rêve.", "I changed professions to pursue my dream."],
+          ["La profession d'architecte demande beaucoup de créativité.", "The profession of architect requires a lot of creativity."]
         ],
         "special": ""
       },
@@ -193,7 +202,8 @@
         "notes": "Also means avocado in French (context determines meaning)",
         "examples": [
           ["L'avocat défend son client avec passion.", "The lawyer defends his client with passion."],
-          ["Mon oncle est avocat spécialisé en droit commercial.", "My uncle is a lawyer specializing in commercial law."]
+          ["Mon oncle est avocat spécialisé en droit commercial.", "My uncle is a lawyer specializing in commercial law."],
+          ["L'avocat étudie tous les documents du dossier.", "The lawyer studies all the case documents."]
         ],
         "special": ""
       },
@@ -212,7 +222,8 @@
         "notes": "masculine form only in traditional usage",
         "examples": [
           ["Le chauffeur de taxi est très sympa.", "The taxi driver is very nice."],
-          ["Mon cousin est chauffeur professionnel.", "My cousin is a professional driver."]
+          ["Mon cousin est chauffeur professionnel.", "My cousin is a professional driver."],
+          ["Le chauffeur conduit prudemment sur l'autoroute.", "The driver drives carefully on the highway."]
         ],
         "special": ""
       },
@@ -231,7 +242,8 @@
         "notes": "traditionally masculine, but architecte can be used for any gender",
         "examples": [
           ["L'architecte a dessiné ce bâtiment moderne.", "The architect designed this modern building."],
-          ["Elle est architecte et travaille pour un cabinet renommé.", "She is an architect and works for a renowned firm."]
+          ["Elle est architecte et travaille pour un cabinet renommé.", "She is an architect and works for a renowned firm."],
+          ["L'architecte présente son nouveau projet.", "The architect presents his new project."]
         ],
         "special": ""
       }

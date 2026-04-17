@@ -26,6 +26,10 @@
           [
             "Le ménage prend beaucoup de temps.",
             "Housework takes a lot of time."
+          ],
+          [
+            "Aimes-tu faire le ménage ?",
+            "Do you like doing housework?"
           ]
         ],
         "special": ""
@@ -53,6 +57,10 @@
           [
             "Il faut nettoyer les vitres.",
             "The windows need to be cleaned."
+          ],
+          [
+            "Elle nettoie le sol avec attention.",
+            "She cleans the floor carefully."
           ]
         ],
         "special": ""
@@ -78,6 +86,10 @@
           [
             "La vaisselle est dans l'évier.",
             "The dishes are in the sink."
+          ],
+          [
+            "Nous faisons la vaisselle après chaque repas.",
+            "We do the dishes after every meal."
           ]
         ],
         "special": ""
@@ -103,6 +115,10 @@
           [
             "Elle prend le balai pour nettoyer le sol.",
             "She takes the broom to clean the floor."
+          ],
+          [
+            "Le balai est derrière la porte.",
+            "The broom is behind the door."
           ]
         ],
         "special": ""
@@ -130,6 +146,10 @@
           [
             "Il faut ranger le salon.",
             "The living room needs to be tidied up."
+          ],
+          [
+            "Tu ranges les livres sur l'étagère.",
+            "You put away the books on the shelf."
           ]
         ],
         "special": ""
@@ -157,6 +177,10 @@
           [
             "Le ménage prend beaucoup de temps.",
             "Housework takes a lot of time."
+          ],
+          [
+            "Aimes-tu faire le ménage ?",
+            "Do you like doing housework?"
           ]
         ],
         "special": ""
@@ -184,6 +208,10 @@
           [
             "Il faut nettoyer les vitres.",
             "The windows need to be cleaned."
+          ],
+          [
+            "Elle nettoie le sol avec attention.",
+            "She cleans the floor carefully."
           ]
         ],
         "special": ""
@@ -209,6 +237,10 @@
           [
             "La vaisselle est dans l'évier.",
             "The dishes are in the sink."
+          ],
+          [
+            "Nous faisons la vaisselle après chaque repas.",
+            "We do the dishes after every meal."
           ]
         ],
         "special": ""
@@ -234,6 +266,10 @@
           [
             "Elle prend le balai pour nettoyer le sol.",
             "She takes the broom to clean the floor."
+          ],
+          [
+            "Le balai est derrière la porte.",
+            "The broom is behind the door."
           ]
         ],
         "special": ""
@@ -261,6 +297,10 @@
           [
             "Il faut ranger le salon.",
             "The living room needs to be tidied up."
+          ],
+          [
+            "Tu ranges les livres sur l'étagère.",
+            "You put away the books on the shelf."
           ]
         ],
         "special": ""
@@ -286,6 +326,10 @@
           [
             "L'aspirateur est en panne.",
             "The vacuum cleaner is broken."
+          ],
+          [
+            "On passe l'aspirateur le mercredi.",
+            "We vacuum on Wednesday."
           ]
         ],
         "special": ""
@@ -311,6 +355,10 @@
           [
             "La lessive est dans le lave-linge.",
             "The laundry is in the washing machine."
+          ],
+          [
+            "Il y a beaucoup de lessive à faire.",
+            "There is a lot of laundry to do."
           ]
         ],
         "special": ""

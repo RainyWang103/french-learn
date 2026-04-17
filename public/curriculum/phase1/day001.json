@@ -28,6 +28,10 @@
           [
             "Elle se réveille tôt.",
             "She wakes up early."
+          ],
+          [
+            "Nous nous réveillons avec le soleil.",
+            "We wake up with the sun."
           ]
         ],
         "special": "reflexive"
@@ -52,6 +56,10 @@
           [
             "C'est le matin.",
             "It's morning."
+          ],
+          [
+            "Le matin, j'aime le café.",
+            "In the morning, I like coffee."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Le lit est grand.",
             "The bed is big."
+          ],
+          [
+            "Ton lit est confortable.",
+            "Your bed is comfortable."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "Tu es fatigué ce matin ?",
             "Are you tired this morning?"
+          ],
+          [
+            "Elle est fatiguée après le travail.",
+            "She is tired after work."
           ]
         ],
         "special": ""
@@ -128,6 +144,10 @@
           [
             "Il dort bien.",
             "He sleeps well."
+          ],
+          [
+            "Vous dormez trop ?",
+            "Do you sleep too much?"
           ]
         ],
         "special": "irregular"
@@ -157,6 +177,10 @@
           [
             "Elle se réveille tôt.",
             "She wakes up early."
+          ],
+          [
+            "Nous nous réveillons avec le soleil.",
+            "We wake up with the sun."
           ]
         ],
         "special": "reflexive"
@@ -181,6 +205,10 @@
           [
             "C'est le matin.",
             "It's morning."
+          ],
+          [
+            "Le matin, j'aime le café.",
+            "In the morning, I like coffee."
           ]
         ],
         "special": ""
@@ -205,6 +233,10 @@
           [
             "Le lit est grand.",
             "The bed is big."
+          ],
+          [
+            "Ton lit est confortable.",
+            "Your bed is comfortable."
           ]
         ],
         "special": ""
@@ -230,6 +262,10 @@
           [
             "Tu es fatigué ce matin ?",
             "Are you tired this morning?"
+          ],
+          [
+            "Elle est fatiguée après le travail.",
+            "She is tired after work."
           ]
         ],
         "special": ""
@@ -257,6 +293,10 @@
           [
             "Il dort bien.",
             "He sleeps well."
+          ],
+          [
+            "Vous dormez trop ?",
+            "Do you sleep too much?"
           ]
         ],
         "special": "irregular"
@@ -282,6 +322,10 @@
           [
             "C'est trop tôt !",
             "It's too early!"
+          ],
+          [
+            "Mon réveil sonne tôt le matin.",
+            "My alarm rings early in the morning."
           ]
         ],
         "special": ""
@@ -307,6 +351,10 @@
           [
             "Mon réveil est sur la table.",
             "My alarm clock is on the table."
+          ],
+          [
+            "Tu entends le réveil ?",
+            "Do you hear the alarm clock?"
           ]
         ],
         "special": ""

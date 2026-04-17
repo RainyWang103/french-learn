@@ -26,6 +26,10 @@
           [
             "Le carrefour est dangereux.",
             "The intersection is dangerous."
+          ],
+          [
+            "Nous attendons au carrefour.",
+            "We are waiting at the crossroads."
           ]
         ],
         "special": ""
@@ -53,6 +57,10 @@
           [
             "Je tourne à gauche ici.",
             "I turn left here."
+          ],
+          [
+            "Il tourne toujours à droite.",
+            "He always turns right."
           ]
         ],
         "special": ""
@@ -78,6 +86,10 @@
           [
             "Rendez-vous sur la place!",
             "Let's meet at the square!"
+          ],
+          [
+            "La place est près d'ici.",
+            "The square is near here."
           ]
         ],
         "special": ""
@@ -102,6 +114,10 @@
           [
             "Le pont est très vieux.",
             "The bridge is very old."
+          ],
+          [
+            "Où est le pont ?",
+            "Where is the bridge?"
           ]
         ],
         "special": ""
@@ -127,6 +143,10 @@
           [
             "La pharmacie est en face de la boulangerie.",
             "The pharmacy is opposite the bakery."
+          ],
+          [
+            "La pharmacie ouvre à neuf heures.",
+            "The pharmacy opens at nine o'clock."
           ]
         ],
         "special": ""
@@ -154,6 +174,10 @@
           [
             "Le carrefour est dangereux.",
             "The intersection is dangerous."
+          ],
+          [
+            "Nous attendons au carrefour.",
+            "We are waiting at the crossroads."
           ]
         ],
         "special": ""
@@ -181,6 +205,10 @@
           [
             "Je tourne à gauche ici.",
             "I turn left here."
+          ],
+          [
+            "Il tourne toujours à droite.",
+            "He always turns right."
           ]
         ],
         "special": ""
@@ -206,6 +234,10 @@
           [
             "Rendez-vous sur la place!",
             "Let's meet at the square!"
+          ],
+          [
+            "La place est près d'ici.",
+            "The square is near here."
           ]
         ],
         "special": ""
@@ -230,6 +262,10 @@
           [
             "Le pont est très vieux.",
             "The bridge is very old."
+          ],
+          [
+            "Où est le pont ?",
+            "Where is the bridge?"
           ]
         ],
         "special": ""
@@ -255,6 +291,10 @@
           [
             "La pharmacie est en face de la boulangerie.",
             "The pharmacy is opposite the bakery."
+          ],
+          [
+            "La pharmacie ouvre à neuf heures.",
+            "The pharmacy opens at nine o'clock."
           ]
         ],
         "special": ""
@@ -280,6 +320,10 @@
           [
             "Le rond-point est à cinq minutes d'ici.",
             "The roundabout is five minutes from here."
+          ],
+          [
+            "Conduisez jusqu'au rond-point.",
+            "Drive to the roundabout."
           ]
         ],
         "special": ""
@@ -305,6 +349,10 @@
           [
             "Le feu est rouge — attendez !",
             "The light is red — wait!"
+          ],
+          [
+            "Le feu est vert, allez !",
+            "The light is green, go!"
           ]
         ],
         "special": ""

@@ -20,6 +20,10 @@
           [
             "J'ai acheté un panier au marché.",
             "I bought a basket at the market."
+          ],
+          [
+            "Mon panier est plein de fruits.",
+            "My basket is full of fruit."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "Il y a la queue à la caisse.",
             "There is a queue at the checkout."
+          ],
+          [
+            "La caisse est fermée maintenant.",
+            "The checkout is closed now."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Le poisson est frais ce matin.",
             "The fish is fresh this morning."
+          ],
+          [
+            "L'eau est fraîche et bonne.",
+            "The water is fresh and good."
           ]
         ],
         "special": "",
@@ -95,6 +107,10 @@
           [
             "Pouvez-vous peser un kilo de cerises ?",
             "Can you weigh a kilo of cherries?"
+          ],
+          [
+            "Elle pèse les oignons au marché.",
+            "She weighs the onions at the market."
           ]
         ],
         "special": "",
@@ -122,6 +138,10 @@
           [
             "Je cherche le rayon fruits et légumes.",
             "I am looking for the fruit and vegetable section."
+          ],
+          [
+            "Le rayon pain est près de la caisse.",
+            "The bread aisle is near the checkout."
           ]
         ],
         "special": "",
@@ -149,6 +169,10 @@
           [
             "J'ai acheté un panier au marché.",
             "I bought a basket at the market."
+          ],
+          [
+            "Ton panier est plus grand que le mien.",
+            "Your basket is bigger than mine."
           ]
         ],
         "special": "",
@@ -174,6 +198,10 @@
           [
             "Il y a la queue à la caisse.",
             "There is a queue at the checkout."
+          ],
+          [
+            "Elle travaille à la caisse du marché.",
+            "She works at the market's checkout."
           ]
         ],
         "special": "",
@@ -199,6 +227,10 @@
           [
             "Le poisson est frais ce matin.",
             "The fish is fresh this morning."
+          ],
+          [
+            "Elles achètent des fruits frais tous les jours.",
+            "They buy fresh fruit every day."
           ]
         ],
         "special": "",
@@ -224,6 +256,10 @@
           [
             "Pouvez-vous peser un kilo de cerises ?",
             "Can you weigh a kilo of cherries?"
+          ],
+          [
+            "Nous pesons les légumes avant de payer.",
+            "We weigh the vegetables before paying."
           ]
         ],
         "special": "",
@@ -251,6 +287,10 @@
           [
             "Je cherche le rayon fruits et légumes.",
             "I am looking for the fruit and vegetable section."
+          ],
+          [
+            "Quel rayon préfères-tu ?",
+            "Which aisle do you prefer?"
           ]
         ],
         "special": "",
@@ -276,6 +316,10 @@
           [
             "J'ai perdu mon reçu.",
             "I have lost my receipt."
+          ],
+          [
+            "Garde le reçu pour la caisse.",
+            "Keep the receipt for the till."
           ]
         ],
         "special": "",
@@ -301,6 +345,10 @@
           [
             "Je fais la file depuis dix minutes.",
             "I have been queuing for ten minutes."
+          ],
+          [
+            "Tes amis attendent dans la file.",
+            "Your friends are waiting in the queue."
           ]
         ],
         "special": "",

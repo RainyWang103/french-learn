@@ -26,6 +26,10 @@
           [
             "Ma valise est trop lourde !",
             "My suitcase is too heavy!"
+          ],
+          [
+            "Où est ma valise ?",
+            "Where is my suitcase?"
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "C'est mon premier voyage en avion.",
             "It's my first trip by plane."
+          ],
+          [
+            "L'avion est grand et rapide.",
+            "The plane is big and fast."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Nous avons réservé un hôtel deux étoiles.",
             "We booked a two-star hotel."
+          ],
+          [
+            "L'hôtel a une belle vue.",
+            "The hotel has a beautiful view."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "La plage est magnifique ici.",
             "The beach is magnificent here."
+          ],
+          [
+            "J'aime jouer sur la plage.",
+            "I like to play on the beach."
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Bonnes vacances !",
             "Have a good holiday!"
+          ],
+          [
+            "J'aime les vacances avec ma famille.",
+            "I like holidays with my family."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Ma valise est trop lourde !",
             "My suitcase is too heavy!"
+          ],
+          [
+            "Où est ma valise ?",
+            "Where is my suitcase?"
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "C'est mon premier voyage en avion.",
             "It's my first trip by plane."
+          ],
+          [
+            "L'avion est grand et rapide.",
+            "The plane is big and fast."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Nous avons réservé un hôtel deux étoiles.",
             "We booked a two-star hotel."
+          ],
+          [
+            "L'hôtel a une belle vue.",
+            "The hotel has a beautiful view."
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "La plage est magnifique ici.",
             "The beach is magnificent here."
+          ],
+          [
+            "J'aime jouer sur la plage.",
+            "I like to play on the beach."
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Bonnes vacances !",
             "Have a good holiday!"
+          ],
+          [
+            "J'aime les vacances avec ma famille.",
+            "I like holidays with my family."
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "Mon passeport est valide jusqu'en 2030.",
             "My passport is valid until 2030."
+          ],
+          [
+            "Je dois vérifier mon passeport avant le voyage.",
+            "I need to check my passport before the trip."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Il faut faire une réservation à l'avance.",
             "You need to book in advance."
+          ],
+          [
+            "La réservation est confirmée.",
+            "The reservation is confirmed."
           ]
         ],
         "special": ""

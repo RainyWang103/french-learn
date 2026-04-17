@@ -20,6 +20,10 @@
           [
             "Quelle émission regardes-tu?",
             "What show do you watch?"
+          ],
+          [
+            "Cette émission commence à 20h.",
+            "This show starts at 8pm."
           ]
         ],
         "special": "Uses feminine articles (la, l', les)",
@@ -45,6 +49,10 @@
           [
             "Les chaînes françaises sont bonnes.",
             "French channels are good."
+          ],
+          [
+            "Ma chaîne préférée est France 2.",
+            "My favorite channel is France 2."
           ]
         ],
         "special": "Feminine noun, plural adds -s",
@@ -70,6 +78,10 @@
           [
             "Le journal télévisé est à 20h.",
             "The news bulletin is at 8pm."
+          ],
+          [
+            "Mon père regarde le journal chaque jour.",
+            "My father watches the news every day."
           ]
         ],
         "special": "Irregular plural: journaux (not journals)",
@@ -95,6 +107,10 @@
           [
             "Les nouvelles sont à la télé.",
             "The news is on TV."
+          ],
+          [
+            "Les nouvelles sont très importantes.",
+            "The news is very important."
           ]
         ],
         "special": "Typically used in plural; feminine",
@@ -120,6 +136,10 @@
           [
             "Le programme est intéressant.",
             "The program is interesting."
+          ],
+          [
+            "Tu as le programme pour demain?",
+            "Do you have the schedule for tomorrow?"
           ]
         ],
         "special": "Masculine noun, plural adds -s",
@@ -147,6 +167,10 @@
           [
             "Quelle émission regardes-tu?",
             "What show do you watch?"
+          ],
+          [
+            "L'émission que tu regardes hier était excellente.",
+            "The show that you watched yesterday was excellent."
           ]
         ],
         "special": "Uses feminine articles (la, l', les)",
@@ -172,6 +196,10 @@
           [
             "Les chaînes françaises sont bonnes.",
             "French channels are good."
+          ],
+          [
+            "Je change de chaîne pour voir un meilleur programme.",
+            "I change the channel to see a better program."
           ]
         ],
         "special": "Feminine noun, plural adds -s",
@@ -197,6 +225,10 @@
           [
             "Le journal télévisé est à 20h.",
             "The news bulletin is at 8pm."
+          ],
+          [
+            "Les journaux que j'ai lus parlaient de politique.",
+            "The newspapers that I read talked about politics."
           ]
         ],
         "special": "Irregular plural: journaux (not journals)",
@@ -222,6 +254,10 @@
           [
             "Les nouvelles sont à la télé.",
             "The news is on TV."
+          ],
+          [
+            "Les nouvelles qu'il a lues hier étaient choquantes.",
+            "The news that he read yesterday was shocking."
           ]
         ],
         "special": "Typically used in plural; feminine",
@@ -247,6 +283,10 @@
           [
             "Le programme est intéressant.",
             "The program is interesting."
+          ],
+          [
+            "Le programme que tu regardes ce soir a un bon film.",
+            "The schedule that you watch tonight has a good film."
           ]
         ],
         "special": "Masculine noun, plural adds -s",
@@ -272,6 +312,10 @@
           [
             "Ce documentaire est très intéressant.",
             "This documentary is very interesting."
+          ],
+          [
+            "Le documentaire qui parle des animaux est fascinant.",
+            "The documentary that talks about animals is fascinating."
           ]
         ],
         "special": "Masculine, ends in -aire like dictionnaire",
@@ -297,6 +341,10 @@
           [
             "La présentatrice du journal est excellent.",
             "The news anchor is excellent."
+          ],
+          [
+            "Le présentateur qui explique bien rend le sujet clair.",
+            "The presenter who explains well makes the subject clear."
           ]
         ],
         "special": "Gendered noun: présentateur (m) / présentatrice (f)",

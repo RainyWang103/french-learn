@@ -20,6 +20,10 @@
           [
             "Elle aime danser.",
             "She likes to dance."
+          ],
+          [
+            "Aimes-tu le café?",
+            "Do you like coffee?"
           ]
         ],
         "special": "very common, central to expressing preferences",
@@ -47,6 +51,10 @@
           [
             "Il préfère rester à la maison.",
             "He prefers to stay at home."
+          ],
+          [
+            "Vous préférez quelle couleur?",
+            "Which color do you prefer?"
           ]
         ],
         "special": "stem-changing verb, watch the accent shift",
@@ -74,6 +82,10 @@
           [
             "Elle déteste attendre.",
             "She hates waiting."
+          ],
+          [
+            "Ils détestent le bruit.",
+            "They hate noise."
           ]
         ],
         "special": "expresses strong dislike",
@@ -101,6 +113,10 @@
           [
             "Quel est votre avis?",
             "What is your opinion?"
+          ],
+          [
+            "À son avis, c'est difficile.",
+            "In his opinion, it's difficult."
           ]
         ],
         "special": "always singular form in use",
@@ -126,6 +142,10 @@
           [
             "Tu es d'accord?",
             "Do you agree?"
+          ],
+          [
+            "Nous sommes d'accord!",
+            "We agree!"
           ]
         ],
         "special": "commonly used agreement phrase",
@@ -153,6 +173,10 @@
           [
             "Elle aime danser.",
             "She likes to dance."
+          ],
+          [
+            "Aimes-tu le café?",
+            "Do you like coffee?"
           ]
         ],
         "special": "very common, central to expressing preferences",
@@ -180,6 +204,10 @@
           [
             "Il préfère rester à la maison.",
             "He prefers to stay at home."
+          ],
+          [
+            "Vous préférez quelle couleur?",
+            "Which color do you prefer?"
           ]
         ],
         "special": "stem-changing verb, watch the accent shift",
@@ -207,6 +235,10 @@
           [
             "Elle déteste attendre.",
             "She hates waiting."
+          ],
+          [
+            "Ils détestent le bruit.",
+            "They hate noise."
           ]
         ],
         "special": "expresses strong dislike",
@@ -234,6 +266,10 @@
           [
             "Quel est votre avis?",
             "What is your opinion?"
+          ],
+          [
+            "À son avis, c'est difficile.",
+            "In his opinion, it's difficult."
           ]
         ],
         "special": "always singular form in use",
@@ -259,6 +295,10 @@
           [
             "Tu es d'accord?",
             "Do you agree?"
+          ],
+          [
+            "Nous sommes d'accord!",
+            "We agree!"
           ]
         ],
         "special": "commonly used agreement phrase",
@@ -284,6 +324,10 @@
           [
             "Elle adore voyager.",
             "She loves to travel."
+          ],
+          [
+            "Adorez-vous la musique?",
+            "Do you adore music?"
           ]
         ],
         "special": "expresses passionate liking",
@@ -311,6 +355,10 @@
           [
             "Selon lui, c'est possible.",
             "In his opinion, it's possible."
+          ],
+          [
+            "Selon elle, c'est merveilleux.",
+            "According to her, it's wonderful."
           ]
         ],
         "special": "more formal than à mon avis",

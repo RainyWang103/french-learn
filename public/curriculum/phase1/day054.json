@@ -20,6 +20,10 @@
           [
             "Le livre est sur la table.",
             "The book is on the table."
+          ],
+          [
+            "Ce livre est très long.",
+            "This book is very long."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "C'est un roman français.",
             "It is a French novel."
+          ],
+          [
+            "Le roman a cent pages.",
+            "The novel has one hundred pages."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Cette page est belle.",
             "This page is beautiful."
+          ],
+          [
+            "La page a des images.",
+            "The page has images."
           ]
         ],
         "special": "",
@@ -95,6 +107,10 @@
           [
             "L'histoire de France est intéressante.",
             "The history of France is interesting."
+          ],
+          [
+            "Cette histoire est amusante.",
+            "This story is funny."
           ]
         ],
         "special": "",
@@ -120,6 +136,10 @@
           [
             "Qui est l'auteur de ce livre?",
             "Who is the author of this book?"
+          ],
+          [
+            "L'auteur a écrit une bonne histoire.",
+            "The author wrote a good story."
           ]
         ],
         "special": "",
@@ -147,6 +167,10 @@
           [
             "Le livre est sur la table.",
             "The book is on the table."
+          ],
+          [
+            "Cet auteur a publié plusieurs livres.",
+            "This author has published several books."
           ]
         ],
         "special": "",
@@ -172,6 +196,10 @@
           [
             "C'est un roman français.",
             "It is a French novel."
+          ],
+          [
+            "Le roman explore les thèmes de l'amour et de la perte.",
+            "The novel explores the themes of love and loss."
           ]
         ],
         "special": "",
@@ -197,6 +225,10 @@
           [
             "Cette page est belle.",
             "This page is beautiful."
+          ],
+          [
+            "Le lecteur a marqué une page intéressante.",
+            "The reader marked an interesting page."
           ]
         ],
         "special": "",
@@ -222,6 +254,10 @@
           [
             "L'histoire de France est intéressante.",
             "The history of France is interesting."
+          ],
+          [
+            "L'histoire se déroule en Provence.",
+            "The story takes place in Provence."
           ]
         ],
         "special": "",
@@ -247,6 +283,10 @@
           [
             "Qui est l'auteur de ce livre?",
             "Who is the author of this book?"
+          ],
+          [
+            "L'auteur a remporté plusieurs prix littéraires.",
+            "The author won several literary awards."
           ]
         ],
         "special": "",
@@ -272,6 +312,10 @@
           [
             "Je lis le dernier chapitre.",
             "I am reading the last chapter."
+          ],
+          [
+            "Chaque chapitre raconte une nouvelle aventure.",
+            "Each chapter tells a new adventure."
           ]
         ],
         "special": "",
@@ -297,6 +341,10 @@
           [
             "Tous les personnages sont amusants.",
             "All the characters are funny."
+          ],
+          [
+            "Ce personnage est très complexe.",
+            "This character is very complex."
           ]
         ],
         "special": "",

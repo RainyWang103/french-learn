@@ -20,6 +20,10 @@
           [
             "L'urgence est grave.",
             "The emergency is serious."
+          ],
+          [
+            "Il y a une urgence maintenant.",
+            "There is an emergency now."
           ]
         ],
         "special": "Always feminine",
@@ -45,6 +49,10 @@
           [
             "Les pompiers aident.",
             "The firefighters help."
+          ],
+          [
+            "Un pompier travaille dur.",
+            "A firefighter works hard."
           ]
         ],
         "special": "Always masculine, even when referring to a female firefighter",
@@ -70,6 +78,10 @@
           [
             "L'accident est terrible.",
             "The accident is terrible."
+          ],
+          [
+            "L'accident est sur la route.",
+            "The accident is on the road."
           ]
         ],
         "special": "Always masculine",
@@ -95,6 +107,10 @@
           [
             "J'appelle la police.",
             "I'm calling the police."
+          ],
+          [
+            "La police est importante.",
+            "The police is important."
           ]
         ],
         "special": "Always feminine, uncountable/collective",
@@ -120,6 +136,10 @@
           [
             "Nous appelons la police.",
             "We call the police."
+          ],
+          [
+            "Tu appelles ton ami.",
+            "You are calling your friend."
           ]
         ],
         "special": "Stem-changing: l → ll in certain persons",
@@ -149,6 +169,10 @@
           [
             "L'urgence est grave.",
             "The emergency is serious."
+          ],
+          [
+            "Il faut appeler en cas d'urgence.",
+            "You must call in case of emergency."
           ]
         ],
         "special": "Always feminine",
@@ -174,6 +198,10 @@
           [
             "Les pompiers aident.",
             "The firefighters help."
+          ],
+          [
+            "Le pompier prend la situatio en charge.",
+            "The firefighter takes the situation in charge."
           ]
         ],
         "special": "Always masculine, even when referring to a female firefighter",
@@ -199,6 +227,10 @@
           [
             "L'accident est terrible.",
             "The accident is terrible."
+          ],
+          [
+            "Les pompiers comprennent l'accident.",
+            "The firefighters understand the accident."
           ]
         ],
         "special": "Always masculine",
@@ -224,6 +256,10 @@
           [
             "J'appelle la police.",
             "I'm calling the police."
+          ],
+          [
+            "La police prend en charge le cas.",
+            "The police takes charge of the case."
           ]
         ],
         "special": "Always feminine, uncountable/collective",
@@ -249,6 +285,10 @@
           [
             "Nous appelons la police.",
             "We call the police."
+          ],
+          [
+            "Ils appellent les pompiers.",
+            "They are calling the firefighters."
           ]
         ],
         "special": "Stem-changing: l → ll in certain persons",
@@ -276,6 +316,10 @@
           [
             "Merci pour votre aide.",
             "Thank you for your help."
+          ],
+          [
+            "L'aide arrive bientôt.",
+            "Help is coming soon."
           ]
         ],
         "special": "Always feminine",
@@ -301,6 +345,10 @@
           [
             "Au secours, je suis perdu!",
             "Help, I'm lost!"
+          ],
+          [
+            "Au secours! Appelez les pompiers!",
+            "Help! Call the firefighters!"
           ]
         ],
         "special": "Exclamation, never changes",

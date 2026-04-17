@@ -20,6 +20,10 @@
           [
             "Vous avez cette robe en taille 40 ?",
             "Do you have this dress in size 40?"
+          ],
+          [
+            "Cette taille est trop petite.",
+            "This size is too small."
           ]
         ],
         "special": "",
@@ -45,6 +49,10 @@
           [
             "Je cherche une jupe noire.",
             "I am looking for a black skirt."
+          ],
+          [
+            "La jupe est en coton.",
+            "The skirt is made of cotton."
           ]
         ],
         "special": "",
@@ -70,6 +78,10 @@
           [
             "Elle essaie la robe dans la cabine.",
             "She is trying on the dress in the fitting room."
+          ],
+          [
+            "Vous essayez les chaussures ?",
+            "Are you trying on the shoes?"
           ]
         ],
         "special": "",
@@ -97,6 +109,10 @@
           [
             "Nous faisons du lèche-vitrine.",
             "We are window shopping."
+          ],
+          [
+            "La vitrine du magasin est très attractive.",
+            "The shop window is very attractive."
           ]
         ],
         "special": "",
@@ -122,6 +138,10 @@
           [
             "Il y a trois cabines disponibles.",
             "There are three fitting rooms available."
+          ],
+          [
+            "La cabine est petite mais confortable.",
+            "The fitting room is small but comfortable."
           ]
         ],
         "special": "",
@@ -149,6 +169,10 @@
           [
             "Vous avez cette robe en taille 40 ?",
             "Do you have this dress in size 40?"
+          ],
+          [
+            "La taille 42 me convient parfaitement.",
+            "Size 42 fits me perfectly."
           ]
         ],
         "special": "",
@@ -174,6 +198,10 @@
           [
             "Je cherche une jupe noire.",
             "I am looking for a black skirt."
+          ],
+          [
+            "Les jupes à carreaux sont à la mode.",
+            "Checked skirts are in fashion."
           ]
         ],
         "special": "",
@@ -199,6 +227,10 @@
           [
             "Elle essaie la robe dans la cabine.",
             "She is trying on the dress in the fitting room."
+          ],
+          [
+            "Nous essayons plusieurs styles.",
+            "We are trying on several styles."
           ]
         ],
         "special": "",
@@ -226,6 +258,10 @@
           [
             "Nous faisons du lèche-vitrine.",
             "We are window shopping."
+          ],
+          [
+            "Il y a une belle montre en vitrine.",
+            "There is a beautiful watch in the window display."
           ]
         ],
         "special": "",
@@ -251,6 +287,10 @@
           [
             "Il y a trois cabines disponibles.",
             "There are three fitting rooms available."
+          ],
+          [
+            "Je vais dans la cabine pour essayer.",
+            "I am going into the fitting room to try on."
           ]
         ],
         "special": "",
@@ -276,6 +316,10 @@
           [
             "Elle a une belle écharpe rouge.",
             "She has a beautiful red scarf."
+          ],
+          [
+            "L'écharpe est en cachemire doux.",
+            "The scarf is made of soft cashmere."
           ]
         ],
         "special": "",
@@ -301,6 +345,10 @@
           [
             "La ceinture est en cuir marron.",
             "The belt is in brown leather."
+          ],
+          [
+            "Où peux-tu acheter une ceinture noire ?",
+            "Where can you buy a black belt?"
           ]
         ],
         "special": "",

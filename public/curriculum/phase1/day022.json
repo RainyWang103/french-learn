@@ -26,6 +26,10 @@
           [
             "Le métro est rapide et pratique.",
             "The metro is fast and practical."
+          ],
+          [
+            "Le métro est fermé le dimanche.",
+            "The metro is closed on Sundays."
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Le train arrive à dix heures.",
             "The train arrives at ten o'clock."
+          ],
+          [
+            "Le train est très confortable.",
+            "The train is very comfortable."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Ce billet est pour le train de huit heures.",
             "This ticket is for the eight o'clock train."
+          ],
+          [
+            "Où est mon billet ?",
+            "Where is my ticket?"
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "On descend au prochain arrêt.",
             "We get off at the next stop."
+          ],
+          [
+            "L'arrêt est à cinq minutes à pied.",
+            "The stop is five minutes on foot."
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "On fait du vélo le dimanche.",
             "We go cycling on Sundays."
+          ],
+          [
+            "Mon vélo est rouge.",
+            "My bike is red."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Le métro est rapide et pratique.",
             "The metro is fast and practical."
+          ],
+          [
+            "Le métro est bondé aux heures de pointe.",
+            "The metro is crowded during rush hour."
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "Le train arrive à dix heures.",
             "The train arrives at ten o'clock."
+          ],
+          [
+            "Le train part à l'heure, généralement.",
+            "The train usually leaves on time."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Ce billet est pour le train de huit heures.",
             "This ticket is for the eight o'clock train."
+          ],
+          [
+            "Combien coûte un billet d'avion ?",
+            "How much does a plane ticket cost?"
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "On descend au prochain arrêt.",
             "We get off at the next stop."
+          ],
+          [
+            "Quel arrêt tu préfères ?",
+            "Which stop do you prefer?"
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "On fait du vélo le dimanche.",
             "We go cycling on Sundays."
+          ],
+          [
+            "Ton vélo est neuf ?",
+            "Is your bike new?"
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "La gare est à côté du centre-ville.",
             "The train station is next to the city centre."
+          ],
+          [
+            "La gare a un bon restaurant.",
+            "The train station has a good restaurant."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Attendez sur le quai, s'il vous plaît.",
             "Wait on the platform, please."
+          ],
+          [
+            "On attend sur le quai cinq.",
+            "We wait on platform five."
           ]
         ],
         "special": ""

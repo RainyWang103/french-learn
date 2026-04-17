@@ -25,6 +25,10 @@
           [
             "Le marché est ouvert le matin.",
             "The market is open in the morning."
+          ],
+          [
+            "Mon amie aime le marché.",
+            "My friend likes the market."
           ]
         ],
         "special": ""
@@ -52,6 +56,10 @@
           [
             "Qu'est-ce que tu achètes ?",
             "What are you buying?"
+          ],
+          [
+            "Nous achetons du pain.",
+            "We buy bread."
           ]
         ],
         "special": ""
@@ -77,6 +85,10 @@
           [
             "Le prix est deux euros.",
             "The price is two euros."
+          ],
+          [
+            "Le prix est bon.",
+            "The price is good."
           ]
         ],
         "special": ""
@@ -102,6 +114,10 @@
           [
             "Le vendeur donne le sac.",
             "The seller gives the bag."
+          ],
+          [
+            "Je parle avec le vendeur.",
+            "I speak with the seller."
           ]
         ],
         "special": ""
@@ -127,6 +143,10 @@
           [
             "C'est combien le kilo ?",
             "How much is it per kilo?"
+          ],
+          [
+            "Je veux un kilo de tomates.",
+            "I want a kilo of tomatoes."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Le marché est ouvert le matin.",
             "The market is open in the morning."
+          ],
+          [
+            "Les marchés de Paris sont magnifiques.",
+            "The markets in Paris are magnificent."
           ]
         ],
         "special": ""
@@ -180,6 +204,10 @@
           [
             "Qu'est-ce que tu achètes ?",
             "What are you buying?"
+          ],
+          [
+            "Ils achètent du fromage français.",
+            "They buy French cheese."
           ]
         ],
         "special": ""
@@ -205,6 +233,10 @@
           [
             "Le prix est deux euros.",
             "The price is two euros."
+          ],
+          [
+            "Le prix des fruits augmente en hiver.",
+            "The price of fruit increases in winter."
           ]
         ],
         "special": ""
@@ -230,6 +262,10 @@
           [
             "Le vendeur donne le sac.",
             "The seller gives the bag."
+          ],
+          [
+            "Le vendeur me propose une réduction.",
+            "The seller offers me a discount."
           ]
         ],
         "special": ""
@@ -255,6 +291,10 @@
           [
             "C'est combien le kilo ?",
             "How much is it per kilo?"
+          ],
+          [
+            "Deux kilos de pommes de terre coûtent trois euros.",
+            "Two kilos of potatoes cost three euros."
           ]
         ],
         "special": ""
@@ -280,6 +320,10 @@
           [
             "Je n'ai pas de monnaie.",
             "I don't have any change."
+          ],
+          [
+            "La monnaie française est l'euro.",
+            "French currency is the euro."
           ]
         ],
         "special": ""
@@ -305,6 +349,10 @@
           [
             "Je mets les fruits dans le sac.",
             "I put the fruit in the bag."
+          ],
+          [
+            "Le sac est gratuit.",
+            "The bag is free."
           ]
         ],
         "special": ""

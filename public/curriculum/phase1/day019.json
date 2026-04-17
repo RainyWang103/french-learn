@@ -26,6 +26,10 @@
           [
             "Elle secoue la tête.",
             "She shakes her head."
+          ],
+          [
+            "La tête est une partie du corps.",
+            "The head is a part of the body."
           ]
         ],
         "special": ""
@@ -51,6 +55,10 @@
           [
             "Elle porte le bébé dans ses bras.",
             "She carries the baby in her arms."
+          ],
+          [
+            "Je lève les bras.",
+            "I raise my arms."
           ]
         ],
         "special": ""
@@ -76,6 +84,10 @@
           [
             "Le ventre fait mal quand on mange trop.",
             "The stomach hurts when you eat too much."
+          ],
+          [
+            "Mon ventre n'a pas mal maintenant.",
+            "My stomach doesn't hurt now."
           ]
         ],
         "special": ""
@@ -101,6 +113,10 @@
           [
             "Elle est trop malade pour aller au travail.",
             "She is too sick to go to work."
+          ],
+          [
+            "Mon frère n'est pas malade.",
+            "My brother is not sick."
           ]
         ],
         "special": ""
@@ -126,6 +142,10 @@
           [
             "Le médecin donne des conseils.",
             "The doctor gives advice."
+          ],
+          [
+            "Le médecin regarde ma tête.",
+            "The doctor examines my head."
           ]
         ],
         "special": ""
@@ -153,6 +173,10 @@
           [
             "Elle secoue la tête.",
             "She shakes her head."
+          ],
+          [
+            "La tête est une partie importante du corps.",
+            "The head is an important part of the body."
           ]
         ],
         "special": ""
@@ -178,6 +202,10 @@
           [
             "Elle porte le bébé dans ses bras.",
             "She carries the baby in her arms."
+          ],
+          [
+            "Tu dois baisser les bras.",
+            "You need to lower your arms."
           ]
         ],
         "special": ""
@@ -203,6 +231,10 @@
           [
             "Le ventre fait mal quand on mange trop.",
             "The stomach hurts when you eat too much."
+          ],
+          [
+            "Elle ressent une douleur au ventre.",
+            "She feels pain in her stomach."
           ]
         ],
         "special": ""
@@ -228,6 +260,10 @@
           [
             "Elle est trop malade pour aller au travail.",
             "She is too sick to go to work."
+          ],
+          [
+            "Les enfants malades restent à la maison.",
+            "Sick children stay at home."
           ]
         ],
         "special": ""
@@ -253,6 +289,10 @@
           [
             "Le médecin donne des conseils.",
             "The doctor gives advice."
+          ],
+          [
+            "Elle consulte un médecin compétent.",
+            "She consults a competent doctor."
           ]
         ],
         "special": ""
@@ -278,6 +318,10 @@
           [
             "Le médecin vérifie si l'enfant a de la fièvre.",
             "The doctor checks if the child has a fever."
+          ],
+          [
+            "Elle n'a plus de fièvre maintenant.",
+            "She no longer has a fever now."
           ]
         ],
         "special": ""
@@ -303,6 +347,10 @@
           [
             "Est-ce que ce médicament a des effets secondaires ?",
             "Does this medication have side effects?"
+          ],
+          [
+            "Le médecin prescrit un médicament contre la fièvre.",
+            "The doctor prescribes a medication for the fever."
           ]
         ],
         "special": ""

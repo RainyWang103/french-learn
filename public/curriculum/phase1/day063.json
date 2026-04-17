@@ -20,6 +20,10 @@
           [
             "Je me vois avec toi ce week-end.",
             "I'm seeing you this weekend."
+          ],
+          [
+            "Vous vous voyez souvent?",
+            "Do you see each other often?"
           ]
         ],
         "special": "",
@@ -47,6 +51,10 @@
           [
             "Où tu rencontres tes amis?",
             "Where do you meet your friends?"
+          ],
+          [
+            "On rencontre demain à midi.",
+            "We're meeting tomorrow at noon."
           ]
         ],
         "special": "",
@@ -74,6 +82,10 @@
           [
             "Tu invites ton ami?",
             "Are you inviting your friend?"
+          ],
+          [
+            "Elle invite sa mère au cinéma.",
+            "She invites her mother to the cinema."
           ]
         ],
         "special": "",
@@ -101,6 +113,10 @@
           [
             "Ma meilleure amie est à Paris.",
             "My best friend is in Paris."
+          ],
+          [
+            "Tes amis sont sympas.",
+            "Your friends are nice."
           ]
         ],
         "special": "",
@@ -126,6 +142,10 @@
           [
             "Nous travaillons ensemble.",
             "We work together."
+          ],
+          [
+            "Ils habitent ensemble.",
+            "They live together."
           ]
         ],
         "special": "",
@@ -153,6 +173,10 @@
           [
             "Je me vois avec toi ce week-end.",
             "I'm seeing you this weekend."
+          ],
+          [
+            "Ils se voient tous les jours.",
+            "They see each other every day."
           ]
         ],
         "special": "",
@@ -180,6 +204,10 @@
           [
             "Où tu rencontres tes amis?",
             "Where do you meet your friends?"
+          ],
+          [
+            "Tu rencontres quelqu'un de nouveau?",
+            "Are you meeting someone new?"
           ]
         ],
         "special": "",
@@ -207,6 +235,10 @@
           [
             "Tu invites ton ami?",
             "Are you inviting your friend?"
+          ],
+          [
+            "Nous invitons la classe à la fête.",
+            "We're inviting the class to the party."
           ]
         ],
         "special": "",
@@ -234,6 +266,10 @@
           [
             "Ma meilleure amie est à Paris.",
             "My best friend is in Paris."
+          ],
+          [
+            "Mes amis aiment le sport.",
+            "My friends like sports."
           ]
         ],
         "special": "",
@@ -259,6 +295,10 @@
           [
             "Nous travaillons ensemble.",
             "We work together."
+          ],
+          [
+            "Vous voyagez ensemble?",
+            "Are you travelling together?"
           ]
         ],
         "special": "",
@@ -284,6 +324,10 @@
           [
             "Je reviens bientôt.",
             "I'll be back soon."
+          ],
+          [
+            "On se voit bientôt?",
+            "Shall we see each other soon?"
           ]
         ],
         "special": "",
@@ -309,6 +353,10 @@
           [
             "Deux fois par semaine, je fais du sport.",
             "Twice a week, I do sports."
+          ],
+          [
+            "Il me parle trois fois par jour.",
+            "He speaks to me three times a day."
           ]
         ],
         "special": "",
