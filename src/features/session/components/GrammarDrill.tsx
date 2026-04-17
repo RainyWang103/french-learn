@@ -3,7 +3,10 @@ import type { GrammarContent } from '$types/curriculum'
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spk } from '$lib/speech'
-import QuizItem, { type DrillQuestion } from './QuizItem'
+import { countAnswered, countCorrect, grammarDrillItemToDrill } from '../utils/quiz'
+import type { DrillQuestion } from '../utils/quiz'
+import QuizItem from './QuizItem'
+import ProgressBar from './ProgressBar'
 import styles from './GrammarDrill.module.css'
 
 interface GrammarDrillProps {
@@ -11,18 +14,6 @@ interface GrammarDrillProps {
   difficulty: number
   track: Track
   onDone: (result: { score: number; total: number }) => void
-}
-
-function ProgressBar({ current, total, label }: { current: number; total: number; label: string }) {
-  const pct = total > 0 ? (current / total) * 100 : 0
-  return (
-    <div className={styles.progressWrapper}>
-      <div className={styles.progressLabel}>{label}</div>
-      <div className={styles.progressBar}>
-        <div className={styles.progressFill} style={{ width: `${pct}%` }} />
-      </div>
-    </div>
-  )
 }
 
 function ListenBtnSmall({ text }: { text: string }) {
@@ -46,15 +37,11 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
   const [phase, setPhase] = useState<'learn' | 'drill'>('learn')
   const [answers, setAnswers] = useState<Record<number, boolean>>({})
 
-  const activeDrills: DrillQuestion[] = grammar.drills.slice(0, drillCount).map((d) => ({
-    type: d.type,
-    question: d.question,
-    options: d.options,
-    correctAnswer: d.correctAnswer,
-    explanation: d.explanation,
-  }))
+  const activeDrills: DrillQuestion[] = grammar.drills
+    .slice(0, drillCount)
+    .map(grammarDrillItemToDrill)
 
-  const answeredCount = Object.keys(answers).length
+  const answeredCount = countAnswered(answers)
   const allAnswered = answeredCount === activeDrills.length
 
   if (phase === 'learn') {
@@ -87,7 +74,7 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
     )
   }
 
-  const score = Object.values(answers).filter(Boolean).length
+  const score = countCorrect(answers)
   return (
     <div className={styles.section}>
       <ProgressBar current={answeredCount} total={activeDrills.length} label="Grammar Drills" />

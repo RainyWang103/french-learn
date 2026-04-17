@@ -1,23 +1,9 @@
 import { useState } from 'react'
+import { checkAnswer } from '../utils/quiz'
 import styles from './QuizItem.module.css'
 
-export interface DrillQuestion {
-  type: 'multipleChoice' | 'fillInTheBlank'
-  question: string
-  options?: string[]
-  correctAnswer: string
-  explanation?: string
-}
-
-function normalise(text: string): string {
-  return text
-    .toLowerCase()
-    .trim()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/['']/g, "'")
-    .replace(/\s+/g, ' ')
-}
+export type { DrillQuestion } from '../utils/quiz'
+import type { DrillQuestion } from '../utils/quiz'
 
 interface QuizItemProps {
   question: DrillQuestion
@@ -34,7 +20,7 @@ export default function QuizItem({ question, index, onAnswer }: QuizItemProps) {
 
   function submitAnswer(value: string) {
     if (answered !== null) return
-    const correct = normalise(value) === normalise(question.correctAnswer)
+    const correct = checkAnswer(value, question.correctAnswer)
     setSelected(value)
     setAnswered(correct)
     onAnswer(correct)
@@ -53,8 +39,7 @@ export default function QuizItem({ question, index, onAnswer }: QuizItemProps) {
         <div className={styles.options}>
           {question.options.map((option) => {
             const isSelected = selected === option
-            const isCorrectOption =
-              answered !== null && normalise(option) === normalise(question.correctAnswer)
+            const isCorrectOption = answered !== null && checkAnswer(option, question.correctAnswer)
             const isWrongOption = isSelected && answered === false
             return (
               <button

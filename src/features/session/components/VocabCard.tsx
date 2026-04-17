@@ -3,7 +3,16 @@ import type { VocabWord, VerbForms, GenderForms, QuizQuestion } from '$types/cur
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spkV } from '$lib/speech'
-import QuizItem, { type DrillQuestion } from './QuizItem'
+import {
+  countAnswered,
+  countCorrect,
+  extractFlaggedWords,
+  quizQuestionToDrill,
+} from '../utils/quiz'
+import type { DrillQuestion } from '../utils/quiz'
+import { genderLabel } from '../utils/vocab'
+import QuizItem from './QuizItem'
+import ProgressBar from './ProgressBar'
 import styles from './VocabCard.module.css'
 
 interface VocabCardProps {
@@ -13,18 +22,6 @@ interface VocabCardProps {
   difficulty: number
   hidePronunciation: boolean
   onDone: (result: { score: number; total: number; flaggedWords: string[] }) => void
-}
-
-function ProgressBar({ current, total, label }: { current: number; total: number; label: string }) {
-  const pct = total > 0 ? (current / total) * 100 : 0
-  return (
-    <div className={styles.progressWrapper}>
-      <div className={styles.progressLabel}>{label}</div>
-      <div className={styles.progressBar}>
-        <div className={styles.progressFill} style={{ width: `${pct}%` }} />
-      </div>
-    </div>
-  )
 }
 
 function ListenButton({
@@ -83,12 +80,14 @@ function VerbFormsTable({ forms }: { forms: VerbForms }) {
 }
 
 function GenderFormsTable({ forms }: { forms: GenderForms }) {
-  const rows: [string, string][] = [
-    ['masculine', forms.masculine],
-    ['feminine', forms.feminine],
-    ['masc. plural', forms.masculinePlural],
-    ['fem. plural', forms.femininePlural],
-  ].filter(([, value]) => value !== '') as [string, string][]
+  const rows: [string, string][] = (
+    [
+      ['masculine', forms.masculine],
+      ['feminine', forms.feminine],
+      ['masc. plural', forms.masculinePlural],
+      ['fem. plural', forms.femininePlural],
+    ] as [string, string][]
+  ).filter(([, value]) => value !== '')
 
   if (rows.length === 0) return null
   return (
@@ -129,7 +128,7 @@ function WordCard({
   isLast: boolean
   onStartQuiz: () => void
 }) {
-  const genderLabel = word.gender === 'male' ? 'masc.' : word.gender === 'female' ? 'fém.' : null
+  const label = genderLabel(word.gender)
 
   return (
     <div>
@@ -139,9 +138,7 @@ function WordCard({
           <div>
             <h2 className={styles.wordTitle}>{word.word}</h2>
             <div className={styles.badges}>
-              {genderLabel && (
-                <span className={styles.badge + ' ' + styles.badgeGender}>{genderLabel}</span>
-              )}
+              {label && <span className={styles.badge + ' ' + styles.badgeGender}>{label}</span>}
               <span className={styles.badge + ' ' + styles.badgePos}>{word.partOfSpeech}</span>
               {word.special && (
                 <span className={styles.badge + ' ' + styles.badgeSpecial}>{word.special}</span>
@@ -228,19 +225,13 @@ export default function VocabCard({
   const [cardIndex, setCardIndex] = useState(0)
   const [answers, setAnswers] = useState<Record<number, boolean>>({})
 
-  const quizItems: DrillQuestion[] = quizQuestions.map((q) => ({
-    type: q.type,
-    question: q.question,
-    options: q.options,
-    correctAnswer: q.correctAnswer,
-    explanation: q.explanation,
-  }))
+  const quizItems: DrillQuestion[] = quizQuestions.map(quizQuestionToDrill)
 
-  const answeredCount = Object.keys(answers).length
+  const answeredCount = countAnswered(answers)
   const allAnswered = answeredCount === quizItems.length
 
   if (phase === 'quiz') {
-    const score = Object.values(answers).filter(Boolean).length
+    const score = countCorrect(answers)
     return (
       <div className={styles.section}>
         <ProgressBar current={answeredCount} total={quizItems.length} label="Vocab Quiz" />
@@ -266,12 +257,13 @@ export default function VocabCard({
             </div>
             <button
               className={styles.btnPrimary}
-              onClick={() => {
-                const flaggedWords = quizQuestions
-                  .filter((q, i) => !answers[i] && q.targetWord)
-                  .map((q) => q.targetWord as string)
-                onDone({ score, total: quizItems.length, flaggedWords })
-              }}
+              onClick={() =>
+                onDone({
+                  score,
+                  total: quizItems.length,
+                  flaggedWords: extractFlaggedWords(quizQuestions, answers),
+                })
+              }
             >
               Continue →
             </button>

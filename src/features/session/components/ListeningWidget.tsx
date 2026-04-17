@@ -3,7 +3,11 @@ import type { ListenContent } from '$types/curriculum'
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spkV } from '$lib/speech'
-import QuizItem, { type DrillQuestion } from './QuizItem'
+import { countAnswered, countCorrect, listeningQuestionToDrill } from '../utils/quiz'
+import { computeLineDuration } from '../utils/dialogue'
+import type { DrillQuestion } from '../utils/quiz'
+import QuizItem from './QuizItem'
+import ProgressBar from './ProgressBar'
 import styles from './ListeningWidget.module.css'
 
 interface ListeningWidgetProps {
@@ -14,18 +18,6 @@ interface ListeningWidgetProps {
 }
 
 type Phase = 'listen' | 'questions' | 'transcript'
-
-function ProgressBar({ current, total, label }: { current: number; total: number; label: string }) {
-  const pct = total > 0 ? (current / total) * 100 : 0
-  return (
-    <div className={styles.progressWrapper}>
-      <div className={styles.progressLabel}>{label}</div>
-      <div className={styles.progressBar}>
-        <div className={styles.progressFill} style={{ width: `${pct}%` }} />
-      </div>
-    </div>
-  )
-}
 
 export default function ListeningWidget({
   listen,
@@ -42,14 +34,11 @@ export default function ListeningWidget({
   const [answers, setAnswers] = useState<Record<number, boolean>>({})
   const timeoutsRef = useRef<number[]>([])
 
-  const activeQuestions: DrillQuestion[] = listen.questions.slice(0, questionCount).map((q) => ({
-    type: 'multipleChoice',
-    question: q.question,
-    options: q.options,
-    correctAnswer: q.correctAnswer,
-  }))
+  const activeQuestions: DrillQuestion[] = listen.questions
+    .slice(0, questionCount)
+    .map(listeningQuestionToDrill)
 
-  const answeredCount = Object.keys(answers).length
+  const answeredCount = countAnswered(answers)
   const allAnswered = answeredCount === activeQuestions.length
   const replaysRemaining = maxReplays === -1 ? Infinity : maxReplays - replaysUsed
   const canReplay = replaysRemaining > 0
@@ -65,7 +54,7 @@ export default function ListeningWidget({
         spkV(text, speaker === 'A' ? 'f' : 'm', playbackSpeed)
       }, delay)
       timeoutsRef.current.push(id)
-      delay += Math.max(2400, text.length * 75)
+      delay += computeLineDuration(text)
     })
 
     const doneId = window.setTimeout(() => setIsPlaying(false), delay + 200)
@@ -114,7 +103,7 @@ export default function ListeningWidget({
   }
 
   if (phase === 'questions') {
-    const score = Object.values(answers).filter(Boolean).length
+    const score = countCorrect(answers)
     return (
       <div className={styles.section}>
         <ProgressBar current={answeredCount} total={activeQuestions.length} label="Comprehension" />
@@ -163,7 +152,7 @@ export default function ListeningWidget({
   }
 
   // Transcript phase
-  const score = Object.values(answers).filter(Boolean).length
+  const score = countCorrect(answers)
   return (
     <div className={styles.section}>
       <div className={styles.transcriptCard}>

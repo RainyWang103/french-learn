@@ -1,5 +1,8 @@
 import { useState } from 'react'
-import QuizItem, { type DrillQuestion } from './QuizItem'
+import { countAnswered, countCorrect } from '../utils/quiz'
+import type { DrillQuestion } from '../utils/quiz'
+import QuizItem from './QuizItem'
+import ProgressBar from './ProgressBar'
 import styles from './RevisionSection.module.css'
 
 interface RevisionSectionProps {
@@ -8,18 +11,6 @@ interface RevisionSectionProps {
 }
 
 const MAX_REVISION_WORDS = 5
-
-function ProgressBar({ current, total, label }: { current: number; total: number; label: string }) {
-  const pct = total > 0 ? (current / total) * 100 : 0
-  return (
-    <div className={styles.progressWrapper}>
-      <div className={styles.progressLabel}>{label}</div>
-      <div className={styles.progressBar}>
-        <div className={styles.progressFill} style={{ width: `${pct}%` }} />
-      </div>
-    </div>
-  )
-}
 
 export default function RevisionSection({ flaggedWords, onDone }: RevisionSectionProps) {
   const [answers, setAnswers] = useState<Record<number, boolean>>({})
@@ -46,9 +37,9 @@ export default function RevisionSection({ flaggedWords, onDone }: RevisionSectio
     correctAnswer: word,
   }))
 
-  const answeredCount = Object.keys(answers).length
+  const answeredCount = countAnswered(answers)
   const allAnswered = answeredCount === quizItems.length
-  const score = Object.values(answers).filter(Boolean).length
+  const score = countCorrect(answers)
 
   return (
     <div className={styles.section}>
