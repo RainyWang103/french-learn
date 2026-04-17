@@ -1,7 +1,7 @@
 import type { DrillQuestion } from '$session/utils/quiz'
 import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
-import QuizItem from './QuizItem'
-import ProgressBar from './ProgressBar'
+import QuizItem from '$session/components/QuizItem'
+import ProgressBar from '$session/components/ProgressBar'
 import styles from './RevisionSection.module.css'
 
 interface RevisionSectionProps {

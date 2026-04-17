@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { renderHook, act } from '@testing-library/react'
-import { useDialoguePlayer } from './useDialoguePlayer'
+import { useDialoguePlayer } from '$session/hooks/useDialoguePlayer'
 import * as speech from '$lib/speech'
 
 vi.mock('$lib/speech', () => ({ spkV: vi.fn() }))

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { genderLabel } from './vocab'
+import { genderLabel } from '$session/utils/vocab'
 
 describe('genderLabel', () => {
   it('returns "masc." for male gender', () => {

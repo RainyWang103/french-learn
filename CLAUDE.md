@@ -363,7 +363,7 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 | `$features/*` | `src/features/*`               |
 | `$session/*`  | `src/features/session/*`       |
 
-Always use these aliases — never use relative `../` imports that cross directory boundaries.
+Always use these aliases — **never use relative imports** (`./` or `../`) except for CSS module files (e.g. `import styles from './Foo.module.css'`). This applies to all feature code including `index.ts` barrel files and test files. The only exception is `src/main.tsx`, which has no applicable alias.
 
 When adding a new top-level directory under `src/`, register its alias in **both** places:
 1. `tsconfig.json` → `compilerOptions.paths`: add `"$name/*": ["src/name/*"]`

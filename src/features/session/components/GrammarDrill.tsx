@@ -7,8 +7,8 @@ import { grammarDrillItemToDrill } from '$session/utils/quiz'
 import type { DrillQuestion } from '$session/utils/quiz'
 import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
 import { GrammarPhase } from '$session/constants'
-import QuizItem from './QuizItem'
-import ProgressBar from './ProgressBar'
+import QuizItem from '$session/components/QuizItem'
+import ProgressBar from '$session/components/ProgressBar'
 import styles from './GrammarDrill.module.css'
 
 interface GrammarDrillProps {

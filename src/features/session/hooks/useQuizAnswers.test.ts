@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { renderHook, act } from '@testing-library/react'
-import { useQuizAnswers } from './useQuizAnswers'
+import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
 
 describe('useQuizAnswers', () => {
   it('initialises with empty answers and zero counts', () => {

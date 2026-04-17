@@ -8,8 +8,8 @@ import type { DrillQuestion } from '$session/utils/quiz'
 import { genderLabel } from '$session/utils/vocab'
 import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
 import { VocabPhase } from '$session/constants'
-import QuizItem from './QuizItem'
-import ProgressBar from './ProgressBar'
+import QuizItem from '$session/components/QuizItem'
+import ProgressBar from '$session/components/ProgressBar'
 import styles from './VocabCard.module.css'
 
 interface VocabCardProps {

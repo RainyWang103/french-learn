@@ -9,7 +9,7 @@ import {
   quizQuestionToDrill,
   listeningQuestionToDrill,
   grammarDrillItemToDrill,
-} from './quiz'
+} from '$session/utils/quiz'
 import type { QuizQuestion, ListeningQuestion, GrammarDrillItem } from '$types/curriculum'
 
 describe('normalise', () => {

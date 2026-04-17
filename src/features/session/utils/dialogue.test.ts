@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { computeLineDuration } from './dialogue'
+import { computeLineDuration } from '$session/utils/dialogue'
 
 describe('computeLineDuration', () => {
   it('returns minimum 2400ms for very short text', () => {
