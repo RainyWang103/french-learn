@@ -1,5 +1,5 @@
 {
-  "lastDay": 63,
+  "lastDay": 84,
   "grammarTitles": [
     {
       "day": 1,
@@ -235,6 +235,81 @@
       "day": 63,
       "standard": "Connaître vs Savoir (Two Verbs for 'to know')",
       "advanced": "Connaître vs Savoir — Full Distinction, Nuances & Common Traps"
+    },
+    {
+      "day": 65,
+      "standard": "Articles with Days & Time of Day",
+      "advanced": "Articles with Days & Time of Day"
+    },
+    {
+      "day": 66,
+      "standard": "Quelqu'un / Personne / Quelque chose / Rien (Indefinite Pronouns)",
+      "advanced": "Quelqu'un / Personne / Quelque chose / Rien (Indefinite Pronouns)"
+    },
+    {
+      "day": 67,
+      "standard": "Boire (Present Tense — Irregular Verb)",
+      "advanced": "Boire (Present Tense — Irregular Verb)"
+    },
+    {
+      "day": 69,
+      "standard": "Irregular Adjectives (beau, nouveau, vieux)",
+      "advanced": "Irregular Adjectives (beau, nouveau, vieux)"
+    },
+    {
+      "day": 70,
+      "standard": "Adverbs of Manner (-ment suffix formation)",
+      "advanced": "Adverbs of Manner (-ment suffix formation)"
+    },
+    {
+      "day": 71,
+      "standard": "Irregular -IR Verbs (sortir, partir, dormir, sentir)",
+      "advanced": "Irregular -IR Verbs (sortir, partir, dormir, sentir)"
+    },
+    {
+      "day": 73,
+      "standard": "Mettre (Present Tense — Irregular Verb)",
+      "advanced": "Mettre (Present Tense — Irregular Verb)"
+    },
+    {
+      "day": 74,
+      "standard": "Dates (le + number + month + year)",
+      "advanced": "Dates (le + number + month + year)"
+    },
+    {
+      "day": 75,
+      "standard": "Numbers 100–1,000,000",
+      "advanced": "Numbers 100–1,000,000"
+    },
+    {
+      "day": 77,
+      "standard": "Il y a + duration vs Dans + duration",
+      "advanced": "Il y a + duration vs Dans + duration"
+    },
+    {
+      "day": 78,
+      "standard": "Venir de + Infinitive (Recent Past)",
+      "advanced": "Venir de + Infinitive (Recent Past)"
+    },
+    {
+      "day": 79,
+      "standard": "Spelling-Change Verbs (-cer / -ger)",
+      "advanced": "Spelling-Change Verbs (-cer / -ger)"
+    },
+    {
+      "day": 81,
+      "standard": "Si + Present (General Truths)",
+      "advanced": "Si + Present (General Truths)"
+    },
+    {
+      "day": 82,
+      "standard": "Quand as Temporal Conjunction",
+      "advanced": "Quand as Temporal Conjunction"
+    },
+    {
+      "day": 83,
+      "standard": "Mieux vs Meilleur",
+      "advanced": "Mieux vs Meilleur"
     }
   ],
   "vocabWords": [
@@ -812,6 +887,186 @@
         "ensemble",
         "bientôt",
         "la fois"
+      ]
+    },
+    {
+      "day": 65,
+      "words": [
+        "lundi",
+        "mardi",
+        "mercredi",
+        "jeudi",
+        "vendredi",
+        "samedi",
+        "dimanche"
+      ]
+    },
+    {
+      "day": 66,
+      "words": [
+        "le cousin",
+        "la cousine",
+        "l'oncle",
+        "la tante",
+        "le mari",
+        "le neveu",
+        "la nièce"
+      ]
+    },
+    {
+      "day": 67,
+      "words": [
+        "le frigo",
+        "le four",
+        "le micro-ondes",
+        "la casserole",
+        "la poêle",
+        "couper",
+        "mélanger"
+      ]
+    },
+    {
+      "day": 69,
+      "words": [
+        "noir",
+        "jaune",
+        "vert",
+        "bleu",
+        "gris",
+        "violet",
+        "marron"
+      ]
+    },
+    {
+      "day": 70,
+      "words": [
+        "sympathique",
+        "timide",
+        "sérieux",
+        "drôle",
+        "patient",
+        "méchant",
+        "généreux"
+      ]
+    },
+    {
+      "day": 71,
+      "words": [
+        "la sortie",
+        "le bar",
+        "la boîte",
+        "le pub",
+        "le ticket",
+        "la soirée",
+        "danser"
+      ]
+    },
+    {
+      "day": 73,
+      "words": [
+        "le sac à main",
+        "la cravate",
+        "la bague",
+        "les lunettes",
+        "le parapluie",
+        "le portefeuille",
+        "le collier"
+      ]
+    },
+    {
+      "day": 74,
+      "words": [
+        "janvier",
+        "février",
+        "mars",
+        "avril",
+        "mai",
+        "juin",
+        "juillet"
+      ]
+    },
+    {
+      "day": 75,
+      "words": [
+        "cent",
+        "mille",
+        "million",
+        "milliard",
+        "le nombre",
+        "le chiffre",
+        "compter"
+      ]
+    },
+    {
+      "day": 77,
+      "words": [
+        "hier",
+        "demain",
+        "aujourd'hui",
+        "la veille",
+        "le lendemain",
+        "auparavant",
+        "tout à l'heure"
+      ]
+    },
+    {
+      "day": 78,
+      "words": [
+        "allô",
+        "le numéro",
+        "composer",
+        "raccrocher",
+        "rappeler",
+        "répondre",
+        "la sonnerie"
+      ]
+    },
+    {
+      "day": 79,
+      "words": [
+        "l'aéroport",
+        "le vol",
+        "le bagage",
+        "l'embarquement",
+        "le pilote",
+        "atterrir",
+        "décoller"
+      ]
+    },
+    {
+      "day": 81,
+      "words": [
+        "le collège",
+        "le lycée",
+        "l'université",
+        "la rentrée",
+        "la note",
+        "l'élève",
+        "la matière"
+      ]
+    },
+    {
+      "day": 82,
+      "words": [
+        "le foot",
+        "le tennis",
+        "la natation",
+        "le basket",
+        "le ski",
+        "nager",
+        "courir"
+      ]
+    },
+    {
+      "day": 83,
+      "words": [
+        "le journaliste",
+        "l'article",
+        "l'actualité",
+        "les informations",
+        "le reportage",
+        "diffuser",
+        "publier"
       ]
     }
   ]

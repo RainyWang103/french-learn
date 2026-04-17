@@ -465,7 +465,7 @@ describe('curriculum JSON validation', () => {
     }
   })
 
-  it('phase1 should have exactly 15 revision stubs and 48 content files', () => {
+  it('phase1 should have exactly 21 revision stubs and 63 content files', () => {
     const phase1 = curriculumFiles.filter((f) => f.phase === 'phase1')
     let revisionCount = 0
     let contentCount = 0
@@ -474,8 +474,8 @@ describe('curriculum JSON validation', () => {
       if (isRevisionStub(data)) revisionCount++
       else contentCount++
     }
-    expect(revisionCount, 'phase1 should have exactly 15 revision stubs').toBe(15)
-    expect(contentCount, 'phase1 should have exactly 48 content files').toBe(48)
+    expect(revisionCount, 'phase1 should have exactly 21 revision stubs').toBe(21)
+    expect(contentCount, 'phase1 should have exactly 63 content files').toBe(63)
   })
 
   it('should have no duplicate grammar titles within a phase', () => {
