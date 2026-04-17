@@ -1,0 +1,850 @@
+{
+  "day": 79,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "At the Airport",
+  "vocab": {
+    "standard": [
+      {
+        "word": "l'aéroport",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ah-ay-roh-POR",
+        "meaning": "the airport",
+        "notes": "masculine noun, always with the article",
+        "examples": [
+          [
+            "Je vais à l'aéroport.",
+            "I go to the airport."
+          ],
+          [
+            "L'aéroport est loin.",
+            "The airport is far away."
+          ],
+          [
+            "Nous attendons à l'aéroport.",
+            "We wait at the airport."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "aéroport",
+          "feminine": "",
+          "masculinePlural": "aéroports",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le vol",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh vohl",
+        "meaning": "the flight",
+        "notes": "a trip by airplane",
+        "examples": [
+          [
+            "Mon vol est à 14 heures.",
+            "My flight is at 2 PM."
+          ],
+          [
+            "Le vol est retardé.",
+            "The flight is delayed."
+          ],
+          [
+            "Quel vol prenez-vous?",
+            "Which flight are you taking?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "vol",
+          "feminine": "",
+          "masculinePlural": "vols",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le bagage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "bah-GAH-zhuh",
+        "meaning": "the luggage",
+        "notes": "luggage/baggage — often plural: les bagages",
+        "examples": [
+          [
+            "Où est mon bagage?",
+            "Where is my luggage?"
+          ],
+          [
+            "Je porte mes bagages.",
+            "I carry my luggage."
+          ],
+          [
+            "Le bagage est lourd.",
+            "The luggage is heavy."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bagage",
+          "feminine": "",
+          "masculinePlural": "bagages",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'embarquement",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ahn-bar-kuh-MAHN",
+        "meaning": "the boarding",
+        "notes": "boarding process for a flight",
+        "examples": [
+          [
+            "L'embarquement commence.",
+            "Boarding begins."
+          ],
+          [
+            "À quelle heure est l'embarquement?",
+            "What time is boarding?"
+          ],
+          [
+            "Nous attendons l'embarquement.",
+            "We are waiting for boarding."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "embarquement",
+          "feminine": "",
+          "masculinePlural": "embarquements",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "atterrir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ah-tuh-REER",
+        "meaning": "to land",
+        "notes": "regular -IR (like finir)",
+        "examples": [
+          [
+            "L'avion atterrit.",
+            "The airplane lands."
+          ],
+          [
+            "Nous atterrissons à Paris.",
+            "We land in Paris."
+          ],
+          [
+            "À quelle heure atterrissez-vous?",
+            "What time do you land?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "j'atterris",
+          "tu": "tu atterris",
+          "il": "il/elle/on atterrit",
+          "nous": "nous atterrissons",
+          "vous": "vous atterrissez",
+          "ils": "ils/elles atterrissent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "l'aéroport",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ah-ay-roh-POR",
+        "meaning": "the airport",
+        "notes": "masculine noun, always with the article",
+        "examples": [
+          [
+            "Je vais à l'aéroport.",
+            "I go to the airport."
+          ],
+          [
+            "L'aéroport est loin.",
+            "The airport is far away."
+          ],
+          [
+            "Nous attendons à l'aéroport.",
+            "We wait at the airport."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "aéroport",
+          "feminine": "",
+          "masculinePlural": "aéroports",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le vol",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "luh vohl",
+        "meaning": "the flight",
+        "notes": "a trip by airplane",
+        "examples": [
+          [
+            "Mon vol est à 14 heures.",
+            "My flight is at 2 PM."
+          ],
+          [
+            "Le vol est retardé.",
+            "The flight is delayed."
+          ],
+          [
+            "Quel vol prenez-vous?",
+            "Which flight are you taking?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "vol",
+          "feminine": "",
+          "masculinePlural": "vols",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le bagage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "bah-GAH-zhuh",
+        "meaning": "the luggage",
+        "notes": "luggage/baggage — often plural: les bagages",
+        "examples": [
+          [
+            "Où est mon bagage?",
+            "Where is my luggage?"
+          ],
+          [
+            "Je porte mes bagages.",
+            "I carry my luggage."
+          ],
+          [
+            "Le bagage est lourd.",
+            "The luggage is heavy."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "bagage",
+          "feminine": "",
+          "masculinePlural": "bagages",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'embarquement",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ahn-bar-kuh-MAHN",
+        "meaning": "the boarding",
+        "notes": "boarding process for a flight",
+        "examples": [
+          [
+            "L'embarquement commence.",
+            "Boarding begins."
+          ],
+          [
+            "À quelle heure est l'embarquement?",
+            "What time is boarding?"
+          ],
+          [
+            "Nous attendons l'embarquement.",
+            "We are waiting for boarding."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "embarquement",
+          "feminine": "",
+          "masculinePlural": "embarquements",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le pilote",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "pee-LOH-tuh",
+        "meaning": "the pilot",
+        "notes": "pilot — both masculine and feminine (le/la pilote)",
+        "examples": [
+          [
+            "Le pilote dit bonjour.",
+            "The pilot says hello."
+          ],
+          [
+            "Elle est pilote d'avion.",
+            "She is an airplane pilot."
+          ],
+          [
+            "Le pilote atterrit bien.",
+            "The pilot lands well."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "pilote",
+          "feminine": "pilote",
+          "masculinePlural": "pilotes",
+          "femininePlural": "pilotes"
+        }
+      },
+      {
+        "word": "atterrir",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ah-tuh-REER",
+        "meaning": "to land",
+        "notes": "regular -IR (like finir)",
+        "examples": [
+          [
+            "L'avion atterrit.",
+            "The airplane lands."
+          ],
+          [
+            "Nous atterrissons à Paris.",
+            "We land in Paris."
+          ],
+          [
+            "À quelle heure atterrissez-vous?",
+            "What time do you land?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "j'atterris",
+          "tu": "tu atterris",
+          "il": "il/elle/on atterrit",
+          "nous": "nous atterrissons",
+          "vous": "vous atterrissez",
+          "ils": "ils/elles atterrissent"
+        }
+      },
+      {
+        "word": "décoller",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "day-kohl-AY",
+        "meaning": "to take off",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "L'avion décolle bientôt.",
+            "The airplane takes off soon."
+          ],
+          [
+            "Nous décollons à neuf heures.",
+            "We take off at 9 AM."
+          ],
+          [
+            "À quelle heure décollons-nous?",
+            "What time do we take off?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je décolle",
+          "tu": "tu décoles",
+          "il": "il/elle/on décolle",
+          "nous": "nous décollons",
+          "vous": "vous décollez",
+          "ils": "ils/elles décollent"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Allô, c'est le guichet de l'aéroport."
+        ],
+        [
+          "B",
+          "Bonjour, mon vol est retardé. À quelle heure décolle mon vol?"
+        ],
+        [
+          "A",
+          "Quel est le numéro de votre vol?"
+        ],
+        [
+          "B",
+          "C'est le vol AF 405 pour Paris."
+        ],
+        [
+          "A",
+          "Un moment... Le vol décolle à dix-sept heures."
+        ],
+        [
+          "B",
+          "Merci beaucoup. Au revoir!"
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Pourquoi B appelle?",
+          "options": [
+            "Le vol est retardé",
+            "Il cherche son bagage",
+            "L'embarquement commence"
+          ],
+          "correctAnswer": "Le vol est retardé"
+        },
+        {
+          "question": "Quel est le numéro du vol?",
+          "options": [
+            "AF 405",
+            "AF 504",
+            "AF 450"
+          ],
+          "correctAnswer": "AF 405"
+        },
+        {
+          "question": "À quelle heure décolle le vol?",
+          "options": [
+            "16 heures",
+            "17 heures",
+            "18 heures"
+          ],
+          "correctAnswer": "17 heures"
+        }
+      ],
+      "summary": "A traveller calls the airport information desk to ask about their delayed flight AF 405 to Paris. They learn the new departure time is 5 PM."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Bonjour, bienvenue à l'aéroport. Comment puis-je vous aider?"
+        ],
+        [
+          "B",
+          "Bonjour, j'ai un problème avec mon bagage. Il n'est pas arrivé avec mon vol."
+        ],
+        [
+          "A",
+          "Oh non! De quel vol arrivez-vous?"
+        ],
+        [
+          "B",
+          "Je viens du vol AF 405 de Paris. L'avion a atterri il y a deux heures."
+        ],
+        [
+          "A",
+          "Je vais vérifier. Donnez-moi votre numéro de vol et votre nom."
+        ],
+        [
+          "B",
+          "Je m'appelle Laurent Dupont et le vol était AF 405."
+        ],
+        [
+          "A",
+          "Un moment... Ah oui! Votre bagage a été retardé. Il atterrit demain matin."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Quel est le problème de B?",
+          "options": [
+            "Le vol est retardé",
+            "Son bagage n'est pas arrivé",
+            "L'embarquement est fermé",
+            "Il perd son passeport"
+          ],
+          "correctAnswer": "Son bagage n'est pas arrivé"
+        },
+        {
+          "question": "De quel vol B vient-il?",
+          "options": [
+            "AF 504",
+            "AF 405",
+            "AF 450"
+          ],
+          "correctAnswer": "AF 405"
+        },
+        {
+          "question": "Quand l'avion a-t-il atterri?",
+          "options": [
+            "Il y a une heure",
+            "Il y a deux heures",
+            "Il y a trois heures"
+          ],
+          "correctAnswer": "Il y a deux heures"
+        },
+        {
+          "question": "Quand est-ce que le bagage atterrit?",
+          "options": [
+            "Ce soir",
+            "Demain matin",
+            "Dans une semaine"
+          ],
+          "correctAnswer": "Demain matin"
+        }
+      ],
+      "summary": "A passenger reports that their luggage did not arrive with their flight from Paris. After checking, the agent informs them that the baggage was delayed and will arrive the following morning."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Spelling-Change Verbs (-cer / -ger)",
+      "explanation": "Verbs ending in -cer and -ger have spelling changes to keep their pronunciation. For -cer verbs, add a cedilla (ç) before -ons: nous commençons (not 'commençons'). For -ger verbs, add an -e before -ons: nous mangeons, nous voyageons. This only affects the nous form in present tense. Examples: commencer → nous commençons; manger → nous mangeons; voyager → nous voyageons; lancer → nous lançons. The other forms keep the original spelling.",
+      "examples": [
+        {
+          "french": "Nous commençons à parler.",
+          "english": "We begin to speak."
+        },
+        {
+          "french": "Vous mangez à midi.",
+          "english": "You eat at noon."
+        },
+        {
+          "french": "Elle voyage souvent.",
+          "english": "She travels often."
+        },
+        {
+          "french": "Je lance la balle.",
+          "english": "I throw the ball."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ à l'aéroport. (We begin at the airport.)",
+          "options": [
+            "commencens",
+            "commençons",
+            "commancens"
+          ],
+          "correctAnswer": "commençons",
+          "explanation": "-cer verbs add a cedilla before -ons: commençons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ le bagage. (You carry the luggage.)",
+          "options": [
+            "portes",
+            "portez",
+            "portent"
+          ],
+          "correctAnswer": "portez",
+          "explanation": "Regular -ER verb for 'vous' form."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce qu'une cedille?",
+          "options": [
+            "Un accent",
+            "Un symbole français (ç)",
+            "Une marque de temps"
+          ],
+          "correctAnswer": "Un symbole français (ç)",
+          "explanation": "The cedilla (ç) appears under the 'c' to keep the soft /s/ sound."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ à Paris. (We travel to Paris.)",
+          "options": [
+            "voyageons",
+            "voyagons",
+            "voyages"
+          ],
+          "correctAnswer": "voyageons",
+          "explanation": "-ger verbs add -e before -ons: voyageons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ à manger. (They begin to eat.)",
+          "options": [
+            "commencent",
+            "commencents",
+            "commencen"
+          ],
+          "correctAnswer": "commencent",
+          "explanation": "Third-person plural uses 'commencent' (no cedilla needed here)."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Spelling-Change Verbs — -cer, -ger & Other Stem Changes",
+      "explanation": "Several classes of verbs have spelling changes in their present-tense conjugations to preserve pronunciation. (1) -cer verbs: add cedilla (ç) before -ons only: commencer → je commence, nous commençons. (2) -ger verbs: add -e before -ons only: manger → je mange, nous mangeons. (3) Verbs with accented e (e.g., préférer, espérer): in some forms, the e becomes è: je préfère, tu préfères, il préfère, ils préfèrent (but nous préférons, vous préférez). (4) Verbs ending in -yer (payer, employer): some change y to i in forms without a pronounced ending. The most important rule: spelling changes occur only where pronunciation requires them.",
+      "examples": [
+        {
+          "french": "Nous commençons à voyager.",
+          "english": "We begin to travel."
+        },
+        {
+          "french": "Vous mangez et vous voyagez.",
+          "english": "You eat and you travel."
+        },
+        {
+          "french": "Je préfère atterrir tôt.",
+          "english": "I prefer to land early."
+        },
+        {
+          "french": "Nous préférons décoller à midi.",
+          "english": "We prefer to take off at noon."
+        },
+        {
+          "french": "Elle paie l'embarquement.",
+          "english": "She pays for boarding."
+        },
+        {
+          "french": "Ils employent des pilotes expérimentés.",
+          "english": "They employ experienced pilots."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ à l'aéroport. (We begin at the airport.)",
+          "options": [
+            "commencens",
+            "commençons",
+            "commencons"
+          ],
+          "correctAnswer": "commençons",
+          "explanation": "-cer verbs add ç before -ons: commençons."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ à Paris. (We travel to Paris.)",
+          "options": [
+            "voyagons",
+            "voyageons",
+            "voyages"
+          ],
+          "correctAnswer": "voyageons",
+          "explanation": "-ger verbs add -e before -ons: voyageons."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la conjugaison correcte: 'Je préfère atterrir'?",
+          "options": [
+            "Je prefere atterrir",
+            "Je préfère atterrir",
+            "Je preferir atterrir"
+          ],
+          "correctAnswer": "Je préfère atterrir",
+          "explanation": "Verbs with e change to è when the stress moves to that syllable."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ à manger à l'aéroport. (You begin to eat at the airport.)",
+          "options": [
+            "commencez",
+            "commençez",
+            "commencess"
+          ],
+          "correctAnswer": "commencez",
+          "explanation": "For 'vous', -cer verbs use 'commencez' (no cedilla needed)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ le numéro du vol. (I note the flight number.)",
+          "options": [
+            "notes",
+            "note",
+            "notet"
+          ],
+          "correctAnswer": "note",
+          "explanation": "Regular -ER verb 'noter' for 'je' form."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Pourquoi la cedille dans 'commençons'?",
+          "options": [
+            "Pour la prononciation",
+            "Pour la grammaire",
+            "Pour l'élégance"
+          ],
+          "correctAnswer": "Pour la prononciation",
+          "explanation": "The cedilla keeps the soft /s/ sound: 'commençons' (soft s), not 'commencons' (hard k)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ les bagages à l'aéroport. (We carry luggage at the airport.)",
+          "options": [
+            "portons",
+            "portens",
+            "porteons"
+          ],
+          "correctAnswer": "portons",
+          "explanation": "Regular -ER verb 'porter' for 'nous' form."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ pour Paris. (They depart for Paris.)",
+          "options": [
+            "partent",
+            "partient",
+            "partont"
+          ],
+          "correctAnswer": "partent",
+          "explanation": "Regular -IR verb 'partir' for 'ils' form."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Où est-ce qu'on prend l'avion?",
+        "options": [
+          "À la gare",
+          "À l'aéroport",
+          "À l'école"
+        ],
+        "correctAnswer": "À l'aéroport",
+        "explanation": "On prend l'avion à l'aéroport."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "L'avion ___ à Paris. (The airplane lands in Paris.)",
+        "options": [
+          "atterrit",
+          "décolle",
+          "voyage"
+        ],
+        "correctAnswer": "atterrit",
+        "explanation": "'Atterrir' means 'to land'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que l'embarquement?",
+        "options": [
+          "Le départ de l'avion",
+          "L'entrée des passagers dans l'avion",
+          "L'arrivée de l'avion"
+        ],
+        "correctAnswer": "L'entrée des passagers dans l'avion",
+        "explanation": "L'embarquement est quand les passagers montent dans l'avion."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ à midi. (We take off at noon.)",
+        "options": [
+          "atterrissons",
+          "décollons",
+          "voyageons"
+        ],
+        "correctAnswer": "décollons",
+        "explanation": "'Décoller' means 'to take off'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la conjugaison correcte: 'Nous commençons'?",
+        "options": [
+          "Nous commencons",
+          "Nous commençons",
+          "Nous commencens"
+        ],
+        "correctAnswer": "Nous commençons",
+        "explanation": "-cer verbs add a cedilla before -ons."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Avec les verbes en -cer, que devient le 'c' à la forme 'nous'?",
+        "options": [
+          "ç (nous commençons)",
+          "c (nous commencons)",
+          "qu (nous commenquons)",
+          "k (nous commenkons)"
+        ],
+        "correctAnswer": "ç (nous commençons)",
+        "explanation": "Devant 'o' ou 'a', le 'c' des verbes en -cer devient 'ç' pour garder le son [s]: nous commençons.",
+        "targetWord": "commencer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'on fait à l'embarquement?",
+        "options": [
+          "On monte dans l'avion",
+          "On prend ses bagages",
+          "On atterrit",
+          "On réserve son billet"
+        ],
+        "correctAnswer": "On monte dans l'avion",
+        "explanation": "L'embarquement est le moment où les passagers montent à bord de l'avion.",
+        "targetWord": "l'embarquement"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est l'antonyme de 'décoller'?",
+        "options": [
+          "Atterrir",
+          "Voyager",
+          "Partir",
+          "Embarquer"
+        ],
+        "correctAnswer": "Atterrir",
+        "explanation": "Atterrir (to land) est l'opposé de décoller (to take off).",
+        "targetWord": "décoller"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le ___ conduit l'avion avec soin.",
+        "options": [
+          "pilote",
+          "bagage",
+          "vol"
+        ],
+        "correctAnswer": "pilote",
+        "explanation": "Le pilote est la personne qui conduit l'avion.",
+        "targetWord": "le pilote"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle forme de 'voyager' est correcte à 'nous'?",
+        "options": [
+          "nous voyageons",
+          "nous voyagons",
+          "nous voyagéons",
+          "nous voyagez"
+        ],
+        "correctAnswer": "nous voyageons",
+        "explanation": "Les verbes en -ger ajoutent un 'e' avant 'ons' pour garder le son [ʒ]: nous voyageons.",
+        "targetWord": "voyager"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You are at an airport check-in counter and need to hand over your luggage. Greet the agent and tell them you are checking in luggage.",
+      "keyPhrases": [
+        "Bonjour",
+        "Je veux enregistrer mon bagage",
+        "Mon vol est...",
+        "Voici mon passeport"
+      ],
+      "modelAnswer": "Bonjour! Je veux enregistrer mon bagage. Mon vol est AF 405 pour Paris. Voici mon passeport.",
+      "modelAnswerExplanation": "You greet the agent, state what you want (to check in luggage), mention your flight, and provide your passport. This is a typical airport exchange.",
+      "tip": "Be polite and clear. Always have your passport and flight ticket ready at the check-in counter."
+    },
+    "advanced": {
+      "scenario": "You are speaking with an airline agent about your upcoming flight. Ask about the departure time, boarding time, and confirm the number of bags you can bring.",
+      "keyPhrases": [
+        "À quelle heure décolle le vol?",
+        "À quelle heure commence l'embarquement?",
+        "Combien de bagages puis-je apporter?",
+        "Merci pour votre aide"
+      ],
+      "modelAnswer": "Bonjour! À quelle heure décolle le vol AF 405 pour Paris? À quelle heure commence l'embarquement? Combien de bagages puis-je apporter? Merci pour votre aide.",
+      "modelAnswerExplanation": "You ask specific questions about the flight details, boarding process, and luggage allowance. This shows you are organized and prepared.",
+      "tip": "Use polite question forms and prepare your questions before approaching the counter. Always thank the agent for their help."
+    }
+  }
+}

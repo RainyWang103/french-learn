@@ -1,0 +1,860 @@
+{
+  "day": 78,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "On the Phone",
+  "vocab": {
+    "standard": [
+      {
+        "word": "allô",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "ah-LOH",
+        "meaning": "hello (on the phone)",
+        "notes": "greeting used when answering the phone",
+        "examples": [
+          [
+            "Allô, qui est à l'appareil?",
+            "Hello, who is on the phone?"
+          ],
+          [
+            "Allô, ici Marie.",
+            "Hello, this is Marie speaking."
+          ],
+          [
+            "Allô, tu m'entends?",
+            "Hello, can you hear me?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "allô",
+          "feminine": "allô",
+          "masculinePlural": "allô",
+          "femininePlural": "allô"
+        }
+      },
+      {
+        "word": "le numéro",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "noo-MAY-roh",
+        "meaning": "the number",
+        "notes": "telephone number",
+        "examples": [
+          [
+            "Quel est ton numéro?",
+            "What is your number?"
+          ],
+          [
+            "Mon numéro est 06 123 456.",
+            "My number is 06 123 456."
+          ],
+          [
+            "Je vais noter ton numéro.",
+            "I will write down your number."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "numéro",
+          "feminine": "",
+          "masculinePlural": "numéros",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "composer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "kohm-poh-ZAY",
+        "meaning": "to dial (a number)",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je compose le numéro.",
+            "I dial the number."
+          ],
+          [
+            "Elle compose l'aéroport.",
+            "She dials the airport."
+          ],
+          [
+            "Nous composons lentement.",
+            "We dial slowly."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je compose",
+          "tu": "tu composes",
+          "il": "il/elle/on compose",
+          "nous": "nous composons",
+          "vous": "vous composez",
+          "ils": "ils/elles composent"
+        }
+      },
+      {
+        "word": "raccrocher",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "rah-kroh-SHAY",
+        "meaning": "to hang up",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je raccroche le téléphone.",
+            "I hang up the phone."
+          ],
+          [
+            "Il raccroche après la conversation.",
+            "He hangs up after the conversation."
+          ],
+          [
+            "Elle raccroche poliment.",
+            "She hangs up politely."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je raccroche",
+          "tu": "tu raccroches",
+          "il": "il/elle/on raccroche",
+          "nous": "nous raccrochons",
+          "vous": "vous raccrochez",
+          "ils": "ils/elles raccrochent"
+        }
+      },
+      {
+        "word": "rappeler",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "rah-puh-LAY",
+        "meaning": "to call back",
+        "notes": "spelling-change verb (je rappelle)",
+        "examples": [
+          [
+            "Je vais te rappeler demain.",
+            "I will call you back tomorrow."
+          ],
+          [
+            "Il rappelle son ami.",
+            "He calls his friend back."
+          ],
+          [
+            "Elle rappelle plus tard.",
+            "She calls back later."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je rappelle",
+          "tu": "tu rappelles",
+          "il": "il/elle/on rappelle",
+          "nous": "nous rappelons",
+          "vous": "vous rappelez",
+          "ils": "ils/elles rappellent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "allô",
+        "partOfSpeech": "expression",
+        "gender": null,
+        "pronunciation": "ah-LOH",
+        "meaning": "hello (on the phone)",
+        "notes": "greeting used when answering the phone",
+        "examples": [
+          [
+            "Allô, qui est à l'appareil?",
+            "Hello, who is on the phone?"
+          ],
+          [
+            "Allô, ici Marie.",
+            "Hello, this is Marie speaking."
+          ],
+          [
+            "Allô, tu m'entends?",
+            "Hello, can you hear me?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "allô",
+          "feminine": "allô",
+          "masculinePlural": "allô",
+          "femininePlural": "allô"
+        }
+      },
+      {
+        "word": "le numéro",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "noo-MAY-roh",
+        "meaning": "the number",
+        "notes": "telephone number",
+        "examples": [
+          [
+            "Quel est ton numéro?",
+            "What is your number?"
+          ],
+          [
+            "Mon numéro est 06 123 456.",
+            "My number is 06 123 456."
+          ],
+          [
+            "Je vais noter ton numéro.",
+            "I will write down your number."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "numéro",
+          "feminine": "",
+          "masculinePlural": "numéros",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "composer",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "kohm-poh-ZAY",
+        "meaning": "to dial (a number)",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je compose le numéro.",
+            "I dial the number."
+          ],
+          [
+            "Elle compose l'aéroport.",
+            "She dials the airport."
+          ],
+          [
+            "Nous composons lentement.",
+            "We dial slowly."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je compose",
+          "tu": "tu composes",
+          "il": "il/elle/on compose",
+          "nous": "nous composons",
+          "vous": "vous composez",
+          "ils": "ils/elles composent"
+        }
+      },
+      {
+        "word": "raccrocher",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "rah-kroh-SHAY",
+        "meaning": "to hang up",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Je raccroche le téléphone.",
+            "I hang up the phone."
+          ],
+          [
+            "Il raccroche après la conversation.",
+            "He hangs up after the conversation."
+          ],
+          [
+            "Elle raccroche poliment.",
+            "She hangs up politely."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je raccroche",
+          "tu": "tu raccroches",
+          "il": "il/elle/on raccroche",
+          "nous": "nous raccrochons",
+          "vous": "vous raccrochez",
+          "ils": "ils/elles raccrochent"
+        }
+      },
+      {
+        "word": "rappeler",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "rah-puh-LAY",
+        "meaning": "to call back",
+        "notes": "spelling-change verb (je rappelle)",
+        "examples": [
+          [
+            "Je vais te rappeler demain.",
+            "I will call you back tomorrow."
+          ],
+          [
+            "Il rappelle son ami.",
+            "He calls his friend back."
+          ],
+          [
+            "Elle rappelle plus tard.",
+            "She calls back later."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je rappelle",
+          "tu": "tu rappelles",
+          "il": "il/elle/on rappelle",
+          "nous": "nous rappelons",
+          "vous": "vous rappelez",
+          "ils": "ils/elles rappellent"
+        }
+      },
+      {
+        "word": "répondre",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "ray-POHN-druh",
+        "meaning": "to answer",
+        "notes": "regular -RE verb",
+        "examples": [
+          [
+            "Je réponds au téléphone.",
+            "I answer the phone."
+          ],
+          [
+            "Elle réponds à la question.",
+            "She answers the question."
+          ],
+          [
+            "Nous répondons toujours.",
+            "We always answer."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je réponds",
+          "tu": "tu réponds",
+          "il": "il/elle/on répond",
+          "nous": "nous répondons",
+          "vous": "vous répondez",
+          "ils": "ils/elles répondent"
+        }
+      },
+      {
+        "word": "la sonnerie",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "sohn-uh-REE",
+        "meaning": "ringtone / bell",
+        "notes": "the sound of a ringing phone",
+        "examples": [
+          [
+            "La sonnerie du téléphone est bruyante.",
+            "The phone ringtone is loud."
+          ],
+          [
+            "J'entends la sonnerie.",
+            "I hear the ringtone."
+          ],
+          [
+            "Quelle est ta sonnerie?",
+            "What is your ringtone?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "sonnerie",
+          "masculinePlural": "",
+          "femininePlural": "sonneries"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Allô, qui est à l'appareil?"
+        ],
+        [
+          "B",
+          "Bonjour, je cherche le restaurant Le Soleil."
+        ],
+        [
+          "A",
+          "Non, c'est un mauvais numéro. Vous avez composé le mauvais numéro."
+        ],
+        [
+          "B",
+          "Oh, je suis désolé. Merci, au revoir."
+        ],
+        [
+          "A",
+          "Au revoir."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Qui répond au téléphone?",
+          "options": [
+            "Un restaurant",
+            "Une personne à la maison",
+            "Un bureau"
+          ],
+          "correctAnswer": "Une personne à la maison"
+        },
+        {
+          "question": "Qu'est-ce que B cherche?",
+          "options": [
+            "Un hôtel",
+            "Un restaurant",
+            "Un ami"
+          ],
+          "correctAnswer": "Un restaurant"
+        },
+        {
+          "question": "Est-ce que B a composé le bon numéro?",
+          "options": [
+            "Oui",
+            "Non",
+            "Je ne sais pas"
+          ],
+          "correctAnswer": "Non"
+        }
+      ],
+      "summary": "A person answers the phone, but the caller (B) has dialed the wrong number. B was trying to reach a restaurant called Le Soleil. After realizing the mistake, B apologizes and hangs up."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Allô, qui est à l'appareil?"
+        ],
+        [
+          "B",
+          "Bonjour, je cherche le restaurant Le Soleil."
+        ],
+        [
+          "A",
+          "Non, c'est un mauvais numéro. Vous avez composé le mauvais numéro."
+        ],
+        [
+          "B",
+          "Oh, je suis vraiment désolé. Pouvez-vous me donner le bon numéro?"
+        ],
+        [
+          "A",
+          "Je suis désolé, je ne le sais pas. Vous pouvez composer les renseignements."
+        ],
+        [
+          "B",
+          "D'accord, merci beaucoup. Au revoir."
+        ],
+        [
+          "A",
+          "Au revoir."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Que cherche B?",
+          "options": [
+            "Un hôtel à Paris",
+            "Le restaurant Le Soleil",
+            "Un ami en France",
+            "Un numéro de téléphone"
+          ],
+          "correctAnswer": "Le restaurant Le Soleil"
+        },
+        {
+          "question": "Qu'est-ce que A ne sait pas?",
+          "options": [
+            "Le bon numéro",
+            "Où est le restaurant",
+            "Comment répondre",
+            "Parler français"
+          ],
+          "correctAnswer": "Le bon numéro"
+        },
+        {
+          "question": "Où peut aller B pour obtenir le bon numéro?",
+          "options": [
+            "À la mairie",
+            "À la police",
+            "Aux renseignements",
+            "À la gare"
+          ],
+          "correctAnswer": "Aux renseignements"
+        },
+        {
+          "question": "Comment se termine la conversation?",
+          "options": [
+            "A raccroche sans répondre",
+            "A et B deviennent amis",
+            "B accepte de chercher ailleurs",
+            "A donne le bon numéro"
+          ],
+          "correctAnswer": "B accepte de chercher ailleurs"
+        }
+      ],
+      "summary": "A caller trying to reach Le Soleil restaurant dials the wrong number. The person who answers cannot provide the correct number and suggests checking directory assistance. Both exchange polite farewells."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Venir de + Infinitive (Recent Past)",
+      "explanation": "Venir de + infinitive expresses something that just happened (recent past). For example, 'Je viens de manger' means 'I just ate.' To use this construction, conjugate the verb venir in the present tense, then add 'de' followed by an infinitive. The verb venir is irregular: je viens, tu viens, il/elle/on vient, nous venons, vous venez, ils/elles viennent. Examples: elle vient de partir (she just left), nous venons d'arriver (we just arrived). This is different from passé composé, which refers to a less immediate past.",
+      "examples": [
+        {
+          "french": "Je viens de manger.",
+          "english": "I just ate."
+        },
+        {
+          "french": "Tu viens de partir.",
+          "english": "You just left."
+        },
+        {
+          "french": "Nous venons d'arriver.",
+          "english": "We just arrived."
+        },
+        {
+          "french": "Ils viennent de terminer.",
+          "english": "They just finished."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ de composer le numéro.",
+          "options": [
+            "viens",
+            "vient",
+            "venons"
+          ],
+          "correctAnswer": "viens",
+          "explanation": "With the subject 'je', you use 'viens' (je viens de + infinitive)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que cela signifie: 'Elle vient de raccrocher'?",
+          "options": [
+            "Elle a raccroché il y a une heure",
+            "Elle raccroche maintenant",
+            "Elle vient de raccrocher (she just hung up)",
+            "Elle va raccrocher demain"
+          ],
+          "correctAnswer": "Elle vient de raccrocher (she just hung up)",
+          "explanation": "Venir de + infinitive means 'just happened' — very recent past."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ de répondre au téléphone.",
+          "options": [
+            "venons",
+            "viennent",
+            "vient"
+          ],
+          "correctAnswer": "venons",
+          "explanation": "With 'nous', you use 'venons' (nous venons de + infinitive)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ de rappeler leurs amis.",
+          "options": [
+            "viennent",
+            "venons",
+            "viens"
+          ],
+          "correctAnswer": "viennent",
+          "explanation": "With 'ils', you use 'viennent' (ils viennent de + infinitive)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Tu viens ___' (for 'You just arrived')",
+          "options": [
+            "d'arriver",
+            "arriver",
+            "arrivé"
+          ],
+          "correctAnswer": "d'arriver",
+          "explanation": "After 'venir de', use the infinitive form. Use 'd'' before a vowel."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Venir de + Infinitive — Recent Past, Conjugation & Time Expressions",
+      "explanation": "Venir de + infinitive expresses an action that just happened, typically within the last few minutes or hours. Conjugate venir (je viens, tu viens, il/elle/on vient, nous venons, vous venez, ils/elles viennent), then add 'de' (or 'd'' before a vowel) followed by the infinitive. Examples: Je viens de manger (I just ate), Elle vient de partir (She just left), Nous venons d'arriver (We just arrived). Common time markers: à l'instant, tout à l'heure, il y a quelques minutes. Contrast with passé composé: venir de focuses on immediate past; passé composé is more general past. Advanced note: You can also say 'venir de' in past tense (venais de, venait de) for an action that had just happened in the past: 'Elle venait de partir quand j'ai appelé' (She had just left when I called).",
+      "examples": [
+        {
+          "french": "Je viens de composer le numéro.",
+          "english": "I just dialed the number."
+        },
+        {
+          "french": "Tu viens de raccrocher?",
+          "english": "Did you just hang up?"
+        },
+        {
+          "french": "Il vient de répondre au téléphone.",
+          "english": "He just answered the phone."
+        },
+        {
+          "french": "Nous venons de rappeler notre ami.",
+          "english": "We just called our friend back."
+        },
+        {
+          "french": "Vous venez d'arriver?",
+          "english": "Did you just arrive?"
+        },
+        {
+          "french": "Ils viennent de terminer l'appel.",
+          "english": "They just finished the call."
+        }
+      ],
+      "drills": [
+        {
+          "type": "fillInTheBlank",
+          "question": "Je ___ de composer le numéro.",
+          "options": [
+            "viens",
+            "vient",
+            "venons"
+          ],
+          "correctAnswer": "viens",
+          "explanation": "With 'je', use 'viens' (je viens de + infinitive)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase exprime 'just hung up'?",
+          "options": [
+            "Elle va raccrocher",
+            "Elle raccroche",
+            "Elle vient de raccrocher",
+            "Elle raccroché"
+          ],
+          "correctAnswer": "Elle vient de raccrocher",
+          "explanation": "Venir de + infinitive expresses immediate past."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ de répondre?",
+          "options": [
+            "viens",
+            "vient",
+            "venez"
+          ],
+          "correctAnswer": "viens",
+          "explanation": "With 'tu', use 'viens' (tu viens de + infinitive)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ d'appeler le restaurant.",
+          "options": [
+            "venons",
+            "viennent",
+            "vient"
+          ],
+          "correctAnswer": "venons",
+          "explanation": "With 'nous', use 'venons' (nous venons de + infinitive)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez correctement: 'Vous ___ de terminer l'appel.'",
+          "options": [
+            "venez",
+            "viennent",
+            "viens"
+          ],
+          "correctAnswer": "venez",
+          "explanation": "With 'vous', use 'venez' (vous venez de + infinitive)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils ___ de rappeler à l'instant.",
+          "options": [
+            "viennent",
+            "venons",
+            "viens"
+          ],
+          "correctAnswer": "viennent",
+          "explanation": "With 'ils', use 'viennent' (ils viennent de + infinitive)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel temps montre une action passée moins immédiate?",
+          "options": [
+            "Venir de + infinitive",
+            "Passé composé",
+            "Présent",
+            "Futur simple"
+          ],
+          "correctAnswer": "Passé composé",
+          "explanation": "Passé composé is more general past; venir de is very recent."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle ___ d'arriver à l'instant.",
+          "options": [
+            "vient",
+            "viennent",
+            "venons"
+          ],
+          "correctAnswer": "vient",
+          "explanation": "With 'elle', use 'vient' (elle vient de + infinitive). Use 'd'' before a vowel."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'on dit quand on répond au téléphone?",
+        "options": [
+          "Bonjour",
+          "Allô",
+          "Au revoir"
+        ],
+        "correctAnswer": "Allô",
+        "explanation": "On dit 'Allô' quand on répond au téléphone."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je ___ le numéro de mon ami.",
+        "options": [
+          "compose",
+          "raccroches",
+          "réponds"
+        ],
+        "correctAnswer": "compose",
+        "explanation": "'Composer' means 'to dial'. The sentence means 'I dial my friend's number.'"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quand tu termines l'appel, tu ___.",
+        "options": [
+          "réponds",
+          "raccroches",
+          "rappelles"
+        ],
+        "correctAnswer": "raccroches",
+        "explanation": "'Raccrocher' means 'to hang up' — what you do at the end of a call."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Mon ami vient de me ___. Il vient de m'appeler à l'instant.",
+        "options": [
+          "rappeler",
+          "composer",
+          "répondre"
+        ],
+        "correctAnswer": "rappeler",
+        "explanation": "'Rappeler' means 'to call back'. Here, 'Il vient de m'appeler' (he just called me) uses the infinitive 'rappeler' after 'venir de'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Lequel est correct: 'Je viens de...' ou 'Je viens...'?",
+        "options": [
+          "Je viens de composer",
+          "Je viens composer",
+          "Les deux sont corrects"
+        ],
+        "correctAnswer": "Je viens de composer",
+        "explanation": "The correct form is 'venir de + infinitive'. 'Je viens de composer' means 'I just dialed'."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que 'venir de + infinitif' exprime?",
+        "options": [
+          "Le passé récent",
+          "Le futur proche",
+          "Le présent habituel",
+          "Le passé lointain"
+        ],
+        "correctAnswer": "Le passé récent",
+        "explanation": "'Venir de + infinitif' exprime une action qui vient juste de se terminer, c'est le passé récent.",
+        "targetWord": "rappeler"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase est correcte avec 'venir de'?",
+        "options": [
+          "Je viens de raccrocher",
+          "Je viens raccrocher",
+          "Je suis venu de raccroché",
+          "Je viens à raccrocher"
+        ],
+        "correctAnswer": "Je viens de raccrocher",
+        "explanation": "'Venir de' est suivi directement de l'infinitif: venir de + infinitif.",
+        "targetWord": "rappeler"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'composer un numéro'?",
+        "options": [
+          "Appuyer sur les touches du téléphone",
+          "Raccrocher le téléphone",
+          "Parler au téléphone",
+          "Laisser un message"
+        ],
+        "correctAnswer": "Appuyer sur les touches du téléphone",
+        "explanation": "Composer un numéro signifie taper les chiffres du numéro de téléphone.",
+        "targetWord": "composer"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "La ___ du téléphone sonne fort dans la pièce.",
+        "options": [
+          "sonnerie",
+          "numéro",
+          "allô"
+        ],
+        "correctAnswer": "sonnerie",
+        "explanation": "La sonnerie est le son que fait le téléphone quand quelqu'un appelle.",
+        "targetWord": "la sonnerie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel verbe signifie 'appeler de nouveau'?",
+        "options": [
+          "rappeler",
+          "composer",
+          "répondre",
+          "raccrocher"
+        ],
+        "correctAnswer": "rappeler",
+        "explanation": "Rappeler signifie appeler quelqu'un à nouveau après un appel manqué.",
+        "targetWord": "rappeler"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "You just arrived home and realize you need to call your friend back. Leave a short voicemail message asking them to call you back when they have time.",
+      "keyPhrases": [
+        "Allô, c'est...",
+        "Je viens de rentrer",
+        "Peux-tu me rappeler?",
+        "Merci"
+      ],
+      "modelAnswer": "Allô, c'est Marie. Je viens de rentrer à la maison. Peux-tu me rappeler quand tu as du temps? Merci beaucoup.",
+      "modelAnswerExplanation": "This voicemail follows a natural order: greeting with your name, say what you just did (using 'venir de'), make the request, and thank them. Simple, clear, and polite.",
+      "tip": "Remember to use 'venir de + infinitive' to say what you just did. Keep the message short and friendly. A voicemail should not be longer than 20 seconds."
+    },
+    "advanced": {
+      "scenario": "You missed an important phone call. Leave a more detailed voicemail explaining what you were doing when the call came through, and ask your contact to get back to you with information about the appointment they wanted to discuss.",
+      "keyPhrases": [
+        "Je viens de voir ton appel",
+        "J'étais en train de...",
+        "Peux-tu m'appeler quand tu peux?",
+        "C'est assez urgent"
+      ],
+      "modelAnswer": "Allô, c'est Thomas. Je viens de voir ton appel. J'étais en train de faire quelque chose, mais je suis libre maintenant. Peux-tu m'appeler quand tu peux? Je veux discuter de l'appointment. C'est assez urgent.",
+      "modelAnswerExplanation": "This voicemail uses 'venir de' for immediate past (just saw the call) and 'être en train de' for what was happening when the call came. It explains availability and urgency, giving a reason for the callback.",
+      "tip": "Use 'venir de' for the immediate past and 'être en train de' to say what you were doing. Be specific about why you need them to call back, but keep it concise. Voicemails longer than 30 seconds may be skipped."
+    }
+  }
+}

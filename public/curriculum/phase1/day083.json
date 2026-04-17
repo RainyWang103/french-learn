@@ -1,0 +1,841 @@
+{
+  "day": 83,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "News & Media",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le journaliste",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "zhoor-nah-LEEST",
+        "meaning": "the journalist",
+        "notes": "journalist — le/la journaliste (both genders)",
+        "examples": [
+          [
+            "Le journaliste écrit l'article.",
+            "The journalist writes the article."
+          ],
+          [
+            "Elle est journaliste.",
+            "She is a journalist."
+          ],
+          [
+            "Les journalistes travaillent dur.",
+            "Journalists work hard."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "journaliste",
+          "feminine": "journaliste",
+          "masculinePlural": "journalistes",
+          "femininePlural": "journalistes"
+        }
+      },
+      {
+        "word": "l'article",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ar-tee-KUL",
+        "meaning": "the article",
+        "notes": "a news article or written piece",
+        "examples": [
+          [
+            "L'article est intéressant.",
+            "The article is interesting."
+          ],
+          [
+            "Je lis un article.",
+            "I read an article."
+          ],
+          [
+            "Cet article parle de politique.",
+            "This article talks about politics."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "article",
+          "feminine": "",
+          "masculinePlural": "articles",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'actualité",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "ak-too-ah-lee-TAY",
+        "meaning": "the news",
+        "notes": "current news / current events",
+        "examples": [
+          [
+            "L'actualité est importante.",
+            "The news is important."
+          ],
+          [
+            "Je suis l'actualité.",
+            "I follow the news."
+          ],
+          [
+            "Quelle est l'actualité aujourd'hui?",
+            "What is the news today?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "actualité",
+          "masculinePlural": "",
+          "femininePlural": "actualités"
+        }
+      },
+      {
+        "word": "le reportage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ruh-por-TAHJ",
+        "meaning": "the report",
+        "notes": "news report / documentary report",
+        "examples": [
+          [
+            "Le reportage est au téléviseur.",
+            "The report is on television."
+          ],
+          [
+            "J'aime regarder les reportages.",
+            "I like watching reports."
+          ],
+          [
+            "Cet reportage parle du sport.",
+            "This report talks about sports."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "reportage",
+          "feminine": "",
+          "masculinePlural": "reportages",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "publier",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "poo-blee-AY",
+        "meaning": "to publish",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Le journal publie les articles.",
+            "The newspaper publishes articles."
+          ],
+          [
+            "Elle publie un livre.",
+            "She publishes a book."
+          ],
+          [
+            "Nous publions les nouvelles chaque jour.",
+            "We publish news every day."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je publie",
+          "tu": "tu publies",
+          "il": "il/elle/on publie",
+          "nous": "nous publions",
+          "vous": "vous publiez",
+          "ils": "ils/elles publient"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le journaliste",
+        "partOfSpeech": "noun",
+        "gender": null,
+        "pronunciation": "zhoor-nah-LEEST",
+        "meaning": "the journalist",
+        "notes": "journalist — le/la journaliste (both genders)",
+        "examples": [
+          [
+            "Le journaliste écrit l'article.",
+            "The journalist writes the article."
+          ],
+          [
+            "Elle est journaliste.",
+            "She is a journalist."
+          ],
+          [
+            "Les journalistes travaillent dur.",
+            "Journalists work hard."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "journaliste",
+          "feminine": "journaliste",
+          "masculinePlural": "journalistes",
+          "femininePlural": "journalistes"
+        }
+      },
+      {
+        "word": "l'article",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ar-tee-KUL",
+        "meaning": "the article",
+        "notes": "a news article or written piece",
+        "examples": [
+          [
+            "L'article est intéressant.",
+            "The article is interesting."
+          ],
+          [
+            "Je lis un article.",
+            "I read an article."
+          ],
+          [
+            "Cet article parle de politique.",
+            "This article talks about politics."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "article",
+          "feminine": "",
+          "masculinePlural": "articles",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "l'actualité",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "ak-too-ah-lee-TAY",
+        "meaning": "the news",
+        "notes": "current news / current events",
+        "examples": [
+          [
+            "L'actualité est importante.",
+            "The news is important."
+          ],
+          [
+            "Je suis l'actualité.",
+            "I follow the news."
+          ],
+          [
+            "Quelle est l'actualité aujourd'hui?",
+            "What is the news today?"
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "actualité",
+          "masculinePlural": "",
+          "femininePlural": "actualités"
+        }
+      },
+      {
+        "word": "les informations",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "ahn-for-mah-SYOHN",
+        "meaning": "the news",
+        "notes": "the news (always plural in this sense)",
+        "examples": [
+          [
+            "Je regarde les informations.",
+            "I watch the news."
+          ],
+          [
+            "Les informations sont à 20 heures.",
+            "The news is at 8 PM."
+          ],
+          [
+            "Elle suit les informations.",
+            "She follows the news."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "information",
+          "masculinePlural": "",
+          "femininePlural": "informations"
+        }
+      },
+      {
+        "word": "le reportage",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "ruh-por-TAHJ",
+        "meaning": "the report",
+        "notes": "news report / documentary report",
+        "examples": [
+          [
+            "Le reportage est au téléviseur.",
+            "The report is on television."
+          ],
+          [
+            "J'aime regarder les reportages.",
+            "I like watching reports."
+          ],
+          [
+            "Cet reportage parle du sport.",
+            "This report talks about sports."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "reportage",
+          "feminine": "",
+          "masculinePlural": "reportages",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "diffuser",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "dee-foo-ZAY",
+        "meaning": "to broadcast",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "La chaîne diffuse l'émission.",
+            "The channel broadcasts the show."
+          ],
+          [
+            "On diffuse les nouvelles à 19 heures.",
+            "They broadcast the news at 7 PM."
+          ],
+          [
+            "Ils diffusent le match de foot.",
+            "They broadcast the football match."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je diffuse",
+          "tu": "tu diffuses",
+          "il": "il/elle/on diffuse",
+          "nous": "nous diffusons",
+          "vous": "vous diffusez",
+          "ils": "ils/elles diffusent"
+        }
+      },
+      {
+        "word": "publier",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "poo-blee-AY",
+        "meaning": "to publish",
+        "notes": "regular -ER verb",
+        "examples": [
+          [
+            "Le journal publie les articles.",
+            "The newspaper publishes articles."
+          ],
+          [
+            "Elle publie un livre.",
+            "She publishes a book."
+          ],
+          [
+            "Nous publions les nouvelles chaque jour.",
+            "We publish news every day."
+          ]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je publie",
+          "tu": "tu publies",
+          "il": "il/elle/on publie",
+          "nous": "nous publions",
+          "vous": "vous publiez",
+          "ils": "ils/elles publient"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        [
+          "A",
+          "Quel article est le meilleur pour la première page?"
+        ],
+        [
+          "B",
+          "Je pense que cet article sur l'environnement est bon."
+        ],
+        [
+          "A",
+          "Oui, c'est une bonne histoire. Mais l'article sur la politique est meilleur."
+        ],
+        [
+          "B",
+          "Tu as raison. C'est plus intéressant pour les lecteurs."
+        ],
+        [
+          "A",
+          "D'accord. On publie celui-ci demain."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'A et B discutent?",
+          "options": [
+            "Le meilleur article",
+            "Le meilleur reportage",
+            "Le meilleur journaliste"
+          ],
+          "correctAnswer": "Le meilleur article"
+        },
+        {
+          "question": "De quel sujet parle le premier article?",
+          "options": [
+            "L'environnement",
+            "La politique",
+            "Le sport"
+          ],
+          "correctAnswer": "L'environnement"
+        },
+        {
+          "question": "Quel article est meilleur selon A?",
+          "options": [
+            "L'article sur l'environnement",
+            "L'article sur la politique",
+            "L'article sur le sport"
+          ],
+          "correctAnswer": "L'article sur la politique"
+        }
+      ],
+      "summary": "Two editors discuss which story is best for the front page. The article about politics is chosen because it is more interesting for readers."
+    },
+    "advanced": {
+      "dialogue": [
+        [
+          "A",
+          "Nous avons deux reportages excellents cette semaine."
+        ],
+        [
+          "B",
+          "Lequel tu préfères? Celui sur le changement climatique ou celui sur les élections?"
+        ],
+        [
+          "A",
+          "Je pense que le reportage sur le changement climatique est meilleur. Il a plus de profondeur."
+        ],
+        [
+          "B",
+          "Peut-être, mais le reportage sur les élections est plus immédiat et urgent."
+        ],
+        [
+          "A",
+          "C'est vrai, mais nous devons aussi informer sur les problèmes environnementaux."
+        ],
+        [
+          "B",
+          "D'accord. Diffusons les deux ce soir."
+        ]
+      ],
+      "questions": [
+        {
+          "question": "Combien de reportages sont mentionnés?",
+          "options": [
+            "Un reportage",
+            "Deux reportages",
+            "Trois reportages"
+          ],
+          "correctAnswer": "Deux reportages"
+        },
+        {
+          "question": "Quel reportage A préfère?",
+          "options": [
+            "Le changement climatique",
+            "Les élections",
+            "La politique"
+          ],
+          "correctAnswer": "Le changement climatique"
+        },
+        {
+          "question": "Pourquoi A préfère ce reportage?",
+          "options": [
+            "C'est plus urgent",
+            "Il a plus de profondeur",
+            "C'est plus court"
+          ],
+          "correctAnswer": "Il a plus de profondeur"
+        },
+        {
+          "question": "Qu'est-ce qu'ils décident finalement?",
+          "options": [
+            "Diffuser un reportage",
+            "Diffuser les deux reportages",
+            "Diffuser aucun reportage"
+          ],
+          "correctAnswer": "Diffuser les deux reportages"
+        }
+      ],
+      "summary": "News editors debate which story is better for broadcast: climate change or elections. They ultimately decide to broadcast both stories to cover important issues and urgent news."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Mieux vs Meilleur",
+      "explanation": "'Mieux' is the comparative adverb of 'bien' (well) — it modifies verbs: 'Il chante mieux.' (He sings better.) 'Meilleur' is the comparative adjective of 'bon' (good) — it modifies nouns and agrees in gender/number: 'C'est une meilleure idée.' / 'Ce sont les meilleurs articles.' Key rule: 'mieux' follows a verb (describes HOW something is done), while 'meilleur(e)(s)' comes before or after a noun (describes WHAT something is like). Common error: 'C'est mieux' (abstract, correct) vs 'C'est meilleur' (incorrect for things; use 'C'est meilleur(e)(s)' only when directly modifying a noun like 'Cette idée est meilleure').",
+      "examples": [
+        {
+          "french": "Il chante mieux que moi.",
+          "english": "He sings better than I do."
+        },
+        {
+          "french": "C'est une meilleure idée.",
+          "english": "It is a better idea."
+        },
+        {
+          "french": "Ces articles sont les meilleurs.",
+          "english": "These articles are the best."
+        },
+        {
+          "french": "Je me sens mieux aujourd'hui.",
+          "english": "I feel better today."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que 'mieux' modifie?",
+          "options": [
+            "Un verbe",
+            "Un nom",
+            "Un adjectif"
+          ],
+          "correctAnswer": "Un verbe",
+          "explanation": "'Mieux' is an adverb and modifies a verb (describes how something is done)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Qu'est-ce que 'meilleur' modifie?",
+          "options": [
+            "Un verbe",
+            "Un nom",
+            "Un adverbe"
+          ],
+          "correctAnswer": "Un nom",
+          "explanation": "'Meilleur' is an adjective and modifies a noun (describes what something is like)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Cet article est ___ que celui-ci. (This article is better than that one.)",
+          "options": [
+            "mieux",
+            "meilleur",
+            "meilleures"
+          ],
+          "correctAnswer": "meilleur",
+          "explanation": "'Meilleur' modifies the noun 'article' (masculine singular)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il parle français ___. (He speaks French better.)",
+          "options": [
+            "meilleur",
+            "mieux",
+            "meilleure"
+          ],
+          "correctAnswer": "mieux",
+          "explanation": "'Mieux' modifies the verb 'parle'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ce sont les ___ reportages. (These are the best reports.)",
+          "options": [
+            "mieux",
+            "meilleur",
+            "meilleurs"
+          ],
+          "correctAnswer": "meilleurs",
+          "explanation": "'Meilleurs' (plural masculine) modifies the noun 'reportages'."
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Mieux vs Meilleur — Adverb vs Adjective, Agreement & Common Errors",
+      "explanation": "'Mieux' is the comparative adverb (better) derived from 'bien' (well). It modifies verbs and describes HOW an action is performed: 'Il chante mieux.' (He sings better.) Adverbs do not agree with gender or number. 'Meilleur(e)(s)' is the comparative adjective (better) derived from 'bon' (good). It modifies nouns and describes the quality of the noun: 'une meilleure idée' (a better idea), 'les meilleurs articles' (the best articles). Adjectives agree with the gender and number of the noun they modify. Common errors: (1) Using 'meilleur' with a verb (incorrect: 'Il chante meilleur'); (2) Using 'mieux' before a noun (incorrect: 'une mieux idée'); (3) Abstract statements with 'meilleur': 'C'est meilleur' (without a noun) is acceptable colloquially but grammatically incomplete. Better: 'C'est mieux' (it is better, adverbial) or 'C'est un meilleur choix' (it is a better choice, with a noun). Superlatives: 'le mieux' (the best, adverbial) vs 'le/la/les meilleur(e)(s)' (the best, adjectival).",
+      "examples": [
+        {
+          "french": "Il chante mieux que moi.",
+          "english": "He sings better than I do (adverb with verb)."
+        },
+        {
+          "french": "C'est une meilleure idée.",
+          "english": "It is a better idea (adjective with noun)."
+        },
+        {
+          "french": "Ces articles sont les meilleurs.",
+          "english": "These articles are the best (plural adjective)."
+        },
+        {
+          "french": "Je me sens mieux aujourd'hui.",
+          "english": "I feel better today (adverb with verb)."
+        },
+        {
+          "french": "C'est le mieux pour nous.",
+          "english": "It is the best (thing) for us (adverbial superlative)."
+        },
+        {
+          "french": "Elle a la meilleure voix du groupe.",
+          "english": "She has the best voice in the group (adjectival superlative)."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la catégorie grammaticale de 'mieux'?",
+          "options": [
+            "Adjectif",
+            "Adverbe",
+            "Nom"
+          ],
+          "correctAnswer": "Adverbe",
+          "explanation": "'Mieux' is an adverb, derived from 'bien' (well)."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle est la catégorie grammaticale de 'meilleur'?",
+          "options": [
+            "Adjectif",
+            "Adverbe",
+            "Verbe"
+          ],
+          "correctAnswer": "Adjectif",
+          "explanation": "'Meilleur' is an adjective, derived from 'bon' (good)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Cet article est ___ que celui-ci. (This article is better than that one.)",
+          "options": [
+            "mieux",
+            "meilleur",
+            "meilleures"
+          ],
+          "correctAnswer": "meilleur",
+          "explanation": "'Meilleur' (masculine singular) modifies the noun 'article'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il parle français ___. (He speaks French better.)",
+          "options": [
+            "meilleur",
+            "mieux",
+            "meilleure"
+          ],
+          "correctAnswer": "mieux",
+          "explanation": "'Mieux' (adverb) modifies the verb 'parle'."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ces idées sont les ___. (These ideas are the best.)",
+          "options": [
+            "mieux",
+            "meilleur",
+            "meilleures"
+          ],
+          "correctAnswer": "meilleures",
+          "explanation": "'Meilleures' (plural feminine) agrees with the noun 'idées'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Je me sens ___.'",
+          "options": [
+            "meilleur",
+            "mieux",
+            "meilleure"
+          ],
+          "correctAnswer": "mieux",
+          "explanation": "'Mieux' (adverb) modifies the verb 'sens' (feel)."
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle écrit les ___ articles du journal. (She writes the best articles in the newspaper.)",
+          "options": [
+            "mieux",
+            "meilleur",
+            "meilleurs"
+          ],
+          "correctAnswer": "meilleurs",
+          "explanation": "'Meilleurs' (plural masculine) agrees with the noun 'articles'."
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": [
+            "Il chante meilleur.",
+            "Il chante mieux.",
+            "Il chanson meilleur."
+          ],
+          "correctAnswer": "Il chante mieux.",
+          "explanation": "'Mieux' (adverb) modifies the verb 'chante'."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un journaliste?",
+        "options": [
+          "Une personne qui lit les nouvelles",
+          "Une personne qui écrit les articles",
+          "Une personne qui regarde la télévision"
+        ],
+        "correctAnswer": "Une personne qui écrit les articles",
+        "explanation": "Un journaliste écrit les articles de journal et de presse."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Le journal ___ les articles chaque jour. (The newspaper publishes articles every day.)",
+        "options": [
+          "publie",
+          "publies",
+          "publient"
+        ],
+        "correctAnswer": "publie",
+        "explanation": "'Publie' is 3rd-person singular present tense of 'publier'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que l'actualité?",
+        "options": [
+          "Une histoire ancienne",
+          "Les nouvelles récentes",
+          "Un livre"
+        ],
+        "correctAnswer": "Les nouvelles récentes",
+        "explanation": "L'actualité sont les nouvelles récentes et les événements actuels."
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Cet article est ___ que celui-ci. (This article is better than that one.)",
+        "options": [
+          "mieux",
+          "meilleur",
+          "meilleure"
+        ],
+        "correctAnswer": "meilleur",
+        "explanation": "'Meilleur' is an adjective and modifies the noun 'article'."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un reportage?",
+        "options": [
+          "Un article de journal",
+          "Un rapport ou compte rendu",
+          "Une photographie"
+        ],
+        "correctAnswer": "Un rapport ou compte rendu",
+        "explanation": "Un reportage est un rapport sur un événement ou une histoire."
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la différence entre 'mieux' et 'meilleur'?",
+        "options": [
+          "Mieux est un adverbe, meilleur est un adjectif",
+          "Mieux est un adjectif, meilleur est un adverbe",
+          "Ils sont synonymes et interchangeables",
+          "Mieux s'utilise avec les noms, meilleur avec les verbes"
+        ],
+        "correctAnswer": "Mieux est un adverbe, meilleur est un adjectif",
+        "explanation": "Mieux modifie un verbe (il parle mieux), meilleur modifie un nom (c'est le meilleur article).",
+        "targetWord": "mieux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un reportage?",
+        "options": [
+          "Un rapport journalistique sur un événement ou sujet",
+          "Un article de divertissement",
+          "Une publicité télévisée",
+          "Un roman d'actualité"
+        ],
+        "correctAnswer": "Un rapport journalistique sur un événement ou sujet",
+        "explanation": "Un reportage est une enquête journalistique approfondie sur un sujet précis, souvent avec des images et des témoignages.",
+        "targetWord": "le reportage"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Laquelle de ces phrases est correcte?",
+        "options": [
+          "Il parle mieux que moi",
+          "Il parle meilleur que moi",
+          "Il est mieux journaliste que moi",
+          "Ce article est mieux"
+        ],
+        "correctAnswer": "Il parle mieux que moi",
+        "explanation": "Mieux accompagne les verbes: il parle mieux (adverbe). On dit 'c'est un meilleur article' (adjectif).",
+        "targetWord": "mieux"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "La chaîne ___ les informations en direct ce soir.",
+        "options": [
+          "diffuse",
+          "publie",
+          "compose"
+        ],
+        "correctAnswer": "diffuse",
+        "explanation": "Diffuser signifie transmettre ou émettre (une émission, des informations) à la radio ou à la télévision.",
+        "targetWord": "diffuser"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'l'actualité'?",
+        "options": [
+          "Les nouvelles et événements du moment",
+          "Un vieux reportage archivé",
+          "Un article de blog personnel",
+          "Une émission de fiction"
+        ],
+        "correctAnswer": "Les nouvelles et événements du moment",
+        "explanation": "L'actualité désigne l'ensemble des événements récents rapportés par les médias.",
+        "targetWord": "l'actualité"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Say what kind of news you follow and which source you prefer.",
+      "keyPhrases": [
+        "Je suis l'actualité",
+        "J'aime lire...",
+        "Je regarde...",
+        "Je préfère..."
+      ],
+      "modelAnswer": "Je suis l'actualité tous les jours. J'aime lire les articles sur le sport. Je regarde aussi les reportages à la télévision. Je préfère les informations du soir.",
+      "modelAnswerExplanation": "You mention what news you follow, what types of stories you prefer, and how you get your information. This is a natural way to talk about media consumption.",
+      "tip": "Be specific about the types of news that interest you. Use verbs like 'suivre', 'lire', 'regarder', and 'préférer' to show your news habits."
+    },
+    "advanced": {
+      "scenario": "Discuss different news sources and explain which articles or reports are better and why. Share your opinion on media quality.",
+      "keyPhrases": [
+        "Je pense que cet article est meilleur...",
+        "Ce reportage est plus...",
+        "Les meilleures sources sont...",
+        "Je préfère parce que..."
+      ],
+      "modelAnswer": "Je pense que les articles du Monde sont meilleurs parce qu'ils offrent plus de profondeur. Ce reportage sur la politique est plus intéressant que celui-ci. Les meilleures sources d'information sont les journaux sérieux et les reportages télévisés. Je préfère lire les articles bien écrits plutôt que de regarder les reportages sensationnalistes.",
+      "modelAnswerExplanation": "You compare different news sources using 'meilleur' for adjectives, and explain your preferences using reasons. You demonstrate critical thinking about media quality.",
+      "tip": "Use 'meilleur(e)(s)' to compare articles and sources. Use 'mieux' when describing how sources function or information is presented. Always justify your preferences with reasons."
+    }
+  }
+}
