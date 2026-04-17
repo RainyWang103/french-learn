@@ -472,3 +472,116 @@ Phase 3 (B1):
   Questions may be more nuanced — indirect questions, hypotheticals.
   Answers may use B1 structures and idiomatic expressions.
   Vocabulary and grammar must not exceed B1 level.
+
+-----
+
+## Phase 4: Session Component Architecture
+
+### Data flow
+
+```
+useDayContent(phase, day)
+    └── fetches /curriculum/phase{N}/day{NNN}.json → DayData
+            │
+            ▼
+        Session.tsx  (orchestrates section order, tracks progress)
+            ├── VocabCard        ← day.vocab[track] + day.quiz[track]
+            ├── ListeningWidget  ← day.listen[track]
+            ├── GrammarDrill     ← day.grammar[track]
+            ├── SpeakingChallenge← day.speak[track]
+            └── RevisionSection  ← profile.flagged_words  (revision days only)
+```
+
+Each component calls `getScaffolding(section, difficulty, track)` internally.
+Parent `Session` passes the already-resolved track variant (e.g. `day.vocab.standard`).
+
+### Component prop signatures
+
+```ts
+VocabCard({
+  words: VocabWord[], quizQuestions: QuizQuestion[],
+  track: Track, difficulty: number, hidePronunciation: boolean,
+  onDone: (result: { score, total, flaggedWords: string[] }) => void
+})
+
+ListeningWidget({
+  listen: ListenContent,
+  difficulty: number, track: Track,
+  onDone: (result: { score, total }) => void
+})
+
+GrammarDrill({
+  grammar: GrammarContent,
+  difficulty: number, track: Track,
+  onDone: (result: { score, total }) => void
+})
+
+SpeakingChallenge({
+  speak: SpeakContent,
+  difficulty: number, track: Track,
+  onDone: () => void
+})
+
+RevisionSection({
+  flaggedWords: string[],
+  onDone: (masteredWords: string[]) => void
+})
+```
+
+### Internal shared component
+
+`src/features/session/components/QuizItem.tsx` — handles both `multipleChoice`
+and `fillInTheBlank` question rendering with normalised answer comparison
+(strip diacritics, lowercase, trim). Not exported from `index.ts`.
+
+### Type corrections (Phase 4)
+
+`src/types/curriculum.ts` was updated to match actual JSON:
+- `ListenContent.questions` → `ListeningQuestion[]` (was `string[]`)
+- `GrammarContent.examples` → `GrammarExample[]` (was `[string, string][]`)
+- `GrammarContent.drills`   → `GrammarDrillItem[]` (was `string[]`)
+
+-----
+
+## Glass Design System (Phase 4)
+
+All session components use CSS Modules + global CSS custom properties.
+
+### Extended CSS variables (src/index.css)
+
+| Variable | Value | Use |
+|---|---|---|
+| `--card-glass` | `rgba(46,38,32,0.88)` | Main card background |
+| `--card-elevated` | `#3a3028` | Nested panels, option buttons |
+| `--accent-light` | `#d4845f` | Hover, italic text |
+| `--accent-dark` | `#8b5e3c` | Active states |
+| `--accent-muted` | `rgba(196,112,75,0.15)` | Subtle tints |
+| `--accent-border` | `rgba(196,112,75,0.25)` | Card borders |
+| `--navy` | `rgba(32,46,68,0.9)` | Speaker B badge, tag bg |
+| `--ok` | `#7ab87a` | Correct answer colour |
+| `--ok-bg` | `rgba(107,158,107,0.12)` | Correct feedback bg |
+| `--err` | `#d06060` | Wrong answer colour |
+| `--err-bg` | `rgba(196,80,80,0.12)` | Wrong feedback bg |
+| `--glass-blur` | `blur(14px)` | backdrop-filter value |
+| `--radius-sm/md/lg` | 10/14/20px | Consistent border radii |
+| `--shadow-card` | multi-layer | Card depth |
+| `--shadow-elevated` | stronger | Floating cards |
+
+### Glass card recipe
+
+```css
+background: var(--card-glass);
+backdrop-filter: var(--glass-blur);
+-webkit-backdrop-filter: var(--glass-blur);
+border-radius: var(--radius-lg);
+border: 1px solid var(--accent-border);
+box-shadow: var(--shadow-elevated);
+```
+
+### iPhone PWA rules
+
+- All interactive elements: `min-height: 44px` (Apple HIG minimum tap target)
+- Text inputs: `font-size: 16px` minimum (prevents iOS auto-zoom)
+- Scroll containers: `padding-bottom: env(safe-area-inset-bottom)`
+- No hover-only states — use `:active` for touch feedback
+- `backdrop-filter` always paired with `-webkit-backdrop-filter`
