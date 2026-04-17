@@ -1,4 +1,4 @@
-import { progressPercent } from '../utils/quiz'
+import { progressPercent } from '$session/utils/quiz'
 import styles from './ProgressBar.module.css'
 
 interface ProgressBarProps {

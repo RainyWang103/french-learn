@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { checkAnswer } from '../utils/quiz'
+import { checkAnswer } from '$session/utils/quiz'
 import styles from './QuizItem.module.css'
 
-export type { DrillQuestion } from '../utils/quiz'
-import type { DrillQuestion } from '../utils/quiz'
+export type { DrillQuestion } from '$session/utils/quiz'
+import type { DrillQuestion } from '$session/utils/quiz'
 
 interface QuizItemProps {
   question: DrillQuestion

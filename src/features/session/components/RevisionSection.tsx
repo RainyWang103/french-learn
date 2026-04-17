@@ -1,5 +1,5 @@
-import type { DrillQuestion } from '../utils/quiz'
-import { useQuizAnswers } from '../hooks/useQuizAnswers'
+import type { DrillQuestion } from '$session/utils/quiz'
+import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './RevisionSection.module.css'

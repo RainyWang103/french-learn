@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { countAnswered, countCorrect } from '../utils/quiz'
+import { countAnswered, countCorrect } from '$session/utils/quiz'
 
 export function useQuizAnswers(total: number) {
   const [answers, setAnswers] = useState<Record<number, boolean>>({})

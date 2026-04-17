@@ -356,18 +356,58 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 
 ### Path aliases (tsconfig.json + vite.config.ts)
 
-| Alias       | Resolves to         |
-|-------------|---------------------|
-| `$lib/*`    | `src/lib/*`         |
-| `$types/*`  | `src/types/*`       |
-| `$features/*` | `src/features/*`  |
+| Alias         | Resolves to                    |
+|---------------|--------------------------------|
+| `$lib/*`      | `src/lib/*`                    |
+| `$types/*`    | `src/types/*`                  |
+| `$features/*` | `src/features/*`               |
+| `$session/*`  | `src/features/session/*`       |
 
-Always use these aliases — never use relative `../` imports across feature boundaries.
+Always use these aliases — never use relative `../` imports that cross directory boundaries.
 
 When adding a new top-level directory under `src/`, register its alias in **both** places:
 1. `tsconfig.json` → `compilerOptions.paths`: add `"$name/*": ["src/name/*"]`
 2. `vite.config.ts` → `resolve.alias`: add `$name: resolve(__dirname, 'src/name')`
 3. `CLAUDE.md` → add a row to the Path aliases table above
+
+### Code reuse guidelines
+
+Extract shared code when it has genuine reuse across 2+ callsites or when isolating it makes testing substantially easier. Do not extract for hypothetical future reuse.
+
+| What to extract | Where |
+|---|---|
+| Pure functions used by 2+ files | `feature/utils/*.ts` |
+| React state logic shared by 2+ components | `feature/hooks/use*.ts` |
+| UI elements rendered identically in 3+ places | `feature/components/*.tsx` |
+| Component-level constants (enums, phase values) | `feature/constants.ts` |
+
+Keep same-file helpers inline. A one-callsite hook or util adds indirection without benefit.
+
+### Conditional classNames
+
+Use `clsx` for conditional className expressions — never `.join(' ')` or template strings:
+
+```tsx
+// good
+className={clsx(styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB)}
+
+// bad
+className={[styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB].join(' ')}
+```
+
+### Complex conditions in JSX
+
+Name boolean conditions as variables before the return so JSX stays readable:
+
+```tsx
+// good — named before return
+const showRevealBtn = !modelVisible && (attempted || modelAnswerVisibility === 'on_request')
+// ... in JSX:
+{showRevealBtn && <button>Show Model Answer</button>}
+
+// bad — inline compound logic
+{!modelVisible && (attempted || modelAnswerVisibility === 'on_request') && <button>...</button>}
+```
 
 -----
 
@@ -385,7 +425,7 @@ This allows full UI development and testing without live credentials.
 
 -----
 
-## Test Strategy — Phase 2 additions
+## Test Strategy
 
 ### Framework
 Vitest + jsdom. Colocated test files (*.test.ts).
@@ -400,13 +440,6 @@ All jobs must pass before merging.
 Always use the existing Vitest framework (src/**/*.test.ts) for all validation and tests.
 Do NOT create standalone scripts (e.g. scripts/validate-*.ts) and add them to package.json.
 Curriculum validation belongs in src/curriculum.test.ts, which runs as part of the CI test job.
-
-### Files with tests this phase
-src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
-getScaffolding: all cases, boundaries, ceiling/floor
-src/curriculum.test.ts — auto-discovers all phase/dayNNN.json files,
-validates JSON parsing, schema structure, enum values, non-empty fields,
-track content counts, and correctAnswer-in-options integrity
 
 ## Curriculum Index
 scripts/curriculum-index.json tracks all grammar titles and vocab words
@@ -475,7 +508,7 @@ Phase 3 (B1):
 
 -----
 
-## Phase 4: Session Component Architecture
+## Session Component Architecture
 
 ### Data flow
 
@@ -557,7 +590,7 @@ Pure functions live in `src/features/session/utils/` (all fully unit-tested):
 | `dialogue.ts` | `computeLineDuration(text)` — returns `max(2400, len × 75)` ms |
 | `vocab.ts` | `genderLabel(gender)` — returns `'masc.'`, `'fém.'`, or `null` |
 
-### Type corrections (Phase 4)
+### Type corrections
 
 `src/types/curriculum.ts` was updated to match actual JSON:
 - `ListenContent.questions` → `ListeningQuestion[]` (was `string[]`)
@@ -566,7 +599,7 @@ Pure functions live in `src/features/session/utils/` (all fully unit-tested):
 
 -----
 
-## Glass Design System (Phase 4)
+## Glass Design System
 
 All session components use CSS Modules + global CSS custom properties.
 

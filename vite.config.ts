@@ -12,6 +12,7 @@ export default defineConfig({
       $lib: resolve(__dirname, 'src/lib'),
       $types: resolve(__dirname, 'src/types'),
       $features: resolve(__dirname, 'src/features'),
+      $session: resolve(__dirname, 'src/features/session'),
     },
   },
   test: {

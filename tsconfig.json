@@ -25,7 +25,8 @@
     "paths": {
       "$lib/*": ["src/lib/*"],
       "$types/*": ["src/types/*"],
-      "$features/*": ["src/features/*"]
+      "$features/*": ["src/features/*"],
+      "$session/*": ["src/features/session/*"]
     }
   },
   "include": ["src"],

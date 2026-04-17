@@ -1,12 +1,14 @@
 import { useState } from 'react'
+import clsx from 'clsx'
 import type { ListenContent } from '$types/curriculum'
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spkV } from '$lib/speech'
-import { listeningQuestionToDrill } from '../utils/quiz'
-import type { DrillQuestion } from '../utils/quiz'
-import { useQuizAnswers } from '../hooks/useQuizAnswers'
-import { useDialoguePlayer } from '../hooks/useDialoguePlayer'
+import { listeningQuestionToDrill } from '$session/utils/quiz'
+import type { DrillQuestion } from '$session/utils/quiz'
+import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
+import { useDialoguePlayer } from '$session/hooks/useDialoguePlayer'
+import { ListeningPhase } from '$session/constants'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './ListeningWidget.module.css'
@@ -17,8 +19,6 @@ interface ListeningWidgetProps {
   track: Track
   onDone: (result: { score: number; total: number }) => void
 }
-
-type Phase = 'listen' | 'questions' | 'transcript'
 
 export default function ListeningWidget({
   listen,
@@ -33,7 +33,8 @@ export default function ListeningWidget({
     .slice(0, questionCount)
     .map(listeningQuestionToDrill)
 
-  const [phase, setPhase] = useState<Phase>(showTranscriptUpfront ? 'transcript' : 'listen')
+  const initialPhase = showTranscriptUpfront ? ListeningPhase.TRANSCRIPT : ListeningPhase.LISTEN
+  const [phase, setPhase] = useState<ListeningPhase>(initialPhase)
   const [replaysUsed, setReplaysUsed] = useState(0)
   const { isPlaying, play } = useDialoguePlayer(listen.dialogue, speed)
   const { answeredCount, allAnswered, score, recordAnswer } = useQuizAnswers(activeQuestions.length)
@@ -47,7 +48,7 @@ export default function ListeningWidget({
     play()
   }
 
-  if (phase === 'listen') {
+  if (phase === ListeningPhase.LISTEN) {
     return (
       <div className={styles.section}>
         <div className={styles.card}>
@@ -70,7 +71,10 @@ export default function ListeningWidget({
               </button>
             )}
           </div>
-          <button className={styles.btnSecondary} onClick={() => setPhase('questions')}>
+          <button
+            className={styles.btnSecondary}
+            onClick={() => setPhase(ListeningPhase.QUESTIONS)}
+          >
             Answer Questions →
           </button>
         </div>
@@ -78,7 +82,7 @@ export default function ListeningWidget({
     )
   }
 
-  if (phase === 'questions') {
+  if (phase === ListeningPhase.QUESTIONS) {
     return (
       <div className={styles.section}>
         <ProgressBar current={answeredCount} total={activeQuestions.length} label="Comprehension" />
@@ -117,7 +121,10 @@ export default function ListeningWidget({
                 ? 'Excellent listening!'
                 : 'See the full transcript below.'}
             </div>
-            <button className={styles.btnPrimary} onClick={() => setPhase('transcript')}>
+            <button
+              className={styles.btnPrimary}
+              onClick={() => setPhase(ListeningPhase.TRANSCRIPT)}
+            >
               View Transcript →
             </button>
           </div>
@@ -133,22 +140,17 @@ export default function ListeningWidget({
         <div className={styles.sectionBadge}>📜 Transcript</div>
         <div className={styles.dialogueList}>
           {listen.dialogue.map(([speaker, text], i) => (
-            <div
-              key={i}
-              className={[styles.dialogueLine, speaker === 'B' ? styles.lineB : ''].join(' ')}
-            >
+            <div key={i} className={clsx(styles.dialogueLine, speaker === 'B' && styles.lineB)}>
               <span
-                className={[
+                className={clsx(
                   styles.speakerBadge,
                   speaker === 'A' ? styles.speakerBadgeA : styles.speakerBadgeB,
-                ].join(' ')}
+                )}
               >
                 {speaker}
               </span>
               <div
-                className={[styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB].join(
-                  ' ',
-                )}
+                className={clsx(styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB)}
               >
                 {text}
                 <div className={styles.bubbleActions}>

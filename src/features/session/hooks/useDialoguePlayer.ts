@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import type { DialogueLine } from '$types/curriculum'
 import { spkV } from '$lib/speech'
-import { computeLineDuration } from '../utils/dialogue'
+import { computeLineDuration } from '$session/utils/dialogue'
 
 export function useDialoguePlayer(dialogue: DialogueLine[], defaultSpeed: number) {
   const [isPlaying, setIsPlaying] = useState(false)

@@ -3,9 +3,10 @@ import type { GrammarContent } from '$types/curriculum'
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spk } from '$lib/speech'
-import { grammarDrillItemToDrill } from '../utils/quiz'
-import type { DrillQuestion } from '../utils/quiz'
-import { useQuizAnswers } from '../hooks/useQuizAnswers'
+import { grammarDrillItemToDrill } from '$session/utils/quiz'
+import type { DrillQuestion } from '$session/utils/quiz'
+import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
+import { GrammarPhase } from '$session/constants'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './GrammarDrill.module.css'
@@ -35,7 +36,7 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
   const scaffolding = getScaffolding('grammar', difficulty, track)
   const { showExplanation, drillCount, showWorkedExamples } = scaffolding
 
-  const [phase, setPhase] = useState<'learn' | 'drill'>('learn')
+  const [phase, setPhase] = useState<GrammarPhase>(GrammarPhase.LEARN)
 
   const activeDrills: DrillQuestion[] = grammar.drills
     .slice(0, drillCount)
@@ -43,7 +44,7 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
 
   const { answeredCount, allAnswered, score, recordAnswer } = useQuizAnswers(activeDrills.length)
 
-  if (phase === 'learn') {
+  if (phase === GrammarPhase.LEARN) {
     return (
       <div className={styles.section}>
         <div className={styles.card}>
@@ -65,7 +66,7 @@ export default function GrammarDrill({ grammar, difficulty, track, onDone }: Gra
             ))}
           </div>
 
-          <button className={styles.startDrillsBtn} onClick={() => setPhase('drill')}>
+          <button className={styles.startDrillsBtn} onClick={() => setPhase(GrammarPhase.DRILL)}>
             Start Drills →
           </button>
         </div>

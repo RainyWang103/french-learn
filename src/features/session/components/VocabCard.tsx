@@ -3,10 +3,11 @@ import type { VocabWord, VerbForms, GenderForms, QuizQuestion } from '$types/cur
 import type { Track } from '$types/profile'
 import { getScaffolding } from '$lib/difficulty'
 import { spkV } from '$lib/speech'
-import { extractFlaggedWords, quizQuestionToDrill } from '../utils/quiz'
-import type { DrillQuestion } from '../utils/quiz'
-import { genderLabel } from '../utils/vocab'
-import { useQuizAnswers } from '../hooks/useQuizAnswers'
+import { extractFlaggedWords, quizQuestionToDrill } from '$session/utils/quiz'
+import type { DrillQuestion } from '$session/utils/quiz'
+import { genderLabel } from '$session/utils/vocab'
+import { useQuizAnswers } from '$session/hooks/useQuizAnswers'
+import { VocabPhase } from '$session/constants'
 import QuizItem from './QuizItem'
 import ProgressBar from './ProgressBar'
 import styles from './VocabCard.module.css'
@@ -217,7 +218,7 @@ export default function VocabCard({
   const showPronunciation = scaffolding.showPronunciation && !hidePronunciation
   const showHints = scaffolding.showHints
 
-  const [phase, setPhase] = useState<'cards' | 'quiz'>('cards')
+  const [phase, setPhase] = useState<VocabPhase>(VocabPhase.CARDS)
   const [cardIndex, setCardIndex] = useState(0)
 
   const quizItems: DrillQuestion[] = quizQuestions.map(quizQuestionToDrill)
@@ -225,7 +226,7 @@ export default function VocabCard({
     quizItems.length,
   )
 
-  if (phase === 'quiz') {
+  if (phase === VocabPhase.QUIZ) {
     return (
       <div className={styles.section}>
         <ProgressBar current={answeredCount} total={quizItems.length} label="Vocab Quiz" />
@@ -278,7 +279,7 @@ export default function VocabCard({
         onPrev={() => setCardIndex((i) => i - 1)}
         onNext={() => setCardIndex((i) => i + 1)}
         isLast={cardIndex === activeWords.length - 1}
-        onStartQuiz={() => setPhase('quiz')}
+        onStartQuiz={() => setPhase(VocabPhase.QUIZ)}
       />
     </div>
   )

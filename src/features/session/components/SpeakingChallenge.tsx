@@ -32,6 +32,8 @@ export default function SpeakingChallenge({
   }
 
   const showStarters = showSentenceStarters || modelAnswerVisibility === 'upfront'
+  const showAttemptBtn = !modelVisible && modelAnswerVisibility === 'after_attempt' && !attempted
+  const showRevealBtn = !modelVisible && (attempted || modelAnswerVisibility === 'on_request')
   const canComplete = modelVisible
 
   return (
@@ -71,12 +73,12 @@ export default function SpeakingChallenge({
         )}
 
         <div className={styles.actionRow}>
-          {!modelVisible && modelAnswerVisibility === 'after_attempt' && !attempted && (
+          {showAttemptBtn && (
             <button className={styles.btnSecondary} onClick={() => setAttempted(true)}>
               I've tried speaking
             </button>
           )}
-          {!modelVisible && (attempted || modelAnswerVisibility === 'on_request') && (
+          {showRevealBtn && (
             <button className={styles.btnSecondary} onClick={() => setModelVisible(true)}>
               Show Model Answer
             </button>
