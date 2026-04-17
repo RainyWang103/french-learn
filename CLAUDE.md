@@ -480,16 +480,17 @@ Phase 3 (B1):
 ### Data flow
 
 ```
-useDayContent(phase, day)
-    └── fetches /curriculum/phase{N}/day{NNN}.json → DayData
-            │
-            ▼
-        Session.tsx  (orchestrates section order, tracks progress)
-            ├── VocabCard        ← day.vocab[track] + day.quiz[track]
-            ├── ListeningWidget  ← day.listen[track]
-            ├── GrammarDrill     ← day.grammar[track]
-            ├── SpeakingChallenge← day.speak[track]
-            └── RevisionSection  ← profile.flagged_words  (revision days only)
+useDayContent(phase, day)          ← hook in src/features/session/hooks/
+    │  Fetches /curriculum/phase{N}/day{NNN}.json and returns
+    │  { content: DayContent | null, loading, error, isRevisionDay }
+    │
+    ▼
+Session.tsx  (orchestrates section order, tracks progress)
+    ├── VocabCard        ← day.vocab[track]  + day.quiz[track]
+    ├── ListeningWidget  ← day.listen[track]
+    ├── GrammarDrill     ← day.grammar[track]
+    ├── SpeakingChallenge← day.speak[track]
+    └── RevisionSection  ← profile.flagged_words  (revision days only)
 ```
 
 Each component calls `getScaffolding(section, difficulty, track)` internally.
@@ -528,11 +529,33 @@ RevisionSection({
 })
 ```
 
-### Internal shared component
+### Internal shared components and hooks
 
-`src/features/session/components/QuizItem.tsx` — handles both `multipleChoice`
-and `fillInTheBlank` question rendering with normalised answer comparison
-(strip diacritics, lowercase, trim). Not exported from `index.ts`.
+**`QuizItem.tsx`** — renders both `multipleChoice` and `fillInTheBlank` questions
+with normalised answer comparison (strip diacritics, lowercase, trim).
+Not exported from `index.ts`.
+
+**`ProgressBar.tsx`** — thin wrapper around `progressPercent()` that renders a
+labelled progress bar. Used by all quiz-phase components.
+
+**`useQuizAnswers(total)`** — manages `answers: Record<number, boolean>` state and
+derives `answeredCount`, `allAnswered`, `score`, and `recordAnswer(index, correct)`.
+Shared by VocabCard, ListeningWidget, GrammarDrill, and RevisionSection.
+
+**`useDialoguePlayer(dialogue, defaultSpeed)`** — owns `isPlaying` state and a
+`useRef` timeout array. Exposes a single `play(speed?)` function that schedules
+`spkV` calls with per-line delays computed by `computeLineDuration`. Used by
+ListeningWidget. Cancels any in-progress playback before starting a new run.
+
+### Session utility modules
+
+Pure functions live in `src/features/session/utils/` (all fully unit-tested):
+
+| File | Exports |
+|---|---|
+| `quiz.ts` | `normalise`, `checkAnswer`, `countAnswered`, `countCorrect`, `progressPercent`, `extractFlaggedWords`, `quizQuestionToDrill`, `listeningQuestionToDrill`, `grammarDrillItemToDrill`, `DrillQuestion` |
+| `dialogue.ts` | `computeLineDuration(text)` — returns `max(2400, len × 75)` ms |
+| `vocab.ts` | `genderLabel(gender)` — returns `'masc.'`, `'fém.'`, or `null` |
 
 ### Type corrections (Phase 4)
 
