@@ -1,0 +1,598 @@
+{
+  "day": 67,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "In the Kitchen",
+  "vocab": {
+    "standard": [
+      {
+        "word": "le frigo",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "FREE-go",
+        "meaning": "refrigerator",
+        "notes": "Masculine noun. Informal French; 'le réfrigérateur' is more formal.",
+        "examples": [
+          ["Je vais chercher du lait dans le frigo.", "I'm going to get milk from the refrigerator."],
+          ["Il y a du fromage dans le frigo.", "There is cheese in the refrigerator."],
+          ["Le frigo est plein de nourriture.", "The refrigerator is full of food."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "frigo",
+          "feminine": "",
+          "masculinePlural": "frigos",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le four",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "fur",
+        "meaning": "oven",
+        "notes": "Masculine noun. Used for cooking bread and baked goods.",
+        "examples": [
+          ["Je fais cuire le pain au four.", "I am baking bread in the oven."],
+          ["Le four est très chaud.", "The oven is very hot."],
+          ["Elle met la tarte au four.", "She puts the pie in the oven."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "four",
+          "feminine": "",
+          "masculinePlural": "fours",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la casserole",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "kas-rohl",
+        "meaning": "pot",
+        "notes": "Feminine noun. Used on the stovetop for cooking.",
+        "examples": [
+          ["Je fais bouillir l'eau dans une casserole.", "I'm boiling water in a pot."],
+          ["Mets la soupe dans la casserole.", "Put the soup in the pot."],
+          ["Les casseroles sont sur le feu.", "The pots are on the stove."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "casserole",
+          "masculinePlural": "",
+          "femininePlural": "casseroles"
+        }
+      },
+      {
+        "word": "couper",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "koo-PAY",
+        "meaning": "to cut",
+        "notes": "Regular -er verb. Essential for food preparation.",
+        "examples": [
+          ["Je coupe les tomates en petits morceaux.", "I cut the tomatoes into small pieces."],
+          ["Elle coupe le pain avec un couteau.", "She cuts the bread with a knife."],
+          ["Nous coupons les légumes pour la salade.", "We cut the vegetables for the salad."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je coupe",
+          "tu": "tu coupes",
+          "il": "il/elle/on coupe",
+          "nous": "nous coupons",
+          "vous": "vous coupez",
+          "ils": "ils/elles coupent"
+        }
+      },
+      {
+        "word": "mélanger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "may-lon-zhay",
+        "meaning": "to mix",
+        "notes": "Regular -er verb (note the g before e). Used in cooking.",
+        "examples": [
+          ["Je mélange les ingrédients dans un bol.", "I mix the ingredients in a bowl."],
+          ["Mélange bien la pâte.", "Mix the dough well."],
+          ["Elle mélange la sauce avec une cuillère.", "She mixes the sauce with a spoon."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je mélange",
+          "tu": "tu mélanges",
+          "il": "il/elle/on mélange",
+          "nous": "nous mélangeons",
+          "vous": "vous mélangez",
+          "ils": "ils/elles mélangent"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "le frigo",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "FREE-go",
+        "meaning": "refrigerator",
+        "notes": "Masculine noun. Informal French; 'le réfrigérateur' is more formal.",
+        "examples": [
+          ["Je vais chercher du lait dans le frigo.", "I'm going to get milk from the refrigerator."],
+          ["Il y a du fromage dans le frigo.", "There is cheese in the refrigerator."],
+          ["Le frigo est plein de nourriture.", "The refrigerator is full of food."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "frigo",
+          "feminine": "",
+          "masculinePlural": "frigos",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le four",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "fur",
+        "meaning": "oven",
+        "notes": "Masculine noun. Used for cooking bread and baked goods.",
+        "examples": [
+          ["Je fais cuire le pain au four.", "I am baking bread in the oven."],
+          ["Le four est très chaud.", "The oven is very hot."],
+          ["Elle met la tarte au four.", "She puts the pie in the oven."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "four",
+          "feminine": "",
+          "masculinePlural": "fours",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "le micro-ondes",
+        "partOfSpeech": "noun",
+        "gender": "male",
+        "pronunciation": "MEE-kro-ond",
+        "meaning": "microwave",
+        "notes": "Masculine noun. Modern kitchen equipment. Also called 'micro' informally.",
+        "examples": [
+          ["Je réchauffe le café au micro-ondes.", "I reheat the coffee in the microwave."],
+          ["Le micro-ondes est sur le comptoir.", "The microwave is on the counter."],
+          ["Elle met les restes au micro-ondes.", "She puts the leftovers in the microwave."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "micro-ondes",
+          "feminine": "",
+          "masculinePlural": "micro-ondes",
+          "femininePlural": ""
+        }
+      },
+      {
+        "word": "la casserole",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "kas-rohl",
+        "meaning": "pot",
+        "notes": "Feminine noun. Used on the stovetop for cooking.",
+        "examples": [
+          ["Je fais bouillir l'eau dans une casserole.", "I'm boiling water in a pot."],
+          ["Mets la soupe dans la casserole.", "Put the soup in the pot."],
+          ["Les casseroles sont sur le feu.", "The pots are on the stove."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "casserole",
+          "masculinePlural": "",
+          "femininePlural": "casseroles"
+        }
+      },
+      {
+        "word": "la poêle",
+        "partOfSpeech": "noun",
+        "gender": "female",
+        "pronunciation": "pwahl",
+        "meaning": "frying pan / skillet",
+        "notes": "Feminine noun. Used on the stovetop for frying or sautéing.",
+        "examples": [
+          ["Je fais frire les œufs dans une poêle.", "I fry the eggs in a skillet."],
+          ["Mets le beurre dans la poêle.", "Put the butter in the frying pan."],
+          ["Elle fait cuire les légumes dans la poêle.", "She cooks the vegetables in the skillet."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "",
+          "feminine": "poêle",
+          "masculinePlural": "",
+          "femininePlural": "poêles"
+        }
+      },
+      {
+        "word": "couper",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "koo-PAY",
+        "meaning": "to cut",
+        "notes": "Regular -er verb. Essential for food preparation.",
+        "examples": [
+          ["Je coupe les tomates en petits morceaux.", "I cut the tomatoes into small pieces."],
+          ["Elle coupe le pain avec un couteau.", "She cuts the bread with a knife."],
+          ["Nous coupons les légumes pour la salade.", "We cut the vegetables for the salad."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je coupe",
+          "tu": "tu coupes",
+          "il": "il/elle/on coupe",
+          "nous": "nous coupons",
+          "vous": "vous coupez",
+          "ils": "ils/elles coupent"
+        }
+      },
+      {
+        "word": "mélanger",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "pronunciation": "may-lon-zhay",
+        "meaning": "to mix",
+        "notes": "Regular -er verb (note the g before e). Used in cooking.",
+        "examples": [
+          ["Je mélange les ingrédients dans un bol.", "I mix the ingredients in a bowl."],
+          ["Mélange bien la pâte.", "Mix the dough well."],
+          ["Elle mélange la sauce avec une cuillère.", "She mixes the sauce with a spoon."]
+        ],
+        "special": "",
+        "forms": {
+          "je": "je mélange",
+          "tu": "tu mélanges",
+          "il": "il/elle/on mélange",
+          "nous": "nous mélangeons",
+          "vous": "vous mélangez",
+          "ils": "ils/elles mélangent"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! Je prépare une salade. Peux-tu m'aider?"],
+        ["B", "Bien sûr! Qu'est-ce que je dois faire?"],
+        ["A", "Coupe les tomates et les concombres, s'il te plaît."],
+        ["B", "D'accord. Je coupe les légumes."],
+        ["A", "Merci! Maintenant, je mélange tout."]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que A prépare?",
+          "options": ["Une soupe", "Une salade", "Un gâteau"],
+          "correctAnswer": "Une salade"
+        },
+        {
+          "question": "Qu'est-ce que B doit faire?",
+          "options": ["Cuire le pain", "Couper les légumes", "Mélanger la sauce"],
+          "correctAnswer": "Couper les légumes"
+        },
+        {
+          "question": "Qu'est-ce que A fait avec les ingrédients?",
+          "options": ["Elle les cuit", "Elle les mélange", "Elle les congèle"],
+          "correctAnswer": "Elle les mélange"
+        }
+      ],
+      "summary": "A is preparing a salad and asks B to help cut tomatoes and cucumbers. A then mixes all the ingredients."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "J'aimerais préparer un rôti au four ce soir. Tu connais une bonne recette?"],
+        ["B", "Oui! D'abord, coupe les légumes en morceaux. Puis, mets-les dans une poêle avec de l'huile."],
+        ["A", "Et après, je mets tout au four?"],
+        ["B", "Exactement. Mélange bien la viande avec les épices, puis enfourne à 180 degrés."],
+        ["A", "Combien de temps ça cuira au four?"],
+        ["B", "Environ une heure et demie."]
+      ],
+      "questions": [
+        {
+          "question": "Qu'est-ce que A veut préparer?",
+          "options": ["Une soupe", "Un gâteau", "Un rôti au four"],
+          "correctAnswer": "Un rôti au four"
+        },
+        {
+          "question": "Qu'est-ce qu'on doit faire en premier?",
+          "options": ["Couper les légumes", "Allumer le four", "Mélanger les épices"],
+          "correctAnswer": "Couper les légumes"
+        },
+        {
+          "question": "Où cuit le rôti?",
+          "options": ["Dans une casserole", "Au four", "Dans une poêle"],
+          "correctAnswer": "Au four"
+        },
+        {
+          "question": "Combien de temps le rôti cuira-t-il?",
+          "options": ["Trente minutes", "Une heure", "Une heure et demie"],
+          "correctAnswer": "Une heure et demie"
+        }
+      ],
+      "summary": "A asks B for advice on preparing a roast. B explains to cut vegetables, sauté them, then bake the roast in the oven at 180 degrees for about 90 minutes."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Boire (Present Tense — Irregular Verb)",
+      "explanation": "The verb 'boire' (to drink) is an irregular verb in French. Its present-tense conjugation changes its stem from 'boi-' in first and second person (singular and plural) to 'buv-' in third person. This is called a stem-changing or boot verb. The conjugation is: je bois, tu bois, il/elle/on boit, nous buvons, vous buvez, ils/elles boivent. Pay attention to the spelling: 'bois' (I drink) sounds like 'bwa,' and 'nous buvons' uses the 'u' form. Example: 'Je bois du café.' (I drink coffee.)",
+      "examples": [
+        {
+          "french": "Je bois de l'eau.",
+          "english": "I drink water."
+        },
+        {
+          "french": "Tu bois du café?",
+          "english": "Do you drink coffee?"
+        },
+        {
+          "french": "Il boit du jus de fruit.",
+          "english": "He drinks fruit juice."
+        },
+        {
+          "french": "Nous buvons du lait.",
+          "english": "We drink milk."
+        },
+        {
+          "french": "Vous buvez du vin?",
+          "english": "Do you drink wine?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Je ___ de l'eau.'",
+          "options": ["bois", "buvons", "boit"],
+          "correctAnswer": "bois",
+          "explanation": "'Je bois' is the first-person singular form of 'boire' (I drink).",
+          "targetWord": "boire"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ du café chaque matin.",
+          "options": [],
+          "correctAnswer": "buvons",
+          "explanation": "'Nous buvons' is the first-person plural form (we drink).",
+          "targetWord": "buvons"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel verbe est conjugué correctement?",
+          "options": ["Elle bois du thé.", "Elle boit du thé.", "Elle buv du thé."],
+          "correctAnswer": "Elle boit du thé.",
+          "explanation": "'Elle boit' is the third-person singular form. The other options are misspelled or incorrectly conjugated.",
+          "targetWord": "boire"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ du jus?",
+          "options": [],
+          "correctAnswer": "bois",
+          "explanation": "'Tu bois' is the second-person singular form (you drink).",
+          "targetWord": "bois"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Ils ___ de l'eau minérale.'",
+          "options": ["bois", "boivent", "buvons"],
+          "correctAnswer": "boivent",
+          "explanation": "'Ils boivent' is the third-person plural form (they drink). Note the 'v' in the stem.",
+          "targetWord": "boivent"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Boire — Full Conjugation, Common Expressions & Partitive Article",
+      "explanation": "The verb 'boire' (to drink) is an irregular boot verb with two distinct stems: 'boi-' (je bois, tu bois, il/elle/on boit, ils/elles boivent) and 'buv-' (nous buvons, vous buvez). The partitive article (du, de la, de l', des) is frequently used with 'boire' to express quantity or type of beverage: 'je bois du café' (I drink coffee), 'elle boit de la limonade' (she drinks lemonade). Common expressions with 'boire' include: 'boire un verre' (to have a drink), 'boire à la santé de quelqu'un' (to toast someone), 'avoir soif et boire' (to be thirsty and drink). The passé composé of 'boire' is 'j'ai bu' (I drank).",
+      "examples": [
+        {
+          "french": "Je bois du café le matin.",
+          "english": "I drink coffee in the morning."
+        },
+        {
+          "french": "Tu bois de la limonade?",
+          "english": "Do you drink lemonade?"
+        },
+        {
+          "french": "Elle boit de l'eau minérale.",
+          "english": "She drinks mineral water."
+        },
+        {
+          "french": "Nous buvons du vin rouge.",
+          "english": "We drink red wine."
+        },
+        {
+          "french": "Vous buvez du thé ou du café?",
+          "english": "Do you drink tea or coffee?"
+        },
+        {
+          "french": "Ils boivent du jus de fruit.",
+          "english": "They drink fruit juice."
+        },
+        {
+          "french": "Je bois un verre d'eau.",
+          "english": "I drink a glass of water."
+        },
+        {
+          "french": "Nous buvons à ta santé!",
+          "english": "We toast to your health!"
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase est correcte?",
+          "options": ["Je bois du café.", "Je buvons du café.", "Je bu du café."],
+          "correctAnswer": "Je bois du café.",
+          "explanation": "'Je bois' is the correct present-tense conjugation for 'I drink.'",
+          "targetWord": "boire"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Vous ___ du thé ou du café?",
+          "options": [],
+          "correctAnswer": "buvez",
+          "explanation": "'Vous buvez' is the second-person plural formal form (you all drink).",
+          "targetWord": "buvez"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Elle ___ de l'eau chaque jour.'",
+          "options": ["bois", "boit", "buv"],
+          "correctAnswer": "boit",
+          "explanation": "'Elle boit' is the third-person singular (she drinks).",
+          "targetWord": "boit"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Nous ___ du vin rouge à la fête.",
+          "options": [],
+          "correctAnswer": "buvons",
+          "explanation": "'Nous buvons' is the first-person plural (we drink).",
+          "targetWord": "buvons"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle expression signifie 'to toast'?",
+          "options": ["Boire un verre", "Boire à la santé de quelqu'un", "Boire de l'eau"],
+          "correctAnswer": "Boire à la santé de quelqu'un",
+          "explanation": "'Boire à la santé de quelqu'un' means 'to toast to someone's health.'",
+          "targetWord": "boire"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "J'ai soif. Je vais ___ de l'eau.",
+          "options": [],
+          "correctAnswer": "boire",
+          "explanation": "After the verb 'aller,' use the infinitive form 'boire' (to drink).",
+          "targetWord": "boire"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Complétez: 'Ils ___ du jus d'orange le matin.'",
+          "options": ["bois", "boivent", "buvons"],
+          "correctAnswer": "boivent",
+          "explanation": "'Ils boivent' is the third-person plural (they drink).",
+          "targetWord": "boivent"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Tu ___ un verre de vin ce soir?",
+          "options": [],
+          "correctAnswer": "bois",
+          "explanation": "'Tu bois' is the second-person singular (you drink).",
+          "targetWord": "bois"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Complétez: 'Je ___ de l'eau.'",
+        "options": ["bois", "buvons", "boit"],
+        "correctAnswer": "bois",
+        "explanation": "'Je bois' is the correct first-person singular form of 'boire'.",
+        "targetWord": "boire"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je coupe les tomates avec un ___.",
+        "options": [],
+        "correctAnswer": "couteau",
+        "explanation": "A knife (couteau) is the tool used to cut tomatoes.",
+        "targetWord": "couper"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où met-on la nourriture pour la garder froide?",
+        "options": ["Au four", "Au frigo", "Dans la casserole"],
+        "correctAnswer": "Au frigo",
+        "explanation": "A refrigerator (frigo) is used to keep food cold.",
+        "targetWord": "frigo"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Nous ___ les ingrédients dans un bol.",
+        "options": [],
+        "correctAnswer": "mélangeons",
+        "explanation": "'Nous mélangeons' is the first-person plural form of 'mélanger' (to mix).",
+        "targetWord": "mélanger"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel verbe signifie 'to drink'?",
+        "options": ["Manger", "Boire", "Couper"],
+        "correctAnswer": "Boire",
+        "explanation": "'Boire' means 'to drink.'",
+        "targetWord": "boire"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase est grammaticalement correcte?",
+        "options": ["Nous bois du café.", "Nous buvons du café.", "Nous buvez du café."],
+        "correctAnswer": "Nous buvons du café.",
+        "explanation": "'Nous buvons' is the correct first-person plural conjugation of 'boire'.",
+        "targetWord": "boire"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Je fais frire les œufs dans ___ avec du beurre.",
+        "options": [],
+        "correctAnswer": "une poêle",
+        "explanation": "A frying pan (poêle) is used for frying eggs.",
+        "targetWord": "poêle"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où cuit-on le pain?",
+        "options": ["Dans une casserole", "Dans une poêle", "Au four"],
+        "correctAnswer": "Au four",
+        "explanation": "Bread is baked in an oven (four).",
+        "targetWord": "four"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle ___ du lait dans son café.",
+        "options": [],
+        "correctAnswer": "boit",
+        "explanation": "'Elle boit' is the third-person singular form of 'boire' (she drinks).",
+        "targetWord": "boire"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase signifie 'I drink a glass of water'?",
+        "options": ["Je bois une casserole d'eau.", "Je bois un verre d'eau.", "Je bois un four d'eau."],
+        "correctAnswer": "Je bois un verre d'eau.",
+        "explanation": "'Je bois un verre d'eau' correctly means 'I drink a glass of water.'",
+        "targetWord": "boire"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe how you prepare a simple dish (like a salad or pasta). Mention at least three kitchen items or actions, such as cutting vegetables, mixing ingredients, or cooking.",
+      "keyPhrases": ["Je coupe", "je mélange", "je fais cuire", "dans un bol", "le frigo", "le four", "une casserole"],
+      "modelAnswer": "Je prépare une salade. D'abord, je coupe les tomates et les concombres. Puis, je mélange tout dans un bol. Finalement, j'ajoute l'huile et le vinaigre. C'est simple et délicieux!",
+      "modelAnswerExplanation": "This answer uses sequencing words (d'abord, puis, finalement) and appropriate kitchen verbs in present tense.",
+      "tip": "Use sequencing words like 'd'abord' (first), 'puis' (then), and 'finalement' (finally) to structure your cooking description. Use present tense for your actions."
+    },
+    "advanced": {
+      "scenario": "Explain a more complex recipe to a friend, including specific cooking techniques, timing, and kitchen equipment. Include at least five different cooking steps or tools.",
+      "keyPhrases": ["Je coupe", "Je fais cuire", "je mélange", "au four", "dans une poêle", "environ", "degrés", "minutes"],
+      "modelAnswer": "Voici comment je prépare un rôti. D'abord, je coupe les légumes en morceaux. Ensuite, je fais cuire la viande dans une poêle avec de l'huile. Puis, je mets tout au four à 180 degrés. Je mélange les épices avec la viande. Ça cuira environ une heure et demie. Je bois un verre de vin pendant la cuisson!",
+      "modelAnswerExplanation": "This response uses varied kitchen verbs, includes timing and temperature information, and employs sequencing connectors for clarity.",
+      "tip": "Include temperatures in Celsius, cooking times, and the order of steps. Use 'je fais cuire' for cooking, 'je mélange' for mixing, and specify which equipment you use ('au four,' 'dans une poêle')."
+    }
+  }
+}

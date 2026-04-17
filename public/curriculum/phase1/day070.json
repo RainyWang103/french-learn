@@ -1,0 +1,590 @@
+{
+  "day": 70,
+  "phase": 1,
+  "isRevision": false,
+  "topic": "Personality & Character",
+  "vocab": {
+    "standard": [
+      {
+        "word": "sympathique",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "sam-pah-TEEK",
+        "meaning": "nice, likeable, pleasant",
+        "notes": "Adjective. Invariable (does not change form).",
+        "examples": [
+          ["Mon professeur est très sympathique.", "My teacher is very nice."],
+          ["Elle a des amies sympathiques.", "She has nice friends."],
+          ["C'est une personne sympathique.", "He/She is a likeable person."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "sympathique",
+          "feminine": "sympathique",
+          "masculinePlural": "sympathiques",
+          "femininePlural": "sympathiques"
+        }
+      },
+      {
+        "word": "timide",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "tee-MEED",
+        "meaning": "shy",
+        "notes": "Adjective. Invariable (does not change form).",
+        "examples": [
+          ["Il est très timide.", "He is very shy."],
+          ["Elle parle peu parce qu'elle est timide.", "She speaks little because she is shy."],
+          ["Les enfants timides préfèrent rester à la maison.", "Shy children prefer to stay home."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "timide",
+          "feminine": "timide",
+          "masculinePlural": "timides",
+          "femininePlural": "timides"
+        }
+      },
+      {
+        "word": "sérieux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "say-ree-UH",
+        "meaning": "serious",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Il est un garçon très sérieux.", "He is a very serious boy."],
+          ["Elle prend son travail au sérieux.", "She takes her work seriously."],
+          ["Les étudiants sérieux réussissent bien.", "Serious students succeed well."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "sérieux",
+          "feminine": "sérieuse",
+          "masculinePlural": "sérieux",
+          "femininePlural": "sérieuses"
+        }
+      },
+      {
+        "word": "drôle",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "drohl",
+        "meaning": "funny",
+        "notes": "Adjective. Invariable (does not change form).",
+        "examples": [
+          ["Il dit des choses drôles.", "He says funny things."],
+          ["Mon frère est drôle.", "My brother is funny."],
+          ["Nous aimons ses blagues drôles.", "We like his funny jokes."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "drôle",
+          "feminine": "drôle",
+          "masculinePlural": "drôles",
+          "femininePlural": "drôles"
+        }
+      },
+      {
+        "word": "patient",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "pah-see-ON",
+        "meaning": "patient",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Le professeur est très patient.", "The teacher is very patient."],
+          ["Elle est patiente avec les enfants.", "She is patient with children."],
+          ["Les docteurs patients aident leurs malades.", "Patient doctors help their patients."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "patient",
+          "feminine": "patiente",
+          "masculinePlural": "patients",
+          "femininePlural": "patientes"
+        }
+      }
+    ],
+    "advanced": [
+      {
+        "word": "sympathique",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "sam-pah-TEEK",
+        "meaning": "nice, likeable, pleasant",
+        "notes": "Adjective. Invariable (does not change form).",
+        "examples": [
+          ["Mon professeur est très sympathique.", "My teacher is very nice."],
+          ["Elle a des amies sympathiques.", "She has nice friends."],
+          ["C'est une personne sympathique.", "He/She is a likeable person."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "sympathique",
+          "feminine": "sympathique",
+          "masculinePlural": "sympathiques",
+          "femininePlural": "sympathiques"
+        }
+      },
+      {
+        "word": "timide",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "tee-MEED",
+        "meaning": "shy",
+        "notes": "Adjective. Invariable (does not change form).",
+        "examples": [
+          ["Il est très timide.", "He is very shy."],
+          ["Elle parle peu parce qu'elle est timide.", "She speaks little because she is shy."],
+          ["Les enfants timides préfèrent rester à la maison.", "Shy children prefer to stay home."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "timide",
+          "feminine": "timide",
+          "masculinePlural": "timides",
+          "femininePlural": "timides"
+        }
+      },
+      {
+        "word": "sérieux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "say-ree-UH",
+        "meaning": "serious",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Il est un garçon très sérieux.", "He is a very serious boy."],
+          ["Elle prend son travail au sérieux.", "She takes her work seriously."],
+          ["Les étudiants sérieux réussissent bien.", "Serious students succeed well."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "sérieux",
+          "feminine": "sérieuse",
+          "masculinePlural": "sérieux",
+          "femininePlural": "sérieuses"
+        }
+      },
+      {
+        "word": "drôle",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "drohl",
+        "meaning": "funny",
+        "notes": "Adjective. Invariable (does not change form).",
+        "examples": [
+          ["Il dit des choses drôles.", "He says funny things."],
+          ["Mon frère est drôle.", "My brother is funny."],
+          ["Nous aimons ses blagues drôles.", "We like his funny jokes."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "drôle",
+          "feminine": "drôle",
+          "masculinePlural": "drôles",
+          "femininePlural": "drôles"
+        }
+      },
+      {
+        "word": "patient",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "pah-see-ON",
+        "meaning": "patient",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Le professeur est très patient.", "The teacher is very patient."],
+          ["Elle est patiente avec les enfants.", "She is patient with children."],
+          ["Les docteurs patients aident leurs malades.", "Patient doctors help their patients."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "patient",
+          "feminine": "patiente",
+          "masculinePlural": "patients",
+          "femininePlural": "patientes"
+        }
+      },
+      {
+        "word": "méchant",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "may-SHAN",
+        "meaning": "mean, mean-spirited, nasty",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Il est méchant et je ne l'aime pas.", "He is mean and I don't like him."],
+          ["Elle est méchante avec ses frères.", "She is mean to her brothers."],
+          ["Les gens méchants font du mal.", "Mean people cause harm."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "méchant",
+          "feminine": "méchante",
+          "masculinePlural": "méchants",
+          "femininePlural": "méchantes"
+        }
+      },
+      {
+        "word": "généreux",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "pronunciation": "zhay-nay-RUH",
+        "meaning": "generous",
+        "notes": "Adjective. Changes form based on gender and number.",
+        "examples": [
+          ["Il est très généreux avec ses amis.", "He is very generous with his friends."],
+          ["Elle donne de l'argent aux pauvres; elle est généreuse.", "She gives money to the poor; she is generous."],
+          ["Les gens généreux aiment aider les autres.", "Generous people like to help others."]
+        ],
+        "special": "",
+        "forms": {
+          "masculine": "généreux",
+          "feminine": "généreuse",
+          "masculinePlural": "généreux",
+          "femininePlural": "généreuses"
+        }
+      }
+    ]
+  },
+  "listen": {
+    "standard": {
+      "dialogue": [
+        ["A", "Bonjour! Je te présente mon ami Marc."],
+        ["B", "Enchanté! Comment est Marc?"],
+        ["A", "Il est très sympathique et drôle. Il me fait toujours rire."],
+        ["B", "C'est super! Est-ce qu'il est timide?"],
+        ["A", "Non, il est très extraverti. Il aime parler avec tout le monde."]
+      ],
+      "questions": [
+        {
+          "question": "Comment est Marc?",
+          "options": ["Timide et sérieux", "Sympathique et drôle", "Méchant et ennuyeux"],
+          "correctAnswer": "Sympathique et drôle"
+        },
+        {
+          "question": "Est-ce que Marc est timide?",
+          "options": ["Oui", "Non", "Un peu"],
+          "correctAnswer": "Non"
+        },
+        {
+          "question": "Qu'est-ce que Marc aime faire?",
+          "options": ["Rester seul", "Parler avec tout le monde", "Lire seul"],
+          "correctAnswer": "Parler avec tout le monde"
+        }
+      ],
+      "summary": "A introduces his friend Marc to B. Marc is nice and funny. He is not shy and loves talking to everyone."
+    },
+    "advanced": {
+      "dialogue": [
+        ["A", "Connais-tu mon collègue Jean? Il est nouveau dans notre équipe."],
+        ["B", "Qu'est-ce que tu penses de lui?"],
+        ["A", "C'est une personne remarquable. Il est très sérieux dans son travail mais drôle pendant les pauses."],
+        ["B", "Ça semble une bonne combinaison. Est-ce qu'il est généreux?"],
+        ["A", "Oui, absolument. Il aide tout le monde sans demander de remerciements. Mais il peut être un peu impatient."],
+        ["B", "C'est important d'avoir des collègues comme ça."]
+      ],
+      "questions": [
+        {
+          "question": "Quel est le nouveau rôle de Jean?",
+          "options": ["Professeur", "Collègue de A", "Ami de B"],
+          "correctAnswer": "Collègue de A"
+        },
+        {
+          "question": "Comment Jean est-il au travail?",
+          "options": ["Drôle et superficiel", "Sérieux et concentré", "Méchant et impoli"],
+          "correctAnswer": "Sérieux et concentré"
+        },
+        {
+          "question": "Est-ce que Jean est généreux?",
+          "options": ["Oui, il aide les autres", "Non, il est égoïste", "Il est parfois généreux"],
+          "correctAnswer": "Oui, il aide les autres"
+        },
+        {
+          "question": "Quel défaut Jean a-t-il?",
+          "options": ["Il est timide", "Il est méchant", "Il peut être impatient"],
+          "correctAnswer": "Il peut être impatient"
+        }
+      ],
+      "summary": "A describes his new colleague Jean as serious at work but funny during breaks. Jean is generous and helpful but can be impatient sometimes."
+    }
+  },
+  "grammar": {
+    "standard": {
+      "title": "Adverbs of Manner (-ment suffix formation)",
+      "explanation": "French adverbs of manner are formed by adding the suffix '-ment' to the feminine form of an adjective. For example: 'lent' (slow) becomes 'lente' (feminine), then 'lentement' (slowly). 'Doux' (soft) becomes 'douce,' then 'doucement' (softly). If the adjective already ends in a vowel, add '-ment' directly without changing the form: 'facile' → 'facilement' (easily). 'Vrai' → 'vraiment' (truly). There are some irregular adverbs of manner: 'bien' (well), 'mal' (badly), 'vite' (quickly). Adverbs of manner typically follow the verb: 'Il parle lentement.' (He speaks slowly.)",
+      "examples": [
+        {
+          "french": "Il parle lentement.",
+          "english": "He speaks slowly."
+        },
+        {
+          "french": "Elle marche doucement.",
+          "english": "She walks softly."
+        },
+        {
+          "french": "Ils travaillent sérieusement.",
+          "english": "They work seriously."
+        },
+        {
+          "french": "Elle parle rapidement.",
+          "english": "She speaks quickly."
+        },
+        {
+          "french": "Il joue bien du piano.",
+          "english": "He plays piano well."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Comment forme-t-on un adverbe à partir de l'adjectif 'rapide'?",
+          "options": ["rapidement", "rapide", "rapidé"],
+          "correctAnswer": "rapidement",
+          "explanation": "'Rapide' ends in a vowel, so add '-ment' directly: 'rapidement' (quickly).",
+          "targetWord": "rapidement"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "L'adjectif 'heureux' devient l'adverbe '___'.",
+          "options": [],
+          "correctAnswer": "heureusement",
+          "explanation": "Take the feminine 'heureuse' and add '-ment': 'heureusement' (happily/fortunately).",
+          "targetWord": "heureusement"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel adverbe vient de 'patient'?",
+          "options": ["patientement", "patients", "patient"],
+          "correctAnswer": "patientement",
+          "explanation": "The feminine is 'patiente,' add '-ment': 'patientement' (patiently).",
+          "targetWord": "patientement"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il parle très ___.",
+          "options": [],
+          "correctAnswer": "doucement",
+          "explanation": "'Doux' → 'douce' → 'doucement' (softly).",
+          "targetWord": "doucement"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel adverbe est irrégulier?",
+          "options": ["lentement", "facilement", "bien"],
+          "correctAnswer": "bien",
+          "explanation": "'Bien' (well) is an irregular adverb of manner. It does not follow the '-ment' pattern.",
+          "targetWord": "bien"
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Adverbs of Manner — -ment Formation, Irregular Forms & Position",
+      "explanation": "Adverbs of manner in French are primarily formed by attaching '-ment' to the feminine singular form of an adjective. Key rules: (1) Adjectives ending in a consonant in the masculine take the feminine form: 'lent' → 'lente' → 'lentement.' (2) Adjectives already ending in a vowel add '-ment' directly: 'rapide' → 'rapidement,' 'facile' → 'facilement,' 'vrai' → 'vraiment.' (3) Adjectives ending in -ent/-ant change to -emment/-amment: 'patient' → 'patiemment,' 'constant' → 'constamment,' 'prudent' → 'prudemment,' 'diligent' → 'diligemment.' (4) Irregular adverbs exist: 'bon' → 'bien' (well), 'mauvais' → 'mal' (badly), 'meilleur' → 'mieux' (better). Position: Adverbs of manner typically follow the verb, often positioned after the direct object if one exists. Example: 'Elle chante la chanson magnifiquement' (She sings the song magnificently).",
+      "examples": [
+        {
+          "french": "Il parle lentement.",
+          "english": "He speaks slowly."
+        },
+        {
+          "french": "Elle marche doucement dans le parc.",
+          "english": "She walks softly in the park."
+        },
+        {
+          "french": "Ils travaillent patiemment.",
+          "english": "They work patiently."
+        },
+        {
+          "french": "Elle parle facilement plusieurs langues.",
+          "english": "She speaks several languages easily."
+        },
+        {
+          "french": "Il joue du piano magnifiquement.",
+          "english": "He plays piano magnificently."
+        },
+        {
+          "french": "Ils chantent joyeusement.",
+          "english": "They sing joyfully."
+        },
+        {
+          "french": "Elle répond intelligemment à la question.",
+          "english": "She answers the question intelligently."
+        },
+        {
+          "french": "Il conduit prudemment.",
+          "english": "He drives carefully."
+        }
+      ],
+      "drills": [
+        {
+          "type": "multipleChoice",
+          "question": "Quel est l'adverbe formé de l'adjectif 'patient'?",
+          "options": ["patientement", "patiemment", "patients"],
+          "correctAnswer": "patiemment",
+          "explanation": "Adjectives ending in -ent use -emment: 'patient' → 'patiemment.'",
+          "targetWord": "patiemment"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "L'adjectif 'constant' devient '___'.",
+          "options": [],
+          "correctAnswer": "constamment",
+          "explanation": "Adjectives ending in -ant use -amment: 'constant' → 'constamment.'",
+          "targetWord": "constamment"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel adverbe signifie 'well'?",
+          "options": ["bonement", "bien", "bon"],
+          "correctAnswer": "bien",
+          "explanation": "'Bien' is the irregular adverb from 'bon' (good).",
+          "targetWord": "bien"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Elle chante ___ (magnificently).",
+          "options": [],
+          "correctAnswer": "magnifiquement",
+          "explanation": "'Magnifique' → 'magnifiquement.'",
+          "targetWord": "magnifiquement"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quelle phrase utilise correctement la position de l'adverbe?",
+          "options": ["Elle magnifiquement chante.", "Elle chante magnifiquement.", "Elle chante la chanson magnifiquement."],
+          "correctAnswer": "Elle chante magnifiquement.",
+          "explanation": "Adverbs of manner follow the verb (or verb + object). Both options 2 and 3 are acceptable, but option 2 is simpler.",
+          "targetWord": "magnifiquement"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Il conduit ___ (carefully).",
+          "options": [],
+          "correctAnswer": "prudemment",
+          "explanation": "'Prudent' → 'prudemment.' Note the double 'm'.",
+          "targetWord": "prudemment"
+        },
+        {
+          "type": "multipleChoice",
+          "question": "Quel adverbe vient de 'heureux'?",
+          "options": ["heureusement", "heureux", "heureuse"],
+          "correctAnswer": "heureusement",
+          "explanation": "'Heureux' → 'heureuse' → 'heureusement' (happily/fortunately).",
+          "targetWord": "heureusement"
+        },
+        {
+          "type": "fillInTheBlank",
+          "question": "Ils répondent ___ aux questions (intelligently).",
+          "options": [],
+          "correctAnswer": "intelligemment",
+          "explanation": "'Intelligent' → 'intelligemment.' Note the double 'm'.",
+          "targetWord": "intelligemment"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "standard": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est l'adverbe formé de 'rapide'?",
+        "options": ["rapidement", "rapideement", "rapidé"],
+        "correctAnswer": "rapidement",
+        "explanation": "'Rapide' ends in a vowel, so add '-ment' directly: 'rapidement' (quickly).",
+        "targetWord": "rapidement"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Marc est sympathique. Il parle ___ avec tout le monde.",
+        "options": [],
+        "correctAnswer": "facilement",
+        "explanation": "'Facile' → 'facilement' (easily). This describes how Marc speaks to people.",
+        "targetWord": "facilement"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel adjectif décrit une personne drôle?",
+        "options": ["Sérieux", "Timide", "Drôle"],
+        "correctAnswer": "Drôle",
+        "explanation": "'Drôle' means funny.",
+        "targetWord": "drôle"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Elle est ___. Elle ne parle pas beaucoup.",
+        "options": [],
+        "correctAnswer": "timide",
+        "explanation": "'Timide' means shy.",
+        "targetWord": "timide"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment Marc est-il au début du dialogue?",
+        "options": ["Méchant", "Patient", "Sympathique et drôle"],
+        "correctAnswer": "Sympathique et drôle",
+        "explanation": "A describes Marc as sympathique (nice) and drôle (funny).",
+        "targetWord": "sympathique"
+      }
+    ],
+    "advanced": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est l'adverbe correct de 'prudent'?",
+        "options": ["prudentement", "prudemment", "prudément"],
+        "correctAnswer": "prudemment",
+        "explanation": "'Prudent' → 'prudemment' (note the double 'm' from the -ent ending).",
+        "targetWord": "prudemment"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Jean aide tout le monde. Il est très ___.",
+        "options": [],
+        "correctAnswer": "généreux",
+        "explanation": "'Généreux' means generous.",
+        "targetWord": "généreux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle phrase est grammaticalement correcte?",
+        "options": ["Il agit patientement.", "Il agit patiemment.", "Il agit patientemment."],
+        "correctAnswer": "Il agit patiemment.",
+        "explanation": "'Patient' ends in -ent, so use -emment: 'patiemment' (patiently).",
+        "targetWord": "patiemment"
+      },
+      {
+        "type": "fillInTheBlank",
+        "question": "Jean est ___ dans son travail. Il peut être impatient.",
+        "options": [],
+        "correctAnswer": "sérieux",
+        "explanation": "'Sérieux' means serious.",
+        "targetWord": "sérieux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel adverbe signifie 'happily/fortunately'?",
+        "options": ["heureusement", "heureuxement", "heureux"],
+        "correctAnswer": "heureusement",
+        "explanation": "'Heureux' → 'heureuse' → 'heureusement' (happily/fortunately).",
+        "targetWord": "heureusement"
+      }
+    ]
+  },
+  "speak": {
+    "standard": {
+      "scenario": "Describe a close friend or family member to someone who has never met them. Mention at least three personality traits and explain why you like them.",
+      "keyPhrases": ["Il/Elle est", "sympathique", "drôle", "patient(e)", "sérieux/sérieuse", "généreux/généreuse", "parce que", "J'aime"],
+      "modelAnswer": "Mon ami Pierre est très sympathique et drôle. Il me fait toujours rire. Il est aussi patient et généreux. J'aime être avec lui parce qu'il m'écoute et m'aide quand j'en ai besoin.",
+      "modelAnswerExplanation": "This answer uses personality adjectives with proper agreement, gives reasons for liking the person, and describes behaviors that exemplify these traits.",
+      "tip": "Use 'Il/Elle est' + adjective to describe personality. Remember to match adjectives to gender. Use 'parce que' (because) to explain why you like or value these traits."
+    },
+    "advanced": {
+      "scenario": "Provide a detailed character sketch of someone you know well. Include multiple personality traits, how they behave in different situations, and what makes them unique. Use adverbs of manner to describe their actions.",
+      "keyPhrases": ["Il/Elle agit", "Il/Elle parle", "patiemment", "intelligemment", "sérieusement", "joyeusement", "À la fois", "mais", "ce qui le/la rend"],
+      "modelAnswer": "Mon collègue Jean est une personne remarquable. Au travail, il agit sérieusement et travaille patiemment sur ses projets. Pendant les pauses, il parle joyeusement avec tout le monde. Il est à la fois intelligent et humble. Ce qui le rend spécial, c'est sa générosité. Il aide les autres généreusement, sans jamais demander de remerciements.",
+      "modelAnswerExplanation": "This response uses adverbs of manner (-ment formations) to describe actions, employs complex sentences with connectors, and provides nuanced character analysis.",
+      "tip": "Use adverbs of manner (-ment) after verbs to describe how someone acts. Use contrasts ('à la fois... mais') and connectors ('ce qui le/la rend') to add sophistication. Include specific examples of behavior in different contexts."
+    }
+  }
+}
