@@ -465,7 +465,7 @@ describe('curriculum JSON validation', () => {
     }
   })
 
-  it('phase1 should have exactly 21 revision stubs and 63 content files', () => {
+  it('phase1 (A1) should cover exactly 84 days: 21 revision stubs and 63 content files', () => {
     const phase1 = curriculumFiles.filter((f) => f.phase === 'phase1')
     let revisionCount = 0
     let contentCount = 0
@@ -474,6 +474,8 @@ describe('curriculum JSON validation', () => {
       if (isRevisionStub(data)) revisionCount++
       else contentCount++
     }
+    const totalDays = revisionCount + contentCount
+    expect(totalDays, 'phase1 (A1) should cover exactly 84 days').toBe(84)
     expect(revisionCount, 'phase1 should have exactly 21 revision stubs').toBe(21)
     expect(contentCount, 'phase1 should have exactly 63 content files').toBe(63)
   })
