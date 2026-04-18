@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { renderHook, waitFor } from '@testing-library/react'
-import { useDayContent } from './useDayContent'
+import { useDayContent } from '$session/hooks/useDayContent'
 
 const mockContentDay = {
   day: 1,

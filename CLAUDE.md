@@ -356,18 +356,58 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 
 ### Path aliases (tsconfig.json + vite.config.ts)
 
-| Alias       | Resolves to         |
-|-------------|---------------------|
-| `$lib/*`    | `src/lib/*`         |
-| `$types/*`  | `src/types/*`       |
-| `$features/*` | `src/features/*`  |
+| Alias         | Resolves to                    |
+|---------------|--------------------------------|
+| `$lib/*`      | `src/lib/*`                    |
+| `$types/*`    | `src/types/*`                  |
+| `$features/*` | `src/features/*`               |
+| `$session/*`  | `src/features/session/*`       |
 
-Always use these aliases — never use relative `../` imports across feature boundaries.
+Always use these aliases — **never use relative imports** (`./` or `../`) except for CSS module files (e.g. `import styles from './Foo.module.css'`). This applies to all feature code including `index.ts` barrel files and test files. The only exception is `src/main.tsx`, which has no applicable alias.
 
 When adding a new top-level directory under `src/`, register its alias in **both** places:
 1. `tsconfig.json` → `compilerOptions.paths`: add `"$name/*": ["src/name/*"]`
 2. `vite.config.ts` → `resolve.alias`: add `$name: resolve(__dirname, 'src/name')`
 3. `CLAUDE.md` → add a row to the Path aliases table above
+
+### Code reuse guidelines
+
+Extract shared code when it has genuine reuse across 2+ callsites or when isolating it makes testing substantially easier. Do not extract for hypothetical future reuse.
+
+| What to extract | Where |
+|---|---|
+| Pure functions used by 2+ files | `feature/utils/*.ts` |
+| React state logic shared by 2+ components | `feature/hooks/use*.ts` |
+| UI elements rendered identically in 3+ places | `feature/components/*.tsx` |
+| Component-level constants (enums, phase values) | `feature/constants.ts` |
+
+Keep same-file helpers inline. A one-callsite hook or util adds indirection without benefit.
+
+### Conditional classNames
+
+Use `clsx` for conditional className expressions — never `.join(' ')` or template strings:
+
+```tsx
+// good
+className={clsx(styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB)}
+
+// bad
+className={[styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB].join(' ')}
+```
+
+### Complex conditions in JSX
+
+Name boolean conditions as variables before the return so JSX stays readable:
+
+```tsx
+// good — named before return
+const showRevealBtn = !modelVisible && (attempted || modelAnswerVisibility === 'on_request')
+// ... in JSX:
+{showRevealBtn && <button>Show Model Answer</button>}
+
+// bad — inline compound logic
+{!modelVisible && (attempted || modelAnswerVisibility === 'on_request') && <button>...</button>}
+```
 
 -----
 
@@ -385,7 +425,7 @@ This allows full UI development and testing without live credentials.
 
 -----
 
-## Test Strategy — Phase 2 additions
+## Test Strategy
 
 ### Framework
 Vitest + jsdom. Colocated test files (*.test.ts).
@@ -400,13 +440,6 @@ All jobs must pass before merging.
 Always use the existing Vitest framework (src/**/*.test.ts) for all validation and tests.
 Do NOT create standalone scripts (e.g. scripts/validate-*.ts) and add them to package.json.
 Curriculum validation belongs in src/curriculum.test.ts, which runs as part of the CI test job.
-
-### Files with tests this phase
-src/lib/difficulty.test.ts — updateDifficulty, difficultyLabel,
-getScaffolding: all cases, boundaries, ceiling/floor
-src/curriculum.test.ts — auto-discovers all phase/dayNNN.json files,
-validates JSON parsing, schema structure, enum values, non-empty fields,
-track content counts, and correctAnswer-in-options integrity
 
 ## Curriculum Index
 scripts/curriculum-index.json tracks all grammar titles and vocab words
@@ -472,3 +505,139 @@ Phase 3 (B1):
   Questions may be more nuanced — indirect questions, hypotheticals.
   Answers may use B1 structures and idiomatic expressions.
   Vocabulary and grammar must not exceed B1 level.
+
+-----
+
+## Session Component Architecture
+
+### Data flow
+
+```
+useDayContent(phase, day)          ← hook in src/features/session/hooks/
+    │  Fetches /curriculum/phase{N}/day{NNN}.json and returns
+    │  { content: DayContent | null, loading, error, isRevisionDay }
+    │
+    ▼
+Session.tsx  (orchestrates section order, tracks progress)
+    ├── VocabCard        ← day.vocab[track]  + day.quiz[track]
+    ├── ListeningWidget  ← day.listen[track]
+    ├── GrammarDrill     ← day.grammar[track]
+    ├── SpeakingChallenge← day.speak[track]
+    └── RevisionSection  ← profile.flagged_words  (revision days only)
+```
+
+Each component calls `getScaffolding(section, difficulty, track)` internally.
+Parent `Session` passes the already-resolved track variant (e.g. `day.vocab.standard`).
+
+### Component prop signatures
+
+```ts
+VocabCard({
+  words: VocabWord[], quizQuestions: QuizQuestion[],
+  track: Track, difficulty: number, hidePronunciation: boolean,
+  onDone: (result: { score, total, flaggedWords: string[] }) => void
+})
+
+ListeningWidget({
+  listen: ListenContent,
+  difficulty: number, track: Track,
+  onDone: (result: { score, total }) => void
+})
+
+GrammarDrill({
+  grammar: GrammarContent,
+  difficulty: number, track: Track,
+  onDone: (result: { score, total }) => void
+})
+
+SpeakingChallenge({
+  speak: SpeakContent,
+  difficulty: number, track: Track,
+  onDone: () => void
+})
+
+RevisionSection({
+  flaggedWords: string[],
+  onDone: (masteredWords: string[]) => void
+})
+```
+
+### Internal shared components and hooks
+
+**`QuizItem.tsx`** — renders both `multipleChoice` and `fillInTheBlank` questions
+with normalised answer comparison (strip diacritics, lowercase, trim).
+Not exported from `index.ts`.
+
+**`ProgressBar.tsx`** — thin wrapper around `progressPercent()` that renders a
+labelled progress bar. Used by all quiz-phase components.
+
+**`useQuizAnswers(total)`** — manages `answers: Record<number, boolean>` state and
+derives `answeredCount`, `allAnswered`, `score`, and `recordAnswer(index, correct)`.
+Shared by VocabCard, ListeningWidget, GrammarDrill, and RevisionSection.
+
+**`useDialoguePlayer(dialogue, defaultSpeed)`** — owns `isPlaying` state and a
+`useRef` timeout array. Exposes a single `play(speed?)` function that schedules
+`spkV` calls with per-line delays computed by `computeLineDuration`. Used by
+ListeningWidget. Cancels any in-progress playback before starting a new run.
+
+### Session utility modules
+
+Pure functions live in `src/features/session/utils/` (all fully unit-tested):
+
+| File | Exports |
+|---|---|
+| `quiz.ts` | `normalise`, `checkAnswer`, `countAnswered`, `countCorrect`, `progressPercent`, `extractFlaggedWords`, `quizQuestionToDrill`, `listeningQuestionToDrill`, `grammarDrillItemToDrill`, `DrillQuestion` |
+| `dialogue.ts` | `computeLineDuration(text)` — returns `max(2400, len × 75)` ms |
+| `vocab.ts` | `genderLabel(gender)` — returns `'masc.'`, `'fém.'`, or `null` |
+
+### Type corrections
+
+`src/types/curriculum.ts` was updated to match actual JSON:
+- `ListenContent.questions` → `ListeningQuestion[]` (was `string[]`)
+- `GrammarContent.examples` → `GrammarExample[]` (was `[string, string][]`)
+- `GrammarContent.drills`   → `GrammarDrillItem[]` (was `string[]`)
+
+-----
+
+## Glass Design System
+
+All session components use CSS Modules + global CSS custom properties.
+
+### Extended CSS variables (src/index.css)
+
+| Variable | Value | Use |
+|---|---|---|
+| `--card-glass` | `rgba(46,38,32,0.88)` | Main card background |
+| `--card-elevated` | `#3a3028` | Nested panels, option buttons |
+| `--accent-light` | `#d4845f` | Hover, italic text |
+| `--accent-dark` | `#8b5e3c` | Active states |
+| `--accent-muted` | `rgba(196,112,75,0.15)` | Subtle tints |
+| `--accent-border` | `rgba(196,112,75,0.25)` | Card borders |
+| `--navy` | `rgba(32,46,68,0.9)` | Speaker B badge, tag bg |
+| `--ok` | `#7ab87a` | Correct answer colour |
+| `--ok-bg` | `rgba(107,158,107,0.12)` | Correct feedback bg |
+| `--err` | `#d06060` | Wrong answer colour |
+| `--err-bg` | `rgba(196,80,80,0.12)` | Wrong feedback bg |
+| `--glass-blur` | `blur(14px)` | backdrop-filter value |
+| `--radius-sm/md/lg` | 10/14/20px | Consistent border radii |
+| `--shadow-card` | multi-layer | Card depth |
+| `--shadow-elevated` | stronger | Floating cards |
+
+### Glass card recipe
+
+```css
+background: var(--card-glass);
+backdrop-filter: var(--glass-blur);
+-webkit-backdrop-filter: var(--glass-blur);
+border-radius: var(--radius-lg);
+border: 1px solid var(--accent-border);
+box-shadow: var(--shadow-elevated);
+```
+
+### iPhone PWA rules
+
+- All interactive elements: `min-height: 44px` (Apple HIG minimum tap target)
+- Text inputs: `font-size: 16px` minimum (prevents iOS auto-zoom)
+- Scroll containers: `padding-bottom: env(safe-area-inset-bottom)`
+- No hover-only states — use `:active` for touch feedback
+- `backdrop-filter` always paired with `-webkit-backdrop-filter`

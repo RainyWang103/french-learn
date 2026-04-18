@@ -1,0 +1,304 @@
+.section {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.card {
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--accent-border);
+  box-shadow: var(--shadow-elevated);
+  padding: 22px;
+  margin-bottom: 14px;
+  animation: slideUp 0.35s ease both;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--navy);
+  color: #8fb4d8;
+  border: 1px solid var(--navy-border);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.playControls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.btnPrimary {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 22px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnPrimary:active {
+  background: var(--accent-dark);
+}
+
+.btnPrimary:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--accent-light);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-md);
+  padding: 11px 18px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 13px;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btnSecondary:active {
+  background: var(--accent-muted);
+}
+
+.btnSecondary:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.btnGhost {
+  background: var(--card-elevated);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 13px;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btnGhost:active {
+  background: var(--accent-muted);
+}
+
+.btnGhost:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.replayCount {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+/* ── Progress bar ── */
+
+.progressWrapper {
+  margin-bottom: 20px;
+}
+
+.progressLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+
+.progressBar {
+  width: 100%;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* ── Transcript / dialogue bubbles ── */
+
+.dialogueList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.dialogueLine {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.dialogueLine.lineB {
+  flex-direction: row-reverse;
+}
+
+.speakerBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.speakerBadgeA {
+  background: var(--accent);
+  color: #fff;
+}
+
+.speakerBadgeB {
+  background: var(--navy);
+  color: #8fb4d8;
+  border: 1px solid var(--navy-border);
+}
+
+.bubble {
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  max-width: 78%;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.bubbleA {
+  background: rgba(196, 112, 75, 0.1);
+  color: var(--text);
+  border: 1px solid var(--accent-border);
+}
+
+.bubbleB {
+  background: rgba(32, 46, 68, 0.5);
+  color: var(--text-secondary);
+  border: 1px solid var(--navy-border);
+}
+
+.bubbleActions {
+  margin-top: 6px;
+  display: flex;
+  gap: 4px;
+}
+
+.listenBubbleBtn {
+  background: transparent;
+  color: var(--text-dim);
+  border: none;
+  padding: 2px 6px;
+  font-size: 13px;
+  min-height: 28px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.listenBubbleBtn:active {
+  color: var(--accent);
+}
+
+.summary {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.6;
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.scoreBox {
+  text-align: center;
+  margin-top: 8px;
+  padding-top: 16px;
+  animation: slideUp 0.35s ease both;
+}
+
+.scoreNum {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.scoreSub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.transcriptCard {
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
+  padding: 22px;
+  margin-bottom: 14px;
+  animation: slideUp 0.35s ease both;
+}
+
+.doneRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+}

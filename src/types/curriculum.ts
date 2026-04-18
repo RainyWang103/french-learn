@@ -31,20 +31,39 @@ export interface VocabWord {
 
 export type DialogueLine = ['A' | 'B', string]
 
+export interface ListeningQuestion {
+  question: string
+  options: string[]
+  correctAnswer: string
+}
+
 export interface ListenContent {
   dialogue: DialogueLine[]
-  questions: string[]
+  questions: ListeningQuestion[]
   summary: string
+}
+
+export interface GrammarExample {
+  french: string
+  english: string
+}
+
+export type QuizType = 'multipleChoice' | 'fillInTheBlank'
+
+export interface GrammarDrillItem {
+  type: QuizType
+  question: string
+  options?: string[]
+  correctAnswer: string
+  explanation: string
 }
 
 export interface GrammarContent {
   title: string
   explanation: string
-  examples: [string, string][]
-  drills: string[]
+  examples: GrammarExample[]
+  drills: GrammarDrillItem[]
 }
-
-export type QuizType = 'multipleChoice' | 'fillInTheBlank'
 
 export interface QuizQuestion {
   type: QuizType

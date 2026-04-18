@@ -1,0 +1,206 @@
+.section {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.card {
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--accent-border);
+  box-shadow: var(--shadow-elevated);
+  padding: 22px;
+  margin-bottom: 14px;
+  animation: slideUp 0.35s ease both;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--navy);
+  color: #8fb4d8;
+  border: 1px solid var(--navy-border);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.grammarTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+.explanation {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.fieldLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.examplesList {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exampleRow {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px 12px;
+  background: rgba(18, 14, 10, 0.5);
+  border-radius: var(--radius-sm);
+}
+
+.exampleContent {
+  flex: 1;
+}
+
+.exampleFr {
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.45;
+  margin-bottom: 3px;
+}
+
+.exampleEn {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.listenBtnSmall {
+  background: transparent;
+  color: var(--text-dim);
+  border: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  min-height: 32px;
+  min-width: 32px;
+  cursor: pointer;
+  border-radius: 6px;
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+
+.listenBtnSmall:active {
+  color: var(--accent);
+}
+
+.startDrillsBtn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 24px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.startDrillsBtn:active {
+  background: var(--accent-dark);
+}
+
+/* ── Progress ── */
+
+.progressWrapper {
+  margin-bottom: 20px;
+}
+
+.progressLabel {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+
+.progressBar {
+  width: 100%;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* ── Score ── */
+
+.scoreBox {
+  text-align: center;
+  margin-top: 20px;
+  animation: slideUp 0.35s ease both;
+}
+
+.scoreNum {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.scoreSub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.btnPrimary {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 24px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnPrimary:active {
+  background: var(--accent-dark);
+}

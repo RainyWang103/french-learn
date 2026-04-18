@@ -1,10 +1,35 @@
 :root {
   --bg: #1a1410;
+  --bg-deep: #120e0a;
   --card: #2e2620;
+  --card-glass: rgba(46, 38, 32, 0.88);
+  --card-glass-hover: rgba(58, 48, 40, 0.92);
+  --card-elevated: #3a3028;
   --accent: #c4704b;
+  --accent-light: #d4845f;
+  --accent-dark: #8b5e3c;
+  --accent-muted: rgba(196, 112, 75, 0.15);
+  --accent-border: rgba(196, 112, 75, 0.25);
   --text: #f0e8df;
+  --text-secondary: #c8baae;
   --text-muted: #9c8b7e;
+  --text-dim: #6b5e55;
   --border: #3d3028;
+  --border-subtle: rgba(61, 48, 40, 0.6);
+  --navy: rgba(32, 46, 68, 0.9);
+  --navy-border: rgba(60, 80, 110, 0.4);
+  --ok: #7ab87a;
+  --ok-bg: rgba(107, 158, 107, 0.12);
+  --ok-border: rgba(107, 158, 107, 0.35);
+  --err: #d06060;
+  --err-bg: rgba(196, 80, 80, 0.12);
+  --err-border: rgba(196, 80, 80, 0.35);
+  --glass-blur: blur(14px);
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255,255,255,0.03) inset;
+  --shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 
 *,
