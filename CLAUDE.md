@@ -29,6 +29,25 @@ independently. Deployed on Vercel, data stored in Supabase, installed via Safari
 - Never commit .env files — use .env.example with placeholders only
 - Never commit secrets, API keys, or credentials of any kind
 
+### CLAUDE.md maintenance
+
+CLAUDE.md documents **permanent** conventions, architecture, and design — the
+shape of the system, not the history of how it got here. Follow these rules
+when editing it:
+
+- **Never phase-tag entries.** No "Phase N additions", "Phase N test
+  strategy", "as of Phase N", etc. Phase-specific notes (what shipped in this
+  PR, which tests were added this round, status of a feature) belong in the
+  PR description or the commit message, not here.
+- **Document primitives, not episodes.** When a phase introduces a new
+  utility, hook, or convention that other features will depend on, add it as
+  a permanent entry under the appropriate architecture section — not as a
+  changelog entry.
+- **Describe the system as it is.** Prefer "X does Y" over "we added X to do
+  Y". If a sentence reads like release notes, it doesn't belong here.
+- **Prune aggressively.** When old content becomes obsolete, delete it
+  rather than marking it deprecated. Git history preserves the past.
+
 -----
 
 ## Folder Structure
@@ -185,6 +204,43 @@ Easier quiz (3 options)         Harder quiz (4 options, no hints)
   2.5–3.5 "Slightly too hard", 3.5–4.0 "Too hard"
 - Auto-updated after every section using updateDifficulty()
 - Manual override available in Settings → resets with "reset to auto"
+- `difficulty_<section>` (auto) and `difficulty_<section>_override` (nullable)
+  coexist: the override pins a manual value and the auto float keeps tracking
+  in the background, so "reset to auto" returns a freshly-maintained value.
+
+### Profile primitives
+
+Shared helpers live in `src/features/profile/hooks/useProfile.ts` and are the
+only supported entry points into profile state. Components never call Supabase
+directly.
+
+- `createDefaultProfile(userId, displayName, { track?, startingDay? })` →
+  `UserProfile`. Mirrors the column defaults in `supabase/schema.sql`. Track
+  governs the learner-facing defaults:
+  - standard → `word_count: 5`, `playback_speed: 0.7`,
+    `skip_known_enabled: false`, `hide_pronunciation: false`
+  - advanced → `word_count: 7`, `playback_speed: 0.9`,
+    `skip_known_enabled: true`, `hide_pronunciation: true`
+  All four `difficulty_<section>` fields start at 2.0 and their `_override`
+  fields start at `null`.
+- `getEffectiveDifficulty(profile, section)` returns `override ?? auto`. This
+  is what `getScaffolding` receives — the override fully replaces the auto
+  value, never blends.
+- `loadProfile(userId)` / `saveProfile(profile)` — the single write path is
+  `upsert(next, { onConflict: 'id' })`, shared by first-time row creation and
+  every subsequent edit. `updated_at` is refreshed on the client before write.
+- `useProfile()` exposes `{ profile, loading, error, saveProfile, createProfile,
+  resetDifficultyOverride, refresh }`. When `supabase === null` (no creds),
+  `error` is set to `DB_NOT_CONNECTED_MSG` and the UI surfaces the graceful
+  "Database not connected" notice.
+
+### Settings UX
+
+`Settings.tsx` uses a **buffered draft + explicit Save** model: edits mutate a
+local `draft: UserProfile` copy, a `dirty` flag is derived by deep-equal
+against the loaded profile, and Save is the only thing that persists. This
+matches the control set (discrete buttons and toggles, not continuous sliders)
+and keeps error rollback to one codepath.
 
 ### updateDifficulty algorithm
 
@@ -385,13 +441,28 @@ Keep same-file helpers inline. A one-callsite hook or util adds indirection with
 
 ### Conditional classNames
 
-Use `clsx` for conditional className expressions — never `.join(' ')` or template strings:
+Use `clsx` for conditional className expressions — never `.join(' ')` or template strings.
+
+For a single class that toggles on/off, use the **object / key-value form** — never
+the `cond && styles.x` short-circuit form. The short-circuit form silently emits the
+falsy value as a className when `cond` is `0`, `""`, or `NaN`, and is harder to scan
+when stacked. The object form is explicit: `cond` is always coerced to boolean, and
+each class reads as "this class when this condition."
+
+For either-or variants (exactly one of two classes), a ternary is fine.
 
 ```tsx
-// good
+// good — object form for on/off toggles
+className={clsx(styles.toggle, { [styles.toggleOn]: checked })}
+className={clsx(styles.segment, { [styles.segmentActive]: value === option })}
+
+// good — ternary for either-or variants
 className={clsx(styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB)}
 
-// bad
+// bad — short-circuit `cond && styles.x`: relies on falsy-coercion of a string slot
+className={clsx(styles.toggle, checked && styles.toggleOn)}
+
+// bad — manual string composition
 className={[styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB].join(' ')}
 ```
 

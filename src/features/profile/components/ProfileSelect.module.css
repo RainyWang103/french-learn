@@ -1,0 +1,140 @@
+.page {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+  background-color: var(--bg);
+}
+
+.card {
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--accent-border);
+  box-shadow: var(--shadow-elevated);
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 420px;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+}
+
+.input {
+  min-height: 44px;
+  padding: 0.75rem 1rem;
+  background: var(--card-elevated);
+  color: var(--text);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.segmented {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.segment {
+  flex: 1;
+  min-height: 44px;
+  padding: 0.625rem 1rem;
+  background: var(--card-elevated);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.segment:active {
+  background: var(--card-glass-hover);
+}
+
+.segmentActive {
+  background: var(--accent-muted);
+  border-color: var(--accent);
+  color: var(--accent-light);
+}
+
+.help {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.primary {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.85rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-md);
+  margin-top: 0.5rem;
+}
+
+.primary:active {
+  background: var(--accent-dark);
+}
+
+.primary:disabled {
+  background: var(--card-elevated);
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+.error {
+  color: var(--err);
+  background: var(--err-bg);
+  border: 1px solid var(--err-border);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.85rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.muted {
+  color: var(--text-muted);
+  font-style: italic;
+}
