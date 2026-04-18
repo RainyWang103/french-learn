@@ -140,7 +140,7 @@ export default function ListeningWidget({
         <div className={styles.sectionBadge}>📜 Transcript</div>
         <div className={styles.dialogueList}>
           {listen.dialogue.map(([speaker, text], i) => (
-            <div key={i} className={clsx(styles.dialogueLine, speaker === 'B' && styles.lineB)}>
+            <div key={i} className={clsx(styles.dialogueLine, { [styles.lineB]: speaker === 'B' })}>
               <span
                 className={clsx(
                   styles.speakerBadge,

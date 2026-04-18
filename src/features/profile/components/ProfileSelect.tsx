@@ -81,14 +81,14 @@ export default function ProfileSelect({ children }: ProfileSelectProps) {
           <div className={styles.segmented}>
             <button
               type="button"
-              className={clsx(styles.segment, track === 'standard' && styles.segmentActive)}
+              className={clsx(styles.segment, { [styles.segmentActive]: track === 'standard' })}
               onClick={() => setTrack('standard')}
             >
               Standard
             </button>
             <button
               type="button"
-              className={clsx(styles.segment, track === 'advanced' && styles.segmentActive)}
+              className={clsx(styles.segment, { [styles.segmentActive]: track === 'advanced' })}
               onClick={() => setTrack('advanced')}
             >
               Advanced

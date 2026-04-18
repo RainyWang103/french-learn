@@ -87,7 +87,7 @@ export default function Settings({ onClose }: SettingsProps) {
               <button
                 key={option}
                 type="button"
-                className={clsx(styles.segment, draft.track === option && styles.segmentActive)}
+                className={clsx(styles.segment, { [styles.segmentActive]: draft.track === option })}
                 onClick={() => patch({ track: option })}
               >
                 {option === 'standard' ? 'Standard' : 'Advanced'}
@@ -164,10 +164,9 @@ export default function Settings({ onClose }: SettingsProps) {
                       <button
                         key={band}
                         type="button"
-                        className={clsx(
-                          styles.bandButton,
-                          override === band && styles.bandButtonActive,
-                        )}
+                        className={clsx(styles.bandButton, {
+                          [styles.bandButtonActive]: override === band,
+                        })}
                         onClick={() => setOverride(key, band)}
                       >
                         {difficultyLabel(band)}
@@ -229,7 +228,7 @@ function ButtonGroup<T extends number>({ options, value, onChange, format }: But
         <button
           key={option}
           type="button"
-          className={clsx(styles.segment, value === option && styles.segmentActive)}
+          className={clsx(styles.segment, { [styles.segmentActive]: value === option })}
           onClick={() => onChange(option)}
         >
           {format ? format(option) : option}
@@ -245,7 +244,7 @@ function Toggle({ checked, onChange }: { checked: boolean; onChange: (value: boo
       type="button"
       role="switch"
       aria-checked={checked}
-      className={clsx(styles.toggle, checked && styles.toggleOn)}
+      className={clsx(styles.toggle, { [styles.toggleOn]: checked })}
       onClick={() => onChange(!checked)}
     >
       <span className={styles.toggleThumb} />

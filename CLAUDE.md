@@ -385,13 +385,28 @@ Keep same-file helpers inline. A one-callsite hook or util adds indirection with
 
 ### Conditional classNames
 
-Use `clsx` for conditional className expressions — never `.join(' ')` or template strings:
+Use `clsx` for conditional className expressions — never `.join(' ')` or template strings.
+
+For a single class that toggles on/off, use the **object / key-value form** — never
+the `cond && styles.x` short-circuit form. The short-circuit form silently emits the
+falsy value as a className when `cond` is `0`, `""`, or `NaN`, and is harder to scan
+when stacked. The object form is explicit: `cond` is always coerced to boolean, and
+each class reads as "this class when this condition."
+
+For either-or variants (exactly one of two classes), a ternary is fine.
 
 ```tsx
-// good
+// good — object form for on/off toggles
+className={clsx(styles.toggle, { [styles.toggleOn]: checked })}
+className={clsx(styles.segment, { [styles.segmentActive]: value === option })}
+
+// good — ternary for either-or variants
 className={clsx(styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB)}
 
-// bad
+// bad — short-circuit `cond && styles.x`: relies on falsy-coercion of a string slot
+className={clsx(styles.toggle, checked && styles.toggleOn)}
+
+// bad — manual string composition
 className={[styles.bubble, speaker === 'A' ? styles.bubbleA : styles.bubbleB].join(' ')}
 ```
 
@@ -641,19 +656,3 @@ box-shadow: var(--shadow-elevated);
 - Scroll containers: `padding-bottom: env(safe-area-inset-bottom)`
 - No hover-only states — use `:active` for touch feedback
 - `backdrop-filter` always paired with `-webkit-backdrop-filter`
-
------
-
-## Test Strategy — Phase 6 additions
-
-### Files with tests this phase
-
-`src/features/profile/hooks/useProfile.test.ts`
-
-- `createDefaultProfile`:
-  - standard track defaults (`word_count` 5, `skip_known_enabled` false, `hide_pronunciation` false)
-  - advanced track defaults (`word_count` 7, `skip_known_enabled` true, `hide_pronunciation` true)
-- `getEffectiveDifficulty`:
-  - returns the override value when an override is set
-  - returns the auto float when the override is null
-  - falls back to the auto float after the override is reset to null
