@@ -1,0 +1,244 @@
+.page {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem calc(2rem + env(safe-area-inset-bottom));
+}
+
+.shell {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+
+.settingsBtn {
+  background: var(--card-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.75rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  min-height: 44px;
+}
+
+.settingsBtn:active {
+  background: var(--card-glass-hover);
+}
+
+.heroCard {
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--accent-border);
+  box-shadow: var(--shadow-elevated);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dayLabel {
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.8rem;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.heroSub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.statsRow {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.stat {
+  flex: 1;
+  background: var(--card-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.statValue {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+
+.statLabel {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-top: 0.15rem;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sectionCard {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  min-height: 68px;
+  color: var(--text);
+  text-align: left;
+  font-family: inherit;
+  width: 100%;
+}
+
+.sectionCard:disabled {
+  opacity: 0.55;
+}
+
+.sectionCardNext {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-muted);
+}
+
+.sectionCardDone {
+  border-color: var(--ok-border);
+  background: var(--ok-bg);
+}
+
+.sectionIcon {
+  font-size: 1.5rem;
+  width: 2.25rem;
+  text-align: center;
+}
+
+.sectionMain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.sectionTitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.sectionHint {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.sectionStatus {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sectionStatusDone {
+  color: var(--ok);
+}
+
+.sectionStatusNext {
+  color: var(--accent);
+}
+
+.skipRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skipBtn {
+  background: transparent;
+  border: 1px dashed var(--border-subtle);
+  color: var(--text-muted);
+  border-radius: var(--radius-md);
+  padding: 0.8rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  min-height: 44px;
+}
+
+.skipBtn:active {
+  background: var(--card-glass-hover);
+}
+
+.notice {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  background: var(--accent-muted);
+  border: 1px solid var(--accent-border);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.errorNotice {
+  background: var(--err-bg);
+  border-color: var(--err-border);
+  color: var(--err);
+}
+
+.loadingCard {
+  background: var(--card-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.retryBtn {
+  background: var(--accent);
+  color: var(--bg);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1.5rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  min-height: 44px;
+  margin-top: 0.75rem;
+}
+
+.retryBtn:active {
+  background: var(--accent-dark);
+}

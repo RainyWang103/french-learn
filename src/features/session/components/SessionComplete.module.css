@@ -1,0 +1,132 @@
+.page {
+  min-height: 100dvh;
+  padding: 2rem 1rem calc(2rem + env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shell {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card-glass);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-elevated);
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.celebration {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.9rem;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.milestone {
+  background: var(--accent-muted);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  color: var(--accent-light);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.scoreGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.scoreTile {
+  background: var(--card-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.scoreTileLabel {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 0.2rem;
+}
+
+.scoreTileValue {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.3rem;
+  color: var(--text);
+}
+
+.adjustment {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+}
+
+.adjustmentItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
+.adjustmentLabel {
+  color: var(--text-secondary);
+  text-transform: capitalize;
+}
+
+.adjustmentEasier {
+  color: var(--ok);
+}
+
+.adjustmentHarder {
+  color: var(--accent-light);
+}
+
+.farewell {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.primaryBtn {
+  width: 100%;
+  margin-top: 1rem;
+  background: var(--accent);
+  color: var(--bg);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 0.9rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  min-height: 44px;
+}
+
+.primaryBtn:active {
+  background: var(--accent-dark);
+}

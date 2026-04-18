@@ -6,18 +6,18 @@ A Progressive Web App (PWA) for two users (Rainy + girlfriend) to learn French
 independently. Deployed on Vercel, data stored in Supabase, installed via Safari
 "Add to Home Screen" on iPhone. No backend server. No Anthropic API in production.
 
------
+---
 
 ## Tech Stack
 
-- Frontend:   React + TypeScript (Vite)
-- Database:   Supabase (Postgres + Auth)
-- Auth:       Google OAuth via Supabase
+- Frontend: React + TypeScript (Vite)
+- Database: Supabase (Postgres + Auth)
+- Auth: Google OAuth via Supabase
 - Curriculum: Static JSON files in public/curriculum/
-- Deploy:     Vercel (frontend + static files)
-- PWA:        manifest.json + service worker (sw.js)
+- Deploy: Vercel (frontend + static files)
+- PWA: manifest.json + service worker (sw.js)
 
------
+---
 
 ## Repo Rules
 
@@ -48,7 +48,7 @@ when editing it:
 - **Prune aggressively.** When old content becomes obsolete, delete it
   rather than marking it deprecated. Git history preserves the past.
 
------
+---
 
 ## Folder Structure
 
@@ -110,7 +110,7 @@ french-learn/
 └── vercel.json
 ```
 
------
+---
 
 ## Curriculum Structure
 
@@ -172,14 +172,14 @@ file = /curriculum/phase{phase}/day{pad(contentIndex, 3)}.json
   explanation: string, targetWord?: string }
 ```
 
------
+---
 
 ## User Profiles
 
 ### Two users
 
 - Rainy (you): Standard track, starts Day 1, elementary A1
-- Girlfriend:  Advanced track, starts at assessed day, already mid-A1+
+- Girlfriend: Advanced track, starts at assessed day, already mid-A1+
 
 ### Track differences
 
@@ -221,8 +221,8 @@ directly.
     `skip_known_enabled: false`, `hide_pronunciation: false`
   - advanced → `word_count: 7`, `playback_speed: 0.9`,
     `skip_known_enabled: true`, `hide_pronunciation: true`
-  All four `difficulty_<section>` fields start at 2.0 and their `_override`
-  fields start at `null`.
+    All four `difficulty_<section>` fields start at 2.0 and their `_override`
+    fields start at `null`.
 - `getEffectiveDifficulty(profile, section)` returns `override ?? auto`. This
   is what `getScaffolding` receives — the override fully replaces the auto
   value, never blends.
@@ -230,7 +230,7 @@ directly.
   `upsert(next, { onConflict: 'id' })`, shared by first-time row creation and
   every subsequent edit. `updated_at` is refreshed on the client before write.
 - `useProfile()` exposes `{ profile, loading, error, saveProfile, createProfile,
-  resetDifficultyOverride, refresh }`. When `supabase === null` (no creds),
+resetDifficultyOverride, refresh }`. When `supabase === null` (no creds),
   `error` is set to `DB_NOT_CONNECTED_MSG` and the UI surfaces the graceful
   "Database not connected" notice.
 
@@ -247,10 +247,10 @@ and keeps error rollback to one codepath.
 ```ts
 function updateDifficulty(current: number, score: number, total: number): number {
   const ratio = score / total
-  if (ratio === 1.0) return Math.max(1, current - 0.3)  // perfect → easier
-  if (ratio >= 0.8)  return current                      // good → no change
-  if (ratio >= 0.6)  return Math.min(4, current + 0.2)  // ok → slightly harder
-  return Math.min(4, current + 0.5)                      // struggling → harder
+  if (ratio === 1.0) return Math.max(1, current - 0.3) // perfect → easier
+  if (ratio >= 0.8) return current // good → no change
+  if (ratio >= 0.6) return Math.min(4, current + 0.2) // ok → slightly harder
+  return Math.min(4, current + 0.5) // struggling → harder
 }
 ```
 
@@ -282,7 +282,7 @@ SPEAKING
 3.5–4.0  sentence starters + model answer shown together
 ```
 
------
+---
 
 ## Supabase Schema (write to supabase/schema.sql)
 
@@ -340,8 +340,17 @@ create table session_logs (
   transcript          jsonb,
   difficulty_ratings  jsonb,
   flagged_words       text[] not null default '{}',
-  created_at          timestamptz not null default now()
+  created_at          timestamptz not null default now(),
+  completed_at        timestamptz
 );
+
+-- A session_logs row is in-progress while completed_at is null. The final
+-- commit sets completed_at and advances profile.current_day. The unique
+-- partial index enforces at most one in-progress row per user so resume
+-- reads can rely on ORDER BY created_at DESC LIMIT 1 without ambiguity.
+create unique index session_logs_one_in_progress_per_user
+  on session_logs (user_id)
+  where completed_at is null;
 
 -- Row level security
 alter table profiles    enable row level security;
@@ -364,7 +373,7 @@ create trigger profiles_updated_at
   for each row execute function update_updated_at();
 ```
 
------
+---
 
 ## Environment Variables
 
@@ -382,7 +391,7 @@ VITE_SUPABASE_URL=https://xxxx.supabase.co
 VITE_SUPABASE_ANON_KEY=eyJ...
 ```
 
------
+---
 
 ## Design System
 
@@ -394,7 +403,7 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 - Accent answers in fill-in inputs — normalise before checking
   (strip diacritics, lowercase, trim, collapse whitespace)
 
------
+---
 
 ## Code Standards
 
@@ -412,16 +421,17 @@ VITE_SUPABASE_ANON_KEY=eyJ...
 
 ### Path aliases (tsconfig.json + vite.config.ts)
 
-| Alias         | Resolves to                    |
-|---------------|--------------------------------|
-| `$lib/*`      | `src/lib/*`                    |
-| `$types/*`    | `src/types/*`                  |
-| `$features/*` | `src/features/*`               |
-| `$session/*`  | `src/features/session/*`       |
+| Alias         | Resolves to              |
+| ------------- | ------------------------ |
+| `$lib/*`      | `src/lib/*`              |
+| `$types/*`    | `src/types/*`            |
+| `$features/*` | `src/features/*`         |
+| `$session/*`  | `src/features/session/*` |
 
 Always use these aliases — **never use relative imports** (`./` or `../`) except for CSS module files (e.g. `import styles from './Foo.module.css'`). This applies to all feature code including `index.ts` barrel files and test files. The only exception is `src/main.tsx`, which has no applicable alias.
 
 When adding a new top-level directory under `src/`, register its alias in **both** places:
+
 1. `tsconfig.json` → `compilerOptions.paths`: add `"$name/*": ["src/name/*"]`
 2. `vite.config.ts` → `resolve.alias`: add `$name: resolve(__dirname, 'src/name')`
 3. `CLAUDE.md` → add a row to the Path aliases table above
@@ -430,12 +440,12 @@ When adding a new top-level directory under `src/`, register its alias in **both
 
 Extract shared code when it has genuine reuse across 2+ callsites or when isolating it makes testing substantially easier. Do not extract for hypothetical future reuse.
 
-| What to extract | Where |
-|---|---|
-| Pure functions used by 2+ files | `feature/utils/*.ts` |
-| React state logic shared by 2+ components | `feature/hooks/use*.ts` |
-| UI elements rendered identically in 3+ places | `feature/components/*.tsx` |
-| Component-level constants (enums, phase values) | `feature/constants.ts` |
+| What to extract                                 | Where                      |
+| ----------------------------------------------- | -------------------------- |
+| Pure functions used by 2+ files                 | `feature/utils/*.ts`       |
+| React state logic shared by 2+ components       | `feature/hooks/use*.ts`    |
+| UI elements rendered identically in 3+ places   | `feature/components/*.tsx` |
+| Component-level constants (enums, phase values) | `feature/constants.ts`     |
 
 Keep same-file helpers inline. A one-callsite hook or util adds indirection without benefit.
 
@@ -474,13 +484,17 @@ Name boolean conditions as variables before the return so JSX stays readable:
 // good — named before return
 const showRevealBtn = !modelVisible && (attempted || modelAnswerVisibility === 'on_request')
 // ... in JSX:
-{showRevealBtn && <button>Show Model Answer</button>}
+{
+  showRevealBtn && <button>Show Model Answer</button>
+}
 
 // bad — inline compound logic
-{!modelVisible && (attempted || modelAnswerVisibility === 'on_request') && <button>...</button>}
+{
+  !modelVisible && (attempted || modelAnswerVisibility === 'on_request') && <button>...</button>
+}
 ```
 
------
+---
 
 ## What Is NOT Built Yet (pending desktop setup)
 
@@ -494,90 +508,98 @@ All Supabase calls should fail gracefully with a clear message:
 "Database not connected yet — progress will not be saved."
 This allows full UI development and testing without live credentials.
 
------
+---
 
 ## Test Strategy
 
 ### Framework
-Vitest + jsdom. Colocated test files (*.test.ts).
+
+Vitest + jsdom. Colocated test files (\*.test.ts).
 Scripts: "test" (vitest run), "test:watch" (vitest)
 
 ### CI pipeline
+
 .github/workflows/ci.yml — four parallel jobs on every PR:
 typecheck (tsc --noEmit), test (vitest run), build (vite build), format (prettier --check)
 All jobs must pass before merging.
 
 ### Testing rule
-Always use the existing Vitest framework (src/**/*.test.ts) for all validation and tests.
-Do NOT create standalone scripts (e.g. scripts/validate-*.ts) and add them to package.json.
+
+Always use the existing Vitest framework (src/\*_/_.test.ts) for all validation and tests.
+Do NOT create standalone scripts (e.g. scripts/validate-\*.ts) and add them to package.json.
 Curriculum validation belongs in src/curriculum.test.ts, which runs as part of the CI test job.
 
 ## Curriculum Index
+
 scripts/curriculum-index.json tracks all grammar titles and vocab words
 used across all curriculum phases. It must be updated whenever new
 curriculum files are added:
+
 - After each batch generation: append new grammarTitles and vocabWords
 - After Phase 14 (A2) and Phase 15 (B1) generation: same rule applies
 - Never regenerate from scratch — always append to preserve history
-Structure: { lastDay, grammarTitles: string[], vocabWords: string[] }
+  Structure: { lastDay, grammarTitles: string[], vocabWords: string[] }
 
 ## Vocab Word Forms
+
 Every VocabWord must have a forms field (required, not optional).
 The shape of forms depends on partOfSpeech:
 
 verb → VerbForms: full present tense phrases for all 6 persons
-  { "je": "je [form]", "tu": "tu [form]", "il": "il/elle/on [form]",
-    "nous": "nous [form]", "vous": "vous [form]", "ils": "ils/elles [form]" }
-  Use full phrases (e.g. "je mange") not bare conjugations ("mange")
+{ "je": "je [form]", "tu": "tu [form]", "il": "il/elle/on [form]",
+"nous": "nous [form]", "vous": "vous [form]", "ils": "ils/elles [form]" }
+Use full phrases (e.g. "je mange") not bare conjugations ("mange")
 
 adjective → GenderForms: all four gender/number variants
-  { "masculine": "...", "feminine": "...",
-    "masculinePlural": "...", "femininePlural": "..." }
-  If the masculine and feminine forms are identical, still fill in all four fields with the word
-  e.g. grand → "grand" / "grande" / "grands" / "grandes"
-  e.g. sympa → "sympa" / "sympa" / "sympas" / "sympas"
+{ "masculine": "...", "feminine": "...",
+"masculinePlural": "...", "femininePlural": "..." }
+If the masculine and feminine forms are identical, still fill in all four fields with the word
+e.g. grand → "grand" / "grande" / "grands" / "grandes"
+e.g. sympa → "sympa" / "sympa" / "sympas" / "sympas"
 
 noun → GenderForms: all four gender/number variants
-  { "masculine": "...", "feminine": "...",
-    "masculinePlural": "...", "femininePlural": "..." }
-  If the noun only exists in one gender, set the non-existing gender fields to ""
-  e.g. livre (masculine only) → "livre" / "" / "livres" / ""
-  e.g. maison (feminine only) → "" / "maison" / "" / "maisons"
-  If the noun has both genders (e.g. ami/amie), fill in all four fields normally
+{ "masculine": "...", "feminine": "...",
+"masculinePlural": "...", "femininePlural": "..." }
+If the noun only exists in one gender, set the non-existing gender fields to ""
+e.g. livre (masculine only) → "livre" / "" / "livres" / ""
+e.g. maison (feminine only) → "" / "maison" / "" / "maisons"
+If the noun has both genders (e.g. ami/amie), fill in all four fields normally
 
 adverb or expression → GenderForms with all four fields set to the word itself
 
 The curriculum test suite (src/curriculum.test.ts) enforces forms on every word.
 
 ## Vocab Examples Rule
+
 Every VocabWord must have at least 3 examples (minimum).
 Each example is a 2-element array: ["French sentence", "English translation"].
 The French sentence must be A1 level (or the appropriate phase level), using the word naturally in context.
 
 ## Listening Content Rules
+
 All listening questions and answers must be written in French.
 Never write questions or answers in English.
 The vocabulary, grammar, and sentence structures used in questions
 and answers must match the study phase level:
 
 Phase 1 (A1):
-  Questions use simple forms only — Où... ? / Qu'est-ce que... ? /
-  Qui... ? / Combien... ? / Est-ce que... ? / Comment... ?
-  Answers use short A1 sentences — present tense, basic vocabulary,
-  no complex clauses. A learner who has just started French should
-  be able to understand both the question and the correct answer.
+Questions use simple forms only — Où... ? / Qu'est-ce que... ? /
+Qui... ? / Combien... ? / Est-ce que... ? / Comment... ?
+Answers use short A1 sentences — present tense, basic vocabulary,
+no complex clauses. A learner who has just started French should
+be able to understand both the question and the correct answer.
 
 Phase 2 (A2):
-  Questions may use passé composé, imparfait, and A2 structures.
-  Answers may include fuller sentences with connectors and opinions.
-  Vocabulary and grammar must not exceed A2 level.
+Questions may use passé composé, imparfait, and A2 structures.
+Answers may include fuller sentences with connectors and opinions.
+Vocabulary and grammar must not exceed A2 level.
 
 Phase 3 (B1):
-  Questions may be more nuanced — indirect questions, hypotheticals.
-  Answers may use B1 structures and idiomatic expressions.
-  Vocabulary and grammar must not exceed B1 level.
+Questions may be more nuanced — indirect questions, hypotheticals.
+Answers may use B1 structures and idiomatic expressions.
+Vocabulary and grammar must not exceed B1 level.
 
------
+---
 
 ## Session Component Architecture
 
@@ -655,20 +677,107 @@ ListeningWidget. Cancels any in-progress playback before starting a new run.
 
 Pure functions live in `src/features/session/utils/` (all fully unit-tested):
 
-| File | Exports |
-|---|---|
-| `quiz.ts` | `normalise`, `checkAnswer`, `countAnswered`, `countCorrect`, `progressPercent`, `extractFlaggedWords`, `quizQuestionToDrill`, `listeningQuestionToDrill`, `grammarDrillItemToDrill`, `DrillQuestion` |
-| `dialogue.ts` | `computeLineDuration(text)` — returns `max(2400, len × 75)` ms |
-| `vocab.ts` | `genderLabel(gender)` — returns `'masc.'`, `'fém.'`, or `null` |
+| File          | Exports                                                                                                                                                                                              |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `quiz.ts`     | `normalise`, `checkAnswer`, `countAnswered`, `countCorrect`, `progressPercent`, `extractFlaggedWords`, `quizQuestionToDrill`, `listeningQuestionToDrill`, `grammarDrillItemToDrill`, `DrillQuestion` |
+| `dialogue.ts` | `computeLineDuration(text)` — returns `max(2400, len × 75)` ms                                                                                                                                       |
+| `vocab.ts`    | `genderLabel(gender)` — returns `'masc.'`, `'fém.'`, or `null`                                                                                                                                       |
+| `streak.ts`   | `computeStreak(prev, sessionDate)` — pure. See "Streak rules" below.                                                                                                                                 |
+
+### Session orchestration (`useSession`)
+
+`useSession({ profile, dayContent, isRevisionDay, onProfileSaved })` is the
+single state machine that drives every active session. It owns the section
+ordering, progress, and all writes to `session_logs` / `profiles`. Components
+never call Supabase directly during a session — they call its actions.
+
+Return shape:
+
+```ts
+{
+  step: 'loading'|'home'|'vocab'|'listening'|'grammar'|'speaking'
+      | 'revision'|'saving'|'complete'|'error',
+  results: Partial<Record<SectionType, { score, total }>>,
+  flaggedWords: string[],
+  skippedAsKnown: boolean,
+  saving: boolean,
+  saveError: string | null,
+  canSkipKnown: boolean,   // true only while step === 'home' and no section completed
+  hydrating: boolean,
+  actions: { start, skipKnown, completeSection, completeRevision, retryCommit },
+}
+```
+
+`onProfileSaved(next)` is invoked every time the hook persists a profile mutation,
+so the parent's `useProfile` cache stays in sync without a refetch.
+
+### Session persistence protocol
+
+Writes are **incremental per section**, batched into one final commit.
+
+1. **Session start** (`actions.start()`): `INSERT INTO session_logs` with
+   `completed_at = null`. The returned id is stored in a ref and awaited by
+   later writes. Fires non-blocking — the UI advances to the first section
+   immediately.
+2. **Per section** (`actions.completeSection(section, {score, total, flaggedWords})`):
+   - Apply `updateDifficulty(profile.difficulty_<section>, score, total)` to the
+     auto value. Overrides are untouched.
+   - In parallel: `saveProfile(next)` and `UPDATE session_logs` with
+     `sections_completed`, the per-section score columns, and the
+     merged `flagged_words`. Grammar also writes `grammar_topic`.
+   - UI advances to the next step synchronously; the save promise is tracked
+     in `pendingSaveRef` and drained before the final commit.
+3. **Final commit** (triggered when `step === 'saving'`): `UPDATE session_logs`
+   with `completed_at = now()`, `date = completion date`, `difficulty_ratings`,
+   then `UPDATE profiles` with `current_day + 1`, the new streak, and the
+   merged `flagged_words`.
+4. **Skip-known** (`actions.skipKnown()`): one-shot `INSERT` with
+   `skipped_as_known = true` and `completed_at = now()`, then the final
+   commit runs (same profile update path, no difficulty changes).
+
+**Resume.** On mount, `useSession` queries for the single in-progress row
+(`completed_at IS NULL`) ordered by `created_at DESC`. If one exists with
+`date === today`, state is rehydrated (step, results, flagged words, skipped
+flag) and the hook resumes at the first missing section. If `date < today`,
+the stale row's `completed_at` is set to `now()` without touching the profile,
+and a fresh session starts. The unique partial index on
+`session_logs (user_id) WHERE completed_at IS NULL` enforces at most one
+open row per user so the resume query is unambiguous.
+
+**Completion date semantics.** The `date` column is rewritten to the user's
+local date at final commit time. A session started just before midnight and
+finished just after counts as completing on the later date; the same rule
+applies when resuming a session that was opened on a previous day. Streak
+math uses the completion date, never the session start.
+
+**Graceful degradation.** When `supabase === null`, all DB calls short-circuit
+and `onProfileSaved` still fires with the computed next profile so the UI
+reflects streak/day advances locally for development without credentials.
+
+### Streak rules
+
+`computeStreak(prev, sessionDate)` is the single source of truth:
+
+```
+last_session_date null  → streak 1 (first session)
+gap ≤ 0 (same day)      → unchanged
+gap === 1               → streak + 1
+gap ≥ 2, shields > 0    → streak + 1, shields - 1
+gap ≥ 2, shields === 0  → streak resets to 1
+```
+
+Same-day sessions (`sessions_per_day = 2`) do not increment streak. Each
+completed session advances `current_day` by 1 regardless.
 
 ### Type corrections
 
 `src/types/curriculum.ts` was updated to match actual JSON:
+
 - `ListenContent.questions` → `ListeningQuestion[]` (was `string[]`)
 - `GrammarContent.examples` → `GrammarExample[]` (was `[string, string][]`)
-- `GrammarContent.drills`   → `GrammarDrillItem[]` (was `string[]`)
+- `GrammarContent.drills` → `GrammarDrillItem[]` (was `string[]`)
 
------
+---
 
 ## Glass Design System
 
@@ -676,23 +785,23 @@ All session components use CSS Modules + global CSS custom properties.
 
 ### Extended CSS variables (src/index.css)
 
-| Variable | Value | Use |
-|---|---|---|
-| `--card-glass` | `rgba(46,38,32,0.88)` | Main card background |
-| `--card-elevated` | `#3a3028` | Nested panels, option buttons |
-| `--accent-light` | `#d4845f` | Hover, italic text |
-| `--accent-dark` | `#8b5e3c` | Active states |
-| `--accent-muted` | `rgba(196,112,75,0.15)` | Subtle tints |
-| `--accent-border` | `rgba(196,112,75,0.25)` | Card borders |
-| `--navy` | `rgba(32,46,68,0.9)` | Speaker B badge, tag bg |
-| `--ok` | `#7ab87a` | Correct answer colour |
-| `--ok-bg` | `rgba(107,158,107,0.12)` | Correct feedback bg |
-| `--err` | `#d06060` | Wrong answer colour |
-| `--err-bg` | `rgba(196,80,80,0.12)` | Wrong feedback bg |
-| `--glass-blur` | `blur(14px)` | backdrop-filter value |
-| `--radius-sm/md/lg` | 10/14/20px | Consistent border radii |
-| `--shadow-card` | multi-layer | Card depth |
-| `--shadow-elevated` | stronger | Floating cards |
+| Variable            | Value                    | Use                           |
+| ------------------- | ------------------------ | ----------------------------- |
+| `--card-glass`      | `rgba(46,38,32,0.88)`    | Main card background          |
+| `--card-elevated`   | `#3a3028`                | Nested panels, option buttons |
+| `--accent-light`    | `#d4845f`                | Hover, italic text            |
+| `--accent-dark`     | `#8b5e3c`                | Active states                 |
+| `--accent-muted`    | `rgba(196,112,75,0.15)`  | Subtle tints                  |
+| `--accent-border`   | `rgba(196,112,75,0.25)`  | Card borders                  |
+| `--navy`            | `rgba(32,46,68,0.9)`     | Speaker B badge, tag bg       |
+| `--ok`              | `#7ab87a`                | Correct answer colour         |
+| `--ok-bg`           | `rgba(107,158,107,0.12)` | Correct feedback bg           |
+| `--err`             | `#d06060`                | Wrong answer colour           |
+| `--err-bg`          | `rgba(196,80,80,0.12)`   | Wrong feedback bg             |
+| `--glass-blur`      | `blur(14px)`             | backdrop-filter value         |
+| `--radius-sm/md/lg` | 10/14/20px               | Consistent border radii       |
+| `--shadow-card`     | multi-layer              | Card depth                    |
+| `--shadow-elevated` | stronger                 | Floating cards                |
 
 ### Glass card recipe
 
