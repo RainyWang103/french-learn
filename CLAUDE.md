@@ -641,3 +641,19 @@ box-shadow: var(--shadow-elevated);
 - Scroll containers: `padding-bottom: env(safe-area-inset-bottom)`
 - No hover-only states — use `:active` for touch feedback
 - `backdrop-filter` always paired with `-webkit-backdrop-filter`
+
+-----
+
+## Test Strategy — Phase 6 additions
+
+### Files with tests this phase
+
+`src/features/profile/hooks/useProfile.test.ts`
+
+- `createDefaultProfile`:
+  - standard track defaults (`word_count` 5, `skip_known_enabled` false, `hide_pronunciation` false)
+  - advanced track defaults (`word_count` 7, `skip_known_enabled` true, `hide_pronunciation` true)
+- `getEffectiveDifficulty`:
+  - returns the override value when an override is set
+  - returns the auto float when the override is null
+  - falls back to the auto float after the override is reset to null
