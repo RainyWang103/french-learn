@@ -1,6 +1,7 @@
+import { ProtectedRoute } from '$features/auth'
 import styles from './App.module.css'
 
-export default function App() {
+function MainApp() {
   return (
     <div className={styles.app}>
       <header className={styles.header}>
@@ -11,5 +12,13 @@ export default function App() {
         <p className={styles.notice}>Setting up… Connect Supabase credentials to get started.</p>
       </main>
     </div>
+  )
+}
+
+export default function App() {
+  return (
+    <ProtectedRoute>
+      <MainApp />
+    </ProtectedRoute>
   )
 }
