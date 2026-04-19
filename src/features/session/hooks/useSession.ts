@@ -60,7 +60,11 @@ export interface UseSessionResult {
 const SECTION_ORDER: SectionType[] = ['vocab', 'listening', 'grammar', 'speaking']
 
 function todayYMD(): string {
-  return new Date().toISOString().slice(0, 10)
+  return new Date(Date.now()).toISOString().slice(0, 10)
+}
+
+function nowISO(): string {
+  return new Date(Date.now()).toISOString()
 }
 
 function dedupeStrings(values: string[]): string[] {
@@ -173,10 +177,7 @@ export function useSession({
 
         const today = todayYMD()
         if (row.date !== today) {
-          await supabase
-            .from('session_logs')
-            .update({ completed_at: new Date().toISOString() })
-            .eq('id', row.id)
+          await supabase.from('session_logs').update({ completed_at: nowISO() }).eq('id', row.id)
           if (cancelled) return
           fallbackHome()
           return
@@ -347,7 +348,7 @@ export function useSession({
           .from('session_logs')
           .update({
             skipped_as_known: true,
-            completed_at: new Date().toISOString(),
+            completed_at: nowISO(),
             date: todayYMD(),
           })
           .eq('id', sessionLogIdRef.current)
@@ -362,7 +363,7 @@ export function useSession({
             sections_completed: [],
             skipped_as_known: true,
             flagged_words: profileRef.current.flagged_words,
-            completed_at: new Date().toISOString(),
+            completed_at: nowISO(),
           })
           .select()
           .single()
@@ -418,7 +419,7 @@ export function useSession({
           const { error: logError } = await supabase
             .from('session_logs')
             .update({
-              completed_at: new Date().toISOString(),
+              completed_at: nowISO(),
               date: completionDate,
               difficulty_ratings: difficultyRatingsOf(snapshot),
               flagged_words: finalFlagged,
