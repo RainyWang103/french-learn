@@ -51,8 +51,15 @@ create table session_logs (
   transcript          jsonb,
   difficulty_ratings  jsonb,
   flagged_words       text[] not null default '{}',
-  created_at          timestamptz not null default now()
+  created_at          timestamptz not null default now(),
+  completed_at        timestamptz
 );
+
+-- At most one in-progress session per user. Enables resume and
+-- prevents duplicate open rows if two tabs race on session start.
+create unique index session_logs_one_in_progress_per_user
+  on session_logs (user_id)
+  where completed_at is null;
 
 -- Row level security
 alter table profiles    enable row level security;

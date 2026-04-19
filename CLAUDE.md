@@ -340,8 +340,17 @@ create table session_logs (
   transcript          jsonb,
   difficulty_ratings  jsonb,
   flagged_words       text[] not null default '{}',
-  created_at          timestamptz not null default now()
+  created_at          timestamptz not null default now(),
+  completed_at        timestamptz
 );
+
+-- A session_logs row is in-progress while completed_at is null. The final
+-- commit sets completed_at and advances profile.current_day. The unique
+-- partial index enforces at most one in-progress row per user so resume
+-- reads can rely on ORDER BY created_at DESC LIMIT 1 without ambiguity.
+create unique index session_logs_one_in_progress_per_user
+  on session_logs (user_id)
+  where completed_at is null;
 
 -- Row level security
 alter table profiles    enable row level security;
@@ -478,6 +487,65 @@ const showRevealBtn = !modelVisible && (attempted || modelAnswerVisibility === '
 
 // bad — inline compound logic
 {!modelVisible && (attempted || modelAnswerVisibility === 'on_request') && <button>...</button>}
+```
+
+### Enum-style const objects
+
+Use `as const` objects with a derived union type for enumerated values — never bare
+string unions or the `enum` keyword. The derived type and the runtime object share a
+name, so callers can use either in type position or member-access position.
+
+```ts
+export const SectionType = {
+  Vocab: 'vocab',
+  Grammar: 'grammar',
+  Listening: 'listening',
+  Speaking: 'speaking',
+} as const
+export type SectionType = (typeof SectionType)[keyof typeof SectionType]
+```
+
+When an enum-style const object exists, **always use member access at call sites**,
+never the raw string literal. `SectionType.Vocab` — not `'vocab'`. This makes
+renames trivial and catches typos at the type level.
+
+### Cross-file type and constant placement
+
+Types, interfaces, constants, and enums that are referenced from more than one
+file live in dedicated `types.ts` / `constants.ts` files inside the owning feature.
+File-local helpers stay inline. The goal: a reader opening `hooks/useX.ts` should
+find its contract in `feature/types.ts`, not buried at the bottom of the hook file.
+
+- `feature/types.ts` — cross-file types and interfaces (e.g. hook argument/result
+  shapes, shared DTOs).
+- `feature/constants.ts` — cross-file `as const` objects, enums, and readonly arrays.
+
+### Data access layering
+
+UI components and hooks never call the Supabase client directly. Instead:
+
+1. **`src/lib/supabase/`** owns the Supabase client singleton, table-name constants,
+   and raw query helpers (`selectProfileById`, `insertSessionLog`, …). These throw
+   if `supabase === null`.
+2. **`src/features/<feature>/api/`** is the thin caller layer. Each function
+   checks `if (!supabase) { … }` and short-circuits with a domain-appropriate
+   value when the DB is disconnected, then delegates to the raw layer. This is
+   also the mock point for tests — `vi.mock('$features/<feature>/api/<file>', …)`.
+3. **Hooks and components** import only from the feature `api/` layer.
+
+### Control-flow braces
+
+All `if`, `else if`, `else`, `for`, `while`, and `do` bodies use braces — even
+for a single statement. No `if (cond) return` or `for (…) continue` one-liners.
+
+```ts
+// good
+if (!user) {
+  return
+}
+
+// bad
+if (!user) return
 ```
 
 -----
@@ -660,6 +728,92 @@ Pure functions live in `src/features/session/utils/` (all fully unit-tested):
 | `quiz.ts` | `normalise`, `checkAnswer`, `countAnswered`, `countCorrect`, `progressPercent`, `extractFlaggedWords`, `quizQuestionToDrill`, `listeningQuestionToDrill`, `grammarDrillItemToDrill`, `DrillQuestion` |
 | `dialogue.ts` | `computeLineDuration(text)` — returns `max(2400, len × 75)` ms |
 | `vocab.ts` | `genderLabel(gender)` — returns `'masc.'`, `'fém.'`, or `null` |
+| `streak.ts` | `computeStreak(prev, sessionDate)` — pure. See "Streak rules" below. |
+
+### Session orchestration (`useSession`)
+
+`useSession({ profile, dayContent, isRevisionDay, onProfileSaved })` is the
+single state machine that drives every active session. It owns the section
+ordering, progress, and all writes to `session_logs` / `profiles`. Components
+never call Supabase directly during a session — they call its actions.
+
+Return shape:
+
+```ts
+{
+  step: 'loading'|'home'|'vocab'|'listening'|'grammar'|'speaking'
+      | 'revision'|'saving'|'complete'|'error',
+  results: Partial<Record<SectionType, { score, total }>>,
+  flaggedWords: string[],
+  skippedAsKnown: boolean,
+  saving: boolean,
+  saveError: string | null,
+  canSkipKnown: boolean,   // true only while step === 'home' and no section completed
+  hydrating: boolean,
+  actions: { start, skipKnown, completeSection, completeRevision, retryCommit },
+}
+```
+
+`onProfileSaved(next)` is invoked every time the hook persists a profile mutation,
+so the parent's `useProfile` cache stays in sync without a refetch.
+
+### Session persistence protocol
+
+Writes are **incremental per section**, batched into one final commit.
+
+1. **Session start** (`actions.start()`): `INSERT INTO session_logs` with
+   `completed_at = null`. The returned id is stored in a ref and awaited by
+   later writes. Fires non-blocking — the UI advances to the first section
+   immediately.
+2. **Per section** (`actions.completeSection(section, {score, total, flaggedWords})`):
+   - Apply `updateDifficulty(profile.difficulty_<section>, score, total)` to the
+     auto value. Overrides are untouched.
+   - In parallel: `saveProfile(next)` and `UPDATE session_logs` with
+     `sections_completed`, the per-section score columns, and the
+     merged `flagged_words`. Grammar also writes `grammar_topic`.
+   - UI advances to the next step synchronously; the save promise is tracked
+     in `pendingSaveRef` and drained before the final commit.
+3. **Final commit** (triggered when `step === 'saving'`): `UPDATE session_logs`
+   with `completed_at = now()`, `date = completion date`, `difficulty_ratings`,
+   then `UPDATE profiles` with `current_day + 1`, the new streak, and the
+   merged `flagged_words`.
+4. **Skip-known** (`actions.skipKnown()`): one-shot `INSERT` with
+   `skipped_as_known = true` and `completed_at = now()`, then the final
+   commit runs (same profile update path, no difficulty changes).
+
+**Resume.** On mount, `useSession` queries for the single in-progress row
+(`completed_at IS NULL`) ordered by `created_at DESC`. If one exists with
+`date === today`, state is rehydrated (step, results, flagged words, skipped
+flag) and the hook resumes at the first missing section. If `date < today`,
+the stale row's `completed_at` is set to `now()` without touching the profile,
+and a fresh session starts. The unique partial index on
+`session_logs (user_id) WHERE completed_at IS NULL` enforces at most one
+open row per user so the resume query is unambiguous.
+
+**Completion date semantics.** The `date` column is rewritten to the user's
+local date at final commit time. A session started just before midnight and
+finished just after counts as completing on the later date; the same rule
+applies when resuming a session that was opened on a previous day. Streak
+math uses the completion date, never the session start.
+
+**Graceful degradation.** When `supabase === null`, all DB calls short-circuit
+and `onProfileSaved` still fires with the computed next profile so the UI
+reflects streak/day advances locally for development without credentials.
+
+### Streak rules
+
+`computeStreak(prev, sessionDate)` is the single source of truth:
+
+```
+last_session_date null  → streak 1 (first session)
+gap ≤ 0 (same day)      → unchanged
+gap === 1               → streak + 1
+gap ≥ 2, shields > 0    → streak + 1, shields - 1
+gap ≥ 2, shields === 0  → streak resets to 1
+```
+
+Same-day sessions (`sessions_per_day = 2`) do not increment streak. Each
+completed session advances `current_day` by 1 regardless.
 
 ### Type corrections
 

@@ -5,7 +5,11 @@ import type { Gender } from '$types/curriculum'
  * or null when the word has no grammatical gender.
  */
 export function genderLabel(gender: Gender): string | null {
-  if (gender === 'male') return 'masc.'
-  if (gender === 'female') return 'fém.'
+  if (gender === 'male') {
+    return 'masc.'
+  }
+  if (gender === 'female') {
+    return 'fém.'
+  }
   return null
 }
