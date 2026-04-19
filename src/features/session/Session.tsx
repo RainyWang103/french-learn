@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react'
 import clsx from 'clsx'
-import type { SectionType } from '$lib/difficulty'
+import { SectionType } from '$lib/difficulty'
 import { Settings, useProfile } from '$features/profile'
 import type { UserProfile } from '$types/profile'
 import { useDayContent } from '$session/hooks/useDayContent'
-import { useSession, type SectionScore, type SessionStep } from '$session/hooks/useSession'
+import { useSession } from '$session/hooks/useSession'
+import { SessionSectionKey, SessionStep } from '$session/constants'
+import type { SectionResults } from '$session/types'
 import { getEffectiveDifficulty } from '$features/profile/hooks/useProfile'
 import { DB_NOT_CONNECTED_MSG, supabase } from '$lib/supabase'
 import VocabCard from '$session/components/VocabCard'
@@ -16,21 +18,26 @@ import SessionComplete from '$session/components/SessionComplete'
 import styles from './Session.module.css'
 
 interface SectionMeta {
-  key: SectionType | 'revision'
+  key: SessionSectionKey
   title: string
   hint: string
   icon: string
 }
 
 const CONTENT_SECTIONS: SectionMeta[] = [
-  { key: 'vocab', title: 'Vocabulary', hint: 'Words & quick quiz', icon: '📚' },
-  { key: 'listening', title: 'Listening', hint: 'Dialogue & comprehension', icon: '🎧' },
-  { key: 'grammar', title: 'Grammar', hint: 'Explanation & drills', icon: '✍️' },
-  { key: 'speaking', title: 'Speaking', hint: 'Scenario practice', icon: '🗣️' },
+  { key: SessionSectionKey.Vocab, title: 'Vocabulary', hint: 'Words & quick quiz', icon: '📚' },
+  {
+    key: SessionSectionKey.Listening,
+    title: 'Listening',
+    hint: 'Dialogue & comprehension',
+    icon: '🎧',
+  },
+  { key: SessionSectionKey.Grammar, title: 'Grammar', hint: 'Explanation & drills', icon: '✍️' },
+  { key: SessionSectionKey.Speaking, title: 'Speaking', hint: 'Scenario practice', icon: '🗣️' },
 ]
 
 const REVISION_SECTION: SectionMeta = {
-  key: 'revision',
+  key: SessionSectionKey.Revision,
   title: 'Revision',
   hint: 'Review flagged words',
   icon: '🔁',
@@ -136,7 +143,7 @@ function SessionInner({
     )
   }
 
-  if (step === 'complete') {
+  if (step === SessionStep.Complete) {
     return (
       <SessionComplete
         profile={profile}
@@ -148,7 +155,7 @@ function SessionInner({
     )
   }
 
-  if (step === 'error') {
+  if (step === SessionStep.Error) {
     return (
       <div className={styles.page}>
         <div className={styles.shell}>
@@ -163,7 +170,7 @@ function SessionInner({
     )
   }
 
-  if (step === 'saving') {
+  if (step === SessionStep.Saving) {
     return (
       <div className={styles.page}>
         <div className={styles.shell}>
@@ -173,7 +180,7 @@ function SessionInner({
     )
   }
 
-  if (step === 'home') {
+  if (step === SessionStep.Home) {
     return (
       <HomeScreen
         profile={profile}
@@ -196,7 +203,7 @@ function SessionInner({
   }
 
   // Active section rendering.
-  if (step === 'revision') {
+  if (step === SessionStep.Revision) {
     return (
       <ActiveSection profile={profile}>
         <RevisionSection
@@ -219,55 +226,57 @@ function SessionInner({
     )
   }
 
-  if (step === 'vocab') {
+  if (step === SessionStep.Vocab) {
     return (
       <ActiveSection profile={profile}>
         <VocabCard
           words={content.vocab[profile.track]}
           quizQuestions={content.quiz[profile.track]}
           track={profile.track}
-          difficulty={getEffectiveDifficulty(profile, 'vocab')}
+          difficulty={getEffectiveDifficulty(profile, SectionType.Vocab)}
           hidePronunciation={profile.hide_pronunciation}
-          onDone={(result) => void session.actions.completeSection('vocab', result)}
+          onDone={(result) => void session.actions.completeSection(SectionType.Vocab, result)}
         />
       </ActiveSection>
     )
   }
 
-  if (step === 'listening') {
+  if (step === SessionStep.Listening) {
     return (
       <ActiveSection profile={profile}>
         <ListeningWidget
           listen={content.listen[profile.track]}
-          difficulty={getEffectiveDifficulty(profile, 'listening')}
+          difficulty={getEffectiveDifficulty(profile, SectionType.Listening)}
           track={profile.track}
-          onDone={(result) => void session.actions.completeSection('listening', result)}
+          onDone={(result) => void session.actions.completeSection(SectionType.Listening, result)}
         />
       </ActiveSection>
     )
   }
 
-  if (step === 'grammar') {
+  if (step === SessionStep.Grammar) {
     return (
       <ActiveSection profile={profile}>
         <GrammarDrill
           grammar={content.grammar[profile.track]}
-          difficulty={getEffectiveDifficulty(profile, 'grammar')}
+          difficulty={getEffectiveDifficulty(profile, SectionType.Grammar)}
           track={profile.track}
-          onDone={(result) => void session.actions.completeSection('grammar', result)}
+          onDone={(result) => void session.actions.completeSection(SectionType.Grammar, result)}
         />
       </ActiveSection>
     )
   }
 
-  if (step === 'speaking') {
+  if (step === SessionStep.Speaking) {
     return (
       <ActiveSection profile={profile}>
         <SpeakingChallenge
           speak={content.speak[profile.track]}
-          difficulty={getEffectiveDifficulty(profile, 'speaking')}
+          difficulty={getEffectiveDifficulty(profile, SectionType.Speaking)}
           track={profile.track}
-          onDone={() => void session.actions.completeSection('speaking', { score: 0, total: 0 })}
+          onDone={() =>
+            void session.actions.completeSection(SectionType.Speaking, { score: 0, total: 0 })
+          }
         />
       </ActiveSection>
     )
@@ -282,7 +291,7 @@ interface HomeScreenProps {
   saveError: string | null
   isRevisionDay: boolean
   canSkipKnown: boolean
-  results: Partial<Record<SectionType, SectionScore>>
+  results: SectionResults
   onStart: () => void
   onSkipKnown: () => void
   onOpenSettings: () => void
@@ -348,7 +357,7 @@ function HomeScreen({
 
         <div className={styles.sectionList}>
           {sections.map((section, idx) => {
-            const done = section.key !== 'revision' && section.key in results
+            const done = section.key !== SessionSectionKey.Revision && section.key in results
             const isNext = !done && idx === sections.findIndex((s) => !(s.key in results))
             return (
               <button

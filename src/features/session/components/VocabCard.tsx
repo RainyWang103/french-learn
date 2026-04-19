@@ -86,7 +86,9 @@ function GenderFormsTable({ forms }: { forms: GenderForms }) {
     ] as [string, string][]
   ).filter(([, value]) => value !== '')
 
-  if (rows.length === 0) return null
+  if (rows.length === 0) {
+    return null
+  }
   return (
     <div>
       <div className={styles.fieldLabel}>Forms</div>

@@ -489,6 +489,65 @@ const showRevealBtn = !modelVisible && (attempted || modelAnswerVisibility === '
 {!modelVisible && (attempted || modelAnswerVisibility === 'on_request') && <button>...</button>}
 ```
 
+### Enum-style const objects
+
+Use `as const` objects with a derived union type for enumerated values — never bare
+string unions or the `enum` keyword. The derived type and the runtime object share a
+name, so callers can use either in type position or member-access position.
+
+```ts
+export const SectionType = {
+  Vocab: 'vocab',
+  Grammar: 'grammar',
+  Listening: 'listening',
+  Speaking: 'speaking',
+} as const
+export type SectionType = (typeof SectionType)[keyof typeof SectionType]
+```
+
+When an enum-style const object exists, **always use member access at call sites**,
+never the raw string literal. `SectionType.Vocab` — not `'vocab'`. This makes
+renames trivial and catches typos at the type level.
+
+### Cross-file type and constant placement
+
+Types, interfaces, constants, and enums that are referenced from more than one
+file live in dedicated `types.ts` / `constants.ts` files inside the owning feature.
+File-local helpers stay inline. The goal: a reader opening `hooks/useX.ts` should
+find its contract in `feature/types.ts`, not buried at the bottom of the hook file.
+
+- `feature/types.ts` — cross-file types and interfaces (e.g. hook argument/result
+  shapes, shared DTOs).
+- `feature/constants.ts` — cross-file `as const` objects, enums, and readonly arrays.
+
+### Data access layering
+
+UI components and hooks never call the Supabase client directly. Instead:
+
+1. **`src/lib/supabase/`** owns the Supabase client singleton, table-name constants,
+   and raw query helpers (`selectProfileById`, `insertSessionLog`, …). These throw
+   if `supabase === null`.
+2. **`src/features/<feature>/api/`** is the thin caller layer. Each function
+   checks `if (!supabase) { … }` and short-circuits with a domain-appropriate
+   value when the DB is disconnected, then delegates to the raw layer. This is
+   also the mock point for tests — `vi.mock('$features/<feature>/api/<file>', …)`.
+3. **Hooks and components** import only from the feature `api/` layer.
+
+### Control-flow braces
+
+All `if`, `else if`, `else`, `for`, `while`, and `do` bodies use braces — even
+for a single statement. No `if (cond) return` or `for (…) continue` one-liners.
+
+```ts
+// good
+if (!user) {
+  return
+}
+
+// bad
+if (!user) return
+```
+
 -----
 
 ## What Is NOT Built Yet (pending desktop setup)

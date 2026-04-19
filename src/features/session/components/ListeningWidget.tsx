@@ -43,7 +43,9 @@ export default function ListeningWidget({
   const canReplay = replaysRemaining > 0
 
   function handleReplay() {
-    if (!canReplay) return
+    if (!canReplay) {
+      return
+    }
     setReplaysUsed((n) => n + 1)
     play()
   }

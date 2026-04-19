@@ -1,63 +1,28 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { SectionType, updateDifficulty } from '$lib/difficulty'
 import { supabase } from '$lib/supabase'
 import type { DayContent } from '$types/curriculum'
 import type { SessionLog, Track, UserProfile } from '$types/profile'
-import type { SectionType } from '$lib/difficulty'
-import { updateDifficulty } from '$lib/difficulty'
-import { saveProfile } from '$features/profile/hooks/useProfile'
+import { saveProfile } from '$features/profile/api/profiles'
+import {
+  fetchInProgressLog,
+  insertInProgressLog,
+  insertSkippedLog,
+  markLogAbandoned,
+  patchLog,
+} from '$session/api/sessionLogs'
+import { SECTION_ORDER, SessionStep } from '$session/constants'
+import type {
+  CompleteSectionResult,
+  SectionResults,
+  UseSessionActions,
+  UseSessionArgs,
+  UseSessionResult,
+} from '$session/types'
 import { computeStreak } from '$session/utils/streak'
 
-export type SessionStep =
-  | 'loading'
-  | 'home'
-  | 'vocab'
-  | 'listening'
-  | 'grammar'
-  | 'speaking'
-  | 'revision'
-  | 'saving'
-  | 'complete'
-  | 'error'
-
-export interface SectionScore {
-  score: number
-  total: number
-}
-
-export interface CompleteSectionResult {
-  score: number
-  total: number
-  flaggedWords?: string[]
-}
-
-export interface UseSessionArgs {
-  profile: UserProfile
-  dayContent: DayContent | null
-  isRevisionDay: boolean
-  onProfileSaved: (next: UserProfile) => void
-}
-
-export interface UseSessionActions {
-  start: () => void
-  skipKnown: () => Promise<void>
-  completeSection: (section: SectionType, result: CompleteSectionResult) => Promise<void>
-  completeRevision: (masteredWords: string[]) => Promise<void>
-  retryCommit: () => Promise<void>
-}
-
-export interface UseSessionResult {
-  step: SessionStep
-  results: Partial<Record<SectionType, SectionScore>>
-  flaggedWords: string[]
-  skippedAsKnown: boolean
-  saving: boolean
-  saveError: string | null
-  canSkipKnown: boolean
-  hydrating: boolean
-  actions: UseSessionActions
-}
-
-const SECTION_ORDER: SectionType[] = ['vocab', 'listening', 'grammar', 'speaking']
+export type { SessionStep } from '$session/constants'
+export type { SectionScore, CompleteSectionResult } from '$session/types'
 
 function todayYMD(): string {
   return new Date(Date.now()).toISOString().slice(0, 10)
@@ -73,24 +38,26 @@ function dedupeStrings(values: string[]): string[] {
 
 function stepForFirstMissing(sectionsCompleted: string[]): SessionStep {
   for (const section of SECTION_ORDER) {
-    if (!sectionsCompleted.includes(section)) return section as SessionStep
+    if (!sectionsCompleted.includes(section)) {
+      return section as SessionStep
+    }
   }
-  return 'saving'
+  return SessionStep.Saving
 }
 
-function resultsFromRow(row: SessionLog): Partial<Record<SectionType, SectionScore>> {
-  const out: Partial<Record<SectionType, SectionScore>> = {}
+function resultsFromRow(row: SessionLog): SectionResults {
+  const out: SectionResults = {}
   if (row.vocab_score != null && row.vocab_total != null) {
-    out.vocab = { score: row.vocab_score, total: row.vocab_total }
+    out[SectionType.Vocab] = { score: row.vocab_score, total: row.vocab_total }
   }
   if (row.listening_score != null && row.listening_total != null) {
-    out.listening = { score: row.listening_score, total: row.listening_total }
+    out[SectionType.Listening] = { score: row.listening_score, total: row.listening_total }
   }
   if (row.grammar_score != null && row.grammar_total != null) {
-    out.grammar = { score: row.grammar_score, total: row.grammar_total }
+    out[SectionType.Grammar] = { score: row.grammar_score, total: row.grammar_total }
   }
-  if (row.sections_completed.includes('speaking')) {
-    out.speaking = { score: 0, total: 0 }
+  if (row.sections_completed.includes(SectionType.Speaking)) {
+    out[SectionType.Speaking] = { score: 0, total: 0 }
   }
   return out
 }
@@ -108,14 +75,37 @@ function difficultyRatingsOf(profile: UserProfile) {
   }
 }
 
+function sectionPatchFor(
+  section: SectionType,
+  score: number,
+  total: number,
+  dayContent: DayContent | null,
+  track: Track,
+): Partial<SessionLog> {
+  if (section === SectionType.Vocab) {
+    return { vocab_score: score, vocab_total: total }
+  }
+  if (section === SectionType.Listening) {
+    return { listening_score: score, listening_total: total }
+  }
+  if (section === SectionType.Grammar) {
+    return {
+      grammar_score: score,
+      grammar_total: total,
+      grammar_topic: grammarTopicFor(dayContent, track),
+    }
+  }
+  return {}
+}
+
 export function useSession({
   profile,
   dayContent,
   isRevisionDay,
   onProfileSaved,
 }: UseSessionArgs): UseSessionResult {
-  const [step, setStep] = useState<SessionStep>('loading')
-  const [results, setResults] = useState<Partial<Record<SectionType, SectionScore>>>({})
+  const [step, setStep] = useState<SessionStep>(SessionStep.Loading)
+  const [results, setResults] = useState<SectionResults>({})
   const [flaggedWords, setFlaggedWords] = useState<string[]>([])
   const [skippedAsKnown, setSkippedAsKnown] = useState(false)
   const [saving, setSaving] = useState(false)
@@ -141,44 +131,29 @@ export function useSession({
 
     async function hydrate() {
       const fallbackHome = () => {
-        if (cancelled) return
-        setStep('home')
+        if (cancelled) {
+          return
+        }
+        setStep(SessionStep.Home)
         setFlaggedWords(profileRef.current.flagged_words.slice())
         setHydrating(false)
       }
 
-      if (!supabase) {
-        fallbackHome()
-        return
-      }
-
       try {
-        const { data, error } = await supabase
-          .from('session_logs')
-          .select('*')
-          .eq('user_id', profile.id)
-          .is('completed_at', null)
-          .order('created_at', { ascending: false })
-          .limit(1)
-          .maybeSingle()
-
-        if (cancelled) return
-        if (error) {
-          setSaveError(error.message)
-          fallbackHome()
+        const row = await fetchInProgressLog(profile.id)
+        if (cancelled) {
           return
         }
-
-        const row = data as SessionLog | null
         if (!row) {
           fallbackHome()
           return
         }
 
-        const today = todayYMD()
-        if (row.date !== today) {
-          await supabase.from('session_logs').update({ completed_at: nowISO() }).eq('id', row.id)
-          if (cancelled) return
+        if (row.date !== todayYMD()) {
+          await markLogAbandoned(row.id, nowISO())
+          if (cancelled) {
+            return
+          }
           fallbackHome()
           return
         }
@@ -188,10 +163,12 @@ export function useSession({
         setResults(resultsFromRow(row))
         setFlaggedWords(row.flagged_words ?? [])
         setSkippedAsKnown(row.skipped_as_known)
-        setStep(isRevisionDay ? 'revision' : stepForFirstMissing(row.sections_completed))
+        setStep(isRevisionDay ? SessionStep.Revision : stepForFirstMissing(row.sections_completed))
         setHydrating(false)
       } catch (hydrateError) {
-        if (cancelled) return
+        if (cancelled) {
+          return
+        }
         setSaveError(hydrateError instanceof Error ? hydrateError.message : String(hydrateError))
         fallbackHome()
       }
@@ -203,46 +180,38 @@ export function useSession({
     }
   }, [profile.id, isRevisionDay])
 
-  const canSkipKnown =
-    !hydrating &&
-    step === 'home' &&
-    profile.skip_known_enabled &&
-    !isRevisionDay &&
-    Object.keys(results).length === 0
+  const isOnHome = step === SessionStep.Home
+  const noSectionCompletedYet = Object.keys(results).length === 0
+  const skipKnownAllowed = profile.skip_known_enabled && !isRevisionDay
+  const canSkipKnown = !hydrating && isOnHome && skipKnownAllowed && noSectionCompletedYet
 
   // --- start: enter the first section and open a session_logs row.
   const start = useCallback(() => {
-    if (step !== 'home') return
-    setStep(isRevisionDay ? 'revision' : 'vocab')
+    if (step !== SessionStep.Home) {
+      return
+    }
+    setStep(isRevisionDay ? SessionStep.Revision : SessionStep.Vocab)
 
-    if (!supabase || sessionLogIdRef.current) return
+    if (sessionLogIdRef.current) {
+      return
+    }
 
-    const insertPromise = (async () => {
-      const { data, error } = await supabase!
-        .from('session_logs')
-        .insert({
-          user_id: profileRef.current.id,
-          day_number: profileRef.current.current_day,
-          phase: profileRef.current.phase,
-          date: todayYMD(),
-          sections_completed: [],
-          skipped_as_known: false,
-          flagged_words: [],
-          completed_at: null,
-        })
-        .select()
-        .single()
-      if (error) {
-        setSaveError(error.message)
-        return
-      }
-      sessionLogIdRef.current = (data as SessionLog).id
-    })()
+    const insertPromise = insertInProgressLog({
+      userId: profileRef.current.id,
+      dayNumber: profileRef.current.current_day,
+      phase: profileRef.current.phase,
+      dateYMD: todayYMD(),
+    })
+      .then((row) => {
+        if (row) {
+          sessionLogIdRef.current = row.id
+        }
+      })
+      .catch((err: unknown) => {
+        setSaveError(err instanceof Error ? err.message : String(err))
+      })
 
     pendingSaveRef.current = insertPromise
-    void insertPromise.catch(() => {
-      /* surfaced via saveError above */
-    })
   }, [step, isRevisionDay])
 
   // --- completeSection: non-blocking incremental save + advance.
@@ -253,10 +222,10 @@ export function useSession({
       setFlaggedWords((prev) => dedupeStrings([...prev, ...newFlagged]))
 
       const idx = SECTION_ORDER.indexOf(section)
-      const nextStep: SessionStep =
-        idx < 0 || idx === SECTION_ORDER.length - 1
-          ? 'saving'
-          : (SECTION_ORDER[idx + 1] as SessionStep)
+      const isLastSection = idx < 0 || idx === SECTION_ORDER.length - 1
+      const nextStep: SessionStep = isLastSection
+        ? SessionStep.Saving
+        : (SECTION_ORDER[idx + 1] as SessionStep)
       setStep(nextStep)
 
       sectionsCompletedRef.current = dedupeStrings([...sectionsCompletedRef.current, section])
@@ -286,27 +255,22 @@ export function useSession({
           onProfileSavedRef.current(saved)
         })
 
-        let logWritePromise: Promise<unknown> = Promise.resolve()
-        if (sessionLogIdRef.current) {
-          const patch: Record<string, unknown> = {
+        let logWritePromise: Promise<void> = Promise.resolve()
+        const logId = sessionLogIdRef.current
+        if (logId) {
+          const sectionPatch = sectionPatchFor(
+            section,
+            result.score,
+            result.total,
+            dayContentRef.current,
+            snapshot.track,
+          )
+          const patch: Partial<SessionLog> = {
+            ...sectionPatch,
             sections_completed: sectionsCompletedRef.current,
             flagged_words: mergedFlagged,
           }
-          if (section === 'vocab') {
-            patch.vocab_score = result.score
-            patch.vocab_total = result.total
-          } else if (section === 'listening') {
-            patch.listening_score = result.score
-            patch.listening_total = result.total
-          } else if (section === 'grammar') {
-            patch.grammar_score = result.score
-            patch.grammar_total = result.total
-            patch.grammar_topic = grammarTopicFor(dayContentRef.current, snapshot.track)
-          }
-          const logId = sessionLogIdRef.current
-          logWritePromise = (async () => {
-            await supabase!.from('session_logs').update(patch).eq('id', logId)
-          })()
+          logWritePromise = patchLog(logId, patch)
         }
 
         await Promise.all([profileWritePromise, logWritePromise])
@@ -324,57 +288,57 @@ export function useSession({
   const completeRevision = useCallback(async (masteredWords: string[]) => {
     const masteredSet = new Set(masteredWords)
     setFlaggedWords((prev) => prev.filter((word) => !masteredSet.has(word)))
-    sectionsCompletedRef.current = dedupeStrings([...sectionsCompletedRef.current, 'revision'])
-    setStep('saving')
+    sectionsCompletedRef.current = dedupeStrings([
+      ...sectionsCompletedRef.current,
+      SessionStep.Revision,
+    ])
+    setStep(SessionStep.Saving)
   }, [])
 
   // --- skipKnown: one-shot finalize with skipped=true.
   const skipKnown = useCallback(async () => {
-    if (step !== 'home') return
-    if (!profile.skip_known_enabled || isRevisionDay) return
+    if (step !== SessionStep.Home) {
+      return
+    }
+    if (!profile.skip_known_enabled || isRevisionDay) {
+      return
+    }
 
     setSkippedAsKnown(true)
-    setStep('saving')
+    setStep(SessionStep.Saving)
     sectionsCompletedRef.current = []
 
     const run = async () => {
-      if (!supabase) return
-      // Drain any earlier insert (shouldn't exist since we haven't started).
-      if (pendingSaveRef.current) await pendingSaveRef.current.catch(() => {})
+      if (pendingSaveRef.current) {
+        await pendingSaveRef.current.catch(() => {})
+      }
 
       if (sessionLogIdRef.current) {
-        // Existing open row — shouldn't happen via UI, but finalize it in place.
-        await supabase
-          .from('session_logs')
-          .update({
-            skipped_as_known: true,
-            completed_at: nowISO(),
-            date: todayYMD(),
-          })
-          .eq('id', sessionLogIdRef.current)
-      } else {
-        const { data, error } = await supabase
-          .from('session_logs')
-          .insert({
-            user_id: profileRef.current.id,
-            day_number: profileRef.current.current_day,
-            phase: profileRef.current.phase,
-            date: todayYMD(),
-            sections_completed: [],
-            skipped_as_known: true,
-            flagged_words: profileRef.current.flagged_words,
-            completed_at: nowISO(),
-          })
-          .select()
-          .single()
-        if (error) throw new Error(error.message)
-        sessionLogIdRef.current = (data as SessionLog).id
+        await patchLog(sessionLogIdRef.current, {
+          skipped_as_known: true,
+          completed_at: nowISO(),
+          date: todayYMD(),
+        })
+        return
+      }
+
+      const row = await insertSkippedLog({
+        userId: profileRef.current.id,
+        dayNumber: profileRef.current.current_day,
+        phase: profileRef.current.phase,
+        dateYMD: todayYMD(),
+        nowISO: nowISO(),
+        flaggedWords: profileRef.current.flagged_words,
+      })
+      if (row) {
+        sessionLogIdRef.current = row.id
       }
     }
 
-    pendingSaveRef.current = run()
+    const runPromise = run()
+    pendingSaveRef.current = runPromise
     try {
-      await pendingSaveRef.current
+      await runPromise
     } catch (runError) {
       setSaveError(runError instanceof Error ? runError.message : String(runError))
     }
@@ -382,15 +346,21 @@ export function useSession({
 
   // --- Final commit runs whenever we enter 'saving'.
   useEffect(() => {
-    if (step !== 'saving') return
+    if (step !== SessionStep.Saving) {
+      return
+    }
     let cancelled = false
 
     async function finalize() {
       setSaving(true)
       setSaveError(null)
       try {
-        if (pendingSaveRef.current) await pendingSaveRef.current
-        if (cancelled) return
+        if (pendingSaveRef.current) {
+          await pendingSaveRef.current
+        }
+        if (cancelled) {
+          return
+        }
 
         const completionDate = todayYMD()
         const snapshot = profileRef.current
@@ -403,7 +373,7 @@ export function useSession({
           completionDate,
         )
         const mergedFlagged = dedupeStrings([...snapshot.flagged_words, ...flaggedRef.current])
-        // Revision masters words: use local flaggedRef which was already pruned.
+        // Revision masters words: flaggedRef is already pruned.
         const finalFlagged = isRevisionDay ? flaggedRef.current.slice() : mergedFlagged
 
         const finalProfile: UserProfile = {
@@ -415,35 +385,38 @@ export function useSession({
           flagged_words: finalFlagged,
         }
 
-        if (supabase && sessionLogIdRef.current) {
-          const { error: logError } = await supabase
-            .from('session_logs')
-            .update({
-              completed_at: nowISO(),
-              date: completionDate,
-              difficulty_ratings: difficultyRatingsOf(snapshot),
-              flagged_words: finalFlagged,
-              sections_completed: sectionsCompletedRef.current,
-            })
-            .eq('id', sessionLogIdRef.current)
-          if (logError) throw new Error(logError.message)
+        const logId = sessionLogIdRef.current
+        if (logId) {
+          await patchLog(logId, {
+            completed_at: nowISO(),
+            date: completionDate,
+            difficulty_ratings: difficultyRatingsOf(snapshot),
+            flagged_words: finalFlagged,
+            sections_completed: sectionsCompletedRef.current,
+          })
         }
 
         if (supabase) {
           const saved = await saveProfile(finalProfile)
-          if (cancelled) return
+          if (cancelled) {
+            return
+          }
           onProfileSavedRef.current(saved)
         } else {
           onProfileSavedRef.current(finalProfile)
         }
 
-        if (cancelled) return
-        setStep('complete')
+        if (cancelled) {
+          return
+        }
+        setStep(SessionStep.Complete)
         setSaving(false)
       } catch (finalizeError) {
-        if (cancelled) return
+        if (cancelled) {
+          return
+        }
         setSaveError(finalizeError instanceof Error ? finalizeError.message : String(finalizeError))
-        setStep('error')
+        setStep(SessionStep.Error)
         setSaving(false)
       }
     }
@@ -456,10 +429,20 @@ export function useSession({
   }, [step])
 
   const retryCommit = useCallback(async () => {
-    if (step !== 'error') return
+    if (step !== SessionStep.Error) {
+      return
+    }
     setSaveError(null)
-    setStep('saving')
+    setStep(SessionStep.Saving)
   }, [step])
+
+  const actions: UseSessionActions = {
+    start,
+    skipKnown,
+    completeSection,
+    completeRevision,
+    retryCommit,
+  }
 
   return {
     step,
@@ -470,6 +453,6 @@ export function useSession({
     saveError,
     canSkipKnown,
     hydrating,
-    actions: { start, skipKnown, completeSection, completeRevision, retryCommit },
+    actions,
   }
 }

@@ -16,10 +16,14 @@ const VALID_DRILL_TYPES = ['multipleChoice', 'fillInTheBlank']
 /** Collect every phase folder and its day JSON files. */
 function getCurriculumFiles(): { phase: string; file: string; path: string }[] {
   const results: { phase: string; file: string; path: string }[] = []
-  if (!existsSync(CURRICULUM_DIR)) return results
+  if (!existsSync(CURRICULUM_DIR)) {
+    return results
+  }
 
   for (const phaseDir of readdirSync(CURRICULUM_DIR, { withFileTypes: true })) {
-    if (!phaseDir.isDirectory() || !/^phase\d+$/.test(phaseDir.name)) continue
+    if (!phaseDir.isDirectory() || !/^phase\d+$/.test(phaseDir.name)) {
+      continue
+    }
     const phasePath = join(CURRICULUM_DIR, phaseDir.name)
     for (const file of readdirSync(phasePath)) {
       if (/^day\d{3}\.json$/.test(file)) {
@@ -471,8 +475,11 @@ describe('curriculum JSON validation', () => {
     let contentCount = 0
     for (const { path: filePath } of phase1) {
       const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>
-      if (isRevisionStub(data)) revisionCount++
-      else contentCount++
+      if (isRevisionStub(data)) {
+        revisionCount++
+      } else {
+        contentCount++
+      }
     }
     const totalDays = revisionCount + contentCount
     expect(totalDays, 'phase1 (A1) should cover exactly 84 days').toBe(84)
@@ -484,8 +491,12 @@ describe('curriculum JSON validation', () => {
     const titlesByPhase = new Map<string, Map<string, string>>()
     for (const { phase, file, path: filePath } of curriculumFiles) {
       const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>
-      if (isRevisionStub(data)) continue
-      if (!titlesByPhase.has(phase)) titlesByPhase.set(phase, new Map())
+      if (isRevisionStub(data)) {
+        continue
+      }
+      if (!titlesByPhase.has(phase)) {
+        titlesByPhase.set(phase, new Map())
+      }
       const titles = titlesByPhase.get(phase)!
       for (const track of ['standard', 'advanced'] as const) {
         const grammar = (data.grammar as Record<string, Record<string, unknown>>)?.[track]
@@ -505,14 +516,20 @@ describe('curriculum JSON validation', () => {
     const wordsByPhase = new Map<string, Map<string, string>>()
     for (const { phase, file, path: filePath } of curriculumFiles) {
       const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>
-      if (isRevisionStub(data)) continue
-      if (!wordsByPhase.has(phase)) wordsByPhase.set(phase, new Map())
+      if (isRevisionStub(data)) {
+        continue
+      }
+      if (!wordsByPhase.has(phase)) {
+        wordsByPhase.set(phase, new Map())
+      }
       const words = wordsByPhase.get(phase)!
       const vocab = data.vocab as Record<string, Record<string, unknown>[]>
       for (const track of ['standard', 'advanced'] as const) {
         for (const wordObj of vocab[track] ?? []) {
           const key = (wordObj.word as string)?.toLowerCase().trim()
-          if (!key) continue
+          if (!key) {
+            continue
+          }
           const firstSeen = words.get(key)
           if (firstSeen) {
             const firstFile = firstSeen.split(':')[0]
@@ -551,7 +568,9 @@ describe('curriculum JSON validation', () => {
 
     it('multipleChoice questions should have >= 3 options', () => {
       data = JSON.parse(readFileSync(filePath, 'utf-8'))
-      if (isRevisionStub(data)) return
+      if (isRevisionStub(data)) {
+        return
+      }
 
       const quiz = data.quiz as Record<string, unknown[]>
       for (const track of ['standard', 'advanced'] as const) {
@@ -582,7 +601,9 @@ describe('curriculum JSON validation', () => {
 
     it('advanced track should have more or equal content than standard', () => {
       data = JSON.parse(readFileSync(filePath, 'utf-8'))
-      if (isRevisionStub(data)) return
+      if (isRevisionStub(data)) {
+        return
+      }
 
       const vocab = data.vocab as Record<string, unknown[]>
       expect(

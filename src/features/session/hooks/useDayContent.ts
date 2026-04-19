@@ -27,11 +27,15 @@ export function useDayContent(
 
     fetch(url)
       .then((response) => {
-        if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`)
+        if (!response.ok) {
+          throw new Error(`Failed to fetch ${url}: ${response.status}`)
+        }
         return response.json()
       })
       .then((data: DayContent | RevisionDay) => {
-        if (cancelled) return
+        if (cancelled) {
+          return
+        }
         if ('isRevision' in data && data.isRevision) {
           setIsRevisionDay(true)
         } else {
@@ -40,7 +44,9 @@ export function useDayContent(
         setLoading(false)
       })
       .catch((fetchError: Error) => {
-        if (cancelled) return
+        if (cancelled) {
+          return
+        }
         setError(fetchError.message)
         setLoading(false)
       })

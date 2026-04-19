@@ -2,7 +2,10 @@ import { useCallback, useEffect, useState } from 'react'
 import { DB_NOT_CONNECTED_MSG, supabase } from '$lib/supabase'
 import type { SectionType } from '$lib/difficulty'
 import type { Track, UserProfile } from '$features/profile/types'
+import { loadProfile, saveProfile } from '$features/profile/api/profiles'
 import { useAuth } from '$features/auth/hooks/useAuth'
+
+export { loadProfile, saveProfile } from '$features/profile/api/profiles'
 
 export interface CreateDefaultProfileOptions {
   track?: Track
@@ -17,7 +20,7 @@ export function createDefaultProfile(
   const track: Track = options.track ?? 'standard'
   const startingDay = options.startingDay ?? 1
   const isAdvanced = track === 'advanced'
-  const now = new Date().toISOString()
+  const now = new Date(Date.now()).toISOString()
 
   return {
     id: userId,
@@ -54,25 +57,6 @@ export function getEffectiveDifficulty(profile: UserProfile, section: SectionTyp
   const auto = profile[`difficulty_${section}`]
   const override = profile[`difficulty_${section}_override`]
   return override ?? auto
-}
-
-export async function loadProfile(userId: string): Promise<UserProfile | null> {
-  if (!supabase) throw new Error(DB_NOT_CONNECTED_MSG)
-  const { data, error } = await supabase.from('profiles').select('*').eq('id', userId).maybeSingle()
-  if (error) throw new Error(error.message)
-  return (data as UserProfile | null) ?? null
-}
-
-export async function saveProfile(profile: UserProfile): Promise<UserProfile> {
-  if (!supabase) throw new Error(DB_NOT_CONNECTED_MSG)
-  const next = { ...profile, updated_at: new Date().toISOString() }
-  const { data, error } = await supabase
-    .from('profiles')
-    .upsert(next, { onConflict: 'id' })
-    .select()
-    .single()
-  if (error) throw new Error(error.message)
-  return data as UserProfile
 }
 
 export interface UseProfileResult {
@@ -134,7 +118,9 @@ export function useProfile(): UseProfileResult {
 
   const createProfile = useCallback(
     async (displayName: string, options: CreateDefaultProfileOptions = {}) => {
-      if (!user) throw new Error('Cannot create profile: no authenticated user')
+      if (!user) {
+        throw new Error('Cannot create profile: no authenticated user')
+      }
       const draft = createDefaultProfile(user.id, displayName, options)
       await save(draft)
     },
@@ -143,7 +129,9 @@ export function useProfile(): UseProfileResult {
 
   const resetDifficultyOverride = useCallback(
     async (section: SectionType) => {
-      if (!profile) throw new Error('Cannot reset difficulty: no profile loaded')
+      if (!profile) {
+        throw new Error('Cannot reset difficulty: no profile loaded')
+      }
       const next: UserProfile = { ...profile, [`difficulty_${section}_override`]: null }
       await save(next)
     },

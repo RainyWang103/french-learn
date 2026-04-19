@@ -28,8 +28,8 @@ export interface UserProfile {
   hide_pronunciation: boolean
   french_only_mode: boolean
   flagged_words: string[]
-  created_at: string
-  updated_at: string
+  created_at: string // ISO 8601 timestamp, e.g. '2026-04-19T14:23:05.123Z'
+  updated_at: string // ISO 8601 timestamp, e.g. '2026-04-19T14:23:05.123Z'
 }
 
 export interface DifficultyRating {
@@ -61,6 +61,6 @@ export interface SessionLog {
   transcript: unknown | null
   difficulty_ratings: unknown | null
   flagged_words: string[]
-  created_at: string
-  completed_at: string | null
+  created_at: string // ISO 8601 timestamp, e.g. '2026-04-19T14:23:05.123Z'
+  completed_at: string | null // ISO 8601 timestamp; null while session is in progress
 }

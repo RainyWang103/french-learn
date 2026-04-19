@@ -19,7 +19,9 @@ export default function QuizItem({ question, index, onAnswer }: QuizItemProps) {
   const isCorrect = answered === true
 
   function submitAnswer(value: string) {
-    if (answered !== null) return
+    if (answered !== null) {
+      return
+    }
     const correct = checkAnswer(value, question.correctAnswer)
     setSelected(value)
     setAnswered(correct)
@@ -27,7 +29,9 @@ export default function QuizItem({ question, index, onAnswer }: QuizItemProps) {
   }
 
   function handleSubmitFib() {
-    if (!inputValue.trim()) return
+    if (!inputValue.trim()) {
+      return
+    }
     submitAnswer(inputValue)
   }
 

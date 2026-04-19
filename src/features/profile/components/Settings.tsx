@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import clsx from 'clsx'
-import { difficultyLabel, type SectionType } from '$lib/difficulty'
+import { difficultyLabel, SectionType } from '$lib/difficulty'
 import { useProfile } from '$features/profile/hooks/useProfile'
 import { getEffectiveDifficulty } from '$features/profile/hooks/useProfile'
 import type { Track, UserProfile } from '$features/profile/types'
@@ -12,10 +12,10 @@ const PLAYBACK_SPEED_OPTIONS = [0.6, 0.8, 1.0] as const
 const DIFFICULTY_BAND_OPTIONS = [1.0, 2.0, 3.0, 4.0] as const
 
 const DIFFICULTY_SECTIONS: { key: SectionType; label: string }[] = [
-  { key: 'vocab', label: 'Vocabulary' },
-  { key: 'grammar', label: 'Grammar' },
-  { key: 'listening', label: 'Listening' },
-  { key: 'speaking', label: 'Speaking' },
+  { key: SectionType.Vocab, label: 'Vocabulary' },
+  { key: SectionType.Grammar, label: 'Grammar' },
+  { key: SectionType.Listening, label: 'Listening' },
+  { key: SectionType.Speaking, label: 'Speaking' },
 ]
 
 interface SettingsProps {
@@ -34,13 +34,21 @@ export default function Settings({ onClose }: SettingsProps) {
   }, [profile])
 
   const dirty = useMemo(() => {
-    if (!draft || !profile) return false
+    if (!draft || !profile) {
+      return false
+    }
     return JSON.stringify(draft) !== JSON.stringify(profile)
   }, [draft, profile])
 
-  if (loading) return <p className={styles.muted}>Loading…</p>
-  if (error && !profile) return <p className={styles.error}>{error}</p>
-  if (!draft) return null
+  if (loading) {
+    return <p className={styles.muted}>Loading…</p>
+  }
+  if (error && !profile) {
+    return <p className={styles.error}>{error}</p>
+  }
+  if (!draft) {
+    return null
+  }
 
   function patch(update: Partial<UserProfile>) {
     setDraft((current) => (current ? { ...current, ...update } : current))
@@ -56,7 +64,9 @@ export default function Settings({ onClose }: SettingsProps) {
   }
 
   async function handleSave() {
-    if (!draft || !dirty) return
+    if (!draft || !dirty) {
+      return
+    }
     setSaving(true)
     setSaveError(null)
     try {

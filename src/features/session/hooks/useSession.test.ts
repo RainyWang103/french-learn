@@ -20,9 +20,9 @@ vi.mock('$lib/supabase', () => ({
   DB_NOT_CONNECTED_MSG: 'Database not connected yet — progress will not be saved.',
 }))
 
-vi.mock('$features/profile/hooks/useProfile', async () => {
-  const actual = await vi.importActual<typeof import('$features/profile/hooks/useProfile')>(
-    '$features/profile/hooks/useProfile',
+vi.mock('$features/profile/api/profiles', async () => {
+  const actual = await vi.importActual<typeof import('$features/profile/api/profiles')>(
+    '$features/profile/api/profiles',
   )
   return { ...actual, saveProfile: saveProfileMock }
 })
@@ -140,7 +140,9 @@ function makeMockSupabase() {
 
     const builder = {
       select: (_cols?: string) => {
-        if (currentOp === 'select') payload = _cols
+        if (currentOp === 'select') {
+          payload = _cols
+        }
         return builder
       },
       insert: (data: unknown) => {

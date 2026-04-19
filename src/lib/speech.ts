@@ -5,7 +5,9 @@
  */
 
 export function spk(text: string, rate = 0.8): void {
-  if (!window.speechSynthesis) return
+  if (!window.speechSynthesis) {
+    return
+  }
   const utterance = new SpeechSynthesisUtterance(text)
   utterance.lang = 'fr-FR'
   utterance.rate = rate
@@ -14,7 +16,9 @@ export function spk(text: string, rate = 0.8): void {
 }
 
 export function spkV(text: string, voice: 'f' | 'm', rate = 0.8): void {
-  if (!window.speechSynthesis) return
+  if (!window.speechSynthesis) {
+    return
+  }
   const utterance = new SpeechSynthesisUtterance(text)
   utterance.lang = 'fr-FR'
   utterance.rate = rate
@@ -24,7 +28,9 @@ export function spkV(text: string, voice: 'f' | 'm', rate = 0.8): void {
   const genderHints =
     voice === 'f' ? ['female', 'amelie', 'amélie', 'aurélie', 'aurelie'] : ['male', 'thomas']
   const match = frVoices.find((v) => genderHints.some((h) => v.name.toLowerCase().includes(h)))
-  if (match) utterance.voice = match
+  if (match) {
+    utterance.voice = match
+  }
 
   window.speechSynthesis.cancel()
   window.speechSynthesis.speak(utterance)

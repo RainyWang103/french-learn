@@ -24,7 +24,9 @@ export function computeStreak(prev: StreakState, sessionDate: string): StreakSta
     }
   }
   const gap = daysBetween(prev.last_session_date, sessionDate)
-  if (gap <= 0) return prev
+  if (gap <= 0) {
+    return prev
+  }
   if (gap === 1) {
     return {
       streak: prev.streak + 1,

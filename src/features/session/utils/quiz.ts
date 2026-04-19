@@ -47,7 +47,9 @@ export function countCorrect(answers: Record<number, boolean>): number {
 
 /** Returns a percentage 0–100, safe against zero total. */
 export function progressPercent(current: number, total: number): number {
-  if (total <= 0) return 0
+  if (total <= 0) {
+    return 0
+  }
   return (current / total) * 100
 }
 

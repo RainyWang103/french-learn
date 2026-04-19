@@ -25,12 +25,16 @@ export function useAuth() {
   }, [])
 
   async function signInWithGoogle() {
-    if (!supabase) return
+    if (!supabase) {
+      return
+    }
     await supabase.auth.signInWithOAuth({ provider: 'google' })
   }
 
   async function signOut() {
-    if (!supabase) return
+    if (!supabase) {
+      return
+    }
     await supabase.auth.signOut()
   }
 

@@ -40,14 +40,18 @@ export default function ProfileSelect({ children }: ProfileSelectProps) {
     )
   }
 
-  if (profile) return <>{children}</>
+  if (profile) {
+    return <>{children}</>
+  }
 
   const trimmedName = displayName.trim()
   const dayValid = Number.isInteger(startingDay) && startingDay >= 1 && startingDay <= 84
   const canSubmit = trimmedName.length > 0 && dayValid && !submitting
 
   async function handleSubmit() {
-    if (!canSubmit) return
+    if (!canSubmit) {
+      return
+    }
     setSubmitting(true)
     setSubmitError(null)
     try {

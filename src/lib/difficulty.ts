@@ -1,6 +1,13 @@
 import type { Track } from '$types/profile'
 
-export type SectionType = 'vocab' | 'grammar' | 'listening' | 'speaking'
+export const SectionType = {
+  Vocab: 'vocab',
+  Grammar: 'grammar',
+  Listening: 'listening',
+  Speaking: 'speaking',
+} as const
+
+export type SectionType = (typeof SectionType)[keyof typeof SectionType]
 
 export interface VocabScaffolding {
   wordCount: number
@@ -40,26 +47,46 @@ export type ScaffoldingConfig =
  * Returns value clamped to [1.0, 4.0].
  */
 export function updateDifficulty(current: number, score: number, total: number): number {
-  if (total === 0) return current
+  if (total === 0) {
+    return current
+  }
   const ratio = score / total
-  if (ratio === 1.0) return Math.max(1, current - 0.3)
-  if (ratio >= 0.8) return current
-  if (ratio >= 0.6) return Math.min(4, current + 0.2)
+  if (ratio === 1.0) {
+    return Math.max(1, current - 0.3)
+  }
+  if (ratio >= 0.8) {
+    return current
+  }
+  if (ratio >= 0.6) {
+    return Math.min(4, current + 0.2)
+  }
   return Math.min(4, current + 0.5)
 }
 
 /** Human-readable label for a difficulty value. */
 export function difficultyLabel(value: number): string {
-  if (value < 1.5) return 'Too easy'
-  if (value < 2.5) return 'Just right'
-  if (value < 3.5) return 'Slightly too hard'
+  if (value < 1.5) {
+    return 'Too easy'
+  }
+  if (value < 2.5) {
+    return 'Just right'
+  }
+  if (value < 3.5) {
+    return 'Slightly too hard'
+  }
   return 'Too hard'
 }
 
 function band(difficulty: number): 1 | 2 | 3 | 4 {
-  if (difficulty < 1.5) return 1
-  if (difficulty < 2.5) return 2
-  if (difficulty < 3.5) return 3
+  if (difficulty < 1.5) {
+    return 1
+  }
+  if (difficulty < 2.5) {
+    return 2
+  }
+  if (difficulty < 3.5) {
+    return 3
+  }
   return 4
 }
 
@@ -173,13 +200,13 @@ export function getScaffolding(
   track: Track,
 ): ScaffoldingConfig {
   switch (section) {
-    case 'vocab':
+    case SectionType.Vocab:
       return vocabScaffolding(difficulty, track)
-    case 'grammar':
+    case SectionType.Grammar:
       return grammarScaffolding(difficulty)
-    case 'listening':
+    case SectionType.Listening:
       return listeningScaffolding(difficulty)
-    case 'speaking':
+    case SectionType.Speaking:
       return speakingScaffolding(difficulty)
   }
 }
